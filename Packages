@@ -76,6 +76,43 @@ Description: 去除Talkatone广告。
 Author: 佚名
 Name: Talkatone净化-Rootless
 
+Package: com.huami.DYYY
+Version: 1.5
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/dyyy1.5.deb
+Size: 20216
+MD5sum: d63bb5dbbf2e5d2514ff4b638258acc5
+SHA1: fd3d1fbae61551bc1ec27aa732e8d330254e6595
+SHA256: d09d6cb4280865eab93ff542b301d44058b4fec7cabf66e16c3d2ddb57d0986d
+Section: 软件增强
+Priority: optional
+Description: 仅供学习交流，请在24内小时内自觉删除
+Author: huami
+Name: 抖音小助手dyyy-Rootless
+
+Package: com.kingpuffdaddi.control-center.ccvpn.surge
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: https://trollstorex.github.io/repo/
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: com.kingpuffdaddi.control-center.ccvpn
+Replaces: com.kingpuffdaddi.control-center.ccvpn
+Provides: com.kingpuffdaddi.control-center.ccvpn
+Filename: ./debs/CCVPNSurge.1.0.6.deb
+Size: 25572
+MD5sum: c58b135b3be1dd75f21501d07482b89f
+SHA1: f07785b6e899c226c0b9b464b0cd84325abf4447
+SHA256: e29bc142a45ff9784c0e40db26d019a63f5df4495d4cf5c9cd7592afe4c95684
+Section: 控制中心
+Description: CCVPN 控制中心图标修改为 Surge
+Tag: purpose::extension
+Author: KingPuffdaddi
+Dev: kingpuffdaddi
+Icon: https://TrollStoreX.Github.io/sileodepiction/CCVPN/icon.png
+Name: CCVPN Surge-Rootless
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/CCVPN/js.json
+
 Package: com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -127,6 +164,24 @@ Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData-Rootless
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
+
+Package: com.netskao.awemeclearlikes
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/自动清除抖音点赞.deb
+Size: 19892
+MD5sum: 79acd0e44efb226d0def4c41156c53a1
+SHA1: 2f496724f61acd3975977d778a6a4d337212a0e3
+SHA256: 8b7542f597beb979a6abb5ee1500d3ae69225af95e58d3fcd7316dc71427594e
+Section: Netskao-Tweaks
+Description: 自动清除抖音喜欢点赞过的视频
+Author: Netskao
+Name: AwemeClearLikes-Rootless
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemeclearlikes.json
+使用: 抖音-我-喜欢界面-摇晃手机
 
 Package: com.p2kdev.safarifind
 Version: 1.1.2
@@ -186,6 +241,22 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX-Rootless
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: netskao.ccsim-rootless
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 188
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/CCSIM-Rootless.1.1-9.deb
+Size: 23448
+MD5sum: 2fc879f7ba40d0cb036ae89256ca9ebc
+SHA1: a6bbb2679e760bfd6fea68dfb6f9e8e202e8c280
+SHA256: 4899269a40b7953eaf508b3e73a1eafcd10aa190697eb0738d7fa5ffe44e645a
+Section: Netskao-Tweaks
+Description: 对于双SIM卡，您可以通过控制中心快速启用或禁用其中一张SIM卡
+Author: 控制中心
+Name: CCSIM-Rootless
 
 Package: netskao.deletephotoscompletely-rootless
 Version: 1.2-2
