@@ -3,15 +3,14 @@ Version: 1.0.1K
 Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Depends: mobilesubstrate
-Filename: ./百度网盘缓存文件导出-Rootless.1.0.1K.deb
-Size: 142016
-MD5sum: 574b2f1d29309856d2aac61a012ea474
-SHA1: e47d6bbf4216d4568fd92802f43a59fa701a02b3
-SHA256: 4041aa0ee3b93a9dda2b220e6dc4186cc8d3b2499d07bc14fea24d1ff4885b76
+Filename: ./byg.iosios.net.baidunetdiskoutput-rootless_1.0.1K_iphoneos-arm64.deb
+Size: 142088
+MD5sum: e7cc73d3ff89bffc92576bcadfd5a705
+SHA1: 98ac965f0838b75086a8a674321f36723bdcb979
+SHA256: 64d04851c9c16c6ce899d0f6277d5016f3f966afedc37a9f583f4344ee945ea1
 Section: 软件破解
 Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
 Author: lly
-Icon: https://chinesebuilding.club/pic/cydia.png
 Name: 百度网盘缓存文件导出-Rootless
 Sponsor: 搬运工
 
