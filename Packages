@@ -12,6 +12,21 @@ Description: 缓存文件添加导出按钮，免去每次进入路径寻找文�
 Author: lly
 Name: 百度网盘缓存文件导出-Rootless
 
+Package: com.BeanbunsHelpers.DB
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Beanbuns
+Depends: mobilesubstrate
+Filename: ./debs/豆包助手.deb
+Size: 465272
+MD5sum: f399a9f69b8be4b0536ba1e661e88648
+SHA1: 5c452acfebd3ef06e913fef396d7d941bb919176
+SHA256: cd3012b63a07b8676567cfe4b2a6371c4a1d8ce7863ef66b4ac7d876c568a057
+Section: 软件增强
+Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自己的小抖音添加一些小功能
+Author: Beanbuns
+Name: 豆包助手-Rootless
+
 Package: com.dao.kanoads
 Version: 0.1
 Architecture: iphoneos-arm64
