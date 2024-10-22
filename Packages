@@ -19,7 +19,7 @@ Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
 Package: com.netskao.appdata
 Version: 1.4.3
 Architecture: iphoneos-arm64
-Maintainer: Nets
+Maintainer: 狗哥
 Installed-Size: 12532
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Filename: ./AppData.1.4.3.deb
@@ -28,7 +28,7 @@ MD5sum: 91aaf7b9fde418894ba115fbe9c48e27
 SHA1: 74a8b439a6eedef3827abebb6dd7ed4291e95fc5
 SHA256: 718bb056cec5464e70a9d569aef90b97a25daaf1476d49ef7ddd4953672199f0
 Section: Netskao-Tweaks
-Description: View & Manage Applications Data from your Home Screen
+Description: 快速查看和管理应用程序详细数据的插件
 Author: Fouad Raheb
 Name: AppData
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
