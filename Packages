@@ -61,6 +61,24 @@ Description: 去除Talkatone广告。
 Author: 佚名
 Name: Talkatone净化-Rootless
 
+Package: com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.chr1s.newtab
+Filename: ./debs/ControlTab-控制Safari标签页.1.0.deb
+Size: 6304
+MD5sum: f1872d1d92c680381b6e81ea5af35ce0
+SHA1: 2cfcc4b28b9e1e443e50da17424205fd28d52562
+SHA256: fa874f7f0e7fcd9cf33d0556a7f1a30fa94ac4c7b493f473c38010f26eec8e89
+Section: 系统增强
+Description: Safari工具栏添加按钮点击关闭标签页,长按新建标签页并弹出键盘
+Author: SquidForce
+Name: ControlTab - 控制Safari标签页-Rootless
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
 Package: com.liuf.jpyj
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -84,15 +102,15 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 12532
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/AppData.1.4.3.deb
-Size: 4626820
-MD5sum: 91aaf7b9fde418894ba115fbe9c48e27
-SHA1: 74a8b439a6eedef3827abebb6dd7ed4291e95fc5
-SHA256: 718bb056cec5464e70a9d569aef90b97a25daaf1476d49ef7ddd4953672199f0
+Filename: ./debs/appdata.deb
+Size: 4626376
+MD5sum: 10ee2406385a2753ebc1954549527bfd
+SHA1: a35f074508da47b9f07f5c78a59436eaaff6e167
+SHA256: 4aa07806857d4e01e23fe0bfb9916a7d822a4b97cdcbd0d8caedee53e4a992b9
 Section: Netskao-Tweaks
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
-Name: AppData
+Name: AppData-Rootless
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
 Package: com.swing.bilibili
