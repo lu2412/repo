@@ -153,6 +153,25 @@ Dev: swing
 Name: 哔哩哔哩净化-Rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.udevs.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 2068
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/dockx.deb
+Size: 421916
+MD5sum: 160a4d7c489366808eac9c76e210567b
+SHA1: 6f048fb32a8118a920b2ebadaa4d0f2ccf53be3a
+SHA256: 39fe6980763ae68a61df54926997dc7fd52f6ed11238dcbc996d343c844908f6
+Section: 系统增强
+Description: Pasteboard shortcuts on your keyboard dock!
+Author: udevs
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX-Rootless
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
 Package: netskao.deletephotoscompletely-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64
