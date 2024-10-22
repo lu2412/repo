@@ -113,6 +113,25 @@ Author: Fouad Raheb
 Name: AppData-Rootless
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
+Package: com.p2kdev.safarifind
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: ./debs/com.p2kdev.safarifind_1.1.2_iphoneos-arm64.deb
+Size: 8160
+MD5sum: 3e27f9f4a673bf41148172319310ec37
+SHA1: 570af5548dc5d5e2bd7ecc008fa4bdf1300861e9
+SHA256: b4d5077bcbe902df22b65d9dc1ead04d36ec10540a05d4b7130c91923bf8a1fe
+Section: 系统增强
+Description: Safari中长按共享按钮弹出搜索框
+Author: P2KDev <p2kdev@gmail.com>
+Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2kdev.safarifind
+Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safarifind/icon.png
+Name: SafariFind长按分享查找-Rootless
+Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safarifind.json
+
 Package: com.swing.bilibili
 Version: 1.1.0
 Architecture: iphoneos-arm64
