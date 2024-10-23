@@ -1,81 +1,91 @@
 {
-    "minVersion": "0.4",
-    "headerImage": "https://comment.sinaimg.cn/96/56/7cdd187bcda4d1e99b1211f2a69e605ee241.jpg",
     "class": "DepictionTabView",
-    "tintColor": "#47afd1",
+    "headerImage": "https://trollstorex.github.io/sileodepiction/repo/banner.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "Details",
+            "tabname": "描述",
             "views": [
                 {
+                    "text": "向开发者捐赠",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "markdown": "## Misaka助手\n- 免除授权机制\n- 免除关注公众号",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSpacerView",
-                    "spacing": 12
-                },
-                {
-                    "class": "DepictionButtonView",
-                    "text": "Support the developer",
-                    "action": "https://yourpaymentlink.com"
+                    "spacing": 8
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Description"
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Misaka助手 - 免除授权机制，免除关注公众号，享受更自由的体验。",
-                    "useSpacing": true
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 0,
+                    "itemSize": "{240, 520}",
+                    "screenshots": []
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Info"
+                    "title": "详情",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Version",
-                    "text": "1.0"
+                    "text": "1.0",
+                    "title": "插件版本"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "title": "Developer",
-                    "text": "Your Name"
+                    "text": "iOS 15 - iOS 17.0",
+                    "title": "支持系统"
                 },
                 {
-                    "class": "DepictionTableButtonView",
-                    "title": "Contact Developer",
-                    "action": "https://twitter.com/yourtwitter"
-                },
-                {
-                    "class": "DepictionTableButtonView",
-                    "title": "Telegram Group",
-                    "action": "https://t.me/yourtelegramgroup"
+                    "class": "DepictionTableTextView",
+                    "text": "2024 年 8 月 30 日",
+                    "title": "最后更新"
                 }
             ]
         },
         {
             "class": "DepictionStackView",
-            "tabname": "Changes",
+            "tabname": "更新",
             "views": [
                 {
-                    "class": "DepictionLayerView",
-                    "views": [
-                        {
-                            "class": "DepictionSubheaderView",
-                            "title": "1.0",
-                            "useBoldText": true,
-                            "alignment": 0
-                        },
-                        {
-                            "class": "DepictionSubheaderView",
-                            "title": "2024-10-23",
-                            "alignment": 2
-                        }
-                    ]
-                },
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "* 免除授权机制\n* 免除关注公众号",
-                    "useSpacing": true
+                    "markdown": "### 1.0\n- 免除授权机制\n- 免除关注公众号"
                 }
             ]
         }
