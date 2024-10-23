@@ -18,32 +18,12 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "## Misaka助手\n- 免除授权机制\n- 免除关注公众号",
+                    "markdown": "## 微信多功能插件\n- END最终版本\n- 作者已停止维护。",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
                 {
                     "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "预览",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 0,
-                    "itemSize": "{240, 520}",
-                    "screenshots": []
                 },
                 {
                     "class": "DepictionSpacerView",
