@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0",
+                    "text": "2.1-0",
                     "title": "插件版本"
                 },
                 {
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.0\n- 免除授权机制\n- 免除关注公众号"
+                    "markdown": "### 2.1-0\n- 免除授权机制\n- 免除关注公众号"
                 }
             ]
         }
