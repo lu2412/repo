@@ -29,6 +29,22 @@ Author: shepgoba
 Name: SettingsWidgets小组件-Rootless
 Sponsor: liym
 
+Package: cn.llld.swipeextenderx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/SwipeExtenderX汉化-rootless.0.0.2.deb
+Size: 10404
+MD5sum: bce0b6381a669951320406e196986584
+SHA1: 4f4936623b9fb2431bb610ed636bca784c1455d9
+SHA256: b2bfc2a1e6cfd7607a908955a1c5d0c5076be705930cf1a11c891501063719fa
+Section: 系统增强
+Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文包，更新：防止与任何汉化冲突，现在任意装
+Author: 来了老弟
+Name: SwipeExtenderX汉化-rootless
+
 Package: com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -255,6 +271,23 @@ Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2k
 Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safarifind/icon.png
 Name: SafariFind长按分享查找-Rootless
 Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safarifind.json
+
+Package: com.qiop1379.swipeextenderx
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
+Installed-Size: 656
+Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debs/SwipeExtenderX.deb
+Size: 85952
+MD5sum: 76a50fe82f0ba8a1b450f408f62470b2
+SHA1: 2fd4e4ca7f2a1a337197343dd4693f9ef12ee494
+SHA256: 3f38e63cd84eac228759801498f1bd10e54b3c41f409ebbd76e5c67d48f803d8
+Section: 系统增强
+Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
+Author: qwertyuiop1379 <support@qwertyuiop1379.com>
+Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
+Name: SwipeExtenderX-Rootless
 
 Package: com.swing.bilibili
 Version: 1.1.0
