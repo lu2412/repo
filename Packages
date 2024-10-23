@@ -78,6 +78,22 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 
+Package: com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/老猫助手.deb
+Size: 10164488
+MD5sum: 63d071ad235908af3f2c67ef3a09cf33
+SHA1: a432f4262fe3f97388239a190876a01753cc40e8
+SHA256: 663ad872499b8f03205dfe285bba9636dc0829d19ea417eded7873939845ac8c
+Section: 微信插件
+Priority: optional
+Description: 微信助手
+Author: Mao
+Name: 微信助手
+
 Package: com.82flex.ohmyinsets
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -123,6 +139,21 @@ Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手(微信插件)-Rootless
+
+Package: com.appku.wechat
+Version: 1.6-3
+Architecture: iphoneos-arm64
+Maintainer: appku
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/爱锋助手1.6.3_无根.deb
+Size: 1673524
+MD5sum: de0e1ea60e45fff6e7485e239fd3dc12
+SHA1: be82c7fd40a8845d11e68e6b60b4e0ce5366aaa1
+SHA256: de5c728b5c27a86d80b6070f0419c9bd2a13f9b4aa18d35dd11c84ec591b5a74
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分bug。
+Author: appku
+Name: 爱锋助手
 
 Package: com.dao.kanoads
 Version: 0.1
@@ -172,6 +203,22 @@ Section: 软件增强
 Description: 去除Talkatone广告。
 Author: 佚名
 Name: Talkatone净化-Rootless
+
+Package: com.dvntm.oledkeyboard
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/纯黑键盘.deb
+Size: 4764
+MD5sum: 0e84df1ab9b54bfa62bb619c8dc8f1de
+SHA1: 617d1968a792b48f4d10442762c8b4f65b0dfa24
+SHA256: f371fc7322743c23c7e8da884d374edea2da33fb94dee6b27fc2d781e2cae0da
+Section: 系统增强
+Description: 适用于iOS系统键盘的OLED黑暗模式，由灰色变纯黑。
+Author: dvntm
+Name: OledKeyboard纯黑键盘-Rootless
 
 Package: com.huami.DYYY
 Version: 1.5
@@ -382,6 +429,21 @@ Depiction: https://p2kdev.github.io/repo/depictions/index.html?packageId=com.p2k
 Icon: https://p2kdev.github.io/repo/api/packageinfo/com.p2kdev.safarifind/icon.png
 Name: SafariFind长按分享查找-Rootless
 Sileodepiction: https://p2kdev.github.io/repo/depictions/native/com.p2kdev.safarifind.json
+
+Package: com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/虚拟视频.deb
+Size: 1666200
+MD5sum: 0c740c4745a7d927f75e465bce7410c6
+SHA1: 54d23f3e7f0f7eb5c965a4044f71367a891cc9cb
+SHA256: adc3566699c62270d0b480ee90fde27943a49359acb32a43c430a5080d9b1ff0
+Section: 微信插件
+Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
+Author: 平凡
+Name: 虚拟视频-Rootless
 
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1
