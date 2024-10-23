@@ -1,0 +1,83 @@
+{
+    "minVersion": "0.4",
+    "headerImage": "https://comment.sinaimg.cn/96/56/7cdd187bcda4d1e99b1211f2a69e605ee241.jpg",
+    "class": "DepictionTabView",
+    "tintColor": "#47afd1",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionButtonView",
+                    "text": "Support the developer",
+                    "action": "https://yourpaymentlink.com"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Misaka助手 - 免除授权机制，免除关注公众号，享受更自由的体验。",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Info"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Version",
+                    "text": "1.0"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "Your Name"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Contact Developer",
+                    "action": "https://twitter.com/yourtwitter"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Telegram Group",
+                    "action": "https://t.me/yourtelegramgroup"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changes",
+            "views": [
+                {
+                    "class": "DepictionLayerView",
+                    "views": [
+                        {
+                            "class": "DepictionSubheaderView",
+                            "title": "1.0",
+                            "useBoldText": true,
+                            "alignment": 0
+                        },
+                        {
+                            "class": "DepictionSubheaderView",
+                            "title": "2024-10-23",
+                            "alignment": 2
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "* 免除授权机制\n* 免除关注公众号",
+                    "useSpacing": true
+                }
+            ]
+        }
+    ]
+}
