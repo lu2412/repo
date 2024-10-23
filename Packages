@@ -17,14 +17,15 @@ Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: Beanbuns
 Depends: mobilesubstrate
-Filename: ./debs/豆包助手.deb
-Size: 465272
-MD5sum: f399a9f69b8be4b0536ba1e661e88648
-SHA1: 5c452acfebd3ef06e913fef396d7d941bb919176
-SHA256: cd3012b63a07b8676567cfe4b2a6371c4a1d8ce7863ef66b4ac7d876c568a057
-Section: 软件增强
+Filename: ./debs/豆包.deb
+Size: 465676
+MD5sum: 9dbb9243a1338a380431591d7af9cd18
+SHA1: 35b53612f2d01b335a826a9eaf8b3d6273a85369
+SHA256: 884499c1b49c09275e44075a214199fab3c8a5b5f1ff95b7bc7adc1fd3f9cdfb
+Section: 抖音插件
 Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自己的小抖音添加一些小功能
 Author: Beanbuns
+Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 豆包助手-Rootless
 
 Package: com.dao.kanoads
@@ -80,16 +81,18 @@ Package: com.huami.DYYY
 Version: 1.5
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/dyyy1.5.deb
-Size: 20216
-MD5sum: d63bb5dbbf2e5d2514ff4b638258acc5
-SHA1: fd3d1fbae61551bc1ec27aa732e8d330254e6595
-SHA256: d09d6cb4280865eab93ff542b301d44058b4fec7cabf66e16c3d2ddb57d0986d
-Section: 软件增强
+Filename: ./debs/DYYY.deb
+Size: 20272
+MD5sum: 0b0a01d0f1fda29e568a5afe89902f22
+SHA1: 88719a39da55a5576d2ce77a602f33715460c031
+SHA256: d1193e227233eb7da23d600711b59f47a7770a6ae2c6c499f9f3e583f126c14d
+Section: 抖音插件
 Priority: optional
 Description: 仅供学习交流，请在24内小时内自觉删除
 Author: huami
+Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 抖音小助手dyyy-Rootless
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DYYY/js.json
 
 Package: com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
@@ -166,22 +169,40 @@ Name: AppData-Rootless
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.appdata.json
 
 Package: com.netskao.awemeclearlikes
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: liym
+Depends: com.opa334.ccsupport
+Conflicts: com.zqbb.qszqb
+Filename: ./debs/CCPay快捷支付-Rootless.0.0.1.deb
+Size: 14920
+MD5sum: 3ed60e898c53b6b440e19908d59f5c76
+SHA1: b508baa3edea78ab64ce42ebb296c7888443e870
+SHA256: 23b3a7f765d8a48cc16a14aafd163cf4aeeb23b3e80465eab1ed52175a7c4493
+Section: 控制中心
+Description: 控制中心添加微信支付宝付款码,安装之后去控制中心添加。
+Author: liym
+Name: CCPay快捷支付-Rootless
+Sponsor: 搬运工
+
+Package: com.netskao.awemeclearlikess
 Version: 1.1-2
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 88
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/自动清除抖音点赞.deb
-Size: 19892
-MD5sum: 79acd0e44efb226d0def4c41156c53a1
-SHA1: 2f496724f61acd3975977d778a6a4d337212a0e3
-SHA256: 8b7542f597beb979a6abb5ee1500d3ae69225af95e58d3fcd7316dc71427594e
-Section: Netskao-Tweaks
-Description: 自动清除抖音喜欢点赞过的视频
+Conflicts: com.netskao.awemeclearlikes
+Filename: ./debs/抖音清除点赞AwemeClearLikes.1.1-2.deb
+Size: 19836
+MD5sum: 5c8f9aaf671920758058d803c63248b4
+SHA1: f30be776cc8a41b8ab551b5aea0f79635dcca1be
+SHA256: ab1f04e9f8416a774b32ede48b3066548f9df9cbde360cd64b551daeb8bc3a2c
+Section: 抖音插件
+Description: 抖音清除点赞
 Author: Netskao
-Name: AwemeClearLikes-Rootless
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.awemeclearlikes.json
-使用: 抖音-我-喜欢界面-摇晃手机
+Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/icon.png
+Name: 抖音清除点赞 AwemeClearLikes
+Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/js.json
 
 Package: com.p2kdev.safarifind
 Version: 1.1.2
@@ -250,10 +271,10 @@ Installed-Size: 188
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Filename: ./debs/CCSIM-Rootless.1.1-9.deb
 Size: 23448
-MD5sum: 2fc879f7ba40d0cb036ae89256ca9ebc
-SHA1: a6bbb2679e760bfd6fea68dfb6f9e8e202e8c280
-SHA256: 4899269a40b7953eaf508b3e73a1eafcd10aa190697eb0738d7fa5ffe44e645a
-Section: Netskao-Tweaks
+MD5sum: f06bf5d5dc372c485285d5690a3ccc15
+SHA1: babdc067963a52b9958c96bf1f832945f91bc73c
+SHA256: 7f3a9242461012d11e9d6bd45d35890eb9427e5bbc87ffaa5cc9157765c653b8
+Section: 控制中心
 Description: 对于双SIM卡，您可以通过控制中心快速启用或禁用其中一张SIM卡
 Author: 控制中心
 Name: CCSIM-Rootless
