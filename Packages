@@ -143,6 +143,22 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 抖音小助手dyyy-Rootless
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DYYY/js.json
 
+Package: com.iosrxwy.netdiskNoAds
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/百度网盘净化.deb
+Size: 223936
+MD5sum: ef087c78ea131aa5afeb163689287f56
+SHA1: 2e82f22d4bc57f86220721389973e3a13d9e9402
+SHA256: 67bf4d79f5507dcbe73b2204b35a56b944297454ee2950a5dc968205b79d15b0
+Section: 软件增强
+Priority: optional
+Description: 百度网盘去广告，兼容 12.15.0 版本。全局去广告，精简个别页面需要删除软件，重新安装
+Author: iosrxwy
+Icon: https://liym5238.github.io/liym/icon/bdwp.png
+Name: 百度网盘NoAds-Rootless
+
 Package: com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -278,13 +294,13 @@ Architecture: iphoneos-arm64
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
 Installed-Size: 656
 Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/SwipeExtenderX.deb
-Size: 85952
-MD5sum: 76a50fe82f0ba8a1b450f408f62470b2
-SHA1: 2fd4e4ca7f2a1a337197343dd4693f9ef12ee494
-SHA256: 3f38e63cd84eac228759801498f1bd10e54b3c41f409ebbd76e5c67d48f803d8
+Filename: ./debs/SwipeExtenderX增强.deb
+Size: 85732
+MD5sum: e7eae9958173820f008dbf504deb9394
+SHA1: 379913bc21b2cb80795610d47455465928183088
+SHA256: b5cd09f0b4dc438bab025e334d4181c6fbce5105f11c396592428b828e478990
 Section: 系统增强
-Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
+Description: iOS原生键盘增强功能！
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
 Name: SwipeExtenderX-Rootless
@@ -344,6 +360,22 @@ Section: 控制中心
 Description: 对于双SIM卡，您可以通过控制中心快速启用或禁用其中一张SIM卡
 Author: 控制中心
 Name: CCSIM-Rootless
+
+Package: netskao.ccswitchdata-rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/CCSwitchData-Rootless.1.1-4.deb
+Size: 20812
+MD5sum: 806a9c9d74b4afa73f0f628f1c6f17ed
+SHA1: ce28e1b98e65f737c7fbc400fdd244e4d73606fc
+SHA256: f93434a73e1c300ac7a8ce98bc1aa115c54ced8dfd6465ad28acde0a05c09963
+Section: 控制中心
+Description: 对于双SIM卡，可以通过控制中心快速切换选定的蜂窝网络
+Author: Netskao
+Name: CCSwitchData-Rootless
 
 Package: netskao.deletephotoscompletely-rootless
 Version: 1.2-2
