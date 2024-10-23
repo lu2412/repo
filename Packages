@@ -180,6 +180,42 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 抖音小助手dyyy-Rootless
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DYYY/js.json
 
+Package: com.huayuarc.pddnoads.rootless
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: cike
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/拼多多NoAds-Rootless.0.0.1-1.deb
+Size: 3584
+MD5sum: 5a96f9d3c46929f17c6114438c9a0f09
+SHA1: 6cc45e4e7b691b69e2ef8e456e7e0910a1ae2775
+SHA256: b88650f17ca217f8f7fcda4ab57f6e673e9f5b7b98bb610c4a8bb2b79481c402
+Section: 软件增强
+Description: 屏蔽启动广告｜屏蔽语音录入｜屏蔽弹窗｜屏蔽首页漂浮｜屏蔽直播弹窗｜屏蔽搜索栏文字｜屏蔽个人中心横幅
+Author: cike
+Icon: https://liym5238.github.io/liym/icon/pdd.png
+Name: 拼多多NoAds-Rootless
+Sponsor: cike
+
+Package: com.huayuarc.tbnoads.rootless
+Version: 1.2-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 256
+Depends: firmware (>= 9.0), mobilesubstrate
+Filename: ./debs/淘宝NoAds-Rootless.1.2-1.deb
+Size: 62244
+MD5sum: 491e22b6cddc5bf9204eabd75b7cd328
+SHA1: 3e1e3301f5f6aa946239280f4fc2e939987c32ad
+SHA256: c06cec5af27444ebb0f21f4bbbb8b74cbda942c0e4930a6dccd5899b467c57b4
+Section: 软件增强
+Description: 淘宝去除启动广告｜去除搜索列表中广告商品｜去除购物车推荐和订单列表中推荐商品｜逛逛原始按钮保存图片/视频去除水印｜增加长按商品视频评论视频保存到相册
+Author: Netskao
+Icon: https://liym5238.github.io/liym/icon/tb.png
+Name: 淘宝 NoAds-Rootless
+Sponsor: Nets
+
 Package: com.iosrxwy.netdiskNoAds
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -380,6 +416,25 @@ Icon: https://liym5238.github.io/liym/icon/bi.png
 Name: 哔哩哔哩净化-Rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.swing.eleme
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 200
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/饿了么去广告.deb
+Size: 11448
+MD5sum: 8cc606e47e823b46549e5a6b8145ee0a
+SHA1: 4219a6dac66511bbe94bd0838e3d6f341208a494
+SHA256: bb8d1aca83469ec9e71322ea60e02a0c499b4b5a74e9e065de444c3135a9be84
+Section: 软件增强
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
+Author: SWING
+Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
+Icon: icon:https://liym5238.github.io/liym/icon/elm.png
+Name: 饿了么去广告-Rootless
+Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
+
 Package: com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -468,6 +523,57 @@ Depiction: https://apt.htv123.com/view/26
 Icon: https://liym5238.github.io/liym/icon/yjsp.png
 Name: 一键锁屏-Rootless
 Sileodepiction: https://apt.htv123.com/sileo/26
+
+Package: iosign.fleamarket.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/咸鱼去广告.deb
+Size: 3060
+MD5sum: 82f959b5e5e92422c3e0918de5676df2
+SHA1: b899ec2a01e656cc35632da3ad977e80f8675935
+SHA256: 1a7c5644cd79ca2631fa930cd304baa45ba47a78497064135889d8e4533ef07f
+Section: 软件增强
+Description: 去除启动广告，屏蔽升级弹窗
+Author: iOSign
+Icon: https://liym5238.github.io/liym/icon/xy.png
+Name: 闲鱼去广告-Rootless
+
+Package: iosign.jd.rootless
+Version: 0.1-6
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/京东NoAd-Rootles.deb
+Size: 3728
+MD5sum: 29f4a7d34a944051e8dfbc5657c9e0c1
+SHA1: dccb40def7ed33cda5529a692990c7c216e09349
+SHA256: c59f3a7f1e5af3807011ddedc151ccbc62764a022438450a99fe704162860a45
+Section: 软件增强
+Description: 去除启动广告、去除个人主页底部推荐、精简搜索栏、屏蔽升级弹窗
+Author: iOSign
+Icon: https://liym5238.github.io/liym/icon/jd.png
+Name: 京东NoAd-Rootles
+
+Package: iosign.taobao.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/淘宝去广告.deb
+Size: 3592
+MD5sum: 96d6f495e80b9422d224ca5fea68afac
+SHA1: 202b1d4913dd6af153ad64e0c40e6c0b847aed0b
+SHA256: 5cd9d488b02b801b5e49cbfbf7adc207f6b9bc3134386541486b21d88e1fb0c6
+Section: 软件增强
+Description: 去除广告，去除消息红点提示，去除个人页面底部淘友圈，精简搜索栏，小视频自动播放
+Author: iOSign
+Icon: https://liym5238.github.io/liym/icon/tb.png
+Name: 淘宝去广告-Rootless
 
 Package: netskao.alipayhooks-rootless
 Version: 1.1-3
