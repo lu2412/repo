@@ -46,6 +46,24 @@ Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文�
 Author: 来了老弟
 Name: SwipeExtenderX汉化-rootless
 
+Package: com.25mao.jdquan.rootless
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/京东优惠卷.deb
+Size: 52744
+MD5sum: d167ccc9423c477a05d37afa3b170fa5
+SHA1: 8a3d3ee6e4a6cb03d6b91804147d4433d90f3e68
+SHA256: b855258f589a891dfd86a7ee954f294c4df9ffff4c8379f3d9b219ab8eb1877e
+Section: 软件增强
+Priority: optional
+Description: 京东优惠券
+Author: Mao
+Icon: https://liym5238.github.io/liym/icon/jd.png
+Name: 京东优惠券-Rootless
+Sponsor: admin@25mao.com
+
 Package: com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -101,13 +119,14 @@ Maintainer: 佚名
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/酷安净化.deb
-Size: 3540
-MD5sum: 73560f333875fea5994382de948aea12
-SHA1: cb6805665f52c75d767bdcc2ce5408434ef68224
-SHA256: 4fe49b2bd18cf2b59ecbb9846bfc0c032a73ec61b1fb1a267e3527ee4f0098e4
+Size: 3580
+MD5sum: 0292d0253b0889aefe88c49c4e663073
+SHA1: 4590fc1ff97d96b15dab605be1d984d60ba8170a
+SHA256: 590e35c83997dab6191373f90e9119528e99a19d807fe77e77c552d7cded5fb4
 Section: 软件增强
 Description: 清爽开屏～
 Author: 佚名
+Icon: https://liym5238.github.io/liym/icon/kuan.png
 Name: 酷安净化-Rootless
 
 Package: com.dao.noline
@@ -130,17 +149,18 @@ Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/line/js.json
 Package: com.dao.ttnoads
 Version: 0.1
 Architecture: iphoneos-arm64
-Maintainer: 佚名
+Maintainer: liym
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/Talkatone广告净化.deb
-Size: 3340
-MD5sum: 6a62476f1a9489be62a1d8af16215d1d
-SHA1: 39417e1b0aae88842bb11a87ad13fd909b873fe5
-SHA256: 1adffd2a9fc0526f053d612f182ab86a60ebfe1fa77cce26a0716cba7f726fc5
+Size: 3380
+MD5sum: 54e1242bfadc2e358a241d2d20e9b33b
+SHA1: 75d1ebd23211ccf2003574cadbf54d0e7c3202c6
+SHA256: 0fa9dd68f0f8a03d3b08243f6ffba51167861009241b263c5983eb5999a3be6b
 Section: 软件增强
 Description: 去除Talkatone广告。
 Author: 佚名
+Icon: https://liym5238.github.io/liym/icon/Talkatone.png
 Name: Talkatone净化-Rootless
 
 Package: com.huami.DYYY
@@ -344,11 +364,11 @@ Architecture: iphoneos-arm64
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 209
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/哔呷哔哩增强.deb
-Size: 15220
-MD5sum: 9bb375de0c689c6ac3b92d6b978675ba
-SHA1: 3b351853938b77d80b1a67bf68b128c30a4132bf
-SHA256: db17758ce98b4baae15b95647c7e331c14119a8fc0ffa0b5e4c38948a4c4f2a8
+Filename: ./debs/哔哩哔哩净化-Rootless.deb
+Size: 15236
+MD5sum: a45d7cf7bca2c86065e0eea443f7a983
+SHA1: e7a557e53596633c488134aa93800a813f6c607a
+SHA256: cda79383f956cea9a1c96407d1b32fab503e5a76e89337fe46cd11b04eb27c89
 Section: 软件增强
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bilibilinoadsDp
 Description: 净化哔哩哔哩和哔哩哔哩国际版的相关页面与广告。无设置项，安装即可生效。
@@ -356,6 +376,7 @@ Tag: purpose::extension
 Author: SWING <swing1993@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bilibilinoadsDp
 Dev: swing
+Icon: https://liym5238.github.io/liym/icon/bi.png
 Name: 哔哩哔哩净化-Rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
@@ -395,17 +416,51 @@ Author: x✨
 Icon: https://liym5238.github.io/liym/icon/gd.png
 Name: 高德图层-Rootless
 
+Package: com.xx.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 2280
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/QQ图层.deb
+Size: 785492
+MD5sum: 8e2b6ef47248644106c27aa882089190
+SHA1: 31607be90c305d3746fd03278ebdd0b952015bf4
+SHA256: 2a820211d8c700b2c344356553524490c25e2285c0635c8a38a22bb5bbee84d9
+Section: 软件增强
+Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
+Author: x✨
+Icon: https://liym5238.github.io/liym/icon/qq.png
+Name: QQ图层-Rootless
+
+Package: com.xx.xhshook
+Version: 1.1.0-3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 3196
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/小红薯图层.deb
+Size: 1112796
+MD5sum: acff09a7f47954a05cfc8e19e69b15c7
+SHA1: 54646972b57c2bf28f0e072042b6c93eab7c91d8
+SHA256: d80ffd34eef153e7405574cf264f233256486f430d24d67a73fe7f9d8b0c1d11
+Section: 软件增强
+Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
+Author: x✨
+Icon: https://liym5238.github.io/liym/icon/xhs.png
+Name: 小红薯图层-Rootless
+
 Package: com.xybp888.lockbutton
 Version: 0.1-2
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/一键锁屏Rootless.0.1-2.deb
-Size: 30720
-MD5sum: 4a3b50a47632ccefbea753e5edf15d8c
-SHA1: 08f23f199aee7e785f99847b998a9eb99af70f75
-SHA256: 74c815b22f17a2e413607e8b41c3cc117ca1e23653f8ecf36fd289314d04b269
-Section: Tweaks
+Filename: ./debs/一键锁屏-Rootless.deb
+Size: 30740
+MD5sum: d415b1f362810223a2b8797ed202ee5d
+SHA1: 65abac7e0d5f5e1d114140f040bedc521d5013e2
+SHA256: 9d8631191b6d06205f1bd4dfbb3a7ec17094418ef70b02071eb180212481d9ad
+Section: 系统增强
 Priority: optional
 Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
 Author: xybp888
