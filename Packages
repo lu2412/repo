@@ -12,6 +12,23 @@ Description: 缓存文件添加导出按钮，免去每次进入路径寻找文�
 Author: lly
 Name: 百度网盘缓存文件导出-Rootless
 
+Package: byg.iosios.net.settingswidgets.rootless
+Version: 1.2.3.1
+Architecture: iphoneos-arm64
+Maintainer: liym
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/SettingsWidgets设置小组件.1.2.3.1.deb
+Size: 73336
+MD5sum: 5e08830654658ed7942237e0e87c24d6
+SHA1: 630abda3fba0622afa4428e1ff29b94533b21a3e
+SHA256: 2ed0f7e09365ae652e11e1c602def84085990ab8ee92b644ed1b813b5f105d72
+Section: 系统增强
+Description: 设置顶部增加小部件！
+Author: shepgoba
+Name: SettingsWidgets小组件-Rootless
+Sponsor: liym
+
 Package: com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
