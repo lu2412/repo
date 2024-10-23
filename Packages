@@ -2,14 +2,15 @@ Package: byg.iosios.net.baidunetdiskoutput-rootless
 Version: 1.0.1K
 Architecture: iphoneos-arm64
 Depends: mobilesubstrate
-Filename: ./debs/百度网盘.deb
-Size: 142004
-MD5sum: 25c993a774c0d0d2b19fb1f3e55ec63a
-SHA1: 0c0e35ae7fe84a60a4d59c7b4519ee39d4ea2236
-SHA256: 00917e1ebb048d845bcbd0d6dc06af40a835ca88de3648445566f94f64429c3a
+Filename: ./debs/baiduwangoan.deb
+Size: 142048
+MD5sum: e0e70bc55445d94d87d2c1c4e7a2d044
+SHA1: 3bf344b5d585237967c176888ff24e4ef5156320
+SHA256: 90063c839846e12219be82237ea21afbe01f19547af3516e2a346c0309d06d9f
 Section: 软件增强
 Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
 Author: lly
+Icon: https://liym5238.github.io/liym/icon/bdwp.png
 Name: 百度网盘缓存文件导出-Rootless
 
 Package: byg.iosios.net.settingswidgets.rootless
@@ -376,6 +377,59 @@ Author: udevs
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX-Rootless
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+
+Package: com.xx.gaodehook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 900
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/高德地图优化.1.0.4.deb
+Size: 357816
+MD5sum: 1db639cc6eca788c689682495f92acd9
+SHA1: e7a684a9b21a5649cce932ea043f62c688ebf28c
+SHA256: 32b6ef9c9b72861d780bbc6353a93f2289f566c4fd9a9c783e4b4262758f42a3
+Section: 软件增强
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
+Author: x✨
+Icon: https://liym5238.github.io/liym/icon/gd.png
+Name: 高德图层-Rootless
+
+Package: com.xybp888.lockbutton
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/一键锁屏Rootless.0.1-2.deb
+Size: 30720
+MD5sum: 4a3b50a47632ccefbea753e5edf15d8c
+SHA1: 08f23f199aee7e785f99847b998a9eb99af70f75
+SHA256: 74c815b22f17a2e413607e8b41c3cc117ca1e23653f8ecf36fd289314d04b269
+Section: Tweaks
+Priority: optional
+Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
+Author: xybp888
+Depiction: https://apt.htv123.com/view/26
+Icon: https://liym5238.github.io/liym/icon/yjsp.png
+Name: 一键锁屏-Rootless
+Sileodepiction: https://apt.htv123.com/sileo/26
+
+Package: netskao.alipayhooks-rootless
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/支付宝净化.deb
+Size: 72552
+MD5sum: c7efee2503dd9791587f68b7a2a0ea98
+SHA1: 8b39835d0bf254ce2ba49ca4a7332f500a88617e
+SHA256: 1d2005b9cb99584841aa4a95cb641b0b02ee9ce014480ff5c403cc14f70ee427
+Section: 软件增强
+Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
+Author: Netskao
+Icon: https://liym5238.github.io/liym/icon/zfb.png
+Name: 支付宝净化-Rootless
 
 Package: netskao.ccsim-rootless
 Version: 1.1-9
