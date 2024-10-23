@@ -105,15 +105,16 @@ Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Filename: ./debs/老猫助手.deb
-Size: 10164488
-MD5sum: 63d071ad235908af3f2c67ef3a09cf33
-SHA1: a432f4262fe3f97388239a190876a01753cc40e8
-SHA256: 663ad872499b8f03205dfe285bba9636dc0829d19ea417eded7873939845ac8c
+Size: 10164740
+MD5sum: ca183c49f51767add9feff5d61a6c4cb
+SHA1: 16b7ac9d0fd743704069255dc5af6207a217bd3f
+SHA256: 777bddb180161f95e5700c0c708de9ed2b48e0ed61287d122ab05df3ae007fdd
 Section: 微信插件
 Priority: optional
-Description: 微信助手
+Description: 微信功能增强
 Author: Mao
-Name: 微信助手
+Name: 微信助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.25mao.miyou.rootless.json
 
 Package: com.82flex.ohmyinsets
 Version: 0.1
