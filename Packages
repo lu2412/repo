@@ -1,3 +1,23 @@
+Package: MisakaHelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Essential: no
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper
+Provides: MisakaHelper
+Filename: ./debs/MisakaHelper_2.1-0_iphoneos-arm64.deb
+Size: 13178036
+MD5sum: fd4044c4c57fe977afbe088dd83b5f05
+SHA1: f9d77417ac36bb4e683b21fbadac5c54708546cc
+SHA256: 5fd9882e61a2f20cf3c6bdeb8e41759d09a7d9e24cfad84ebb535bcd2cfadca7
+Section: 微信插件
+Priority: optional
+Description: MisakaHelper最终END版，不在更新。
+Author: Misaka
+Name: MisakaHelper END版-Rootless
+
 Package: byg.iosios.net.baidunetdiskoutput-rootless
 Version: 1.0.1K
 Architecture: iphoneos-arm64
