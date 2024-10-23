@@ -80,6 +80,22 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 
+Package: com.82flex.ohmyinsets
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/控制中心五列.deb
+Size: 12060
+MD5sum: aead935c12793dcb4e13d595b67cc1cc
+SHA1: cac2d4f8f9a4668789b2c9bd18e876596ac9d3b6
+SHA256: 55b6d89a482030217c1628f772c3ff76c1adf2f671060d1e56913508f3023c17
+Section: 控制中心
+Description: 控制中心模块五列显示
+Author: Lessica <82flex@gmail.com>
+Name: Oh My Insets控制中心五列-Rootless
+
 Package: com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -423,12 +439,12 @@ Maintainer: SWING
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/饿了么去广告.deb
-Size: 11448
-MD5sum: 8cc606e47e823b46549e5a6b8145ee0a
-SHA1: 4219a6dac66511bbe94bd0838e3d6f341208a494
-SHA256: bb8d1aca83469ec9e71322ea60e02a0c499b4b5a74e9e065de444c3135a9be84
+Size: 11396
+MD5sum: bfe21c653a86f8e83b487739c88c9d2f
+SHA1: 11078bb47a02e22e046825fbbafedbb31a37665a
+SHA256: c1ceff2117b40288cd176e6505222cd7cd9494ba20c96af044c5abd8f477ef95
 Section: 软件增强
-Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除! 软件源：https://repo.abox.plus  TG：https://t.me/abox1993
+Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
 Icon: icon:https://liym5238.github.io/liym/icon/elm.png
