@@ -45,6 +45,22 @@ Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文�
 Author: 来了老弟
 Name: SwipeExtenderX汉化-rootless
 
+Package: com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/左滑返回-Rootless.1.0-6.deb
+Size: 44236
+MD5sum: 234ee41786d633bff120b0de2a76b365
+SHA1: 0b6296ad93cd78d78fd4094901cfec90f8651442
+SHA256: e812f13cd73562c650f2c80f66fdd099b9bfc7654c1e160f6a983725652fc92e
+Section: 系统增强
+Priority: optional
+Description: 左滑返回上一页面
+Author: Mao
+Name: 左滑返回-Rootless
+
 Package: com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -268,6 +284,22 @@ Author: Netskao
 Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/icon.png
 Name: 抖音清除点赞 AwemeClearLikes
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/js.json
+
+Package: com.netskao.storeswitchaccounts
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 460
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/快速切换账号.deb
+Size: 102380
+MD5sum: 683481eef804dadc1514ce22c7330cea
+SHA1: 9f150021ea8b46b5d5c6b423a2e230a1cd928970
+SHA256: dbd325f6a5d2abb1042346343a6784441bb4b225a620b371bb7436b099708db0
+Section: 系统增强
+Description: 方便地在登录帐户之间切换，长按桌面AppStore图标进行切换
+Author: Netskao
+Name: StoreSwitchAccounts-Rootless
 
 Package: com.p2kdev.safarifind
 Version: 1.1.2
