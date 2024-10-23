@@ -2,15 +2,14 @@ Package: byg.iosios.net.baidunetdiskoutput-rootless
 Version: 1.0.1K
 Architecture: iphoneos-arm64
 Depends: mobilesubstrate
-Filename: ./debs/baiduwangoan.deb
-Size: 142048
-MD5sum: e0e70bc55445d94d87d2c1c4e7a2d044
-SHA1: 3bf344b5d585237967c176888ff24e4ef5156320
-SHA256: 90063c839846e12219be82237ea21afbe01f19547af3516e2a346c0309d06d9f
+Filename: ./debs/百度网盘导出.deb
+Size: 142008
+MD5sum: 81bb3700d245d30ea9f0988fb4aeeace
+SHA1: dd331feff31017add2b2d30c44614864406bcde9
+SHA256: 9724e0dc6a86746cae81c1db2ccd9e354e852f996f7c670a7fffde7ec1969ace
 Section: 软件增强
 Description: 缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。
 Author: lly
-Icon: https://liym5238.github.io/liym/icon/bdwp.png
 Name: 百度网盘缓存文件导出-Rootless
 
 Package: byg.iosios.net.settingswidgets.rootless
@@ -52,15 +51,14 @@ Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Filename: ./debs/京东优惠卷.deb
-Size: 52744
-MD5sum: d167ccc9423c477a05d37afa3b170fa5
-SHA1: 8a3d3ee6e4a6cb03d6b91804147d4433d90f3e68
-SHA256: b855258f589a891dfd86a7ee954f294c4df9ffff4c8379f3d9b219ab8eb1877e
+Size: 52760
+MD5sum: c89175f2dde97eccc13638558104015d
+SHA1: 0949503b3b8073cdfec0fd64c6858c629af21ebd
+SHA256: 5c307e8e9e9e79279ed58ddf31c9209d18992089a293b9247a7d29300d08caca
 Section: 软件增强
 Priority: optional
 Description: 京东优惠券
 Author: Mao
-Icon: https://liym5238.github.io/liym/icon/jd.png
 Name: 京东优惠券-Rootless
 Sponsor: admin@25mao.com
 
@@ -101,15 +99,14 @@ Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: Beanbuns
 Depends: mobilesubstrate
-Filename: ./debs/豆包.deb
-Size: 465676
-MD5sum: 9dbb9243a1338a380431591d7af9cd18
-SHA1: 35b53612f2d01b335a826a9eaf8b3d6273a85369
-SHA256: 884499c1b49c09275e44075a214199fab3c8a5b5f1ff95b7bc7adc1fd3f9cdfb
+Filename: ./debs/豆包助手(抖音无根)1.0-1.deb
+Size: 465260
+MD5sum: d7f019f7a7aa35b7d9b7e8a7197f73a3
+SHA1: 8ff77234e0d52da55af56ce7bade20ce38b98fc3
+SHA256: 86e5cd605910da8098e71eb29f3bf520ffc939e65b26cf27772f1697af6f8b43
 Section: 抖音插件
 Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自己的小抖音添加一些小功能
 Author: Beanbuns
-Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 豆包助手-Rootless
 
 Package: com.HBWechatHelper.ailun
@@ -118,14 +115,13 @@ Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Filename: ./debs/黄白1.7-7_无根.deb
-Size: 10911616
-MD5sum: 04453a9a6f89af97180357f0a2e51405
-SHA1: 32e28531ca8f87f4e993c453679110ab39097af1
-SHA256: 80fc31d040652198ab2652da2c795243725fa0f3e92d2098714d4fb91838d50f
+Size: 10910108
+MD5sum: e3791aa141f0de63142756f4eeef9593
+SHA1: 4dd9fc05baf3385bf3dc2db7844d1885c395d803
+SHA256: ecdaae355b0609bc33bf42f3530d865cf8ffd3523c6ffd5d4d6dc7959b6b4851
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Author: HuangBai <QQ:1343309363@qq.com>
-Icon: https://liym5238.github.io/liym/icon/weixin.png
 Name: 黄白助手(微信插件)-Rootless
 
 Package: com.dao.kanoads
@@ -135,14 +131,13 @@ Maintainer: 佚名
 Installed-Size: 152
 Depends: mobilesubstrate
 Filename: ./debs/酷安净化.deb
-Size: 3580
-MD5sum: 0292d0253b0889aefe88c49c4e663073
-SHA1: 4590fc1ff97d96b15dab605be1d984d60ba8170a
-SHA256: 590e35c83997dab6191373f90e9119528e99a19d807fe77e77c552d7cded5fb4
+Size: 3536
+MD5sum: b2e1d5cffe244fecd51140ccfc94fa8a
+SHA1: 945d786ac036d6b39d27eacc00055e140a583260
+SHA256: 26461ebfe3cb0dfc024b08bc8a5d18a813aed9855c24acb9274839ce2cfbcce2
 Section: 软件增强
 Description: 清爽开屏～
 Author: 佚名
-Icon: https://liym5238.github.io/liym/icon/kuan.png
 Name: 酷安净化-Rootless
 
 Package: com.dao.noline
@@ -168,31 +163,29 @@ Architecture: iphoneos-arm64
 Maintainer: liym
 Installed-Size: 152
 Depends: mobilesubstrate
-Filename: ./debs/Talkatone广告净化.deb
-Size: 3380
-MD5sum: 54e1242bfadc2e358a241d2d20e9b33b
-SHA1: 75d1ebd23211ccf2003574cadbf54d0e7c3202c6
-SHA256: 0fa9dd68f0f8a03d3b08243f6ffba51167861009241b263c5983eb5999a3be6b
+Filename: ./debs/Talkatone去广告.deb
+Size: 3344
+MD5sum: ed20c66b7f7df8bcef44afc7c79bfd9d
+SHA1: b94851a4cc59fa8173699a24f9589d1375568e3b
+SHA256: 3dbc3763223bdaebfb47c4d43e9ad66b05b42fef5bd7a5bfe922ed4f4e4ea40f
 Section: 软件增强
 Description: 去除Talkatone广告。
 Author: 佚名
-Icon: https://liym5238.github.io/liym/icon/Talkatone.png
 Name: Talkatone净化-Rootless
 
 Package: com.huami.DYYY
 Version: 1.5
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/DYYY.deb
-Size: 20272
-MD5sum: 0b0a01d0f1fda29e568a5afe89902f22
-SHA1: 88719a39da55a5576d2ce77a602f33715460c031
-SHA256: d1193e227233eb7da23d600711b59f47a7770a6ae2c6c499f9f3e583f126c14d
+Filename: ./debs/抖音dyyy.deb
+Size: 20268
+MD5sum: b8035d8fbb362aeee8861c967c778962
+SHA1: ad761dd7e67a8d4a89acf4daba12664bf04ef872
+SHA256: 400b61c2ce68d6a1ca29a5bf520d37f209227f5c84a5ef6858fbb1a6cb527436
 Section: 抖音插件
 Priority: optional
-Description: 仅供学习交流，请在24内小时内自觉删除
+Description: 抖音增强插件,三指单击屏幕打开插件设置
 Author: huami
-Icon: https://TrollStoreX.Github.io/sileodepiction/DYYY/icon.png
 Name: 抖音小助手dyyy-Rootless
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/DYYY/js.json
 
@@ -203,14 +196,13 @@ Maintainer: cike
 Installed-Size: 168
 Depends: mobilesubstrate
 Filename: ./debs/拼多多NoAds-Rootless.0.0.1-1.deb
-Size: 3584
-MD5sum: 5a96f9d3c46929f17c6114438c9a0f09
-SHA1: 6cc45e4e7b691b69e2ef8e456e7e0910a1ae2775
-SHA256: b88650f17ca217f8f7fcda4ab57f6e673e9f5b7b98bb610c4a8bb2b79481c402
+Size: 3540
+MD5sum: bf20baf2af5ba16a2afbced8970ad6e1
+SHA1: 19c20975781427dc54eaca77333d26a0d168a265
+SHA256: aa72c369f9af83d8ecb4e85a281355a2ae535fff57db1839d455870e10ccc064
 Section: 软件增强
 Description: 屏蔽启动广告｜屏蔽语音录入｜屏蔽弹窗｜屏蔽首页漂浮｜屏蔽直播弹窗｜屏蔽搜索栏文字｜屏蔽个人中心横幅
 Author: cike
-Icon: https://liym5238.github.io/liym/icon/pdd.png
 Name: 拼多多NoAds-Rootless
 Sponsor: cike
 
@@ -221,14 +213,13 @@ Maintainer: Nets
 Installed-Size: 256
 Depends: firmware (>= 9.0), mobilesubstrate
 Filename: ./debs/淘宝NoAds-Rootless.1.2-1.deb
-Size: 62244
-MD5sum: 491e22b6cddc5bf9204eabd75b7cd328
-SHA1: 3e1e3301f5f6aa946239280f4fc2e939987c32ad
-SHA256: c06cec5af27444ebb0f21f4bbbb8b74cbda942c0e4930a6dccd5899b467c57b4
+Size: 62256
+MD5sum: 36a34cfce3eb68a6a3da8441dddd4033
+SHA1: bab5d26566dee0ee9f30ffd6f7385683423ee355
+SHA256: f01081d5e1dfbaaa6f6cb9be4efc55e52159a2c251c9e931e4980e939ac5d5a2
 Section: 软件增强
 Description: 淘宝去除启动广告｜去除搜索列表中广告商品｜去除购物车推荐和订单列表中推荐商品｜逛逛原始按钮保存图片/视频去除水印｜增加长按商品视频评论视频保存到相册
 Author: Netskao
-Icon: https://liym5238.github.io/liym/icon/tb.png
 Name: 淘宝 NoAds-Rootless
 Sponsor: Nets
 
@@ -236,16 +227,15 @@ Package: com.iosrxwy.netdiskNoAds
 Version: 0.1-1
 Architecture: iphoneos-arm64
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/百度网盘净化.deb
-Size: 223936
-MD5sum: ef087c78ea131aa5afeb163689287f56
-SHA1: 2e82f22d4bc57f86220721389973e3a13d9e9402
-SHA256: 67bf4d79f5507dcbe73b2204b35a56b944297454ee2950a5dc968205b79d15b0
+Filename: ./debs/百度网盘NoAds-Rootless.deb
+Size: 224136
+MD5sum: 778c0ac13b78e50c88c63ca58bbc8607
+SHA1: a1584cd58171e8f283ecf301fcc102c297fa8088
+SHA256: a1460ab101e07c42f936f0cff9ecd2f72ea00ce1b4b92b94d66e6e4f4162826c
 Section: 软件增强
 Priority: optional
 Description: 百度网盘去广告，兼容 12.15.0 版本。全局去广告，精简个别页面需要删除软件，重新安装
 Author: iosrxwy
-Icon: https://liym5238.github.io/liym/icon/bdwp.png
 Name: 百度网盘NoAds-Rootless
 
 Package: com.kingpuffdaddi.control-center.ccvpn.surge
@@ -311,12 +301,12 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 12532
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Filename: ./debs/appdata.deb
-Size: 4626376
-MD5sum: 10ee2406385a2753ebc1954549527bfd
-SHA1: a35f074508da47b9f07f5c78a59436eaaff6e167
-SHA256: 4aa07806857d4e01e23fe0bfb9916a7d822a4b97cdcbd0d8caedee53e4a992b9
-Section: Netskao-Tweaks
+Filename: ./debs/com.netskao.appdata_1.4.3_iphoneos-arm64.deb
+Size: 4625348
+MD5sum: b313ee0713462425a8c16f90877c9ef7
+SHA1: 283ac8370916e2663d2c484a925905c79aeb597f
+SHA256: 062c869863799a3f25b55da5844700d413432cac305601f7e6c43ce6bf7f8b5a
+Section: 系统增强
 Description: View & Manage Applications Data from your Home Screen
 Author: Fouad Raheb
 Name: AppData-Rootless
@@ -417,10 +407,10 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 209
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/哔哩哔哩净化-Rootless.deb
-Size: 15236
-MD5sum: a45d7cf7bca2c86065e0eea443f7a983
-SHA1: e7a557e53596633c488134aa93800a813f6c607a
-SHA256: cda79383f956cea9a1c96407d1b32fab503e5a76e89337fe46cd11b04eb27c89
+Size: 15228
+MD5sum: bdd0c665af6cf257e856b4a8327418e1
+SHA1: 9157ca9d8907b1e3727ecf155fdd9b265012a524
+SHA256: 94de96829a706db6f02327afeaad1eebb2bd59e2706c6c0ea16acb73087673d4
 Section: 软件增强
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bilibilinoadsDp
 Description: 净化哔哩哔哩和哔哩哔哩国际版的相关页面与广告。无设置项，安装即可生效。
@@ -428,7 +418,6 @@ Tag: purpose::extension
 Author: SWING <swing1993@qq.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bilibilinoadsDp
 Dev: swing
-Icon: https://liym5238.github.io/liym/icon/bi.png
 Name: 哔哩哔哩净化-Rootless
 Sponsor: thebigboss.org <http://thebigboss.org>
 
@@ -439,15 +428,14 @@ Maintainer: SWING
 Installed-Size: 200
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/饿了么去广告.deb
-Size: 11396
-MD5sum: bfe21c653a86f8e83b487739c88c9d2f
-SHA1: 11078bb47a02e22e046825fbbafedbb31a37665a
-SHA256: c1ceff2117b40288cd176e6505222cd7cd9494ba20c96af044c5abd8f477ef95
+Size: 11392
+MD5sum: 4a26c842a997af2f86baa68ff74de602
+SHA1: 7103a866bc87b6d88038af6602ca1c2d531db939
+SHA256: 77b0df4c93ce0aaedb12aff370bfbb714539aa7591a2f8237a8bba948635ebd9
 Section: 软件增强
 Description: 饿了么去广告，新增精简全能超市和购物车推荐。源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SWING
 Depiction: https://repo.abox.plus/depictions/index.html?packageId=com.swing.eleme
-Icon: icon:https://liym5238.github.io/liym/icon/elm.png
 Name: 饿了么去广告-Rootless
 Sileodepiction: https://repo.abox.plus/depictions/native/com.swing.eleme.json
 
@@ -476,15 +464,14 @@ Architecture: iphoneos-arm64
 Maintainer: x✨
 Installed-Size: 900
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/高德地图优化.1.0.4.deb
-Size: 357816
-MD5sum: 1db639cc6eca788c689682495f92acd9
-SHA1: e7a684a9b21a5649cce932ea043f62c688ebf28c
-SHA256: 32b6ef9c9b72861d780bbc6353a93f2289f566c4fd9a9c783e4b4262758f42a3
+Filename: ./debs/高德图层.deb
+Size: 357560
+MD5sum: 8a9f3dd9f9323148355e1e79f2e35f87
+SHA1: 6cb9f720e613e86deb6573a9e1f4fbb85f98bd0b
+SHA256: d053491a3694c447e9fef2180ed0afa084d00a66ddadedaf6c9baa81c226056e
 Section: 软件增强
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
 Author: x✨
-Icon: https://liym5238.github.io/liym/icon/gd.png
 Name: 高德图层-Rootless
 
 Package: com.xx.qqhook
@@ -494,14 +481,13 @@ Maintainer: x✨
 Installed-Size: 2280
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/QQ图层.deb
-Size: 785492
-MD5sum: 8e2b6ef47248644106c27aa882089190
-SHA1: 31607be90c305d3746fd03278ebdd0b952015bf4
-SHA256: 2a820211d8c700b2c344356553524490c25e2285c0635c8a38a22bb5bbee84d9
+Size: 786392
+MD5sum: a02a0cdbd529c898c26b5899db898ab6
+SHA1: e7dfb4edc3c604439e97f913fc9df7c6a9e0bb96
+SHA256: 422202146121147982881f3c3ae97440cf0516d18489151e15fb048364492376
 Section: 软件增强
 Description: QQ设置-辅助功能-右上角开启 支持9.0.20+
 Author: x✨
-Icon: https://liym5238.github.io/liym/icon/qq.png
 Name: QQ图层-Rootless
 
 Package: com.xx.xhshook
@@ -511,14 +497,13 @@ Maintainer: x✨
 Installed-Size: 3196
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/小红薯图层.deb
-Size: 1112796
-MD5sum: acff09a7f47954a05cfc8e19e69b15c7
-SHA1: 54646972b57c2bf28f0e072042b6c93eab7c91d8
-SHA256: d80ffd34eef153e7405574cf264f233256486f430d24d67a73fe7f9d8b0c1d11
+Size: 1112980
+MD5sum: 825010167cd4827ac585d956574755bf
+SHA1: 277a11a91d0a888ed8933884a6917a15f7477db1
+SHA256: 7fb5bc242b7314d3c81b9655e3498dee8672b336753a28e0fbe557dfbe5a8d85
 Section: 软件增强
 Description: 朋友需要才制作了此插件 APP设置界面右上角打开插件界面 或 双指长按设置界面 功能：默认移除一些广告 原生按钮无水印保存图片 视频 live图 评论区图片 长按文案复制
 Author: x✨
-Icon: https://liym5238.github.io/liym/icon/xhs.png
 Name: 小红薯图层-Rootless
 
 Package: com.xybp888.lockbutton
@@ -547,14 +532,13 @@ Maintainer: iOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/咸鱼去广告.deb
-Size: 3060
-MD5sum: 82f959b5e5e92422c3e0918de5676df2
-SHA1: b899ec2a01e656cc35632da3ad977e80f8675935
-SHA256: 1a7c5644cd79ca2631fa930cd304baa45ba47a78497064135889d8e4533ef07f
+Size: 3016
+MD5sum: cf5440c0e64fe10c2f91a3f742ced7a3
+SHA1: 240c7b40e6488bb30f04211fe46d8e762902fa1c
+SHA256: d3dfec0a31f29dbf365a84207eb34fec298a8ade5fc07afd7b8021eb4b6c1bb4
 Section: 软件增强
 Description: 去除启动广告，屏蔽升级弹窗
 Author: iOSign
-Icon: https://liym5238.github.io/liym/icon/xy.png
 Name: 闲鱼去广告-Rootless
 
 Package: iosign.jd.rootless
@@ -564,14 +548,13 @@ Maintainer: iOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/京东NoAd-Rootles.deb
-Size: 3728
-MD5sum: 29f4a7d34a944051e8dfbc5657c9e0c1
-SHA1: dccb40def7ed33cda5529a692990c7c216e09349
-SHA256: c59f3a7f1e5af3807011ddedc151ccbc62764a022438450a99fe704162860a45
+Size: 3688
+MD5sum: c9ffeb13f7a2dbd7964a60975d2fa2a8
+SHA1: 2134299355f0eac65a3052479e540eb481e915ca
+SHA256: 052e7c6380d0fe05424381cacfed1c12de57c8161cfef8027cad1e33c3954902
 Section: 软件增强
 Description: 去除启动广告、去除个人主页底部推荐、精简搜索栏、屏蔽升级弹窗
 Author: iOSign
-Icon: https://liym5238.github.io/liym/icon/jd.png
 Name: 京东NoAd-Rootles
 
 Package: iosign.taobao.rootless
@@ -581,14 +564,13 @@ Maintainer: iOSign
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/淘宝去广告.deb
-Size: 3592
-MD5sum: 96d6f495e80b9422d224ca5fea68afac
-SHA1: 202b1d4913dd6af153ad64e0c40e6c0b847aed0b
-SHA256: 5cd9d488b02b801b5e49cbfbf7adc207f6b9bc3134386541486b21d88e1fb0c6
+Size: 3552
+MD5sum: feffadda3dd6f3c8b6e46ceeebd3ce8f
+SHA1: e6849f4d6eeb4681ef540e08f16709901ed342c9
+SHA256: a16461debf22a951f111b9d5ae8e5f579e33fed997426e6eb17b91d63b752070
 Section: 软件增强
 Description: 去除广告，去除消息红点提示，去除个人页面底部淘友圈，精简搜索栏，小视频自动播放
 Author: iOSign
-Icon: https://liym5238.github.io/liym/icon/tb.png
 Name: 淘宝去广告-Rootless
 
 Package: netskao.alipayhooks-rootless
@@ -598,14 +580,13 @@ Maintainer: Nets
 Installed-Size: 328
 Depends: firmware (>= 15.0), mobilesubstrate
 Filename: ./debs/支付宝净化.deb
-Size: 72552
-MD5sum: c7efee2503dd9791587f68b7a2a0ea98
-SHA1: 8b39835d0bf254ce2ba49ca4a7332f500a88617e
-SHA256: 1d2005b9cb99584841aa4a95cb641b0b02ee9ce014480ff5c403cc14f70ee427
+Size: 72468
+MD5sum: 2aca5cc2aa42e5cf05c01c3f1e7e202d
+SHA1: 27ac805ffe34f536ffb4da61447134eb90e0d4d3
+SHA256: 6c034d4d1ccfd99d93e8b46ef9aab4883ae2061f1865f4a36b7b10eb3da438ed
 Section: 软件增强
 Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
 Author: Netskao
-Icon: https://liym5238.github.io/liym/icon/zfb.png
 Name: 支付宝净化-Rootless
 
 Package: netskao.ccsim-rootless
@@ -647,11 +628,11 @@ Maintainer: Nets
 Installed-Size: 184
 Depends: mobilesubstrate, firmware (>= 15.0)
 Filename: ./debs/相册彻底删除按钮.deb
-Size: 17052
-MD5sum: d7dd58b938bc6a9b678b61bef4c69e99
-SHA1: 3efaf1adf1e94447622ac033ab47cebfb5b33291
-SHA256: 7204f1b59d12784fde2a2fc38e6b8e64c9dea39181e415015ef505fb8597e7be
-Section: Netskao-Tweaks
+Size: 17068
+MD5sum: 2a5edc3da6b39732c4938faf55ba8a1b
+SHA1: 0f4f461ab8815bb74260f95b88067b79531a5cce
+SHA256: 374216aedc975db9259948ced3bc84055be624ef2ef954a92b8cdfd27a042da7
+Section: 系统增强
 Description: 为相册添加彻底删除照片选项
 Author: Netskao
 Name: 相册添加彻底删除按钮-Rootless
