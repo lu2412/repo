@@ -502,10 +502,10 @@ Maintainer: lym
 Installed-Size: 656
 Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Filename: ./debs/com.lym.swipeextenderx_1.6.1_iphoneos-arm64.deb
-Size: 85916
-MD5sum: 9188b5ff3e720592d14db84a8679e9c5
-SHA1: e98a9926da8515aa00b3008bb44b9c6236148324
-SHA256: 4749e0b8eab15309289fd24bcc4ed1ead2bdc81ce9dd709f6a76c6995d761c97
+Size: 86152
+MD5sum: 2d182a47b4c18fc7cc7080e67d1b13af
+SHA1: 624b01d9dd9ba07e2e92bb7506128edda0e2c3e1
+SHA256: 8551284bb922a1eb40fe4709ee0c34e26f8bc193103ebb5a2dc34a1efeb32188
 Section: 系统增强
 Description: ### iOS原生键盘增强功能！
  * 仅仅支持系统原生键盘
