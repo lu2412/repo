@@ -1,0 +1,55 @@
+{"class": "DepictionTabView",
+"headerImage": "https://trollstorex.github.io/sileodepiction/repo/banner.png",
+"tintColor": "#87A2FF",
+"minVersion": "0.3",
+"tabs": [
+{"class": "DepictionStackView",
+"tabname": "描述",
+"views": [
+{"text": "捐赠给开发者",
+"action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
+{"class": "DepictionSeparatorView"
+},
+{"markdown": "## 插件介绍\n-收纳第三方微信插件\n- 部分插件无效请无视\n- 位于微信右下角[我]-[插件]",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{"class": "DepictionSeparatorView"
+},
+{"class": "DepictionSpacerView",
+"spacing": 16
+},
+{"class": "DepictionHeaderView",
+"title": "详细信息",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{"class": "DepictionSpacerView",
+"spacing": 8
+},
+{"class": "DepictionSeparatorView"
+},
+{"class": "DepictionTableTextView",
+"text": "0.1-3",
+"title": "插件版本"
+},
+{"class": "DepictionTableTextView",
+"text": "iOS 15 - iOS 16.5",
+"title": "支持的系统"
+},
+{"class": "DepictionTableTextView",
+"text": "2023 年 04 月 01 日",
+"title": "最后更新时间"
+}]
+},
+{"class": "DepictionStackView",
+"tabname": "更新日志",
+"views": [
+{"class": "DepictionMarkdownView",
+"markdown": "### 版本 0.1-3\n- 适配8.0.39客户端\n- 日常维护更新适配插件管理\n- > 2023-04-01"
+}]
+}]
+}
