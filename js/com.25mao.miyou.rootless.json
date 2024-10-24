@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "## 微信多功能插件\n- 微信助手\n- 微信密友。",
+                    "markdown": "## 微信多功能插件\n- 微信助手\n- 微信密友",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
