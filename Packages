@@ -667,16 +667,16 @@ Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 328
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/支付宝.deb
+Filename: ./debs/netskao.alipayhooks-rootless_1.1-4_iphoneos-arm64.deb
 Size: 72652
-MD5sum: cbb39916da67e520b8863e4f58518ef5
-SHA1: 177a108c46515e40de043747798c6f8a271510bc
-SHA256: bfaaceeeec009559d2f6d6b65ef4a8b12e37ec957c0822b7a3c16bdeb68e82d9
+MD5sum: db03f94ce87fa91ca0db75022896c91b
+SHA1: 95541d6857bd0a4ef2b0f0ce89fcdfd3dbc3d7bf
+SHA256: b8d7258da4331bbfee5bb4e9d6c01af265dec5e823a1bae27472ce295e40c676
 Section: 软件增强
 Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
 Author: Netskao
 Name: 支付宝净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/netskao.alipayhooks-rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/netskao.alipayhooks-rootless.json
 
 Package: netskao.ccsim-rootless
 Version: 1.1-9
