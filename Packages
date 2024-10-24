@@ -639,11 +639,11 @@ Architecture: iphoneos-arm64
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
 Installed-Size: 656
 Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/键盘增强.deb
-Size: 86124
-MD5sum: 576d7da949cf51f3355703ee7e9048c7
-SHA1: 28de5bc6414e04ce2ae0c050689bdc26b4af068b
-SHA256: 603e6e01fbc4477b0cd48ec0762acb690bec2b0bfd292521733592269e0c47a5
+Filename: ./debs/com.qiop1379.swipeextenderx_1.6.1_iphoneos-arm64.deb
+Size: 86336
+MD5sum: 4ce8fe3d08993694bfd6d5b65788a280
+SHA1: 6b5d2f40fe8f16fb4d3e67d72508d845b84d0fed
+SHA256: 28f2e8e1d67afefb3311c42b873d8f2c734d79e5922fba0aee3aa6ea2fbc2849
 Section: 系统增强
 Description: ### iOS原生键盘增强功能！
  * 仅仅支持系统原生键盘
@@ -653,7 +653,7 @@ Description: ### iOS原生键盘增强功能！
  * 多种键盘类型可以自定义
  * 与其他插件兼容，例如 Copylog 等
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
-Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
+Depiction: https://repo.chariz.com/
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.qiop1379.swipeextenderx.json
 
