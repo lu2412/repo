@@ -18,7 +18,7 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "markdown": "## 支付宝功能增强\n- 每天固定十万步\n\n详情：\n- 支付宝去除底部理财选项卡",
+          "markdown": "## 支付宝增强\n- 支付宝去除底部理财选项卡\n- 每天固定十万步",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
@@ -45,7 +45,7 @@
         {
           "class": "DepictionTableTextView",
           "text": "1.1.3",
-          "title": "插件版本"
+          "title": "版本"
         },
         {
           "class": "DepictionTableTextView",
@@ -54,8 +54,8 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2024 年 6 月 12 日",
-          "title": "最后更新"
+          "text": "2024年6月12日",
+          "title": "更新日期"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 1.1.3\n- 适配最新10.6.56\n- [描述更新内容2]\n- > 2024-10-14"
+          "markdown": "### 更新日志\n- 适配商店最新版本\n- 更新日期：2021-6-12"
         }
       ]
     }
