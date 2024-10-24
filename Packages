@@ -662,20 +662,21 @@ Author: iOSign
 Name: 淘宝去广告-Rootless
 
 Package: netskao.alipayhooks-rootless
-Version: 1.1-3
+Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 328
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/支付宝净化.deb
-Size: 72468
-MD5sum: 2aca5cc2aa42e5cf05c01c3f1e7e202d
-SHA1: 27ac805ffe34f536ffb4da61447134eb90e0d4d3
-SHA256: 6c034d4d1ccfd99d93e8b46ef9aab4883ae2061f1865f4a36b7b10eb3da438ed
+Filename: ./debs/支付宝.deb
+Size: 72652
+MD5sum: cbb39916da67e520b8863e4f58518ef5
+SHA1: 177a108c46515e40de043747798c6f8a271510bc
+SHA256: bfaaceeeec009559d2f6d6b65ef4a8b12e37ec957c0822b7a3c16bdeb68e82d9
 Section: 软件增强
 Description: 支付宝去除底部理财选项(理财是不可能理财的, 只有收收钱勉强维持生活), 固定每天10w步
 Author: Netskao
 Name: 支付宝净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/netskao.alipayhooks-rootless
 
 Package: netskao.ccsim-rootless
 Version: 1.1-9
