@@ -65,15 +65,15 @@
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 2.2-1\n- 双击进入插件设置增加开关\n- 修复修改转账金额修改失效\n- 修复部分朋友圈转发不了问题\n- 修复部分设备兼容闪退的问题\n\n- > 2024-10-23"
+          "markdown": "### 2.2-1\n- 双击进入插件设置增加开关\n- 修复修改转账金额修改失效\n- 修复部分朋友圈转发不了问题\n- 修复部分设备兼容闪退的问题\n\n> 2024-10-23"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 2.2.0\n- 适配最新版本微信\n- 日常更新与维护\n\n> 2024-8-9"
         }
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "### 2.2.0\n- 适配最新版本微信\n- 日常更新与维护n\n- > 2024-8-9",
-                },
       ]
     }
   ]
