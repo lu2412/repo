@@ -476,13 +476,13 @@ Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
 Package: com.lym.WXHelper
 Version: 0.1
 Architecture: iphoneos-arm64
-Maintainer: Lin
+Maintainer: lym
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/wxh助手.deb
-Size: 9265008
-MD5sum: e75fedf8c77998b459e060f0961c0594
-SHA1: a203728c26544f25eabf0669259174b7d52da737
-SHA256: bce87b0567a3b98300dc489082ad960af4a4524c194c9347dcbfaa7381bcd5c3
+Filename: ./debs/com.lym.WXHelper_0.1_iphoneos-arm64.deb
+Size: 9257300
+MD5sum: f4bfc616177e8c430e3abd3761ca35fa
+SHA1: 770a3b66f2af31173f3f1cb9c5510ebb24f85e2b
+SHA256: ac1bb9a1f7c3e40b6039f91a8204ceabd293811d2aa990147b81d9e2b0d21622
 Section: 微信插件
 Priority: optional
 Description: ### 插件详情
@@ -490,10 +490,10 @@ Description: ### 插件详情
  * GPTAI文字转语音
  * 语音进度拖动
  * 骰子作弊等功能
-Author: Lin
+Author: lym
 Depiction: 微信插件
 Name: WXHelper助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.nil.WXHelper.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.WXHelper.json
 
 Package: com.netskao.appdata
 Version: 1.4.3
