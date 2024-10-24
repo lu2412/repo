@@ -11,14 +11,14 @@
         {
           "text": "捐赠给开发者",
           "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
-          "openExternal": true,
+          "openExternal": 1,
           "class": "DepictionButtonView"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
-          "markdown": "## 插件介绍\n- 添加更多的URL扩展\n- 部分插件无效请无视\n- 发送消息: `weixin:/aiwmao/user=用户/群id&msg=消息内容`，多个用户使用`#`分开\n- 打开聊天框: `weixin:/aiwmao/chat=用户/群id`\n- 打开小程序: `weixin:/aiwmao/weapp=小程序原始id`\n- 打开网页: `weixin:/aiwmao/url=网页链接`",
+          "markdown": "## 插件介绍\n- 还原聊天本质,干净的微信给你\n- 仅支持8.0.29及以上版本,设置位于微信[我]-[插件]",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "0.2-0",
+          "text": "4.2-7 END",
           "title": "插件版本"
         },
         {
@@ -54,7 +54,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2023-10-27",
+          "text": "2024 年 6 月 6 日",
           "title": "最后更新时间"
         }
       ]
@@ -64,7 +64,7 @@
       "tabname": "更新日志",
       "views": [
         {
-          "markdown": "### 版本 0.2-0\n- 适配商店最新版本\n- 日常维护插件更新\n- 更新日期: 2023-10-27",
+          "markdown": "### 版本 4.2-7 END\n- 移除红包相关功能\n- 移除文字转语音\n- 移除时间限制(永久使用)\n- 移除黑名单(曾经被净化拉黑用户)\n- 适配插件管理(收纳功能)\n- 修复自动领取红包闪退\n- 版本号为4.2-7 END-更新时间2024年6月6日",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         }
