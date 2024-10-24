@@ -479,13 +479,14 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/com.lym.WXHelper_0.1_iphoneos-arm64.deb
-Size: 9257300
-MD5sum: f4bfc616177e8c430e3abd3761ca35fa
-SHA1: 770a3b66f2af31173f3f1cb9c5510ebb24f85e2b
-SHA256: ac1bb9a1f7c3e40b6039f91a8204ceabd293811d2aa990147b81d9e2b0d21622
+Size: 9254080
+MD5sum: 2a553b44aa2743eef39674db1064a266
+SHA1: 9488b594104ff6fba9b266df5e3c948f2903d697
+SHA256: 6b3387ff18c3c3153aaa55df01b3fa62b68f8b83b1366e5b0f08b91c9073cf48
 Section: 微信插件
 Priority: optional
-Description: ### 插件详情
+Description:
+ ### 插件详情
  * 文件/视频转语音
  * GPTAI文字转语音
  * 语音进度拖动
