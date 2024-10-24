@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 1.6.3\n- 修复部分功能,\n- 适配最新微信"
+                    "markdown": "### 1.6.3\n- 修复部分功能\n- 适配最新微信"
                 }
             ]
         }
