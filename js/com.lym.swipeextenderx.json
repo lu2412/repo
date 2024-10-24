@@ -9,18 +9,21 @@
       "tabname": "描述",
       "views": [
         {
-          "class": "DepictionButtonView",
           "text": "捐赠给开发者",
           "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
-          "openExternal": true
+          "openExternal": true,
+          "class": "DepictionButtonView"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionMarkdownView",
           "markdown": "## 插件介绍\n- 支持系统原生键盘。通过滑动或长按键盘按键，可执行27种操作之一。\n- 支持多种按键动作：上滑、下滑、左滑、右滑、长按。\n- 支持多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等。\n- 支持自定义多种键盘类型。\n- 兼容其他插件，例如Copylog等。",
-          "useSpacing": true
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionSpacerView",
@@ -51,7 +54,7 @@
         },
         {
           "class": "DepictionTableTextView",
-          "text": "2023年7月25日",
+          "text": "2023年7月2日",
           "title": "最后更新时间"
         }
       ]
@@ -61,8 +64,9 @@
       "tabname": "更新日志",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "### 版本 1.6.1\n- 更新适配Rootless版本\n- 插件最新支持情况，请仔细查看插件页面，以插件页面为准\n- > 2023-7-25"
+          "markdown": "### 版本 1.6.1\n- 更新适配Rootless版本\n- 插件最新支持情况，请仔细查看插件页面，以插件页面为准\n- > 2023-7-25",
+          "useSpacing": true,
+          "class": "DepictionMarkdownView"
         }
       ]
     }
