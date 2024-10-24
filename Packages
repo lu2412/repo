@@ -419,6 +419,23 @@ Icon: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/icon.png
 Name: 抖音清除点赞 AwemeClearLikes
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/AwemeClearLikes/js.json
 
+Package: com.netskao.qqipadmodelogin
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Filename: ./debs/QQhd.deb
+Size: 2392
+MD5sum: 797f1c933d790b4a2992e8cb497f7683
+SHA1: 911b19a31ff90eb8d2d4a27146f7de61e6360126
+SHA256: 061af750309d88f5367ad90cfde57331a39f1f817f31ecab4cd3a145b1b74e54
+Section: 软件增强
+Description: QQ模拟iPad模式登录
+Author: Netskao
+Name: QQiPadModeLogin
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.netskao.qqipadmodelogin.json
+
 Package: com.netskao.storeswitchaccounts
 Version: 1.1-4
 Architecture: iphoneos-arm64
