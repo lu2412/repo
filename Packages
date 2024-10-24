@@ -479,14 +479,13 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Depends: firmware (>= 5.0), mobilesubstrate
 Filename: ./debs/com.lym.WXHelper_0.1_iphoneos-arm64.deb
-Size: 9254080
-MD5sum: 2a553b44aa2743eef39674db1064a266
-SHA1: 9488b594104ff6fba9b266df5e3c948f2903d697
-SHA256: 6b3387ff18c3c3153aaa55df01b3fa62b68f8b83b1366e5b0f08b91c9073cf48
+Size: 9263080
+MD5sum: 65d6513f76ad4972ef7cfeade5b9e680
+SHA1: f071b0ed258ba637ab0890e71b823a602b9b1f5b
+SHA256: 72cb7c7b74546675958ed72c8a111486151cce2bc4c2880fa7e5eb483fccca64
 Section: 微信插件
 Priority: optional
-Description:
- ### 插件详情
+Description: ### 插件详情
  * 文件/视频转语音
  * GPTAI文字转语音
  * 语音进度拖动
@@ -640,16 +639,23 @@ Architecture: iphoneos-arm64
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
 Installed-Size: 656
 Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/SwipeExtenderX增强.deb
-Size: 85732
-MD5sum: e7eae9958173820f008dbf504deb9394
-SHA1: 379913bc21b2cb80795610d47455465928183088
-SHA256: b5cd09f0b4dc438bab025e334d4181c6fbce5105f11c396592428b828e478990
+Filename: ./debs/键盘增强.deb
+Size: 86124
+MD5sum: 576d7da949cf51f3355703ee7e9048c7
+SHA1: 28de5bc6414e04ce2ae0c050689bdc26b4af068b
+SHA256: 603e6e01fbc4477b0cd48ec0762acb690bec2b0bfd292521733592269e0c47a5
 Section: 系统增强
-Description: iOS原生键盘增强功能！
+Description: ### iOS原生键盘增强功能！
+ * 仅仅支持系统原生键盘
+ * 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
+ * 多种按键动作：向上滑动，向下滑动，向左滑动，向右滑动，长按
+ * 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
+ * 多种键盘类型可以自定义
+ * 与其他插件兼容，例如 Copylog 等
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://repo.chariz.com/package/com.qiop1379.swipeextenderx/
-Name: SwipeExtenderX-Rootless
+Name: SwipeExtenderX键盘增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.qiop1379.swipeextenderx.json
 
 Package: com.swing.bilibili
 Version: 1.1.0
