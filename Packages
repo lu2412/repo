@@ -473,6 +473,28 @@ Author: liuf
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/keyboard/js.json
 
+Package: com.lym.WXHelper
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: Lin
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/wxh助手.deb
+Size: 9265008
+MD5sum: e75fedf8c77998b459e060f0961c0594
+SHA1: a203728c26544f25eabf0669259174b7d52da737
+SHA256: bce87b0567a3b98300dc489082ad960af4a4524c194c9347dcbfaa7381bcd5c3
+Section: 微信插件
+Priority: optional
+Description: ### 插件详情
+ * 文件/视频转语音
+ * GPTAI文字转语音
+ * 语音进度拖动
+ * 骰子作弊等功能
+Author: Lin
+Depiction: 微信插件
+Name: WXHelper助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.nil.WXHelper.json
+
 Package: com.netskao.appdata
 Version: 1.4.3
 Architecture: iphoneos-arm64
