@@ -167,15 +167,16 @@ Version: 1.6-3
 Architecture: iphoneos-arm64
 Maintainer: appku
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/爱锋助手1.6.3_无根.deb
-Size: 1673524
-MD5sum: de0e1ea60e45fff6e7485e239fd3dc12
-SHA1: be82c7fd40a8845d11e68e6b60b4e0ce5366aaa1
-SHA256: de5c728b5c27a86d80b6070f0419c9bd2a13f9b4aa18d35dd11c84ec591b5a74
+Filename: ./debs/爱疯助手.deb
+Size: 1674496
+MD5sum: 8f268e0f480f986debcbff0039736ce6
+SHA1: 600b4651908d83ff1ba78a2ef51c2bb9e7cebdfc
+SHA256: ce0d1e2ebe2a448851bb4d26822db57cdf92680185f4dd17a4f54d4006e7f971
 Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏、新增朋友圈转发、修改聊天时间以及修改部分bug。
 Author: appku
-Name: 爱锋助手
+Name: 爱锋助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.appku.wechat.json
 
 Package: com.dao.kanoads
 Version: 0.1
@@ -458,14 +459,15 @@ Architecture: iphoneos-arm64
 Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/虚拟视频.deb
-Size: 1666200
-MD5sum: 0c740c4745a7d927f75e465bce7410c6
-SHA1: 54d23f3e7f0f7eb5c965a4044f71367a891cc9cb
-SHA256: adc3566699c62270d0b480ee90fde27943a49359acb32a43c430a5080d9b1ff0
+Size: 1680016
+MD5sum: 033dd9a041daf3612294eb6b6deeeafd
+SHA1: f01453345c1af60a08afa7ad1bb3d711195a0f6d
+SHA256: 0eaac72c61c4044aebc64cfc8e03bde37d4ad5a0cf547c4df3186d53492204c2
 Section: 微信插件
 Description: 抢红包,推送小助手,伪装计算器,备注用户头像,虚拟视频，全局长按导航栏快捷功能,等;修复转账金额移动复原，添加文字修改,语音包,一键已读,多端登录设备隐藏新增朋友圈转发、修改聊天时间等。
 Author: 平凡
 Name: 虚拟视频-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xnsp.json
 
 Package: com.qiop1379.swipeextenderx
 Version: 1.6.1
