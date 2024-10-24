@@ -498,14 +498,14 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: com.lym.swipeextenderx
 Version: 1.6.1
 Architecture: iphoneos-arm64
-Maintainer: qiop1379
+Maintainer: lym
 Installed-Size: 656
 Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Filename: ./debs/com.lym.swipeextenderx_1.6.1_iphoneos-arm64.deb
-Size: 86016
-MD5sum: 629a62f10b2eb4ccdd82e78f031d86b9
-SHA1: ec75d42c5b57df7a439d872927b58f8d86fa7419
-SHA256: 60c5629456727c9d222cf011e502f9ca7354bf82be18baf2372f9205d20c483b
+Size: 85916
+MD5sum: 9188b5ff3e720592d14db84a8679e9c5
+SHA1: e98a9926da8515aa00b3008bb44b9c6236148324
+SHA256: 4749e0b8eab15309289fd24bcc4ed1ead2bdc81ce9dd709f6a76c6995d761c97
 Section: 系统增强
 Description: ### iOS原生键盘增强功能！
  * 仅仅支持系统原生键盘
@@ -514,7 +514,7 @@ Description: ### iOS原生键盘增强功能！
  * 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
  * 多种键盘类型可以自定义
  * 与其他插件兼容，例如 Copylog 等
-Author: qiop1379
+Author: lym
 Depiction: https://repo.chariz.com/
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.swipeextenderx.json
