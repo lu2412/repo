@@ -831,3 +831,20 @@ Description: 为相册添加彻底删除照片选项
 Author: Netskao
 Name: 相册添加彻底删除按钮-Rootless
 
+Package: netskao.wechatpurification
+Version: 4.2-7-END
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 16676
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: ./debs/微信净化.deb
+Size: 6276860
+MD5sum: 75946febe5f9caa0049286a556a16fa9
+SHA1: d6d13693369299bd42732b00e15c51422bff7014
+SHA256: 6f778d42691173f01e64d9b09832d6554ab183e5957dd7bc1f0986c9923d032d
+Section: 微信插件
+Description: 微信净化，还原聊天本质，干净的微信给你，仅支持8.0.29及以上版本，设置位于微信-设置
+Author: Netskao
+Name: 微信净化END-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/netskao.wechatpurification.json
+
