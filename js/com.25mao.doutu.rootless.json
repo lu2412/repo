@@ -1,0 +1,55 @@
+{"class": "DepictionTabView",
+"headerImage": "https://trollstorex.github.io/sileodepiction/repo/banner.png",
+"tintColor": "#87A2FF",
+"minVersion": "0.3",
+"tabs": [
+{"class": "DepictionStackView",
+"tabname": "描述",
+"views": [
+{"text": "捐赠给开发者",
+"action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+"openExternal": 1,
+"class": "DepictionButtonView"
+},
+{"class": "DepictionSeparatorView"
+},
+{"markdown": "## 插件介绍\n- 微信斗图助手,更新支持rootless",
+"useSpacing": true,
+"class": "DepictionMarkdownView"
+},
+{"class": "DepictionSeparatorView"
+},
+{"class": "DepictionSpacerView",
+"spacing": 16
+},
+{"class": "DepictionHeaderView",
+"title": "详细信息",
+"useBoldText": true,
+"useBottomMargin": false
+},
+{"class": "DepictionSpacerView",
+"spacing": 8
+},
+{"class": "DepictionSeparatorView"
+},
+{"class": "DepictionTableTextView",
+"text": "3.1-5",
+"title": "插件版本"
+},
+{"class": "DepictionTableTextView",
+"text": "iOS 15 - iOS 17.0",
+"title": "支持的系统"
+},
+{"class": "DepictionTableTextView",
+"text": "2023 年 12 月 24 日",
+"title": "最后更新时间"
+}]
+},
+{"class": "DepictionStackView",
+"tabname": "更新日志",
+"views": [
+{"class": "DepictionMarkdownView",
+"markdown": "### 版本 1.1-1\n- 修复搜狗api接口问题\n- 修复8.0.44以下长按图片出现两个转表情\n- > 2023-12-24"
+}]
+}]
+}

@@ -66,6 +66,23 @@ Description: SwipeExtenderX汉化，swipeextenderx汉化--(rootess)简体中文�
 Author: 来了老弟
 Name: SwipeExtenderX汉化-rootless
 
+Package: com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Filename: ./debs/斗图助手.deb
+Size: 1209620
+MD5sum: a4a90f1cc95de0738b65b0568bcba4eb
+SHA1: 2fe1172a43a8a92220dd87bb460b0c81f0f4143c
+SHA256: db3df01aeafe9ceef13e7153170cf2e63bb0b3c3af28fd6ea40a36f0c46393ae
+Section: Tweaks
+Priority: optional
+Description: 斗图助手-Rootless
+Author: Mao
+Name: 斗图助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.25mao.doutu.rootless.json
+
 Package: com.25mao.jdquan.rootless
 Version: 1.0-1
 Architecture: iphoneos-arm64
