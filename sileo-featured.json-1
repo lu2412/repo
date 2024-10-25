@@ -6,11 +6,11 @@
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
       "title": "WeChat",
-      "package": "netskao.wechatpurification",
+      "package": "com.julioverne.spotilife.cw",
       "hideShadow": false,
       "action": {
         "type": "openPackage",
-        "package": "netskao.wechatpurification"
+        "package": "com.julioverne.spotilife.cw"
       }
     },
     {
@@ -21,16 +21,6 @@
       "action": {
         "type": "openUrl",
         "url": "https://jable.tv"
-      }
-    },
-    {
-      "url": "你的图片链接",
-      "title": "你的横幅标题",
-      "package": "你的应用包名",
-      "hideShadow": false,
-      "action": {
-        "type": "openUrl" 或 "openPackage",
-        "url": "你的跳转链接" 或 "package": "你的应用包名"
       }
     }
   ]
