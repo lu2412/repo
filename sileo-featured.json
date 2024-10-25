@@ -7,29 +7,29 @@
       "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
       "title": "WeChat",
       "package": "com.25mao.miyou.rootless",
-      "hideShadow": false,
+      "hideShadow": true,
       "action": {
         "type": "openPackage",
         "package": "com.25mao.miyou.rootless"
       }
     },
     {
-      "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
-      "title": "jable.tv",
-      "hideShadow": false,
-      "onClick": {
-        "type": "openUrl",
-        "url": "https://jable.tv"
-      }
-    },
-    {
       "url": "https://liym5238.github.io/liym/icon/hengfu03.png",
       "title": "支付宝",
       "package": "netskao.alipayhooks-rootless",
-      "hideShadow": false,
+      "hideShadow": true,
       "action": {
         "type": "openPackage",
         "package": "netskao.alipayhooks-rootless"
+      }
+    },
+    {
+      "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
+      "title": "jable.tv",
+      "hideShadow": true,
+      "onClick": {
+        "type": "openUrl",
+        "url": "https://jable.tv"
       }
     }
   ]

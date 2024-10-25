@@ -21,6 +21,16 @@
         "type": "openUrl",
         "url": "https://jable.tv"
       }
+    },
+    {
+      "url": "https://liym5238.github.io/liym/icon/hengfu03.png",
+      "title": "支付宝",
+      "package": "netskao.alipayhooks-rootless",
+      "hideShadow": false,
+      "action": {
+        "type": "openPackage",
+        "package": "netskao.alipayhooks-rootless"
+      }
     }
   ]
 }
