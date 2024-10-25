@@ -16,9 +16,8 @@
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
       "title": "jable.tv",
-      "package": "https://jable.tv",
       "hideShadow": false,
-      "action": {
+      "onClick": {
         "type": "openUrl",
         "url": "https://jable.tv"
       }
