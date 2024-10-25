@@ -1,6 +1,6 @@
 {
   "class": "DepictionTabView",
-  "headerImage": "https://trollstorex.github.io/sileodepiction/repo/banner.png",
+  "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
   "tintColor": "#87A2FF",
   "minVersion": "0.3",
   "tabs": [
@@ -18,7 +18,7 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "markdown": "## 插件介绍\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能",
+          "markdown": "## 插件介绍\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能\n- 插件启用方法:双指长按任意界面",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
