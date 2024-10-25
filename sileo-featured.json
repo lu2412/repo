@@ -4,14 +4,14 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-       "url":"https://cache.cracked.to/e5a8c94d6d095828dc90b3bd5fa6b37e3c25d8c0/68747470733a2f2f692e626c6f67732e65732f3832376333612f73706f746966792d302f3435305f313030302e6a7067",
-       "title":"spotilife",
+       "url":"https://liym5238.github.io/liym/icon/hengfu01.png",
+       "title":" ",
        "package":"com.julioverne.spotilife.cw",
        "hideShadow":false
     },
     {
-       "url":"https://testingsaas.nl/wp-content/uploads/2024/10/wechat.png",
-       "title":"fkwechatzan",
+       "url":"https://liym5238.github.io/liym/icon/横幅02.png",
+       "title":"",
        "package":"com.xia0.fkwechatzan.cw",
        "hideShadow":false
     },
