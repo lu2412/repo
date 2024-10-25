@@ -4,53 +4,50 @@
     <title>李某某 爱吃肉的猫</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/ios7.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="shortcut icon" href="https://liym5238.github.io/liym/icon/hengfu02.png">
-    <script src="./js/jquery.min.js"></script>
     <style>
-        ul { list-style-type: none; }
+        ul { list-style-type: none; padding: 0; }
         a { color: blue; }
-        .footer { text-align: center; margin-top: 20px; }
-        .btn-link { color: #fff; background-color: #00b5e2; padding: 10px 15px; border-radius: 5px; text-decoration: none; display: inline-block; transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .btn-link:hover, .btn-link:active, .btn-link:focus { background-color: #00b5e2; transform: scale(1.05); box-shadow: 0 0 10px rgba(0,181,226,0.5); } /* 点击后不变色，增加缩放和雪花效果 */
-        .run-time { color: #808080; font-size: 0.9em; } /* 调整文字颜色为灰色 */
+        .footer, .container { text-align: center; }
+        .btn-link { color: #fff; background-color: #00b5e2; padding: 10px 15px; border-radius: 5px; text-decoration: none; margin: 5px; transition: transform 0.3s, box-shadow 0.3s; }
+        .btn-link:hover { transform: scale(1.05); box-shadow: 0 0 10px rgba(0,181,226,0.5); }
+        .run-time { color: #808080; font-size: 0.9em; }
         .disclaimer { color: #666; font-size: 0.8em; }
     </style>
 </head>
-<body onload="loadPackageInfo(); loadRecentUpdates();">
+<body>
 <div class="container">
     <h2>李某某的Repo - 个人源</h2>
     
-    <div style="text-align: center; margin-bottom: 20px;">
+    <div style="margin-bottom: 20px;">
+        <a href="sileo://source/https://liym5238.github.io/liym/" class="btn-link">跳转sileo</a>
         <a href="mailto:liym5238@gmail.com" class="btn-link">发送邮件联系我</a>
         <a href="http://wpa.qq.com/msgrd?v=3&uin=347029967&site=qq&menu=yes" target="_blank" class="btn-link">联系QQ</a>
     </div>
     
     <div class="well">
         <h3>系统支持</h3>
-        <p>插件兼容版本: <font color="#ff0000">iOS 15.4.1 - 16.5系统</font></p>
+        <p>插件兼容版本: <span style="color:#ff0000;">iOS 15.4.1 - 16.5系统</span></p>
     </div>
 
     <ul>
-        <li><img height="80%" width="100%" src="https://liym5238.github.io/liym/icon/hengfu02.png" alt="爱吃肉的猫"/></li>
+        <li><a href="https://github.com/liym5238/liym" target="_blank"><img src="https://liym5238.github.io/liym/icon/hengfu02.png" alt="爱吃肉的猫" style="width: 100%; max-width: 500px;"/></a></li>
     </ul>
 
     <h3>源说明</h3>
-    <p>李某某个人软件源，此源永久免费。源里的插件只在iOS 15.4.1 - 16.5系统测试使用。</p>
+    <p>李某某个人软件源，此源永久免费。源里的插件仅在iOS 15.4.1 - 16.5系统上测试使用。</p>
 
     <div class="footer">
         <p class="run-time">本网站已顺利运行 <span id="daysRunning"></span> 天，感谢您的支持与关注。</p>
-        <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
+        <p class="disclaimer">免责声明：本网站信息仅供参考，使用者需自行承担使用风险。</p>
     </div>
 
     <script>
-        // 计算网站从今天开始运行的天数
-        var launchDate = new Date(); // 开始时间设置为当前时间
-        launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
-        var currentDate = new Date();
-        var differenceInTime = currentDate - launchDate;
-        var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+        // 计算网站运行天数
+        var launchDate = new Date();
+        launchDate.setDate(launchDate.getDate() - 1);
+        var differenceInDays = Math.ceil((new Date() - launchDate) / (1000 * 3600 * 24));
         document.getElementById('daysRunning').textContent = differenceInDays;
     </script>
 </div>
