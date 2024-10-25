@@ -20,7 +20,7 @@
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
       "title": "jable.tv",
-      "package": "com.xia0.fkwechatzan.cw",
+      "package": "https://jable.tv",
       "hideShadow": false,
       "action": {
         "type": "openUrl",
