@@ -1,0 +1,67 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://trollstorex.github.io/sileodepiction/repo/banner.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 插件介绍\n- 深色模式下键盘背景显示为纯黑",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "0.0.3",
+          "title": "插件版本"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "iOS 15 - iOS 16.5",
+          "title": "支持的系统"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2024 年 10 月 25 日",
+          "title": "最后更新时间"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 版本 0.0.3\n- 支持自动填充键盘纯黑背景\n- 支持键盘上方的条形纯黑背景\n- > 2024-10-25"
+        }
+      ]
+    }
+  ]
+}
