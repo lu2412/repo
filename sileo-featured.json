@@ -24,11 +24,12 @@
     },
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
-      "title": "捐赠给开发者",
+      "title": "支付宝",
+      "package": "netskao.alipayhooks-rootless",
       "hideShadow": false,
       "action": {
-        "type": "openUrl",
-        "url": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f"
+        "type": "openPackage",
+        "package": "netskao.alipayhooks-rootless"
       }
     }
   ]
