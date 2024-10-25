@@ -853,17 +853,17 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Depends: mobilesubstrate
-Filename: /var/jb/var/mobile/liym/debs/自动滑动.deb
-Size: 5380
-MD5sum: 83dbdc0a459e8adc375a4a5827d4d393
-SHA1: f97870a1cf14fdf25b82044551b2bb2a9a35b5cd
-SHA256: 06bb97d7dcf3dcb369dff5c3457b5cfb050eb2ed9d60baf6b909a44b95b29129
+Filename: /var/jb/var/mobile/liym/debs/自动上下滑动.deb
+Size: 5372
+MD5sum: 0c584fe69aac8087d67257082d8e5197
+SHA1: 1cc40259c9fe6d84210fadbcef0b153c74871861
+SHA256: 9079f40afe26fc676f3d19a8bdea51ee910715a891bf2439f16ce1f29465dbf0
 Section: 系统增强
 Description: 插件功能：页面自动滑动，直到你触摸屏幕停止
 Author: pxcex
 Depiction: https://liym5238.github.io/liym/
 Name: AutoScroll自动滑动-Rootless
-Sileodepiction: SileoDepiction:https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lum.autoscroll15.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lum.autoscroll15.json
 
 Package: netskao.alipayhooks-rootless
 Version: 1.1-4
