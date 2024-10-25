@@ -11,10 +11,6 @@
       "action": {
         "type": "openPackage",
         "package": "com.25mao.miyou.rootless"
-      },
-      "onClick": {
-        "type": "openPackage",
-        "package": "com.julioverne.spotilife.cw"
       }
     },
     {
@@ -23,10 +19,6 @@
       "package": "https://jable.tv",
       "hideShadow": false,
       "action": {
-        "type": "openUrl",
-        "url": "https://jable.tv"
-      },
-      "onClick": {
         "type": "openUrl",
         "url": "https://jable.tv"
       }
