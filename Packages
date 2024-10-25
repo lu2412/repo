@@ -342,14 +342,15 @@ Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/纯黑键盘.deb
-Size: 4764
-MD5sum: 0e84df1ab9b54bfa62bb619c8dc8f1de
-SHA1: 617d1968a792b48f4d10442762c8b4f65b0dfa24
-SHA256: f371fc7322743c23c7e8da884d374edea2da33fb94dee6b27fc2d781e2cae0da
+Size: 4828
+MD5sum: da6e548899ceae3af2a5a4fef8dde33c
+SHA1: d4733e68121bde674760cf194db9a2847d69721f
+SHA256: 7587dde19cde9dbf0655b51e86a658a5610d984d8df9cd4661c6eb8da7d73b04
 Section: 系统增强
 Description: 适用于iOS系统键盘的OLED黑暗模式，由灰色变纯黑。
 Author: dvntm
 Name: OledKeyboard纯黑键盘-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dvntm.oledkeyboard.json
 
 Package: com.huami.DYYY
 Version: 1.5
@@ -720,17 +721,16 @@ Maintainer: udevs
 Installed-Size: 2068
 Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/dockx.deb
-Size: 421916
-MD5sum: 160a4d7c489366808eac9c76e210567b
-SHA1: 6f048fb32a8118a920b2ebadaa4d0f2ccf53be3a
-SHA256: 39fe6980763ae68a61df54926997dc7fd52f6ed11238dcbc996d343c844908f6
+Filename: ./debs/doxkx键盘增强.deb
+Size: 421544
+MD5sum: 827f2851c213fb735b140f460e89cdce
+SHA1: 50a3772fffce10b40ff16aacd459f9e82114f23c
+SHA256: 7d6c6162c902eb37b8b8c48233470189b1ae1ecec766bb087781c50246cde61c
 Section: 系统增强
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
 Name: DockX-Rootless
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.udevs.dockx.json
 
 Package: com.xx.gaodehook
 Version: 1.0.4
