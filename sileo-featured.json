@@ -15,7 +15,7 @@
     },
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu03.png",
-      "title": "",
+      "title": "Alipay",
       "package": "netskao.alipayhooks-rootless",
       "hideShadow": false,
       "action": {
@@ -25,11 +25,12 @@
     },
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
-      "title": "jable.tv",
+      "title": "QQ图层",
+      "package": "com.xx.qqhook",
       "hideShadow": false,
       "onClick": {
         "type": "openUrl",
-        "url": "https://jable.tv"
+        "package": "com.xx.qqhook",
       }
     }
   ]
