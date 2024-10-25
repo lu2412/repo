@@ -4,16 +4,24 @@
   "itemCornerRadius": 10,
   "banners": [
     {
-       "url":"https://liym5238.github.io/liym/icon/hengfu01.png",
-       "title":" ",
-       "package":"com.julioverne.spotilife.cw",
-       "hideShadow":false
+      "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
+      "title": "WeChat",
+      "package": "com.julioverne.spotilife.cw",
+      "hideShadow": false,
+      "action": {
+        "type": "openPackage",
+        "package": "com.julioverne.spotilife.cw"
+      }
     },
     {
-       "url":"https://liym5238.github.io/liym/icon/横幅02.png",
-       "title":"",
-       "package":"com.xia0.fkwechatzan.cw",
-       "hideShadow":false
-    },
+      "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
+      "title": "jable.tv",
+      "package": "com.xia0.fkwechatzan.cw",
+      "hideShadow": false,
+      "action": {
+        "type": "openUrl",
+        "url": "https://jable.tv"
+      }
+    }
   ]
 }
