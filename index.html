@@ -1,75 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
-    <title>添加软件源</title>
+    <title>李某某 爱吃肉的猫</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/ios7.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://liym5238.github.io/liym/xjj.png">
+    <script src="./js/jquery.min.js"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-image: url('https://lixuqiang888.github.io/sileo/wanou.jpg');  /* 背景图片 */
-            background-size: cover; /* 覆盖整个页面 */
-            background-position: center; /* 居中显示 */
-            background-repeat: no-repeat; /* 不重复 */
-            background-attachment: fixed; /* 固定背景 */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            flex-direction: column;
-        }
-        .main-bg {
-            background-color: rgba(255, 255, 255, 0.2); /* 半透明背景 */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            width: 80%;
-            max-width: 400px;
-            margin-top: 65px;  /* 向上移动div */
-            text-align: center; /* 所有文字居中 */
-            margin: auto; /* 自动边距 */
-        }
-        h1 {
-            color: #333;
-            margin-bottom: 20px; /* 标题下边距 */
-        }
-        .legend {
-            color: #666;
-            font-size: 16px;
-            margin-top: 20px;
-            display: block; /* 使legend为块级元素 */
-        }
-        .add-button {
-            display: block; /* 使链接表现为块级元素 */
-            background-color: #5cb85c;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: background-color 0.3s;
-            margin: 20px auto; /* 按钮居中 */
-        }
-        .add-button:hover {
-            background-color: #4cae4c;
-        }
-        .credit-link {
-            color: #5cb85c;
-            text-decoration: none;
-            transition: color 0.3s;
-        }
-        .credit-link:hover {
-            color: #4cae4c;
-        }
+        ul { list-style-type: none; }
+        a { color: blue; }
+        .footer { text-align: center; margin-top: 20px; }
+        .btn-link { color: #fff; background-color: #00b5e2; padding: 10px 15px; border-radius: 5px; text-decoration: none; display: inline-block; transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .btn-link:hover, .btn-link:active, .btn-link:focus { background-color: #00b5e2; transform: scale(1.05); box-shadow: 0 0 10px rgba(0,181,226,0.5); } /* 点击后不变色，增加缩放和雪花效果 */
+        .run-time { color: #808080; font-size: 0.9em; } /* 调整文字颜色为灰色 */
+        .disclaimer { color: #666; font-size: 0.8em; }
     </style>
 </head>
-<body>
-    <div class="main-bg">
-        <h1>猴🐒🐒🐒</h1>
-        <p class="legend">添加软件源到</p>
-        <form action="#" method="post">
-            <a href="sileo://source/https://liym5238.github.io/liym/" class="add-button">Sileo</a> 
-        </form>
+<body onload="loadPackageInfo(); loadRecentUpdates();">
+<div class="container">
+    <h2>李某某的Repo - 个人源</h2>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="sileo://source/https://liym5238.github.io/liym/" class="btn-link">跳转sileo</a>
+        <a href="mailto:liym5238@gmail.com" class="btn-link">发送邮件联系我</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=347029967&site=qq&menu=yes" target="_blank" class="btn-link">联系QQ</a>
+    </div>
+    
+    <div class="well">
+        <h3>系统支持</h3>
+        <p>插件兼容版本: <font color="#ff0000">iOS 15.4.1 - 16.5系统</font></p>
+    </div>
+
+    <ul>
+        <li><a href="https://github.com/liym5238/liym" target="_blank"><img height="80%" width="100%" src="https://liym5238.github.io/liym/icon/hengfu02.png" alt="爱吃肉的猫"/></a></li>
+    </ul>
+
+    <h3>源说明</h3>
+    <p>李某某个人软件源，此源永久免费。源里的插件只在iOS 15.4.1 - 16.5系统测试使用。</p>
+
+    <div class="footer">
+        <p class="run-time">本网站已顺利运行 <span id="daysRunning"></span> 天感谢您的支持与关注。</p>
+        <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
+    </div>
+
+    <script>
+        // 计算网站从今天开始运行的天数
+        var launchDate = new Date(); // 开始时间设置为当前时间
+        launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
+        var currentDate = new Date();
+        var differenceInTime = currentDate - launchDate;
+        var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+        document.getElementById('daysRunning').textContent = differenceInDays;
+    </script>
+</div>
 </body>
 </html>
