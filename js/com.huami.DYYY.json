@@ -18,7 +18,7 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "markdown": "## 插件介绍\n- 发送文字自动转换为表情\n- 需要同时安装微信助手和微信插件管理",
+          "markdown": "## 插件介绍\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能",
           "useSpacing": true,
           "class": "DepictionMarkdownView"
         },
