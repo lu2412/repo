@@ -69,7 +69,7 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新",
+            "tabname": "更新日志",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
