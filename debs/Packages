@@ -496,6 +496,26 @@ Depiction: 微信插件
 Name: WXHelper助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.WXHelper.json
 
+Package: com.lym.checkproxybypass
+Version: 0.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 172
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: /var/jb/var/mobile/liym/debs/禁止代理检测-Rootless.deb
+Size: 4708
+MD5sum: 3092045506c79c7873aec3ae8dc314d1
+SHA1: 6d874350965235886b2cd24ca2bb05083ec90be6
+SHA256: 0f1a168dc0fe88da31878cad1700241ed1bf01715e9450a7763db9f22e85e1ef
+Section: 软件增强
+Description: 插件详情
+ * 屏蔽个别软件检测VPN
+ * 安装之后在设置里面开启
+ * ibox先在巨魔切换成系统模式就能正常显示
+Author: lym
+Name: 禁止代理检测-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.checkproxybypass.json
+
 Package: com.lym.swipeextenderx
 Version: 1.6.1
 Architecture: iphoneos-arm64
