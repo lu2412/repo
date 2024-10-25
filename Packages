@@ -497,16 +497,16 @@ Name: WXHelper助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.WXHelper.json
 
 Package: com.lym.checkproxybypass
-Version: 0.1.1-2
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Installed-Size: 172
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Filename: /var/jb/var/mobile/liym/debs/禁止代理检测-Rootless.deb
-Size: 4708
-MD5sum: 3092045506c79c7873aec3ae8dc314d1
-SHA1: 6d874350965235886b2cd24ca2bb05083ec90be6
-SHA256: 0f1a168dc0fe88da31878cad1700241ed1bf01715e9450a7763db9f22e85e1ef
+Size: 4704
+MD5sum: 85fe2f3a0d8a605f8fb33febef922fc5
+SHA1: cd494a7a426f860a0593ed64019bae9f02cd5967
+SHA256: d68cbec9a921ac357444eca6a0f75a4667007a94b65c8665de63ca87e28c56fe
 Section: 软件增强
 Description: 插件详情
  * 屏蔽个别软件检测VPN
