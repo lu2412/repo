@@ -1,0 +1,123 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "http://up.bizhitupian.com/pic/ee/9f/73/ee9f7347b0403f9e60765cce6f0b847d.jpg",
+	"tintColor": "#3f4042",
+	"tabs": [
+		{
+		"tabname": "详情描述",
+		"views": [
+			{
+			"useBoldText": true,
+			"title": "键盘底部表情",
+			"useBottomMargin": false,
+			"class": "DepictionSubheaderView"
+		}, {
+			"useSpacing": true,
+			"class": "DepictionMarkdownView",
+			"markdown": "在X及以上手机的键盘底部空白处显示emoji"
+		}, {
+			"itemCornerRadius": 6,
+			"itemSize": "{170, 350.45ios:11-1233333}",
+			"screenshots":
+			[
+				{
+					"accessibilityText": "Screenshot",
+					"url": "http://up.bizhitupian.com/pic/d0/a1/e1/d0a1e187179d58e639c7f92643ed7198.jpg"
+				}
+			],
+			"class": "DepictionScreenshotsView"	
+		},
+		{
+			"class": "DepictionSeparatorView"
+		}, {
+			"title": "版本描述",
+			"class": "DepictionHeaderView"
+		}, {
+			"title": "插件版本",
+			"text": "2020.3 (January 28th, 2020)",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "支持系统",
+			"text": "iOS 11-13",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "维护人员",
+			"text": "CaptainW",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "更新日期",
+			"text": "2020-1-28",
+			"class": "DepictionTableTextView"
+		}, {
+			"title": "插件官网",
+			"action": "https://apt.cpdigitaldarkroom.com/depictions/com.cpdigitaldarkroom.barmoji/",
+			"class": "DepictionTableButtonView"		
+		}, {
+			"title": "开发者源",
+			"action": "https://repo.cpdigitaldarkroom.com",
+			"class": "DepictionTableButtonView"		
+		},{
+			"class": "DepictionMarkdownView",
+			"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">CaptainW©2020</small><style>body { text-align: center; }</style>",
+			"useRawFormat": true
+		}],
+		"class": "DepictionStackView"
+	}, {
+		"tabname": "更新记录",
+		"class": "DepictionStackView",
+		"views": [
+			{
+			"title": "Version 2020.3 (January 28th, 2020)",
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+			},
+			{
+				"markdown": "\t\n\u2022Fix an issue where the prediction bar was being affected without options enabled",
+				"useSpacing": false,
+				"class": "DepictionMarkdownView"
+			},
+			{
+				"markdown": "<small style=\"color: #999; margin-top: -8px;\">更新时间 2020-01-28 14:52:12</small>",
+				"useRawFormat": true,
+				"class": "DepictionMarkdownView"
+			},
+			{
+				"class": "DepictionSeparatorView"
+			},
+			{
+			"title": "Version 2019.1 (December 30th, 2019)",
+			"useBoldText": true,
+			"useBottomMargin": true,
+			"class": "DepictionSubheaderView"
+			},
+			{
+				"markdown": "\t\n\u2022Fix predictive bar replacement on iOS 13",
+				"useSpacing": false,
+				"class": "DepictionMarkdownView"
+			},
+			{
+				"markdown": "\t\n\u2022Add long press gesture to toggle the Barmoji view",
+				"useSpacing": false,
+				"class": "DepictionMarkdownView"
+			},
+			{
+				"markdown": "\t\n\u2022Add option to use Barmoji full width at the bottom",
+				"useSpacing": false,
+				"class": "DepictionMarkdownView"
+			},
+			{
+				"markdown": "<small style=\"color: #999; margin-top: -8px;\">更新时间 2019-12-30 14:52:12</small>",
+				"useRawFormat": true,
+				"class": "DepictionMarkdownView"
+			},
+			{
+			"class": "DepictionMarkdownView",
+			"useRawFormat": true,
+			"markdown": "<small style=\"color: #aaa; font-size: 8pt;\">CaptainW©</small><style>body { text-align: center; }</style>"
+			}
+		]
+	}
+	],
+	"class": "DepictionTabView"	
+}
