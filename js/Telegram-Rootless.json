@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "## 插件介绍\n- 模仿iOS18唤醒Siri边框效果,无设置项。\n- 安装即生效\n- EdgeSiri是一款为iOS设计的越狱插件\n- 它能够在Siri激活时在屏幕周围显示彩色边框。\n- 这个边框不仅增加了视觉吸引力\n- 还能在Siri被使用时提供更加直观的反馈",
+                    "markdown": "插件介绍/n- 从Telegram中删除分割线\n- 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "3.1.1-9",
+                    "text": "0.0.2",
                     "title": "插件版本"
                 },
                 {
@@ -54,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024 年 10 月 24 日",
+                    "text": "2024年10月26日",
                     "title": "最后更新时间"
                 }
             ]
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 3.1.1-9\n- 适配Rootless版本\n- 日常维护插件修复bug\n- > 2024-10-24"
+                    "markdown": "### 版本 0.0.2\n- \n- 修复插件无效问题n- > 2024-10-26\n- ###版本0.0.1\n- 转换支持 Rootless、RootHide\n- > 2024-10-25"
                 }
             ]
         }

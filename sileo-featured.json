@@ -26,11 +26,11 @@
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
       "title": "QQ图层",
-      "package": "com.xx.qqhook",
+      "package": "qqtc-Rootless",
       "hideShadow": false,
       "onClick": {
         "type": "openUrl",
-        "package": "com.xx.qqhook",
+        "package": "qqtc-Rootless",
       }
     }
   ]
