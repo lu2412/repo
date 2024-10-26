@@ -911,15 +911,15 @@ Package: jd-Rootless
 Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Filename: ./debs/京东优惠卷-Rootless.deb
-Size: 52792
-MD5sum: fbb12aabff12aaed1d7b1b7a839019ca
-SHA1: c2fc863bd444f2eb2d36291dde44e6fad97827ca
-SHA256: 660a7cf57fb0130a724a31afde3b2d8ae711c9014d8bf8a7397f2d7f7de2773c
+Filename: ./debs/删除tg-Rootless.deb
+Size: 4560
+MD5sum: 2c5e430bd54bfba83846ae86811eac70
+SHA1: 69f8b45ad2292d51b6101abb16f9194d8df7a5f0
+SHA256: 66a44623d292098dcdcb6d4bbbd5a320150e17feeea280498f69d541a268be89
 Section: 软件增强
 Description: 插件作用 查询京东商品优惠券,查询商品历史价,安装即生效
 Author: lym
-Name: 京东优惠卷-Rootless
+Name: 删除tg-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
 
 Package: lum.autoscroll15
