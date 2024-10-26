@@ -19,23 +19,6 @@ Author: Misaka
 Name: Misaka助手 END版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/MisakaHelper.json
 
-Package: Telegram-Rootless
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4584
-MD5sum: c0bab4c5c6487363dbdaa6f882890021
-SHA1: e93b8ee22f1e0f6dbbff4ef3f60cfb88aeb43697
-SHA256: 82d3fc1ba30f23d56f3e8791e70b3ab7b60695ec85911127ed11b26e32adee3c
-Section: 软件增强
-Description: 插件详情
- * 从Telegram中删除分割线
- * 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg
-Author: lym
-Name: Telegram删除分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegramscfgx-Rootless.json
-
 Package: Telegramhc-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -51,6 +34,23 @@ Description: 插件详情
 Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegramhc-Rootless.json
+
+Package: Telegramscfgx-Rootless
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Telegram删除分割线-Rootless.deb
+Size: 4576
+MD5sum: 2302b4febc4fa60685b7e13c30dd9f6a
+SHA1: 28e2b5b0a1de09153525433595c429b653930fad
+SHA256: 6187387198ce8b4bd1bef16ed226d3827c14bdc401b63a73bf9973268e5e4242
+Section: 软件增强
+Description: 插件详情
+ * 从Telegram中删除分割线
+ * 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg
+Author: lym
+Name: Telegram删除分割线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegramscfgx-Rootless.json
 
 Package: byg.iosios.net.baidunetdiskoutput-rootless
 Version: 1.0.1K
