@@ -19,6 +19,23 @@ Author: Misaka
 Name: Misaka助手 END版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/MisakaHelper.json
 
+Package: Telegram-Rootless
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Telegram删除分割线-Rootless.26-10月-2024-18-13-34.deb
+Size: 5068
+MD5sum: 99603f4799ae840344e3ea236241b0ca
+SHA1: 0868de7c6e7da91701c39c5c6e10063d435d6b7f
+SHA256: 0c4173b9d1bae2f76ed155bd820051966f5a9ff80d618ba2d3227b16ab2fb3ae
+Section: 软件增强
+Description: 插件详情
+ * 从Telegram中删除分割线
+ * 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg
+Author: lym
+Name: Telegram删除分割线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
+
 Package: Telegramhc-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -495,28 +512,6 @@ Description: Safari工具栏添加按钮点击关闭标签页,长按新建标签
 Author: SquidForce
 Name: ControlTab - 控制Safari标签页-Rootless
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
-
-Package: com.level3tjg.telegramnoseparatorss
-Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: level3tjg
-Installed-Size: 136
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.level3tjg.telegramnoseparators
-Filename: ./debs/tg.deb
-Size: 6000
-MD5sum: 12677785e985aeba2fc68e1ac2e0e95e
-SHA1: d1aab35f4e692199c394cd91f3f9f798100b9433
-SHA256: 516bfaefd8756d820e07abdec3f384803b2fee7a2ff0c67ca5cf3fcaf293d613
-Section: 应用破解
-Description: 从 Telegram 中删除分隔符
- * 支持 Telegram、Swiftgram、Turrit、Nicegram
- * Remove table view cell separators from Telegram
-Author: level3tjg
-Icon: https://TrollStoreX.Github.io/sileodepiction/Telegram/icon.png
-Name: Telegram 删除分隔符
-Sileodepiction: https://TrollStoreX.Github.io/sileodepiction/Telegram/js.json
 
 Package: com.liuf.jpyj
 Version: 0.0.1
