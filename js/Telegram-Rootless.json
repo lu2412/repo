@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "插件详情\n\\* 从Telegram中删除分割线\n\\* 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg",
+                    "markdown": "插件详情\n- 从Telegram中删除分割线\n- 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0",
+                    "text": "0.0.3",
                     "title": "插件版本"
                 },
                 {
@@ -65,15 +65,15 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0 \n- 修复插件无效问题\n- 转换支持 Rootless\n- > 2024-10-26"
+                    "markdown": "### 版本 0.0.3 修复插件无效问题\n- 转换支持 Rootless\n- > 2024-10-27"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 0.5 \n- 新增功能增加对 Nicegram 的支持\n- > 2024-10-26"
+                    "markdown": "### 版本 0.0.2 新增功能\n- 增加对 Nicegram 的支持"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 0.1 \n- 初步版本基础功能实现\n- > 2024-10-25"
+                    "markdown": "### 版本 0.0.1 初步版本\n- 基础功能实现"
                 }
             ]
         }
