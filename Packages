@@ -20,14 +20,14 @@ Name: Misaka助手 END版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/MisakaHelper.json
 
 Package: Telegram-Rootless
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4404
-MD5sum: 852d8d910c97eb2a34b3f123450b2543
-SHA1: 87abe52e4de7eab7b7870b417ca605290541a503
-SHA256: 3a6efc70f2d01a42b8ee9f8272a3a08d4bda0c419884372b8835af43bd8ac7b1
+Size: 5360
+MD5sum: 5d9405728d0adbc7e1ca034dd9086a77
+SHA1: b59d4d6011066f0833c8927ca73ef8b60b588a61
+SHA256: db598312c416486804fc1f255af386c7df2dd38f8791fead49c44c6208846fea
 Section: 软件增强
 Description: 插件详情
  * 从Telegram中删除分割线
