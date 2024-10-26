@@ -1,10 +1,16 @@
 #!/bin/bash
 
-# 设置 deb 文件路径（替换为实际文件名）
+# 1. 设置 deb 文件路径（替换为实际文件名）
 DEB_DIR="/var/mobile/Documents/DebBackup"
 DEB_FILE="$DEB_DIR/123.deb"  # 将 123.deb 替换为实际的 deb 文件名
 
-# 目标 control 文件内容
+# 2. 设置新的插件描述和更新时间及更新日志
+NEW_DESCRIPTION="这是新的插件描述内容。可以更新为任何需要的内容。"
+UPDATE_DATE="2024年10月26日"
+CURRENT_DATE=$(date +'%Y-%m-%d')
+CHANGELOG="修复第三方客户端不生效问题\n- 修复插件不生效问题\n- 转换支持Rootless和RootHide\n- > $CURRENT_DATE"
+
+# 3. 目标 control 文件内容
 CONTROL_CONTENT="Package: Telegram-Rootless
 Name: Telegram删除分割线-Rootless
 Version: 1.0
@@ -12,44 +18,43 @@ Section: 软件增强
 Architecture: iphoneos-arm64
 Maintainer: lym
 Author: lym
-Description: 插件介绍
- - 从Telegram包括第三方tg中删除分隔符
+Description: $NEW_DESCRIPTION
 SileoDepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json"
 
-# 设置更新时间和更新日志
-UPDATE_DATE="2024年10月26日"
-CURRENT_DATE=$(date +'%Y-%m-%d')
-CHANGELOG="修复第三方客户端不生效问题\n- 修复插件不生效问题\n- 转换支持Rootless和RootHide\n- > $CURRENT_DATE"
-
-# 提取字段信息
+# 4. 提取字段信息
 PACKAGE_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Package:" | cut -d " " -f 2-)
 DESCRIPTION_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Description:" | cut -d " " -f 2-)
 VERSION_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Version:" | cut -d " " -f 2-)
 NAME_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Name:" | cut -d " " -f 2-)
 
-# JSON 文件名
-JSON_FILE="${PACKAGE_FIELD}.json"
+# 5. 删除旧的 deb 文件（如果存在）
+OLD_DEB_FILE="$DEB_DIR/${NAME_FIELD}.deb"
+if [ -f "$OLD_DEB_FILE" ]; then
+  rm "$OLD_DEB_FILE"
+  echo "已删除旧的 deb 文件: $OLD_DEB_FILE"
+fi
 
-# 创建临时解包目录
+# 6. 创建临时解包目录
 TEMP_DIR=$(mktemp -d)
 dpkg-deb -R "$DEB_FILE" "$TEMP_DIR" || { echo "解包失败，检查 deb 文件路径。"; exit 1; }
 
-# 检查 DEBIAN 目录是否存在
+# 7. 检查 DEBIAN 目录是否存在
 if [ ! -d "$TEMP_DIR/DEBIAN" ]; then
   echo "错误：DEBIAN 目录缺失。"; exit 1
 fi
 
-# 替换 control 文件内容
+# 8. 替换 control 文件内容
 echo "$CONTROL_CONTENT" > "$TEMP_DIR/DEBIAN/control"
 
-# 重新打包 deb 文件，命名为 Name 字段内容
+# 9. 重新打包 deb 文件，命名为 Name 字段内容
 NEW_DEB_FILE="$DEB_DIR/${NAME_FIELD}.deb"
 dpkg-deb -b "$TEMP_DIR" "$NEW_DEB_FILE" || { echo "打包失败。"; exit 1; }
 
-# 删除临时文件夹
+# 10. 删除临时文件夹
 rm -rf "$TEMP_DIR"
 
-# 生成插件描述 JSON 文件
+# 11. 生成插件描述 JSON 文件
+JSON_FILE="${PACKAGE_FIELD}.json"
 cat <<EOF > "$JSON_FILE"
 {
     "class": "DepictionTabView",
@@ -127,3 +132,9 @@ cat <<EOF > "$JSON_FILE"
 EOF
 
 echo "已生成 JSON 文件: $JSON_FILE 和新的 deb 文件: $NEW_DEB_FILE"
+
+# 12. 删除原始 123.deb 文件
+if [ -f "$DEB_FILE" ]; then
+  rm "$DEB_FILE"
+  echo "已删除原始 deb 文件: $DEB_FILE"
+fi

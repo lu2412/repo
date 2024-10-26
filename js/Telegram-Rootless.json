@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 从Telegram包括第三方tg中删除分隔符",
+                    "markdown": "### 插件介绍\n- 从 Telegram中 删除分隔符\n- 支持Telegram、Swiftgram、iMe、Turrit、Nicegram\n- Remove table view cell separators from Telegram",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
