@@ -6,21 +6,19 @@
     "tabs": [
         {
             "class": "DepictionStackView",
-            "tabname": "描述",
+            "title": "描述",
             "views": [
                 {
                     "text": "捐赠给开发者",
                     "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
-                    "openExternal": 1,
+                    "openExternal": true,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "插件详情
-  * 从Telegram中删除分割线
-  * 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg",
+                    "markdown": "插件详情\n* 从Telegram中删除分割线\n* 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -63,7 +61,7 @@
         },
         {
             "class": "DepictionStackView",
-            "tabname": "更新日志",
+            "title": "更新日志",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
