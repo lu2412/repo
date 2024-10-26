@@ -24,10 +24,10 @@ Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 5360
-MD5sum: 5d9405728d0adbc7e1ca034dd9086a77
-SHA1: b59d4d6011066f0833c8927ca73ef8b60b588a61
-SHA256: db598312c416486804fc1f255af386c7df2dd38f8791fead49c44c6208846fea
+Size: 5364
+MD5sum: 4797e726fd81efd702e83f0aedc7e0a5
+SHA1: 2dccd9d9f747d7d2d79bdff0f073bcc4b800d2f8
+SHA256: dc810ecd2982e5d870b4d9b5a13bcd0359d155e333bef9ad5d301e80f6dc3d42
 Section: 软件增强
 Description: 插件详情
  * 从Telegram中删除分割线
