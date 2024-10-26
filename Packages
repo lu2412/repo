@@ -24,17 +24,17 @@ Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4576
-MD5sum: 7c899c7d8b58e7fd56583fb4b5bc1f96
-SHA1: 9a37edfbff2af8af0e6f34f8919a3eef9566c38d
-SHA256: ee776740ed90b79f5cc471b45cd6e0c7d525d9b75359dd4ea98cb571c564dddc
+Size: 4584
+MD5sum: c0bab4c5c6487363dbdaa6f882890021
+SHA1: e93b8ee22f1e0f6dbbff4ef3f60cfb88aeb43697
+SHA256: 82d3fc1ba30f23d56f3e8791e70b3ab7b60695ec85911127ed11b26e32adee3c
 Section: 软件增强
 Description: 插件详情
  * 从Telegram中删除分割线
  * 支持Telegram Swiftgram Nicegram iMe Turrit等相关第三方tg
 Author: lym
 Name: Telegram删除分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegramscfgx-Rootless.json
 
 Package: Telegramhc-Rootless
 Version: 1.0
@@ -911,15 +911,15 @@ Package: jd-Rootless
 Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Filename: ./debs/删除tg-Rootless.deb
-Size: 4560
-MD5sum: 2c5e430bd54bfba83846ae86811eac70
-SHA1: 69f8b45ad2292d51b6101abb16f9194d8df7a5f0
-SHA256: 66a44623d292098dcdcb6d4bbbd5a320150e17feeea280498f69d541a268be89
+Filename: ./debs/京东优惠卷-Rootless.deb
+Size: 52792
+MD5sum: fbb12aabff12aaed1d7b1b7a839019ca
+SHA1: c2fc863bd444f2eb2d36291dde44e6fad97827ca
+SHA256: 660a7cf57fb0130a724a31afde3b2d8ae711c9014d8bf8a7397f2d7f7de2773c
 Section: 软件增强
 Description: 插件作用 查询京东商品优惠券,查询商品历史价,安装即生效
 Author: lym
-Name: 删除tg-Rootless
+Name: 京东优惠卷-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
 
 Package: lum.autoscroll15
