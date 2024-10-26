@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "插件介绍 从Telegram包括第三方tg中删除分隔符",
+                    "markdown": "### 插件介绍\n- 从Telegram包括第三方tg中删除分隔符",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -54,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月26日",
+                    "text": "2024年10月27日",
                     "title": "最后更新时间"
                 }
             ]
