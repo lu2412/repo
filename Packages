@@ -36,6 +36,22 @@ Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
 
+Package: Telegramhc-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Telegram换行键-Rootless.deb
+Size: 3680
+MD5sum: 4214b1898bb23c2cabedc8f9502d23d7
+SHA1: 447c75a77d6f076963a31b8af04927db32440fbf
+SHA256: 3c031bb517318656eefbaecb81c6603c17c5fcb2e0600354e240d922b23a8af4
+Section: 软件增强
+Description: 插件详情
+ - 回车键/换行键改为“发送”功能
+Author: lym
+Name: Telegram换行键-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegramhc-Rootless.json
+
 Package: byg.iosios.net.baidunetdiskoutput-rootless
 Version: 1.0.1K
 Architecture: iphoneos-arm64
