@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "## 插件作用 查询京东商品优惠券\n- 查询商品历史价,安装即生效",
+                    "markdown": "## 插件作用\n- 查询京东商品优惠券\n- 查询商品历史价,安装即生效",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },

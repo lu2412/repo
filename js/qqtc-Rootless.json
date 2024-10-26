@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "QQ功能增强/n- 插件设置位于QQ设置-辅助功能-右上角-QQ插件",
+                    "markdown": "## QQ功能增强\n- 插件设置位于QQ设置-辅助功能-右上角-QQ插件",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.1.1-2\n- \n- 适配商店最新版本\n- > 2023-9-14"
+                    "markdown": "### 版本 1.1.1-2\n- 适配商店最新版本\n- > 2023-9-14"
                 }
             ]
         }
