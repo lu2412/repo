@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 下载缓存文件添加导出按钮\n- 免去每次进入路径寻找下载文件的繁琐方式\n- 截止目前支持12.16.1版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "### 插件介绍\n- 净化哔哩哔哩和哔哩哔哩国际版的相关页面与广告\n- 截止目前支持 8.18.0 版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.0",
+                    "text": "1.1.0",
                     "title": "插件版本"
                 },
                 {
@@ -54,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月26日",
+                    "text": "2024年10月27日",
                     "title": "最后更新时间"
                 }
             ]
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.0\n- 修复适配Dopaminea\n- 修复插件不生效问题\n- > 2024-10-26"
+                    "markdown": "### 版本 1.1.0\n- 去除哔哩哔哩和哔哩哔哩国际版的相关页面与广告\n- 截止目前支持 8.18.0 版本\n- > 2024-10-27"
                 }
             ]
         }
