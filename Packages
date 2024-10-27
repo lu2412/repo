@@ -72,6 +72,25 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
+Package: bdwp-Rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/百度网盘去广告-Rootless.deb
+Size: 223944
+MD5sum: c30f8d776e65955e3625ab542344c16d
+SHA1: 472f5a1139e55d1095b53dc55cf614931538686c
+SHA256: 28fe72264715e6f789ea2e3da878c1dd76538e3b70e44ac6408d12b63cc5d6ed
+Section: 软件增强
+Description: 百度网盘去广告，兼容 12.15.0 版本
+ - 全局去广告，精简个别页面
+ - 需要卸载软件，重新安装才会生效
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 百度网盘去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bdwp-Rootless.json
+
 Package: bizhan-Rootless
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -90,6 +109,25 @@ Description: 哔呷哔哩去广告优化等
 Author: lym
 Name: 哔呷哔哩去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
+
+Package: daili-Rootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/去除代理检测-Rootless.deb
+Size: 4680
+MD5sum: 69fd304e0abc513f32024cd4495b91be
+SHA1: a0b6f932b314a84fa11aac71a7a1ed275054dcf4
+SHA256: 9eca2924c0cd7f4f4b71dc5cce958f077deb3e304968efeed5e941df4b8e574b
+Section: 系统增强
+Description: 去除app代理检测
+ - 去除app代理检测
+ - 设置里自行选择屏蔽app启用
+ - ibox先在巨魔切换成系统模式就能正常显示
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 去除代理检测-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/daili-Rootless.json
 
 Package: elm-Rootless
 Version: 0.1
@@ -110,6 +148,25 @@ Author: lym
 Name: 饿了么去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/elm-Rootless.json
 
+Package: fengexian-Rootless
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
+Size: 3948
+MD5sum: 55f8c69fb75682b3fc75f43e5dc1ef65
+SHA1: 87ab1baf774065f52035ae96a72d49629bfb2603
+SHA256: fa809f5be086cda66f0d681a4822b06ada42405ca7f2bbc69bcc774383241108
+Section: 系统增强
+Description: 去除全局分割线
+ - 去除弹窗/UI/长按菜单等地方的分割线
+ - NoLine的新版本,重构代码。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: PurifyLine去除全局分割线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/fengexian-Rootless.json
+
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -128,6 +185,24 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/gaode-Rootless.json
+
+Package: huadong-Rootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/AutoScroll自动滑动-Rootless.deb
+Size: 5468
+MD5sum: af1d080cd2570c111fa539ac0ca2e456
+SHA1: 04623fd1e24249567a1af6cf2dc4f018bdeb9d2d
+SHA256: 67390fe224520d12d23244e23a7e1b0683c29451c8de8b95352e3d52ffd9d6e7
+Section: 系统增强
+Description: 页面自动滑动
+ - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: AutoScroll自动滑动-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/huadong-Rootless.json
 
 Package: jd-Rootless
 Version: 2.0
@@ -315,6 +390,25 @@ Description: 小红薯去广告优化等
 Author: lym
 Name: 小红薯图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xhstc-Rootless.json
+
+Package: xtfl-Rootless
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/OneSettings设置分类美化-Rootless.deb
+Size: 216552
+MD5sum: f39616f7f675477a040e82c96584ecc1
+SHA1: ace94c30423c7cc18e8c55d5d8cc98e7e8b388e8
+SHA256: 342fec76bf50bf4c4b3e8409e0ecc9d7bb72f0ae5d0fa1a9658651349133613a
+Section: 系统增强
+Description: 系统设置美化分类插件
+ - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
+ - 插件中有很多可定制性和功能，适合任何人的口味表格单元格的字幕、自定义设置背景、表格视图插图和角半径、恶搞存储量等等
+ - 有很多很多功能，还有更多功能将在更新中推出
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: OneSettings设置分类美化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xtfl-Rootless.json
 
 Package: xtjpyj-Rootless
 Version: 0.0.1
