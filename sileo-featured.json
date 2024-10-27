@@ -2,9 +2,10 @@
   "class": "FeaturedBannersView",
   "itemSize": "{350, 160}",
   "itemCornerRadius": 10,
+  "isInfiniteScroll": true,
   "banners": [
     {
-      "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
+      "url": "https://liym5238.github.io/liym/icon/weixin.png",
       "title": "WeChat",
       "package": "com.25mao.miyou.rootless",
       "hideShadow": true,
@@ -14,7 +15,7 @@
       }
     },
     {
-      "url": "https://liym5238.github.io/liym/icon/hengfu03.png",
+      "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
       "title": "Alipay",
       "package": "zhifubao-rootless",
       "hideShadow": true,
@@ -24,13 +25,23 @@
       }
     },
     {
-      "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
-      "title": "QQ图层",
-      "package": "qqtc-Rootless",
+      "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
+      "title": "小红书",
+      "package": "xhstc-Rootless",
       "hideShadow": true,
       "action": {
         "type": "openPackage",
-        "package": "qqtc-Rootless"
+        "package": "xhstc-Rootless"
+      }
+    },
+    {
+      "url": "https://liym5238.github.io/liym/icon/douyin.png",
+      "title": "抖音",
+      "package": "com.xx.dyhooks",
+      "hideShadow": true,
+      "action": {
+        "type": "openPackage",
+        "package": "com.xx.dyhooks"
       }
     }
   ]
