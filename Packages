@@ -1,3 +1,21 @@
+Package: Talkatone-Rootless
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Talkatone去广告-Rootless.deb
+Size: 3432
+MD5sum: 971633c11dad2825f22ffcf17953ae39
+SHA1: f5318efeaadd20dba8615dd94d859985e6937d15
+SHA256: b0b1ec78b0a61b6ac12c22f938f43cd938c208529982d46e7126577412cce574
+Section: 软件增强
+Description: 插件介绍
+ - 移除Talkatone烦人的广告
+ - 截止目前6.7.4版本
+ - 插件无设置项安装即可生效
+Author: lym
+Name: Talkatone去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Talkatone-Rootless.json
+
 Package: Telegram-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -30,6 +48,43 @@ Description: 插件介绍
 Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
+
+Package: bizhan-Rootless
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/哔呷哔哩去广告-Rootless.deb
+Size: 15164
+MD5sum: 4fb3d6b4d443337e67787f5b32e9e7c5
+SHA1: 133e6b97a6c86b3f045277f645b38dae1a5a0262
+SHA256: 2c09df319cf5c1ab2f95fb0a7cddb73dece38342691f84b6d9904b4e0416d3c4
+Section: 软件增强
+Description: 插件介绍
+ - 去除哔哩哔哩和哔哩哔哩国际版的相关页面与广告
+ - 截止目前8.18.0版本
+ - 插件无设置项安装即可生效
+Author: lym
+Name: 哔呷哔哩去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
+
+Package: elm-Rootless
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/饿了么去广告-Rootless.deb
+Size: 11388
+MD5sum: 1edb10d4d60588ea2e928de660dbe31a
+SHA1: ee88bb748bbe9fc06c72aa9d020a216f8d080c4e
+SHA256: 5fb469f57d630343e0eb1f040de45e91e90b78ce8aede463a3e7d1d7e4497fa4
+Section: 软件增强
+Description: 插件介绍
+ - 精简全能超市和购物车推荐
+ - 截止目前11.16.38版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 饿了么去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/elm-Rootless.json
 
 Package: jd-Rootless
 Version: 2.0
