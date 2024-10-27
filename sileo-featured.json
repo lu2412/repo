@@ -1,13 +1,13 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{350, 148}",
+  "itemSize": "{350, 160}",
   "itemCornerRadius": 10,
   "banners": [
     {
       "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
       "title": "WeChat",
       "package": "com.25mao.miyou.rootless",
-      "hideShadow": false,
+      "hideShadow": true,
       "action": {
         "type": "openPackage",
         "package": "com.25mao.miyou.rootless"
@@ -17,7 +17,7 @@
       "url": "https://liym5238.github.io/liym/icon/hengfu03.png",
       "title": "Alipay",
       "package": "zhifubao-rootless",
-      "hideShadow": false,
+      "hideShadow": true,
       "action": {
         "type": "openPackage",
         "package": "zhifubao-rootless"
@@ -27,10 +27,10 @@
       "url": "https://liym5238.github.io/liym/icon/hengfu02.png",
       "title": "QQ图层",
       "package": "qqtc-Rootless",
-      "hideShadow": false,
-      "onClick": {
-        "type": "openUrl",
-        "package": "qqtc-Rootless",
+      "hideShadow": true,
+      "action": {
+        "type": "openPackage",
+        "package": "qqtc-Rootless"
       }
     }
   ]
