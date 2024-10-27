@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 修改QQ聊天输入框为圆角样式\n- 截止目前支持9.1.6版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "### 插件介绍\n- 修改QQ聊天输入框为圆角样式\n- 截止目前支持 9.1.6 版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
