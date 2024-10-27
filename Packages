@@ -4,12 +4,30 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Telegram删除分割线-Rootless.deb
 Size: 4548
-MD5sum: c9b40a533473769e27b2d18568ec9bdc
-SHA1: 18cee7197098e78b25f43ffff59a59e2958e6748
-SHA256: a9d57490172e70fdc055000a45554c07d82327f35b9daf22e19895820466ae00
+MD5sum: a8b1f4b095e9703e62513af8cda1c5f4
+SHA1: 70f45508fee05ff2a2f8d0bb153ab1d1efd0f159
+SHA256: 1fda2d56f8d770154dce5ed908eafa9358b2a9e528dceb580fc9fd780d6b1f36
 Section: 软件增强
-Description: 插件介绍 从Telegram包括第三方tg中删除分隔符
+Description: 插件介绍
+ - 从Telegram包括第三方tg中删除分隔符
 Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
+
+Package: qqshurukuang-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/QQ圆角输入框-Rootless.deb
+Size: 3276
+MD5sum: 91a0769c7bcb4fe792056990617ddb1a
+SHA1: 8b32caad688b2cfd6d725801d26e6780a687f66c
+SHA256: 5a6e54f228dfb2e6e102efda45cad8ef92d77b54c379dd52ed2150b72daa1527
+Section: 软件增强
+Description: 插件介绍
+ - 修改QQ聊天输入框为圆角样式
+ - 插件无设置项安装即可生效
+Author: lym
+Name: QQ圆角输入框-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqshurukuang-Rootless.json
 
