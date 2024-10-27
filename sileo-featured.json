@@ -7,37 +7,37 @@
    "url": "https://liym5238.github.io/liym/icon/weixin.png",
    "title": "WeChat",
    "package": "com.25mao.miyou.rootless",
-   "hideShadow": false
+   "hideShadow": true
   },
   {
    "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
    "title": "Alipay",
    "package": "zhifubao-Rootless",
-   "hideShadow": false
+   "hideShadow": true
   },
   {
    "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
    "title": " ",
    "package": "xiaohongshu-Rootless",
-   "hideShadow": false
+   "hideShadow": true
   },
   {
-   "url": "https://liym5238.github.io/liym/icon/douyin-Rootless.png",
+   "url": "https://liym5238.github.io/liym/icon/douyin.png",
    "title": " ",
    "package": "com.xx.dyhooks",
-   "hideShadow": false
+   "hideShadow": true
   },
   {
    "url": "https://liym5238.github.io/liym/icon/dongman.png",
    "title": "QQ图层",
    "package": "qqtc-Rootless",
-   "hideShadow": false
+   "hideShadow": true
   },
   {
-   "url": "https://liym5238.github.io/liym/icon/hengfu01.png",
+   "url": "https://liym5238.github.io/liym/icon/dongman.png",
    "title": "Velvet 2",
    "package": "com.dao.velvet2",
-   "hideShadow": false
+   "hideShadow": true
   }
  ]
 }
