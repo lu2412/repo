@@ -244,11 +244,11 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/QQ图层-Rootless.deb
 Size: 135904
-MD5sum: ce2878b94b1928d46b29f561e25c23aa
-SHA1: fc9e9be684e814c1e94789ef47314a14aaaa04d3
-SHA256: 583bd2aa2a29d506653557b7e3206e7602670309e080a9d1def8d7a991e45265
+MD5sum: 8e343187fe027fbd8adc067052bb1aa7
+SHA1: 9b0559fbe7190b676ca6c9b907279b7e5ef31cb1
+SHA256: e77c6b8b810b40f7a8ee4ffec6eda90ff4a289ab82560cd04236583519d41245
 Section: 软件增强
-Description: QQ新版防撤回去广告等
+Description: 插件介绍
  - QQ功能增强精简无用组件
  - 消息防撤回，闪图保存等
  - 去除个人主页服务卡片
