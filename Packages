@@ -31,6 +31,43 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
+Package: jd-Rootless
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/京东去广告-Rootless.deb
+Size: 3772
+MD5sum: ca922500b188842da86f7f4ca2ac3809
+SHA1: 0b0b1cf3f6f8ae5eef358b2d3385676663183c04
+SHA256: 730b3df4108c7861ae292528cca9751fd3fd3cc9ef72182bb16a0539f1b52034
+Section: 软件增强
+Description: 插件介绍
+ - 去除启动广告、去除个人主页底部推荐
+ - 精简搜索栏、屏蔽升级弹窗
+ - 截止目前13.6.2版本
+ - 插件无设置项安装即可生效
+Author: lym
+Name: 京东去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
+
+Package: jdyhj-Rootless
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/京东优惠卷-Rootless.deb
+Size: 52812
+MD5sum: 578e3f146fa38aa16fb02415af7e4f0d
+SHA1: c72a0c8c19e9fe335fe6e6cf90a1c39d93464027
+SHA256: 2182364682061620ee73b1fc13d74b10502f509cd3d7f840eb82e379a9d83115
+Section: 软件增强
+Description: 插件介绍
+ - 查询京东商品优惠券,查询商品历史价
+ - 截止目前13.6.2版本
+ - 插件无设置项安装即可生效
+Author: lym
+Name: 京东优惠卷-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jdyhj-Rootless.json
+
 Package: pdd-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
