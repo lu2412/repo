@@ -14,6 +14,23 @@ Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
 
+Package: baiduwangpan-Rootless
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/百度网盘下载文件导出-Rootless.deb
+Size: 141980
+MD5sum: 2b994b98ee8b02b7f8ee5f3ec4eaab78
+SHA1: 0cd5d8c6a29f4dc543ffb9586b2d8061d33a0bfc
+SHA256: 8fd01e89ab53f39e36c712ca697d51f6c7c14b907cdf71fc8d8f171c18a4c9a2
+Section: 软件增强
+Description: 插件介绍
+ - 下载缓存文件添加导出按钮
+ - 免去每次进入路径寻找下载文件的繁琐方式
+Author: lym
+Name: 百度网盘下载文件导出-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
+
 Package: qqshurukuang-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64

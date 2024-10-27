@@ -5,25 +5,26 @@ DEB_DIR="/var/mobile/Documents/DebBackup"
 DEB_FILE="$DEB_DIR/123.deb"  # 将 123.deb 替换为实际的 deb 文件名
 
 # 2. 设置新的插件描述和更新时间及更新日志
-NEW_DESCRIPTION="这是新的插件描述内容。可以更新为任何需要的内容。"
+NEW_DESCRIPTION="### 插件介绍\n- 从Telegram中删除分割符号\n- 也支持第三方tg等\n- 插件无设置项安装即可生效。"
 UPDATE_DATE="2024年10月26日"
 CURRENT_DATE=$(date +'%Y-%m-%d')
 CHANGELOG="修复第三方客户端不生效问题\n- 修复插件不生效问题\n- 转换支持Rootless和RootHide\n- > $CURRENT_DATE"
 
 # 3. 目标 control 文件内容
 CONTROL_CONTENT="Package: Telegram-Rootless
-Name: Telegram删除分割线-Rootless
+Name: Telegram-Rootless
 Version: 1.0
 Section: 软件增强
 Architecture: iphoneos-arm64
 Maintainer: lym
 Author: lym
-Description: $NEW_DESCRIPTION
+Description: 插件介绍
+ - 删除Telegram聊天界面分隔符
+ - 插件无设置项安装即可生效
 SileoDepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json"
 
 # 4. 提取字段信息
 PACKAGE_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Package:" | cut -d " " -f 2-)
-DESCRIPTION_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Description:" | cut -d " " -f 2-)
 VERSION_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Version:" | cut -d " " -f 2-)
 NAME_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Name:" | cut -d " " -f 2-)
 
@@ -76,7 +77,7 @@ cat <<EOF > "$JSON_FILE"
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "$DESCRIPTION_FIELD",
+                    "markdown": "$NEW_DESCRIPTION",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },

@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 修改QQ聊天输入框为圆角样式\n- 插件无设置项安装即可生效。",
+                    "markdown": "### 插件介绍\n- 下载缓存文件添加导出按钮\n- 免去每次进入路径寻找下载文件的繁琐方式\n- 插件无设置项安装即可生效。",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0",
+                    "text": "2.0",
                     "title": "插件版本"
                 },
                 {
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 发布1.0初始版本\n- > 2024-10-26"
+                    "markdown": "### 版本 2.0\n- 修复适配Dopaminea\n- 修复插件不生效问题\n- > 2024-10-26"
                 }
             ]
         }
