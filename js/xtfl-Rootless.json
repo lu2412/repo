@@ -65,8 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.2\n- 更改背景模糊算法\n- 优化存储标签
-\n- Standardiz类名清理代码\n- 删除已弃用的代码\n- 删除未使用的图像\n- > 2024-10-27"
+                    "markdown": "### 版本 2.2\n- 更改背景模糊算法\n- 优化存储标签 Standardiz类名清理代码\n- 删除已弃用的代码\n- 删除未使用的图像\n- > 2024-10-27"
                 }
             ]
         }
