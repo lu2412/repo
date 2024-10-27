@@ -1,12 +1,12 @@
 {
  "class": "FeaturedBannersView",
- "itemSize": "{263, 148}",
+ "itemSize": "{350, 160}",
  "itemCornerRadius": 10,
  "banners": [
   {
    "url": "https://liym5238.github.io/liym/icon/weixin.png",
    "title": "WeChat",
-   "package": "com.25mao.miyou.rootles",
+   "package": "com.25mao.miyou.rootless",
    "hideShadow": false
   },
   {
@@ -16,7 +16,7 @@
    "hideShadow": false
   },
   {
-   "url": "https://liym5238.github.io/liym/icon/xiaohomhdhu.png",
+   "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
    "title": " ",
    "package": "xiaohongshu-Rootless",
    "hideShadow": false
@@ -30,7 +30,7 @@
   {
    "url": "https://liym5238.github.io/liym/icon/dongman.png",
    "title": "QQ图层",
-   "package": "com.dao.noline",
+   "package": "qqtc-Rootless",
    "hideShadow": false
   },
   {
