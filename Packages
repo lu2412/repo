@@ -3,15 +3,16 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Talkatone去广告-Rootless.deb
-Size: 3432
-MD5sum: 971633c11dad2825f22ffcf17953ae39
-SHA1: f5318efeaadd20dba8615dd94d859985e6937d15
-SHA256: b0b1ec78b0a61b6ac12c22f938f43cd938c208529982d46e7126577412cce574
+Size: 3500
+MD5sum: c3325a09351821700a32b2b7ab14b4a6
+SHA1: 46efb8fb1f30f716aff26dc4cb51360d07a2b342
+SHA256: 43f2a29f45db8320411a5a8da67a32cf45277e7fd259227f17af784e9641ae05
 Section: 软件增强
-Description: 插件介绍
+Description: Talkatone增强
  - 移除Talkatone烦人的广告
  - 截止目前6.7.4版本
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Talkatone-Rootless.json
@@ -21,13 +22,14 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4548
-MD5sum: a8b1f4b095e9703e62513af8cda1c5f4
-SHA1: 70f45508fee05ff2a2f8d0bb153ab1d1efd0f159
-SHA256: 1fda2d56f8d770154dce5ed908eafa9358b2a9e528dceb580fc9fd780d6b1f36
+Size: 4620
+MD5sum: e534a153292f98d3cb1cfa28cbd094e0
+SHA1: 0659e86118f789657f1abfde07258c82be4bc6b6
+SHA256: 02940ee2fe2d2685587a7f6ad9b221306dc0159928d9baf9fbea8231bda98cc8
 Section: 软件增强
-Description: 插件介绍
+Description: Telegram去除分割线
  - 从Telegram包括第三方tg中删除分隔符
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
@@ -37,12 +39,12 @@ Version: 1.1.-1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Twitter去广告-Rootless.deb
-Size: 2640
-MD5sum: 619eaed67581fb64a43168f8e6fe9770
-SHA1: 431f561717847c50d645ebabaf845bfd760c1cc7
-SHA256: 497ff27419072a275dacf5cd65bdfbfd36c0b3a3de567eee2e985439fc67e13f
-Section: software
-Description: 插件介绍
+Size: 2652
+MD5sum: f8264f4ebd70f3cdb1eda7400f649f45
+SHA1: b2ea1a59d868889bf81d19c15853d7f74c8071c9
+SHA256: 0909a76c0fb1a0db6104341578cfaf34d93e3bc44866c8cd422bebf71a27fa4b
+Section: 软件增强
+Description: X(Twitter)去广告优化
  - 删除Twitter数据流中广告
  - 截止目前10.64.1版本
  - 插件无设置项安装即可生效
@@ -56,14 +58,16 @@ Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/百度网盘下载文件导出-Rootless.deb
-Size: 141980
-MD5sum: 2b994b98ee8b02b7f8ee5f3ec4eaab78
-SHA1: 0cd5d8c6a29f4dc543ffb9586b2d8061d33a0bfc
-SHA256: 8fd01e89ab53f39e36c712ca697d51f6c7c14b907cdf71fc8d8f171c18a4c9a2
+Size: 142124
+MD5sum: 40c4faf463951de5ea7f6696a739c18f
+SHA1: 69b4130566f36b8b00f52c06c5b902f983f64a6b
+SHA256: 147895a94a44177e28c27f84b1e6daa6b660ea6e8de48e9364d4400798ad06d9
 Section: 软件增强
-Description: 插件介绍
+Description: 百度网盘文件导出
  - 下载缓存文件添加导出按钮
  - 免去每次进入路径寻找下载文件的繁琐方式
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
@@ -73,15 +77,16 @@ Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/哔呷哔哩去广告-Rootless.deb
-Size: 15164
-MD5sum: 4fb3d6b4d443337e67787f5b32e9e7c5
-SHA1: 133e6b97a6c86b3f045277f645b38dae1a5a0262
-SHA256: 2c09df319cf5c1ab2f95fb0a7cddb73dece38342691f84b6d9904b4e0416d3c4
+Size: 15204
+MD5sum: fe2f18c24f4ea6fe7fbcdf00586be31e
+SHA1: 0ed2da3d8ad15e8ee2f030767cdd358006d535fb
+SHA256: 655aa39855f43c63d28cc5ed541e7fcface873201274d2c4a57bfdfa3db1d987
 Section: 软件增强
-Description: 插件介绍
+Description: 哔呷哔哩去广告优化等
  - 去除哔哩哔哩和哔哩哔哩国际版的相关页面与广告
  - 截止目前8.18.0版本
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 哔呷哔哩去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
@@ -91,12 +96,12 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/饿了么去广告-Rootless.deb
-Size: 11388
-MD5sum: 1edb10d4d60588ea2e928de660dbe31a
-SHA1: ee88bb748bbe9fc06c72aa9d020a216f8d080c4e
-SHA256: 5fb469f57d630343e0eb1f040de45e91e90b78ce8aede463a3e7d1d7e4497fa4
+Size: 11356
+MD5sum: 79e064f9f9d41075bc852fc8545e09ce
+SHA1: 81c4351f062539b6f16a8cde35a43dba5eafd7ae
+SHA256: d7eaa16238a7816c2c45b185b71d20a10ac148af4a0dd3381856e0b3c6316214
 Section: 软件增强
-Description: 插件介绍
+Description: 饿了么优化去广告
  - 精简全能超市和购物车推荐
  - 截止目前11.16.38版本
  - 插件无设置项安装即可生效
@@ -105,21 +110,41 @@ Author: lym
 Name: 饿了么去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/elm-Rootless.json
 
+Package: gaode-Rootless
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/高德图层-Rootless.deb
+Size: 357736
+MD5sum: 46a927c315e58033f534c457f710ef0c
+SHA1: f3ac02055ebdc60114e7c774a3bd6fce1330c06c
+SHA256: 7d0c62963f29eed31d490aace2db87b20bdb5289b5acf82cf90c82b762da8872
+Section: 软件增强
+Description: 高德图层去广告优化
+ - 自用功能默认开启去除启动广告
+ - 首页一些无用的悬浮移除底部消息-打车移除扫一扫
+ - 插件启用：长按底栏1秒弹出设置菜单
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 高德图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/gaode-Rootless.json
+
 Package: jd-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/京东去广告-Rootless.deb
-Size: 3772
-MD5sum: ca922500b188842da86f7f4ca2ac3809
-SHA1: 0b0b1cf3f6f8ae5eef358b2d3385676663183c04
-SHA256: 730b3df4108c7861ae292528cca9751fd3fd3cc9ef72182bb16a0539f1b52034
+Size: 3840
+MD5sum: a10b389d956e72688a012194f6a6b9b5
+SHA1: eb48a7483289e82c0a01bcfe6ef68bec4c160a4b
+SHA256: 268f7522516140efbcf3df4f0c34da65d831ea8dc565861d404584bd8b60c913
 Section: 软件增强
-Description: 插件介绍
+Description: 京东精简去广告等
  - 去除启动广告、去除个人主页底部推荐
  - 精简搜索栏、屏蔽升级弹窗
  - 截止目前13.6.2版本
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
@@ -129,15 +154,15 @@ Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/京东优惠卷-Rootless.deb
-Size: 52812
-MD5sum: 578e3f146fa38aa16fb02415af7e4f0d
-SHA1: c72a0c8c19e9fe335fe6e6cf90a1c39d93464027
-SHA256: 2182364682061620ee73b1fc13d74b10502f509cd3d7f840eb82e379a9d83115
+Size: 52864
+MD5sum: 347b15dbc753c0e4b13ddc442c90aa29
+SHA1: a9ba14e82fdaaf81a7dc300dc77da1d514c8b1ae
+SHA256: 452020b661f5c72476ad1ac7229ed780c0533649ddd3ac5588e324d19b90969e
 Section: 软件增强
-Description: 插件介绍
- - 查询京东商品优惠券,查询商品历史价
+Description: 查询京东商品优惠券,查询商品历史价
  - 截止目前13.6.2版本
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 京东优惠卷-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jdyhj-Rootless.json
@@ -147,13 +172,12 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/酷安去广告-Rootless.deb
-Size: 3704
-MD5sum: c683cc961ea7c695a39e55aea5d6edc7
-SHA1: d7ea20957c6752e23a21dffa78b5272e6dd32e0a
-SHA256: c52b9666230c0b1f0603156ed036e2f8575342824913f131583492f7c3c2acb9
-Section: software
-Description: 插件介绍
- - 去除软件开屏广告
+Size: 3700
+MD5sum: 0103fe1585538f90ec290c1c92ae3cf6
+SHA1: 0644ce3a79c346470cd22e502fd0415284679c8d
+SHA256: a6482515c0ef11ce0ab5b154d0e41546fa8f6b2cd993a8ee51896e4badb1d82a
+Section: 软件增强
+Description: 酷安去除软件开屏广告
  - 截止目前5.7.5版本
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
@@ -166,69 +190,147 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/拼多多去广告-Rootless.deb
-Size: 3580
-MD5sum: a0afb73ab479263ad3d88cf68bbc2f83
-SHA1: 3990847bb7fb36ba7e939859bc82a39788b6ea01
-SHA256: 587aa67bc421ab8a74602adae8868a07bb584fc3675231882923fca4d7251f19
+Size: 3656
+MD5sum: f44fbebd8d541ffe559902bacf3bba27
+SHA1: e38ee04bb0a48cb87372e0d4744fba871830bced
+SHA256: 9312823b3f7d85a484558dcd9df0df1a11517e90b6cf27c3d017afcc53347f5b
 Section: 软件增强
-Description: 插件介绍
+Description: 拼多多精简去广告
  - 屏蔽启动广告｜屏蔽语音录入｜屏蔽弹窗｜
  - 屏蔽首页漂浮｜屏蔽直播弹窗｜屏蔽搜索栏文字｜屏蔽个人中心横幅
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 拼多多去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/pdd-Rootless.json
+
+Package: qqipad-Rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/QQ模拟iPad登陆-Rootless.deb
+Size: 2468
+MD5sum: ef7e27df1946c629c616697a79200013
+SHA1: eff67ff03313623f152efc58e292b6ff598ed121
+SHA256: de3f3dc2e12b3456b3ec160a423ea722e35cac914f4da71d49b1276c08800860
+Section: 软件增强
+Description: QQ模拟iPad模式登录
+ - 截止目前支持 11.0.40 版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ模拟iPad登陆-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqipad-Rootless.json
 
 Package: qqshurukuang-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/QQ圆角输入框-Rootless.deb
-Size: 3276
-MD5sum: 91a0769c7bcb4fe792056990617ddb1a
-SHA1: 8b32caad688b2cfd6d725801d26e6780a687f66c
-SHA256: 5a6e54f228dfb2e6e102efda45cad8ef92d77b54c379dd52ed2150b72daa1527
+Size: 3340
+MD5sum: 5a7edd7ce24f09852a0579440e4ddaf5
+SHA1: 3ea21700b802362205c09716e5fff111b0d417b6
+SHA256: b90a9ee6ff80d8f0aefabf4574cc2749af72f165af1bbb97d79d019da922f06f
 Section: 软件增强
-Description: 插件介绍
- - 修改QQ聊天输入框为圆角样式
+Description: 修改QQ聊天输入框为圆角样式
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ圆角输入框-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqshurukuang-Rootless.json
 
-Package: taobao-Rootless
-Version: 1.0
+Package: qqtc-Rootless
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/QQ图层-Rootless.deb
+Size: 135904
+MD5sum: ce2878b94b1928d46b29f561e25c23aa
+SHA1: fc9e9be684e814c1e94789ef47314a14aaaa04d3
+SHA256: 583bd2aa2a29d506653557b7e3206e7602670309e080a9d1def8d7a991e45265
+Section: 软件增强
+Description: QQ新版防撤回去广告等
+ - QQ功能增强精简无用组件
+ - 消息防撤回，闪图保存等
+ - 去除个人主页服务卡片
+ - 截止目前支持 11.0.40 版本
+ - 插件启用：QQ设置-辅助功能-右上角开启
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtc-Rootless.json
+
+Package: qqtouxiang-Rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/QQ消息通知头像-Rootless.deb
+Size: 26584
+MD5sum: cfda409c485fbafa7aa2ec685b099d34
+SHA1: 48ec205e53fc06351b63d21a8374cdc75fb07010
+SHA256: 715856b38cd8a1bb36b2b329816ed4f55fffe81f27bb9fa9a6530c75012f0244
+Section: 软件增强
+Description: 让QQ消息通知显示QQ好友头像
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ消息通知头像-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtouxiang-Rootless.json
+
+Package: tb-Rootless
+Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/淘宝去广告-Rootless.deb
-Size: 3632
-MD5sum: a729c12d831f5d7dd09240defafbd812
-SHA1: 3bf224463d155e4f15555617861de1822b908491
-SHA256: 6e796478b2c0c13d742a4c3fde3d102be9fb59b334cb93aa44603caf1f842014
+Size: 62248
+MD5sum: b888b49bc327ac57debb30282f4e4372
+SHA1: d6d97dcbaa5628682cfc6ad49b3247e1bff97255
+SHA256: b7398b4980e95809aa5a5d6a7df74f1ebcd0318e301317dbd8a4487dd795d235
 Section: 软件增强
-Description: 插件介绍
- - 去除广告，去除消息红点提示
- - 去除个人页面底部淘友圈
- - 精简搜索栏,小视频自动播放
- - 截止目前10.41.10版本
+Description: 淘宝优化去广告等
+ - 淘宝去除启动广告
+ - 商品去除购物车推荐和订单列表中推荐商品
+ - 逛逛原始按钮保存图片视频去除水印
  - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 淘宝去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/taobao-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tb-Rootless.json
+
+Package: xhstc-Rootless
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/小红薯图层-Rootless.deb
+Size: 1113584
+MD5sum: fa7abd3e818f976b9aba3a8b73704ea2
+SHA1: 4822d184c26a5ef9b1dd792826cf1af29209795c
+SHA256: 4c03963b8c77412467491da0b12eb408f483f6ca60286261284ad9ccebc91383
+Section: 软件增强
+Description: 小红薯去广告优化等
+ - 默认移除一些广告
+ - 无水印保存图片、视频、live图、评论区图片
+ - 长按复制文案、放大图片双指长按可保存高分辨率图片
+ - 插件启用：APP设置界面右上角打开插件界面或双指长按设置界面
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 小红薯图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xhstc-Rootless.json
 
 Package: yu-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/闲鱼去广告-Rootless.deb
-Size: 3092
-MD5sum: 8bb67ccc5e9f6bf9cc95b30af8d4ced7
-SHA1: b27e21c5622d12a15e3719fa982189376528dcc8
-SHA256: 59792242e614536d378989f86001ff682789abdf7271b4423cf6c9fa86fe3446
+Size: 3176
+MD5sum: 6fdaa3e4070df2a68bd72064716d0d0b
+SHA1: f99fa22b9bc6e5ecc5d83c6b99bb5c1f3bbb4445
+SHA256: b4ff486d26ccda4b67aa4e194da5a9123674d4b2bb89d0b7ee21adc4aeddf2c3
 Section: 软件增强
-Description: 插件介绍
+Description: 闲鱼优化去广告等
  - 去除启动广告,屏蔽升级弹窗
  - 插件无设置项目安装即可生效
  - 截止目前7.18.10版本
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 闲鱼去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/yu-Rootless.json
@@ -238,12 +340,12 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/什么值得买去广告-Rootless.deb
-Size: 3508
-MD5sum: c484eb918468ab069e2651720bcab391
-SHA1: f31a15435b80e48f8abf282c3ce1cc277ed4ce09
-SHA256: cfe60d8ea9d48047ed2566ebcedf4f2266565948147284c317240df81993eff3
+Size: 3504
+MD5sum: 80ee7b0363cf287d49db1d851fac966b
+SHA1: 88b6b40cd97bf79e58f043ad7dafb0f2700d3c8a
+SHA256: 87673367351fb21e1686b54f2b90020d76187b363c64f904f26177db9b48e399
 Section: 软件增强
-Description: 插件介绍
+Description: 去广告精简等
  - 去除启动广告
  - 去除首页右侧悬浮广告
  - 去除个人主页服务卡片
@@ -259,14 +361,13 @@ Version: 1.1-3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
-Size: 72496
-MD5sum: afea3491874b43d02291d95284cb0ddb
-SHA1: eebc88677dce47a09a800518d9b9f631e18ce52b
-SHA256: 879803d9aece00970fa55acebb094677bddd3e3e91a4dff1a54c7f7d9f82a094
-Section: software
-Description: 插件介绍
- - 支付宝去除底部理财选项
- - 截止目前支持10.6.56版本
+Size: 72676
+MD5sum: 691c09c6c3bf0392daaf743047d53bc5
+SHA1: de0fc760d8ade7a8c8db2ae25d80b75e7e6ec987
+SHA256: 9c393710177b2395b4c4de734064a6b6f79de521417eaf175af58847ccbe46d9
+Section: 软件增强
+Description: 支付宝去除底部理财选项
+ - 截止目前支持 10.6.56 版本
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
