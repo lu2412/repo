@@ -376,10 +376,10 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/tikTok移除底部➕号.deb
-Size: 35724
-MD5sum: 977503337f4c2b94a91997a8ac234e19
-SHA1: b3e7225d8c7ebf87e4af38dfd18a1f7828916e88
-SHA256: 84fa7cc4062365332dc8f9e826df771a36ae879936bd5ea77ec319ab8820282a
+Size: 39772
+MD5sum: 8144f52d2379b5b91c0f0b92d49d1587
+SHA1: e18d545286d457fc32787153df1cfcad18ab28c4
+SHA256: 4c53dd9adddaf4720659fcfb9c2c7cef731e07e85ab95cfce9ed8c82fd43ae9e
 Section: 软件增强
 Description: tikTok移除底部➕号
  - 插件无设置项安装即可生效
