@@ -65,6 +65,26 @@ Author: lym
 Name: QQ圆角输入框-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqshurukuang-Rootless.json
 
+Package: taobao-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/淘宝去广告-Rootless.deb
+Size: 3632
+MD5sum: a729c12d831f5d7dd09240defafbd812
+SHA1: 3bf224463d155e4f15555617861de1822b908491
+SHA256: 6e796478b2c0c13d742a4c3fde3d102be9fb59b334cb93aa44603caf1f842014
+Section: 软件增强
+Description: 插件介绍
+ - 去除广告，去除消息红点提示
+ - 去除个人页面底部淘友圈
+ - 精简搜索栏,小视频自动播放
+ - 截止目前10.41.10版本
+ - 插件无设置项安装即可生效
+Author: lym
+Name: 淘宝去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/taobao-Rootless.json
+
 Package: yu-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64

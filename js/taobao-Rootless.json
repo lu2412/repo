@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 从 Telegram中 删除分隔符\n- 支持Telegram、Swiftgram、iMe、Turrit、Nicegram\n- Remove table view cell separators from Telegram",
+                    "markdown": "### 插件介绍\n- 去除广告，去除消息红点提示\n- 去除个人页面底部淘友圈\n- 精简搜索栏,小视频自动播放\n- 截止目前10.41.10版本\n- 插件无设置项安装即可生效",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -54,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月27日",
+                    "text": "2024年10月26日",
                     "title": "最后更新时间"
                 }
             ]
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 修复第三方客户端不生效问题\n- 修复插件不生效问题\n- 转换支持Rootless和RootHide\n- > 2024-10-26"
+                    "markdown": "### 版本 1.0\n- 发布初始版本截止目前支持10.41.10版本\n- > 2024-10-26"
                 }
             ]
         }

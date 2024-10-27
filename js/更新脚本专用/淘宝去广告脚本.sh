@@ -4,25 +4,27 @@
 DEB_DIR="/var/mobile/Documents/DebBackup"
 DEB_FILE="$DEB_DIR/123.deb"  # 将 123.deb 替换为实际的 deb 文件名
 
-# 2. 设置新的插件描述、更新时间和更新日志日期
-NEW_DESCRIPTION="### 插件介绍\n- 去除启动广告,屏蔽升级弹窗\n- 截止目前7.18.10版本\n- 插件无设置项安装即可生效。"
+# 2. 设置新的json内插件描述、更新时间和更新日志日期
+NEW_DESCRIPTION="### 插件介绍\n- 去除广告，去除消息红点提示\n- 去除个人页面底部淘友圈\n- 精简搜索栏,小视频自动播放\n- 截止目前10.41.10版本\n- 插件无设置项安装即可生效"
 UPDATE_DATE="2024年10月26日"  # 设置为 年月日 格式
 CURRENT_DATE=$(date +'%Y-%m-%d')  # 设置为 yyyy-mm-dd 格式
-CHANGELOG="发布初始版本截止目前支持7.18.10版本\n- > $CURRENT_DATE"
+CHANGELOG="发布初始版本截止目前支持10.41.10版本\n- > $CURRENT_DATE"
 
 # 3. 目标 control 文件内容
-CONTROL_CONTENT="Package: yu-Rootless
-Name: 闲鱼去广告-Rootless
+CONTROL_CONTENT="Package: taobao-Rootless
+Name: 淘宝去广告-Rootless
 Version: 1.0
 Section: 软件增强
 Architecture: iphoneos-arm64
 Maintainer: lym
 Author: lym
 Description: 插件介绍
- - 去除启动广告,屏蔽升级弹窗
- - 插件无设置项目安装即可生效
- - 截止目前7.18.10版本
-SileoDepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/yu-Rootless.json"
+ - 去除广告，去除消息红点提示
+ - 去除个人页面底部淘友圈
+ - 精简搜索栏,小视频自动播放
+ - 截止目前10.41.10版本
+ - 插件无设置项安装即可生效
+SileoDepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/taobao-Rootless.json"
 
 # 4. 提取字段信息
 PACKAGE_FIELD=$(echo "$CONTROL_CONTENT" | grep -i "^Package:" | cut -d " " -f 2-)
