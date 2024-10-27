@@ -1,6 +1,6 @@
 {
   "class": "FeaturedBannersView",
-  "itemSize": "{350, 160}",
+  "itemSize": "{350, 210}",
   "itemCornerRadius": 10,
   "isInfiniteScroll": true,
   "banners": [
@@ -26,7 +26,7 @@
     },
     {
       "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
-      "title": "小红书",
+      "title": " ",
       "package": "xhstc-Rootless",
       "hideShadow": true,
       "action": {
@@ -36,7 +36,7 @@
     },
     {
       "url": "https://liym5238.github.io/liym/icon/douyin.png",
-      "title": "抖音",
+      "title": " ",
       "package": "com.xx.dyhooks",
       "hideShadow": true,
       "action": {
