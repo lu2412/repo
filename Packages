@@ -32,6 +32,25 @@ Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
 
+Package: Twitter-Rootless
+Version: 1.1.-1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Twitter去广告-Rootless.deb
+Size: 2640
+MD5sum: 619eaed67581fb64a43168f8e6fe9770
+SHA1: 431f561717847c50d645ebabaf845bfd760c1cc7
+SHA256: 497ff27419072a275dacf5cd65bdfbfd36c0b3a3de567eee2e985439fc67e13f
+Section: software
+Description: 插件介绍
+ - 删除Twitter数据流中广告
+ - 截止目前10.64.1版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Twitter去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
+
 Package: baiduwangpan-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -123,6 +142,25 @@ Author: lym
 Name: 京东优惠卷-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jdyhj-Rootless.json
 
+Package: kuan-Rootless
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/酷安去广告-Rootless.deb
+Size: 3704
+MD5sum: c683cc961ea7c695a39e55aea5d6edc7
+SHA1: d7ea20957c6752e23a21dffa78b5272e6dd32e0a
+SHA256: c52b9666230c0b1f0603156ed036e2f8575342824913f131583492f7c3c2acb9
+Section: software
+Description: 插件介绍
+ - 去除软件开屏广告
+ - 截止目前5.7.5版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 酷安去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
+
 Package: pdd-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -194,4 +232,44 @@ Description: 插件介绍
 Author: lym
 Name: 闲鱼去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/yu-Rootless.json
+
+Package: zhidemai-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/什么值得买去广告-Rootless.deb
+Size: 3508
+MD5sum: c484eb918468ab069e2651720bcab391
+SHA1: f31a15435b80e48f8abf282c3ce1cc277ed4ce09
+SHA256: cfe60d8ea9d48047ed2566ebcedf4f2266565948147284c317240df81993eff3
+Section: 软件增强
+Description: 插件介绍
+ - 去除启动广告
+ - 去除首页右侧悬浮广告
+ - 去除个人主页服务卡片
+ - 截止目前支持 11.0.40 版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 什么值得买去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/zhidemai-Rootless.json
+
+Package: zhifubao-Rootless
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
+Size: 72496
+MD5sum: afea3491874b43d02291d95284cb0ddb
+SHA1: eebc88677dce47a09a800518d9b9f631e18ce52b
+SHA256: 879803d9aece00970fa55acebb094677bddd3e3e91a4dff1a54c7f7d9f82a094
+Section: software
+Description: 插件介绍
+ - 支付宝去除底部理财选项
+ - 截止目前支持10.6.56版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 支付宝去除底部理财选项-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
