@@ -371,24 +371,6 @@ Author: lym
 Name: 淘宝去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tb-Rootless.json
 
-Package: tikTok-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/tikTok移除底部➕号.deb
-Size: 39772
-MD5sum: 8144f52d2379b5b91c0f0b92d49d1587
-SHA1: e18d545286d457fc32787153df1cfcad18ab28c4
-SHA256: 4c53dd9adddaf4720659fcfb9c2c7cef731e07e85ab95cfce9ed8c82fd43ae9e
-Section: 软件增强
-Description: tikTok移除底部➕号
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: 移除tikTok底部➕号-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
-
 Package: xhstc-Rootless
 Version: 1.1.1-2
 Architecture: iphoneos-arm64
