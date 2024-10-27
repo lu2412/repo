@@ -31,6 +31,23 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
+Package: pdd-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/拼多多去广告-Rootless.deb
+Size: 3580
+MD5sum: a0afb73ab479263ad3d88cf68bbc2f83
+SHA1: 3990847bb7fb36ba7e939859bc82a39788b6ea01
+SHA256: 587aa67bc421ab8a74602adae8868a07bb584fc3675231882923fca4d7251f19
+Section: 软件增强
+Description: 插件介绍
+ - 屏蔽启动广告｜屏蔽语音录入｜屏蔽弹窗｜
+ - 屏蔽首页漂浮｜屏蔽直播弹窗｜屏蔽搜索栏文字｜屏蔽个人中心横幅
+Author: lym
+Name: 拼多多去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/pdd-Rootless.json
+
 Package: qqshurukuang-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
