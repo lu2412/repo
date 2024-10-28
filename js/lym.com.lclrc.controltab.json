@@ -1,73 +1,118 @@
 {
-    "class": "DepictionTabView",
-    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
-    "tintColor": "#87A2FF",
-    "minVersion": "0.3",
-    "tabs": [
+  "minVersion": "0.1",
+  "headerImage": "https://lclrc.github.io/repo/assets/repo/Banners/1.jpg",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
         {
-            "class": "DepictionStackView",
-            "tabname": "描述",
-            "views": [
-                {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "### 插件介绍\n- 插件介绍\n- Safari工具栏添加按钮点击关闭标签页\n- 长按新建标签页并弹出键盘\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.0",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月28日",
-                    "title": "最后更新时间"
-                }
-            ]
+          "class": "DepictionMarkdownView",
+          "markdown": "Safari工具栏添加按钮\n点击关闭标签页，长按新建标签页并弹出键盘\n"
         },
         {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 发布初始版本\n- > 2024-10-28"
-                }
-            ]
+          "class": "DepictionImageView",
+          "URL": "https://lclrc.github.io/repo/assets/repo/Screenshots/controltab/1.png",
+          "cornerRadius": 14,
+          "width": 340,
+          "height": 41,
+          "xPadding": 5,
+          "alignment": 1
+        },
+        {
+          "spacing": 15,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "text": "关注公众号：SquidForce乌贼力量",
+          "action": "https://lclrc.github.io/repo/gzgzh.html",
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "title": "最近更新",
+          "class": "DepictionHeaderView"
+        },
+        {
+          "title": "版本",
+          "text": "1.0",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "兼容性",
+          "text": "Dopamine",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "依赖",
+          "text": "无",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "更新时间",
+          "text": "2023/9/2",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "开发者",
+          "text": "SquidForce",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "spacing": 16,
+          "class": "DepictionSpacerView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
         }
-    ]
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "title": "1.0",
+          "useBoldText": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionSubheaderView"
+        },
+        {
+          "markdown": "\t\u2023 init",
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "markdown": "<small style=\"color: #999; margin-top: -8px;\">Released 2023/09/02</small>",
+          "useRawFormat": true,
+          "useSpacing": false,
+          "useBottomMargin": false,
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "spacing": 20,
+          "class": "DepictionSpacerView"
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "Readme",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 源内插件仅为兴趣自用\n- 插件并不收费就不必搬运了, 在搬运源安装出现问题请自行排查解决\n- 源内插件均为适配Dopamine\n- 测试环境为iPhone Xr 15.4.1"
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
 }

@@ -453,10 +453,10 @@ Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/ControlTab - 控制Safari标签页.deb
-Size: 6336
-MD5sum: 48518d284ae69530ac6782674a4c8f80
-SHA1: a298e8e6b43b6621923839041fb7c555ea107252
-SHA256: 142f3e908d622c03fa5076b1189207e27dd5f5371e659325f6896b0406a567c3
+Size: 6340
+MD5sum: e6b0936caf1f0d207da8b99a4825534c
+SHA1: 5a010522097ac1fed9346e11b1521dd6c130d494
+SHA256: 97a4fd471d32b142e2a9c07e6fb5752a4cb2f03e3254a003338456ee7e8fb849
 Section: 控制中心
 Description: Safari工具栏添加按钮点击关闭标签页
   - 长按新建标签页并弹出键盘
