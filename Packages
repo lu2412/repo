@@ -111,14 +111,14 @@ Name: 哔呷哔哩去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
 
 Package: com.netskao.appdata
-Version: 1.0
+Version: 1.4.3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 4627788
-MD5sum: 9c829e7b5f78ed78dcc95147a3030956
-SHA1: a3e85a34e49154e6579c5ffa870e93220b7eb3cb
-SHA256: a7a590ad4ed84845aaae0378c5402150a41e6c9121661b0b85d5d90456ead7d6
+Size: 4626652
+MD5sum: 3dbd4908d064efe38beeba67f9e07090
+SHA1: 0701a251b44b67c540e05d00ec7ce5d73819e39d
+SHA256: 1f0cc90d29ee41ed84cfb8514b6632a12caea92d39ba135a5a7c824b43006a91
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称

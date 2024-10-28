@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- •iOS16支持\n- 初始版本发布n- > 2024-10-28"
+                    "markdown": "### 版本 1.0\n- iOS16支持\n- 初始版本发布n- > 2024-10-28"
                 }
             ]
         }

@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0",
+                    "text": "1.4.3",
                     "title": "插件版本"
                 },
                 {
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 优化显示数据大小加载速度\n- 降级应用显示IDn- > 2024-10-28"
+                    "markdown": "### 版本 1.4.3\n- 优化显示数据大小加载速度\n- 降级应用显示ID\n- > 2024-10-28"
                 }
             ]
         }
