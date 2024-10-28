@@ -110,22 +110,6 @@ Author: lym
 Name: 哔呷哔哩去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
 
-Package: com.25mao.leftpan.rootless
-Version: 1.0-6
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/左滑返回-Rootless.deb
-Size: 44308
-MD5sum: 371328c5331389364004bb737e497d3c
-SHA1: 9a75297e6615dda2f7163cf7243b8981b4131714
-SHA256: bcba2dbc3382fbcea7d63c3f80189dbcca9e6c00b0b3bff8d04e3ec52d9db1fd
-Section: 系统增强
-Description: 左滑返回上一页面
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 左滑返回-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.25mao.leftpan.rootless.json
-
 Package: com.icraze.smallboards
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -142,6 +126,28 @@ Description: 缩小键盘与底部的间隙
 Author: lym
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.icraze.smallboards.json
+
+Package: com.lym.swipeextenderx
+Version: 1.6.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
+Size: 85848
+MD5sum: 46621d12ebd827ae1410d7835ae152e5
+SHA1: 65cc8d59d24cfda93022d0a202dc9a2762cb5a23
+SHA256: fcb269f1f5e8ae0ed1138bc4f0aeeab85526431cf130d2b9c4ec87480009d667
+Section: 系统增强
+Description: IOS原生键盘增强功能
+ - 仅仅支持系统原生键盘
+ - 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
+ - 多种按键动作：向上滑动，向下滑动，向左滑动，向右滑动，长按
+ - 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
+ - 多种键盘类型可以自定义
+ - 与其他插件兼容，例如 Copylog 等
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: SwipeExtenderX键盘增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.swipeextenderx.json
 
 Package: com.netskao.appdata
 Version: 1.4.3
@@ -410,6 +416,56 @@ Icon:  
 Name: 系统键盘纯黑-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.chunheijianpan-Rootless.json
 
+Package: lym.cn.llld.swipeextenderx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/SwipeExtenderX键盘增强(汉化包)-Rootless.deb
+Size: 10532
+MD5sum: 3596eb7f94555a20c3bf60eef81b7cc3
+SHA1: 2bc05703d1ba613003ab9e39ea45bee7bf14cfd7
+SHA256: ae2ba99ba7e792e153c8d79b3da34437fa0f89d2628c70ed9e61ee6fb197f3ca
+Section: 系统增强
+Description: SwipeExtenderX汉化包
+ - SwipeExtenderX的专用插件汉化包
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: SwipeExtenderX键盘增强(汉化包)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
+
+Package: lym.com.25mao.leftpan.rootless
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/左滑返回-Rootless.deb
+Size: 44284
+MD5sum: 964d7b5e3e98b78463be5dedb8827947
+SHA1: f9de4e59c7e79887a4ad19da531dffbabf03f894
+SHA256: eb11ea30eadb27c0c37ccfa8249a5e8b8f47124705f3b8a07ee2c00102e00ead
+Section: 系统增强
+Description: 左滑返回上一页面
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 左滑返回-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
+
+Package: lym.com.82flex.ohmyinsets
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/Oh My Insets控制中心五列-Rootless.deb
+Size: 12148
+MD5sum: fa2a6337c393312fa1d576dd891e76c0
+SHA1: 8344c2b8dd316a9129a93f4e21f7094eb8f1d168
+SHA256: c96bfa489f1ccc4d1c43f1d4b8b41e3b44707d2f87329490e8cf19e391a774bc
+Section: 控制中心
+Description: 控制中心模块五列显示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Oh My Insets控制中心五列-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
+
 Package: lym.douyintuceng.Rootless
 Version: 2.0.7-2
 Architecture: iphoneos-arm64
@@ -429,6 +485,23 @@ Author: lym
 Icon:  
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.douyintuceng.Rootless.json
+
+Package: lym.netskao.deletephotoscompletely-rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/DeletePhotosCompletely相册添加彻底删除按钮-Rootless.deb
+Size: 17172
+MD5sum: dfa13ffcdf34ed570915a4ef910e8051
+SHA1: aaa8484665e565ccab476dd8c13931d5193ec048
+SHA256: db53a45706e96328e77ea678d49154282871ec905773479023ccbe5743c35c08
+Section: 系统增强
+Description: DeletePhotosCompletely相册添加彻底删除按钮
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.deletephotoscompletely-rootless.json
 
 Package: lym.qqtc.Rootless
 Version: 1.1.1-2
