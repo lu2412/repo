@@ -12,25 +12,25 @@
         {
             "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
             "title": "Alipay",
-            "package": "zhifubao-Rootless",
+            "package": "zhifubao.Rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
             "title": "小红薯",
-            "package": "lym.xiaohongshu-Rootless",
+            "package": "lym.xiaohongshu.Rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/douyin.png",
             "title": "抖音图层",
-            "package": "lym.douyintuceng-Rootless",
+            "package": "lym.douyintuceng.Rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/qq.png",
             "title": "QQ图层",
-            "package": "lym.qqtc-Rootless",
+            "package": "lym.qqtc.Rootless",
             "hideShadow": true
         }
     ]
