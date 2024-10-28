@@ -305,10 +305,10 @@ Version: 1.1.1-2
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 785408
-MD5sum: 821299c72eb972fe53a6ae522fae96ca
-SHA1: c29b7f3d29dffd1027cab007f9cd9e0d9fd08c9d
-SHA256: 433dc7cbd048dece993e0a466db376b02577dd41115466986e150ec8659d1b96
+Size: 785936
+MD5sum: ca5cf56792ca3f50cc585ca6a92c3dc6
+SHA1: 28ff6911d4265d924fe72074118b0a794a86c758
+SHA256: 552e564d69c761eda65efe76ecda0ca4acae3c14b520dadffdea565c768f5e86
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -319,7 +319,7 @@ Description: QQ功能增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtc-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqtc-Rootless.json
 
 Package: lym.xiaohongshu-Rootless
 Version: 1.1.1
