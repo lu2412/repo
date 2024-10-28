@@ -466,25 +466,24 @@ Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
 
-Package: lym.douyintuceng.Rootless
-Version: 2.0.7-2
+Package: lym.com.xx.dyhook
+Version: 2.0.7+3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4477432
-MD5sum: abdf211af2d118965143697e3541ae9f
-SHA1: 67871deacb720fc5b6dc197bd89761fc57188c0c
-SHA256: 216f7b0a5f059d27218f6149f3bec471be6acdae64884622e09ec01bbfd4014e
-Section: 软件增强
+Size: 4660736
+MD5sum: bd85a7c5b4c64f5367e5e373c63251e3
+SHA1: 9579846a2a78afa1c242377c0903f5f81effb20e
+SHA256: f6cb919359ee174ec3e2b38f1f2508f3bcdf5d7a6c7498dbf8e27d5dc20dad55
+Section: 抖音插件
 Description: 抖音功能增强插件
- - 去广告、无水印下载视频
- - 隐藏各种图层按钮文字等
- - 插件启用:双指双击屏幕打开插件设置界面
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+  - 去广告、无水印下载视频
+  - 隐藏各种图层按钮文字等
+  - 插件启用:双指双击屏幕打开插件设置界面
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
-Icon:  
 Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.douyintuceng.Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
 Package: lym.netskao.deletephotoscompletely-rootless
 Version: 1.2-2
