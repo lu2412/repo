@@ -360,24 +360,6 @@ Icon:  
 Name: SafariFind长按分享查找-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Safari.json
 
-Package: lym.Safarigb
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/ControlTab - 控制Safari标签页-Rootless.deb
-Size: 6348
-MD5sum: a95fc15c41783e89d28c054315b15a03
-SHA1: 0ac0a5708c92a12b0db9eca3ed4aaa974e5b1462
-SHA256: 1ebb2b686827f6ac8cbddc9e1e7569256b755901247398b7fc86aa4505009712
-Section: 系统增强
-Description: Safari工具栏添加按钮点击关闭标签页,长按新建标签页并弹出键盘
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: ControlTab - 控制Safari标签页-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Safarigb.json
-
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -465,6 +447,23 @@ Description: 控制中心模块五列显示
 Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
+
+Package: lym.com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/ControlTab - 控制Safari标签页-Rootless.deb
+Size: 6352
+MD5sum: df2c2f0638b2bf043e3cce67208fdff4
+SHA1: 43bd177eb49920bffb4700cd3633edb735888e7b
+SHA256: 1cb554aedeb654381727f5b07add50594dbefbb92c7e31a28f2dff9b0e4ed3d3
+Section: 系统增强
+Description: Safari工具栏添加按钮点击关闭标签页,长按新建标签页并弹出键盘
+  - 插件无设置项安装即可生效
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: ControlTab - 控制Safari标签页-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lclrc.controltab.json
 
 Package: lym.com.xx.dyhook
 Version: 2.0.7+3
