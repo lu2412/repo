@@ -280,6 +280,24 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.chunheijianpan-Rootless
+Version: 0.3
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/系统键盘纯黑-Rootless.deb
+Size: 4868
+MD5sum: 3843b41668e299719d30c066ecc94f24
+SHA1: fb589135da27011ac1cf2536a9a439419381631e
+SHA256: 00ef56c997276aee6661e523fb1ae5f282903a40518de1920f0e263cd0491fb2
+Section: 系统增强
+Description: 深色模式下键盘背景显示为纯黑
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: 系统键盘纯黑-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.chunheijianpan-Rootless.json
+
 Package: lym.douyintuceng-Rootless
 Version: 2.0.7-2
 Architecture: iphoneos-arm64
@@ -341,6 +359,24 @@ Author: lym
 Icon:  
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xiaohongshu-Rootless.json
+
+Package: lym.yjsp-Rootless
+Version: 0.3
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/一键锁屏-Rootless.deb
+Size: 30816
+MD5sum: 4ecd007317e4d40808b7c34a2bb8c294
+SHA1: 1927d535563efbf88135ab01d732746a8f375fe0
+SHA256: 23074dfe8e93d9ea73447b31e9eb3b63697acb8027bebbf2d08fa4bc8d91e12d
+Section: 系统增强
+Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  https://liym5238.github.io/liym/icon/yjsp.png
+Name: 一键锁屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.yjsp-Rootless.json
 
 Package: pdd-Rootless
 Version: 1.0
