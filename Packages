@@ -265,10 +265,10 @@ Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/StoreSwitchAccounts账号切换-Rootless.deb
-Size: 102308
-MD5sum: a287171f08f98d103f20126ab4e3fb00
-SHA1: e283deaaa49cbfe9e7a9cc903e9b46e60ab7f9f7
-SHA256: 5ae9989ae83d7dad780061e45046aa2cf008e7a34983d5901c16f05208601594
+Size: 102708
+MD5sum: 77ff28c51309d91bff7af64c37bf941c
+SHA1: 832ed0e0830bb91d1b54233e5cd225ed1c3d20b0
+SHA256: 2c256f52f9ba88336b945329db2dd7959be84cc292c990acef2a76245c4cfd91
 Section: 系统增强
 Description: 快速切换App Store账号
  - 快速在登录帐户之间切换
@@ -278,7 +278,7 @@ Description: 快速切换App Store账号
 Author: lym
 Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
 Package: pdd-Rootless
 Version: 1.0
