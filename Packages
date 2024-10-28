@@ -280,6 +280,47 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.douyintuceng-Rootless
+Version: 2.0.7-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/抖音图层-Rootless.deb
+Size: 4478484
+MD5sum: fcca22139599e31cf1e290a97420080b
+SHA1: 05acb2a5b4333ef5812432c5fd7156823f992316
+SHA256: 37349416f4414a46a913e119818c02b41d131f5cf64e8e0ee397825b7e6013b6
+Section: 软件增强
+Description: 抖音功能增强插件
+ - 去广告、无水印下载视频
+ - 隐藏各种图层按钮文字等
+ - 插件启用:双指双击屏幕打开插件设置界面
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: 抖音图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.douyintuceng-Rootless.json
+
+Package: lym.qqtc-Rootless
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/QQ图层-Rootless.deb
+Size: 785408
+MD5sum: 821299c72eb972fe53a6ae522fae96ca
+SHA1: c29b7f3d29dffd1027cab007f9cd9e0d9fd08c9d
+SHA256: 433dc7cbd048dece993e0a466db376b02577dd41115466986e150ec8659d1b96
+Section: 软件增强
+Description: QQ功能增强
+ - QQ功能增强精简无用组件
+ - 消息防撤回，闪图保存等
+ - 去除个人主页服务卡片
+ - 截止目前支持 11.0.40 版本
+ - 插件启用：QQ设置-辅助功能-右上角开启
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtc-Rootless.json
+
 Package: lym.xiaohongshu-Rootless
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -353,27 +394,6 @@ Description: 修改QQ聊天输入框为圆角样式
 Author: lym
 Name: QQ圆角输入框-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqshurukuang-Rootless.json
-
-Package: qqtc-Rootless
-Version: 1.1.1-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/QQ图层-Rootless.deb
-Size: 785600
-MD5sum: 182fa264b6fe83ab0e1e05f6aeefec95
-SHA1: c84f71914eecd9eafc3758baeb3fc8f22e16095a
-SHA256: 30ced31469258d0e76335c9dcf6ea4aa30542b0f068d289f0228d5aea52d6ee1
-Section: 软件增强
-Description: QQ功能增强
- - QQ功能增强精简无用组件
- - 消息防撤回，闪图保存等
- - 去除个人主页服务卡片
- - 截止目前支持 11.0.40 版本
- - 插件启用：QQ设置-辅助功能-右上角开启
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtc-Rootless.json
 
 Package: qqtouxiang-Rootless
 Version: 1.2-2

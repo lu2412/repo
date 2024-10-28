@@ -17,20 +17,20 @@
         },
         {
             "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
-            "title": " ",
-            "package": "lym.xhstc-Rootless",
+            "title": "小红薯",
+            "package": "lym.xiaohongshu-Rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/douyin.png",
             "title": "抖音图层",
-            "package": "com.xx.dyhooks",
+            "package": "lym.douyintuceng-Rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/qq.png",
             "title": "QQ图层",
-            "package": "qqtc-Rootless",
+            "package": "lym.qqtc-Rootless",
             "hideShadow": true
         }
     ]
