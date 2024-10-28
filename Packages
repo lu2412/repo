@@ -285,11 +285,11 @@ Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1108600
-MD5sum: dca65c36b35cbd8f08d0084837d7ce3f
-SHA1: ba52ac72ddf31ede7291415fd4fd8f901b9957a4
-SHA256: 992949351985b9dad8cb6c0ad83b5b595f1c2027eb8ec7c72bde251e153c7ea2
-Section: 系统增强
+Size: 1107840
+MD5sum: 67699286930a12e09bf98bab2dc89d9b
+SHA1: 0acdddb7c0025a668cc573127a55607c069c2ca6
+SHA256: 824524ee091231d06a9328d8d88ecd4a3601a4daf53776bfcc4007504bd2d387
+Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
  - 无水印保存图片视频、live图、评论区图片

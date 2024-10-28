@@ -1,38 +1,37 @@
 {
- "class": "FeaturedBannersView",
- "itemSize": "{350, 160}",
- "itemCornerRadius": 10,
- "banners": [
-  {
-   "url": "https://liym5238.github.io/liym/icon/weixin.png",
-   "title": "WeChat",
-   "package": "com.25mao.miyou.rootless",
-   "hideShadow": true
-  },
-  {
-   "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
-   "title": "Alipay",
-   "package": "zhifubao-Rootless",
-   "hideShadow": true
-  },
-  {
-   "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
-   "title": " ",
-   "package": "xhstc-Rootless",
-   "hideShadow": true
-  },
-  {
-   "url": "https://liym5238.github.io/liym/icon/douyin.png",
-   "title": "抖音图层",
-   "package": "com.xx.dyhooks",
-   "hideShadow": true
-  },
-  {
-   "url": "https://liym5238.github.io/liym/icon/qq.png",
-   "title": "QQ图层",
-   "package": "qqtc-Rootless",
-   "hideShadow": true
-  },
-  }
- ]
+    "class": "FeaturedBannersView",
+    "itemSize": "{350, 160}",
+    "itemCornerRadius": 10,
+    "banners": [
+        {
+            "url": "https://liym5238.github.io/liym/icon/weixin.png",
+            "title": "WeChat",
+            "package": "com.25mao.miyou.rootless",
+            "hideShadow": true
+        },
+        {
+            "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
+            "title": "Alipay",
+            "package": "zhifubao-Rootless",
+            "hideShadow": true
+        },
+        {
+            "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
+            "title": " ",
+            "package": "lym.xhstc-Rootless",
+            "hideShadow": true
+        },
+        {
+            "url": "https://liym5238.github.io/liym/icon/douyin.png",
+            "title": "抖音图层",
+            "package": "com.xx.dyhooks",
+            "hideShadow": true
+        },
+        {
+            "url": "https://liym5238.github.io/liym/icon/qq.png",
+            "title": "QQ图层",
+            "package": "qqtc-Rootless",
+            "hideShadow": true
+        }
+    ]
 }
