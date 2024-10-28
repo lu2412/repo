@@ -260,6 +260,42 @@ Author: lym
 Name: 酷安去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
+Package: lym.Safari
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/SafariFind长按分享查找-Rootless.deb
+Size: 8196
+MD5sum: 7838c2918f023a2963a4178aa1384843
+SHA1: c25205045c1b2a508c666de4f3f4f87973222a99
+SHA256: 6c59880a7126cfe633a390b58c3613bb3133196a2145aae50ea12cd7814ccc5b
+Section: 系统增强
+Description: Safari中长按共享按钮弹出搜索框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: SafariFind长按分享查找-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Safari.json
+
+Package: lym.Safarigb
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/ControlTab - 控制Safari标签页-Rootless.deb
+Size: 6348
+MD5sum: a95fc15c41783e89d28c054315b15a03
+SHA1: 0ac0a5708c92a12b0db9eca3ed4aaa974e5b1462
+SHA256: 1ebb2b686827f6ac8cbddc9e1e7569256b755901247398b7fc86aa4505009712
+Section: 系统增强
+Description: Safari工具栏添加按钮点击关闭标签页,长按新建标签页并弹出键盘
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: ControlTab - 控制Safari标签页-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Safarigb.json
+
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -298,15 +334,15 @@ Icon:  
 Name: 系统键盘纯黑-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.chunheijianpan-Rootless.json
 
-Package: lym.douyintuceng-Rootless
+Package: lym.douyintuceng.Rootless
 Version: 2.0.7-2
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4478484
-MD5sum: fcca22139599e31cf1e290a97420080b
-SHA1: 05acb2a5b4333ef5812432c5fd7156823f992316
-SHA256: 37349416f4414a46a913e119818c02b41d131f5cf64e8e0ee397825b7e6013b6
+Size: 4477432
+MD5sum: abdf211af2d118965143697e3541ae9f
+SHA1: 67871deacb720fc5b6dc197bd89761fc57188c0c
+SHA256: 216f7b0a5f059d27218f6149f3bec471be6acdae64884622e09ec01bbfd4014e
 Section: 软件增强
 Description: 抖音功能增强插件
  - 去广告、无水印下载视频
@@ -316,17 +352,17 @@ Description: 抖音功能增强插件
 Author: lym
 Icon:  
 Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.douyintuceng-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.douyintuceng.Rootless.json
 
-Package: lym.qqtc-Rootless
+Package: lym.qqtc.Rootless
 Version: 1.1.1-2
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 785936
-MD5sum: ca5cf56792ca3f50cc585ca6a92c3dc6
-SHA1: 28ff6911d4265d924fe72074118b0a794a86c758
-SHA256: 552e564d69c761eda65efe76ecda0ca4acae3c14b520dadffdea565c768f5e86
+Size: 785992
+MD5sum: 427c16bad3ca3a3c52d3956a57cd59d3
+SHA1: 5b02c50e08ea87ccdef9f49ce4cce398cd279260
+SHA256: c2b904a12ea3a0938928cf0601c418c3e6ba218ec8f6baefb10dd190bc6396f2
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -337,17 +373,17 @@ Description: QQ功能增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqtc-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqtc.Rootless.json
 
-Package: lym.xiaohongshu-Rootless
+Package: lym.xiaohongshu.Rootless
 Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1107840
-MD5sum: 67699286930a12e09bf98bab2dc89d9b
-SHA1: 0acdddb7c0025a668cc573127a55607c069c2ca6
-SHA256: 824524ee091231d06a9328d8d88ecd4a3601a4daf53776bfcc4007504bd2d387
+Size: 1107772
+MD5sum: 8b60cccf9631b58d9292a5ba6a9cb90b
+SHA1: 45826d8f2c2798676a8844002d10b6a7ea82794b
+SHA256: d75125ad79f083c3cd1851d3d2fff05c485816ee41b7044a8af00a4a4af13c42
 Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
@@ -358,7 +394,7 @@ Description: 小红书软件增强
 Author: lym
 Icon:  
 Name: 小红书图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xiaohongshu-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xiaohongshu.Rootless.json
 
 Package: lym.yjsp-Rootless
 Version: 0.3
@@ -562,15 +598,15 @@ Author: lym
 Name: 什么值得买去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/zhidemai-Rootless.json
 
-Package: zhifubao-Rootless
+Package: zhifubao.Rootless
 Version: 1.1-3
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
-Size: 72676
-MD5sum: 691c09c6c3bf0392daaf743047d53bc5
-SHA1: de0fc760d8ade7a8c8db2ae25d80b75e7e6ec987
-SHA256: 9c393710177b2395b4c4de734064a6b6f79de521417eaf175af58847ccbe46d9
+Size: 72664
+MD5sum: e51d16650f1af1b1234819d82e632e6a
+SHA1: 591b9f2ef3e7c1d2158195913ce697b50c8ac567
+SHA256: 11935345bb7cb905d7c19acd40d2312cdf740b1900570b5192359a3ff85ae7f8
 Section: 软件增强
 Description: 支付宝去除底部理财选项
  - 截止目前支持 10.6.56 版本
@@ -578,5 +614,5 @@ Description: 支付宝去除底部理财选项
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 支付宝去除底部理财选项-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter.Rootless.json
 
