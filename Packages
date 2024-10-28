@@ -260,6 +260,26 @@ Author: lym
 Name: 酷安去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
+Package: lym.StoreSwitchAccounts-Rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/StoreSwitchAccounts账号切换-Rootless.deb
+Size: 102308
+MD5sum: a287171f08f98d103f20126ab4e3fb00
+SHA1: e283deaaa49cbfe9e7a9cc903e9b46e60ab7f9f7
+SHA256: 5ae9989ae83d7dad780061e45046aa2cf008e7a34983d5901c16f05208601594
+Section: 系统增强
+Description: 快速切换App Store账号
+ - 快速在登录帐户之间切换
+ - 长按桌面AppStore图标进行切换
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: StoreSwitchAccounts账号切换-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
+
 Package: pdd-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
