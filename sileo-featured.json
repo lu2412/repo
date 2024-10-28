@@ -18,26 +18,21 @@
   {
    "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
    "title": " ",
-   "package": "xiaohongshu-Rootless",
+   "package": "xhstc-Rootless",
    "hideShadow": true
   },
   {
    "url": "https://liym5238.github.io/liym/icon/douyin.png",
-   "title": " ",
+   "title": "抖音图层",
    "package": "com.xx.dyhooks",
    "hideShadow": true
   },
   {
-   "url": "https://liym5238.github.io/liym/icon/QQ.png",
+   "url": "https://liym5238.github.io/liym/icon/qq.png",
    "title": "QQ图层",
    "package": "qqtc-Rootless",
    "hideShadow": true
   },
-  {
-   "url": "https://liym5238.github.io/liym/icon/dongman.png",
-   "title": "Velvet 2",
-   "package": "com.dao.velvet2",
-   "hideShadow": true
   }
  ]
 }

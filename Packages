@@ -280,6 +280,27 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.xiaohongshu-Rootless
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/小红书图层-Rootless.deb
+Size: 1108600
+MD5sum: dca65c36b35cbd8f08d0084837d7ce3f
+SHA1: ba52ac72ddf31ede7291415fd4fd8f901b9957a4
+SHA256: 992949351985b9dad8cb6c0ad83b5b595f1c2027eb8ec7c72bde251e153c7ea2
+Section: 系统增强
+Description: 小红书软件增强
+ - 默认移除一些广告
+ - 无水印保存图片视频、live图、评论区图片
+ - 长按复制文案、放大图片双指长按可保存高分辨率图片
+ - 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面n-截止目前支持8.58.1版本
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Icon:  
+Name: 小红书图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xiaohongshu-Rootless.json
+
 Package: pdd-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -408,26 +429,6 @@ Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
-
-Package: xhstc-Rootless
-Version: 1.1.1-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/小红薯图层-Rootless.deb
-Size: 1113584
-MD5sum: fa7abd3e818f976b9aba3a8b73704ea2
-SHA1: 4822d184c26a5ef9b1dd792826cf1af29209795c
-SHA256: 4c03963b8c77412467491da0b12eb408f483f6ca60286261284ad9ccebc91383
-Section: 软件增强
-Description: 小红薯去广告优化等
- - 默认移除一些广告
- - 无水印保存图片、视频、live图、评论区图片
- - 长按复制文案、放大图片双指长按可保存高分辨率图片
- - 插件启用：APP设置界面右上角打开插件界面或双指长按设置界面
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 小红薯图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xhstc-Rootless.json
 
 Package: xtfl-Rootless
 Version: 2.2
