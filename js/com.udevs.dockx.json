@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "### 插件介绍\n- 设置顶部增加小部件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "### 插件介绍\n- 经典键盘类插件DockX\n- 按钮图标可通过修改配置文件\n- /var/jb/var/mobile/Library/Preferences/com.udevs.dockx.plist\n- 中的images13字段实现,修改后打开多巴胺app重启用户空间\n- 按钮文字在/var/jb/Library/PreferenceBundles/DockXPrefs.bundle\n- 到对应语言包的Localizable.strings进行修改\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.2.3",
+                    "text": "2.6.2",
                     "title": "插件版本"
                 },
                 {
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.2.3\n- 发布初始版本\n- > 2024-10-28"
+                    "markdown": "### 版本 2.6.2\n- 修复支持Dopamine版本\n- > 2024-10-28"
                 }
             ]
         }
