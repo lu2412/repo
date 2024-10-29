@@ -486,6 +486,25 @@ Author: lym
 Name: EdgeSiri模仿ios18界面 -Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.edge.siri.json
 
+Package: lym.com.hk.choicy.cn.rl
+Version: 1.4.6
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.hk.choicy.cn.rl
+Filename: ./debs/Choicy 简体中文包-Rootless.deb
+Size: 4432
+MD5sum: c8e54cec8ab3488be5a3e37fb0f9a6d5
+SHA1: c641b9920e0e8067d3f832912dc90298830b6b2b
+SHA256: 5960543252408877d26d077d5672182bb993f68ed26b8d960df62525f261079c
+Section: 插件汉化
+Description:
+ - Choicy 简体中文包
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Choicy 简体中文包-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
+
 Package: lym.com.huami.dyyy
 Version: 1.6-2
 Architecture: iphoneos-arm64
