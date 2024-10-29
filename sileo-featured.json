@@ -12,13 +12,13 @@
         {
             "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
             "title": "Alipay",
-            "package": "zhifubao.Rootless",
+            "package": "lym.netskao.alipayhooks-rootless",
             "hideShadow": true
         },
         {
             "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
             "title": "小红薯",
-            "package": "lym.xiaohongshu.Rootless",
+            "package": "lym.com.xx.xhshook",
             "hideShadow": true
         },
         {
