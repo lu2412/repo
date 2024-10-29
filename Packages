@@ -380,6 +380,25 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.byg.iosios.net.caise.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: byg.iosios.net.caise.siri
+Filename: ./debs/EdgeSiri模仿ios18界面 -Rootless.deb
+Size: 523656
+MD5sum: ba23d8d9de763b599c135bfcd6f2dfda
+SHA1: c16df0b45f9fd070e166312ed24e61c21ff6dd7c
+SHA256: 3d676cacd91be058c753533112cbf23020209f4b6bebe550f89ccfee6315baaf
+Section: 系统增强
+Description: EdgeSiri模仿ios18界面
+ - 在Siri激活时在屏幕周围显示彩色边框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: EdgeSiri模仿ios18界面 -Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.caise.siri.json
+
 Package: lym.chunheijianpan-Rootless
 Version: 0.3
 Architecture: iphoneos-arm64
@@ -403,11 +422,11 @@ Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/SwipeExtenderX键盘增强(汉化包)-Rootless.deb
-Size: 10532
-MD5sum: 3596eb7f94555a20c3bf60eef81b7cc3
-SHA1: 2bc05703d1ba613003ab9e39ea45bee7bf14cfd7
-SHA256: ae2ba99ba7e792e153c8d79b3da34437fa0f89d2628c70ed9e61ee6fb197f3ca
-Section: 系统增强
+Size: 10416
+MD5sum: 1d7a52d181f6c54ac6eed5d65099ac31
+SHA1: a145c64364c6d34f23c3714e5b412a29f0def401
+SHA256: 46ff16dc05d474d3bbfe9c7d8faedddc6c5da895e6885ce62b789a4a0f813f90
+Section: 插件汉化
 Description: SwipeExtenderX汉化包
  - SwipeExtenderX的专用插件汉化包
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
@@ -467,24 +486,24 @@ Author: lym
 Name: CC18-iOS18圆角控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
 
-Package: lym.com.edge.siri
-Version: 3.1.1-9
+Package: lym.com.hk.atria.cn.rl
+Version: 1.4.1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Replaces: com.edge.siri
-Filename: ./debs/EdgeSiri模仿ios18界面 -Rootless.deb
-Size: 15204
-MD5sum: e7f73984992255fd29d56d037cccecfa
-SHA1: 0d7483aea8f347731966bd22060687797a96aa36
-SHA256: 1abaac0833d1d3c1b61624a6a9261c9c32aee7a952a1f8597f587d850a683ae3
-Section: 系统增强
-Description: EdgeSiri模仿ios18界面
- - 在Siri激活时在屏幕周围显示彩色边框
+Replaces: com.hk.atria.cn.rl
+Filename: ./debs/Atria 简体中文包-Rootless.deb
+Size: 8836
+MD5sum: a3929762e2383d38100bcc8f47e27653
+SHA1: 6fefdc272eb001ec292fde2bb8078a11cfdf5aab
+SHA256: 070b721a65ff79202634f644202d163fd5c4a0ee42485e5009b14a570ae255ee
+Section: 插件汉化
+Description:
+ - Atria 简体中文包
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
-Name: EdgeSiri模仿ios18界面 -Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.edge.siri.json
+Name: Atria 简体中文包-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.atria.cn.rl.json
 
 Package: lym.com.hk.choicy.cn.rl
 Version: 1.4.6
@@ -511,11 +530,11 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 19400
-MD5sum: 085f67c67598b86e419a4187da16db13
-SHA1: 38253b8637797de12ca4fa621c97884c0326c505
-SHA256: fe16ca4cd04cd95b75cb6f212558300d6da178f413ded2d5dcff38fcf83e9b52
-Section: 抖音增强
+Size: 19360
+MD5sum: 211090b3763e84a41f426275eea8ace1
+SHA1: 012663fb071b6974a9b50af732b45bbf628d2aae
+SHA256: aea69480ce267e8aad06cb2306dc86f41f042fcccfb1cfa20b198cc932ec03d3
+Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
  - 设置顶栏透明
