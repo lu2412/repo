@@ -448,6 +448,25 @@ Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
 
+Package: lym.com.edge.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.edge.siri
+Filename: ./debs/EdgeSiri模仿ios18界面 -Rootless.deb
+Size: 15204
+MD5sum: e7f73984992255fd29d56d037cccecfa
+SHA1: 0d7483aea8f347731966bd22060687797a96aa36
+SHA256: 1abaac0833d1d3c1b61624a6a9261c9c32aee7a952a1f8597f587d850a683ae3
+Section: 系统增强
+Description: EdgeSiri模仿ios18界面
+ - 在Siri激活时在屏幕周围显示彩色边框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: EdgeSiri模仿ios18界面 -Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.edge.siri.json
+
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -504,6 +523,25 @@ Author: lym
 Name: CCPay快捷支付-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
 
+Package: lym.com.telegram.return
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.telegram.return
+Filename: ./debs/Telegram换行键-Rootless.deb
+Size: 3832
+MD5sum: 757c93e6afa4cbe5bb083c51d5fa1e1f
+SHA1: dded99e0c0843036028238b1107f57a2d27fe9aa
+SHA256: 694843f1891cf79d48335352ab6d2c7ce5637c4cf16314c563e348f854808e8f
+Section: 软件增强
+Description: 把官方Telegram回车键/换行键修改为“发送”功能
+ - 第三方tg自带此功能无需安装
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Telegram换行键-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.telegram.return.json
+
 Package: lym.com.xx.dyhook
 Version: 2.0.7+3
 Architecture: iphoneos-arm64
@@ -522,6 +560,42 @@ Description: 抖音功能增强插件
 Author: lym
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
+
+Package: lym.netskao.ccsim-rootless
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: netskao.ccsim-rootless
+Filename: ./debs/CCSIM-Rootless.deb
+Size: 23564
+MD5sum: 94851b336c4c7b859c24cb4d4ac60ea3
+SHA1: 613659e3c1b8f033354c58661a3d13d7a8c8ecf2
+SHA256: 64a80a6dd89a3bdb660690ba4b40ca961a4a7a603c6b0962462d58d741878858
+Section: 控制中心
+Description: 对于双SIM卡用户可以通过控制中心快速启用或禁用其中一张SIM卡
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: CCSIM-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccsim-rootless.json
+
+Package: lym.netskao.ccswitchdata-rootless
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: netskao.ccswitchdata-rootless
+Filename: ./debs/CCSwitchData蜂窝-Rootless.deb
+Size: 20928
+MD5sum: 9d2e2f153c4f726445cb8e5db7904715
+SHA1: fdd729bfebdfee32fd5a9bf5876731acee7f7e6a
+SHA256: 8210492bb5e691a28be246a7850f7962e40df56629d8945051f509486312c558
+Section: 控制中心
+Description: 对于双SIM卡用户，可以通过控制中心快速切换选定的蜂窝网络
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: CCSwitchData蜂窝-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 
 Package: lym.netskao.deletephotoscompletely-rootless
 Version: 1.2-2
