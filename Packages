@@ -448,6 +448,25 @@ Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
 
+Package: lym.com.dvntm.cc18
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.dvntm.cc18
+Filename: ./debs/CC18-iOS18圆角控制中心-Rootless.deb
+Size: 4604
+MD5sum: 077532711fa8cc06306d6db20e48a327
+SHA1: 7bf4de2db3dde99c6266d3a39cdf8a3a025f9f5b
+SHA256: 4ab1c218531374ad5211869473c42f0ac8eb174efe314f87e92ca635afef1ff1
+Section: 控制中心
+Description: iOS18圆角控制中心
+ - 控制中心模块圆角化
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: CC18-iOS18圆角控制中心-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
+
 Package: lym.com.edge.siri
 Version: 3.1.1-9
 Architecture: iphoneos-arm64
@@ -466,6 +485,30 @@ Description: EdgeSiri模仿ios18界面
 Author: lym
 Name: EdgeSiri模仿ios18界面 -Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.edge.siri.json
+
+Package: lym.com.huami.dyyy
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.huami.dyyy
+Filename: ./debs/抖音 YYYY-Rootless.deb
+Size: 19400
+MD5sum: 085f67c67598b86e419a4187da16db13
+SHA1: 38253b8637797de12ca4fa621c97884c0326c505
+SHA256: fe16ca4cd04cd95b75cb6f212558300d6da178f413ded2d5dcff38fcf83e9b52
+Section: 抖音增强
+Description: 抖音增强插件
+ - 双指长按打开插件设置
+ - 设置顶栏透明
+ - 设置全局透明度
+ - 隐藏全屏观看
+ - 隐藏底栏加号
+ - 开启弹幕改色
+ - 新增默认倍速播放功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 抖音 YYYY-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
