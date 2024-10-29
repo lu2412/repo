@@ -380,6 +380,25 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.byg.iosios.net.caise.siri
+Version: 3.1.1-9
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: byg.iosios.net.caise.siri
+Filename: ./debs/Edge个性Siri-Rootless.deb
+Size: 15220
+MD5sum: 3a1ca56fb54626c9a6019b126bf9adad
+SHA1: 377abac001b4884b7276da966f9489dacaa5c140
+SHA256: 9f09f9d7234d5e4a6cdcf72ff95d8af40d1c0629e79c25325c4991fea5b2e48b
+Section: 系统美化
+Description: 一款模仿iOS18的插件
+ - 在 Siri 激活时在屏幕周围显示彩色边框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Edge个性Siri-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.caise.siri.json
+
 Package: lym.chunheijianpan-Rootless
 Version: 0.3
 Architecture: iphoneos-arm64
