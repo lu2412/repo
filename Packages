@@ -17,23 +17,6 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: Telegram-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4620
-MD5sum: e534a153292f98d3cb1cfa28cbd094e0
-SHA1: 0659e86118f789657f1abfde07258c82be4bc6b6
-SHA256: 02940ee2fe2d2685587a7f6ad9b221306dc0159928d9baf9fbea8231bda98cc8
-Section: 软件增强
-Description: Telegram去除分割线
- - 从Telegram包括第三方tg中删除分隔符
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Telegram删除分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Telegram-Rootless.json
-
 Package: Twitter-Rootless
 Version: 1.1.-1
 Architecture: iphoneos-arm64
@@ -639,6 +622,26 @@ Description: 抖音自动清除抖音喜欢点赞过的视频
 Author: lym
 Name: AwemeClearLikes清除抖音点赞-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikess.json
+
+Package: lym.com.screenshot.telegram
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.screenshot.telegram
+Filename: ./debs/Telegram解除截图和去除界面分割线-Rootless.deb
+Size: 6116
+MD5sum: 49a0e363fa8ef66d001cbc4f63f4ed57
+SHA1: 0f4f02a1c2978bb9748ef8355fa7be4a09bfc6d5
+SHA256: f365d5a7cb4cd97e9a31cde9fd923576163ff07c123d28a7338e1283af1f9def
+Section: 软件增强
+Description: Telegram功能增强
+ - 去除Telegram包括第三方tg中删除分隔符
+ - 解除部分群组或频道限制截图功能，安装后可以绕过限制
+ - 插件无设置项按照即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Telegram解除截图和去除界面分割线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.screenshot.telegram.json
 
 Package: lym.com.telegram.return
 Version: 1.0
