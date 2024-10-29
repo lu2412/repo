@@ -622,6 +622,24 @@ Author: lym
 Name: CCPay快捷支付-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
 
+Package: lym.com.netskao.awemeclearlikess
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.netskao.awemeclearlikess
+Filename: ./debs/AwemeClearLikes清除抖音点赞-Rootless.deb
+Size: 19956
+MD5sum: dfeab40653b53dd5a635f981d675d908
+SHA1: 1bdd381c6d0690e690659408ec5aefb8a86c293f
+SHA256: 776df74dd71b493d4b3271ceb20ace8015ef7c1e68fc33347387c75097891b10
+Section: 抖音插件
+Description: 抖音自动清除抖音喜欢点赞过的视频
+ - 使用方法:抖音-我-喜欢界面-摇晃手机
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: AwemeClearLikes清除抖音点赞-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikess.json
+
 Package: lym.com.telegram.return
 Version: 1.0
 Architecture: iphoneos-arm64
