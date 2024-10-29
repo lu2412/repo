@@ -448,6 +448,24 @@ Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
 
+Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.kingpuffdaddi.control-center.ccvpn.surge
+Filename: ./debs/CCVPNSurge-Rootless.deb
+Size: 25600
+MD5sum: 74e663cec09155fb7094d3aec160cf83
+SHA1: cf3845d4c62ffda24282d6d4f31f2563d46b71cb
+SHA256: e5bd0bdb7a100e0eea84a34b7cb72d1477c1717c646006d1b0f6c978b79366ea
+Section: 控制中心
+Description: 在控制中心添加VPN模块并把VPN图标修改为 Surge
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: CCVPNSurge-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kingpuffdaddi.control-center.ccvpn.surge.json
+
 Package: lym.com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -469,6 +487,23 @@ Author: lym
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
+Package: lym.com.netskao.awemeclearlikes
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/CCPay快捷支付-Rootless.deb
+Size: 15040
+MD5sum: eb62772637e7b5381edc864d647b32b3
+SHA1: 1a71a7550e3c36eb6d02341b56d51b3790d7e53b
+SHA256: 6a69f98bdada7056fe51a3a5971c63144fb80aecef8d0f25e31531cfd3bd0efb
+Section: 控制中心
+Description: 控制中心添加微信支付宝付款码,安装之后去控制中心添加模块
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: CCPay快捷支付-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
+
 Package: lym.com.xx.dyhook
 Version: 2.0.7+3
 Architecture: iphoneos-arm64
@@ -487,23 +522,6 @@ Description: 抖音功能增强插件
 Author: lym
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
-
-Package: lym.lym.lym.com.netskao.awemeclearlikes
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/CCPay快捷支付-Rootless.deb
-Size: 15056
-MD5sum: ded5bfcbffd7ec17fec671ed8c67e147
-SHA1: a904fcf33397898833bec42f1b9eb99ae24508b8
-SHA256: b99e168355780e3ff2227e6400a03b40784010fa0ca8f158cc2e9b9451e73a5d
-Section: 控制中心
-Description: 控制中心添加微信支付宝付款码,安装之后去控制中心添加模块
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: CCPay快捷支付-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.lym.lym.com.netskao.awemeclearlikes.json
 
 Package: lym.netskao.deletephotoscompletely-rootless
 Version: 1.2-2
