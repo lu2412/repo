@@ -18,7 +18,7 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "markdown": "插件介绍\n- 去除Telegram包括第三方tg中删除分隔符\n- 解除部分群组或频道限制截图功能，安装后可以绕过限制\n- 插件无设置项按照即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "### 插件介绍\n- 从 Telegram中 删除分隔符\n- 支持Telegram、Swiftgram、iMe、Turrit、Nicegram\n- Remove table view cell separators from Telegram\n- 截止目前支持11.2.1版本\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -54,7 +54,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月29日",
+                    "text": "2024年10月27日",
                     "title": "最后更新时间"
                 }
             ]
@@ -65,7 +65,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0\n- 把删除分割线和解除截图限制做个集合包\n- > 2024-10-29"
+                    "markdown": "### 版本 1.0\n- 修复第三方客户端不生效问题\n- 修复插件不生效问题\n- 转换支持Rootless和RootHide\n- > 2024-10-26"
                 }
             ]
         }
