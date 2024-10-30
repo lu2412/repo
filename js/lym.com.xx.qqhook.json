@@ -15,15 +15,53 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "### 插件介绍\n- QQ功能增强精简无用组件\n- 消息防撤回，闪图保存等\n- 截止目前支持 9.1.6 版本\n- 插件启用:QQ设置-辅助功能-右上角开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "插件介绍\n- QQ功能增强精简无用组件\n- 消息防撤回，闪图保存等\n- 插件启用:QQ设置-辅助功能-右上角开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
                 {
                     "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{240, 520}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Eclectic by主题展示1",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示2",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示3",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示4",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示5",
+                            "url": ""
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -54,7 +92,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月27日",
+                    "text": "2024年10月30日",
                     "title": "最后更新时间"
                 }
             ]
@@ -65,7 +103,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.1.1-2\n- 支持商店最新版本\n- > 2024-10-27"
+                    "markdown": "### 版本 1.1.1-2\n- 初始版本发布\n- > 2024-10-30"
                 }
             ]
         }

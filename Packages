@@ -738,6 +738,27 @@ Author: lym
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
+Package: lym.com.xx.qqhook
+Version: 1.1.1-2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: lym.qqtc.Rootless, lym.lym.qqtc.Rootless
+Filename: ./debs/QQ图层-Rootless.deb
+Size: 785224
+MD5sum: 706b92cc62cf5938ab8349206a11c556
+SHA1: c8ddd718e360a8288bd902594813371a114b8f8d
+SHA256: 918c269d6ebd0c0c1e8505ee4d7ae12f640618158e61a7f2c2fd036c18e861fb
+Section: 软件增强
+Description: QQ功能增强
+  - QQ功能增强精简无用组件
+  - 消息防撤回，闪图保存等
+  - 去除个人主页服务卡片
+  - 插件启用：QQ设置-辅助功能-右上角开启
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
+
 Package: lym.com.xx.xhshook
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -829,27 +850,6 @@ Description: DeletePhotosCompletely相册添加彻底删除按钮
 Author: lym
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.deletephotoscompletely-rootless.json
-
-Package: lym.qqtc.Rootless
-Version: 1.1.1-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/QQ图层-Rootless.deb
-Size: 785992
-MD5sum: 427c16bad3ca3a3c52d3956a57cd59d3
-SHA1: 5b02c50e08ea87ccdef9f49ce4cce398cd279260
-SHA256: c2b904a12ea3a0938928cf0601c418c3e6ba218ec8f6baefb10dd190bc6396f2
-Section: 软件增强
-Description: QQ功能增强
- - QQ功能增强精简无用组件
- - 消息防撤回，闪图保存等
- - 去除个人主页服务卡片
- - 截止目前支持 11.0.40 版本
- - 插件启用：QQ设置-辅助功能-右上角开启
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqtc.Rootless.json
 
 Package: lym.yjsp-Rootless
 Version: 0.3
