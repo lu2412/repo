@@ -471,6 +471,26 @@ Author: lym
 Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
+Package: lym.com.82flex.iconrestore
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 412
+Depends: firmware (>= 14.0), mobilesubstrate
+Replaces: com.82flex.iconrestore
+Filename: ./debs/Icon Restore 图标时光机-Rootless.deb
+Size: 29996
+MD5sum: b5581b50803226d4b74c87692fa0f6d6
+SHA1: 650d6d016f598eb996604f10196475f3243e7e48
+SHA256: c74a7e821f103edee351c20586345890109a6112b7035af79427ab2e1b5fee62
+Section: 系统美化
+Description: 图标时光机，备份或恢复主屏幕图标布局
+ - 由乌龙工作室出品。
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Icon Restore 图标时光机-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.iconrestore.json
+
 Package: lym.com.82flex.ohmyinsets
 Version: 0.1
 Architecture: iphoneos-arm64
