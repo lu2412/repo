@@ -30,7 +30,7 @@
         {
             "url": "https://liym5238.github.io/liym/icon/qq.png",
             "title": "QQ图层",
-            "package": "lym.xxx.qqhook",
+            "package": "lym.com.xxx.qqhook",
             "hideShadow": true
         }
     ]

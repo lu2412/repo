@@ -132,27 +132,6 @@ Author: lym
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.swipeextenderx.json
 
-Package: com.netskao.appdata
-Version: 1.4.3
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 4626652
-MD5sum: 3dbd4908d064efe38beeba67f9e07090
-SHA1: 0701a251b44b67c540e05d00ec7ce5d73819e39d
-SHA256: 1f0cc90d29ee41ed84cfb8514b6632a12caea92d39ba135a5a7c824b43006a91
-Section: 系统增强
-Description: 降级应用
- - 修改应用名称
- - 清除/重置应用数据
- - 重置应用权限
- - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: appData桌面图标增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.netskao.appdata.json
-
 Package: com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -645,6 +624,29 @@ Description: Safari工具栏添加按钮点击关闭标签页
 Author: lym
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
+Package: lym.com.netskao.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 13548
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Replaces: com.netskao.appdata
+Filename: ./debs/appData桌面图标增强-Rootless.deb
+Size: 5049996
+MD5sum: b0b8cd3f5cd20047c34232bbfdcf35c5
+SHA1: 04da54ddd656c7e9007b95f29b8e399ce73c420d
+SHA256: eacdf4a98723ebd4f66289fa5c39a88455d2e5b14efe48c49f3467be74a65da7
+Section: 系统增强
+Description: 降级应用
+ - 修改应用名称
+ - 清除/重置应用数据
+ - 重置应用权限
+ - 快速跳转Filza应用路径
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!!
+Author: lym
+Name: appData桌面图标增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
 Package: lym.com.netskao.awemeclearlikes
 Version: 0.0.1
