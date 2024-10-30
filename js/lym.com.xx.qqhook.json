@@ -25,7 +25,7 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
-                }
+                },
                 {
                     "class": "DepictionHeaderView",
                     "title": "预览",
@@ -37,12 +37,31 @@
                     "spacing": 8
                 },
                 {
-                    "accessibilityText": "Eclectic by主题展示1",
-                    "url": "https://liym5238.github.io/liym/icon/qqtc.png"
-                },
-                {
-                    "accessibilityText": "Eclectic by主题展示2",
-                    "url": "https://liym5238.github.io/liym/icon/qqtc1.png"
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{240, 520}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Eclectic by主题展示1",
+                            "url": "https://liym5238.github.io/liym/icon/weixin.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示2",
+                            "url": "https://liym5238.github.io/liym/icon/weixin1.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示3",
+                            "url": "https://liym5238.github.io/liym/icon/weixin2.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示4",
+                            "url": "https://liym5238.github.io/liym/icon/weixin3.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示5",
+                            "url": "https://liym5238.github.io/liym/icon/weixin4.png"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
