@@ -39,7 +39,7 @@
                 {
                     "class": "DepictionScreenshotsView",
                     "itemCornerRadius": 6,
-                    "itemSize": "{160, 346.4533333333333}",
+                    "itemSize": "{240, 520}",
                     "screenshots": [
                         {
                             "accessibilityText": "Eclectic by主题展示1",
@@ -51,15 +51,15 @@
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示3",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
+                            "url": ""
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示4",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby3.png"
+                            "url": ""
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示5",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby4.png"
+                            "url": ""
                         }
                     ]
                 },

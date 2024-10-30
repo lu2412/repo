@@ -332,10 +332,10 @@ Maintainer: lym
 Depends: mobilesubstrate, firmware (>= 15.0)
 Replaces: meihua.Themes, lym.meihua.Themes, Eclectic.Themes
 Filename: ./debs/Eclectic by主题-Rootless.deb
-Size: 38164172
-MD5sum: fd9d17242ef9d1875d0488afc5a13fe9
-SHA1: 4f1a19697056b146a4a222cd72e0a19f7903e4d3
-SHA256: 3357653a839adf4a37b0872ed38d94da1637b01c73ea29e4490023c9b73e11bb
+Size: 38164200
+MD5sum: 7e9d6c16ecd4eb91a0651f96729f478c
+SHA1: 55df92fe195b4b5bdd03b931850e83c7cdb9861f
+SHA256: 27f569a824fd9591532d0b3e24e36020f8cb4fddf6ace84d8d0a312a8e476390
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
