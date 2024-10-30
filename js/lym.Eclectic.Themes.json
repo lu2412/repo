@@ -16,6 +16,19 @@
                 {
                     "class": "DepictionSeparatorView"
                 },
+                {
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 16
+                },
                 ### 展示图片 - 共5张 ###
                 {
                     "class": "DepictionScreenshotsView",
@@ -32,32 +45,21 @@
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示3",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
+                            "url": ""
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示4",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby3.png"
+                            "url": ""
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示5",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby4.png"
+                            "url": ""
                         }
                     ]
                 },
                 ### 展示图片结束 ###
-
-                {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
-                    "openExternal": 1,
-                    "class": "DepictionButtonView"
-                },
                 {
                     "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
