@@ -326,23 +326,23 @@ Name: 酷安去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
 Package: lym.Eclectic.Themes
-Version: 1.0.1
+Version: 2.6
 Architecture: iphoneos-arm64
 Maintainer: lym
-Depends: mobilesubstrate, firmware (>= 15.0)
-Replaces: meihua.Themes, lym.meihua.Themes, Eclectic.Themes
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Replaces: zhuti.iosios.net.solsticerootless
 Filename: ./debs/Eclectic by主题-Rootless.deb
-Size: 38164200
-MD5sum: 7e9d6c16ecd4eb91a0651f96729f478c
-SHA1: 55df92fe195b4b5bdd03b931850e83c7cdb9861f
-SHA256: 27f569a824fd9591532d0b3e24e36020f8cb4fddf6ace84d8d0a312a8e476390
+Size: 38164220
+MD5sum: 263dab8aaf9ab27f2a4879cbf4532888
+SHA1: c0c24be9261ee2a9749441727027ee033e40180a
+SHA256: 9c98c557fcee1be186d12b8e01e4785a84486a951dfcb1b2babd2a0ac2f575a0
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Eclectic by主题-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zhuti.iosios.net.solsticerootless.json
 
 Package: lym.Safari
 Version: 1.1.2
