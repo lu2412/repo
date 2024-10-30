@@ -662,6 +662,24 @@ Author: lym
 Name: Telegram解除截图和去除界面分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.screenshot.telegram.json
 
+Package: lym.com.sini.textforsnapper3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: com.sini.textforsnapper3
+Filename: ./debs/Snapper 3文字图标-Rootless.deb
+Size: 25172
+MD5sum: 1badbe871a2bc807c888cb8eb75049b0
+SHA1: c1fa14666da569977593b9c711ba4b37a634acc8
+SHA256: 962ddb750a0e3243c79a8411630c4bc41b927119e53bd42d6ff4739cd8764423
+Section: 系统美化
+Description: Snapper 3自用文字美化图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Snapper 3文字图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.textforsnapper3.json
+
 Package: lym.com.telegram.return
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -830,6 +848,24 @@ Author: lym
 Icon:  https://liym5238.github.io/liym/icon/yjsp.png
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.yjsp-Rootless.json
+
+Package: lym1.com.sini.textforsnapper3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: lym1.com.sini.textforsnapper3
+Filename: ./debs/Snapper 3蓝色发光文字图标-Rootless.deb
+Size: 91876
+MD5sum: a965878d09d62da84762e4f30c9818fb
+SHA1: 0edc8ba781b2a822591d6ffdf34e5102a7a47f24
+SHA256: 68f55edf44525ffdd5b8a9418e1cbcc6d3d2c48a7ce22b95f6cc763a0a8b13b5
+Section: 系统美化
+Description: Snapper 3自用蓝色发光文字美化图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Snapper 3蓝色发光文字图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
 
 Package: pdd-Rootless
 Version: 1.0
