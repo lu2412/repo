@@ -8,6 +8,14 @@
             "class": "DepictionStackView",
             "tabname": "描述",
             "views": [
+                {
+                    "markdown": "插件介绍\n- SnowBoard自用Eclectic by主题包\n- 主题安装后去SnowBoard设置里面启用生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 ### 展示图片 - 共5张 ###
                 {
                     "class": "DepictionScreenshotsView",
@@ -24,15 +32,15 @@
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示3",
-                            "url": ""
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示4",
-                            "url": ""
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby3.png"
                         },
                         {
                             "accessibilityText": "Eclectic by主题展示5",
-                            "url": ""
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby4.png"
                         }
                     ]
                 },
@@ -43,14 +51,6 @@
                     "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "插件介绍\n- SnowBoard自用Eclectic by主题包\n- 主题安装后去SnowBoard设置里面启用生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
                 },
                 {
                     "class": "DepictionSeparatorView"
