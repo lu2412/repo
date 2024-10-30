@@ -15,10 +15,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "插件介绍\n- SnowBoard自用Eclectic by主题包\n- 主题安装后去SnowBoard设置里面启用生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "插件介绍\n- QQ功能增强精简无用组件\n- 消息防撤回，闪图保存等\n- 插件启用:QQ设置-辅助功能-右上角开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -26,29 +23,23 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "预览图",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionImageView",
-                    "image": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby.png"
-                },
-                {
-                    "class": "DepictionImageView",
-                    "image": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby1.png"
-                },
-                {
-                    "class": "DepictionImageView",
-                    "image": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby2.png"
-                },
-                {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{250, 520}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby2.png"
+                        }
+                    ]
                 },
                 {
                     "class": "DepictionSpacerView",
