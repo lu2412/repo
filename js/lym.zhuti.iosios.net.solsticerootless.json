@@ -15,6 +15,9 @@
                     "class": "DepictionButtonView"
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "markdown": "插件介绍\n- SnowBoard自用Eclectic by主题包\n- 主题安装后去SnowBoard设置里面启用生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
@@ -24,44 +27,28 @@
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "spacing": 16
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "预览",
+                    "title": "预览图",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
+                    "class": "DepictionImageView",
+                    "image": "https://liym5238.github.io/liym/icon/Eclecticby.png"
                 },
                 {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{240, 520}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Eclectic by主题展示1",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby.png"
-                        },
-                        {
-                            "accessibilityText": "Eclectic by主题展示2",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby1.png"
-                        },
-                        {
-                            "accessibilityText": "Eclectic by主题展示3",
-                            "url": ""
-                        },
-                        {
-                            "accessibilityText": "Eclectic by主题展示4",
-                            "url": ""
-                        },
-                        {
-                            "accessibilityText": "Eclectic by主题展示5",
-                            "url": ""
-                        }
-                    ]
+                    "class": "DepictionImageView",
+                    "image": "https://liym5238.github.io/liym/icon/Eclecticby1.png"
+                },
+                {
+                    "class": "DepictionImageView",
+                    "image": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
+                },
+                {
+                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -82,7 +69,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.6",
+                    "text": "1.1.1-2",
                     "title": "插件版本"
                 },
                 {
@@ -103,7 +90,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.6\n- 初始版本发布\n- > 2024-10-30"
+                    "markdown": "### 版本 1.1.1-2\n- 初始版本发布\n- > 2024-10-30"
                 }
             ]
         }
