@@ -325,6 +325,25 @@ Author: lym
 Name: 酷安去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
+Package: lym.Eclectic.Themes
+Version: 2.6
+Architecture: iphoneos-arm64
+Maintainer: lym
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Replaces: zhuti.iosios.net.solsticerootless
+Filename: ./debs/Eclectic by主题-Rootless.deb
+Size: 38164152
+MD5sum: b7b4e99c624296bef1033f308911efb8
+SHA1: b7b46970c26b3b484766d41c4014a6d1320b0d83
+SHA256: ab472751773ba689562d77b382d451184621cafb42af7899a35a8eda5ee876a0
+Section: 系统美化
+Description: SnowBoard自用Eclectic by主题包
+ - 主题安装后去SnowBoard设置里面启用生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Eclectic by主题-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zhuti.iosios.net.solsticerootless.json
+
 Package: lym.Safari
 Version: 1.1.2
 Architecture: iphoneos-arm64
