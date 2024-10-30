@@ -325,6 +325,25 @@ Author: lym
 Name: 酷安去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
+Package: lym.Eclectic.Themes
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: meihua.Themes, lym.meihua.Themes, Eclectic.Themes
+Filename: ./debs/Eclectic by主题-Rootless.deb
+Size: 38164172
+MD5sum: fd9d17242ef9d1875d0488afc5a13fe9
+SHA1: 4f1a19697056b146a4a222cd72e0a19f7903e4d3
+SHA256: 3357653a839adf4a37b0872ed38d94da1637b01c73ea29e4490023c9b73e11bb
+Section: 系统美化
+Description: SnowBoard自用Eclectic by主题包
+ - 主题安装后去SnowBoard设置里面启用生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Eclectic by主题-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
+
 Package: lym.Safari
 Version: 1.1.2
 Architecture: iphoneos-arm64
@@ -739,25 +758,6 @@ Description: 小红书软件增强
 Author: lym
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
-
-Package: lym.lym.meihua.Themes
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Depends: mobilesubstrate, firmware (>= 15.0)
-Replaces: meihua.Themes, lym.meihua.Themes
-Filename: ./debs/Eclectic by主题-Rootless.deb
-Size: 38164216
-MD5sum: 2165a5aeddfc777b29637a0db39f2491
-SHA1: 6c7308b32aa335684accfec4dbc0a53d054ad8c6
-SHA256: 073740fde2c6701ca33107fd5f46ed5f8d19a67d56230f0afdd8700a3419b6bf
-Section: 系统美化
-Description: SnowBoard自用Eclectic by主题包
- - 主题安装后去SnowBoard设置里面启用生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Eclectic by主题-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.lym.meihua.Themes.json
 
 Package: lym.netskao.alipayhooks-rootless
 Version: 1.1-3

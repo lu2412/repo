@@ -8,14 +8,36 @@
             "class": "DepictionStackView",
             "tabname": "描述",
             "views": [
+                ### 展示图片 - 共5张 ###
                 {
-                    "class": "DepictionImageView",
-                    "URL": "https://liym5238.github.io/liym/icon/Eclecticby.png"
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{160, 346.4533333333333}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Eclectic by主题展示1",
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示2",
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby1.png"
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示3",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示4",
+                            "url": ""
+                        },
+                        {
+                            "accessibilityText": "Eclectic by主题展示5",
+                            "url": ""
+                        }
+                    ]
                 },
-                {
-                    "class": "DepictionImageView",
-                    "URL": "https://liym5238.github.io/liym/icon/Eclecticby1.png"
-                },
+                ### 展示图片结束 ###
+
                 {
                     "text": "捐赠给开发者",
                     "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
