@@ -23,21 +23,35 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
                     "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "{250, 520}",
+                    "itemCornerRadius": 0,
+                    "itemSize": "{240, 520}",
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby.png"
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby1.png"
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby1.png"
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/image/Eclecticby2.png"
+                            "url": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
                         }
                     ]
                 },
