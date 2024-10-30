@@ -480,10 +480,10 @@ Depends: firmware (>= 14.0), mobilesubstrate
 Replaces: com.82flex.iconrestore
 Filename: ./debs/Icon Restore 图标时光机-Rootless.deb
 Size: 29996
-MD5sum: b5581b50803226d4b74c87692fa0f6d6
-SHA1: 650d6d016f598eb996604f10196475f3243e7e48
-SHA256: c74a7e821f103edee351c20586345890109a6112b7035af79427ab2e1b5fee62
-Section: 系统美化
+MD5sum: 0d6c350f28fc9c173626e4e56a5e0d9a
+SHA1: faabe542226dafd24199917e06c42d0de87af81e
+SHA256: 458ad69de293dcaff521181645bec0a2f88c7464ca62737263fc06de9792df62
+Section: 系统增强
 Description: 图标时光机，备份或恢复主屏幕图标布局
  - 由乌龙工作室出品。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
