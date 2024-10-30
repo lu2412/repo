@@ -23,17 +23,6 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "预览",
-                    "useBoldText": true
-                },
-                {
-                    "class": "DepictionImageView",
-                    "URL": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/icon/wenzi.png",
-                    "width": 250,
-                    "height": 250
-                },
-                {
                     "class": "DepictionSeparatorView"
                 },
                 {
