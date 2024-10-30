@@ -15,7 +15,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "插件介绍\n- QQ功能增强精简无用组件\n- 消息防撤回，闪图保存等\n- 插件启用:QQ设置-辅助功能-右上角开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "插件介绍\n- SnowBoard滑雪板自用主题\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -51,7 +51,7 @@
                         },
                         {
                             "accessibilityText": "Screenshot",
-                            "url": "https://liym5238.github.io/liym/icon/Eclecticby2.png"
+                            "url": "https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/icon/Eclecticby2.png"
                         }
                     ]
                 },
