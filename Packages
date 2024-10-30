@@ -706,10 +706,10 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: com.xx.xhshook
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1107496
-MD5sum: 13981ec9949b90f4de2eb7d133436eff
-SHA1: 944f7901db118c0738d5737152f30dff4812e693
-SHA256: 9e1355cf538187532dc8a26e628c8a9bb2fac8f8bbb3bc3d4174f522f096e89e
+Size: 1108008
+MD5sum: bb092d797774725bf832400ff88e1856
+SHA1: 4998fd4a441e34dc8c57a7c18d03b659bdb620dc
+SHA256: bb8bc440583580e95f66fc399b788429521ab4ccaf2c9ae3151ddab4b1fed512
 Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
