@@ -487,6 +487,27 @@ Author: lym
 Name: Oh My Insets控制中心五列-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
 
+Package: lym.com.82flex.removewidgetbg
+Version: 1.7
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 384
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
+Replaces: com.82flex.removewidgetbg
+Filename: ./debs/Remove Widget Background透明小组件-Rootless.deb
+Size: 29936
+MD5sum: 3a370077f8d9aa80b1e959c9192117f8
+SHA1: f9186a5f8c3ef0f63c1f264fab0daa7a57d9d9f1
+SHA256: b26fe9f2a15bee298672b625f4d72abe3230de125260e4cdabb33a3e943b22ae
+Section: 系统美化
+Description: 移除小组件背景
+ - 移除小组件桌面名称
+ - 支持桌面小组件，支持负一屏小组件
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Remove Widget Background透明小组件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
+
 Package: lym.com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64

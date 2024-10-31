@@ -15,10 +15,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "插件介绍\n- Snapper 3自用文字美化图标\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "插件介绍\n- 移除小组件背景\n- 移除小组件桌面名称\n- 支持桌面小组件，支持负一屏小组件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -27,18 +24,8 @@
                 },
                 {
                     "class": "DepictionSpacerView",
-                    "spacing": 16
+                    "spacing": 8
                 },
-                {
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 0,
-"itemSize": "{240, 520}",
-"screenshots": [
-    {
-        "accessibilityText": "Screenshot",
-        "url": "https://liym5238.github.io/liym/icon/Eclecticby.png"
-    }
-                ],
                 {
                     "class": "DepictionHeaderView",
                     "title": "详细信息",
@@ -54,7 +41,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "1.0.1",
+                    "text": "1.7",
                     "title": "插件版本"
                 },
                 {
@@ -70,12 +57,49 @@
             ]
         },
         {
+            "class": "DepictionSpacerView",
+            "spacing": 8
+        },
+        {
+            "class": "DepictionHeaderView",
+            "title": "预览",
+            "useBoldText": true,
+            "useBottomMargin": false
+        },
+        {
+            "class": "DepictionSpacerView",
+            "spacing": 8
+        },
+        {
+            "class": "DepictionScreenshotsView",
+            "itemCornerRadius": 0,
+            "itemSize": "{240, 250}",
+            "screenshots": [
+                {
+                    "accessibilityText": "Screenshot",
+                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
+                },
+                {
+                    "accessibilityText": "Screenshot",
+                    "url": ""
+                },
+                {
+                    "accessibilityText": "Screenshot",
+                    "url": ""
+                }
+            ]
+        },
+        {
+            "class": "DepictionSpacerView",
+            "spacing": 16
+        },
+        {
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0.1\n- 初始版本发布\n- > 2024-10-30"
+                    "markdown": "### 版本 1.7\n- 初始版本发布\n- > 2024-10-31"
                 }
             ]
         }
