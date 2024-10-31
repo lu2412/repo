@@ -803,21 +803,23 @@ Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
 Package: lym.com.xx.qqhook
-Version: 1.1.1-2
+Version: 1.1.1-1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Replaces: lym.qqtc.Rootless, lym.lym.qqtc.Rootless
+Installed-Size: 1600
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 785224
-MD5sum: 706b92cc62cf5938ab8349206a11c556
-SHA1: c8ddd718e360a8288bd902594813371a114b8f8d
-SHA256: 918c269d6ebd0c0c1e8505ee4d7ae12f640618158e61a7f2c2fd036c18e861fb
+Size: 577908
+MD5sum: d6c582d3c2f334f4663e35165bf220af
+SHA1: e7629d81c233133162f1fbadfd4602ef9dff99f6
+SHA256: c4f76fac34977f09ffa24c7e250ec9c06c7494b460cb7b115d8b64629f03b5ee
 Section: 软件增强
 Description: QQ功能增强
-  - QQ功能增强精简无用组件
-  - 消息防撤回，闪图保存等
-  - 去除个人主页服务卡片
-  - 插件启用：QQ设置-辅助功能-右上角开启
+ - QQ功能增强精简无用组件
+ - 消息防撤回，闪图保存等
+ - 去除个人主页服务卡片
+ - 插件启用：QQ设置-辅助功能-右上角开启
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ图层-Rootless
