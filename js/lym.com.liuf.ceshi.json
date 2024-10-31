@@ -19,45 +19,50 @@
                     "markdown": "### 插件介绍\n- sileo头像转圈圈\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
-                      "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10, 10}",
-                      "screenshots": [
-                            ]
-                  },
-
-                  {
-                      "class": "DepictionHeaderView",
-                      "title": "详细信息",
-                      "useBoldText": true,
-                      "useBottomMargin": false
-                  },
-                  {
-                      "class": "DepictionTableTextView",
-                      "text": "0.0.1",
-                      "title": "插件版本"
-                  },
-                  {
-                      "class": "DepictionTableTextView",
-                      "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
-                  },
-                  {
-                      "class": "DepictionTableTextView",
-                      "text": "2024年10月31日",
-                      "title": "最后更新时间"
-                  }
-              ]
-          },
-          {
-              "class": "DepictionStackView",
-              "tabname": "更新日志",
-              "views": [
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1\n- 初始版本发布\n- > 2024-10-31"
-                  }
-              ]
-          }
-      ]
+                    "class": "DepictionVideoView",
+                    "URL": "https://liym5238.github.io/liym/icon/touxiang.MP4",
+                    "autoPlay": true,
+                    "controls": true,
+                    "loop": false
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 6,
+                    "itemSize": "{10, 10}",
+                    "screenshots": []
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.0.1",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 16.5",
+                    "title": "支持的系统"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024年10月31日",
+                    "title": "最后更新时间"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 0.0.1\n- 初始版本发布\n- > 2024-10-31"
+                }
+            ]
+        }
+    ]
 }
