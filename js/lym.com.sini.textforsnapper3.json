@@ -19,43 +19,52 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "预览",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 8,
-                    "itemSize": "{250, 250}",
-                    "screenshots": [
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionMarkdownView",
+                            "markdown": "**预览**",
+                            "useSpacing": false
+                        },
+                        {
+                            "class": "DepictionScreenshotsView",
+                            "itemCornerRadius": 8,
+                            "itemSize": "{250, 250}",
+                            "screenshots": [
                                 {
                                     "accessibilityText": "Screenshot",
                                     "url": "https://liym5238.github.io/liym/icon/wenzi.png"
                                 }
                             ]
+                        }
+                    ]
                 },
 
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.0.1",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月31日",
-                    "title": "最后更新时间"
+                    "class": "DepictionStackView",
+                    "views": [
+                        {
+                            "class": "DepictionHeaderView",
+                            "title": "详细信息",
+                            "useBoldText": true,
+                            "useBottomMargin": false
+                        },
+                        {
+                            "class": "DepictionTableTextView",
+                            "text": "1.0.1",
+                            "title": "插件版本"
+                        },
+                        {
+                            "class": "DepictionTableTextView",
+                            "text": "iOS 15 - iOS 16.5",
+                            "title": "支持的系统"
+                        },
+                        {
+                            "class": "DepictionTableTextView",
+                            "text": "2024年10月31日",
+                            "title": "最后更新时间"
+                        }
+                    ]
                 }
             ]
         },
