@@ -192,25 +192,6 @@ Author: lym
 Name: 饿了么去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/elm-Rootless.json
 
-Package: fengexian-Rootless
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
-Size: 3948
-MD5sum: 55f8c69fb75682b3fc75f43e5dc1ef65
-SHA1: 87ab1baf774065f52035ae96a72d49629bfb2603
-SHA256: fa809f5be086cda66f0d681a4822b06ada42405ca7f2bbc69bcc774383241108
-Section: 系统增强
-Description: 去除全局分割线
- - 去除弹窗/UI/长按菜单等地方的分割线
- - NoLine的新版本,重构代码。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: PurifyLine去除全局分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/fengexian-Rootless.json
-
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -845,6 +826,26 @@ Description: 小红书软件增强
 Author: lym
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
+
+Package: lym.fengexian-rootless
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: fengexian-rootless
+Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
+Size: 4120
+MD5sum: 0d5fc642fbe11874b337d1cdc8d19e12
+SHA1: 3c6b4054984b3a0b8c65198d6a7b0a31b9d79f65
+SHA256: fd48b90f40f18e8f739574435f958fe768ff90bacde22d570bb679d66dd640c1
+Section: 软件增强
+Description: 去除全局分割线
+ - 去除弹窗/UI/长按菜单等地方的分割线
+ - NoLine的新版本,重构代码。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: PurifyLine去除全局分割线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.fengexian-rootless.json
 
 Package: lym.netskao.alipayhooks-rootless
 Version: 1.1-3
