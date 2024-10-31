@@ -648,6 +648,26 @@ Author: lym
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
+Package: lym.com.liuf.ceshi
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 168
+Depends: mobilesubstrate
+Replaces: com.liuf.ceshi
+Filename: ./debs/Sileo头像转圈圈-Rootless.deb
+Size: 4276
+MD5sum: e892346350782a29eae15f2ee793ebf4
+SHA1: d85f56b0f978f7bb1dbc04498098153702fd2f44
+SHA256: 756aaa7bc1cbb0cc4b069b7bd3b3a3559ef1b27112925e84a220f4284aad5add
+Section: 系统美化
+Description: Sileo头像转圈圈
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: Sileo头像转圈圈-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.liuf.ceshi.json
+
 Package: lym.com.netskao.appdata
 Version: 1.4.4
 Architecture: iphoneos-arm64
