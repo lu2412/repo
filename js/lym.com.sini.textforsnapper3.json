@@ -15,42 +15,33 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "markdown": "插件介绍\n- Snapper 3自用文字美化图标\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionStackView",
+                    "tabname": "预览",
+                    "views": [
+                        {
+                            "class": "DepictionScreenshotsView",
+                            "itemCornerRadius": 8,
+                            "itemSize": "{250, 250}",
+                            "screenshots": [
+                                {
+                                    "accessibilityText": "Screenshot",
+                                    "url": "https://liym5238.github.io/liym/icon/wenzi.png"
+                                }
+                            ]
+                        }
+                    ]
                 },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-"class": "DepictionScreenshotsView",
-"itemCornerRadius": 0,
-"itemSize": "{240, 520}",
-"screenshots": [
-    {
-        "accessibilityText": "Screenshot",
-        "url": "https://liym5238.github.io/liym/icon/Eclecticby.png"
-    }
-                ],
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "详细信息",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -64,7 +55,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2024年10月30日",
+                    "text": "2024年10月31日",
                     "title": "最后更新时间"
                 }
             ]
@@ -75,7 +66,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0.1\n- 初始版本发布\n- > 2024-10-30"
+                    "markdown": "### 版本 1.0.1\n- 初始版本发布\n- > 2024-10-31"
                 }
             ]
         }
