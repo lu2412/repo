@@ -22,27 +22,6 @@
                 {
                     "class": "DepictionSpacerView",
                     "spacing": 8
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.7",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月30日",
-                    "title": "最后更新时间"
                 }
             ]
         },
@@ -60,6 +39,27 @@
                             "url": "https://liym5238.github.io/liym/icon/dongman.png"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "详细信息",
+            "views": [
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.7",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 16.5",
+                    "title": "支持的系统"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2024年10月30日",
+                    "title": "最后更新时间"
                 }
             ]
         },
