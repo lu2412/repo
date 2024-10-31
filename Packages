@@ -508,6 +508,27 @@ Author: lym
 Name: Remove Widget Background透明小组件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
 
+Package: lym.com.82flex.wtvrbglauncher
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 404
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Replaces: com.82flex.wtvrbglauncher
+Filename: ./debs/语音转文字免跳转-Rootless.deb
+Size: 23312
+MD5sum: 69b7b048a5b45919d881050f0be0a5ab
+SHA1: ab205071ab18addc3234eacc15bad65a7143f850
+SHA256: 33429906547159a2d52b05fb3d7342684f8b43bc17471c9b85a4a3b509337b90
+Section: 系统增强
+Description: 中文输入法语音转文字免跳转插件
+ - 安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 语音转文字免跳转-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
+
 Package: lym.com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
