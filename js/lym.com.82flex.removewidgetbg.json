@@ -15,7 +15,7 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "插件介绍\n- 移除小组件背景\n- 移除小组件桌面名称\n- 支持桌面小组件，支持负一屏小组件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
+                    "markdown": "### 插件介绍\n- 移除小组件背景\n- 移除小组件桌面名称\n- 支持桌面小组件，支持负一屏小组件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
@@ -34,7 +34,7 @@
                                 },
                                 {
                                     "accessibilityText": "Screenshot",
-                                    "url": "https://liym5238.github.io/liym/icon/hengfu.png"
+                                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
                                 }
                             ]
                         }
