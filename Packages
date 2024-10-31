@@ -292,17 +292,17 @@ Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Replaces: zhuti.iosios.net.solsticerootless
 Filename: ./debs/Eclectic by主题-Rootless.deb
-Size: 38164152
-MD5sum: b7b4e99c624296bef1033f308911efb8
-SHA1: b7b46970c26b3b484766d41c4014a6d1320b0d83
-SHA256: ab472751773ba689562d77b382d451184621cafb42af7899a35a8eda5ee876a0
+Size: 38164108
+MD5sum: 69b2417ccfbae033a15eddb511188a76
+SHA1: 3e2f30ef26674ee7f128abff5a4387250624c273
+SHA256: 3699e4a5dd3c8e9776369b6f68541a4d64421c39f5b641e5bd430b9419f53fce
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Eclectic by主题-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zhuti.iosios.net.solsticerootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
 
 Package: lym.Safari
 Version: 1.1.2
@@ -647,26 +647,6 @@ Description: Safari工具栏添加按钮点击关闭标签页
 Author: lym
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
-
-Package: lym.com.liuf.ceshi
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 168
-Depends: mobilesubstrate
-Replaces: com.liuf.ceshi
-Filename: ./debs/Sileo头像转圈圈-Rootless.deb
-Size: 4276
-MD5sum: e892346350782a29eae15f2ee793ebf4
-SHA1: d85f56b0f978f7bb1dbc04498098153702fd2f44
-SHA256: 756aaa7bc1cbb0cc4b069b7bd3b3a3559ef1b27112925e84a220f4284aad5add
-Section: 系统美化
-Description: Sileo头像转圈圈
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Sileo头像转圈圈-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.netskao.appdata
 Version: 1.4.4
