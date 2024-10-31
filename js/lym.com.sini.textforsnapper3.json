@@ -15,12 +15,17 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "markdown": "插件介绍\n- Snapper 3自用文字美化图标\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!\n\n**预览**",
+                    "markdown": "插件介绍\n- Snapper 3自用文字美化图标\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "class": "DepictionHeaderView",
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": true
+                },
+                {
                     "class": "DepictionStackView",
-                    "tabname": "预览",
                     "views": [
                         {
                             "class": "DepictionScreenshotsView",
