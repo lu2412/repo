@@ -2,7 +2,7 @@
     "class": "DepictionTabView",
     "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
     "tintColor": "#87A2FF",
-    "minVersion": "0.3",
+    "minVersion": "0.2",
     "tabs": [
         {
             "class": "DepictionStackView",
@@ -36,11 +36,11 @@
                     "itemCornerRadius": 0,
                     "itemSize": "{240, 250}",
                     "screenshots": [
-                {
-                    "accessibilityText": "Screenshot",
-                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
-                }
-            ]
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://liym5238.github.io/liym/icon/dongman.png"
+                        }
+                    ]
                 },
                 {
                     "markdown": "插件介绍\n- 移除小组件背景\n- 移除小组件桌面名称\n- 支持桌面小组件，支持负一屏小组件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
