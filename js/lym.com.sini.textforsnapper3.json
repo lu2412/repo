@@ -19,29 +19,21 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "class": "DepictionHeaderView",
                     "title": "预览",
                     "useBoldText": true,
                     "useBottomMargin": false
                 },
                 {
-                    "class": "DepictionStackView",
-                    "views": [
-                        {
-                            "class": "DepictionScreenshotsView",
-                            "itemCornerRadius": 8,
-                            "itemSize": "{250, 250}",
-                            "screenshots": [
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{250, 250}",
+                    "screenshots": [
                                 {
                                     "accessibilityText": "Screenshot",
                                     "url": "https://liym5238.github.io/liym/icon/wenzi.png"
                                 }
                             ]
-                        }
-                    ]
                 },
 
                 {
