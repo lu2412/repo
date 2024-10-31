@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 删除app不定时弹出的评分窗口。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 屏蔽app不定时弹出的评分窗口。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 6,
-                      "itemSize": "{510,260}",
+                      "itemSize": "{410,200}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
