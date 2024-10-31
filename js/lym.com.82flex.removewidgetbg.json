@@ -2,7 +2,7 @@
     "class": "DepictionTabView",
     "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
     "tintColor": "#87A2FF",
-    "minVersion": "0.2",
+    "minVersion": "0.3",
     "tabs": [
         {
             "class": "DepictionStackView",
@@ -15,57 +15,33 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "预览",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 0,
-                    "itemSize": "{240, 250}",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://liym5238.github.io/liym/icon/dongman.png"
-                        }
-                    ]
-                },
-                {
                     "markdown": "插件介绍\n- 移除小组件背景\n- 移除小组件桌面名称\n- 支持桌面小组件，支持负一屏小组件\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
                     "useSpacing": true,
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
+                    "class": "DepictionStackView",
+                    "tabname": "预览",
+                    "views": [
+                        {
+                            "class": "DepictionScreenshotsView",
+                            "itemCornerRadius": 8,
+                            "itemSize": "{320, 640}",
+                            "screenshots": [
+                                {
+                                    "accessibilityText": "Screenshot",
+                                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
+                                }
+                            ]
+                        }
+                    ]
                 },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
+
                 {
                     "class": "DepictionHeaderView",
                     "title": "详细信息",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -85,16 +61,12 @@
             ]
         },
         {
-            "class": "DepictionSpacerView",
-            "spacing": 8
-        },
-        {
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.7\n初始版本发布\n- > 2024-10-31"
+                    "markdown": "### 版本 1.7\n- 初始版本发布\n- > 2024-10-31"
                 }
             ]
         }
