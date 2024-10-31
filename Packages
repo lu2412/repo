@@ -547,6 +547,26 @@ Author: lym
 Name: CC18-iOS18圆角控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
 
+Package: lym.com.dvntm.ratebegone
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.dvntm.ratebegone
+Filename: ./debs/RateBeGone删除app弹窗评分-Rootless.deb
+Size: 3492
+MD5sum: bafc7d0a45b5a47c01957f9593f0a681
+SHA1: 6be759cdd65ebf85adbb6bf951e11f1bebb562ca
+SHA256: 7a242c1b380a95e167464c94e65b038835d0b8959d51652c56b1f35e97553459
+Section: 系统增强
+Description: 删除app不定时弹出的评分窗口
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: RateBeGone删除app弹窗评分-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
+
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
 Architecture: iphoneos-arm64
