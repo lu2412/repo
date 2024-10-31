@@ -21,11 +21,15 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 6,
-                      "itemSize": "{160, 160}",
+                      "itemSize": "{160, 346.4533333333333}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
                                       "url": "https://liym5238.github.io/liym/icon/wenzi.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/dongman.png"
                                   }
                             ]
                   },
