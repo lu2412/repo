@@ -73,19 +73,11 @@
         {
             "class": "DepictionScreenshotsView",
             "itemCornerRadius": 0,
-            "itemSize": "{240, 250}",
+            "itemSize": "{240, 520}",
             "screenshots": [
                 {
                     "accessibilityText": "Screenshot",
                     "url": "https://liym5238.github.io/liym/icon/dongman.png"
-                },
-                {
-                    "accessibilityText": "Screenshot",
-                    "url": ""
-                },
-                {
-                    "accessibilityText": "Screenshot",
-                    "url": ""
                 }
             ]
         },
