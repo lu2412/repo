@@ -20,32 +20,53 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
+                    "class": "DepictionSeparatorView"
+                },
+                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "预览",
-            "views": [
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "预览",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
                 {
                     "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 8,
-                    "itemSize": "{320, 640}",
+                    "itemCornerRadius": 0,
+                    "itemSize": "{240, 520}",
                     "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": "https://liym5238.github.io/liym/icon/dongman.png"
-                        }
-                    ]
+                {
+                    "accessibilityText": "Screenshot",
+                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
                 }
             ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "详细信息",
-            "views": [
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 8
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionTableTextView",
                     "text": "1.7",
@@ -64,12 +85,16 @@
             ]
         },
         {
+            "class": "DepictionSpacerView",
+            "spacing": 8
+        },
+        {
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.7\n- 初始版本发布\n- > 2024-10-31"
+                    "markdown": "### 版本 1.7\n初始版本发布\n- > 2024-10-31"
                 }
             ]
         }
