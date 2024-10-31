@@ -20,9 +20,6 @@
                     "class": "DepictionMarkdownView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
                     "class": "DepictionSpacerView",
                     "spacing": 8
                 },
@@ -31,13 +28,6 @@
                     "title": "详细信息",
                     "useBoldText": true,
                     "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionTableTextView",
@@ -57,33 +47,21 @@
             ]
         },
         {
-            "class": "DepictionSpacerView",
-            "spacing": 8
-        },
-        {
-            "class": "DepictionHeaderView",
-            "title": "预览",
-            "useBoldText": true,
-            "useBottomMargin": false
-        },
-        {
-            "class": "DepictionSpacerView",
-            "spacing": 8
-        },
-        {
-            "class": "DepictionScreenshotsView",
-            "itemCornerRadius": 0,
-            "itemSize": "{240, 520}",
-            "screenshots": [
+            "class": "DepictionStackView",
+            "tabname": "预览",
+            "views": [
                 {
-                    "accessibilityText": "Screenshot",
-                    "url": "https://liym5238.github.io/liym/icon/dongman.png"
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{320, 640}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://liym5238.github.io/liym/icon/dongman.png"
+                        }
+                    ]
                 }
             ]
-        },
-        {
-            "class": "DepictionSpacerView",
-            "spacing": 16
         },
         {
             "class": "DepictionStackView",
