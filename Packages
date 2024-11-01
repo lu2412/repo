@@ -977,6 +977,24 @@ Author: lym
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.deletephotoscompletely-rootless.json
 
+Package: lym.qqshurukuang-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: qqshurukuang-Rootless
+Filename: ./debs/QQ圆角输入框-Rootless.deb
+Size: 3348
+MD5sum: e1005d2111b9c7404bc0b46be181c569
+SHA1: 06812bc3217b1f0f6546e317ca1a0b01b8cce6d9
+SHA256: c885fe3faf47bceb25cb3c680530ad3e969c3ec6006bca34345091fbe1b3d169
+Section: 软件增强
+Description: 修改QQ聊天输入框为圆角样式
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: QQ圆角输入框-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqshurukuang-Rootless.json
+
 Package: lym.yjsp-Rootless
 Version: 0.3
 Architecture: iphoneos-arm64
@@ -1049,23 +1067,6 @@ Description: QQ模拟iPad模式登录
 Author: lym
 Name: QQ模拟iPad登陆-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqipad-Rootless.json
-
-Package: qqshurukuang-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/QQ圆角输入框-Rootless.deb
-Size: 3340
-MD5sum: 5a7edd7ce24f09852a0579440e4ddaf5
-SHA1: 3ea21700b802362205c09716e5fff111b0d417b6
-SHA256: b90a9ee6ff80d8f0aefabf4574cc2749af72f165af1bbb97d79d019da922f06f
-Section: 软件增强
-Description: 修改QQ聊天输入框为圆角样式
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ圆角输入框-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqshurukuang-Rootless.json
 
 Package: qqtouxiang-Rootless
 Version: 1.2-2
