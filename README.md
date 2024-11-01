@@ -25,16 +25,16 @@
 	7.	滑到页面顶部，在 shaoxia 后输入 shaoxia/Release。
 	8.	点击 Commit changes 提交文件。
 	9.	点击右上角头像 > Settings > Pages，找到 Build and deployment，选择 main 并保存。
-	10.	等待几分钟后刷新页面，在 GitHub Pages 下方生成的链接即为源地址。复制该链接后，可在 Sileo 中添加并验证源。
+	10.等待几分钟后刷新页面，在 GitHub Pages 下方生成的链接即为源地址。复制该链接后，可在 Sileo 中添加并验证源。
 
 二、安装依赖
 打开 Sileo，搜索并安装以下插件：
     
-    •	NewTerm 3 Beta
+   •	NewTerm 3 Beta
   	•	git
   	•	dpkg-dev
   	•	dpkg-repack
-	  •	libdpkg-dev
+   • libdpkg-dev
   	•	openssh
 	2.	插件安装完成后，进入 GitHub 仓库主页，点击绿色的 Code 按钮 > HTTPS，复制下方的链接。
 
@@ -42,22 +42,24 @@
 
 	1.	打开 NewTerm 3 Beta，输入以下命令将仓库克隆到本地（将链接替换为你复制的链接），按下回车：
 
-git clone https://github.com/liym5238/shaoxia.git
+   
+   git clone https://github.com/liym5238/shaoxia.git
 
 
 	2.	等待克隆完成后，输入以下命令查看本地仓库路径：
 
-pwd
+   pwd
 
 
-	3.	在 Filza 文件管理器中，进入显示的路径（例如：/var/jb/var/mobile），可以看到名为 shaoxia 的文件夹，即本地仓库。
+3.	在 Filza 文件管理器中，进入显示的路径
+（例如：/var/jb/var/mobile），可以看到名为 shaoxia 的文件夹，即本地仓库。
 
 四、配置 Git 用户信息
 
-	1.	在 NewTerm 3 Beta 中运行以下命令绑定 Git 用户名和邮箱：
+1.	在 NewTerm 3 Beta 中运行以下命令绑定 Git 用户名和邮箱：
 
-git config --global user.name "你的用户名"
-git config --global user.email "你的邮箱"
+   git config --global user.name "你的用户名"
+   git config --global user.email "你的邮箱"
 
 
 
@@ -70,26 +72,28 @@ git config --global user.email "你的邮箱"
 cd /var/jb/var/mobile/shaoxia/debs
 
 
-	4.	运行以下命令生成 Packages 文件：
+4.	运行以下命令生成 Packages 文件：
 
-dpkg-scanpackages . /dev/null > ../Packages
+   
+   dpkg-scanpackages . /dev/null > ../Packages
 
 
-	5.	使用 Filza 检查 shaoxia 文件夹内是否生成了 Packages 文件，确保内容包含插件信息。
+5.	使用 Filza 检查 shaoxia 文件夹内是否生成了 Packages 文件，确保内容包含插件信息。
 
 六、上传更新到 GitHub
 
-	1.	在 NewTerm 3 Beta 中进入 shaoxia 文件夹，并执行以下命令：
+1.	在 NewTerm 3 Beta 中进入 shaoxia 文件夹，并执行以下命令：
 
-cd /var/jb/var/mobile/shaoxia
-git pull
-git add .
-git commit -m "更新内容描述"
-git push
+   cd /var/jb/var/mobile/shaoxia
+   git pull
+   git add .
+   git commit -m "xxx"
+   git push
 
 
-	2.	按提示输入 GitHub 用户名，回车后输入访问令牌，等待上传完成。
-	3.	上传完成后，在 Sileo 中刷新源，查看插件是否出现。
+2.	按提示输入 GitHub 用户名，回车后输入访问令牌，等待上传完成。
+	
+3.	上传完成后，在 Sileo 中刷新源，查看插件是否出现。
 
 至此，自定义插件源的创建、配置和上传流程完成！
 
