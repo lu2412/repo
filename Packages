@@ -995,6 +995,25 @@ Icon:  https://liym5238.github.io/liym/icon/yjsp.png
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.yjsp-Rootless.json
 
+Package: lym1.com.nightwind.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: lym
+Filename: ./debs/OneSettings设置分类美化-Rootless.deb
+Size: 216620
+MD5sum: 126f090622ab5affc72296a5ee37ba04
+SHA1: fac508add41bec61ef04f7b72c55cd618c9ebde9
+SHA256: ac4b7d5824021dfb806d686047b374c7b4e1a3af31b50b32728795250f92dd90
+Section: 系统增强
+Description: 系统设置美化分类插件
+ - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
+ - 插件中有很多可定制性和功能，适合任何人的口味表格单元格的字幕、自定义设置背景、表格视图插图和角半径、恶搞存储量等等
+ - 有很多很多功能，还有更多功能将在更新中推出
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: OneSettings设置分类美化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.nightwind.onesettings.json
+
 Package: lym1.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1118,25 +1137,6 @@ Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
-
-Package: xtfl-Rootless
-Version: 2.2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/OneSettings设置分类美化-Rootless.deb
-Size: 216552
-MD5sum: f39616f7f675477a040e82c96584ecc1
-SHA1: ace94c30423c7cc18e8c55d5d8cc98e7e8b388e8
-SHA256: 342fec76bf50bf4c4b3e8409e0ecc9d7bb72f0ae5d0fa1a9658651349133613a
-Section: 系统增强
-Description: 系统设置美化分类插件
- - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
- - 插件中有很多可定制性和功能，适合任何人的口味表格单元格的字幕、自定义设置背景、表格视图插图和角半径、恶搞存储量等等
- - 有很多很多功能，还有更多功能将在更新中推出
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: OneSettings设置分类美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xtfl-Rootless.json
 
 Package: xtjpyj-Rootless
 Version: 0.0.1
