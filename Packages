@@ -746,25 +746,6 @@ Author: lym
 Name: AwemeClearLikes清除抖音点赞-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikess.json
 
-Package: lym.com.nightwind.onesettings
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: lym1.com.sini.textforsnapper3
-Replaces: com.sini.textforsnapper3,lym1.com.sini.textforsnapper3, com.nightwind.onesettings
-Filename: ./debs/OneSettings图标-Rootless.deb
-Size: 5784
-MD5sum: dab9e92e6315440867729c578b6fefc7
-SHA1: ca768e1648ab3d9b482cd545258af16fc96b95c9
-SHA256: 10d621172d43aa95d113e9781e2298e46e9db904079863db462a4ac5bab6766f
-Section: 系统美化
-Description: 美化OneSettings内的插件分类图标为Sileo
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: OneSettings图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
-
 Package: lym.com.screenshot.telegram
 Version: 1.0
 Architecture: iphoneos-arm64
