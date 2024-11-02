@@ -30,7 +30,7 @@
 ## 创建 GitHub 个人访问令牌
 
 1.	点击 GitHub 网站右上角头像 > Settings。（设置）
-2.	在其中找到并依次点击它 `Developer settings (开发者设置)>` Personal access tokens (个人访问令牌 )>`Generate new token（生成新令牌）
+2.	在其中找到并依次点击它 `Developer settings (开发者设置)>`Personal access tokens (个人访问令牌 )>`Generate new token（生成新令牌）
 
 3.	输入描述性名称（如 iOS 开发），至少选择 repo 权限。（设置令牌权限）(也可以全部选择)也就是全部打上✅
 
@@ -51,7 +51,7 @@
 （此处替换为自己的 HTTPS 链接，将仓库克隆到本地）
 
 
-   git clone https://github.com/liym5238/shaoxia.git
+         git clone https://github.com/liym5238/shaoxia.git
 
 
 2.	克隆完成后，输入 pwd 命令查看本地路径（如 /var/jb/var/mobile）。（显示当前目录路径）
