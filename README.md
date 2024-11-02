@@ -46,8 +46,17 @@
      -  libdpkg-dev （dpkg 开发库）
      -  openssh （SSH 连接工具）
 
-克隆 GitHub 仓库
-1.	打开 NewTerm 3 Beta，输入以下命令将仓库克隆到本地
+### 克隆 GitHub 仓库
+1. 查看仓库HTTPS链接
+
+在自己的GitHub仓库主页。页面中央偏右的位置
+会看到一个标有“Code”（代码）的绿色按钮。
+点击该按钮旁边的倒三角图标，选择“HTTPS”选项，
+然后复制显示在下方的URL链接。
+
+
+
+2.	打开 NewTerm 3 Beta，输入以下命令将仓库克隆到本地
 （此处替换为自己的 HTTPS 链接，将仓库克隆到本地）
 
 
