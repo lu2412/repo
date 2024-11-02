@@ -67,43 +67,46 @@
          
          pwd 
 
- - 命令查看本地路径（如 /var/jb/var/mobile）
+ - 命令查看本地路径如(/var/jb/var/mobile)
  - 使用 Filza 文件管理器进入此路径，确认 shaoxia 文件夹已创建。
 
-3.	绑定 Git 用户信息：
+3.	确认克隆成功后再用命令绑定 Git 用户信息：
 
-git config --global user.name "用户名"
-git config --global user.email "您的邮箱"
+         git config --global user.name "你的用户名"
+         git config --global user.email "你的邮箱"
 
 （绑定 Git 用户名和邮箱）
 
 生成 Packages 文件
 
-	1.	在 shaoxia 文件夹中创建 debs 文件夹。
-	2.	将 .deb 插件包复制到 shaoxia/debs 文件夹中。
-	3.	在 NewTerm 3 Beta 中，输入以下命令生成 Packages 文件：
+1.	在 shaoxia 文件夹中创建 debs 文件夹。
+2.	将 .deb 插件包复制到 shaoxia/debs 文件夹中。
+3.	在 NewTerm 3 Beta 中，输入以下命令生成 Packages 文件：
 
-cd /var/jb/var/mobile/shaoxia/debs
-dpkg-scanpackages . /dev/null > ../Packages
-
+         cd /var/jb/var/mobile/此处替换你的仓库名称/debs
+         dpkg-scanpackages . /dev/null > ../Packages
 （生成 Packages 文件）
 
-	4.	使用 Filza 查看 shaoxia 文件夹下的 Packages 文件，确保内容显示 .deb 插件包的信息。（确认文件内容）
+4.	使用 Filza 查看 shaoxia 文件夹下的 Packages 文件，确保内容显示 .deb 插件包的信息。（确认文件内容）
 
-更新仓库到 GitHub
+### 更新仓库到 GitHub
 
-	1.	在 NewTerm 3 Beta 中，输入以下命令初始化 Git 并将文件推送到 GitHub：
+1.	在 NewTerm 3 Beta 中，输入以下命令初始化 Git 并将文件推送到 GitHub：
 
-cd /var/jb/var/mobile/shaoxia
-git pull
-git add .
-git commit -m "更新"
-git push
+         cd /var/jb/var/mobile/shaoxia
+         git pull
+         git add .
+         git commit -m "xxx"
+         git push
+         
+（添加、提交并推送到 GitHub）如没反应请按回车
 
-（添加、提交并推送到 GitHub）
+2. 系统可能会提示输入 GitHub 用户名和令牌在看到
 
-	2.	系统将提示输入 GitHub 用户名和令牌。在提示输入 Username 时输入 GitHub 用户名，输入 Password 时粘贴令牌。
-	3.	完成上传后，在 Sileo 刷新源并验证是否成功添加 .deb 文件。
+提示输入 `Username 的时在备忘录复制你的用户名候粘贴到终端中 
+提示输入 `Password 时在备忘录复制你的令牌粘贴回车(令牌在终端中不会显示)
+
+3.	完成上传后，在 Sileo 刷新源并验证是否成功添加 .deb 文件。
 
 至此，您的 GitHub 仓库已成功创建，并且可以在 Sileo 中访问并更新源！
 
