@@ -63,9 +63,14 @@
          git clone https://github.com/liym5238/shaoxia.git
 
 
-2.	克隆完成后，输入 pwd 命令查看本地路径（如 /var/jb/var/mobile）。（显示当前目录路径）
-使用 Filza 文件管理器进入此路径，确认 shaoxia 文件夹已创建。
-	3.	绑定 Git 用户信息：
+2.	克隆完成后，输入
+         
+         pwd 
+
+ - 命令查看本地路径（如 /var/jb/var/mobile）
+ - 使用 Filza 文件管理器进入此路径，确认 shaoxia 文件夹已创建。
+
+3.	绑定 Git 用户信息：
 
 git config --global user.name "用户名"
 git config --global user.email "您的邮箱"
