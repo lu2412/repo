@@ -431,6 +431,25 @@ Author: lym
 Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
+Package: lym.com.25mao.miyou.rootless
+Version: 3.8-0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.miyou.rootless
+Filename: ./debs/微信助手-Rootless.deb
+Size: 10163812
+MD5sum: cef7085faaac2f0407d0478c6b2aa990
+SHA1: d55c6d747fa0775194ae4cdd95d83f9bcb3172a3
+SHA256: 32eea40e662333c8b12b4ac06ff6da6db23b8bae5b9e75315696ab839e0cdce3
+Section: 微信插件
+Description: 微信多功能插件助手
+ - 修复上一版本勿扰模式自动挂断后无法回拨问题
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 微信助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
+
 Package: lym.com.82flex.iconrestore
 Version: 1.7
 Architecture: iphoneos-arm64
@@ -771,10 +790,10 @@ Version: 2.2
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/OneSettings设置分类美化-Rootless.deb
-Size: 216908
-MD5sum: c4d44f8e5a443f8da6ba26d89b603d43
-SHA1: 2f591752e8bb7abace2829fb2ae4149e94389465
-SHA256: f6115d39474b58e62812cf7bc18c0aee14d09a074e37eee29292920cf0f676c0
+Size: 217460
+MD5sum: 95088c0ae698fe97a23932f1bd446752
+SHA1: d7426db759626e1b6ce2d5d92e43952f02dd734f
+SHA256: f81ba62328040424074034c6f8b3038aa24eb3d3c865d3440b6df13ecc3b6d2a
 Section: 系统增强
 Description: 系统设置美化分类插件
  - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
@@ -783,7 +802,7 @@ Description: 系统设置美化分类插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: OneSettings设置分类美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.nightwind.onesettings.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
@@ -905,6 +924,26 @@ Description: 小红书软件增强
 Author: lym
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
+
+Package: lym.com.xybp888.test
+Version: 0.0.1-28
+Architecture: iphoneos-arm64
+Maintainer: lym
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.xybp888.test
+Filename: ./debs/微信头像转圈圈-Rootless.deb
+Size: 4984
+MD5sum: ad21488bfbc952c24c688a4ee1fbf9d5
+SHA1: debad2f2a1db08e94c01e3a75732ea043bffd8d0
+SHA256: 4561fc4e02455fcf8219ca72cfa8f2e3b27836b21df7805f8c5077a7e803f8e8
+Section: 微信插件
+Description: 微信头像转圈圈
+ - 新增设置开关
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 微信头像转圈圈-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.test.json
 
 Package: lym.fengexian-rootless
 Version: 1.0.1

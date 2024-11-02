@@ -6,7 +6,7 @@
         {
             "url": "https://liym5238.github.io/liym/icon/weixin.png",
             "title": "WeChat",
-            "package": "com.25mao.miyou.rootless",
+            "package": "lym.com.25mao.miyou.rootless",
             "hideShadow": true
         },
         {
