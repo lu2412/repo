@@ -936,6 +936,24 @@ Author: lym
 Name: CCVPNSurge-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kingpuffdaddi.control-center.ccvpn.surge.json
 
+Package: lym.com.kwct
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Maintainer: Kevin
+Replaces: com.huami.dyyy, com.kwct
+Filename: ./debs/酷我畅听会员-Rootless.deb
+Size: 96844
+MD5sum: dc38db412bf4d09ebd0ef754c62273c0
+SHA1: 66cd92086494eea11190cace60c4146516a32555
+SHA256: 718a06857cdc3951ac25f9f4b421249baa87096ffc11e08cd69d29add6e290bd
+Section: 抖音插件
+Description: 酷我畅听解锁会员
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Kevin
+Name: 酷我畅听会员-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kwct.json
+
 Package: lym.com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1238,6 +1256,24 @@ Description: 小红书软件增强
 Author: lym
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
+
+Package: lym.com.xxx.dyhook
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Maintainer: x
+Replaces: com.huami.dyyy, com.xxx.dyhook
+Filename: ./debs/抖音图层旧版-Rootless.deb
+Size: 73512
+MD5sum: 372e649b4b465f83dba0ff44a1085e34
+SHA1: 9ad95e0fe9c73e67b34c9d9e5331fde0b078c848
+SHA256: 0abf08408d124535cafc143b5db50f3e7d44090f747e8cf9b5a34f68fd248dac
+Section: 抖音插件
+Description: 抖音图层旧版本1.2
+ - 无时间限制版本
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: x
+Name: 抖音图层旧版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xxx.dyhook.json
 
 Package: lym.com.xybp888.test
 Version: 0.0.1-28
