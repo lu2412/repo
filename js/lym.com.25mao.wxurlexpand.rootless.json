@@ -1,0 +1,63 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 扩展微信URLScheme接口，方便从外部调用\n- 添加以下接口\n- 发送消息weixin: /aiwmao/user=用户/群id&msg=消息 内容,多个用户使用#分开\n- 打开聊天框weixin: /aiwmao/chat=用户/群id\n- 打开小程序weixin: /aiwmao/weapp=小程序原始id\n- 打开网页weixin:/aiwmao/url=网页链接\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 6,
+                      "itemSize": "{10,10}",
+                      "screenshots": [
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "0.2-0",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月03日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 0.2-0\n- 适配8.0.39客户端\n- > 2024-11-03"
+                  }
+              ]
+          }
+      ]
+}

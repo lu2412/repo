@@ -249,24 +249,6 @@ Author: lym
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
 
-Package: jdyhj-Rootless
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/京东优惠卷-Rootless.deb
-Size: 52864
-MD5sum: 347b15dbc753c0e4b13ddc442c90aa29
-SHA1: a9ba14e82fdaaf81a7dc300dc77da1d514c8b1ae
-SHA256: 452020b661f5c72476ad1ac7229ed780c0533649ddd3ac5588e324d19b90969e
-Section: 软件增强
-Description: 查询京东商品优惠券,查询商品历史价
- - 截止目前13.6.2版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 京东优惠卷-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jdyhj-Rootless.json
-
 Package: kuan-Rootless
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -303,6 +285,27 @@ Description: SnowBoard自用Eclectic by主题包
 Author: lym
 Name: Eclectic by主题-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
+
+Package: lym.MisakaHelper
+Version: 2.1-0
+Architecture: iphoneos-arm64
+Maintainer: Misaka
+Depends: mobilesubstrate
+Conflicts: MisakaHelper
+Replaces: MisakaHelper, MisakaHelper
+Filename: ./debs/Misaka助手 END版-Rootless.deb
+Size: 13178164
+MD5sum: 9a106b48de9451555ab7dbf2684c67ae
+SHA1: 478ae0c3e36854f525ab784541c0fe316384257e
+SHA256: 0c62565c55fd12f6c0983458d63be6b62ae26214260391d9b0c14bc84206fa39
+Section: 微信插件
+Description: 微信misaka助手
+ - MisakaHelper最终END版,已停止维护
+ - 和其它类型微信插件类似,更多群功能!自行体验!
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Misaka
+Name: Misaka助手 END版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
 
 Package: lym.Safari
 Version: 1.1.2
@@ -469,6 +472,86 @@ Author: lym
 Name: 微信助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
+Package: lym.com.25mao.msgfilt.rootless
+Version: 1.0-5.1
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.msgfilt.rootless
+Filename: ./debs/消息屏蔽助手-Rootless.deb
+Size: 122312
+MD5sum: 6369c5a59ce7380dc14b2859cb43d2d5
+SHA1: ecc8455f9a592e756e148ad08531d35b7692ad09
+SHA256: 1a5f0ec71b4b81c44d29f54f8e95948278f7aa9d697b921948ffd5e8cc176ecb
+Section: 微信插件
+Description: 微信消息屏蔽助手
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 消息屏蔽助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
+
+Package: lym.com.25mao.wcplugins.rootless
+Version: 0.1-3
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.wcplugins.rootless
+Filename: ./debs/微信插件管理-Rootless.deb
+Size: 19844
+MD5sum: f39b99f5921cd35c8ddff26635d56230
+SHA1: 5a4d83919f7de1b22815320f13d25612c4193299
+SHA256: 57182e4e36bc719e8b091f431d9a46ee0994b2b55c1ece2e7e53c11c64d311b9
+Section: 微信插件
+Description: 收纳第三方微信插件
+ - 位于微信右下角“我”-“插件”
+ - 部分微信插件不支持收纳
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 微信插件管理-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
+
+Package: lym.com.25mao.weapptool.rootless
+Version: 0.1-9
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.weapptool.rootless
+Filename: ./debs/微信小程序助手-Rootless.deb
+Size: 27244
+MD5sum: 29b2f19d48648934fa3dd65e714ab5ff
+SHA1: 4623a8930cfa64d3a04b864bdd39139c941af409
+SHA256: dc1e8df5b60d8b3ac358ae19cec663b0a56396b4c005902ecfc450209bc8715a
+Section: 微信插件
+Description: 微信小程序助手
+ - 启用插件后可以在小程序任意页面复制小程序的跳转链接
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 微信小程序助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.weapptool.rootless.json
+
+Package: lym.com.25mao.wxurlexpand.rootless
+Version: 0.2-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.wxurlexpand.rootless
+Filename: ./debs/微信URL scheme扩展-Rootless.deb
+Size: 34248
+MD5sum: 979c0374fc33b5b3471549617f78dfd1
+SHA1: c5bbd748aa6727421535cf2a2e24142063bbbf50
+SHA256: 39a471ac510b7aec548f8ce8cab93be9d196bfa8d13eba3c50d7a3b4c47b7721
+Section: 微信插件
+Description: 扩展微信URLScheme接口，方便从外部调用
+ - 添加以下接口
+ - 发送消息weixin: /aiwmao/user=用户/群id&msg=消息 内容,多个用户使用#分开
+ - 打开聊天框weixin: /aiwmao/chat=用户/群id
+ - 打开小程序weixin: /aiwmao/weapp=小程序原始id
+ - 打开网页weixin:/aiwmao/url=网页链接
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 微信URL scheme扩展-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
+
 Package: lym.com.82flex.iconrestore
 Version: 1.7
 Architecture: iphoneos-arm64
@@ -565,6 +648,30 @@ Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自�
 Author: lym
 Name: 抖音 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
+
+Package: lym.com.HBWechatHelper.ailun
+Version: 1.7-7
+Architecture: iphoneos-arm64
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Depends: mobilesubstrate
+Replaces: com.HBWechatHelper.ailun
+Filename: ./debs/黄白助手-Rootless.deb
+Size: 10910656
+MD5sum: 4193df966835b61c451d0023cf9bbf05
+SHA1: 1c322ea0d7bed8723f70ce215ba658d755f8e87e
+SHA256: 109d43814db1dfebd97298a2ddc2d505d387dc9976c8b91d51e3f5f4ef0c99dc
+Section: 微信插件
+Description: 一个微信插件文本转语音(付费功能）
+ - 点歌朋友圈一键点赞等诸多功能
+ - 发送网络语录舔狗日记骂人等文案
+ - 4K原图手绘壁纸等
+ - 抢私聊红包
+ - 自定义信息尾巴
+ - 自定义拍一拍、百变小尾巴、实时尾巴时间等功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: HuangBai <QQ:1343309363@qq.com>
+Name: 黄白助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.1
@@ -687,6 +794,26 @@ Author: lym
 Name: 抖音 YYYY-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
+Package: lym.com.huami.kugouNoAD
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: com.huami.kugouNoAD
+Filename: ./debs/酷狗NoAD 去广告-Rootless.deb
+Size: 55612
+MD5sum: 4d5edb00da73904820a08c6a11e1df97
+SHA1: 25c0834b82ef0ee656d22dea87c0f6f5582781d4
+SHA256: 5416f2f6bf390df0bbbb815766a2f000dc2c47e12d362ff513a48eaab62dc7e0
+Section: 软件增强
+Description: 去除开屏广告(含概念版)
+ - 去除【我的】页面寻搭子广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: 酷狗NoAD 去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.kugouNoAD.json
+
 Package: lym.com.huami.wbnoads
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -708,6 +835,25 @@ Description: 微博去除开屏广告
 Author: huami
 Name: 微博NoAds 微博去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wbnoads.json
+
+Package: lym.com.iosrxwy.qidianyuedu
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: com.iosrxwy.qidianyuedu
+Filename: ./debs/奇点阅读去广告-Rootless.deb
+Size: 215384
+MD5sum: b760326eb4e3ebc4fd997c4d395b74c7
+SHA1: c6aff226d2f8b5ba0f980b54b67cc59ac8041734
+SHA256: d78951373c2d5761c75b85acb42eb70d7b5a22d061d5a2bcb37620f4e8523c84
+Section: 软件增强
+Description: 奇点阅读去除三个首页面广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: iosrxwy
+Name: 奇点阅读去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
@@ -767,6 +913,27 @@ Description: Sileo头像转圈圈
 Author: lym
 Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.liuf.ceshi.json
+
+Package: lym.com.lym.WXHelper
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: com.lym.WXHelper
+Filename: ./debs/WXHelper助手-Rootless.deb
+Size: 9266464
+MD5sum: 6395493e8065da366b8e94d64781c643
+SHA1: 9f30130ad4cb3bdcfcd316681bd4df7be0faec4b
+SHA256: 75d714cd05ae59bd019917c68ff0fec4e9a27d02b6cab7c60770ae638333c480
+Section: 微信插件
+Description: 文件/视频转语音
+ - GPTAI文字转语音
+ - 语音进度拖动
+ - 骰子作弊等功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: WXHelper助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lym.WXHelper.json
 
 Package: lym.com.netskao.appdata
 Version: 1.4.4
