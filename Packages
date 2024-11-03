@@ -1279,6 +1279,42 @@ Author: lym
 Name: PurifyLine去除全局分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.fengexian-rootless.json
 
+Package: lym.hxq-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: hxq-Rootless
+Filename: ./debs/韩小圈解锁画质-Rootless.deb
+Size: 6660
+MD5sum: 76c680e56abef550490c2251b8b9d68a
+SHA1: e55a33fe3f6e5b0f76d60d15c0a249473b083cf8
+SHA256: 511512858e898e9d31d15b53842402821a61f11b91dc7f324ee52ecd5441c130
+Section: 软件增强
+Description: 韩小圈解锁画质
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 韩小圈解锁画质-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.hxq-Rootless.json
+
+Package: lym.kwct-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: kwct-Rootless
+Filename: ./debs/酷我畅听会员-Rootless.deb
+Size: 64604
+MD5sum: ce6aae169b39e5559334e69fcaecbd65
+SHA1: ca5efd7c46e69e285feee74902f17b77ee5e6293
+SHA256: 7685ec0218cd176a984163d0c26d16ed57ffcc316f6dec6a953ca4cadf0dae62
+Section: 软件增强
+Description: 酷我畅听解锁会员
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 酷我畅听会员-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.kwct-Rootless.json
+
 Package: lym.netskao.alipayhooks-rootless
 Version: 1.1-3
 Architecture: iphoneos-arm64
