@@ -418,6 +418,45 @@ Author: lym
 Name: SwipeExtenderX键盘增强(汉化包)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
+Package: lym.com.25mao.KuaiDou
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: https://trollstorex.github.io/repo/
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.25mao.KuaiDou
+Filename: ./debs/微信快斗-Rootless.deb
+Size: 14740
+MD5sum: 1d760cca8deea6e0264dff42f5b6e560
+SHA1: 6b5b97dcf434c94bc263b6b168e93774f94c3811
+SHA256: 73db190258a0334b6e27b02b41aabd1acce1b12d91887bff75c8c5c5a7ae35ed
+Section: 微信插件
+Description: 微信快速斗图
+ * 发送文字自动转换为表情
+ * 需要同时安装微信助手和微信插件管理
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 微信快斗-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.KuaiDou.json
+
+Package: lym.com.25mao.doutu.rootless
+Version: 3.1-5
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Replaces: com.25mao.doutu.rootless
+Filename: ./debs/微信斗图助手.deb
+Size: 1209644
+MD5sum: 9c0850650a35305eb943832eb0eed132
+SHA1: 030d0efe40a54ddec2a3c182dbd6b031c4910b88
+SHA256: c4b3f6ad0423af07f8c90728358b98754741f6747f9d30264313a1031b4d3067
+Section: 微信插件
+Description: 微信斗图助手
+ - 修复搜狗api接口问题
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Mao
+Name: 微信斗图助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.doutu.rootless.json
+
 Package: lym.com.25mao.jdquan.rootless
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -672,6 +711,30 @@ Description: 一个微信插件文本转语音(付费功能）
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
+
+Package: lym.com.appku.wechat
+Version: 1.6-3
+Architecture: iphoneos-arm64
+Maintainer: appku
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.appku.wechat
+Filename: ./debs/爱锋助手-Rootless.deb
+Size: 1662240
+MD5sum: db3aaab478442eea9ecd2371542e4522
+SHA1: 1f22a88ec059d099a8fede00650fa01aa3903b49
+SHA256: 3165dac631459119ef67c0da79ff55d791cace58299d6e22e791301e70356f4d
+Section: 微信插件
+Description: 微信爱锋助手
+ - 同虚拟视频功能，不同作者
+ - 抢红包,推送小助手伪装计算器
+ - 备注用户头像,虚拟视频
+ - 全局长按导航栏快捷功能,等
+ - 修复转账金额移动复原，添加文字修改,语音包,一键已读
+ - 多端登录设备隐藏新增朋友圈转发、修改聊天时间等
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: appku
+Name: 爱锋助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.1
@@ -1032,6 +1095,29 @@ Author: lym
 Name: OneSettings设置分类美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
+Package: lym.com.pingfan.wechat
+Version: 2.2-1
+Architecture: iphoneos-arm64
+Maintainer: 平凡
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.pingfan.wechat
+Filename: ./debs/虚拟视频-Rootless.deb
+Size: 1658596
+MD5sum: 16fa656509961eb98c3c96151193dd2e
+SHA1: b3388aa192b76045b53b4982d021c320ef379968
+SHA256: afaecff45a8780d6d0db3e156537cd39a7d2d7733ce1c156e7e1c34af32dbc37
+Section: 微信插件
+Description: 微信虚拟视频
+ - 抢红包,推送小助手伪装计算器
+ - 备注用户头像,虚拟视频
+ - 全局长按导航栏快捷功能,等
+ - 修复转账金额移动复原，添加文字修改,语音包,一键已读
+ - 多端登录设备隐藏新增朋友圈转发、修改聊天时间等
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 平凡
+Name: 虚拟视频-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pingfan.wechat.json
+
 Package: lym.com.screenshot.telegram
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1263,6 +1349,26 @@ Description: DeletePhotosCompletely相册添加彻底删除按钮
 Author: lym
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.deletephotoscompletely-rootless.json
+
+Package: lym.netskao.wechatpurification
+Version: 4.2-7-END
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 16676
+Depends: mobilesubstrate, firmware (>= 12.0)
+Replaces: netskao.wechatpurification
+Filename: ./debs/微信净化 END-Rootless.deb
+Size: 6273152
+MD5sum: 967c0ec321ea6d4b0f72b1691e66afc8
+SHA1: fd0bee13e361af7e979ed406ded03e70eea3278c
+SHA256: 94c33027e8cf04db0062550f17cf399866fcc53b305b969f556f1e95129ff0fc
+Section: 微信插件
+Description: 微信净化，还原聊天本质，干净的微信给你
+ - 仅支持8.0.29及以上版本，设置位于微信-设置
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: 微信净化 END-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.wechatpurification.json
 
 Package: lym.qqshurukuang-Rootless
 Version: 1.0
