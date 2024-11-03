@@ -1163,12 +1163,12 @@ Architecture: iphoneos-arm64
 Maintainer: Sini921
 Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.xxforsnapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
+Replaces: lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
 Filename: ./debs/Snapper 3繁体文字图标.deb
-Size: 60784
-MD5sum: 978f50f0622cd8ab8cb8991f89cb3edc
-SHA1: 1040970bcb8dc83430f0e4f1e6edb597ffc01640
-SHA256: 826e4b1940faca6222feb212a220fe791eda717e0233c79f5511338178c0a7e5
+Size: 60732
+MD5sum: 5cd38e84c8afe5ad87346b15fe195299
+SHA1: b44cbe434debbbc472123c1714ce96c28c097625
+SHA256: 948c4b24582f77b46cab94e24af6b04eb50488e171a7d1f2be87deebfb257eac
 Section: 系统美化
 Description: Snapper 3繁体文字美化图标
  - 插件无设置项安装即可生效
