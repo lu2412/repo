@@ -737,22 +737,24 @@ Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
 
 Package: lym.com.dvntm.cc18
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
 Replaces: com.dvntm.cc18
-Filename: ./debs/CC18-iOS18圆角控制中心-Rootless.deb
-Size: 4604
-MD5sum: 077532711fa8cc06306d6db20e48a327
-SHA1: 7bf4de2db3dde99c6266d3a39cdf8a3a025f9f5b
-SHA256: 4ab1c218531374ad5211869473c42f0ac8eb174efe314f87e92ca635afef1ff1
+Filename: ./debs/iOS18圆角控制中心-Rootless.deb
+Size: 4676
+MD5sum: 2e12b580f1c456d70af8f11f2e17fca3
+SHA1: 83d2052f557202289c5d040b68412540c975bda9
+SHA256: 5e37d94ccb6e79028e37dd089dc36dab44a3c2eed616f2d579c1e025268aed3f
 Section: 控制中心
 Description: iOS18圆角控制中心
  - 控制中心模块圆角化
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: CC18-iOS18圆角控制中心-Rootless
+Author: dvntm
+Name: iOS18圆角控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
 
 Package: lym.com.dvntm.ratebegone

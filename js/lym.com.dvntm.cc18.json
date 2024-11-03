@@ -15,59 +15,49 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "### 插件介绍\n- iOS18圆角控制中心\n- 让控制中心模块圆角化\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "0.0.1",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月29日",
-                    "title": "最后更新时间"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 0.0.1\n- 初始版本发布\n- > 2024-10-29"
-                }
-            ]
-        }
-    ]
+                    "markdown": "### 插件介绍\n- iOS18圆角控制中心\n- 让控制中心模块圆角化\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 6,
+                      "itemSize": "{11,11}",
+                      "screenshots": [
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "0.0.2",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月03日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 0.0.2\n- 修复横屏状态调整音量UI错位BUG\n- > 2024-11-03\n ### 版本0.0.1\n- 发布初始版本\n- >2024-10-29"
+                  }
+              ]
+          }
+      ]
 }
