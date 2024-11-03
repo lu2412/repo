@@ -942,11 +942,11 @@ Architecture: iphoneos-arm64
 Maintainer: Kevin
 Replaces: com.huami.dyyy, com.kwct
 Filename: ./debs/酷我畅听会员-Rootless.deb
-Size: 96844
-MD5sum: dc38db412bf4d09ebd0ef754c62273c0
-SHA1: 66cd92086494eea11190cace60c4146516a32555
-SHA256: 718a06857cdc3951ac25f9f4b421249baa87096ffc11e08cd69d29add6e290bd
-Section: 抖音插件
+Size: 96744
+MD5sum: 44e62dee0f5f6ce69e8bcb31405251e7
+SHA1: dcb9e6b5cca9e3654e06c293402fd6b0cf6fbdd1
+SHA256: 0acbaebbcd7d539fb2fed482c39f29e049b5b10080b157fbfe37f6f1d0dff45a
+Section: 软件增强
 Description: 酷我畅听解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
