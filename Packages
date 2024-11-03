@@ -1143,12 +1143,12 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: lym1.com.sini.textforsnapper3
-Replaces: com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
+Replaces: com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3文字图标.deb
-Size: 25188
-MD5sum: 8a3d511e563dc7c44f4197fd7ee74007
-SHA1: 773fcafa9d07076d2c8ed83164797c1bf5af8084
-SHA256: 98c94ef5dccec5395b4c11f857bb7126e3717ddf9c7db0aec3cf7a3389d0fe8b
+Size: 25196
+MD5sum: 81817869d7472a50f0d1ad7305c8e3d6
+SHA1: f8443e4872e8d88d49a3032da79eb06d276450bf
+SHA256: 06f03635d36af1c53e42853dd9af76962f42256efbba446302c48fed15b14642
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
@@ -1156,6 +1156,25 @@ Description: Snapper 3自用文字美化图标
 Author: lym
 Name: Snapper 3文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.textforsnapper3.json
+
+Package: lym.com.sini.xxforsnapper3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Sini921
+Depends: mobilesubstrate, firmware (>= 15.0)
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.xxforsnapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
+Filename: ./debs/Snapper 3繁体文字图标-Rootless.deb.deb
+Size: 60776
+MD5sum: eee6b2cc430810de07b08702738bac53
+SHA1: 49b33813fe09992cc0f1410c4503bb639de9427c
+SHA256: 96e4ebdcce8f1d91e73224f6980f9a7576116c5b1017db4993e17bb93197208f
+Section: 系统美化
+Description: Snapper 3繁体文字美化图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Sini921
+Name: Snapper 3繁体文字图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
 
 Package: lym.com.telegram.return
 Version: 1.0
@@ -1447,12 +1466,12 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: lym.com.sini.textforsnapper3
-Replaces: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3
-Filename: ./debs/Snapper 3蓝色发光文字图标-Rootless.deb
-Size: 91888
-MD5sum: a52dcf2995d87a4f307310258dda23d5
-SHA1: 5ac0e6d7901e66d99402a9b1d6c3f2556213881a
-SHA256: e00d95e3d7f267ddc72c2f2c744cd5fe7208340e939c2d4d0063c068779f60f5
+Replaces: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
+Filename: ./debs/Snapper 3蓝色发光文字图标.deb
+Size: 91900
+MD5sum: e0fc00bc469ecfc3c4f343c9b6ceb2e3
+SHA1: 6db9f37ac5b0d3655796a63a7ab815643f11c98d
+SHA256: 98586a952fbee24528a9cf77bcbffec65695f48f5f7a229584ade51e30d3a6c7
 Section: 系统美化
 Description: Snapper 3自用蓝色发光文字美化图标
  - 插件无设置项安装即可生效
