@@ -1198,6 +1198,27 @@ Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.telegram.return.json
 
+Package: lym.com.xx.baiduhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 356
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.xx.baiduhook
+Filename: ./debs/百度地图优化-Rootless.deb
+Size: 102960
+MD5sum: 250575bd1e4aa48bc4f33716396d3245
+SHA1: 608913ba2bbc33be66a2198265772252eba644c0
+SHA256: 09606dbf0cfb493e1760945fffe6051c175ff3a765479fc523b437798ec97ed9
+Section: 控制中心
+Description: 去除百度地图一些无用的悬浮板块
+ - 移除底部tab如果需要某功能
+ - 可以长按设置界面1-2秒出菜单自行关闭
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: x✨
+Name: 百度地图优化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
+
 Package: lym.com.xx.dyhook
 Version: 2.0.7+3
 Architecture: iphoneos-arm64
