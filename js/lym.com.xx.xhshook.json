@@ -15,59 +15,53 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "插件介绍\n- 默认移除一些广告\n- 无水印保存图片视频、live图、评论区图片\n- 长按复制文案、放大图片双指长按可保存高分辨率图片\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.1.1",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月30日",
-                    "title": "最后更新时间"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.1.1\n- 初始版本发布\n- > 2024-10-30"
-                }
-            ]
-        }
-    ]
+                    "markdown": "### 插件介绍\n- 默认移除一些广告\n- 无水印保存图片视频、live图、评论区图片\n- 长按复制文案、放大图片双指长按可保存高分辨率图片\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 6,
+                      "itemSize": "{10,10}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.1.2",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月05日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.1.2\n- 新增评论区动图保存\n- 修复一些问题优化一些细节\n- > 2024-11-05"
+                  }
+              ]
+          }
+      ]
 }

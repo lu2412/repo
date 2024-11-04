@@ -15,59 +15,53 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "### 插件介绍\n- 去广告、无水印下载视频\n- 隐藏各种图层按钮文字等\n- 插件启用:双指双击屏幕打开插件设置界面\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2.0.7+3",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月28日",
-                    "title": "最后更新时间"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.0.7+3\n- 修复一些bug\n- 移除全屏时打开评论区 顶部黑块\n- 尝试修复部分设备全屏无效\n- 新增首页自动连播\n- 纯净播放按钮支持相册导入gif\n- 新增移除视频底部热点相关视频等视图\n ### 版本 2.0.7+2\n- 新增视屏批量下载合集\n- 新增倍速按钮自定义调节(重新打开开关)\n- 新增可自由选择是否添加图文保存视频按钮\n- 新增纯净模式按钮图标自行更改(最底部选取)\n- 长按关闭输入我爱嘉嘉可以更改头像旁名字\n- 修复右上角搜索透明度失败\n- 修复首页全屏偶尔失效\n- 修复一些已知问题\n- 优化一些插件代码\n- > 2024-10-28"
-                }
-            ]
-        }
-    ]
+                    "markdown": "### 插件介绍\n- 去广告、无水印下载视频\n- 隐藏各种按钮文字等\n- 插件启用:双指双击屏幕打开插件设置界面\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 6,
+                      "itemSize": "{10,10}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2.0.7+5",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月05日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 2.0.7+5\n- 修复31.8.0直播间实际人数问题\n- 修复31.9.0底部消息红点夫效\n- 修复31.9.0直播界面异常\n- 开启仅看一次开启下载按钮后仅看一次视频或图片不会自动消夫\n- 修复评论区方案1支持新版\n- 新增发送图片·视频消息默认选择原图\n ### 版本2.0.7+3\n- 修复一些bug\n- 移除全屏时打开评论区 顶部黑块\n- 尝试修复部分设备全屏无效\n- 新增首页自动连播\n- 纯净播放按钮支持相册导入gif\n- 新增移除视频底部热点相关视频等视图\n- > 2024-10-20\n ### 版本 2.0.7+2\n- 新增视屏批量下载合集\n- 新增倍速按钮自定义调节(重新打开开关)\n- 新增可自由选择是否添加图文保存视频按钮\n- 新增纯净模式按钮图标自行更改(最底部选取)\n- 长按关闭输入我爱嘉嘉可以更改头像旁名字\n- 修复右上角搜索透明度失败\n- 修复首页全屏偶尔失效\n- 修复一些已知问题\n- 优化一些插件代码\n- > 2024-10-28\n- > 2024-11-05"
+                  }
+              ]
+          }
+      ]
 }

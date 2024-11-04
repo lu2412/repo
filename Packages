@@ -1220,21 +1220,24 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.7+3
+Version: 2.0.7+5
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: x✨
+Installed-Size: 13680
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4660736
-MD5sum: bd85a7c5b4c64f5367e5e373c63251e3
-SHA1: 9579846a2a78afa1c242377c0903f5f81effb20e
-SHA256: f6cb919359ee174ec3e2b38f1f2508f3bcdf5d7a6c7498dbf8e27d5dc20dad55
+Size: 4728540
+MD5sum: b986eae4462c2cf57b96264ce40e4249
+SHA1: 5f89a3709d5984fdfdf3864c4c5d9d84a7207e75
+SHA256: 953ff533be86d5514f7b0564ff6d4099d151cd46cc9fc4bf56dd1b119df164a6
 Section: 抖音插件
 Description: 抖音功能增强插件
-  - 去广告、无水印下载视频
-  - 隐藏各种图层按钮文字等
-  - 插件启用:双指双击屏幕打开插件设置界面
-  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+   - 去广告、无水印下载视频
+   - 隐藏各种按钮文字等
+   - 插件启用:双指双击屏幕打开插件设置界面
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: x✨
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
@@ -1305,15 +1308,17 @@ Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
 
 Package: lym.com.xx.xhshook
-Version: 1.1.1
+Version: 1.1.2
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: x✨
+Installed-Size: 3288
+Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.xhshook
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1108008
-MD5sum: bb092d797774725bf832400ff88e1856
-SHA1: 4998fd4a441e34dc8c57a7c18d03b659bdb620dc
-SHA256: bb8bc440583580e95f66fc399b788429521ab4ccaf2c9ae3151ddab4b1fed512
+Size: 1146384
+MD5sum: 2c7d9cb087935758033f4252a9841eba
+SHA1: c572734255a17e0e34c2a068ec3c141e79afeb75
+SHA256: b4e931aeb184c56a93d64b1cd2fe57af7703b7f4492c5023f4d985858153796f
 Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
@@ -1321,7 +1326,7 @@ Description: 小红书软件增强
  - 长按复制文案、放大图片双指长按可保存高分辨率图片
  - 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: x✨
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
 
