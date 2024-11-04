@@ -21,7 +21,7 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 6,
-                      "itemSize": "{250,200}",
+                      "itemSize": "{250,250}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
