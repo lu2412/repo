@@ -1058,6 +1058,28 @@ Author: lym
 Name: AwemeClearLikes清除抖音点赞-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikess.json
 
+Package: lym.com.netskao.awemedisablebar
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 724
+Depends: firmware (>= 15.0), mobilesubstrate
+Replaces: com.netskao.awemedisablebar
+Filename: ./debs/抖音禁用 AwemeDisableBar-Rootless.deb
+Size: 306376
+MD5sum: 90d2356d66b8d74dd9f373815d7a4b32
+SHA1: 076e79673191ea35275344332161c541110246ea
+SHA256: a08ffecc8f0157c52859fca191e6ea563b3470db40bddb3382b9c2acb4139e28
+Section: 抖音软件
+Description: 抖音禁用菜单按钮
+ - 禁用“顶部/底部/右侧”选项/按钮
+ - 仅在30.3.0及更高版本上进行测试
+ - 插件位于抖音-设置最上方
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: 抖音禁用 AwemeDisableBar-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
+
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
 Architecture: iphoneos-arm64
