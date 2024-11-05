@@ -20,8 +20,8 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{400,520}",
+                      "itemCornerRadius": 25,
+                      "itemSize": "{400,700}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
