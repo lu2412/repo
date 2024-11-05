@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 抖音视频全屏显示\n- 对视频放大以达到全屏效果\n- 可能会有视频显示不全介意勿装\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 抖音视频全屏显示\n- 对视频放大以达到全屏效果n- 可能会有视频显示不全介意勿装\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -38,7 +38,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2-2",
+                      "text": "1.2-3",
                       "title": "插件版本"
                   },
                   {
@@ -48,7 +48,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月05日",
+                      "text": "2024年11月06日",
                       "title": "最后更新时间"
                   }
               ]
@@ -59,7 +59,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2-2\n- 重构代码\n- > 2024-11-05"
+                      "markdown": "### 版本 1.2-3\n- 恢复活动高度\n- > 2024-11-06\n ### 版本1.2-2\n- 重构代码\n- 增加设置开关\n- > 2024-11-5"
                   }
               ]
           }

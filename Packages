@@ -1081,17 +1081,17 @@ Name: AwemeDisableBar抖音禁用-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
 
 Package: lym.com.netskao.awemefullscreen
-Version: 1.2-2
+Version: 1.2-3
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 384
 Depends: firmware (>= 12.0), mobilesubstrate
 Replaces: com.netskao.awemefullscreen
 Filename: ./debs/AwemeFullScreen抖音全屏-Rootless.deb
-Size: 159584
-MD5sum: bd811c8b391375c308e1b70d7b9c28f2
-SHA1: 490bbdf9e67087d235459fff31bddabd4c4e52e3
-SHA256: 88f0fabfcb34e7870bc00e1571a273bbbe82c7ed10591c5d07a2bdeccc49cfc4
+Size: 161988
+MD5sum: d1ad0100ddd2e69d235ebf1074213d69
+SHA1: 3387e245ba8a220273e785467962e54297507478
+SHA256: 341a6f2e1af1af407cced4ff092ba91c619bd93983d2bc5f03388db9f8113f94
 Section: 抖音插件
 Description: 抖音视频全屏显示
  - 对视频放大以达到全屏效果
