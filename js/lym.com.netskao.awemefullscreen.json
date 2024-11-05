@@ -20,7 +20,7 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 15,
+                      "itemCornerRadius": 8,
                       "itemSize": "{400,700}",
                       "screenshots": [
                                 {
