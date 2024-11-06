@@ -21,7 +21,7 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{400,700}",
+                      "itemSize": "{240,520}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
@@ -38,7 +38,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-5",
+                      "text": "1.1-6",
                       "title": "插件版本"
                   },
                   {
@@ -48,7 +48,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月05日",
+                      "text": "2024年11月06日",
                       "title": "最后更新时间"
                   }
               ]
@@ -59,7 +59,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-5\n- 支持禁用底部商城按钮\n- 添加禁用视频右侧按钮\n- > 2024-11-05"
+                      "markdown": "### 版本 1.1-6\n- 禁用按钮将立即生效无需重启抖音\n- 修复禁用底部商城按钮失效问题\n- > 2024-11-06\n-### 版本1.1-5\n- 支持禁用底部商城按钮\n- 添加禁用视频右侧按钮\n- > 2024-11-4"
                   }
               ]
           }
