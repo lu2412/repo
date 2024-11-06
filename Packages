@@ -1638,6 +1638,24 @@ Icon:  https://liym5238.github.io/liym/icon/yjsp.png
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.yjsp-Rootless.json
 
+Package: lym.zuji-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Replaces: zuji-Rootless
+Filename: ./debs/一生足迹解锁-Rootless.deb
+Size: 10608
+MD5sum: 7e0628472de494c55c883a6d4ee41358
+SHA1: 111bb5adffba0e3d99df912ce28d18e97b55ad1d
+SHA256: dc51de207ee9f350a112d24e0c0f813b33508857acf22a6829c9537b28ab8733
+Section: 软件增强
+Description: 解锁会员
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 一生足迹解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zuji-Rootless.json
+
 Package: lym1.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
