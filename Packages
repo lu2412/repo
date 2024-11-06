@@ -1250,11 +1250,11 @@ Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.baiduhook
 Filename: ./debs/百度地图优化-Rootless.deb
-Size: 102960
-MD5sum: 250575bd1e4aa48bc4f33716396d3245
-SHA1: 608913ba2bbc33be66a2198265772252eba644c0
-SHA256: 09606dbf0cfb493e1760945fffe6051c175ff3a765479fc523b437798ec97ed9
-Section: 控制中心
+Size: 102992
+MD5sum: 6067f3aa43897d48753de1c812e9523c
+SHA1: a83c6099dd9b6cf42b5abbeb0cbd593890257ff8
+SHA256: e32c73d5d78b34c380f3da8e661a71534d6fae656a1c3dcd991966b452c5e3d9
+Section: 软件增强
 Description: 去除百度地图一些无用的悬浮板块
  - 移除底部tab如果需要某功能
  - 可以长按设置界面1-2秒出菜单自行关闭
