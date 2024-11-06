@@ -777,6 +777,26 @@ Author: lym
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
 
+Package: lym.com.fly.ljm
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 168
+Depends: mobilesubstrate
+Replaces: com.fly.ljm
+Filename: ./debs/拦截猫解锁-Rootless.deb
+Size: 8860
+MD5sum: da99e9c4eefe69c6827fa29a2e452151
+SHA1: 9be3db8dbf8fa7018be7ebb2d23dca8a24bc0c56
+SHA256: b53e60117286f6ffcecc5eae2ad7e50708395b2c920f4ffaa04b203e70bbc65c
+Section: 软件增强
+Description: 解锁会员
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 🅷🆆
+Name: 拦截猫解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.fly.ljm.json
+
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -1284,6 +1304,28 @@ Description: 抖音功能增强插件
 Author: x✨
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
+
+Package: lym.com.xx.jrtthook
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 644
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: com.xx.jrtthook
+Filename: ./debs/今日头条图层-Rootless.deb
+Size: 180180
+MD5sum: 89ffe18ce608c7a126dcd672207f79f7
+SHA1: f436f53628912c0613234b3b00aad360ee1edded
+SHA256: 021a3ea455ab735afb0daaf4c2e995438c12c6039848ae148caba93285af70b0
+Section: 软件增强
+Description: 默认移除头条一些广告
+ - 无水印保存视频
+ - 移除杂项,支持pro版
+ - 插件启用:APP设置界面双指长按出现菜单
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: x✨
+Name: 今日头条图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.jrtthook.json
 
 Package: lym.com.xx.kshook
 Version: 1.0.6-3
