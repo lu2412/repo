@@ -1347,17 +1347,17 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.7+5
+Version: 2.0.7+6
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 13680
+Installed-Size: 13828
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4728540
-MD5sum: b986eae4462c2cf57b96264ce40e4249
-SHA1: 5f89a3709d5984fdfdf3864c4c5d9d84a7207e75
-SHA256: 953ff533be86d5514f7b0564ff6d4099d151cd46cc9fc4bf56dd1b119df164a6
+Size: 4769636
+MD5sum: d547acda590dadb17487275607d3e49c
+SHA1: 838347989cfcad07219fa6c71ea70197e7b1e8e4
+SHA256: 5a9e9092d31ebac59d9f4d71a22f26f6c4805573aed1055f95a61eaa1e1dd8f9
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
@@ -1480,17 +1480,17 @@ Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
 
 Package: lym.com.xybp888.test
-Version: 0.0.1-28
+Version: 0.0.3-28
 Architecture: iphoneos-arm64
 Maintainer: lym
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xybp888.test
 Filename: ./debs/微信头像转圈圈-Rootless.deb
-Size: 8228
-MD5sum: 820295164cae59082c32e59284cc2fbb
-SHA1: ef5991f49bb1bc4160ad08c292c7670493eac74b
-SHA256: da0ac89380997bee9ab42b770d1cf3ca6fbc701bcc2865ac6ff8c61a6e3ee18f
+Size: 8236
+MD5sum: 5587a29ef6f4842a38762159c399f38d
+SHA1: 097144ccd9c91a2aef164dad0c4c06d176a3d969
+SHA256: 1aa11d7170756175d2896a13232854d2979699f825a9ee4406e79f506905aef8
 Section: 微信插件
 Description: 微信头像转圈圈
  - 新增设置开关
