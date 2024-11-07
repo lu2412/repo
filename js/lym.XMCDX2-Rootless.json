@@ -9,20 +9,24 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "点击下载熊猫吃短信 2",
+                    "action": "https://apps.apple.com/cn/app/id1642682818",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信头像转圈圈\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 解锁会员\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
+                      "itemCornerRadius": 15,
                       "itemSize": "{10,10}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
                             ]
                   },
 
@@ -34,7 +38,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.1-28",
+                      "text": "1.0",
                       "title": "插件版本"
                   },
                   {
@@ -44,7 +48,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月02日",
+                      "text": "2024年11月07日",
                       "title": "最后更新时间"
                   }
               ]
@@ -55,7 +59,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.3-28\n- 增加设置开关\n- 增加旋转速度设置\n- > 2024-11-02"
+                      "markdown": "### 版本 1.0\n- 初始版本发布\n- > 2024-11-07"
                   }
               ]
           }
