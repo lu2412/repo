@@ -1118,6 +1118,30 @@ Author: Netskao
 Name: AwemeDisableBar抖音禁用-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
 
+Package: lym.com.netskao.awemedownloadmedia
+Version: 1.1-8
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 456
+Depends: firmware (>= 15.0), mobilesubstrate
+Replaces: com.netskao.awemedownloadmedia
+Filename: ./debs/AwemeDownloadMedia抖音下载-Rootless.deb
+Size: 147084
+MD5sum: cd809921382ed035dda1621b02463566
+SHA1: a489810c8e71e7a9e08734990f7ce43a9f64cb11
+SHA256: ad389bac110314d893d6ba8ce9ce71c2f96a0065b49a0d408f029e09cbe1f936
+Section: 抖音插件
+Description: 抖音增强插件
+ - 右下角显示下载按钮\n- 无水印保存图片、视频、LivePhoto
+ - 仅在31.7.0及更高版本上进行测试
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 使用提示
+ - 评论区「图片/实况」无需点开大图,直接长按图片即可开始下载(不要点开大图)
+ - 开启功能后只有在视频/图片右侧中的下载按钮中下载才为无水印
+Author: Netskao
+Name: AwemeDownloadMedia抖音下载-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedownloadmedia.json
+
 Package: lym.com.netskao.awemefullscreen
 Version: 1.2-3
 Architecture: iphoneos-arm64
@@ -1139,6 +1163,27 @@ Description: 抖音视频全屏显示
 Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
+
+Package: lym.com.netskao.awemevideotime
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 124
+Depends: firmware (>= 15.0), mobilesubstrate
+Replaces: com.netskao.awemevideotime
+Filename: ./debs/AwemeVideoTime抖音时间-Rootless.deb
+Size: 31768
+MD5sum: eb1068b7e0ad0f09c6a5f4f759c0f1c8
+SHA1: abc646c110e1eaa64cd5a8b2239eebc76c185bee
+SHA256: 8043c7add6c7f62ad0e55cd64dd1d08a20ac5c719886804c3c40ef07ee865c27
+Section: 抖音插件
+Description: 抖音增强插件
+ - 抖音视频下方显示视频时长
+ - 仅在30.3.0及更高版本上进行测试
+ - 插件无设置项安装即可生效后请于24小时内删除!
+Author: Netskao
+Name: AwemeVideoTime抖音时间-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemevideotime.json
 
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
