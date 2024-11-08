@@ -401,6 +401,26 @@ Author: lym
 Name: Edge个性Siri-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.caise.siri.json
 
+Package: lym.byg.iosios.net.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Replaces: byg.iosios.net.easynotify.rootless
+Filename: ./debs/Easynotify快速开关通知-Rootless.deb
+Size: 8316
+MD5sum: 36ba6fd4210194241f839ca8963caf30
+SHA1: d80db9abff8210fa6cd121c9239e199494405907
+SHA256: 900eabe7f950be02497fdd95c8d69e60071dbeb7f45b5e097fafd97df64d9b33
+Section: 系统增强
+Description: 长按主屏幕APP图标3D Touch菜单快速开关消息通知
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Snail
+Name: Easynotify快速开关通知-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
+
 Package: lym.chunheijianpan-Rootless
 Version: 0.3
 Architecture: iphoneos-arm64
@@ -730,6 +750,25 @@ Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
 
+Package: lym.com.HideMfWeb
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: 黄白
+Depends: firmware (>= 5.0), mobilesubstrate
+Replaces: com.HideMfWeb
+Filename: ./debs/隐藏其它设备在线提示-Rootless.deb
+Size: 13668
+MD5sum: 0ee9fe5573106ff7f8d1be2bfe9b5340
+SHA1: ff83d5221291d84d0d3d1233bc7837216cdf8754
+SHA256: 9cdc869d36ccff6bfa246ab402f7642f497f2867aecb635c04030d8046945098
+Section: 微信插件
+Description: 隐藏微信其它设备在线提示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 黄白
+Name: 隐藏其它设备在线提示-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HideMfWeb.json
+
 Package: lym.com.appku.wechat
 Version: 1.6-3
 Architecture: iphoneos-arm64
@@ -938,6 +977,26 @@ Description: 微博去除开屏广告
 Author: huami
 Name: 微博NoAds 微博去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wbnoads.json
+
+Package: lym.com.icraze.easynotifications
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 172
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Replaces: com.icraze.easynotifications
+Filename: ./debs/EasyNotifications-Rootless.deb
+Size: 3052
+MD5sum: a25d138ab96893a820d2e81801c5a147
+SHA1: a2abbf9f61455bb15e61dea02b0865e2a9ec5588
+SHA256: 3458f7eb984dad1eec1f928cf6ab7fcfdd9e26956329b4f9f4c94394630463a8
+Section: 系统增强
+Description: 左滑快速清除通知消息
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iCraze <icrazeios@protonmail.com>
+Name: EasyNotifications-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.easynotifications.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
