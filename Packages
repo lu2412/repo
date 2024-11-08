@@ -687,6 +687,47 @@ Author: lym
 Name: Remove Widget Background透明小组件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
 
+Package: lym.com.82flex.singlemutes
+Version: 1.4
+Architecture: iphoneos-arm64
+Maintainer: 82Flex
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.82flex.singlemute
+Replaces: com.82flex.singlemutes
+Filename: ./debs/Single Mute 静音图标-Rootless.deb
+Size: 25908
+MD5sum: 635f55796461b3e89b7b45b62db26069
+SHA1: 3f6758d02ee156eb477cc16d2c5d0c8859dbe0c7
+SHA256: a3e152209ecb47bb582ea8f1fc425c4c278a47b226f1eb7a4a54a34d83839044
+Section: 系统增强
+Description: 状态栏左上角显示静音图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 82Flex
+Name: Single Mute 静音图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlemutes.json
+
+Package: lym.com.82flex.singlevpns
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: 82Flex <82flex@gmail.com>
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.singlevpn, com.82flex.singlevpn.green, com.82flex.singlevpn.orange
+Replaces: com.82flex.singlevpns
+Filename: ./debs/Single VPN 着色-Rootless.deb
+Size: 28292
+MD5sum: 6fdd1cda25e3ec33eda5be8479a61dfb
+SHA1: 1ae01c5486339ca38e5ca0116158aefa6e3be4cd
+SHA256: 7ca0507740f0300cd0ae58fd17edba6740064732638fe3811d840d39dff9f635
+Section: 系统增强
+Description: 连接 VPN 时进行着色
+ - Wi-Fi 和 移动数据图标着色
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 82Flex <82flex@gmail.com>
+Name: Single VPN 着色-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlevpns.json
+
 Package: lym.com.82flex.wtvrbglauncher
 Version: 1.1
 Architecture: iphoneos-arm64
