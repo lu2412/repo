@@ -1,0 +1,74 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 免费获得SpotifyPremium\n- 就像Spotilife一样；更多的歌词服务,更多的自定义。\n- 插件设置位于Spotify设置内\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{10,10}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "5.8",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月08日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.0.0 \n 同步更新"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.7\n \n- 同步多国语言"
+                  },
+              ]
+          }
+      ]
+}
