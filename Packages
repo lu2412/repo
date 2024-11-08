@@ -793,6 +793,28 @@ Author: appku
 Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
 
+Package: lym.com.brend0n.nopassafterrespringsafe
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Replaces: com.brend0n.nopassafterrespringsafe
+Filename: ./debs/NoPassAfterRespring注销免解锁-Rootless.deb
+Size: 3592
+MD5sum: 9eeaddaa017f97213d53ec8627b42f02
+SHA1: 332da354c2bf0dde7e033db35d68ba2a7609afb0
+SHA256: cdef6450fe8542183583bd6e09186e88c8ebf06722767307836dcc85668f61c5
+Section: 系统增强
+Description: 注销免解锁
+ - 在注销前是解锁状态的情况下
+ - 注销后自动跳过人脸或指纹识别到桌面。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Brend0n <brendonjkding@126.com>
+Name: NoPassAfterRespring注销免解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
+
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
 Architecture: iphoneos-arm64
