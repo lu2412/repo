@@ -1457,18 +1457,18 @@ Maintainer: sunshinesong
 Installed-Size: 5624
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Replaces: com.sunshinesong.split-view-pro
-Filename: ./debs/split-view-pro-Rootless.deb
-Size: 1537132
-MD5sum: 583050b772ffb5e03dcbe32e435e08e6
-SHA1: de6264cd143b793fb59b441eba84f10b7ae8efb8
-SHA256: aa54b9a9fb7062d012a8396b10956fb6c3c6043a7dc0f8563d7ed0b4c1574843
+Filename: ./debs/split-view-pro分屏-Rootless.deb
+Size: 1538172
+MD5sum: 13c808d3e51388d1a773c243307fd5e2
+SHA1: b511f95e744a105352b6bf6220909db0703bf082
+SHA256: 761bb674d90c1a3f2c832ffa825b62284f85629d3daff8a9b4c1284e28cedb81
 Section: 系统增强
 Description: 已去除联网验证(网传删除node方法)
  - 上传仅为自用学习交流备份
  - 如果安装以后出现异常,与本源无关!
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: sunshinesong
-Name: split-view-pro-Rootless
+Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.telegram.return
