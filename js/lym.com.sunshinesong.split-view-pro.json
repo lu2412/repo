@@ -48,7 +48,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "",
+                      "text": "2024年11月09日",
                       "title": "最后更新时间"
                   }
               ]
@@ -66,14 +66,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.3.6\n- 新增联动电话助手上岛"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "\n- 移除相机权限"
+                      "markdown": "### 版本 1.3.6\n- 新增联动电话助手上岛\n- 移除相机权限"
                   },
                   {
                       "class": "DepictionSeparatorView"
