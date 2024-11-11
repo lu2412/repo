@@ -47,7 +47,7 @@
 
     <script>
         // 计算网站从今天开始运行的天数
-        var launchDate = new Date(); // 开始时间设置为当前时间
+        var launchDate = new Date('2024-10-01T00:00:00'); // 设置开始时间为2024年10月1日 
         launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
         var currentDate = new Date();
         var differenceInTime = currentDate - launchDate;
