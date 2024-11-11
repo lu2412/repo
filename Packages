@@ -876,6 +876,28 @@ Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
+Package: lym.com.dumpapp.wechat-rootless
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 23952
+Depends: mobilesubstrate, firmware (>= 12.0)
+Replaces: com.dumpapp.wechat-rootless
+Filename: ./debs/锤子助手-Rootless.deb
+Size: 9231112
+MD5sum: 690befbec86f109a8a7ec62f56dea749
+SHA1: 8d945202532ea9bd4995071a652d22a1b87eab43
+SHA256: 09f5d31df2d058d6123ab41d0a3f76a21b7a25a98c32ff2712dda976393d1a93
+Section: 微信插件
+Description: 复刻[微信净化]插件
+ - 越狱安装可能会和滑雪板UI扩展冲突
+ - 导致微信无限闪退安全模式!
+ - 功能基本一致,注意不可与净化共存
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: DumpApp
+Name: 锤子助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
+
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
 Architecture: iphoneos-arm64
