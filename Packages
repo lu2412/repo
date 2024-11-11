@@ -788,16 +788,16 @@ Name: 抖音 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.7-7
+Version: 1.7-8
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 10910656
-MD5sum: 4193df966835b61c451d0023cf9bbf05
-SHA1: 1c322ea0d7bed8723f70ce215ba658d755f8e87e
-SHA256: 109d43814db1dfebd97298a2ddc2d505d387dc9976c8b91d51e3f5f4ef0c99dc
+Size: 11250336
+MD5sum: da04cefc7f8380cb7e7ac0f0159a5fd5
+SHA1: 18a426f7bfa54198d7301377ffbb05bfffb03881
+SHA256: ae699111d7b66ab24391f25f6d39c4d53fee2690779cdc0c49d27e7178e12a1c
 Section: 微信插件
 Description: 一个微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
