@@ -442,17 +442,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.cn.llld.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 来了老弟
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: cn.llld.swipeextenderx
+Replaces: cn.llld.swipeextenderx
 Filename: ./debs/SwipeExtenderX键盘增强(汉化包)-Rootless.deb
-Size: 10416
-MD5sum: 1d7a52d181f6c54ac6eed5d65099ac31
-SHA1: a145c64364c6d34f23c3714e5b412a29f0def401
-SHA256: 46ff16dc05d474d3bbfe9c7d8faedddc6c5da895e6885ce62b789a4a0f813f90
+Size: 10504
+MD5sum: fc9de470429c93f74d5194e826a4fc12
+SHA1: 8690407a86aa0841a6eea36fffd84fd99f914dbf
+SHA256: 8e86b180bc7584e2a3b489ef6a5c06b628408663948c5e755d1980ed02043b47
 Section: 插件汉化
 Description: SwipeExtenderX汉化包
  - SwipeExtenderX的专用插件汉化包
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: 来了老弟
 Name: SwipeExtenderX键盘增强(汉化包)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
@@ -984,38 +988,38 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 妖刀
 Replaces: com.hk.atria.cn.rl
 Filename: ./debs/Atria 简体中文包-Rootless.deb
-Size: 8836
-MD5sum: a3929762e2383d38100bcc8f47e27653
-SHA1: 6fefdc272eb001ec292fde2bb8078a11cfdf5aab
-SHA256: 070b721a65ff79202634f644202d163fd5c4a0ee42485e5009b14a570ae255ee
+Size: 8840
+MD5sum: 65a5b3ddf7984bbeda1170b7640704e8
+SHA1: fde070a1cf1fc0b4a5b22d65fd76063a78c22054
+SHA256: fd73a0ef4916d76c640495769c7ea6a53c86c5ef869377f3d7c05adf46287bd2
 Section: 插件汉化
 Description:
  - Atria 简体中文包
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: 妖刀
 Name: Atria 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.atria.cn.rl.json
 
 Package: lym.com.hk.choicy.cn.rl
 Version: 1.4.6
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 妖刀
 Replaces: com.hk.choicy.cn.rl
 Filename: ./debs/Choicy 简体中文包-Rootless.deb
-Size: 4432
-MD5sum: c8e54cec8ab3488be5a3e37fb0f9a6d5
-SHA1: c641b9920e0e8067d3f832912dc90298830b6b2b
-SHA256: 5960543252408877d26d077d5672182bb993f68ed26b8d960df62525f261079c
+Size: 4440
+MD5sum: 4112b782013c503bcdb55bbef471bfdc
+SHA1: 3e6bee844d0731814ccf33a941687792056b4ca1
+SHA256: 05b7fe734a2e34e2a75a61152d7be25b2fde8c08aedb3ac2c7d456a739890b9e
 Section: 插件汉化
 Description:
  - Choicy 简体中文包
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
