@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/ios7.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="shortcut icon" href="https://liym5238.github.io/liym/icon/dongman.png">
+    <script src="./js/jquery.min.js"></script>
+    <style>
+        body { font-family: 'Arial', sans-serif; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        h2 { text-align: center; width: 100%; margin-bottom: 30px; }
+        
+        /* Card Style */
+        .card { 
+            background-color: white; 
+            margin: 15px; 
+            padding: 20px; 
+            width: calc(33.333% - 30px); 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+            transition: transform 0.3s ease-in-out; 
+            text-align: center; 
+        }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { margin: 0; padding-bottom: 10px; font-size: 1.2em; }
+        .card a { color: #333; text-decoration: none; }
+        .card a:hover { text-decoration: underline; }
+        
+        /* Button Style */
+        .btn-link { 
+            color: #fff; 
+            background-color: #00b5e2; 
+            padding: 10px 15px; 
+            border-radius: 5px; 
+            text-decoration: none; 
+            display: inline-block; 
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+            width: 120px; 
+            text-align: center; 
+            margin: 5px;
+        }
+        .btn-link:hover, .btn-link:active, .btn-link:focus { 
+            background-color: #00b5e2; 
+            transform: scale(1.05); 
+            box-shadow: 0 0 10px rgba(0,181,226,0.5); 
+        }
+        
+        .footer { text-align: center; margin-top: 30px; }
+        .run-time, .disclaimer { color: #666; font-size: 0.9em; }
+    </style>
+</head>
+<body onload="loadPackageInfo(); loadRecentUpdates();">
+<div class="container">
+    <h2>我的个人收藏</h2>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="sileo://source/https://liym5238.github.io/liym/" class="btn-link">跳转sileo</a>
+        <a href="https://dewx.top/2024/02/19/talkatone/" class="btn-link">Talkatone注册</a>
+        <a href="http://neko1.hnekocloud.top/#/dashboard" target="_blank" class="btn-link">✈️Hnekoc✈️</a>
+        <a href="https://reborn.kaochang.ltd/#/login" target="_blank" class="btn-link">✈️烤肠机场✈️</a>
+
+        <a href="http://fastsocks.xyz/#/login" target="_blank" class="btn-link">✈️便宜机场✈️</a>
+
+        <a href="https://ikuuu.one/auth/login" target="_blank" class="btn-link">✈️iKun机场✈️</a>
+
+        <a href="https://accounts.spotify.com/zh-CN/login?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Fprofile%2F%3Fflow_ctx%3Da2f537c3-ff2f-4c70-9499-385ab68196b1%253A1726143925" class="btn-link">Spotify地区</a>
+
+        <a href="https://www.freereceivesms.com" class="btn-link">短信接码</a>
+        <a href="https://whatshub.top/rule" class="btn-link">IP分流</a>
+
+        <a href="http://www.yckceo.com" class="btn-link">源阅读仓库</a>
+
+        <a href="http://qwq.tangdouz.com" class="btn-link">API导航</a>
+
+        <a href="https://api.yujn.cn" class="btn-link">遇见API</a>
+
+        <a href="https://jiejingku.net/icon/" class="btn-link">iOS图标下载</a>
+
+        <a href="https://fish.audio/zh-CN/go-api/billing/" class="btn-link">pkc语音</a>
+
+        <a href="https://m.10099.com.cn/h5recharge/#/" class="btn-link">广电充值全</a>
+
+        <a href="https://m.10099.com.cn/ssoserver/login.html?service=https://m.10099.com.cn/h5wap/loginEmpty%3Fpath%3Drecharge" class="btn-link">广电充值半</a>
+
+
+
+
+    </div>
+
+    <div class="footer">
+        <p class="run-time">本网站已顺利运行 <span id="daysRunning"></span> 天，感谢您的支持与关注。</p>
+        <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
+    </div>
+
+    <script>
+        // 计算网站从今天开始运行的天数
+        var launchDate = new Date('2024-10-01T00:00:00'); // 设置开始时间为2024年10月1日 
+        launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
+        var currentDate = new Date();
+        var differenceInTime = currentDate - launchDate;
+        var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+        document.getElementById('daysRunning').textContent = differenceInDays;
+    </script>
+</div>
+</body>
+</html>
