@@ -132,28 +132,6 @@ Author: lym
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.swipeextenderx.json
 
-Package: com.udevs.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/DockX键盘增强-Rootless.deb
-Size: 420924
-MD5sum: 44537cf3af4911d2fb65563a2d63566f
-SHA1: 8799f6e3dc63183fbe3ceeaea8006db0b253e4d4
-SHA256: 485a0812a297dd4db3e8e45014252a75704f7a9bc7c7982e54ffd55f9c9dd004
-Section: 系统增强
-Description: 键盘底部增强插件
- - 经典键盘类插件DockX
- - 按钮图标可通过修改配置文件
- - /var/jb/var/mobile/Library/Preferences/com.udevs.dockx.plist
- - 中的images13字段实现,修改后打开多巴胺app重启用户空间
- - 按钮文字在/var/jb/Library/PreferenceBundles/DockXPrefs.bundle
- - 到对应语言包的Localizable.strings进行修改
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: DockX键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.udevs.dockx.json
-
 Package: daili-Rootless
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -1535,6 +1513,32 @@ Description: 把官方Telegram回车键/换行键修改为“发送”功能
 Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.telegram.return.json
+
+Package: lym.com.udevs.dockx
+Version: 2.6.2
+Architecture: iphoneos-arm64
+Maintainer: udevs
+Installed-Size: 2068
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.restiveconch.actionbar, com.udevs.dockx
+Replaces: com.udevs.dockx
+Filename: ./debs/DockX 键盘增强-Rootless.deb
+Size: 422012
+MD5sum: 972e4030d49ac401baf755122131c55d
+SHA1: 3feb6fb4b678c208f0df1fbe218cb556827a372f
+SHA256: 17ce581cc2f41488328d69b0f2f162d1df9b01a6c73ac3910929d19ad06e2a35
+Section: 系统增强
+Description: 键盘底部增强插件
+ - 经典键盘类插件DockX
+ - 按钮图标可通过修改配置文件
+ - /var/jb/var/mobile/Library/Preferences/com.udevs.dockx.plist
+ - 中的images13字段实现,修改后打开多巴胺app重启用户空间
+ - 按钮文字在/var/jb/Library/PreferenceBundles/DockXPrefs.bundle
+ - 到对应语言包的Localizable.strings进行修改
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: udevs
+Name: DockX 键盘增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.udevs.dockx.json
 
 Package: lym.com.xx.baiduhook
 Version: 1.0.2
