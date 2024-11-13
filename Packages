@@ -399,6 +399,27 @@ Author: Snail
 Name: Easynotify快速开关通知-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
 
+Package: lym.byg.iosios.net.settingswidgets.rootless
+Version: 1.2.3.1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 512
+Depends: mobilesubstrate, preferenceloader
+Conflicts: byg.iosios.net.settingswidgets.rootless
+Replaces: byg.iosios.net.settingswidgets.rootless
+Filename: ./debs/SettingsWidgets设置小部件-Rootless.deb
+Size: 73500
+MD5sum: 3f3384d20ac364eebfa5d8e5ceef9512
+SHA1: 2339a9f292202758f5de3d73bdf03ee09a7c1b5f
+SHA256: 4dba94cc55f8f664cf8d97f984516b9a8a1dcc0b19cfb9013130c0065717e696
+Section: 系统增强
+Description: 设置顶部增加小部件
+  - 可自行设置需要展示小部件
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: shepgoba
+Name: SettingsWidgets设置小部件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
+
 Package: lym.chunheijianpan-Rootless
 Version: 0.3
 Architecture: iphoneos-arm64
@@ -2025,23 +2046,6 @@ Description: 让QQ消息通知显示QQ好友头像
 Author: lym
 Name: QQ消息通知头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtouxiang-Rootless.json
-
-Package: settingswidgets.rootless
-Version: 1.2.3
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/设置顶部增加小部件-Rootless.deb
-Size: 73416
-MD5sum: 1ddab0f8341a1a975f33ad1ceac12a83
-SHA1: e910f02709a6c65090e6f5e2f936e6469cceb7d5
-SHA256: d4d515771636259dad1a0404f9fec7c73e123f3b4e8999b295ac7a9c64878b94
-Section: 系统增强
-Description: 设置顶部增加小部件
- - 可自行设置需要展示小部件
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 设置顶部增加小部件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/settingswidgets.rootless.json
 
 Package: tikTok-Rootless
 Version: 1.0
