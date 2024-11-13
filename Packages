@@ -1793,6 +1793,26 @@ Author: lym
 Name: 韩小圈解锁画质-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.hxq-Rootless.json
 
+Package: lym.ios-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: iBreak <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Conflicts: ios-rootless
+Replaces: ios-rootless
+Filename: ./debs/全局开关颜色-Rootless.deb
+Size: 3492
+MD5sum: 4dc166ae789fa74c5e8574cd5547512e
+SHA1: 009f9bc01989fb376a4ee59b23d886104036dbae
+SHA256: 5d0a9f1a33da76cf3ebb74428dcc84b3675fd13a31a082623b69bd675ab172c3
+Section: 系统增强
+Description: 让开关标签颜色更为好看
+  - 开启方法：前往：设置 - 辅助功能 - 显示与文字大小 - 开/关标签
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: iBreak <xuanhua880@gmail.com>
+Name: 全局开关颜色-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ios-rootless.json
+
 Package: lym.kwct-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
