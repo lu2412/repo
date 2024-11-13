@@ -20,9 +20,13 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
+                      "itemCornerRadius": 15,
                       "itemSize": "{10,10}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
                             ]
                   },
 
@@ -44,7 +48,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月02日",
+                      "text": "2024年11月13日",
                       "title": "最后更新时间"
                   }
               ]
@@ -55,8 +59,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-1\n- 初始版本发布\n- > 2024-11-02"
-                  }
+                      "markdown": "### 版本 1.1-1 \n- 发布初始版本"
+                  },
               ]
           }
       ]

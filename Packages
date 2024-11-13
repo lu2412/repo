@@ -1377,20 +1377,22 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Nets
 Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcdisablehotupdates
 Replaces: com.netskao.wcdisablehotupdates
 Filename: ./debs/微信禁用热更新-Rootless.deb
-Size: 2488
-MD5sum: e8286e070241d9feaefef2d1ca6db15f
-SHA1: c3284635d3d8e3f7b7ebf0068c999a104d1a8ffb
-SHA256: d4917a39c0b4988efb597277ede1c679de48829e581f42a2e96c27421a0e00f8
+Size: 2500
+MD5sum: c24eb947f500d6ee8a93c9c6a973294c
+SHA1: ddbc1ffbfb70baeacbd04b4a6c117cf6731c6fde
+SHA256: 423008a3d3fcb673a5bd860d727e3c0a1a2822342154cb59b8d4cafacf91bb3c
 Section: 微信插件
-Description: 微信禁用热更新\n- 热更新是通过动态下发和加载代码，在APP或SDK不重新下载和安装的情况下，改变其原有代码逻辑或资源文件
+Description: 微信禁用热更新
+ - 热更新是通过动态下发和加载代码，在APP或SDK不重新下载和安装的情况下，改变其原有代码逻辑或资源文件
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Netskao
 Name: 微信禁用热更新-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcdisablehotupdates.json
 
