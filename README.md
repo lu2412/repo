@@ -112,3 +112,57 @@
 
 至此，您的 GitHub 仓库已成功创建，并且可以在 Sileo 中访问并更新源！
 
+以下是整理后的 README.md 文档，用于指导如何配置 SSH 密钥并通过 SSH 推送到 GitHub：
+
+GitHub SSH Key 配置指南
+
+本教程将帮助您在 GitHub 上配置 SSH 密钥、克隆仓库，并使用 SSH 上传更改。
+
+
+## 配置ssh命令教学
+步骤 1: 生成 SSH Key
+
+在终端中输入以下命令，将 your_email@example.com 替换为您的 GitHub 账号邮箱。连续按四五次回车以使用默认配置。
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+步骤 2: 复制公钥内容
+
+	1.	打开 Filza 文件管理器，导航至 /var/jb/var/mobile/.ssh。
+	2.	找到 id_rsa.pub 文件，打开并复制文件的全部内容。
+
+步骤 3: 在 GitHub 添加公钥
+
+	1.	登录 GitHub，进入 Settings > SSH and GPG keys。
+	2.	点击 New SSH key 按钮，将之前复制的公钥内容粘贴到文本框中，保存。
+
+步骤 4: 验证 SSH Key 配置
+
+在终端中输入以下命令，验证是否成功配置 SSH：
+
+ssh -T git@github.com
+
+成功配置后将看到类似如下的提示：
+
+Hi liym5238! You've successfully authenticated, but GitHub does not provide shell access.
+
+步骤 5: 克隆仓库并配置 SSH URL
+
+	1.	使用 SSH 链接重新克隆仓库。
+	2.	打开克隆的仓库目录下的 .git/config 文件，将 url =  后的 HTTPS 链接替换为 SSH 格式的链接：
+
+url = git@github.com:liym5238/liym.git
+
+
+
+步骤 6: 使用 SSH 命令上传到 GitHub
+
+在本地仓库根目录（例如 /var/jb/var/mobile/liym）中执行以下命令以推送更改到 GitHub：
+
+cd /var/jb/var/mobile/liym
+git pull
+git add .
+git commit -m "提交说明"
+git push
+
+按照上述步骤，您现在可以通过 SSH 安全地将代码推送到 GitHub。
