@@ -1,3 +1,4 @@
+
 # GitHub 仓库创建与 Sileo 源上传教程
 
 本教程帮助您在 GitHub 上创建仓库，生成个人访问令牌，上传 `.deb` 文件到 GitHub，并将其添加到 Sileo 中。
@@ -110,16 +111,16 @@
 
 3.	完成上传后，在 Sileo 刷新源并验证是否成功添加 .deb 文件。
 
-至此，您的 GitHub 仓库已成功创建，并且可以在 Sileo 中访问并更新源！
+4.设置上传文件大小限制命令(只需要配置一次)设置为500m
 
-以下是整理后的 README.md 文档，用于指导如何配置 SSH 密钥并通过 SSH 推送到 GitHub：
+    
+    git config --global http.postBuffer 524288000 
 
-GitHub SSH Key 配置指南
+
+## GitHub SSH Key 配置指南
 
 本教程将帮助您在 GitHub 上配置 SSH 密钥、克隆仓库，并使用 SSH 上传更改。
 
-
-## 配置ssh命令教学
 步骤 1: 生成 SSH Key
 
 在终端中输入以下命令，将 your_email@example.com 替换为您的 GitHub 账号邮箱。连续按四五次回车以使用默认配置。
@@ -166,3 +167,23 @@ GitHub SSH Key 配置指南
       git push
 
 按照上述步骤，您现在可以通过 SSH 安全地将代码推送到 GitHub。
+
+
+7、一键替换链接sh文件，sh文件权限记得更改为0775权限
+
+    #!/bin/bash
+
+    # 定义要查找和替换的字符串
+    old_url="https://trollstorex.github.io/sileodepiction/repo/banner.png"
+    new_url="https://liym5238.github.io/liym/icon/hengfu.png"
+
+    # 查找当前目录及其子目录中的所有 JSON 文件，并替换旧链接为新链接
+    find . -name "*.json" -type f -exec sed -i '' "s|$old_url|$new_url|g" {} +
+
+    echo "链接替换完成。"
+
+
+</details>
+
+
+
