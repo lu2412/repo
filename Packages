@@ -923,6 +923,27 @@ Author: raul saeed & 刀刀
 Name: BHTikTok++中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtiktok++.json
 
+Package: lym.com.dao.bhtwitter
+Version: 4.3-3
+Architecture: iphoneos-arm64
+Maintainer: Bandar Alruwaili
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter
+Replaces: com.dao.bhtwitter
+Filename: ./debs/BHTwitter 中文版-Rootless.deb
+Size: 7613936
+MD5sum: b68f9ec54865a38b759441f9bf096e9d
+SHA1: 8d755c35c46b7a1ad9aace798b9a26d7bde1d058
+SHA256: 97c3716bda476bf3decaea065cc091e88f8f952d34cc26c2b66bbc84d878af24
+Section: 软件增强
+Description: BHTwitter中文修复优化版
+ - 推特(X)的综合功能性插件
+ - 插件选项位于推特设置顶部
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Bandar Alruwaili
+Name: BHTwitter 中文版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtwitter.json
+
 Package: lym.com.dumpapp.wechat-rootless
 Version: 2.0.4
 Architecture: iphoneos-arm64
