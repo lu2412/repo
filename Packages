@@ -1537,12 +1537,12 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Replaces: com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3文字图标.deb
-Size: 25196
-MD5sum: 4aedae379952b93449ec5a052f8d4e4d
-SHA1: 495dbd3d27c41ae60cb41bbada28253ab7a9c0c6
-SHA256: 8ead99c0f9229e0873192f266f16a790cd59142b4b5a6ca14dc1bdb93618c744
+Size: 25220
+MD5sum: 4884b608240f9b7dc0ecd5d27c6b42af
+SHA1: b2fc8dfe851cb073da17de6e8894b48f060fba37
+SHA256: df2cb7f024d9f83e324a549cf9c3615381602d91d01daf9d05e69e62d138cb61
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
@@ -1557,12 +1557,12 @@ Architecture: iphoneos-arm64
 Maintainer: Sini921
 Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3
-Replaces: lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3.lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
 Filename: ./debs/Snapper 3繁体文字图标.deb
-Size: 60732
-MD5sum: 5cd38e84c8afe5ad87346b15fe195299
-SHA1: b44cbe434debbbc472123c1714ce96c28c097625
-SHA256: 948c4b24582f77b46cab94e24af6b04eb50488e171a7d1f2be87deebfb257eac
+Size: 60752
+MD5sum: 80f6de30a6a639e8209eccff32c06c57
+SHA1: 35ac74f6a0702f084775eb5d2a114f689392443a
+SHA256: a6b183d3c50423f754721d22fa1e7c88bdec5f23ed0636f4ddb65552fa4b85c6
 Section: 系统美化
 Description: Snapper 3繁体文字美化图标
  - 插件无设置项安装即可生效
@@ -2076,12 +2076,12 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Replaces: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3.lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3蓝色发光文字图标.deb
-Size: 91900
-MD5sum: 90be68c6332b5ef92e1d7645055afacb
-SHA1: e75d76b013a2ffd5f73057c1b970f2adc1fa21a6
-SHA256: eed2c3ff557106505d12b614bdbba3914bca4001f5db95d5baa3d855db0202dc
+Size: 91924
+MD5sum: 8f3818283fa2f0e03cf9c60b2bd43eca
+SHA1: d81a9bcc94b18cff22946a7072474130bbf3c77b
+SHA256: 7554ffdab412991db59fa9373095ad989de3a4bf048ab35a48d518844226ee5d
 Section: 系统美化
 Description: Snapper 3自用蓝色发光文字美化图标
  - 插件无设置项安装即可生效
