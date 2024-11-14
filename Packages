@@ -663,12 +663,12 @@ Installed-Size: 236
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.ohmyinsets, com.82flex.ohmyinsetss
 Replaces: com.82flex.ohmyinsetss
-Filename: ./debs/Oh My Insets 控制中心五列-Rootless.deb
-Size: 13348
-MD5sum: febb2dfe417e50da8d02c09755a8371f
-SHA1: 769dc390fd75c28d329e9a7253d5950673eb9009
-SHA256: e8d7a5bcc44c80d9e210b8a473383cdb01f59008dfc73d17df9ff1f8580d97a1
-Section: 系统增强
+Filename: ./debs/Oh My Insets 控制中心五列.deb
+Size: 13312
+MD5sum: 0aae56a222fa5674c149922508f984df
+SHA1: 3f4eed2553c13707ac1aa4953b798b8a87aefcde
+SHA256: bdabcd20a41fa95aab44d622fb7af2658db01a9e7c9680f26f586e4da14d6105
+Section: 控制中心
 Description: 控制中心模块五列显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
