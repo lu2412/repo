@@ -382,25 +382,6 @@ Author: alias20
 Name: CalcLog计算器显示过程-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.alias20.calclog.json
 
-Package: lym.byg.iosios.net.caise.siri
-Version: 3.1.1-9
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: byg.iosios.net.caise.siri
-Filename: ./debs/Edge个性Siri-Rootless.deb
-Size: 15220
-MD5sum: 3a1ca56fb54626c9a6019b126bf9adad
-SHA1: 377abac001b4884b7276da966f9489dacaa5c140
-SHA256: 9f09f9d7234d5e4a6cdcf72ff95d8af40d1c0629e79c25325c4991fea5b2e48b
-Section: 系统美化
-Description: 一款模仿iOS18的插件
- - 在 Siri 激活时在屏幕周围显示彩色边框
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Edge个性Siri-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.caise.siri.json
-
 Package: lym.byg.iosios.net.easynotify.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -674,22 +655,26 @@ Author: lym
 Name: Icon Restore 图标时光机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.iconrestore.json
 
-Package: lym.com.82flex.ohmyinsets
+Package: lym.com.82flex.ohmyinsetss
 Version: 0.1
 Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/Oh My Insets控制中心五列-Rootless.deb
-Size: 12148
-MD5sum: fa2a6337c393312fa1d576dd891e76c0
-SHA1: 8344c2b8dd316a9129a93f4e21f7094eb8f1d168
-SHA256: c96bfa489f1ccc4d1c43f1d4b8b41e3b44707d2f87329490e8cf19e391a774bc
-Section: 控制中心
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.ohmyinsets, com.82flex.ohmyinsetss
+Replaces: com.82flex.ohmyinsetss
+Filename: ./debs/Oh My Insets 控制中心五列-Rootless.deb
+Size: 13348
+MD5sum: febb2dfe417e50da8d02c09755a8371f
+SHA1: 769dc390fd75c28d329e9a7253d5950673eb9009
+SHA256: e8d7a5bcc44c80d9e210b8a473383cdb01f59008dfc73d17df9ff1f8580d97a1
+Section: 系统增强
 Description: 控制中心模块五列显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Oh My Insets控制中心五列-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsets.json
+Author: Lessica <82flex@gmail.com>
+Name: Oh My Insets 控制中心五列-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsetss.json
 
 Package: lym.com.82flex.removewidgetbg
 Version: 1.7
@@ -776,21 +761,23 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.82flex.wtvrbglauncher
 Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 404
+Maintainer: Lessica
+Installed-Size: 372
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.82flex.wtvrbglauncher
 Replaces: com.82flex.wtvrbglauncher
 Filename: ./debs/语音转文字免跳转-Rootless.deb
-Size: 23312
-MD5sum: 69b7b048a5b45919d881050f0be0a5ab
-SHA1: ab205071ab18addc3234eacc15bad65a7143f850
-SHA256: 33429906547159a2d52b05fb3d7342684f8b43bc17471c9b85a4a3b509337b90
+Size: 23128
+MD5sum: e5a02a82d3593cc1136e17bf27c1d2db
+SHA1: 84a8c7e3dffd73056dfc694e9f68a502d13eb794
+SHA256: 5dac4823910eff10d2a49e5b50ab9c32dde02791a3e1f499d96bfa24460959cd
 Section: 系统增强
-Description: 中文输入法语音转文字免跳转插件
- - 安装并注销后立即生效。支持的输入法：微信、百度、搜狗、讯飞
+Description: 语音转文字免跳转
+ - 中文输入法语音转文字免跳转
+ - 支持的输入法：微信、百度、搜狗、讯飞
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Lessica
 Name: 语音转文字免跳转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
 

@@ -16,16 +16,20 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 中文输入法语音转文字免跳转\n- 支持的输入法：微信、百度、搜狗、讯飞\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 控制中心模块五列显示\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10, 10}",
+                      "itemSize": "{355, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/122.png"
+                                      "url": "https://trollstorex.github.io/sileodepiction/Insets/pic1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/Insets/pic2.png"
                                   }
                             ]
                   },
@@ -38,7 +42,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1",
+                      "text": "0.1",
                       "title": "插件版本"
                   },
                   {
@@ -59,7 +63,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1 \n- 新增设置选项"
+                      "markdown": "### 版本 0.1 \n- 新增设置选项"
                   },
               ]
           }
