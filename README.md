@@ -124,7 +124,7 @@ GitHub SSH Key 配置指南
 
 在终端中输入以下命令，将 your_email@example.com 替换为您的 GitHub 账号邮箱。连续按四五次回车以使用默认配置。
 
-ssh-keygen -t ed25519 -C "your_email@example.com"
+      ssh-keygen -t ed25519 -C "your_email@example.com"
 
 步骤 2: 复制公钥内容
 
@@ -140,18 +140,18 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 
 在终端中输入以下命令，验证是否成功配置 SSH：
 
-ssh -T git@github.com
+      ssh -T git@github.com
 
 成功配置后将看到类似如下的提示：
 
-Hi liym5238! You've successfully authenticated, but GitHub does not provide shell access.
+      Hi liym5238! You've successfully authenticated, but GitHub does not provide shell access.
 
 步骤 5: 克隆仓库并配置 SSH URL
 
-	1.	使用 SSH 链接重新克隆仓库。
-	2.	打开克隆的仓库目录下的 .git/config 文件，将 url =  后的 HTTPS 链接替换为 SSH 格式的链接：
+1.	使用 SSH 链接重新克隆仓库。
+2.	打开克隆的仓库目录下的 .git/config 文件，将 url =  后的 HTTPS 链接替换为 SSH 格式的链接：
 
-url = git@github.com:liym5238/liym.git
+          url = git@github.com:liym5238/liym.git
 
 
 
@@ -159,10 +159,10 @@ url = git@github.com:liym5238/liym.git
 
 在本地仓库根目录（例如 /var/jb/var/mobile/liym）中执行以下命令以推送更改到 GitHub：
 
-cd /var/jb/var/mobile/liym
-git pull
-git add .
-git commit -m "提交说明"
-git push
+      cd /var/jb/var/mobile/liym
+      git pull
+      git add .
+      git commit -m "提交说明"
+      git push
 
 按照上述步骤，您现在可以通过 SSH 安全地将代码推送到 GitHub。
