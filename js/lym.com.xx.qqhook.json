@@ -20,9 +20,17 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
+                      "itemCornerRadius": 15,
                       "itemSize": "{10, 10}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/CCVPN/pic1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/CCVPN/pic2.png"
+                                  }
                             ]
                   },
 
@@ -34,7 +42,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.1-1",
+                      "text": "1.1.1-2",
                       "title": "插件版本"
                   },
                   {
@@ -44,7 +52,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年10月31日",
+                      "text": "2024年11月15日",
                       "title": "最后更新时间"
                   }
               ]
@@ -55,8 +63,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.1-1\n- 初始版本发布\n- > 2024-10-31"
-                  }
+                      "markdown": "### 版本 1.1.1-2 \n- 适配最新版"
+                  },
               ]
           }
       ]

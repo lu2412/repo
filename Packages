@@ -17,25 +17,6 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: Twitter-Rootless
-Version: 1.1.-1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/Twitter去广告-Rootless.deb
-Size: 2652
-MD5sum: f8264f4ebd70f3cdb1eda7400f649f45
-SHA1: b2ea1a59d868889bf81d19c15853d7f74c8071c9
-SHA256: 0909a76c0fb1a0db6104341578cfaf34d93e3bc44866c8cd422bebf71a27fa4b
-Section: 软件增强
-Description: X(Twitter)去广告优化
- - 删除Twitter数据流中广告
- - 截止目前10.64.1版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Twitter去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
-
 Package: baiduwangpan-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -109,47 +90,6 @@ Description: 缩小键盘与底部的间隙
 Author: lym
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.icraze.smallboards.json
-
-Package: com.lym.swipeextenderx
-Version: 1.6.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
-Size: 85848
-MD5sum: 46621d12ebd827ae1410d7835ae152e5
-SHA1: 65cc8d59d24cfda93022d0a202dc9a2762cb5a23
-SHA256: fcb269f1f5e8ae0ed1138bc4f0aeeab85526431cf130d2b9c4ec87480009d667
-Section: 系统增强
-Description: IOS原生键盘增强功能
- - 仅仅支持系统原生键盘
- - 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
- - 多种按键动作：向上滑动，向下滑动，向左滑动，向右滑动，长按
- - 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
- - 多种键盘类型可以自定义
- - 与其他插件兼容，例如 Copylog 等
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: SwipeExtenderX键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.lym.swipeextenderx.json
-
-Package: daili-Rootless
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/去除代理检测-Rootless.deb
-Size: 4680
-MD5sum: 69fd304e0abc513f32024cd4495b91be
-SHA1: a0b6f932b314a84fa11aac71a7a1ed275054dcf4
-SHA256: 9eca2924c0cd7f4f4b71dc5cce958f077deb3e304968efeed5e941df4b8e574b
-Section: 系统增强
-Description: 去除app代理检测
- - 去除app代理检测
- - 设置里自行选择屏蔽app启用
- - ibox先在巨魔切换成系统模式就能正常显示
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 去除代理检测-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/daili-Rootless.json
 
 Package: elm-Rootless
 Version: 0.1
@@ -521,19 +461,19 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.25mao.miyou.rootless
 Version: 3.8-0
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Mao
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 10163812
-MD5sum: cef7085faaac2f0407d0478c6b2aa990
-SHA1: d55c6d747fa0775194ae4cdd95d83f9bcb3172a3
-SHA256: 32eea40e662333c8b12b4ac06ff6da6db23b8bae5b9e75315696ab839e0cdce3
+Size: 10164288
+MD5sum: 36d9723fb765c5fbad90277b564d3bca
+SHA1: 139e0c82384e8945a6240cc3492a64effb65a643
+SHA256: 474d560d94473f58b8bb510aad184da6bca0cc10c1644a6569b0ab8f2f8bd05c
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Mao
 Name: 微信助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
@@ -1208,19 +1148,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
 Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: com.kingpuffdaddi.control-center.ccvpn.surge
-Filename: ./debs/CCVPNSurge-Rootless.deb
-Size: 25600
-MD5sum: 74e663cec09155fb7094d3aec160cf83
-SHA1: cf3845d4c62ffda24282d6d4f31f2563d46b71cb
-SHA256: e5bd0bdb7a100e0eea84a34b7cb72d1477c1717c646006d1b0f6c978b79366ea
+Maintainer: https://trollstorex.github.io/repo/
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
+Conflicts: com.kingpuffdaddi.control-center.ccvpn, com.kingpuffdaddi.control-center.ccvpn.surge
+Replaces: com.kingpuffdaddi.control-center.ccvpn, com.kingpuffdaddi.control-center.ccvpn.surge
+Filename: ./debs/ccVPN Surge-Rootless.deb
+Size: 25684
+MD5sum: ae1b7f1c5e0bef4d406beb7f621020cb
+SHA1: bbcb9207693c9ce941337d9d4b1ae25183993432
+SHA256: 8f6a2379d44c0fc0509a622ac7134e1e0d2e4b76f70c1cab8b58d27e5279fab2
 Section: 控制中心
 Description: 在控制中心添加VPN模块并把VPN图标修改为 Surge
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: CCVPNSurge-Rootless
+Author: KingPuffdaddi
+Name: ccVPN Surge-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kingpuffdaddi.control-center.ccvpn.surge.json
 
 Package: lym.com.lclrc.controltab
@@ -1440,6 +1382,28 @@ Author: Netskao
 Name: QQNotiAvatar消息头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
 
+Package: lym.com.netskao.twitternoads
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.netskao.twitternoads
+Replaces: com.netskao.twitternoads
+Filename: ./debs/Twitter NoAds-Rootless.deb
+Size: 2736
+MD5sum: 056917ec3b080023265aac982e7c7c88
+SHA1: 045a3007cf6d7adb687b3f9b67900bb8ae25c091
+SHA256: e84f2624816665ed5bf30b17378b3fb6342e016e132a4ea564cd0477a9c073a7
+Section: 软件增强
+Description: 删除Twitter数据流中广告
+ - 仅在 10.64.1 版本上测试
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: Twitter NoAds-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.twitternoads.json
+
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -1524,6 +1488,32 @@ Description: 微信虚拟视频
 Author: 平凡
 Name: 虚拟视频-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pingfan.wechat.json
+
+Package: lym.com.qiop1379.swipeextenderx
+Version: 1.6.1~2
+Architecture: iphoneos-arm64
+Maintainer: MiRO <tweaks_support@miro92.com>
+Installed-Size: 614
+Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
+Conflicts: com.qiop1379.swipeextenderx
+Replaces: com.qiop1379.swipeextenderx
+Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
+Size: 86048
+MD5sum: f1fbad94cf08c50ab5ee9dfe89230df5
+SHA1: 7688e14942ce8ad3169b8b353deb3c404a7a7ae8
+SHA256: b1421060c8022d54f963e082a91c50fe1614c28b0ea70bf189fc9d1241f8db2d
+Section: 软件增强
+Description: IOS原生键盘增强功能
+ - 仅仅支持系统原生键盘
+ - 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
+ - 多种按键动作：向上滑动，向下滑动，向左滑动，向右滑动，长按
+ - 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
+ - 多种键盘类型可以自定义
+ - 与其他插件兼容，例如 Copylog 等
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: MiRO <tweaks_support@miro92.com>
+Name: SwipeExtenderX键盘增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
@@ -1759,17 +1749,18 @@ Name: 皮皮虾图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.ppxhook.json
 
 Package: lym.com.xx.qqhook
-Version: 1.1.1-1
+Version: 1.1.1-2
 Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 1600
+Maintainer: x✨
+Installed-Size: 2216
 Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 577908
-MD5sum: d6c582d3c2f334f4663e35165bf220af
-SHA1: e7629d81c233133162f1fbadfd4602ef9dff99f6
-SHA256: c4f76fac34977f09ffa24c7e250ec9c06c7494b460cb7b115d8b64629f03b5ee
+Size: 764460
+MD5sum: 946015f78cba597d2b4e8e94730acaa4
+SHA1: 1b241225b9fdb2e32447610b760687d2726961bd
+SHA256: f1a6471e5561676784bc9836de2b1b7c8a5f4c4f635a29fb7667f193c7f3b2e8
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -1777,7 +1768,7 @@ Description: QQ功能增强
  - 去除个人主页服务卡片
  - 插件启用：QQ设置-辅助功能-右上角开启
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
 
@@ -1923,18 +1914,18 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.netskao.alipayhooks-rootless
 Version: 1.1-3
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Netskao
 Replaces: netskao.alipayhooks-rootless
 Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
-Size: 72636
-MD5sum: c13346ff08e2dd8ca4dc39952eb81514
-SHA1: 3a1a370ed455251cc371d2d1c1725c52e526d159
-SHA256: 6c16b94d9d90ebcc980508a6526b1b81a2e66f8603a3f798bdfa0e6196a5ec6e
+Size: 72576
+MD5sum: a5fda43e4a26958c2f46c1fdecb0e436
+SHA1: 120bc8036e4882c782362d7d6fa5c2c9559f48e5
+SHA256: 0a4729bd160238ce7231e36d767875cb675d997b3a45bbb43073e97cbfc890ca
 Section: 软件增强
 Description: 支付宝去除底部理财选项
  - 插件无设置项按照即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Netskao
 Name: 支付宝去除底部理财选项-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.alipayhooks-rootless.json
 
