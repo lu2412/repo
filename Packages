@@ -669,18 +669,20 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.BeanbunsHelpers.DB
 Version: 1.0-1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Beanbuns
+Depends: mobilesubstrate
+Conflicts: com.BeanbunsHelpers.DB
 Replaces: com.BeanbunsHelpers.DB
 Filename: ./debs/抖音 豆包助手-Rootless.deb
-Size: 465196
-MD5sum: 2fe9ebcdcfdce79186a26bf1a5b57b9a
-SHA1: 1f08ed7b481f28a42b14ef8026e6795dcd8a2ed7
-SHA256: a73f9506bfba9b9b36b9933ad96a9c588f27bedd96f19111488ebefde9d6c1f8
+Size: 465240
+MD5sum: cd7d0c483fc3523ca6c58163dc0c2a58
+SHA1: b48b6f7292f98bc3c0c4f54fe5dc6ed4f014e56e
+SHA256: 9fd4bd57d53f00b091b05a14c9de6830ba317431c9b9e24872b35508658fa7d1
 Section: 抖音插件
-Description: 豆包助手(DouYin)抖音项目（仅供逆向学习），给自己的小抖音添加一些小功能
+Description: 豆包助手给自己的小抖音添加一些小功能
  - 插件设置位于抖音设置内
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Beanbuns
 Name: 抖音 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
@@ -1024,6 +1026,32 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
+Package: lym.com.huami.DYYY
+Version: 1.6-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.huami.DYYY, com.huami.DYYY
+Replaces: com.huami.DYYY
+Filename: ./debs/抖音 YYYY-Rootless.deb
+Size: 20584
+MD5sum: 939beb3c756718f2f6ba87862964f999
+SHA1: a9c6738f81f5f5c1c40e94ae3edf1245412a5e73
+SHA256: 508f5a909b917c3ab6f4076254f121e4a6469e26761d7284f4a530791db1b8b3
+Section: 抖音插件
+Description: 抖音增强插件
+ - 双指长按打开插件设置
+ - 设置顶栏透明
+ - 设置全局透明度
+ - 隐藏全屏观看
+ - 隐藏底栏加号
+ - 开启弹幕改色
+ - 新增默认倍速播放功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: 抖音 YYYY-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.DYYY.json
+
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1043,30 +1071,6 @@ Description: BiliBili净化开屏广告
 Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.bilinoad.json
-
-Package: lym.com.huami.dyyy
-Version: 1.6-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: com.huami.dyyy
-Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 19360
-MD5sum: 211090b3763e84a41f426275eea8ace1
-SHA1: 012663fb071b6974a9b50af732b45bbf628d2aae
-SHA256: aea69480ce267e8aad06cb2306dc86f41f042fcccfb1cfa20b198cc932ec03d3
-Section: 抖音插件
-Description: 抖音增强插件
- - 双指长按打开插件设置
- - 设置顶栏透明
- - 设置全局透明度
- - 隐藏全屏观看
- - 隐藏底栏加号
- - 开启弹幕改色
- - 新增默认倍速播放功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 抖音 YYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1

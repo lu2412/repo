@@ -16,13 +16,21 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 去除开屏广告(含概念版)\n- 去除【我的】页面寻搭子广告\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 插件介绍\n- 抖音增强插件\n- 双指长按打开插件设置\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/DYYY/pic1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/DYYY/pic2.png"
+                                  }
                             ]
                   },
 
@@ -34,7 +42,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-1",
+                      "text": "1.6-2",
                       "title": "插件版本"
                   },
                   {
@@ -44,7 +52,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月02日",
+                      "text": "2024年11月15日",
                       "title": "最后更新时间"
                   }
               ]
@@ -55,8 +63,15 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-1\n- 发布初始版本\n- > 2024-11-02"
-                  }
+                      "markdown": "### 版本 1.6-2 \n- 修复TF抖音31.9.0屏蔽底栏红点失效问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.6 \n- 新增默认倍速播放功能\n- 完全重构了UI\n- 修改打开设置方式为双指长按\n- 让#random也支持随机颜色"
+                  },
               ]
           }
       ]
