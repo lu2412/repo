@@ -285,24 +285,6 @@ Author: Misaka
 Name: Misaka助手 END版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
 
-Package: lym.Safari
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/SafariFind长按分享查找-Rootless.deb
-Size: 8196
-MD5sum: 7838c2918f023a2963a4178aa1384843
-SHA1: c25205045c1b2a508c666de4f3f4f87973222a99
-SHA256: 6c59880a7126cfe633a390b58c3613bb3133196a2145aae50ea12cd7814ccc5b
-Section: 系统增强
-Description: Safari中长按共享按钮弹出搜索框
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: SafariFind长按分享查找-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Safari.json
-
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -737,26 +719,6 @@ Description: 连接VPN时Wi-Fi和移动数据图标着色
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN 上色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlevpn.json
-
-Package: lym.com.82flex.singlevpns
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: 82Flex <82flex@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate
-Conflicts: com.82flex.singlevpn, com.82flex.singlevpn.green, com.82flex.singlevpn.orange
-Replaces: com.82flex.singlevpns
-Filename: ./debs/Single VPN 着色-Rootless.deb
-Size: 28292
-MD5sum: 6fdd1cda25e3ec33eda5be8479a61dfb
-SHA1: 1ae01c5486339ca38e5ca0116158aefa6e3be4cd
-SHA256: 7ca0507740f0300cd0ae58fd17edba6740064732638fe3811d840d39dff9f635
-Section: 系统增强
-Description: 连接 VPN 时进行着色
- - Wi-Fi 和 移动数据图标着色
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 82Flex <82flex@gmail.com>
-Name: Single VPN 着色-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlevpns.json
 
 Package: lym.com.82flex.wtvrbglauncher
 Version: 1.1
@@ -1304,23 +1266,24 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.netskao.appdata
 Version: 1.4.4
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Nets
 Installed-Size: 13548
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata
 Replaces: com.netskao.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 5049996
-MD5sum: b0b8cd3f5cd20047c34232bbfdcf35c5
-SHA1: 04da54ddd656c7e9007b95f29b8e399ce73c420d
-SHA256: eacdf4a98723ebd4f66289fa5c39a88455d2e5b14efe48c49f3467be74a65da7
+Size: 5048260
+MD5sum: 140f12fbc17cc788d5b1750bef81ead0
+SHA1: 96aaab68abf0e8b6f9d30a41241596f5b3d5737a
+SHA256: de4a340f9b8647cb6f9eef97bca7592ffbc2b23e6f02f056bc39e787575ab9cc
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
  - 清除/重置应用数据
  - 重置应用权限
  - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!!
-Author: lym
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
@@ -1488,6 +1451,27 @@ Description: 系统设置美化分类插件
 Author: lym
 Name: OneSettings设置分类美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
+
+Package: lym.com.p2kdev.safarifind
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: com.p2kdev.safarifind
+Replaces: com.p2kdev.safarifind
+Filename: ./debs/SafariFind长按分享查找-Rootless.deb
+Size: 8264
+MD5sum: 3a24b3dba6f779f8e9e9db15bea0fb3b
+SHA1: 61b2dd3cab8dd064d7b890b0c2c7889c50e9dcb5
+SHA256: ec2eb838d26ec059e5ed031535e7b6a292ec8e44e17309d32f0723436b600db7
+Section: 系统增强
+Description: Safari中长按共享按钮弹出搜索框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: P2KDev <p2kdev@gmail.com>
+Name: SafariFind长按分享查找-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.p2kdev.safarifind.json
 
 Package: lym.com.pingfan.wechat
 Version: 2.2-1
@@ -1946,18 +1930,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.netskao.ccswitchdata-rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Nets
+Installed-Size: 132
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: netskao.ccswitchdata-rootless
 Replaces: netskao.ccswitchdata-rootless
 Filename: ./debs/CCSwitchData蜂窝-Rootless.deb
-Size: 20928
-MD5sum: 9d2e2f153c4f726445cb8e5db7904715
-SHA1: fdd729bfebdfee32fd5a9bf5876731acee7f7e6a
-SHA256: 8210492bb5e691a28be246a7850f7962e40df56629d8945051f509486312c558
+Size: 21000
+MD5sum: c4d9073720c43887eb35f077c53c15c7
+SHA1: a4bf45be54a8afaf7c78d9e0de1f636d88bedc32
+SHA256: 9a4661c08fe7b3455d71ac5cbbbd1d828a2141f8318e057261cb83ea54539f4b
 Section: 控制中心
 Description: 对于双SIM卡用户，可以通过控制中心快速切换选定的蜂窝网络
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 

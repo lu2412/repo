@@ -15,59 +15,64 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "插件介绍\n- 降级应用\n- 修改应用名称\n- 清除/重置应用数据\n- 重置应用权限\n- 快速跳转Filza应用路径\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "1.4.4",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月30日",
-                    "title": "最后更新时间"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.4.4\n- 允许TrollStore安装的应用程序重置数据和权限\n- > 2024-10-31\n ### 版本1.4.3\n- 优化显示数据大小加载速度\n- 降级应用显示ID\n- > 2024-10-15"
-                }
-            ]
-        }
-    ]
+                    "markdown": "### 插件介绍\n- 降级应用\n- 修改应用名称\n- 清除/重置应用数据\n- 重置应用权限\n- 快速跳转Filza应用路径\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/Pappdata.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/Pappdata1.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.4.4",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月15日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.4.4 \n- 允许TrollStore安装的应用程序重置数据和权限"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "优化显示数据大小加载速度\n- 降级应用显示ID"
+                  },
+              ]
+          }
+      ]
 }
