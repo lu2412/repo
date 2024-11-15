@@ -16,20 +16,16 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 对于双SIM卡用户\n- 可以通过控制中心快速启用或禁用其中一张SIM卡\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 让QQ消息通知显示QQ好友头像\n- 截止目前支持 9.1.6 版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{10, 10}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/ccsim1.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/ccsim.png"
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
                                   }
                             ]
                   },
@@ -42,7 +38,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-9",
+                      "text": "1.2-2",
                       "title": "插件版本"
                   },
                   {
@@ -63,7 +59,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-9 \n- 初始更新"
+                      "markdown": "### 版本 1.2-2 \n- 初始更新"
                   },
               ]
           }

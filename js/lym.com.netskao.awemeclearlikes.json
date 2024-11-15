@@ -15,59 +15,57 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "markdown": "### 插件介绍\n- 控制中心添加微信支付宝付款码,安装之后去控制中心添加模块\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!",
-                    "useSpacing": true,
-                    "class": "DepictionMarkdownView"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 16
-                },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "详细信息",
-                    "useBoldText": true,
-                    "useBottomMargin": false
-                },
-                {
-                    "class": "DepictionSpacerView",
-                    "spacing": 8
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "0.0.1",
-                    "title": "插件版本"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "iOS 15 - iOS 16.5",
-                    "title": "支持的系统"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "text": "2024年10月29日",
-                    "title": "最后更新时间"
-                }
-            ]
-        },
-        {
-            "class": "DepictionStackView",
-            "tabname": "更新日志",
-            "views": [
-                {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 0.0.1\n- 发布初始版本\n- > 2024-10-29"
-                }
-            ]
-        }
-    ]
+                    "markdown": "### 插件介绍\n- 插件介绍\n- 自动清除抖音喜欢点赞过的视频\n- 使用方法:抖音-我-喜欢界面-摇晃手机\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/AwemeClearLikes/pic1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://trollstorex.github.io/sileodepiction/AwemeClearLikes/pic2.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.1-2",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持的系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月15日",
+                      "title": "最后更新时间"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.1-2 \n- 初始更新"
+                  },
+              ]
+          }
+      ]
 }

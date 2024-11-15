@@ -620,20 +620,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.82flex.iconrestore
 Version: 1.7
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 412
 Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.iconrestore
 Replaces: com.82flex.iconrestore
 Filename: ./debs/Icon Restore 图标时光机-Rootless.deb
-Size: 29996
-MD5sum: 0d6c350f28fc9c173626e4e56a5e0d9a
-SHA1: faabe542226dafd24199917e06c42d0de87af81e
-SHA256: 458ad69de293dcaff521181645bec0a2f88c7464ca62737263fc06de9792df62
+Size: 30768
+MD5sum: 85177106286ee5a506cfb0c1bd4f4fb0
+SHA1: 401f939784b58c3a54c3412e353b129f9a9a7515
+SHA256: c2f4409da9e0d744c962b033e229167a7717f991e745a88e04ee74e021677b1d
 Section: 系统增强
-Description: 图标时光机，备份或恢复主屏幕图标布局
+Description: 备份或恢复主屏幕图标布局
  - 由乌龙工作室出品。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Lessica <82flex@gmail.com>
 Name: Icon Restore 图标时光机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.iconrestore.json
 
@@ -1309,39 +1310,25 @@ Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
 Package: lym.com.netskao.awemeclearlikes
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/CCPay快捷支付-Rootless.deb
-Size: 15040
-MD5sum: eb62772637e7b5381edc864d647b32b3
-SHA1: 1a71a7550e3c36eb6d02341b56d51b3790d7e53b
-SHA256: 6a69f98bdada7056fe51a3a5971c63144fb80aecef8d0f25e31531cfd3bd0efb
-Section: 控制中心
-Description: 控制中心添加微信支付宝付款码,安装之后去控制中心添加模块
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: CCPay快捷支付-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
-
-Package: lym.com.netskao.awemeclearlikess
 Version: 1.1-2
 Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: com.netskao.awemeclearlikess
+Maintainer: Nets
+Installed-Size: 88
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.awemeclearlikes
+Replaces: com.netskao.awemeclearlikes
 Filename: ./debs/AwemeClearLikes清除抖音点赞-Rootless.deb
-Size: 19956
-MD5sum: dfeab40653b53dd5a635f981d675d908
-SHA1: 1bdd381c6d0690e690659408ec5aefb8a86c293f
-SHA256: 776df74dd71b493d4b3271ceb20ace8015ef7c1e68fc33347387c75097891b10
+Size: 20028
+MD5sum: 5684bb10ef446dacdd6b1ccc3a0a2775
+SHA1: 3fa79998a918c3e2b62f7db6c800c5dd7f0e47f2
+SHA256: 0a83534520fc56de98f16a3262c9b4c8a6283add1122ff39f46b26a399d76a17
 Section: 抖音插件
 Description: 抖音自动清除抖音喜欢点赞过的视频
  - 使用方法:抖音-我-喜欢界面-摇晃手机
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Netskao
 Name: AwemeClearLikes清除抖音点赞-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikess.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
 
 Package: lym.com.netskao.awemedisablebar
 Version: 1.1-6
@@ -1431,6 +1418,27 @@ Description: 抖音增强插件
 Author: Netskao
 Name: AwemeVideoTime抖音时间-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemevideotime.json
+
+Package: lym.com.netskao.qqnotiavatar
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Conflicts: com.netskao.qqnotiavatar
+Replaces: com.netskao.qqnotiavatar
+Filename: ./debs/QQNotiAvatar消息头像-Rootless.deb
+Size: 25852
+MD5sum: 981186146bd6251114407d3d87867c7d
+SHA1: acc8d0b5670620efdacb2c38058d031f4292a0df
+SHA256: 81e4c1ac9f5a1a24d55f6157418fd80e2c1141096ae51eeb5a3e379d7c5bd36e
+Section: 软件增强
+Description: 让QQ消息通知显示QQ好友头像
+  - 插件无设置项安装即可生效
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: QQNotiAvatar消息头像-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
 
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
@@ -1933,19 +1941,22 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.netskao.ccsim-rootless
 Version: 1.1-9
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Nets
+Installed-Size: 188
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: netskao.ccsim-rootless
 Replaces: netskao.ccsim-rootless
-Filename: ./debs/CCSIM-Rootless.deb
-Size: 23564
-MD5sum: 94851b336c4c7b859c24cb4d4ac60ea3
-SHA1: 613659e3c1b8f033354c58661a3d13d7a8c8ecf2
-SHA256: 64a80a6dd89a3bdb660690ba4b40ca961a4a7a603c6b0962462d58d741878858
+Filename: ./debs/CCSIM 快速禁用-Rootless.deb
+Size: 23640
+MD5sum: 579b843af544bdb29de831f427476526
+SHA1: b07a89111bf048ed273f0b97581c326ca04942b0
+SHA256: 1dfe03b1a1ec6a6755b121a9d5fcf1d445e14831d3e96402b4bebe45f67c9613
 Section: 控制中心
 Description: 对于双SIM卡用户可以通过控制中心快速启用或禁用其中一张SIM卡
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: CCSIM-Rootless
+Author: Netskao
+Name: CCSIM 快速禁用-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccsim-rootless.json
 
 Package: lym.netskao.ccswitchdata-rootless
@@ -2116,23 +2127,6 @@ Description: QQ模拟iPad模式登录
 Author: lym
 Name: QQ模拟iPad登陆-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqipad-Rootless.json
-
-Package: qqtouxiang-Rootless
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/QQ消息通知头像-Rootless.deb
-Size: 25744
-MD5sum: 5c5f2502d0c157ad25e37cf3cca69fb6
-SHA1: 93fa891b51b74b323783aa070301473239aab36a
-SHA256: 7275487da64bdd809c3a796ad25867c933b08064134035d91219e6ac4d441f41
-Section: 软件增强
-Description: 让QQ消息通知显示QQ好友头像
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ消息通知头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqtouxiang-Rootless.json
 
 Package: tikTok-Rootless
 Version: 1.0
