@@ -129,24 +129,6 @@ Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/gaode-Rootless.json
 
-Package: huadong-Rootless
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/AutoScroll自动滑动-Rootless.deb
-Size: 5468
-MD5sum: af1d080cd2570c111fa539ac0ca2e456
-SHA1: 04623fd1e24249567a1af6cf2dc4f018bdeb9d2d
-SHA256: 67390fe224520d12d23244e23a7e1b0683c29451c8de8b95352e3d52ffd9d6e7
-Section: 系统增强
-Description: 页面自动滑动
- - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: AutoScroll自动滑动-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/huadong-Rootless.json
-
 Package: jd-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
@@ -166,24 +148,6 @@ Description: 京东精简去广告等
 Author: lym
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
-
-Package: kuan-Rootless
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/酷安去广告-Rootless.deb
-Size: 3700
-MD5sum: 0103fe1585538f90ec290c1c92ae3cf6
-SHA1: 0644ce3a79c346470cd22e502fd0415284679c8d
-SHA256: a6482515c0ef11ce0ab5b154d0e41546fa8f6b2cd993a8ee51896e4badb1d82a
-Section: 软件增强
-Description: 酷安去除软件开屏广告
- - 截止目前5.7.5版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 酷安去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Twitter-Rootless.json
 
 Package: lym.Eclectic.Themes
 Version: 2.6
@@ -752,6 +716,27 @@ Description: 微信爱锋助手
 Author: appku
 Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
+
+Package: lym.com.autoscroll.jb
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: pxcex
+Depends: mobilesubstrate
+Conflicts: com.autoscroll.jb
+Replaces: com.autoscroll.jb
+Filename: ./debs/AutoScroll 自动滑动-Rootless.deb
+Size: 6608
+MD5sum: f30e4889d9a37d6e85520b03d4b9ae56
+SHA1: 1b3b8731562a0e192fa3f524fa6923ef4e3adf95
+SHA256: f96e1c3daaecc0ef3009d05ae7a9b75c0912ebd918c17b9ab91a1ca1497b0627
+Section: 系统增强
+Description: 页面自动滑动
+ - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: pxcex
+Name: AutoScroll 自动滑动-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.autoscroll.jb.json
 
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
