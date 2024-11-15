@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/Pappdata.png"
+                                      "url": "https://liym5238.github.io/liym/icon/appdata.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/Pappdata1.png"
+                                      "url": "https://liym5238.github.io/liym/icon/appdata1.png"
                                   }
                             ]
                   },
@@ -70,7 +70,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "优化显示数据大小加载速度\n- 降级应用显示ID"
+                      "markdown": "### 版本 1.4.3 \n- 优化显示数据大小加载速度\n- 降级应用显示ID"
                   },
               ]
           }
