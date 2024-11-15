@@ -289,6 +289,26 @@ Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
 
+Package: lym.byg.iosios.net.ccpay
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: com.opa334.ccsupport
+Conflicts: com.zqbb.qszqb, byg.iosios.net.ccpay
+Replaces: byg.iosios.net.ccpay
+Filename: ./debs/CCPay快捷支付-Rootless.deb
+Size: 15108
+MD5sum: 4faabffd8c19b4c85fed3f48d2ca4cb0
+SHA1: ad47e05b1f3ecc12e5e96fdf8c895c52585fa7fd
+SHA256: df7e575a8b69796b26eccfd0ce9599ec9d1ac4e53ed1f0a7f77c403088af99e6
+Section: 控制中心
+Description: 控制中心添加收付款码
+ - 比如支付宝，微信。安装之后去控制中心添加即可
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: zqbb
+Name: CCPay快捷支付-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.ccpay.json
+
 Package: lym.byg.iosios.net.easynotify.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
