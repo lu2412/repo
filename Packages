@@ -268,6 +268,27 @@ Author: alias20
 Name: CalcLog计算器显示过程-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.alias20.calclog.json
 
+Package: lym.byg.iosios.net.autoscroll
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.autoscroll
+Replaces: byg.iosios.net.autoscroll
+Filename: ./debs/AutoScroll 自动滑动-Rootless.deb
+Size: 5520
+MD5sum: 65d16e3be8075b35d5dc4ac15b4ce9e9
+SHA1: d9fe5890bb6530d71d749e9c1ea709a13b28f127
+SHA256: 0577c31dcd97973e7f959e9b582317e3701239df9dbbd08a25368dc25bd803af
+Section: 系统增强
+Description: 页面自动滑动
+ - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: pxcex
+Name: AutoScroll 自动滑动-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
+
 Package: lym.byg.iosios.net.easynotify.rootless
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -716,27 +737,6 @@ Description: 微信爱锋助手
 Author: appku
 Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
-
-Package: lym.com.autoscroll.jb
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: pxcex
-Depends: mobilesubstrate
-Conflicts: com.autoscroll.jb
-Replaces: com.autoscroll.jb
-Filename: ./debs/AutoScroll 自动滑动-Rootless.deb
-Size: 6608
-MD5sum: f30e4889d9a37d6e85520b03d4b9ae56
-SHA1: 1b3b8731562a0e192fa3f524fa6923ef4e3adf95
-SHA256: f96e1c3daaecc0ef3009d05ae7a9b75c0912ebd918c17b9ab91a1ca1497b0627
-Section: 系统增强
-Description: 页面自动滑动
- - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: pxcex
-Name: AutoScroll 自动滑动-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.autoscroll.jb.json
 
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
