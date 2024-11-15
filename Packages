@@ -345,24 +345,6 @@ Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
 
-Package: lym.chunheijianpan-Rootless
-Version: 0.3
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/系统键盘纯黑-Rootless.deb
-Size: 4868
-MD5sum: 3843b41668e299719d30c066ecc94f24
-SHA1: fb589135da27011ac1cf2536a9a439419381631e
-SHA256: 00ef56c997276aee6661e523fb1ae5f282903a40518de1920f0e263cd0491fb2
-Section: 系统增强
-Description: 深色模式下键盘背景显示为纯黑
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: 系统键盘纯黑-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.chunheijianpan-Rootless.json
-
 Package: lym.cn.llld.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -898,23 +880,45 @@ Author: dvntm
 Name: iOS18圆角控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
 
+Package: lym.com.dvntm.oledkeyboard
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dvntm.oledkeyboard
+Replaces: com.dvntm.oledkeyboard
+Filename: ./debs/OledKeyboard纯黑键盘.deb
+Size: 4940
+MD5sum: 0b4b22d87507421d430360cbb1f578f2
+SHA1: 77d93da51179f22967cdd7bb4a8eb9c35128d4ca
+SHA256: 2a72716d28ea6af07d1b99e33ba8765d376619bc200d778d2370d94accfd467f
+Section: 系统增强
+Description: 深色模式下键盘背景显示为纯黑
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: dvntm
+Name: OledKeyboard纯黑键盘-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.oledkeyboard.json
+
 Package: lym.com.dvntm.ratebegone
 Version: 0.0.1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: dvntm
 Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dvntm.ratebegone
 Replaces: com.dvntm.ratebegone
-Filename: ./debs/RateBeGone屏蔽app弹窗评分-Rootless.deb
-Size: 3496
-MD5sum: 1c5541bed4905f63f3c1097686fe8594
-SHA1: cd53d63b9c7da15a28cefc04666da00be443682a
-SHA256: b53aa43b83104f6c28f473c719d1d4009f6531e9fbe65b5c93b1a7159d1f6ae0
+Filename: ./debs/RateBeGone屏蔽app弹窗评分.deb
+Size: 3512
+MD5sum: e7b80169420b3bf98757e85d73053006
+SHA1: 147ec69848899244abeb61923592097dd4f0b8fe
+SHA256: 5ddb5fa1db698d7d95cb0388bc4e6a238e447cb57b028c01b7d91da5d0a2045f
 Section: 系统增强
 Description: 屏蔽app不定时弹出的评分窗口
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
 
@@ -1360,6 +1364,27 @@ Description: 抖音增强插件
 Author: Netskao
 Name: AwemeVideoTime抖音时间-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemevideotime.json
+
+Package: lym.com.netskao.qqipadmodelogin
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.qqipadmodelogin
+Replaces: com.netskao.qqipadmodelogin
+Filename: ./debs/QQ iPad 模式登录-Rootless.deb
+Size: 2536
+MD5sum: e0c867a532955440405c131e0e1995d4
+SHA1: f7be53531273824db3e5b342f3b785031889b343
+SHA256: c85d0ff758d1ab8ba18253d46f55d98b02452d7c0e47db94ec2fe596242a907b
+Section: 软件增强
+Description: QQ模拟iPad模式登录
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: QQ iPad 模式登录-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqipadmodelogin.json
 
 Package: lym.com.netskao.qqnotiavatar
 Version: 1.2-2
