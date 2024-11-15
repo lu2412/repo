@@ -893,6 +893,27 @@ Author: Bandar Alruwaili
 Name: BHTwitter 中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtwitter.json
 
+Package: lym.com.deletephotoscompletely-rootless
+Version: 1.2-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 184
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.deletephotoscompletely-rootless
+Replaces: com.deletephotoscompletely-rootless
+Filename: ./debs/DeletePhotosCompletely相册添加彻底删除按钮-Rootless.deb
+Size: 17264
+MD5sum: b1697a86caa1369187851f39f2c7470c
+SHA1: 2db2d5352ec220b5b6ac2dd5c642e9f68b17dcdd
+SHA256: d97f3ecf6c1f231e3403ad9638c3e584c9d9203d7d1a36d4944ae5892a795122
+Section: 系统增强
+Description: DeletePhotosCompletely相册添加彻底删除按钮
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
+
 Package: lym.com.dumpapp.wechat-rootless
 Version: 2.0.4
 Architecture: iphoneos-arm64
@@ -1204,21 +1225,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: SquidForce
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.chr1s.newtab
 Filename: ./debs/ControlTab - 控制Safari标签页.deb
-Size: 6396
-MD5sum: 94ddc610f746747e03391d4f05b324f7
-SHA1: c738c0e538b258b18f12e687101b034a6e3f209e
-SHA256: 493028516617bb946de4931a7429fd644b167b05a7fc601b8809d8146fec0c8a
+Size: 6404
+MD5sum: 343a942bf8ecb247d506edb0e16c75b4
+SHA1: 750a602b038d0c89c92adffbd334acc892ff4f18
+SHA256: 0a87263e4f5f80c6964c0c310b664af3302057e16e610e30f1afeacaea2e6da6
 Section: 系统增强
 Description: Safari工具栏添加按钮点击关闭标签页
  - 长按新建标签页并弹出键盘
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
@@ -1947,23 +1968,6 @@ Description: 对于双SIM卡用户，可以通过控制中心快速切换选定�
 Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
-
-Package: lym.netskao.deletephotoscompletely-rootless
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/DeletePhotosCompletely相册添加彻底删除按钮-Rootless.deb
-Size: 17172
-MD5sum: dfa13ffcdf34ed570915a4ef910e8051
-SHA1: aaa8484665e565ccab476dd8c13931d5193ec048
-SHA256: db53a45706e96328e77ea678d49154282871ec905773479023ccbe5743c35c08
-Section: 系统增强
-Description: DeletePhotosCompletely相册添加彻底删除按钮
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.deletephotoscompletely-rootless.json
 
 Package: lym.netskao.wechatpurification
 Version: 4.2-7-END
