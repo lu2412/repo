@@ -37,31 +37,38 @@
                       "useBottomMargin": false
                   },
                   {
-                      "class": "DepictionTableTextView",
-                      "text": "0.0.1",
-                      "title": "插件版本"
+                      "class": "DepictionTableButtonView",
+                      "buttons": [
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "0.0.1",
+                              "title": "插件版本"
+                          },
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "",
+                              "title": "插件大小"
+                          },
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "5000 次",
+                              "title": "下载次数"
+                          },
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "2024-11-15 22:15",
+                              "title": "上次下载"
+                          },
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "iOS 15 - iOS 16.5",
+                              "title": "支持的系统"
+                          },
+                          {
+                              "class": "DepictionTableTextView",
+                              "text": "2024年11月16日",
+                              "title": "最后更新时间"
+                          }
+                      ],
+                      "columns": 2
                   },
-                  {
-                      "class": "DepictionTableTextView",
-                      "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
-                  },
-                  {
-                      "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
-                  }
-              ]
-          },
-          {
-              "class": "DepictionStackView",
-              "tabname": "更新日志",
-              "views": [
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1 \n- 发布初始版本"
-                  },
-              ]
-          }
-      ]
-}
