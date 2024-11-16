@@ -38,18 +38,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
+                      "text": "zqbb",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
                       "text": "0.0.1",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "2024年11月16日",
-                      "title": "最后更新时间"
+                      "title": "最后更新"
                   }
               ]
           },
