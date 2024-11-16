@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "酷我畅听下载",
+                    "action": "https://apps.apple.com/cn/app/%E9%85%B7%E6%88%91%E7%95%85%E5%90%AC-%E5%90%AC%E4%B9%A6%E6%9C%89%E5%A3%B0%E5%B0%8F%E8%AF%B4%E7%9B%B8%E5%A3%B0%E8%AF%84%E4%B9%A6/id1058259189",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -20,9 +20,13 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{10, 10}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
                             ]
                   },
 
@@ -34,18 +38,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
+                      "text": "Netskao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
                       "text": "1.0",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月03日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月16日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +64,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0\n- 发布初始版本\n- > 2024-11-03"
-                  }
+                      "markdown": "### 版本 1.0 \n- 修复支持iOS16"
+                  },
               ]
           }
       ]

@@ -1895,23 +1895,24 @@ Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ios-rootless.json
 
-Package: lym.kwct-Rootless
+Package: lym.kuwo-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: kwct-Rootless
-Filename: ./debs/酷我畅听会员-Rootless.deb
-Size: 64604
-MD5sum: ce6aae169b39e5559334e69fcaecbd65
-SHA1: ca5efd7c46e69e285feee74902f17b77ee5e6293
-SHA256: 7685ec0218cd176a984163d0c26d16ed57ffcc316f6dec6a953ca4cadf0dae62
+Maintainer: Netskao
+Conflicts: kuwo-Rootless
+Replaces: kuwo-Rootless
+Filename: ./debs/酷我畅听解锁-Rootless.deb
+Size: 104956
+MD5sum: a1cd27488cae1ebc6b37726e857ae997
+SHA1: 5529692475891971a2e140d5743f86d75ac48966
+SHA256: 02256851d68ab2f7a96ab0d7302fcabfdf29ad066d8079cebb602f8607e4bb33
 Section: 软件增强
 Description: 酷我畅听解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 酷我畅听会员-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.kwct-Rootless.json
+Author: Netskao
+Name: 酷我畅听解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.kuwo-Rootless.json
 
 Package: lym.net.camera
 Version: 0.1-2
