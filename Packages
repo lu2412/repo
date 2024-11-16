@@ -732,10 +732,10 @@ Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
 Conflicts: com.cydiageek.byeseparatorscell
 Replaces: com.cydiageek.byeseparatorscell
 Filename: ./debs/ByeSeparatorsCell系统空格分隔符-Rootless.deb
-Size: 53464
-MD5sum: 30526d3053cef2e1c5274004ce1c8262
-SHA1: 6fac302f8917214692c2102194b88390e7293ea9
-SHA256: f9712679de457191126e29531bd0cde52e86775d2f86534cf876ac41a7db53a0
+Size: 63764
+MD5sum: d26104fb4cbc5b0cfe4e196910a3574e
+SHA1: 4f00343f3ffa8109a8bf4b899d9abce5f6e07755
+SHA256: 3546eca241cd5d876e6ed2bf9b65695e0f24de32c12524edcc0e2678733df1e1
 Section: 系统增强
 Description: 删除系统范围内单元格之间的空格
  - 去处系统分隔符号
