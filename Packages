@@ -1902,10 +1902,10 @@ Maintainer: Netskao
 Conflicts: kuwo-Rootless
 Replaces: kuwo-Rootless
 Filename: ./debs/酷我畅听解锁-Rootless.deb
-Size: 104956
-MD5sum: a1cd27488cae1ebc6b37726e857ae997
-SHA1: 5529692475891971a2e140d5743f86d75ac48966
-SHA256: 02256851d68ab2f7a96ab0d7302fcabfdf29ad066d8079cebb602f8607e4bb33
+Size: 64568
+MD5sum: c44bf3d026434f2eb39bd157943ac717
+SHA1: 21eb0ac8b6cf1de4bd58ee89a1596a7ea8fc3833
+SHA256: 35cc73263ccf2a3483a2dbe3de57cccc8eaa78073a2eb3727ce2d35311e0ceb2
 Section: 软件增强
 Description: 酷我畅听解锁会员
  - 插件无设置项安装即可生效
