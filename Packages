@@ -36,25 +36,6 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
-Package: bizhan-Rootless
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/哔呷哔哩去广告-Rootless.deb
-Size: 15204
-MD5sum: fe2f18c24f4ea6fe7fbcdf00586be31e
-SHA1: 0ed2da3d8ad15e8ee2f030767cdd358006d535fb
-SHA256: 655aa39855f43c63d28cc5ed541e7fcface873201274d2c4a57bfdfa3db1d987
-Section: 软件增强
-Description: 哔呷哔哩去广告优化等
- - 去除哔哩哔哩和哔哩哔哩国际版的相关页面与广告
- - 截止目前8.18.0版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 哔呷哔哩去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bizhan-Rootless.json
-
 Package: com.icraze.smallboards
 Version: 1.1
 Architecture: iphoneos-arm64
