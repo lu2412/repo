@@ -36,25 +36,6 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
-Package: bdwp-Rootless
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/百度网盘去广告-Rootless.deb
-Size: 223944
-MD5sum: c30f8d776e65955e3625ab542344c16d
-SHA1: 472f5a1139e55d1095b53dc55cf614931538686c
-SHA256: 28fe72264715e6f789ea2e3da878c1dd76538e3b70e44ac6408d12b63cc5d6ed
-Section: 软件增强
-Description: 百度网盘去广告，兼容 12.15.0 版本
- - 全局去广告，精简个别页面
- - 需要卸载软件，重新安装才会生效
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 百度网盘去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/bdwp-Rootless.json
-
 Package: bizhan-Rootless
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -2098,24 +2079,6 @@ Author: lym
 Name: Snapper 3蓝色发光文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
 
-Package: pdd-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/拼多多去广告-Rootless.deb
-Size: 3656
-MD5sum: f44fbebd8d541ffe559902bacf3bba27
-SHA1: e38ee04bb0a48cb87372e0d4744fba871830bced
-SHA256: 9312823b3f7d85a484558dcd9df0df1a11517e90b6cf27c3d017afcc53347f5b
-Section: 软件增强
-Description: 拼多多精简去广告
- - 屏蔽启动广告｜屏蔽语音录入｜屏蔽弹窗｜
- - 屏蔽首页漂浮｜屏蔽直播弹窗｜屏蔽搜索栏文字｜屏蔽个人中心横幅
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 拼多多去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/pdd-Rootless.json
-
 Package: qqipad-Rootless
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2151,25 +2114,4 @@ Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
-
-Package: zhidemai-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/什么值得买去广告-Rootless.deb
-Size: 3504
-MD5sum: 80ee7b0363cf287d49db1d851fac966b
-SHA1: 88b6b40cd97bf79e58f043ad7dafb0f2700d3c8a
-SHA256: 87673367351fb21e1686b54f2b90020d76187b363c64f904f26177db9b48e399
-Section: 软件增强
-Description: 去广告精简等
- - 去除启动广告
- - 去除首页右侧悬浮广告
- - 去除个人主页服务卡片
- - 截止目前支持 11.0.40 版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 什么值得买去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/zhidemai-Rootless.json
 
