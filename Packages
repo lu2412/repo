@@ -1869,26 +1869,6 @@ Author: lym
 Name: 微信头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.test.json
 
-Package: lym.dubusheshou-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: dubusheshou-Rootless
-Replaces: dubusheshou-Rootless
-Filename: ./debs/读不舍手解锁-Rootless.deb
-Size: 6208
-MD5sum: 8fd313c9a5d8b01920259341d506cc5a
-SHA1: e641b5673a81b5eaa409cff5d264b11a83145fa1
-SHA256: 4ee8d27eb07fc5000a7e50ed10b62a0e712c3ce2a0e2dc900bdcc7698f2c93fb
-Section: 软件增强
-Description: 读不舍手解锁
- - 最新版需删除后重下或清除数据
- - 恢复购买>重启应用>成功解锁
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 读不舍手解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dubusheshou-Rootless.json
-
 Package: lym.fengexian-rootless
 Version: 1.0.1
 Architecture: iphoneos-arm64
