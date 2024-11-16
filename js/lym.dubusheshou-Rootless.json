@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 控制中心添加收付款码\n- 比如支付宝，微信。安装之后去控制中心添加即可\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 读不舍手解锁\n- 最新版需删除后重下或清除数据\n- 恢复购买>重启应用>成功解锁\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -38,23 +38,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "zqbb",
+                      "text": "lym",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.1",
+                      "text": "1.0",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "2024年11月16日",
-                      "title": "最后更新时间"
+                      "title": "最后更新"
                   }
               ]
           },
@@ -64,7 +64,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1 \n- 发布初始版本"
+                      "markdown": "### 版本 1.0 \n- 初始版本发布"
                   },
               ]
           }
