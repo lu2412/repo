@@ -21,11 +21,11 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10, 10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                      "url": "https://liym5238.github.io/liym/icon/kuwo.png"
                                   }
                             ]
                   },
