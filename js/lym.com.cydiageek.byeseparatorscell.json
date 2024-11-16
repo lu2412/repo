@@ -16,16 +16,16 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 仅去除原生相机顶部和底部两个黑色模块\n- 使其达到全屏视觉效果,默认拍照比例为4:3\n- 只有16:9模式拍出来的照片才算全屏效果\n- 理论兼容目前可越狱全系列设备!\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 删除系统范围内单元格之间的空格\n- 去处系统分隔符号\n- 搭配PurifyLine效果会更好\n- 插件有设置项自行调整\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10, 10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                      "url": "https://liym5238.github.io/liym/icon/fenge.png"
                                   }
                             ]
                   },
@@ -38,12 +38,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "To",
+                      "text": "CydiaGeek <lucaluca86@aol.com>",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-2",
+                      "text": "1.1.3",
                       "title": "插件版本"
                   },
                   {
@@ -64,7 +64,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-2 \n- 初始版本发布"
+                      "markdown": "### 版本 1.1.3 \n- 初始版本发布"
                   },
               ]
           }
