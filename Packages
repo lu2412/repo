@@ -111,6 +111,25 @@ Author: lym
 Name: Eclectic by主题-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
 
+Package: lym.FuckWeChatAdBlocker-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: FuckWeChatAdBlocker-Rootless
+Replaces: FuckWeChatAdBlocker-Rootless
+Filename: ./debs/微信去广告-Rootless.deb
+Size: 17112
+MD5sum: 6462e86cc376fafad38941d666dc27c9
+SHA1: 976b147e619216cf9d2ec56572d0f406a8739335
+SHA256: c7adb8061427801e2567f8d472df13a7decac92965026c7cf6f55cebc2eaa6f0
+Section: 微信插件
+Description: 去除最新8.0.54广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 微信去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
+
 Package: lym.MisakaHelper
 Version: 2.1-0
 Architecture: iphoneos-arm64
