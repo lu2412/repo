@@ -114,19 +114,19 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: girl2023
 Conflicts: FuckWeChatAdBlocker-Rootless
 Replaces: FuckWeChatAdBlocker-Rootless
-Filename: ./debs/微信去广告-Rootless.deb
-Size: 17112
-MD5sum: 6462e86cc376fafad38941d666dc27c9
-SHA1: 976b147e619216cf9d2ec56572d0f406a8739335
-SHA256: c7adb8061427801e2567f8d472df13a7decac92965026c7cf6f55cebc2eaa6f0
+Filename: ./debs/微信去广告.deb
+Size: 17116
+MD5sum: 888644ace17256abeefd7f8e5bc98266
+SHA1: 03b5c6eb3511058eba267bf378c421390195f04e
+SHA256: cce484f50cc6b487feaf581687f45a2b052d06c0e1d72dd1aa51f2a314c5deff
 Section: 微信插件
 Description: 去除最新8.0.54广告
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: girl2023
 Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
