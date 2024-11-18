@@ -1125,28 +1125,6 @@ Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
-Package: lym.com.huami.wbnoads
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: firmware (>= 5.0), mobilesubstrate
-Replaces: com.huami.wbnoads
-Filename: ./debs/微博NoAds 微博去广告-Rootless.deb
-Size: 3332
-MD5sum: a806bc1e2ca23b8320bdd418a3befdaa
-SHA1: 0beba4cd4a44573706b6b7cece7adc0db8349a86
-SHA256: dc7c0500172b5fbae6521a3ac1ebf6d5013db14d85cec3518b789a44d324c434
-Section: 软件增强
-Description: 微博去除开屏广告
- - 去除顶栏红包按钮
- - 去除底部右侧红包按钮
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: huami
-Name: 微博NoAds 微博去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wbnoads.json
-
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -1956,6 +1934,25 @@ Description: 让开关标签颜色更为好看
 Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ios-rootless.json
+
+Package: lym.jailbreak.lizi.repo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 玩游戏的李子-
+Conflicts: jailbreak.lizi.repo
+Replaces: jailbreak.lizi.repo
+Filename: ./debs/一键添加越狱源-Rootless.deb
+Size: 2044
+MD5sum: 4ef1ea932aee4ceefe4aff92203e7e02
+SHA1: 2f644f0f47030e7561cc5613601a55e12df0bf3f
+SHA256: a1460e16466023ca2ab5eb9a6d5fd49d7fb8cd51c94555f84e7c6d87ecb15511
+Section: 系统增强
+Description: 收藏越狱源大全
+ - 安装后会自动杀掉sileo后台
+ -  重新进入Sileo即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Name: 一键添加越狱源-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jailbreak.lizi.repo.json
 
 Package: lym.kuwo-Rootless
 Version: 1.0
