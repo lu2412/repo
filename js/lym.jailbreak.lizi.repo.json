@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 收藏越狱源大全\n- 安装后会自动杀掉sileo\n- 重新进入Sileo即可生效n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 收藏越狱源大全\n- 安装后会自动杀掉sileo\n- 重新进入Sileo即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
