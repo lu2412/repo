@@ -111,6 +111,27 @@ Author: lym
 Name: Eclectic by主题-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
 
+Package: lym.FuckBiliNoAds-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: girl2023
+Conflicts: FuckBiliNoAds-Rootless
+Replaces: FuckBiliNoAds-Rootless
+Filename: ./debs/哔哩哔哩全局去广告-Rootless.deb
+Size: 16120
+MD5sum: c286185916471122a027c3db4d364729
+SHA1: 6827bb99928fc1040d63d363b05e247740bf3874
+SHA256: 804db5e2c1ace7d649e8592cbeeb25a2e8d6cbdbbe9b20ca5a18f18392556c8b
+Section: 软件增强
+Description: 国区哔哩哔哩全局去广告
+ - 群友girl2023分享,效果不错
+ - 不知道有无时间限制请自测
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: girl2023
+Name: 哔哩哔哩全局去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.FuckBiliNoAds-Rootless.json
+
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
