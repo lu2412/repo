@@ -1938,19 +1938,20 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.jailbreak.lizi.repo
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: 玩游戏的李子-
+Maintainer: 无名
 Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2044
-MD5sum: 4ef1ea932aee4ceefe4aff92203e7e02
-SHA1: 2f644f0f47030e7561cc5613601a55e12df0bf3f
-SHA256: a1460e16466023ca2ab5eb9a6d5fd49d7fb8cd51c94555f84e7c6d87ecb15511
+Size: 2032
+MD5sum: 8631e2c79ab5350f64d312a1c17805af
+SHA1: 2fa2218d5578a25db018e8dae8936d262de3b6d6
+SHA256: c963f01b520c40b70f3f593eff6af0087da1699bba6bd1102d6918ac8d6d713d
 Section: 系统增强
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台
- -  重新进入Sileo即可生效
+ - 重新进入Sileo即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 无名
 Name: 一键添加越狱源-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jailbreak.lizi.repo.json
 
