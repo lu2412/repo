@@ -21,7 +21,7 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{10, 10}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
@@ -71,7 +71,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.-1 发布初始版本"
+                      "markdown": "### 版本 1.-1 \n- 发布初始版本"
                   },
               ]
           }
