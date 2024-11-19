@@ -39,19 +39,19 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: com.icraze.smallboards
 Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: icraze
 Filename: ./debs/SmallBoard 键盘下沉-Rootless.deb
-Size: 3764
-MD5sum: 341757ffb95c710d5e93453e2422de47
-SHA1: 8de1a51c0b65031067cc916944458527061b5028
-SHA256: fba264cce2558a060a3c20f64a30e0b51b46ac33fea773ca84d86cf126bcda58
+Size: 3772
+MD5sum: 513da1a069d0c2c17cac2385e67c564e
+SHA1: 618c46763711471778c1b1169825881c771a3c17
+SHA256: 9d07e2b964519df760eef07ea9008877fa07c44ea073aac0b7a8edce2cf2719d
 Section: 系统增强
 Description: 缩小键盘与底部的间隙
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.icraze.smallboards.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: gaode-Rootless
 Version: 1.0.4
@@ -436,16 +436,22 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.25mao.leftpan.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Conflicts: com.25mao.leftpan.rootless
+Replaces: com.25mao.leftpan.rootless
 Filename: ./debs/左滑返回-Rootless.deb
-Size: 44284
-MD5sum: 964d7b5e3e98b78463be5dedb8827947
-SHA1: f9de4e59c7e79887a4ad19da531dffbabf03f894
-SHA256: eb11ea30eadb27c0c37ccfa8249a5e8b8f47124705f3b8a07ee2c00102e00ead
+Size: 44448
+MD5sum: 2bbf4cfce05ae50dbbdd0c9163ea34a4
+SHA1: 9d4904bd7aa79a7ab073dd247b68dcd40d765e1d
+SHA256: 7384f48e4daaa1b6b32e59bfa0c6e0e22bbbc15c1180f27b338e9288e7087cf0
 Section: 系统增强
 Description: 左滑返回上一页面
+ - 从右侧开始向左边滑动返回上一页
+ - 部分app可能不生效或导致返回错乱
+ - 可在插件设置中禁用不支持的App
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Mao
 Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
