@@ -21,7 +21,7 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10, 10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
@@ -38,18 +38,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-1",
+                      "text": "Netskao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.1-2",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月19日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-1 \n- 发布初始版本"
+                      "markdown": "### 版本 1.1-2 \n- 启用新的方案"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.-1 发布初始版本"
                   },
               ]
           }
