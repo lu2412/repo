@@ -1319,6 +1319,27 @@ Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
+Package: lym.com.netskao.awemealwaysshowtime
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 56
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.netskao.awemealwaysshowtime
+Replaces: com.netskao.awemealwaysshowtime
+Filename: ./debs/AwemeAlwaysShowTime显示视频发布时间-Rootless.deb
+Size: 2488
+MD5sum: ab5d0a7c506851e2708054c7ee399a27
+SHA1: 687ffa1b6cbe59a902ba19ccfe21a539181abbab
+SHA256: 5a3e88e2fbd8b90857fad429ab139de9f9ad1a3ed390e040f184eff119e01c75
+Section: 抖音插件
+Description: 抖音视频底部显示视频发布时间
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: AwemeAlwaysShowTime显示视频发布时间-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemealwaysshowtime.json
+
 Package: lym.com.netskao.awemeclearlikes
 Version: 1.1-2
 Architecture: iphoneos-arm64
