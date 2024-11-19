@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "作者开源项目地址",
+                    "action": "https://github.com/whoeevee/EeveeSpotify?tab=readme-ov-file",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -21,11 +21,15 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10,10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                      "url": "https://liym5238.github.io/liym/icon/Spotify.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/Spotify1.png"
                                   }
                             ]
                   },
@@ -38,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.8",
+                      "text": "Eevee",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "5.8.1",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月08日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月19日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,6 +68,13 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 5.8.1 \n- 同步更新"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
                       "markdown": "### 版本 5.8 \n- 同步更新"
                   },
                   {
@@ -66,7 +82,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本5.7\n \n- 同步多国语言"
+                      "markdown": "### 版本 5.7 \n- 同步多国语言"
                   },
               ]
           }

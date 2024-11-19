@@ -36,23 +36,6 @@ Author: lym
 Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
-Package: com.icraze.smallboards
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: icraze
-Filename: ./debs/SmallBoard 键盘下沉-Rootless.deb
-Size: 3772
-MD5sum: 513da1a069d0c2c17cac2385e67c564e
-SHA1: 618c46763711471778c1b1169825881c771a3c17
-SHA256: 9d07e2b964519df760eef07ea9008877fa07c44ea073aac0b7a8edce2cf2719d
-Section: 系统增强
-Description: 缩小键盘与底部的间隙
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: icraze
-Name: SmallBoard 键盘下沉-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.smallboards.json
-
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -878,6 +861,28 @@ Author: 妖刀
 Name: PurifyLine去除全局分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.noline.json
 
+Package: lym.com.dao.spotify
+Version: 5.8.1
+Architecture: iphoneos-arm64
+Maintainer: Eevee & 妖刀
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Conflicts: com.eevee.spotify, com.dao.spotify
+Replaces: com.dao.spotify
+Filename: ./debs/EeveeSpotify解锁-Rootless.deb
+Size: 394624
+MD5sum: 79c9ff475330e4a6e231d5fca14830bd
+SHA1: 55495d0e8e7b66e92fd0cec858e88ea1ab366fdf
+SHA256: f585d1984f7e9eb03647716e70c9330acc08a8031402340ad2629a2d1398877b
+Section: 软件增强
+Description: 解锁Spotify会员
+  - 免费获得SpotifyPremium
+  - 就像Spotilife一样；更多的歌词服务,更多的自定义。
+  - 插件设置位于Spotify设置内
+  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Eevee
+Name: EeveeSpotify解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.spotify.json
+
 Package: lym.com.deletephotoscompletely-rootless
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -983,28 +988,6 @@ Description: 屏蔽app不定时弹出的评分窗口
 Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
-
-Package: lym.com.eevee.spotify
-Version: 5.8
-Architecture: iphoneos-arm64
-Maintainer: Eevee
-Installed-Size: 2980
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
-Replaces: com.eevee.spotify
-Filename: ./debs/EeveeSpotify-Rootless.deb
-Size: 604324
-MD5sum: 2f0be2c940a77f3e8ea4bbac36c78239
-SHA1: 100a763677d5eb1394c3031d8b2077b7a032cd7e
-SHA256: 31e91db75f7a4b4fe08c0acfc59bfd6f1b8f8622b6acee9455d1932d7c84d796
-Section: 软件增强
-Description: 解锁Spotify会员
- - 免费获得SpotifyPremium
- - 就像Spotilife一样；更多的歌词服务,更多的自定义。
- - 插件设置位于Spotify设置内
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Eevee
-Name: EeveeSpotify-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.eevee.spotify.json
 
 Package: lym.com.fiore.calculatorhistory
 Version: 1.1.3-1
@@ -1171,6 +1154,23 @@ Description: 左滑快速清除通知消息
 Author: iCraze <icrazeios@protonmail.com>
 Name: EasyNotifications-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.easynotifications.json
+
+Package: lym.com.icraze.smallboards
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: icraze
+Filename: ./debs/SmallBoard 键盘下沉-Rootless.deb
+Size: 3772
+MD5sum: 7b0685b6fde81303d4fef8e9bd9d35eb
+SHA1: f415481ef923cc879162d56eb234181231e27c63
+SHA256: d87ef60a484754f37d67ad71658490007ef5e571c83363410ebfac93d41e40b8
+Section: 系统增强
+Description: 缩小键盘与底部的间隙
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: icraze
+Name: SmallBoard 键盘下沉-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
