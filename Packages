@@ -75,12 +75,12 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: jd-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 无名
 Filename: ./debs/京东去广告-Rootless.deb
-Size: 3840
-MD5sum: a10b389d956e72688a012194f6a6b9b5
-SHA1: eb48a7483289e82c0a01bcfe6ef68bec4c160a4b
-SHA256: 268f7522516140efbcf3df4f0c34da65d831ea8dc565861d404584bd8b60c913
+Size: 3844
+MD5sum: d779e5596099f328a37025bdc891c362
+SHA1: cfc1071ab5bd5440dccf693997c62c8dbc97f609
+SHA256: e742b14b690e6ce29a45a35f81e849cb9801e23e34ba7ac33bea3c4928403fa9
 Section: 软件增强
 Description: 京东精简去广告等
  - 去除启动广告、去除个人主页底部推荐
@@ -88,7 +88,7 @@ Description: 京东精简去广告等
  - 截止目前13.6.2版本
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: 无名
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
 
@@ -332,6 +332,27 @@ Description: 设置顶部增加小部件
 Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
+
+Package: lym.cn.bswbw.DEB.backup.arm64
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 玩游戏的李子­- <lizi54188@outlook.com>
+Installed-Size: 114514
+Conflicts: cn.bswbw.DEB.backup.arm64
+Replaces: cn.bswbw.DEB.backup.arm64
+Filename: ./debs/DEB插件备份-Rootless.deb
+Size: 588892
+MD5sum: eb7eb819f5295383c27ec3902ddee7f0
+SHA1: 39ed93bb18cd95aafd6e5990dec697006edb3a63
+SHA256: c92e127197c1260c1b819be90e86daffb54e6e09c77e201be62e7d87338ec6a1
+Section: 系统增强
+Description: DEB备份IPA插件版
+ - 只是用来方便自己安装
+ - 安装后桌面有图标
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 玩游戏的李子­- <lizi54188@outlook.com>
+Name: DEB插件备份-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
 
 Package: lym.cn.llld.swipeextenderx
 Version: 0.0.2
@@ -1656,6 +1677,49 @@ Description: 已去除联网验证(网传删除node方法)
 Author: sunshinesong
 Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
+
+Package: lym.com.swing.fixlogintiktok
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.swing.fixlogintiktok
+Replaces: com.swing.fixlogintiktok
+Filename: ./debs/FixLoginTikTok修复登录去广告-Rootless.deb
+Size: 7964
+MD5sum: 2d4dead8ce063329cb351d0fdccf2cb4
+SHA1: 7e83ddcdc0951bd5b0efac695fc7cdad7a72ad45
+SHA256: 19cd132ed0ee874a6332fa50187f6bf156d1c376d232113bb2d79b4d08be29d6
+Section: 软件增强
+Description: 修复 TikTok 挂代理也无法登录的问题
+ - 屏蔽越狱检测，去广告！
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Name: FixLoginTikTok修复登录去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.swing.fixlogintiktok.json
+
+Package: lym.com.swing.github
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: SWING
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.swing.github
+Replaces: com.swing.github
+Filename: ./debs/激活GitHub Pro-Rootless.deb
+Size: 6100
+MD5sum: 130a5bdb330f3feda59b05465e7b5e07
+SHA1: c082fe777c900066b306794a07cf4ef58d4e4f71
+SHA256: de5a30c5bbf0b029d8468a3d86ba28d03623bb6cc0f9b4f603fbba438d717dbf
+Section: 软件增强
+Description: 激活GitHub Pro,除了Copilot功能,其他功能都支持
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SWING
+Name: 激活GitHub Pro-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.swing.github.json
 
 Package: lym.com.telegram.return
 Version: 1.0
