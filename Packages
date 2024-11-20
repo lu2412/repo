@@ -1536,6 +1536,51 @@ Author: Netskao
 Name: 微信禁用热更新-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcdisablehotupdates.json
 
+Package: lym.com.netskao.wcisoverseauser
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcisoverseauser
+Replaces: com.netskao.wcisoverseauser
+Filename: ./debs/WCIsOverSeaUser海外通行秘钥-Rootless.deb
+Size: 2484
+MD5sum: b401c5ff306422884e925f18eacbc646
+SHA1: dfce2da1bc4633d051d024e0892b2c377c74ffa8
+SHA256: 665c7cdd2316a52f523a86a47c6126e3359d4652c14291108f09aaa4c9ea3267
+Section: 微信插件
+Description: 微信通行密钥
+ - 强制激活中国大陆86+号码使用「通行密钥」功能
+ - 开启设置:设置-账号与安全-通行密钥
+ - 仅支持微信8.0.54及以上
+ - 仅支持iOS16及以上
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: WCIsOverSeaUser海外通行秘钥-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
+
+Package: lym.com.netskao.wcnewminiappfloatingwindow
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcnewminiappfloatingwindow
+Replaces: com.netskao.wcnewminiappfloatingwindow
+Filename: ./debs/WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless.deb
+Size: 2456
+MD5sum: 22058aa550d55869bf81d4b48bf5bfda
+SHA1: 6df1aabf8bddc6b9ed9079d006388d4f98d3c4e1
+SHA256: 609f2387c61f3e9df263a522ed81ba9fb8b628243fd3cf21321b3d4dc50d72d2
+Section: 微信插件
+Description: 微信启用AB测试的miniApp浮动窗口功能，仅8.0.54+
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
+
 Package: lym.com.nightwind.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
