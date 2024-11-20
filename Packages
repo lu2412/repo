@@ -295,6 +295,28 @@ Author: Snail
 Name: Easynotify快速开关通知-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
 
+Package: lym.byg.iosios.net.ghallownetwork-rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.ghallownetwork-rootless
+Replaces: byg.iosios.net.ghallownetwork-rootless
+Filename: ./debs/Allow Network自动允许网络-Rootless.deb
+Size: 8304
+MD5sum: 1eb2064827890fce0666729a54705fc7
+SHA1: b787f09524895f02955d6ea0bebc0200cd6f4023
+SHA256: dad90df8e59b8053e2ae4bf0e24b35d3fd9dcac23486c1b0dad45068803145b9
+Section: 系统增强
+Description: 国行手机安装完APP,第一次运行时
+ - 会弹出是否允许使用网络,安装这个插件会自动允许使用网络
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: Allow Network自动允许网络-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
+
 Package: lym.byg.iosios.net.settingswidgets.rootless
 Version: 1.2.3.1
 Architecture: iphoneos-arm64
