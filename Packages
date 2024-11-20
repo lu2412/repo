@@ -319,21 +319,21 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.cn.bswbw.DEB.backup.arm64
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: 玩游戏的李子­- <lizi54188@outlook.com>
+Maintainer: liym
 Installed-Size: 114514
 Conflicts: cn.bswbw.DEB.backup.arm64
 Replaces: cn.bswbw.DEB.backup.arm64
 Filename: ./debs/DEB插件备份-Rootless.deb
-Size: 588892
-MD5sum: eb7eb819f5295383c27ec3902ddee7f0
-SHA1: 39ed93bb18cd95aafd6e5990dec697006edb3a63
-SHA256: c92e127197c1260c1b819be90e86daffb54e6e09c77e201be62e7d87338ec6a1
-Section: 系统增强
+Size: 588980
+MD5sum: aca0da21e526c56c2aaa9ee483ea20ff
+SHA1: e153812b06785e6d9f29d1c3bb325fa58e94434b
+SHA256: 75418273ed85383d2b91be430ecf26f27d0bfbab2cb6012bd645ad9acb897747
+Section: 巨魔软件
 Description: DEB备份IPA插件版
  - 只是用来方便自己安装
  - 安装后桌面有图标
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 玩游戏的李子­- <lizi54188@outlook.com>
+Author: liym
 Name: DEB插件备份-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
 
@@ -1491,6 +1491,27 @@ Description: 让QQ消息通知显示QQ好友头像
 Author: Netskao
 Name: QQNotiAvatar消息头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
+
+Package: lym.com.netskao.ringtonesmanager
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Netskao
+Installed-Size: 114514
+Conflicts: com.netskao.ringtonesmanager
+Replaces: com.netskao.ringtonesmanager
+Filename: ./debs/Ring TonesManager铃声管理-Rootless.deb
+Size: 5333616
+MD5sum: 015695503a7bd84868482d51720eccd0
+SHA1: be6aacf886841b4d3ae94ef2b302d6c1ae02cada
+SHA256: f05aaa4f53f5cc784a97e2867e2f885e464e896f5286053d9a1fb9923383fee6
+Section: 巨魔软件
+Description: 支持任意音频文件生成并设置iOS铃声
+ - 丢弃繁琐的电脑和库乐队设置无30秒时间限制
+ - 只是用来方便自己安装,安装后桌面有图标
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: Ring TonesManager铃声管理-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.ringtonesmanager.json
 
 Package: lym.com.netskao.twitternoads
 Version: 1.1-2
