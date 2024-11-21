@@ -1627,19 +1627,19 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.com.nightwind.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: Nightwind
 Filename: ./debs/OneSettings设置分类美化-Rootless.deb
-Size: 217460
-MD5sum: 95088c0ae698fe97a23932f1bd446752
-SHA1: d7426db759626e1b6ce2d5d92e43952f02dd734f
-SHA256: f81ba62328040424074034c6f8b3038aa24eb3d3c865d3440b6df13ecc3b6d2a
+Size: 217612
+MD5sum: b7703925e8eeee6e41552161a60de3e2
+SHA1: 33806d3a0bac48112c94d2e2f46e962cd0b71a95
+SHA256: 2fad1a195eaff5ea12982270e82bb49d78b4263e1ef0a5803f94dcac24b3a5c9
 Section: 系统增强
 Description: 系统设置美化分类插件
  - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
  - 插件中有很多可定制性和功能，适合任何人的口味表格单元格的字幕、自定义设置背景、表格视图插图和角半径、恶搞存储量等等
  - 有很多很多功能，还有更多功能将在更新中推出
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: Nightwind
 Name: OneSettings设置分类美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
@@ -2327,6 +2327,27 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zuji-Rootless.json
+
+Package: lym1.com.nightwind.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 1084
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle, com.nightwind.onesettings
+Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lyn.byg.iosios.net.onesettings
+Filename: ./debs/OneSettings图标美化-Rootless.deb
+Size: 5912
+MD5sum: f98c9b4f1851bf5af848dd181137b656
+SHA1: 1a08a81906dbebe77f7ebb3c8ec74fbeae40677a
+SHA256: d76b2e89f75ecf30c421d98f17276825be4a5dab88babdc54394d80c239b271d
+Section: 系统美化
+Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: OneSettings图标美化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.nightwind.onesettings.json
 
 Package: lym1.com.sini.textforsnapper3
 Version: 1.0.1
