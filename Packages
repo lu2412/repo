@@ -2329,23 +2329,23 @@ Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zuji-Rootless.json
 
 Package: lym1.com.nightwind.onesettings
-Version: 2.2
+Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: 搬运工
+Maintainer: lym
 Installed-Size: 1084
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle, com.nightwind.onesettings
 Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lym.com.nightwind.onesettings
 Filename: ./debs/OneSettings图标美化-Rootless.deb
-Size: 5912
-MD5sum: 9c8dd07c0399dfe8d2a33b53e22f05a4
-SHA1: 54284cc790f536d424fefbb180c92507ce2cd716
-SHA256: 7f53bf24d3296cf3f22195bd02b86c1c7c76b555790a8de7034c109ca43a3091
+Size: 5900
+MD5sum: e946627e58eed61d84e8f79b9b924c05
+SHA1: d4a56bfc22074440024cc80c361315a8028d0c81
+SHA256: 91670d051c70d727462e48f24c9e553b652ab2c276cbe36db4322316adb1cc03
 Section: 系统美化
 Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Nightwind
+Author: lym
 Name: OneSettings图标美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.nightwind.onesettings.json
 
