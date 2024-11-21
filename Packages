@@ -2335,12 +2335,12 @@ Maintainer: 搬运工
 Installed-Size: 1084
 Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle, com.nightwind.onesettings
-Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lym.byg.iosios.net.onesettings
-Filename: ./debs/OneSettings设置分类美化-Rootless.deb
-Size: 5908
-MD5sum: 3b7010393d6f70b7a7ea69d5d466b5ee
-SHA1: 8e1e46365b769b28ed2b86d5286abad291755f67
-SHA256: 9e1373def6fcdcb32f8867b176a79908d117652b3f3a6bc88416bd207b78bd21
+Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lym.com.nightwind.onesettings
+Filename: ./debs/OneSettings图标美化-Rootless.deb
+Size: 5912
+MD5sum: 9c8dd07c0399dfe8d2a33b53e22f05a4
+SHA1: 54284cc790f536d424fefbb180c92507ce2cd716
+SHA256: 7f53bf24d3296cf3f22195bd02b86c1c7c76b555790a8de7034c109ca43a3091
 Section: 系统美化
 Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
  - 插件无设置项安装即可生效
