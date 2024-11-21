@@ -1091,6 +1091,26 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
+Package: lym.com.huam.wcenablecleanorigmsg
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huam.wcenablecleanorigmsg
+Replaces: com.huam.wcenablecleanorigmsg
+Filename: ./debs/WCEnableCleanOrigMsg原图清理-Rootless.deb
+Size: 3172
+MD5sum: f1b234820c60da9d4d5388ca7702173a
+SHA1: 95c13c674e8fc2c74fb995a3b66647b294499d37
+SHA256: 370badeab8e976f8de84ac4e4c83df807b4f4288882b725906bf49fe0288a0f9
+Section: 微信插件
+Description: 启用54版本【原图、原视频14天后自动清理】
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: WCEnableCleanOrigMsg原图清理-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
+
 Package: lym.com.huami.DYYY
 Version: 1.6-2
 Architecture: iphoneos-arm64
