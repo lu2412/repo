@@ -1100,12 +1100,13 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huam.wcenablecleanorigmsg
 Replaces: com.huam.wcenablecleanorigmsg
 Filename: ./debs/WCEnableCleanOrigMsg原图清理-Rootless.deb
-Size: 3172
-MD5sum: f1b234820c60da9d4d5388ca7702173a
-SHA1: 95c13c674e8fc2c74fb995a3b66647b294499d37
-SHA256: 370badeab8e976f8de84ac4e4c83df807b4f4288882b725906bf49fe0288a0f9
+Size: 3252
+MD5sum: 3566f7a0527091fa143eff10f223bacf
+SHA1: 15bab781431e40777d8c53135a946cd8327b796a
+SHA256: f11faa0968658d6ec76839f7e245314afba29e187180daa811b4a9159b20d812
 Section: 微信插件
 Description: 启用54版本【原图、原视频14天后自动清理】
+ - 功能位于微信-设置-通用-照片、视频、文件与通话里面，默认开启
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: WCEnableCleanOrigMsg原图清理-Rootless
