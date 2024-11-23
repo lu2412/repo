@@ -2016,22 +2016,22 @@ Package: lym.com.xx.qqhook
 Version: 1.1.1-2
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 2216
+Installed-Size: 2280
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 764460
-MD5sum: 946015f78cba597d2b4e8e94730acaa4
-SHA1: 1b241225b9fdb2e32447610b760687d2726961bd
-SHA256: f1a6471e5561676784bc9836de2b1b7c8a5f4c4f635a29fb7667f193c7f3b2e8
+Size: 785800
+MD5sum: 4ddfc9cec723836c7f71711762338de2
+SHA1: d55cf8b593a1ba2ace305da71612a3303a24eafc
+SHA256: 11f3a394f867bdf78501285da9c3c2c79a0da3c4f773073f0c3c5acf951c01a6
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
- - 消息防撤回，闪图保存等
+ - 消息防撤回,闪图保存等
  - 去除个人主页服务卡片
- - 插件启用：QQ设置-辅助功能-右上角开启
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 插件启用:QQ设置-辅助功能-右上角开启
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json

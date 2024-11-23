@@ -21,15 +21,15 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10, 10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://trollstorex.github.io/sileodepiction/CCVPN/pic1.png"
+                                      "url": "https://liym5238.github.io/liym/icon/qqtc.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://trollstorex.github.io/sileodepiction/CCVPN/pic2.png"
+                                      "url": "https://liym5238.github.io/liym/icon/qqtc1.png"
                                   }
                             ]
                   },
@@ -42,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
+                      "text": "x✨",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
                       "text": "1.1.1-2",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月23日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -63,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.1-2 \n- 适配最新版"
+                      "markdown": "### 版本 1.1.1-2 \n- 适配最新版本QQ"
                   },
               ]
           }
