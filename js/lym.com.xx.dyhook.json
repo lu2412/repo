@@ -21,11 +21,19 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10,10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                      "url": "https://liym5238.github.io/liym/icon/dytc.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/dytc1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/dytc2.png"
                                   }
                             ]
                   },
@@ -38,18 +46,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0",
+                      "text": "x✨",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2.0.7+8",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月08日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月24日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.07-6\n- 修复纯净模式下无法拉动长视频滑条\n- 修复隐藏进度条后还有一条长线\n- 优化功能打开提示弹窗\n- 优化抖音浅色模式下解析弹窗导致状态栏变色\n- 一些其它细节优化"
+                      "markdown": "### 版本 2.0.7+8 \n- 新增自定义接口\n- 修复一些bug优化一些细节\n- 修复纯净模式时无法拉动长频进度条\n- 修复隐藏进度条后还有一条线的问题\n- 新增底部显示发布时间顶部弹窗显示时状态栏颜色问题修复\n- 修复键盘颜色问题\n- 优化评论区保存方案1\n- 修复首页连播打开评论区时还会自动下一条问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.7+6\n- 修复纯净模式下无法拉动长视频滑条\n- 修复隐藏进度条后还有一条长线\n- 优化功能打开提示弹窗\n- 优化抖音浅色模式下解析弹窗导致状态栏变色\n- 一些其它细节优化"
                   },
                   {
                       "class": "DepictionSeparatorView"
