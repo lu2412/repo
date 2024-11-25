@@ -2177,6 +2177,30 @@ Author: Netskao
 Name: 酷我畅听解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.kuwo-Rootless.json
 
+Package: lym.me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
+Replaces: me.lau.atria
+Filename: ./debs/Atria桌面布局-Rootless.deb
+Size: 237204
+MD5sum: de1ca3dc8a57d75b275fa13e85c6cab2
+SHA1: 97a11d3f7acde723f3b842cd923a7871706913ae
+SHA256: 0d591e65aad9b4ae0ac3d690097a420ba10de80fc9e3ed5633040c9f162ad284
+Section: 系统美化
+Description: 桌面布局美化
+ - 自定义桌面图标大小
+ - 自定义图标排列数量
+ - 自定义小组件大小
+ - 编辑布局:通过长按主屏幕图标或桌面壁纸空白处轻点三下
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria桌面布局-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria.json
+
 Package: lym.net.camera
 Version: 0.1-2
 Architecture: iphoneos-arm64

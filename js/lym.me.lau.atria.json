@@ -1,0 +1,76 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 桌面布局美化\n- 自定义桌面图标大小\n- 自定义图标排列数量\n- 自定义小组件大小\n- 编辑布局:通过长按主屏幕图标或桌面壁纸空白处轻点三下\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/Atria.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/Atria1.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "ren7995 <lau7995ren@gmail.com>",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.4.1",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2024年11月25日",
+                      "title": "最后更新"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.4.1 \n- 增加了iPad的默认停靠栏\n- 修复了导致意外长呼吸时间的错误"
+                  },
+              ]
+          }
+      ]
+}
