@@ -75,7 +75,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.4 增加设置开关"
+                      "markdown": "### 版本 1.4 \n- 增加设置开关"
                   },
               ]
           }

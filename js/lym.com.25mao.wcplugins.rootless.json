@@ -16,13 +16,21 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信插件管理\n- 收纳第三方微信插件\n- 位于微信右下角“我”-“插件”\n- 部分微信插件不支持收纳\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信插件管理\n- 收纳第三方微信插件\n- 位于微信右下角“我”-“插件”\n- 部分微信插件不支持收纳\n- 我-插件页面,长按插件图标可设置密码\n- 重启微信可隐藏我的页面“插件”\n- 首页搜索框输入密码则重新出现,留空表示取消隐藏。\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{1, 1}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
                             ]
                   },
 
@@ -34,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
+                      "text": "Mao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
                       "text": "0.1-3",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月03日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月27日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +68,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-3\n- 适配8.0.39客户端\n- > 2024-11-03"
-                  }
+                      "markdown": "### 版本 0.1-3 \n- 增加密友隐藏插件"
+                  },
               ]
           }
       ]
