@@ -195,6 +195,26 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
+Package: lym.Sye
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Depends: com.spark.snowboard, com.spark.snowboard.ui
+Conflicts: Sye
+Replaces: zhuti.iosios.net.solsticerootless, Sye
+Filename: ./debs/马里奥-开关标签美化-Rootless.deb
+Size: 43056
+MD5sum: b2c74f52e1ac9d2f703b3b19a9c34172
+SHA1: 3b63ebca9990f150ec29a07bf62db25811ef9834
+SHA256: d66e89f8732d1ae8927696f52d7a9619304026dce001c3f5546f580a92c8a427
+Section: 系统美化
+Description: 系统开关按钮美化
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lym
+Name: 马里奥-开关标签美化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Sye.json
+
 Package: lym.Telegram-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
