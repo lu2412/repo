@@ -16,13 +16,21 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信头像转圈圈\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信头像旋转\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{1, 1}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://liym5238.github.io/liym/icon/123.png"
+                                  }
                             ]
                   },
 
@@ -34,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.3-28",
+                      "text": "baiy",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.5",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月02日",
-                      "title": "最后更新时间"
+                      "text": "2024年11月26日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +68,15 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.3-28\n- 增加设置开关\n- 增加旋转速度设置\n- > 2024-11-02"
-                  }
+                      "markdown": "### 版本 1.5 \n- 修复切换暗黑模式卡顿"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.4 增加设置开关"
+                  },
               ]
           }
       ]

@@ -201,12 +201,12 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Conflicts: Sye
-Replaces: zhuti.iosios.net.solsticerootless, Sye
+Replaces: zhuti.iosios.net.solsticerootless,lym.eclectic.themes
 Filename: ./debs/马里奥-开关标签美化-Rootless.deb
-Size: 43056
-MD5sum: b2c74f52e1ac9d2f703b3b19a9c34172
-SHA1: 3b63ebca9990f150ec29a07bf62db25811ef9834
-SHA256: d66e89f8732d1ae8927696f52d7a9619304026dce001c3f5546f580a92c8a427
+Size: 43060
+MD5sum: 5d85481e7f20fc455165b78221aad20d
+SHA1: fc7c3cb90e8d79046b1a8832bb6d92c741ba118b
+SHA256: c0324842d6f67d34c19521c7f10e7334bd0e9364f380c29ca8e25fc64c069659
 Section: 系统美化
 Description: 系统开关按钮美化
  - 插件无设置项安装即可生效
@@ -812,6 +812,27 @@ Description: 微信爱锋助手
 Author: appku
 Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
+
+Package: lym.com.baiy.wechatrotate
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: baiy（qq:961666883）
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.baiy.wechatrotate
+Replaces: com.baiy.wechatrotate
+Filename: ./debs/微信头像旋转-Rootless.deb
+Size: 6980
+MD5sum: 35ca355664d1164ba8ace674bc262583
+SHA1: 939f2c75be60ed99e9ed1f8bb23c955763156161
+SHA256: f9ee2328b83ef23df94187fcf5499560b052b24d4a547a8c4d4fba5022ec552a
+Section: 微信插件
+Description: 微信头像旋转
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: baiy
+Name: 微信头像旋转-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.wechatrotate.json
 
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
@@ -2119,26 +2140,6 @@ Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能
 Author: xybp888
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.lockbutton.json
-
-Package: lym.com.xybp888.test
-Version: 0.0.3-28
-Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.xybp888.test
-Filename: ./debs/微信头像转圈圈-Rootless.deb
-Size: 8236
-MD5sum: 5587a29ef6f4842a38762159c399f38d
-SHA1: 097144ccd9c91a2aef164dad0c4c06d176a3d969
-SHA256: 1aa11d7170756175d2896a13232854d2979699f825a9ee4406e79f506905aef8
-Section: 微信插件
-Description: 微信头像转圈圈
- - 新增设置开关
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 微信头像转圈圈-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.test.json
 
 Package: lym.hxq-Rootless
 Version: 1.0
