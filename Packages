@@ -1710,6 +1710,27 @@ Author: Netskao
 Name: WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
 
+Package: lym.com.netskao.wechatuiswitchloader
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 464
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wechatuiswitchloader
+Replaces: com.netskao.wechatuiswitchloader
+Filename: ./debs/WeChatUISwitchLoader微信UI开关-Rootless.deb
+Size: 139948
+MD5sum: db7b46f63a8538c7d3831ee4c0a99171
+SHA1: 3b8dce863dfc675bc15bc8983eea7c7e60d70e66
+SHA256: 947585569c2b6d9760ee9f086d3d0bdc114c94b94514c96d109653cc50b50dfa
+Section: 微信插件
+Description: 微信UI开关
+ - 有设置项可自行添加素材
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Netskao
+Name: WeChatUISwitchLoader微信UI开关-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatuiswitchloader.json
+
 Package: lym.com.nightwind.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
