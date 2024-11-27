@@ -1943,6 +1943,27 @@ Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.telegram.return.json
 
+Package: lym.com.tiaotiao.betteruiswitch
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: TiaoTiao
+Installed-Size: 232
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.tiaotiao.betteruiswitch,lym1.com.tiaotiao.betteruiswitch
+Replaces: com.tiaotiao.betteruiswitch
+Filename: ./debs/全局版开关UI(白圈按钮版本)-Rootless.deb
+Size: 49264
+MD5sum: 250a4429c29adc627ba0ecd25bca0d05
+SHA1: 19908e783fc731b17f8f2895467c4ff419bb9a4b
+SHA256: 775d19f61a669281fe6d220ac402c976ebb931a6f02ea187bf4fea1ecf33d3f6
+Section: 系统美化
+Description: 全局版开关UI(涩涩版)
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: TiaoTiao
+Name: 全局版开关UI(白圈按钮版本)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tiaotiao.betteruiswitch.json
+
 Package: lym.com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -2460,6 +2481,27 @@ Description: Snapper 3自用蓝色发光文字美化图标
 Author: lym
 Name: Snapper 3蓝色发光文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
+
+Package: lym1.com.tiaotiao.betteruiswitch
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: TiaoTiao
+Installed-Size: 232
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.tiaotiao.betteruiswitch,lym.com.tiaotiao.betteruiswitch
+Replaces: com.tiaotiao.betteruiswitch
+Filename: ./debs/全局版开关UI(透明按钮版本)-Rootless.deb
+Size: 58588
+MD5sum: 81ded85b0b9bcf4c0c18f839c94e18d5
+SHA1: 183d61ada59af2d07768c850902aaeaa99952998
+SHA256: f16861bde67a23a46760d0c40751f365d169d8e900266ee6ca803847bfc330db
+Section: 系统美化
+Description: 全局版开关UI(涩涩版)
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: TiaoTiao
+Name: 全局版开关UI(透明按钮版本)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.tiaotiao.betteruiswitch.json
 
 Package: qqipad-Rootless
 Version: 1.1-1
