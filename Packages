@@ -304,10 +304,10 @@ Depends: mobilesubstrate
 Conflicts: byg.iosios.net.canna
 Replaces: byg.iosios.net.canna
 Filename: ./debs/Canna锁屏音-Rootless.deb
-Size: 22708
-MD5sum: 862bccda096c15e77328cb87dc2b9b1e
-SHA1: e7103f2170557274d8e339d1c2eabe42e219b9f2
-SHA256: 8f6f8ae9abeddc7a04a6c18cc52178adf5f59872bd4a3630b0ff1077643c610a
+Size: 45856
+MD5sum: 5200efc77c3527f98f0bc4d047677563
+SHA1: 90180d7013fd2aaa478110a9dc83cfdf71b614b1
+SHA256: 89e021237945318c8ab20dbc57a98c53a0ff4dcbfba47ce80e4038d857dcba52
 Section: 系统增强
 Description: 自定义锁屏和充电提示音
  - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
