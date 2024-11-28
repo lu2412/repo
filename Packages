@@ -420,27 +420,6 @@ Author: 来了老弟
 Name: SwipeExtenderX键盘增强(汉化包)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
-Package: lym.cn.zqbb.disupdateapp
-Version: 2.0.0-3
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 788
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Conflicts: cn.zqbb.disupdateapp
-Replaces: cn.zqbb.disupdateapp
-Filename: ./debs/屏蔽App Store更新提示-Rootless.deb
-Size: 206896
-MD5sum: b7dc448cb2f2a6a787802bcaa526668d
-SHA1: a6466576e4d1c664b9f9d9be1c5d853aba45d542
-SHA256: 8ddbfb54d485e2ed6855da2208fd38240d0b3fb79dd3b8096f76f3a9c1d3eb53
-Section: 系统增强
-Description: 屏蔽App Store更新提示
- - 有设置项-插件设置内自行选择要屏蔽的应用
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: zqbb
-Name: 屏蔽App Store更新提示-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.zqbb.disupdateapp.json
-
 Package: lym.com.25mao.KuaiDou
 Version: 0.1-1
 Architecture: iphoneos-arm64
