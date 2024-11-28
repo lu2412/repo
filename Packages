@@ -295,6 +295,27 @@ Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
 
+Package: lym.byg.iosios.net.canna
+Version: 0.9.0
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Installed-Size: 288
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.canna
+Replaces: byg.iosios.net.canna
+Filename: ./debs/Canna锁屏音-Rootless.deb
+Size: 22708
+MD5sum: 862bccda096c15e77328cb87dc2b9b1e
+SHA1: e7103f2170557274d8e339d1c2eabe42e219b9f2
+SHA256: 8f6f8ae9abeddc7a04a6c18cc52178adf5f59872bd4a3630b0ff1077643c610a
+Section: 系统增强
+Description: 自定义锁屏和充电提示音
+ - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Luki
+Name: Canna锁屏音-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.canna.json
+
 Package: lym.byg.iosios.net.ccpay
 Version: 0.0.1
 Architecture: iphoneos-arm64
