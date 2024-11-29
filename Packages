@@ -303,17 +303,17 @@ Installed-Size: 288
 Depends: mobilesubstrate
 Conflicts: byg.iosios.net.canna
 Replaces: byg.iosios.net.canna
-Filename: ./debs/Canna锁屏音-Rootless.deb
-Size: 90928
-MD5sum: d65785ccd4f6429f523ea0d323f9c38a
-SHA1: 5d70225cd9f65cbac161b0233dac13f05ab6ba7b
-SHA256: 4dd45039a93e640d9b023b779eefd0cb06ffe18064b42390e518ce1f6d4e9414
+Filename: ./debs/Canna锁屏充电提示音效-Rootless.deb
+Size: 90992
+MD5sum: dc5cebe57ac806c896baf3d02df77232
+SHA1: fd3ac1e77554c70ef0a23a34c17b3d5f0b576aed
+SHA256: 19b53c262de873ae0e66b78d3012843e4d95c70039ee6684305ed3ee58e74818
 Section: 系统增强
 Description: 自定义锁屏和充电提示音
  - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Luki
-Name: Canna锁屏音-Rootless
+Name: Canna锁屏充电提示音效-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.canna.json
 
 Package: lym.byg.iosios.net.ccpay
