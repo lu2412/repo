@@ -101,11 +101,11 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Replaces: zhuti.iosios.net.solsticerootless
-Filename: ./debs/Eclectic by主题.deb
-Size: 38169048
-MD5sum: 38ddf78dc3f2dc7e55f31def9a8f1213
-SHA1: 6aa958ad95d860342f868ccc852f6c331cda267a
-SHA256: d140639df543d7c02c33e5925358feaf0d2eab4a5133e9bc67b5c4211d60e404
+Filename: ./debs/lym.Eclectic.Themes_2.6_iphoneos-arm64.deb
+Size: 38170100
+MD5sum: e1ec811759e6040d1862855bbaa5dc29
+SHA1: 32b507cade12bf684551c91cd3d53f1d8b911cd0
+SHA256: 4dda96240e9db5996f151d0488a0906077ccaaf635efea7767419a42b23b95af
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
@@ -2101,18 +2101,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.7+8
+Version: 2.0.8
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 13908
+Installed-Size: 13844
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4800476
-MD5sum: dbd884bde94caea08a998be442cc26d3
-SHA1: ae7b6a4b5524f896d9e61e0ff134ca5a57481137
-SHA256: dbfece4354fe15be6489010dd7664c7641e57f5a06e133d7ed7a00011022182b
+Size: 4787668
+MD5sum: 62c25604bc5bdcad5081a3daa13d40dd
+SHA1: 46ce7ea4dde69339a3a5333bfd8f31a4fbb90755
+SHA256: a75942b45caf8b3f4ced80694996581bf6d6050db47c57c59b1b9e3bd27264d4
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
