@@ -42,15 +42,15 @@ Architecture: iphoneos-arm64
 Maintainer: SquidForce
 Installed-Size: 172
 Depends: mobilesubstrate
-Filename: ./debs/应用3DTouch菜单.1.1.0.deb
-Size: 8368
-MD5sum: 5e0f8bfc606f036151f7235691742bdf
-SHA1: 388955eb3005b482139a9be0f55356306e68ae31
-SHA256: 2c0fb45a5a618b631e93d00d486adfb8ebfa772739291a53c2d035f23ed80ec1
-Section: Tweaks
+Filename: ./debs/应用3DTouch菜单.deb
+Size: 8380
+MD5sum: 086c5ed6867997a1daf923031ef34e04
+SHA1: c74ba34e43b1cc416b444337b30f539994da51ef
+SHA256: cb100b365e26d3b0c64979dd7c9448a4a6efb0c63f38bc2292c396fa03e0989d
+Section: 系统增强
 Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作，并去掉多余动作。More actions for AppIcon's 3D Touch menu, and less duplicated actions.
 Author: SquidForce
-Name: 应用3DTouch菜单
+Name: 应用3DTouch菜单-Rootless
 
 Package: gaode-Rootless
 Version: 1.0.4
