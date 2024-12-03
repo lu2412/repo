@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "插件作者频道",
-                    "action": "https://t.me/huamidev",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 插件介绍\n- 抖音增强插件\n- 双指长按打开插件设置\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 抖音增强插件\n- 双指长按打开插件设置\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -42,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.6-2",
+                      "text": "huami",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.7",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
+                      "text": "2024年12月03日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -63,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.6-2 \n- 修复TF抖音31.9.0屏蔽底栏红点失效问题"
+                      "markdown": "### 版本 1.7 \n- 修复因新版本导致侧边倍速播放失效\n- 新增评论区键盘切换深色模式(在设置)\n- 为新版本抖音的弹幕热更新适配改色功能"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.6.1\n- 修复TF抖音31.9.0屏蔽底栏红点失效问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
