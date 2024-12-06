@@ -1186,6 +1186,30 @@ Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
 
+Package: lym.com.dvntm.ytlite
+Version: 5.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 16344
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite
+Replaces: com.dvntm.ytlite
+Filename: ./debs/YTLite- YouTube增强-Rootless.deb
+Size: 6181360
+MD5sum: 71d463f1ac42e724ef0a2f778396f433
+SHA1: 94d62fc0b2555c5f6863807707521e959537b01b
+SHA256: 632c135fa2ee23c3236e551df086692508f87953328ac3ff28529c8da7e6cee1
+Section: 软件增强
+Description: YouTube增强插件
+ - 支持去广告
+ - 视频下载
+ - 隐藏各种按钮元素
+ - 包括各种自定功能等
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: dvntm
+Name: YTLite- YouTube增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ytlite.json
+
 Package: lym.com.fiore.calculatorhistory
 Version: 1.1.3-1
 Architecture: iphoneos-arm64
