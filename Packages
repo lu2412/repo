@@ -1311,6 +1311,32 @@ Author: huami
 Name: WCEnableCleanOrigMsg原图清理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
+Package: lym.com.huami.DYYY
+Version: 1.8
+Architecture: iphoneos-arm64
+Maintainer: huami
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.huami.DYYY
+Replaces: com.huami.DYYY
+Filename: ./debs/抖音 YYYY-Rootless.deb
+Size: 25912
+MD5sum: c60585cf94adc2ae4357721e546afba6
+SHA1: ec6bbaca4a4e935e088968cd05ce9d4460880190
+SHA256: ccbc57e319515fad7cab66d1515f8dee8ce26de375c3777e325b21d0722ade01
+Section: 抖音插件
+Description: 抖音增强插件
+ - 双指长按打开插件设置
+ - 设置顶栏透明
+ - 设置全局透明度
+ - 隐藏全屏观看
+ - 隐藏底栏加号
+ - 开启弹幕改色
+ - 新增默认倍速播放功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: 抖音 YYYY-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.DYYY.json
+
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1330,33 +1356,6 @@ Description: BiliBili净化开屏广告
 Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.bilinoad.json
-
-Package: lym.com.huami.dyyy
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 236
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.dyyy
-Replaces: com.huami.dyyy
-Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 19968
-MD5sum: b04112030fc19011b5ef006a3fc141c0
-SHA1: 46ad95b7b32d1a301abf26e1426ae66526ff9006
-SHA256: 2634913c8fee2c605fc0b8da2d0dedbc76f565fafa1695d60846b51cf922be7a
-Section: 抖音插件
-Description: 抖音增强插件
- - 双指长按打开插件设置
- - 设置顶栏透明
- - 设置全局透明度
- - 隐藏全屏观看
- - 隐藏底栏加号
- - 开启弹幕改色
- - 新增默认倍速播放功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: huami
-Name: 抖音 YYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1
@@ -2191,18 +2190,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.8
+Version: 2.0.8+1
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 13844
+Installed-Size: 14896
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 4787668
-MD5sum: 62c25604bc5bdcad5081a3daa13d40dd
-SHA1: 46ce7ea4dde69339a3a5333bfd8f31a4fbb90755
-SHA256: a75942b45caf8b3f4ced80694996581bf6d6050db47c57c59b1b9e3bd27264d4
+Size: 5143024
+MD5sum: 61a1ba825c435514df358d44f5498474
+SHA1: 93a408c4734976fde252affa0d0a2c91fce1366e
+SHA256: 871ec7e58872d352e08dc4bafceedfae1618f346c07836cc71f829e7da4b2926
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频

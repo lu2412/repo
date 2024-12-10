@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.8",
+                      "text": "2.0.8+1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月01日",
+                      "text": "2024年12月10日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.8 \n- 新增一项花里胡哨的按钮(最近很火的那个)\n- 新增一个小丑功能(修改自己作品的点赞/播放/浏览/收藏评论）\n- 修复一些已知问题"
+                      "markdown": "### 版本 2.0.8+1 \n- 新增修改作品点赞等数量\n- 新增拍摄视屏时长限制\n- 移除新增点赞收藏等图标自定义\n- 新增评论区GIF保存\n- 新增相似表情包保存\n- 新增备份插件数据为文件恢复\n- 优化一些东西\n- 修复一些东西"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.8\n- 新增一项花里胡哨的按钮(最近很火的那个)\n- 新增一个小丑功能(修改自己作品的点赞/播放/浏览/收藏评论）\n- 修复一些已知问题"
                   },
                   {
                       "class": "DepictionSeparatorView"

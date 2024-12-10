@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.7",
+                      "text": "1.8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月03日",
+                      "text": "2024年12月10日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.7 \n- 修复因新版本导致侧边倍速播放失效\n- 新增评论区键盘切换深色模式(在设置)\n- 为新版本抖音的弹幕热更新适配改色功能"
+                      "markdown": "### 版本 1.8 \n- 进一步完善了评论区深色模式的适配"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.7\n- 修复因新版本导致侧边倍速播放失效\n- 新增评论区键盘切换深色模式(在设置)\n- 为新版本抖音的弹幕热更新适配改色功能"
                   },
                   {
                       "class": "DepictionSeparatorView"
