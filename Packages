@@ -124,10 +124,10 @@ Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Replaces: zhuti.iosios.net.solsticerootless
 Filename: ./debs/lym.Eclectic.Themes_2.6_iphoneos-arm64.deb
-Size: 38170100
-MD5sum: e1ec811759e6040d1862855bbaa5dc29
-SHA1: 32b507cade12bf684551c91cd3d53f1d8b911cd0
-SHA256: 4dda96240e9db5996f151d0488a0906077ccaaf635efea7767419a42b23b95af
+Size: 38170292
+MD5sum: 1877a0e204922e15a18a7237f055b495
+SHA1: 599614c3d9759115fadabd7790f9f17c49f405bd
+SHA256: b15b72bdae4e4a395aed579e746138c35c065b1853a7555b19d22b640a6dfa2b
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
@@ -2430,13 +2430,14 @@ Maintainer: 无名
 Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2032
-MD5sum: 8631e2c79ab5350f64d312a1c17805af
-SHA1: 2fa2218d5578a25db018e8dae8936d262de3b6d6
-SHA256: c963f01b520c40b70f3f593eff6af0087da1699bba6bd1102d6918ac8d6d713d
+Size: 2068
+MD5sum: 575f672612a0c429bfd275685ffca0f2
+SHA1: 46f51435a89fe2c7e5847b23b6d2b91238bd1e0c
+SHA256: ebfd8ffe0f7f930753b14bd856473df5949890397045bfa7bf8bb740703a4141
 Section: 系统增强
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台
+  - 源地址路径/var/jb/etc/apt/sources.list.d
  - 重新进入Sileo即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 无名
