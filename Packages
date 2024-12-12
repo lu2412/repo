@@ -2118,6 +2118,30 @@ Author: 网友
 Name: Snapper 3对角文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.zhforsnapper3.json
 
+Package: lym.com.squidforce.doubletapflipcamera
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 1.1.5000)
+Conflicts: com.squidforce.doubletapflipcamera
+Replaces: com.squidforce.doubletapflipcamera
+Filename: ./debs/双击翻转相机镜头-Rootless.deb
+Size: 5124
+MD5sum: 31bbbd8cb51585a1178c8290cd25b20c
+SHA1: e4b84ae51911084114cdc7765bf516590d0497ba
+SHA256: f350b89dbf58146ba72c85ab50d89db592a70e072ed24a2c4d85fe15979bbf92
+Section: 系统增强
+Description: 双击取景框翻转相机前置和后置镜头
+ - 目前支持系统相机拍照和录像，微信拍照和视频，QQ拍照
+ - 理论上调用系统相机拍照的应用都可以
+ - 在DoubleTapFlipCamera.plist中加入应用的BundleId即可
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SquidForce
+Name: 双击翻转相机镜头-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.squidforce.doubletapflipcamera.json
+
 Package: lym.com.sunshinesong.split-view-pro
 Version: 1.3.7
 Architecture: iphoneos-arm64
