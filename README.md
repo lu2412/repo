@@ -64,8 +64,11 @@
 
          git clone https://github.com/liym5238/shaoxia.git
 
+2.1. ssh克隆命令如下
 
-2.	克隆完成后，输入
+         git clone git@github.com:liym5238/liym.git
+
+2.2. 克隆完成后，输入
          
          pwd 
 
@@ -78,6 +81,11 @@
          git config --global user.email "你的邮箱"
 
 （绑定 Git 用户名和邮箱）
+
+4.设置上传文件大小限制命令(只需要配置一次)设置为500m
+
+    
+    git config --global http.postBuffer 524288000
 
 生成 Packages 文件
 
@@ -111,11 +119,6 @@
 
 3.	完成上传后，在 Sileo 刷新源并验证是否成功添加 .deb 文件。
 
-4.设置上传文件大小限制命令(只需要配置一次)设置为500m
-
-    
-    git config --global http.postBuffer 524288000 
-
 
 ## GitHub SSH Key 配置指南
 
@@ -143,7 +146,9 @@
 
       ssh -T git@github.com
 
-成功配置后将看到类似如下的提示：
+输入 yes 继续
+
+成功输入后后将看到类似如下的提示：
 
       Hi liym5238! You've successfully authenticated, but GitHub does not provide shell access.
 
