@@ -2024,13 +2024,13 @@ Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,byg.iosios.net.onesettings
+Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3文字图标.deb
-Size: 25240
-MD5sum: a3362ce7fcdc9b8746ad6122e4ee9f99
-SHA1: 996cc22f52f7f83424c30ae01d0a7550ba3481e5
-SHA256: b74958558dfc20feff2474304d0522403f1cc1154c8edaa65663a32a43e8dd76
+Size: 25232
+MD5sum: 3c0d353314a57b9742755dad306b9499
+SHA1: 96e0a44cc910d9f457a5f694cea9ecdf786f503c
+SHA256: 20250fd92d37e51d9717500fb772debaa9f08cf42243c2ff0bcf49add8e687b1
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
@@ -2044,13 +2044,13 @@ Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: Sini921
 Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3.lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,byg.iosios.net.onesettings
+Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini921.zhforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
 Filename: ./debs/Snapper 3繁体文字图标.deb
-Size: 60772
-MD5sum: 051fb3b6225664ced5770e63c703fcf7
-SHA1: 1a0533c3dc5fec4ba7fbdf70a4a575e980c9c315
-SHA256: 712ff56658d99f2e912646ba16949064946370dbcdd472cac39e3087a0ab61f8
+Size: 60756
+MD5sum: 9307420cb50fa0ba3946830ea281d807
+SHA1: e5cc3e937b2266716ea12ef6d77f41c40ebca713
+SHA256: dd387be955bd1c32653abc524cff702c472b41f1bc292d1e46aacc693b077492
 Section: 系统美化
 Description: Snapper 3繁体文字美化图标
  - 插件无设置项安装即可生效
@@ -2064,20 +2064,20 @@ Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: sini921
 Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.sini921.zhforsnapper3
+Conflicts: com.sini921.zhforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym1.com.sini.textforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.sini921.zhforsnapper3
-Filename: ./debs/Snapper 3文字图标美化1-Rootless.deb
-Size: 26424
-MD5sum: 3ccf3091a498af2becadc13a4f6df4c3
-SHA1: c2581c4d3042d9487d2ab77fa039ec333eb7186d
-SHA256: b5f0932cc77200709a90424f41f06b8b753e52228eecc0b82f1fe6ed60b60e33
+Filename: ./debs/Snapper 3对角文字图标.deb
+Size: 26448
+MD5sum: 030613c8970a63c312461c2de996f2d2
+SHA1: 2dd188929d73baaaf25a1eed3cc377df5cb46100
+SHA256: b31ef395cdeb072b1746cd7d9516698c5b044bc582ff559ab0be65bfbf03a5d5
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
  - 安装前请卸载其它相关图标插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 网友
-Name: Snapper 3文字图标美化1-Rootless
+Name: Snapper 3对角文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.zhforsnapper3.json
 
 Package: lym.com.sunshinesong.split-view-pro
@@ -2688,13 +2688,13 @@ Package: lym1.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
-Conflicts: lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3.lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,byg.iosios.net.onesettings
+Conflicts: lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3蓝色发光文字图标.deb
-Size: 91940
-MD5sum: 986086d5401d17eb944b4f1c632376eb
-SHA1: a01102cf3da6ad462e07c30e8a97191305c98299
-SHA256: 0532056bc5904ab93c2c7edc9170842c871dd1937e93d4ad19f8db8f8bbd9fab
+Size: 91928
+MD5sum: 465ad816e406ba56b5eaf68ef96f813a
+SHA1: 3f6b77041888d061a4abff1305896c5f36d90842
+SHA256: 32c7a2a271759d9ef52cbabc8220471646fcd210febe5511ae403def9cf88c91
 Section: 系统美化
 Description: Snapper 3自用蓝色发光文字美化图标
  - 插件无设置项安装即可生效
