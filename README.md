@@ -98,19 +98,6 @@
 
 ### 更新仓库到 GitHub
 
-首先获取自己的仓库令牌
-Github创建个人访问令牌(用来上传使用)
-
-在Github官网任何页面的右上角，点击你的个人资料照片，
-然后点击 Settings（设置）
-在左侧边栏中，点击 
-在左侧边栏中，点击 Personal access tokens（个人访问令牌）
-点击 Generate new token（生成新令牌）
-赋予令牌一个描述性名称
-选择要授予此令牌的作用域或权限。 
-要使用令牌从命令行访问仓库，请选择 repo（仓库）或者全选也行
-
-单击 将令牌复制到剪贴板。 出于安全原因，在离开页面后，将无法再次看到令牌(注意保存令牌)
 
 1.	在 NewTerm 3 Beta 中，输入以下命令初始化 Git 并将文件推送到 GitHub：
 
@@ -134,7 +121,7 @@ Github创建个人访问令牌(用来上传使用)
 
        cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
 
-## GitHub SSH Key 配置指南
+# GitHub SSH Key 配置指南
 
 本教程将帮助您在 GitHub 上配置 SSH 密钥、克隆仓库，并使用 SSH 上传更改。
 
@@ -168,7 +155,10 @@ Github创建个人访问令牌(用来上传使用)
 
 步骤 5: 克隆仓库并配置 SSH URL
 
-1.	使用 SSH 链接重新克隆仓库。
+1.	使用 SSH 链接克隆仓库命令。
+
+         git clone git@github.com:liym5238/liym.git
+
 2.	打开克隆的仓库目录下的 .git/config 文件，将 url =  后的 HTTPS 链接替换为 SSH 格式的链接：
 
           url = git@github.com:liym5238/liym.git
@@ -177,7 +167,7 @@ Github创建个人访问令牌(用来上传使用)
 
 步骤 6: 使用 SSH 命令上传到 GitHub
 
-在本地仓库根目录（例如 /var/jb/var/mobile/liym）中执行以下命令以推送更改到 GitHub：
+1. 在终端NewTerm 3中使用以下命令更新到仓库
 
       cd /var/jb/var/mobile/liym
       git pull
@@ -185,25 +175,10 @@ Github创建个人访问令牌(用来上传使用)
       git commit -m "提交说明"
       git push
 
-按照上述步骤，您现在可以通过 SSH 安全地将代码推送到 GitHub。
 
-# 步骤 7.一键更新Packages文件和上传内容到仓库代码
+2.如有更新deb也可使用以下代码一键更新Packages文件和上传内容到仓库
 
        cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
-
-
-7、一键替换链接sh文件，sh文件权限记得更改为0775权限
-
-    #!/bin/bash
-
-    # 定义要查找和替换的字符串
-    old_url="https://trollstorex.github.io/sileodepiction/repo/banner.png"
-    new_url="https://liym5238.github.io/liym/icon/hengfu.png"
-
-    # 查找当前目录及其子目录中的所有 JSON 文件，并替换旧链接为新链接
-    find . -name "*.json" -type f -exec sed -i '' "s|$old_url|$new_url|g" {} +
-
-    echo "链接替换完成。"
 
 
 </details>
