@@ -173,6 +173,10 @@
 
 按照上述步骤，您现在可以通过 SSH 安全地将代码推送到 GitHub。
 
+# 步骤 7.一键更新Packages文件和上传内容到仓库代码
+
+       cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
+
 
 7、一键替换链接sh文件，sh文件权限记得更改为0775权限
 
