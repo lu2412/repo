@@ -2731,6 +2731,26 @@ Author: lym
 Name: 微信启用ipad登陆-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.weixinipad-Rootless.json
 
+Package: lym.ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
+Filename: ./debs/NewTerm 3 Beta终端-Rootless.deb
+Size: 3839072
+MD5sum: 9c2b0be39ae8193f3585a33430b5b01b
+SHA1: 54a397c1a0ad3b959646eb7b899e9195d6a7956a
+SHA256: 445fe8c5464c0e1f2538ebd99f53a6d75272d69d7b4242c5c7a97be912e381c4
+Section: 系统增强
+Description: 强大的iOS端开发工具
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: HASHBANG Productions <support@hbang.ws>
+Name: NewTerm 3 Beta终端-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm3.json
+
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
