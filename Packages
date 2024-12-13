@@ -921,6 +921,26 @@ Author: 黄白
 Name: 隐藏其它设备在线提示-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HideMfWeb.json
 
+Package: lym.com.anubistweaks.keyswipe11
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: AnubisTweaks
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: org.thebigboss.keyswipe, com.anubistweaks.keyswipe11
+Replaces: com.anubistweaks.keyswipe11
+Filename: ./debs/KeySwipe上下切换键盘-Rootless.deb
+Size: 11888
+MD5sum: 3cf767603c63427320615054d847d4b5
+SHA1: 4e45433f7fd69de511b171257ad68d11866e2970
+SHA256: ec3894fddacd5324752799d3d6e01aaf9b2094b81089dc14113f63c7e9ae4950
+Section: 键盘插件
+Description: 在键盘上通过上下滑动手势来切换键盘
+ - 插件免费,英文有设置项。默认为启用状态
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Delewhopper, julioverne ,AnubisTweaks
+Name: KeySwipe上下切换键盘-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.anubistweaks.keyswipe11.json
+
 Package: lym.com.appku.wechat
 Version: 1.6-3
 Architecture: iphoneos-arm64
@@ -1211,11 +1231,11 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.dvntm.oledkeyboard
 Replaces: com.dvntm.oledkeyboard
 Filename: ./debs/OledKeyboard纯黑键盘.deb
-Size: 4940
-MD5sum: 0b4b22d87507421d430360cbb1f578f2
-SHA1: 77d93da51179f22967cdd7bb4a8eb9c35128d4ca
-SHA256: 2a72716d28ea6af07d1b99e33ba8765d376619bc200d778d2370d94accfd467f
-Section: 系统增强
+Size: 4936
+MD5sum: 23540a9c9e70ddb81c9e0791db24762f
+SHA1: b45c83828feb4f583635541129c5b078a3625738
+SHA256: c2e41c8edb9f9fda12f0a2370d1a23a953f1cdbbb713dced23ad81b4628dec98
+Section: 键盘插件
 Description: 深色模式下键盘背景显示为纯黑
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
@@ -2255,11 +2275,11 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.restiveconch.actionbar, com.udevs.dockx
 Replaces: com.udevs.dockx
 Filename: ./debs/DockX 键盘增强-Rootless.deb
-Size: 422012
-MD5sum: 972e4030d49ac401baf755122131c55d
-SHA1: 3feb6fb4b678c208f0df1fbe218cb556827a372f
-SHA256: 17ce581cc2f41488328d69b0f2f162d1df9b01a6c73ac3910929d19ad06e2a35
-Section: 系统增强
+Size: 421396
+MD5sum: 7026dc742d1ac831b50dad816abee6be
+SHA1: e246beea728a688fa71e03ae41d670fee027dc0e
+SHA256: a96a72e8367571d2f15e3ad800e3dfcac631b192bf31d44208d5dcc2f312d35c
+Section: 键盘插件
 Description: 键盘底部增强插件
  - 经典键盘类插件DockX
  - 按钮图标可通过修改配置文件
@@ -2691,19 +2711,19 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 无名
 Replaces: xtjpyj-Rootless
 Filename: ./debs/修改系统键盘圆角-Rootless.deb
 Size: 3880
-MD5sum: a042d1d5298287e5cbf0216485eb9180
-SHA1: e3e70b42bb188e834687de5e8dc40852216b897d
-SHA256: 540a7cd0e2509d2f37f9b7734836649aa6278615b67a260e99a0fca520eadf85
-Section: 系统增强
+MD5sum: 3df8b7e18c372ea40906cb84fdd9022f
+SHA1: c6f0f60d47152960d157e080f7ebee50f60698a3
+SHA256: 99d5156eaec35e0a46b1e4b3bb7f81559f54533d6ed156c4015845252ec358b5
+Section: 键盘插件
 Description: 修改系统键盘为圆角
  - 插件无设置项安装后即可生效
  - 如不生效请重启用户空间
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
+Author: 无名
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xtjpyj-Rootless.json
 
