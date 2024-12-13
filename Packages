@@ -2041,11 +2041,11 @@ Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
 Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
-Size: 86048
-MD5sum: f1fbad94cf08c50ab5ee9dfe89230df5
-SHA1: 7688e14942ce8ad3169b8b353deb3c404a7a7ae8
-SHA256: b1421060c8022d54f963e082a91c50fe1614c28b0ea70bf189fc9d1241f8db2d
-Section: 软件增强
+Size: 85844
+MD5sum: 0094c5e0ca96cacd3ff1b398e71ebdfb
+SHA1: 6d4789f18b85c495772a4a60fbecb2853f800fc0
+SHA256: 567860fe0038957f66dc7ffa139314d5024b52ca29c5131c6d1306dbe3246268
+Section: 键盘插件
 Description: IOS原生键盘增强功能
  - 仅仅支持系统原生键盘
  - 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
