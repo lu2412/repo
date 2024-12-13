@@ -169,11 +169,12 @@
 
 1. 在终端NewTerm 3中使用以下命令更新到仓库
 
-      cd /var/jb/var/mobile/liym
-      git pull
-      git add .
-      git commit -m "提交说明"
-      git push
+
+         cd /var/jb/var/mobile/liym
+         git pull
+         git add .
+         git commit -m "提交说明"
+         git push
 
 
 2.如有更新deb也可使用以下代码一键更新Packages文件和上传内容到仓库
