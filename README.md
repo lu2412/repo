@@ -64,30 +64,26 @@
 
          git clone https://github.com/liym5238/shaoxia.git
 
-2.1. ssh克隆命令如下
 
-         git clone git@github.com:liym5238/liym.git
-
-2.2. 克隆完成后，输入
+3. 克隆完成后，在终端界面输入此代码查看仓库克隆到本地路径如(/var/jb/var/mobile)
          
          pwd 
 
- - 命令查看本地路径如(/var/jb/var/mobile)
- - 使用 Filza 文件管理器进入此路径，确认 shaoxia 文件夹已创建。
+  - 使用 Filza 文件管理器进入此路径，确认仓库已成功克隆到本地。
 
-3.	确认克隆成功后再用命令绑定 Git 用户信息：
+4.	确认克隆成功后再用此命令绑定 Git 用户信息：
 
          git config --global user.name "你的用户名"
          git config --global user.email "你的邮箱"
 
 （绑定 Git 用户名和邮箱）
 
-4.设置上传文件大小限制命令(只需要配置一次)设置为500m
+5.设置上传文件大小限制命令(只需要配置一次)设置为500m
 
     
     git config --global http.postBuffer 524288000
 
-生成 Packages 文件
+# 生成 Packages 文件
 
 1.	在 shaoxia 文件夹中创建 debs 文件夹。
 2.	将 .deb 插件包复制到 shaoxia/debs 文件夹中。
@@ -95,11 +91,26 @@
 
          cd /var/jb/var/mobile/此处替换你的仓库名称/debs
          dpkg-scanpackages . /dev/null > ../Packages
+
 （生成 Packages 文件）
 
 4.	使用 Filza 查看 shaoxia 文件夹下的 Packages 文件，确保内容显示 .deb 插件包的信息。（确认文件内容）
 
 ### 更新仓库到 GitHub
+
+首先获取自己的仓库令牌
+Github创建个人访问令牌(用来上传使用)
+
+在Github官网任何页面的右上角，点击你的个人资料照片，
+然后点击 Settings（设置）
+在左侧边栏中，点击 
+在左侧边栏中，点击 Personal access tokens（个人访问令牌）
+点击 Generate new token（生成新令牌）
+赋予令牌一个描述性名称
+选择要授予此令牌的作用域或权限。 
+要使用令牌从命令行访问仓库，请选择 repo（仓库）或者全选也行
+
+单击 将令牌复制到剪贴板。 出于安全原因，在离开页面后，将无法再次看到令牌(注意保存令牌)
 
 1.	在 NewTerm 3 Beta 中，输入以下命令初始化 Git 并将文件推送到 GitHub：
 
@@ -111,7 +122,7 @@
          
 （添加、提交并推送到 GitHub）如没反应请按回车
 
-2. 系统可能会提示输入 GitHub 用户名和令牌在看到
+2. 系统可能会提示输入 GitHub 用户名和令牌，在看到以下
 
 提示输入 `Username 的时候输入你的用户名到终端中ps(键盘切换到英文键盘)
 
@@ -119,6 +130,9 @@
 
 3.	完成上传后，在 Sileo 刷新源并验证是否成功添加 .deb 文件。
 
+4. 也可以用以下代码一键更新Packages文件和上传到仓库（记得替换为自己的路径）
+
+       cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
 
 ## GitHub SSH Key 配置指南
 
