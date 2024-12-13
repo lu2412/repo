@@ -1480,11 +1480,11 @@ Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: icraze
 Filename: ./debs/SmallBoard 键盘下沉-Rootless.deb
-Size: 3772
-MD5sum: 7b0685b6fde81303d4fef8e9bd9d35eb
-SHA1: f415481ef923cc879162d56eb234181231e27c63
-SHA256: d87ef60a484754f37d67ad71658490007ef5e571c83363410ebfac93d41e40b8
-Section: 系统增强
+Size: 3764
+MD5sum: 4615ff2c06db86666888749a65cce3d4
+SHA1: 04fd6b4053bea72578effa614d65276679a5a453
+SHA256: 697b8cc9ce0036280467ea17587166b061d3a300237aaefe2bb532fa3a378b76
+Section: 键盘插件
 Description: 缩小键盘与底部的间隙
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
@@ -2526,6 +2526,29 @@ Description: 收藏越狱源大全
 Author: 无名
 Name: 一键添加越狱源-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jailbreak.lizi.repo.json
+
+Package: lym.jp.r-plus.anykeytrackpad
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: r_plus
+Installed-Size: 176
+Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: jp.r-plus.anykeytrackpad
+Replaces: jp.r-plus.anykeytrackpad
+Filename: ./debs/AnyKeyTrackpad键盘任意键光标-Rootless.deb
+Size: 7004
+MD5sum: 27ef4acb6c3bb77a82404a920593d80c
+SHA1: bea970cbc6666247957e464dab6dbe81b26165f5
+SHA256: 0d5da3f5da232ae918229f3999fe3cb82a971fdbaef003ba9fef353beca0ba53
+Section: 键盘插件
+Description: 长按键盘滑动光标
+ - 长按键盘任意键
+ - 进入触控板模式,进行移动光标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: r_plus
+Name: AnyKeyTrackpad键盘任意键光标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
 Package: lym.kuwo-Rootless
 Version: 1.0
