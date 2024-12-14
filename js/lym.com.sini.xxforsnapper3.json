@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
     "tintColor": "#87A2FF",
     "minVersion": "0.3",
     "tabs": [
@@ -25,7 +25,7 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/fantiwenzi.png"
+                                      "url": "https://lu2412.github.io/repo/icon/fantiwenzi.png"
                                   }
                             ]
                   },

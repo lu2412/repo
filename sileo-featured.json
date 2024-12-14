@@ -4,19 +4,19 @@
     "itemCornerRadius": 10,
     "banners": [
         {
-            "url": "https://liym5238.github.io/liym/icon/weixin.png",
+            "url": "https://lu2412.github.io/repo/icon/weixin.png",
             "title": "WeChat",
             "package": "lym.com.25mao.miyou.rootless",
             "hideShadow": true
         },
         {
-            "url": "https://liym5238.github.io/liym/icon/zhifubao.png",
+            "url": "https://lu2412.github.io/repo/icon/zhifubao.png",
             "title": "Alipay",
             "package": "lym.netskao.alipayhooks-rootless",
             "hideShadow": true
         },
         {
-            "url": "https://liym5238.github.io/liym/icon/xiaohongshu.png",
+            "url": "https://lu2412.github.io/repo/icon/xiaohongshu.png",
             "title": "小红薯",
             "package": "lym.com.xx.xhshook",
             "hideShadow": true
@@ -28,7 +28,7 @@
             "hideShadow": true
         },
         {
-            "url": "https://liym5238.github.io/liym/icon/qq.png",
+            "url": "https://lu2412.github.io/repo/icon/qq.png",
             "title": "QQ图层",
             "package": "lym.com.xx.qqhook",
             "hideShadow": true

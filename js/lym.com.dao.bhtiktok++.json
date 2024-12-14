@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
     "tintColor": "#87A2FF",
     "minVersion": "0.3",
     "tabs": [
@@ -25,19 +25,19 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/tikTok.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tikTok.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/tikTok1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tikTok1.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/tikTok2.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tikTok2.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://liym5238.github.io/liym/icon/tikTok4.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tikTok4.png"
                                   }
                             ]
                   },

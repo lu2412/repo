@@ -3,10 +3,10 @@ Version: 0.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/Talkatone去广告-Rootless.deb
-Size: 3500
-MD5sum: c3325a09351821700a32b2b7ab14b4a6
-SHA1: 46efb8fb1f30f716aff26dc4cb51360d07a2b342
-SHA256: 43f2a29f45db8320411a5a8da67a32cf45277e7fd259227f17af784e9641ae05
+Size: 3496
+MD5sum: c703cf52c0bb73bedf33071e4a70392f
+SHA1: 545115554d69784dedbb720ca4f2cc9b92379242
+SHA256: 91e90780edde65a4423c82f28c2a08468503a1f7eca6cabea194978ef17fd00e
 Section: 软件增强
 Description: Talkatone增强
  - 移除Talkatone烦人的广告
@@ -15,17 +15,17 @@ Description: Talkatone增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Talkatone去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/Talkatone-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
 Package: baiduwangpan-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/百度网盘下载文件导出-Rootless.deb
-Size: 142124
-MD5sum: 40c4faf463951de5ea7f6696a739c18f
-SHA1: 69b4130566f36b8b00f52c06c5b902f983f64a6b
-SHA256: 147895a94a44177e28c27f84b1e6daa6b660ea6e8de48e9364d4400798ad06d9
+Size: 142176
+MD5sum: 4a7f36f091d3d8553c33634bd1f12b90
+SHA1: a7be5d0de7d6b316eb4bd597eb4c15876370c88f
+SHA256: 0b42fc3557e087d1c908db9621aecc4df5ce9090f8239272fe61ee394f3291bd
 Section: 软件增强
 Description: 百度网盘文件导出
  - 下载缓存文件添加导出按钮
@@ -34,7 +34,7 @@ Description: 百度网盘文件导出
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 百度网盘下载文件导出-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/baiduwangpan-Rootless.json
 
 Package: cn.zqbb.disupdateapp
 Version: 2.0.0-5
@@ -43,10 +43,10 @@ Maintainer: zqbb
 Installed-Size: 804
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-5_iphoneos-arm64.deb
-Size: 197736
-MD5sum: 00f931684b83185b4363c5d0677ca3b9
-SHA1: 378019bb5d3fdb903da02a4b84049298c38c332c
-SHA256: fb775b0c25b0e57a3adb12010233612475e925bf76d198dc5cb345b4a581c6bb
+Size: 197756
+MD5sum: 4e3c91b7ff301d5d494990e52f469574
+SHA1: 9b21d7a12fefb5eb1f335f4ef1f086dfd51d217e
+SHA256: a446915a35d7d22c2103012e5ec3cee4b005497709f1dd881d968d4133d141df
 Section: 系统增强
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
 Author: zqbb
@@ -62,10 +62,10 @@ Depends: mobilesubstrate
 Conflicts: com.squidforce.moreactionsforappicon
 Replaces: com.squidforce.moreactionsforappicon
 Filename: ./debs/应用3DTouch菜单.deb
-Size: 8520
-MD5sum: 23f45be9f2354e14cb7115d6f99b3637
-SHA1: b63019b052575bfc3b88020db7a62e3ae33d6adf
-SHA256: 33837b702fb322ed7f721fc363b303d05a2cc42539bde76fbb916476292a7e28
+Size: 8524
+MD5sum: 817d15af7e65048e02ce3c4d195dd470
+SHA1: 68f5d12e16e5f9246dffb9e404e109ed07ce50b5
+SHA256: 21ad069faf456301926ec8c8defabff19c09ad1b3fbd5751fc7229fcb69aa5c9
 Section: 系统增强
 Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作
  - 去除掉多余动作
@@ -73,17 +73,17 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/高德图层-Rootless.deb
-Size: 357736
-MD5sum: 46a927c315e58033f534c457f710ef0c
-SHA1: f3ac02055ebdc60114e7c774a3bd6fce1330c06c
-SHA256: 7d0c62963f29eed31d490aace2db87b20bdb5289b5acf82cf90c82b762da8872
+Size: 357760
+MD5sum: 91c3854d52beece4c36db3f34f599e5a
+SHA1: 4be067a95cecfbef1f2b22b38f452ad35fd6956f
+SHA256: 7c2d4f5ba1ab54360820a8f497f9c7572e5560e2b1b5767b308d6ab6854b15ff
 Section: 软件增强
 Description: 高德图层去广告优化
  - 自用功能默认开启去除启动广告
@@ -92,17 +92,17 @@ Description: 高德图层去广告优化
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 高德图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/gaode-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/gaode-Rootless.json
 
 Package: jd-Rootless
 Version: 2.0
 Architecture: iphoneos-arm64
 Maintainer: 无名
 Filename: ./debs/京东去广告-Rootless.deb
-Size: 3844
-MD5sum: d779e5596099f328a37025bdc891c362
-SHA1: cfc1071ab5bd5440dccf693997c62c8dbc97f609
-SHA256: e742b14b690e6ce29a45a35f81e849cb9801e23e34ba7ac33bea3c4928403fa9
+Size: 3840
+MD5sum: 8091eee36ad0ad13f57797e10571a6b3
+SHA1: ba906d95ac9cd021034f536c8e03012ddec0f424
+SHA256: eaa416f1b47a6ecad5a30a04a059526035e090617276319ff8b88a8b6a11ee3a
 Section: 软件增强
 Description: 京东精简去广告等
  - 去除启动广告、去除个人主页底部推荐
@@ -112,7 +112,7 @@ Description: 京东精简去广告等
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 无名
 Name: 京东去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/jd-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/jd-Rootless.json
 
 Package: lym.DayNigthSwitch
 Version: 1.0-0
@@ -122,17 +122,17 @@ Depends: mobilesubstrate
 Conflicts: DayNigthSwitch, DayNigthSwitch
 Replaces: DayNigthSwitch, DayNigthSwitch
 Filename: ./debs/微信日月开关-Rootless.deb
-Size: 218868
-MD5sum: 1c334a437567d3a2ba7291106c72c382
-SHA1: d8ee48cd5763b89449f23a39f7067e24d9c7034b
-SHA256: 85136d6e8030cbe1d5d1d8c3633e332bd5741127913ae70e667542772835b3f8
+Size: 218336
+MD5sum: 7d5cd3032e939bdd4317fdfc437ceccb
+SHA1: 9bef0838b1ce7d950b717666551118248d2b8227
+SHA256: d8378ed5643075ba591e43d3cc474be68f2b6a958a368af34c531110e03655ad
 Section: 微信插件
 Description: 微信日月开关标签
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Misaka
 Name: 微信日月开关-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.DayNigthSwitch.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.DayNigthSwitch.json
 
 Package: lym.Eclectic.Themes
 Version: 2.6
@@ -141,17 +141,17 @@ Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Replaces: zhuti.iosios.net.solsticerootless
 Filename: ./debs/lym.Eclectic.Themes_2.6_iphoneos-arm64.deb
-Size: 38170228
-MD5sum: d5e9146363c88d8b92b8095e03449345
-SHA1: 8b678e2559eb998c9b5c4cbc66291cef03b4e12e
-SHA256: c4ba08ab868d68ce16c3e6d53853695a49e79aa079103f7c3fb533cf47862303
+Size: 38170208
+MD5sum: 25099b558d4e59a5cc490c77f519a46a
+SHA1: 35aa99aae04a263470185ce7df1978a0c8aaace9
+SHA256: 6f3593018703d5956d87947aa43464fc54fc97e88a8475c089d96e1085c6592b
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Eclectic by主题-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Eclectic.Themes.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Eclectic.Themes.json
 
 Package: lym.FuckBiliNoAds-Rootless
 Version: 1.0
@@ -160,10 +160,10 @@ Maintainer: girl2023
 Conflicts: FuckBiliNoAds-Rootless
 Replaces: FuckBiliNoAds-Rootless
 Filename: ./debs/哔哩哔哩全局去广告-Rootless.deb
-Size: 16120
-MD5sum: c286185916471122a027c3db4d364729
-SHA1: 6827bb99928fc1040d63d363b05e247740bf3874
-SHA256: 804db5e2c1ace7d649e8592cbeeb25a2e8d6cbdbbe9b20ca5a18f18392556c8b
+Size: 16140
+MD5sum: 54bddeb1b7e9170f425e3faf5b6a7121
+SHA1: 5f8a4e4fa2c4689718e2a6b5ca7a7029e225b12b
+SHA256: 60700372bb638bb0d1f0e7c87231b4cfbf5dbd90fa36393558b43785b4f61b1d
 Section: 软件增强
 Description: 国区哔哩哔哩全局去广告
  - 群友girl2023分享,效果不错
@@ -172,7 +172,7 @@ Description: 国区哔哩哔哩全局去广告
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: girl2023
 Name: 哔哩哔哩全局去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.FuckBiliNoAds-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckBiliNoAds-Rootless.json
 
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
@@ -181,17 +181,17 @@ Maintainer: girl2023
 Conflicts: FuckWeChatAdBlocker-Rootless
 Replaces: FuckWeChatAdBlocker-Rootless
 Filename: ./debs/微信去广告.deb
-Size: 17116
-MD5sum: 888644ace17256abeefd7f8e5bc98266
-SHA1: 03b5c6eb3511058eba267bf378c421390195f04e
-SHA256: cce484f50cc6b487feaf581687f45a2b052d06c0e1d72dd1aa51f2a314c5deff
+Size: 17108
+MD5sum: 8dc169038d003132df89ca59310c8661
+SHA1: 890f84b6e07419451baad6c2b3dffa6767e3b1d6
+SHA256: 4394b64788f42c4b1e22972fa76d57040e71c57e7b9b6e16dde58762680c03ca
 Section: 微信插件
 Description: 去除最新8.0.54广告
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: girl2023
 Name: 微信去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
 Package: lym.MisakaHelper
 Version: 2.1-0
@@ -201,10 +201,10 @@ Depends: mobilesubstrate
 Conflicts: MisakaHelper
 Replaces: MisakaHelper, MisakaHelper
 Filename: ./debs/Misaka助手 END版-Rootless.deb
-Size: 13178164
-MD5sum: 9a106b48de9451555ab7dbf2684c67ae
-SHA1: 478ae0c3e36854f525ab784541c0fe316384257e
-SHA256: 0c62565c55fd12f6c0983458d63be6b62ae26214260391d9b0c14bc84206fa39
+Size: 13178068
+MD5sum: 6398b5a49357f29d10e8cb19e0349e5f
+SHA1: ab32a627fb6b86ed023f3c77bb77999f62c70b42
+SHA256: 290a662f9ecd5ab14292731480fa3b11e3d159c4786e3cf29eea0506b554a908
 Section: 微信插件
 Description: 微信misaka助手
  - MisakaHelper最终END版,已停止维护
@@ -212,17 +212,17 @@ Description: 微信misaka助手
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Misaka
 Name: Misaka助手 END版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.MisakaHelper.json
 
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/StoreSwitchAccounts账号切换-Rootless.deb
-Size: 102708
-MD5sum: 77ff28c51309d91bff7af64c37bf941c
-SHA1: 832ed0e0830bb91d1b54233e5cd225ed1c3d20b0
-SHA256: 2c256f52f9ba88336b945329db2dd7959be84cc292c990acef2a76245c4cfd91
+Size: 102576
+MD5sum: f8ab6347d360071e0fae3a472475d2b6
+SHA1: 692daa6648909d6d1496fcb4a3157abdc1db1958
+SHA256: dd539f2b1decce10296f84515f78953c7053f7924843faf25bf291369f8294ac
 Section: 系统增强
 Description: 快速切换App Store账号
  - 快速在登录帐户之间切换
@@ -232,7 +232,7 @@ Description: 快速切换App Store账号
 Author: lym
 Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
 Package: lym.Sye
 Version: 1.0
@@ -243,16 +243,16 @@ Conflicts: Sye
 Replaces: zhuti.iosios.net.solsticerootless,lym.eclectic.themes
 Filename: ./debs/马里奥-开关标签美化-Rootless.deb
 Size: 43060
-MD5sum: 5d85481e7f20fc455165b78221aad20d
-SHA1: fc7c3cb90e8d79046b1a8832bb6d92c741ba118b
-SHA256: c0324842d6f67d34c19521c7f10e7334bd0e9364f380c29ca8e25fc64c069659
+MD5sum: b69a89205ac9b320b38775d715061fe9
+SHA1: acf71ea645abc4adc7bef34ad8d9edf263090526
+SHA256: a2cc67a7fbc84fb6a60113a4c247f1e5e07cc20025647940948994ca1c7bffd3
 Section: 系统美化
 Description: 系统开关按钮美化
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 马里奥-开关标签美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Sye.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Sye.json
 
 Package: lym.Telegram-Rootless
 Version: 1.0
@@ -260,10 +260,10 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: Telegram-Rootless
 Filename: ./debs/Telegram删除分割线-Rootless.deb
-Size: 4708
-MD5sum: a7295aa08565613fd6704132726f0e57
-SHA1: 941fbe671c39f4bb49ba585d1c2c91e524b7d9e1
-SHA256: 6b05e5ee640ef2677d9b581eb5d89bf1a37d28ea4879d3e05715fe079539e557
+Size: 4700
+MD5sum: f3c253f109eb1e9ff3b3fa7cd1fdca0e
+SHA1: 57522dacb739f566fee994f49a74d53b6694bec3
+SHA256: 0484adf6d44795fdcacce7c86969fc6c896c4195ce2166fc032989060a20242c
 Section: 软件增强
 Description: 去除Telegram包括第三方tg中删除分隔符
  - 去除Telegram包括第三方tg中删除分隔符\n- 支持Telegram、Swiftgram、iMe、Turrit、 Nicegram
@@ -271,7 +271,7 @@ Description: 去除Telegram包括第三方tg中删除分隔符
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Telegram删除分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Telegram-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Telegram-Rootless.json
 
 Package: lym.XMCDX2-Rootless
 Version: 1.0
@@ -279,17 +279,17 @@ Architecture: iphoneos-arm64
 Maintainer: 🅷🆆
 Replaces: XMCDX2-Rootless
 Filename: ./debs/熊猫吃短信2解锁-Rootless.deb
-Size: 6692
-MD5sum: cd6bb1ffe252ba532093fcdee42dcde6
-SHA1: 341c00f7fc2efc2f6636985d21785341552a6fe8
-SHA256: 4e36ab356e65b80ad8abbbf84e3b04143445ba9f824bd32710a0307470c393a2
+Size: 6700
+MD5sum: cdfe2ed834c8cbba86db178402904eb4
+SHA1: 11462fa8840b28af3ff87d0525699399bf94be75
+SHA256: 738be34e3762c2373c86cdc9dee135f4f9ccd919174dd1c34f0b21a2a5b6655c
 Section: 软件增强
 Description: 解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 🅷🆆
 Name: 熊猫吃短信2解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.XMCDX2-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.XMCDX2-Rootless.json
 
 Package: lym.alias20.calclog
 Version: 0.0.1
@@ -300,10 +300,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: alias20.calclog
 Replaces: alias20.calclog
 Filename: ./debs/CalcLog计算器显示过程-Rootless.deb
-Size: 5432
-MD5sum: 76b88e56bd83982a36a7ab3dcd9ee7ef
-SHA1: 44205be953cc45269ffbb6236a3e15c4581ad1bf
-SHA256: 4f95657118eec969f63f741f1668a02d0c98992e5fd14c9f2e6b0f1af5776b48
+Size: 5436
+MD5sum: d4c62921e4b7d41829657ad2ed79d6d0
+SHA1: eac49c23ce33818c05f8cda9fd7f043fd2bf5955
+SHA256: 2450b065cbc037f3d46729fd45150a0d5be83f40d3bffea3511f2b8b1582c426
 Section: 系统增强
 Description: 计算器添加计算过程显示
  - 自带计算器增强
@@ -311,7 +311,7 @@ Description: 计算器添加计算过程显示
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: alias20
 Name: CalcLog计算器显示过程-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.alias20.calclog.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.alias20.calclog.json
 
 Package: lym.byg.iosios.net.autoscroll
 Version: 1.0.0
@@ -322,9 +322,9 @@ Conflicts: byg.iosios.net.autoscroll
 Replaces: byg.iosios.net.autoscroll
 Filename: ./debs/AutoScroll 自动滑动-Rootless.deb
 Size: 5520
-MD5sum: 65d16e3be8075b35d5dc4ac15b4ce9e9
-SHA1: d9fe5890bb6530d71d749e9c1ea709a13b28f127
-SHA256: 0577c31dcd97973e7f959e9b582317e3701239df9dbbd08a25368dc25bd803af
+MD5sum: 3aad72e232c057a7f36b405b5565d70b
+SHA1: bc8150de304a4f5c6d8d5cf2d8a14788d906bc46
+SHA256: 4c1dda7b06c1b7e8731fd93895694c54823388a59e3d694bc236716a2fecb548
 Section: 系统增强
 Description: 页面自动滑动
  - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
@@ -332,7 +332,7 @@ Description: 页面自动滑动
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
 
 Package: lym.byg.iosios.net.canna
 Version: 0.9.0
@@ -343,17 +343,17 @@ Depends: mobilesubstrate
 Conflicts: byg.iosios.net.canna
 Replaces: byg.iosios.net.canna
 Filename: ./debs/Canna锁屏充电提示音效-Rootless.deb
-Size: 90992
-MD5sum: dc5cebe57ac806c896baf3d02df77232
-SHA1: fd3ac1e77554c70ef0a23a34c17b3d5f0b576aed
-SHA256: 19b53c262de873ae0e66b78d3012843e4d95c70039ee6684305ed3ee58e74818
+Size: 91112
+MD5sum: c21fd8828b7ce3e1226d5be192947535
+SHA1: f6e2e890a5c04e9bfe9488fa21eb746431dbd7a7
+SHA256: 80b67786e9ec300107d0f9c41adac17bb4ed93cd0da25112f85a9363bab020be
 Section: 系统增强
 Description: 自定义锁屏和充电提示音
  - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Luki
 Name: Canna锁屏充电提示音效-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.canna.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.canna.json
 
 Package: lym.byg.iosios.net.ccpay
 Version: 0.0.1
@@ -363,17 +363,17 @@ Depends: com.opa334.ccsupport
 Conflicts: com.zqbb.qszqb, byg.iosios.net.ccpay
 Replaces: byg.iosios.net.ccpay
 Filename: ./debs/CCPay快捷支付-Rootless.deb
-Size: 15108
-MD5sum: 4faabffd8c19b4c85fed3f48d2ca4cb0
-SHA1: ad47e05b1f3ecc12e5e96fdf8c895c52585fa7fd
-SHA256: df7e575a8b69796b26eccfd0ce9599ec9d1ac4e53ed1f0a7f77c403088af99e6
+Size: 15116
+MD5sum: 6abb459a68ceda4e48c1e606c5987238
+SHA1: be9665cb1c20b55045d4258095e0cda0bd38bb07
+SHA256: f62b39f2dc6276a8759c26b6c1586382a6d59e175c5140cef36023f31e33a0d7
 Section: 控制中心
 Description: 控制中心添加收付款码
  - 比如支付宝，微信。安装之后去控制中心添加即可
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: zqbb
 Name: CCPay快捷支付-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.ccpay.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ccpay.json
 
 Package: lym.byg.iosios.net.easynotify.rootless
 Version: 1.0.0
@@ -383,17 +383,17 @@ Installed-Size: 152
 Depends: mobilesubstrate
 Replaces: byg.iosios.net.easynotify.rootless
 Filename: ./debs/Easynotify快速开关通知-Rootless.deb
-Size: 8316
-MD5sum: 36ba6fd4210194241f839ca8963caf30
-SHA1: d80db9abff8210fa6cd121c9239e199494405907
-SHA256: 900eabe7f950be02497fdd95c8d69e60071dbeb7f45b5e097fafd97df64d9b33
+Size: 8304
+MD5sum: 6823bc4d4cb9d190c73cf1bba8075c14
+SHA1: 7e6dcda01910ddc4043fe503322ef3cc8a17d55d
+SHA256: da338b8695c5dbc3c6dab691540b4a5adb34ef51b239a9dba327ec43588a9373
 Section: 系统增强
 Description: 长按主屏幕APP图标3D Touch菜单快速开关消息通知
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Snail
 Name: Easynotify快速开关通知-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
 
 Package: lym.byg.iosios.net.ghallownetwork-rootless
 Version: 0.0.1
@@ -404,10 +404,10 @@ Depends: mobilesubstrate
 Conflicts: byg.iosios.net.ghallownetwork-rootless
 Replaces: byg.iosios.net.ghallownetwork-rootless
 Filename: ./debs/Allow Network自动允许网络-Rootless.deb
-Size: 8304
-MD5sum: 1eb2064827890fce0666729a54705fc7
-SHA1: b787f09524895f02955d6ea0bebc0200cd6f4023
-SHA256: dad90df8e59b8053e2ae4bf0e24b35d3fd9dcac23486c1b0dad45068803145b9
+Size: 8296
+MD5sum: 5b88864dcf3d757eb92c8a35df2b8195
+SHA1: b2f52846a8fdc1e7b65b8872425b95b2006ab756
+SHA256: 097c73715d48d6c2f891e2e66d4a2db68c51e90ec8a51b9f04459150db601735
 Section: 系统增强
 Description: 国行手机安装完APP,第一次运行时
  - 会弹出是否允许使用网络,安装这个插件会自动允许使用网络
@@ -415,7 +415,7 @@ Description: 国行手机安装完APP,第一次运行时
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: lenglengyu
 Name: Allow Network自动允许网络-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
 
 Package: lym.byg.iosios.net.nyyh
 Version: 1.0.1
@@ -426,9 +426,9 @@ Conflicts: byg.iosios.net.nyyh
 Replaces: byg.iosios.net.nyyh
 Filename: ./debs/农业银行屏蔽-Rootless.deb
 Size: 7556
-MD5sum: c4430c1b59711d955e80e68509559190
-SHA1: d4fd9baee41f4d6e127139e3cfef2eb4837fc3fb
-SHA256: 69ce2a4b512b6ae5bbed36ec5d5a805d65e6e4e39980e0191d2e850a6248db5a
+MD5sum: 53e461ebbaee04bcd504b28faa36f42a
+SHA1: cddf67e9fb455e3000545ac304eb6e2088475240
+SHA256: 4ad3827b28b2876ba179264367296543184dff604c1764579a88dcb1a215a83b
 Section: 软件增强
 Description: 屏蔽农业银行检测越狱
  - 进应用会看到检测弹窗，点击Cancel即可正常进入
@@ -436,7 +436,7 @@ Description: 屏蔽农业银行检测越狱
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: i0s-tweak3r
 Name: 农业银行屏蔽-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.nyyh.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.nyyh.json
 
 Package: lym.byg.iosios.net.photos.rootless
 Version: 0.0.6-2
@@ -448,9 +448,9 @@ Conflicts: byg.iosios.net.photos.rootless
 Replaces: byg.iosios.net.photos.rootless
 Filename: ./debs/相册精简增强-Rootless.deb
 Size: 4336
-MD5sum: 4ca984cf02dba2b2b3a01ae2a3a27b7e
-SHA1: 96aa7f8b85e7e9f3158f9d54595447513be92b9f
-SHA256: 53eeea8a3f20cbc924cb4d964a760ce71358b2e0c3f668f93009d68270bb8edd
+MD5sum: c72a42e79c14518410ed661a7149380c
+SHA1: eb8050e0eaed8afada36420bca7412d8816ffc67
+SHA256: a155db0f98f13231dc2c4a2da6a662c9e665545d20c2560aae5c9c49d7d5a849
 Section: 系统增强
 Description: 相册精简增强
  - 去除人物地点,去除个人收藏
@@ -462,7 +462,7 @@ Description: 相册精简增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: iOSign
 Name: 相册精简增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.photos.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.photos.rootless.json
 
 Package: lym.byg.iosios.net.settingswidgets.rootless
 Version: 1.2.3.1
@@ -473,17 +473,17 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: byg.iosios.net.settingswidgets.rootless
 Replaces: byg.iosios.net.settingswidgets.rootless
 Filename: ./debs/SettingsWidgets设置小部件-Rootless.deb
-Size: 73500
-MD5sum: 3f3384d20ac364eebfa5d8e5ceef9512
-SHA1: 2339a9f292202758f5de3d73bdf03ee09a7c1b5f
-SHA256: 4dba94cc55f8f664cf8d97f984516b9a8a1dcc0b19cfb9013130c0065717e696
+Size: 73504
+MD5sum: a031ad70eb3de2a9996964f1956d1fc3
+SHA1: ea9a7169ce27e4d467d068e5a5af6e71a7f5c46f
+SHA256: 9fb4cf00311341524eb386a66e0637a9771ac9c593ad30ec46f55ae195db314a
 Section: 系统增强
 Description: 设置顶部增加小部件
   - 可自行设置需要展示小部件
   - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
 
 Package: lym.cn.bswbw.DEB.backup.arm64
 Version: 1.0
@@ -493,10 +493,10 @@ Installed-Size: 114514
 Conflicts: cn.bswbw.DEB.backup.arm64
 Replaces: cn.bswbw.DEB.backup.arm64
 Filename: ./debs/DEB插件备份-Rootless.deb
-Size: 588980
-MD5sum: aca0da21e526c56c2aaa9ee483ea20ff
-SHA1: e153812b06785e6d9f29d1c3bb325fa58e94434b
-SHA256: 75418273ed85383d2b91be430ecf26f27d0bfbab2cb6012bd645ad9acb897747
+Size: 588880
+MD5sum: 1939ace0f0d8e41fd570775e8f8f8159
+SHA1: b44ca2856ea2e20274c58568aae5c0d11076dfe9
+SHA256: b9c92f18753408c6ce00a14b7d6e72d14f4c39fc0938bbcc8650afd979d04c97
 Section: 巨魔软件
 Description: DEB备份IPA插件版
  - 只是用来方便自己安装
@@ -504,7 +504,7 @@ Description: DEB备份IPA插件版
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: liym
 Name: DEB插件备份-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
 
 Package: lym.cn.llld.swipeextenderx
 Version: 0.0.2
@@ -515,17 +515,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.llld.swipeextenderx
 Replaces: cn.llld.swipeextenderx
 Filename: ./debs/SwipeExtenderX键盘增强(汉化包)-Rootless.deb
-Size: 10504
-MD5sum: fc9de470429c93f74d5194e826a4fc12
-SHA1: 8690407a86aa0841a6eea36fffd84fd99f914dbf
-SHA256: 8e86b180bc7584e2a3b489ef6a5c06b628408663948c5e755d1980ed02043b47
+Size: 10548
+MD5sum: 61619c91e345ca9bef27cc3b842aaa65
+SHA1: a0c5f1075c06b253acc8b31aaf0c8e2714b490d2
+SHA256: 64f7255011b3b41e9c1eae93f3afc59c6beff45c50dc2607cf4656eba9429be3
 Section: 插件汉化
 Description: SwipeExtenderX汉化包
  - SwipeExtenderX的专用插件汉化包
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 来了老弟
 Name: SwipeExtenderX键盘增强(汉化包)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
 Package: lym.com.25mao.KuaiDou
 Version: 0.1-1
@@ -534,10 +534,10 @@ Maintainer: https://trollstorex.github.io/repo/
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.25mao.KuaiDou
 Filename: ./debs/微信快斗-Rootless.deb
-Size: 14740
-MD5sum: 1d760cca8deea6e0264dff42f5b6e560
-SHA1: 6b5b97dcf434c94bc263b6b168e93774f94c3811
-SHA256: 73db190258a0334b6e27b02b41aabd1acce1b12d91887bff75c8c5c5a7ae35ed
+Size: 14720
+MD5sum: 36b2127022ecc619556ddd506cf5a99e
+SHA1: 8ee4b8450e8d9e7d47d2642a470ad3c5ebc97dae
+SHA256: 392285d058b2dcc1024885887a289d74ef3be34de470ea6e79f7d1807a1452aa
 Section: 微信插件
 Description: 微信快速斗图
  * 发送文字自动转换为表情
@@ -545,7 +545,7 @@ Description: 微信快速斗图
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信快斗-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.KuaiDou.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.KuaiDou.json
 
 Package: lym.com.25mao.doutu.rootless
 Version: 3.1-5
@@ -554,17 +554,17 @@ Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.doutu.rootless
 Filename: ./debs/微信斗图助手.deb
-Size: 1209644
-MD5sum: 9c0850650a35305eb943832eb0eed132
-SHA1: 030d0efe40a54ddec2a3c182dbd6b031c4910b88
-SHA256: c4b3f6ad0423af07f8c90728358b98754741f6747f9d30264313a1031b4d3067
+Size: 1209572
+MD5sum: 4433ac7a566c2b15b37a76baf7c7c5d7
+SHA1: 90273c5ca26bddc658989bf844ff24693e879b3a
+SHA256: ef0e101d6b5fa31ed461ba4b373c51440fa360d14565f5f38b6d95614476196e
 Section: 微信插件
 Description: 微信斗图助手
  - 修复搜狗api接口问题
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信斗图助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.doutu.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.doutu.rootless.json
 
 Package: lym.com.25mao.jdquan.rootless
 Version: 1.0-1
@@ -573,17 +573,17 @@ Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.jdquan.rootless
 Filename: ./debs/京东优惠券-Rootless.deb
-Size: 52880
-MD5sum: 82e0c2ebe7fa186faa48cb4bffd931e7
-SHA1: 36e83cd9f63a133c31c4dc6dcda8e78798cfbfb8
-SHA256: 4ae031730f5eab8f9849fe93de6da48afca70156497bad76e8b7456fada544ef
+Size: 52896
+MD5sum: cf5ed8340910453630dc1922052d0261
+SHA1: cb7a9657fd52d186d4a4d42db520105444ae4601
+SHA256: dd6afc1142e3b7e937d4bb30b2568b7f39d5913bc36ecc38ed76f25c47278a49
 Section: 软件增强
 Description: 京东优惠券
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 京东优惠券-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.jdquan.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.jdquan.rootless.json
 
 Package: lym.com.25mao.leftpan.rootless
 Version: 1.0-6
@@ -593,10 +593,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Conflicts: com.25mao.leftpan.rootless
 Replaces: com.25mao.leftpan.rootless
 Filename: ./debs/左滑返回-Rootless.deb
-Size: 44448
-MD5sum: 2bbf4cfce05ae50dbbdd0c9163ea34a4
-SHA1: 9d4904bd7aa79a7ab073dd247b68dcd40d765e1d
-SHA256: 7384f48e4daaa1b6b32e59bfa0c6e0e22bbbc15c1180f27b338e9288e7087cf0
+Size: 44488
+MD5sum: 292e0e06cd2192f1f5802d2256d41905
+SHA1: e65e7e6bf0ba37c2e9ea92c033c1816bbc3ba25f
+SHA256: 3229998dd7be2571f6f30fba2474d44a4ddb20f7b7382b61104e7587799aae2b
 Section: 系统增强
 Description: 左滑返回上一页面
  - 从右侧开始向左边滑动返回上一页
@@ -605,7 +605,7 @@ Description: 左滑返回上一页面
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 左滑返回-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
 Version: 3.8-0
@@ -614,17 +614,17 @@ Maintainer: Mao
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 10164288
-MD5sum: 36d9723fb765c5fbad90277b564d3bca
-SHA1: 139e0c82384e8945a6240cc3492a64effb65a643
-SHA256: 474d560d94473f58b8bb510aad184da6bca0cc10c1644a6569b0ab8f2f8bd05c
+Size: 10164416
+MD5sum: c318b57ea41f7744705118f6a59ebba8
+SHA1: b39749c54d2bb328185fe6a3cc93a03776932dd1
+SHA256: f4681e3c4cddeb06113653ad7c0d0ef84305cec4a10d0ddb0d86347bdc4da1d9
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
 Package: lym.com.25mao.msgfilt.rootless
 Version: 1.0-5.1
@@ -633,16 +633,16 @@ Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.msgfilt.rootless
 Filename: ./debs/消息屏蔽助手-Rootless.deb
-Size: 122312
-MD5sum: 6369c5a59ce7380dc14b2859cb43d2d5
-SHA1: ecc8455f9a592e756e148ad08531d35b7692ad09
-SHA256: 1a5f0ec71b4b81c44d29f54f8e95948278f7aa9d697b921948ffd5e8cc176ecb
+Size: 122488
+MD5sum: 2a342bd0779845a96676fd52e2bedf71
+SHA1: 7487168229edb9d24bbc3d3d87d2689733b5b075
+SHA256: 35d8f71627486daa518535ef77fd2316305cd0730aca740eba67588b327085be
 Section: 微信插件
 Description: 微信消息屏蔽助手
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 消息屏蔽助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
 
 Package: lym.com.25mao.wcplugins.rootless
 Version: 0.1-3
@@ -652,10 +652,10 @@ Depends: firmware (>= 5.0)
 Conflicts: com.25mao.wcplugins.rootless
 Replaces: com.25mao.wcplugins.rootless
 Filename: ./debs/微信插件管理Plus-Rootless.deb
-Size: 23612
-MD5sum: 9f84fb0d5862d7a3447a63598b16537d
-SHA1: 8e52fdc683938f51a8e7d91106d5e9968a0a135b
-SHA256: 2561c5bb909a71d748e217a5d31493ac032ae09a9652d0ed26e7a304b202b027
+Size: 23592
+MD5sum: 2ba2e910baaa89f31f7af2951f560390
+SHA1: 6f4b068d545e43a6782d2638305ed0c00734928f
+SHA256: 417213529e28c6007dfa9393d3ab63ad17ea1b0869310c7c01208f056b0fd4dc
 Section: 微信插件
 Description: 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
@@ -666,7 +666,7 @@ Description: 收纳第三方微信插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信插件管理Plus-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
 
 Package: lym.com.25mao.weapptool.rootless
 Version: 0.1-9
@@ -676,16 +676,16 @@ Depends: firmware (>= 5.0)
 Replaces: com.25mao.weapptool.rootless
 Filename: ./debs/微信小程序助手-Rootless.deb
 Size: 27244
-MD5sum: 29b2f19d48648934fa3dd65e714ab5ff
-SHA1: 4623a8930cfa64d3a04b864bdd39139c941af409
-SHA256: dc1e8df5b60d8b3ac358ae19cec663b0a56396b4c005902ecfc450209bc8715a
+MD5sum: 926848d04330af1718481d90560d91dc
+SHA1: d67a364439999ba40839a06eefb8f6a7a8fa96ac
+SHA256: 71e5c8900f220e6391fdd168e84f06afcacf25a034b69b544d5fa74aa1f98672
 Section: 微信插件
 Description: 微信小程序助手
  - 启用插件后可以在小程序任意页面复制小程序的跳转链接
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信小程序助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.weapptool.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.weapptool.rootless.json
 
 Package: lym.com.25mao.wxurlexpand.rootless
 Version: 0.2-0
@@ -694,10 +694,10 @@ Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Replaces: com.25mao.wxurlexpand.rootless
 Filename: ./debs/微信URL scheme扩展-Rootless.deb
-Size: 34248
-MD5sum: 979c0374fc33b5b3471549617f78dfd1
-SHA1: c5bbd748aa6727421535cf2a2e24142063bbbf50
-SHA256: 39a471ac510b7aec548f8ce8cab93be9d196bfa8d13eba3c50d7a3b4c47b7721
+Size: 34264
+MD5sum: 464bab147ed49ceaeb026da67626ca74
+SHA1: fa6320342604dec7223cfcb2f920786b1c538899
+SHA256: 6397f0d337132db14c602a35cce9ef4fb5b6d520a87a4cf194de43ddd549e0e5
 Section: 微信插件
 Description: 扩展微信URLScheme接口，方便从外部调用
  - 添加以下接口
@@ -708,7 +708,7 @@ Description: 扩展微信URLScheme接口，方便从外部调用
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信URL scheme扩展-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
 
 Package: lym.com.82flex.iconrestore
 Version: 1.7
@@ -719,17 +719,17 @@ Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.82flex.iconrestore
 Replaces: com.82flex.iconrestore
 Filename: ./debs/Icon Restore 图标时光机-Rootless.deb
-Size: 30768
-MD5sum: 85177106286ee5a506cfb0c1bd4f4fb0
-SHA1: 401f939784b58c3a54c3412e353b129f9a9a7515
-SHA256: c2f4409da9e0d744c962b033e229167a7717f991e745a88e04ee74e021677b1d
+Size: 30704
+MD5sum: e3fdb56eba37420e645a8dc1205bcc39
+SHA1: 699df0db7067434a57b92d1731c330bb40366c14
+SHA256: b967e6ce0edffaa8e305a381d63e4df66362f37388d5ded06c611a471ee4239b
 Section: 系统增强
 Description: 备份或恢复主屏幕图标布局
  - 由乌龙工作室出品。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Lessica <82flex@gmail.com>
 Name: Icon Restore 图标时光机-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.iconrestore.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.iconrestore.json
 
 Package: lym.com.82flex.noredirects
 Version: 1.3
@@ -740,16 +740,16 @@ Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.lib
 Conflicts: com.82flex.noredirect, com.82flex.noredirects
 Replaces: com.82flex.noredirects
 Filename: ./debs/No Redirect 禁字诀-Rootless.deb
-Size: 44344
-MD5sum: cb79b6c80f177654000bb9980b663565
-SHA1: fc9826a23f5b1b4eee9f22828e618776ba85526d
-SHA256: 06b1aad636e43da948a974d22cfb1eb4e4c2de9cb5b01bf808f5cd6ee6856689
+Size: 44304
+MD5sum: 6478a9028faf03ebd24b8fa24f82ef53
+SHA1: 3760b04be93472569c7fd208aee933b2182b1203
+SHA256: b6271b2553fad53d2db8342e5b8f224ffd6617604b40d4d7bdfb560318ddd74c
 Section: 系统增强
 Description: 阻止指定的应用重定向到 App Store、Safari 或其他应用。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Lessica <82flex@gmail.com>
 Name: No Redirect 禁字诀-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.noredirects.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.noredirects.json
 
 Package: lym.com.82flex.ohmyinsetss
 Version: 0.1
@@ -760,17 +760,17 @@ Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.ohmyinsets, com.82flex.ohmyinsetss
 Replaces: com.82flex.ohmyinsetss
 Filename: ./debs/Oh My Insets 控制中心五列.deb
-Size: 13312
-MD5sum: 0aae56a222fa5674c149922508f984df
-SHA1: 3f4eed2553c13707ac1aa4953b798b8a87aefcde
-SHA256: bdabcd20a41fa95aab44d622fb7af2658db01a9e7c9680f26f586e4da14d6105
+Size: 13320
+MD5sum: 879acae088a65686892e69427952045e
+SHA1: 82cccc4cf573acab6f11ae856bc8083f430bd242
+SHA256: e46d9e4f2025fb1be142b090131f15f74b177b26f8bb7213e372df4a66559030
 Section: 控制中心
 Description: 控制中心模块五列显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Lessica <82flex@gmail.com>
 Name: Oh My Insets 控制中心五列-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.ohmyinsetss.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.ohmyinsetss.json
 
 Package: lym.com.82flex.removewidgetbg
 Version: 1.7
@@ -780,10 +780,10 @@ Installed-Size: 384
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
 Replaces: com.82flex.removewidgetbg
 Filename: ./debs/Remove Widget Background透明小组件-Rootless.deb
-Size: 29936
-MD5sum: 3a370077f8d9aa80b1e959c9192117f8
-SHA1: f9186a5f8c3ef0f63c1f264fab0daa7a57d9d9f1
-SHA256: b26fe9f2a15bee298672b625f4d72abe3230de125260e4cdabb33a3e943b22ae
+Size: 29932
+MD5sum: 2efefdd37e962942c3afd95f7ac9b334
+SHA1: 309b0cf38c6d45ea2e3d56d3b5d98b36ea97e8ee
+SHA256: 00a1cc11e6fa8634c4ebd7bd22020c7113a98541a2e4b9e01c094a91310ac311
 Section: 系统美化
 Description: 移除小组件背景
  - 移除小组件桌面名称
@@ -791,7 +791,7 @@ Description: 移除小组件背景
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Remove Widget Background透明小组件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
 
 Package: lym.com.82flex.singlemutes
 Version: 1.4
@@ -802,17 +802,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.82flex.singlemute
 Replaces: com.82flex.singlemutes
 Filename: ./debs/Single Mute 静音图标-Rootless.deb
-Size: 25908
-MD5sum: 635f55796461b3e89b7b45b62db26069
-SHA1: 3f6758d02ee156eb477cc16d2c5d0c8859dbe0c7
-SHA256: a3e152209ecb47bb582ea8f1fc425c4c278a47b226f1eb7a4a54a34d83839044
+Size: 25920
+MD5sum: ed5e57af19d192946ad594a4c831830f
+SHA1: ee54a6d9b30285467ceea3c8fdcbff5d9a8ea870
+SHA256: ce7ceb5ed0224b99d49731ed1c0721137e5d82a3bbb3365347f6e0722101bf7a
 Section: 系统增强
 Description: 状态栏左上角显示静音图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 82Flex
 Name: Single Mute 静音图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlemutes.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.singlemutes.json
 
 Package: lym.com.82flex.singlevpn
 Version: 1.4
@@ -822,17 +822,17 @@ Installed-Size: 384
 Depends: firmware (>= 14.0), mobilesubstrate
 Replaces: com.82flex.singlevpn
 Filename: ./debs/Single VPN 上色-Rootless.deb
-Size: 28992
-MD5sum: a33b2bc2545ac729f98ecdf095cb22c8
-SHA1: f475156761c0366e7a49d558b0016bcad744136e
-SHA256: 474a90b37621e2e866cbd60b53d67e12daa943b208deb649fb2f43625553e7d5
+Size: 29004
+MD5sum: 4727bcab206d52c98daa54cb33e78578
+SHA1: 7e1fe4e927d2724128d5c46b00a3cc93abf06fbf
+SHA256: ad728613f7107a0c270017ad931604765dec9c029e70d3d900e9e2097d84ae3b
 Section: 系统增强
 Description: 连接VPN时Wi-Fi和移动数据图标着色
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除
 Author: 82Flex <82flex@gmail.com>
 Name: Single VPN 上色-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlevpn.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.singlevpn.json
 
 Package: lym.com.82flex.wtvrbglauncher
 Version: 1.1
@@ -843,10 +843,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.82flex.wtvrbglauncher
 Replaces: com.82flex.wtvrbglauncher
 Filename: ./debs/语音转文字免跳转-Rootless.deb
-Size: 23128
-MD5sum: e5a02a82d3593cc1136e17bf27c1d2db
-SHA1: 84a8c7e3dffd73056dfc694e9f68a502d13eb794
-SHA256: 5dac4823910eff10d2a49e5b50ab9c32dde02791a3e1f499d96bfa24460959cd
+Size: 23104
+MD5sum: a66eb215775da675408c12f84f6773b8
+SHA1: 680d7cb37cddac9bc7f33829097dd88c9a8392fd
+SHA256: a353f4bc135a99e59932d458366d9e6de76bfffc6f2b5e0d0301c5e062f85989
 Section: 系统增强
 Description: 语音转文字免跳转
  - 中文输入法语音转文字免跳转
@@ -855,7 +855,7 @@ Description: 语音转文字免跳转
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Lessica
 Name: 语音转文字免跳转-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
 
 Package: lym.com.BeanbunsHelpers.DB
 Version: 1.0-1
@@ -865,17 +865,17 @@ Depends: mobilesubstrate
 Conflicts: com.BeanbunsHelpers.DB
 Replaces: com.BeanbunsHelpers.DB
 Filename: ./debs/抖音 豆包助手-Rootless.deb
-Size: 465240
-MD5sum: cd7d0c483fc3523ca6c58163dc0c2a58
-SHA1: b48b6f7292f98bc3c0c4f54fe5dc6ed4f014e56e
-SHA256: 9fd4bd57d53f00b091b05a14c9de6830ba317431c9b9e24872b35508658fa7d1
+Size: 465340
+MD5sum: 58a27dd85369f3a3c5d3314fd968fa16
+SHA1: cfc79b4b381ba675a29e624a2fa4fef8996e09b9
+SHA256: 3199c3cece5bd389c0ce8776dd4d590b108da162996fe151cf27ac2f8dabbcbe
 Section: 抖音插件
 Description: 豆包助手给自己的小抖音添加一些小功能
  - 插件设置位于抖音设置内
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Beanbuns
 Name: 抖音 豆包助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
 Version: 1.7-8
@@ -884,10 +884,10 @@ Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11250336
-MD5sum: da04cefc7f8380cb7e7ac0f0159a5fd5
-SHA1: 18a426f7bfa54198d7301377ffbb05bfffb03881
-SHA256: ae699111d7b66ab24391f25f6d39c4d53fee2690779cdc0c49d27e7178e12a1c
+Size: 11251344
+MD5sum: 6b5395fb2c8ea607e9a203680e281b78
+SHA1: 1b44161011f5562231ab38e36a1ceb252f3b6a6f
+SHA256: 0387e271ea639ac30f62c0d16567e2d3173e39104ed159022a275faf255aeab1
 Section: 微信插件
 Description: 一个微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -899,7 +899,7 @@ Description: 一个微信插件文本转语音(付费功能）
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
 
 Package: lym.com.HideMfWeb
 Version: 0.1-2
@@ -908,17 +908,17 @@ Maintainer: 黄白
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.HideMfWeb
 Filename: ./debs/隐藏其它设备在线提示-Rootless.deb
-Size: 13668
-MD5sum: 0ee9fe5573106ff7f8d1be2bfe9b5340
-SHA1: ff83d5221291d84d0d3d1233bc7837216cdf8754
-SHA256: 9cdc869d36ccff6bfa246ab402f7642f497f2867aecb635c04030d8046945098
+Size: 13672
+MD5sum: f188cd5b21985acd09cd7d9d70a8d2bb
+SHA1: 8e2fc2f9910b974430676a37ff3f566c98359018
+SHA256: 54b1899e8fc91ea8ae292d8c166d9fcd7795fc0d5f48cc29f727888bc7546ee5
 Section: 微信插件
 Description: 隐藏微信其它设备在线提示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 黄白
 Name: 隐藏其它设备在线提示-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HideMfWeb.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.HideMfWeb.json
 
 Package: lym.com.anubistweaks.keyswipe11
 Version: 1.0.3
@@ -928,17 +928,17 @@ Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: org.thebigboss.keyswipe, com.anubistweaks.keyswipe11
 Replaces: com.anubistweaks.keyswipe11
 Filename: ./debs/KeySwipe上下切换键盘-Rootless.deb
-Size: 11888
-MD5sum: 3cf767603c63427320615054d847d4b5
-SHA1: 4e45433f7fd69de511b171257ad68d11866e2970
-SHA256: ec3894fddacd5324752799d3d6e01aaf9b2094b81089dc14113f63c7e9ae4950
+Size: 11876
+MD5sum: a3bdd15b79e48a0fe7919ba226d2a323
+SHA1: 48c8b45690d43f5f8db239df104bb6a29206f228
+SHA256: 52cf62214e81c7e4429da72446c48aa5c66c00467258e483eb797f94c636d58b
 Section: 键盘插件
 Description: 在键盘上通过上下滑动手势来切换键盘
  - 插件免费,英文有设置项。默认为启用状态
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Delewhopper, julioverne ,AnubisTweaks
 Name: KeySwipe上下切换键盘-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.anubistweaks.keyswipe11.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.anubistweaks.keyswipe11.json
 
 Package: lym.com.appku.wechat
 Version: 1.6-3
@@ -947,10 +947,10 @@ Maintainer: appku
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.appku.wechat
 Filename: ./debs/爱锋助手-Rootless.deb
-Size: 1662240
-MD5sum: db3aaab478442eea9ecd2371542e4522
-SHA1: 1f22a88ec059d099a8fede00650fa01aa3903b49
-SHA256: 3165dac631459119ef67c0da79ff55d791cace58299d6e22e791301e70356f4d
+Size: 1649416
+MD5sum: 752751bb61247cc9a253b0c3260fbbfd
+SHA1: 59c78239f226541ce407cdc17521a98f65f159cb
+SHA256: f3d81e637e2d354aec755c034c78d56c63fd3580552b42d682f6d7abc75b6a05
 Section: 微信插件
 Description: 微信爱锋助手
  - 同虚拟视频功能，不同作者
@@ -962,7 +962,7 @@ Description: 微信爱锋助手
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: appku
 Name: 爱锋助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.appku.wechat.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.appku.wechat.json
 
 Package: lym.com.baiy.wechatrotate
 Version: 1.5
@@ -973,17 +973,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.baiy.wechatrotate
 Replaces: com.baiy.wechatrotate
 Filename: ./debs/微信头像旋转-Rootless.deb
-Size: 6980
-MD5sum: 35ca355664d1164ba8ace674bc262583
-SHA1: 939f2c75be60ed99e9ed1f8bb23c955763156161
-SHA256: f9ee2328b83ef23df94187fcf5499560b052b24d4a547a8c4d4fba5022ec552a
+Size: 6988
+MD5sum: 61be92a3b02ed7de770c57765eefb745
+SHA1: e58198cb9754ba69dd6e4098d8d0ee7ed36d6b2a
+SHA256: ad1425bd71ed08b87dc3c49a46a89df1c8b1855b7b2c2c9a78cd93aaaa81a9cf
 Section: 微信插件
 Description: 微信头像旋转
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: baiy
 Name: 微信头像旋转-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.wechatrotate.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.baiy.wechatrotate.json
 
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
@@ -993,10 +993,10 @@ Installed-Size: 168
 Depends: mobilesubstrate
 Replaces: com.brend0n.nopassafterrespringsafe
 Filename: ./debs/NoPassAfterRespring注销免解锁-Rootless.deb
-Size: 3592
-MD5sum: 9eeaddaa017f97213d53ec8627b42f02
-SHA1: 332da354c2bf0dde7e033db35d68ba2a7609afb0
-SHA256: cdef6450fe8542183583bd6e09186e88c8ebf06722767307836dcc85668f61c5
+Size: 3584
+MD5sum: b8c776bd8250d1ba8a7fc78c1835addd
+SHA1: da1e768d8d44ea9ab47d5131e515d2126c90db4f
+SHA256: 74aa4b360e4ff1c305c4e77ed1f4b44dbda36e65f6202ade910decf312f13a38
 Section: 系统增强
 Description: 注销免解锁
  - 在注销前是解锁状态的情况下
@@ -1005,7 +1005,7 @@ Description: 注销免解锁
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
 Package: lym.com.cydiageek.byeseparatorscell
 Version: 1.1.3
@@ -1016,10 +1016,10 @@ Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
 Conflicts: com.cydiageek.byeseparatorscell
 Replaces: com.cydiageek.byeseparatorscell
 Filename: ./debs/ByeSeparatorsCell系统空格分隔符-Rootless.deb
-Size: 63764
-MD5sum: d26104fb4cbc5b0cfe4e196910a3574e
-SHA1: 4f00343f3ffa8109a8bf4b899d9abce5f6e07755
-SHA256: 3546eca241cd5d876e6ed2bf9b65695e0f24de32c12524edcc0e2678733df1e1
+Size: 63740
+MD5sum: 1736b88a1197b9b316dfd03f2eb4055a
+SHA1: 13a7d92d4eb3bf7e04ce96be95f05f4f6b3e97bc
+SHA256: 0f954a7de50d202bbd096370241e5a33427e0c4b69b457b3de3a12b43e4f5ae6
 Section: 系统增强
 Description: 删除系统范围内单元格之间的空格
  - 去处系统分隔符号
@@ -1028,7 +1028,7 @@ Description: 删除系统范围内单元格之间的空格
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: CydiaGeek <lucaluca86@aol.com>
 Name: ByeSeparatorsCell系统空格分隔符-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.cydiageek.byeseparatorscell.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.cydiageek.byeseparatorscell.json
 
 Package: lym.com.dao.bhtiktok++
 Version: 1.7
@@ -1039,10 +1039,10 @@ Depends: mobilesubstrate
 Conflicts: com.raulsaeed.bhtiktok++, com.bandarhl.bhtiktok, com.dao.bhtiktok++
 Replaces: com.dao.bhtiktok++
 Filename: ./debs/BHTikTok++中文版-Rootless.deb
-Size: 93968
-MD5sum: 6b77e9f9ea4244c25e886b5f426949e0
-SHA1: 5b2fc90e01f987e96b997bbc39774fb8bb0d2864
-SHA256: a36465bab0ec29ba0281eccb2a17d7e732e82c54baa8fcd2b8dfb9e85f95504a
+Size: 94272
+MD5sum: 9f4222963f9feab5b3de6b8b821893a5
+SHA1: 32e8e1fb57d9c352d3846651feb570b3180ba99f
+SHA256: 51466eb3223c034103c1cc9a5b5144b02129dc865900f9bf57c68c3092918795
 Section: 软件增强
 Description: 全新的TikTok多功能插件
  - 刀刀基于开源定制并汉化。
@@ -1050,7 +1050,7 @@ Description: 全新的TikTok多功能插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: raul saeed & 刀刀
 Name: BHTikTok++中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtiktok++.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtiktok++.json
 
 Package: lym.com.dao.bhtwitter
 Version: 4.3-3
@@ -1060,10 +1060,10 @@ Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter
 Replaces: com.dao.bhtwitter
 Filename: ./debs/BHTwitter 中文版-Rootless.deb
-Size: 7613936
-MD5sum: b68f9ec54865a38b759441f9bf096e9d
-SHA1: 8d755c35c46b7a1ad9aace798b9a26d7bde1d058
-SHA256: 97c3716bda476bf3decaea065cc091e88f8f952d34cc26c2b66bbc84d878af24
+Size: 7613108
+MD5sum: 121fcfc4115ed88cff628feeafaa595c
+SHA1: a0dc8b76a125b6d191981ba2a7adffe3ad09b799
+SHA256: aa4be153d55b0a157b6dfeb2dbe72d368aa328930fbfe3d0f9793a7aae267bc7
 Section: 软件增强
 Description: BHTwitter中文修复优化版
  - 推特(X)的综合功能性插件
@@ -1071,7 +1071,7 @@ Description: BHTwitter中文修复优化版
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Bandar Alruwaili
 Name: BHTwitter 中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtwitter.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtwitter.json
 
 Package: lym.com.dao.classicfolders3
 Version: 3.0.5.8
@@ -1082,16 +1082,16 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless, com.dao.classicfolders3
 Replaces: com.dao.classicfolders3
 Filename: ./debs/ClassicFolders 3经典文件夹-Rootless.deb
-Size: 3274228
-MD5sum: 7772b87592304295b898f2321e3e985b
-SHA1: 59ae3537f4703e0177045e3d1432df2fa8a0d1b8
-SHA256: f50a4f7de82719917b6abc588b8f261b69a190045491fe2f8f127fbe41a358f5
+Size: 3274288
+MD5sum: 313a6caac25482436a0f26e52d36f94c
+SHA1: 7214c7f5a624e0460733ea0af35224be576e8357
+SHA256: 20067e51391e05f040ad877af686d89f8323df4e1a585a00a5c6a7482b8c7b9f
 Section: 系统增强
 Description: CoolStar的经典文件夹3，刀刀基于Lizynz的开源，简单定制。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: CoolStar & Lizynz
 Name: ClassicFolders 3经典文件夹-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.classicfolders3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.classicfolders3.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
@@ -1101,17 +1101,17 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro, com.dao.icleanerpro
 Replaces: com.dao.icleanerpro
 Filename: ./debs/iCleaner pro破解版-Rootless.deb
-Size: 983936
-MD5sum: 746641221166a78f89ddf9a430c0f7b2
-SHA1: f9a79a361cf6e9869a92f09a66db46245a1a34c6
-SHA256: 7c98a69bbf9dd5df3a8ad345a13ddcf4c1f418513461bca2a738b8b12025d39b
+Size: 984328
+MD5sum: 0f8f3ad909e79fc3365d174ddebd02d8
+SHA1: 097a002875b399df317cddd3c9eed4b6248fe1f9
+SHA256: 394eff62144e22d61a854640ade4810fdcb36b89f88dbfad35ea0a97478fc104
 Section: 系统增强
 Description: iOS系统清理和管理实用程序
  - 默认简体中文，破解版。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Ivano Bilenchi
 Name: iCleaner pro破解版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.icleanerpro.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.icleanerpro.json
 
 Package: lym.com.dao.noline
 Version: 1.0.1
@@ -1122,9 +1122,9 @@ Conflicts: com.hk.daodao.noseparators, com.hk.daodao.rootless.noseparators, com.
 Replaces: com.dao.noline
 Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
 Size: 4104
-MD5sum: 05560f026c9702673e2db2da85f96fc9
-SHA1: b78d7e45862b3525ebc3896ec1e67adb4c8ba2af
-SHA256: 2b56c661466b858a5e76339805d8cf91504a5e42be7983da519769330d6dbca6
+MD5sum: f5556eba48b6ea0d5a599bfef023ef07
+SHA1: eacec02639949e0358961123fd2a063b8b2ffbe0
+SHA256: 1ca04735d8feb449774e805aaacdb6443786532de65060ed6c754d162cae88e1
 Section: 系统增强
 Description: 去除全局分割线
  - 去除弹窗/UI/长按菜单等地方的分割线
@@ -1133,7 +1133,7 @@ Description: 去除全局分割线
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 妖刀
 Name: PurifyLine去除全局分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.noline.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.noline.json
 
 Package: lym.com.deletephotoscompletely-rootless
 Version: 1.2-2
@@ -1144,17 +1144,17 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: com.deletephotoscompletely-rootless
 Replaces: com.deletephotoscompletely-rootless
 Filename: ./debs/DeletePhotosCompletely相册添加彻底删除按钮-Rootless.deb
-Size: 17264
-MD5sum: b1697a86caa1369187851f39f2c7470c
-SHA1: 2db2d5352ec220b5b6ac2dd5c642e9f68b17dcdd
-SHA256: d97f3ecf6c1f231e3403ad9638c3e584c9d9203d7d1a36d4944ae5892a795122
+Size: 17248
+MD5sum: 03c9f3d2003e07dc136f20e5c22a4424
+SHA1: da731b2d2dcc694b0a52753fc0b4a147fddb9120
+SHA256: c7cf35ff7b45f203e3b0b05e06d3904a113b607c35e19877a3eed81dc222025e
 Section: 系统增强
 Description: DeletePhotosCompletely相册添加彻底删除按钮
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
 
 Package: lym.com.dumpapp.wechat-rootless
 Version: 2.0.4
@@ -1164,10 +1164,10 @@ Installed-Size: 23952
 Depends: mobilesubstrate, firmware (>= 12.0)
 Replaces: com.dumpapp.wechat-rootless
 Filename: ./debs/锤子助手-Rootless.deb
-Size: 9231112
-MD5sum: 690befbec86f109a8a7ec62f56dea749
-SHA1: 8d945202532ea9bd4995071a652d22a1b87eab43
-SHA256: 09f5d31df2d058d6123ab41d0a3f76a21b7a25a98c32ff2712dda976393d1a93
+Size: 9236408
+MD5sum: 2aa9e29b3b2dbdbff5c8a4ce9f400c9c
+SHA1: 0e28b1d5b1af4e380212b3e57691f38f308e0adf
+SHA256: f3d4bb8a1266f7c1cc0517155c0b1cd69f3150d05beaa15f387df2f9b1d84721
 Section: 微信插件
 Description: 复刻[微信净化]插件
  - 越狱安装可能会和滑雪板UI扩展冲突
@@ -1176,7 +1176,7 @@ Description: 复刻[微信净化]插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: DumpApp
 Name: 锤子助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
@@ -1186,10 +1186,10 @@ Installed-Size: 152
 Depends: mobilesubstrate (>= 0.9.5000), firmware (< 18.0)
 Replaces: com.dvntm.cc18
 Filename: ./debs/iOS18圆角控制中心-Rootless.deb
-Size: 4676
-MD5sum: 2e12b580f1c456d70af8f11f2e17fca3
-SHA1: 83d2052f557202289c5d040b68412540c975bda9
-SHA256: 5e37d94ccb6e79028e37dd089dc36dab44a3c2eed616f2d579c1e025268aed3f
+Size: 4672
+MD5sum: f35b7b74e8a0a6e21f94cf1f147fc5f0
+SHA1: 35335120cd95407eac0f4c2defef38d47d07bbda
+SHA256: 37245b0118dbfe39c9c3b874721cb350d95dab4856ab4cb8727126c7b633e1ee
 Section: 控制中心
 Description: iOS18圆角控制中心
  - 控制中心模块圆角化
@@ -1197,7 +1197,7 @@ Description: iOS18圆角控制中心
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: dvntm
 Name: iOS18圆角控制中心-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.cc18.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.cc18.json
 
 Package: lym.com.dvntm.oledkeyboard
 Version: 0.0.3
@@ -1208,17 +1208,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.dvntm.oledkeyboard
 Replaces: com.dvntm.oledkeyboard
 Filename: ./debs/OledKeyboard纯黑键盘.deb
-Size: 4936
-MD5sum: 23540a9c9e70ddb81c9e0791db24762f
-SHA1: b45c83828feb4f583635541129c5b078a3625738
-SHA256: c2e41c8edb9f9fda12f0a2370d1a23a953f1cdbbb713dced23ad81b4628dec98
+Size: 4924
+MD5sum: a9b4560056d0e92ca2996fb153519d72
+SHA1: 66cb2056f4d65febc7c982f3aa4e26bb12327bb6
+SHA256: 85167c9746cef6a811b14b0ca8c4ec6768190321b026013d0c48606ef5b8e780
 Section: 键盘插件
 Description: 深色模式下键盘背景显示为纯黑
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: dvntm
 Name: OledKeyboard纯黑键盘-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.oledkeyboard.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.oledkeyboard.json
 
 Package: lym.com.dvntm.ratebegone
 Version: 0.0.1
@@ -1229,17 +1229,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.dvntm.ratebegone
 Replaces: com.dvntm.ratebegone
 Filename: ./debs/RateBeGone屏蔽app弹窗评分.deb
-Size: 3512
-MD5sum: e7b80169420b3bf98757e85d73053006
-SHA1: 147ec69848899244abeb61923592097dd4f0b8fe
-SHA256: 5ddb5fa1db698d7d95cb0388bc4e6a238e447cb57b028c01b7d91da5d0a2045f
+Size: 3500
+MD5sum: 4e0c884065a8b24f19e97c21542536e0
+SHA1: bcc114a872d22ad839eea25bb0f60820e681af03
+SHA256: 9a7db5b4cf6eb5dc57aa68da006854df51553a3777afd16ace8840effcdcc964
 Section: 系统增强
 Description: 屏蔽app不定时弹出的评分窗口
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ratebegone.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ratebegone.json
 
 Package: lym.com.dvntm.ytlite
 Version: 5.1
@@ -1250,10 +1250,10 @@ Depends: mobilesubstrate
 Conflicts: com.dvntm.ytlite
 Replaces: com.dvntm.ytlite
 Filename: ./debs/YTLite- YouTube增强-Rootless.deb
-Size: 6181360
-MD5sum: 71d463f1ac42e724ef0a2f778396f433
-SHA1: 94d62fc0b2555c5f6863807707521e959537b01b
-SHA256: 632c135fa2ee23c3236e551df086692508f87953328ac3ff28529c8da7e6cee1
+Size: 6178516
+MD5sum: ba86b7977692d81157653e0925a337c3
+SHA1: 91f8bd069f902e0967af9e3e72c6ddeac0f929da
+SHA256: 612bb7dc05b0177443670898412d0c5cf9b760b16f11bcb9efa318406c58aa7b
 Section: 软件增强
 Description: YouTube增强插件
  - 支持去广告
@@ -1263,7 +1263,7 @@ Description: YouTube增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: dvntm
 Name: YTLite- YouTube增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.ytlite.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
 Version: 5.8.3
@@ -1274,10 +1274,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swif
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 396036
-MD5sum: 2541e798725d0553e5bacbf43a13c895
-SHA1: 6fff1829f5ae8b712ddd784dae4f31d5d7ae1542
-SHA256: 36155079bd47992c586566664bec45620a8036381e5debbd54afe341960a9ab9
+Size: 395928
+MD5sum: d70eb2209e3e321a0ec99ad9ed0fb563
+SHA1: 67a78be0cd7649356c74eea4493f1063700d80a3
+SHA256: f167e57c85c4985cc749359609d2de644a35b37368fe67138158c9bddd8b5c07
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -1286,7 +1286,7 @@ Description: 解锁Spotify会员
   - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Eevee
 Name: EeveeSpotify解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.eevee.spotify.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.eevee.spotify.json
 
 Package: lym.com.fiore.calculatorhistory
 Version: 1.1.3-1
@@ -1297,10 +1297,10 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Conflicts: com.fiore.calculatorhistory
 Replaces: com.fiore.calculatorhistory
 Filename: ./debs/CalculatorHistory计算器增加历史按钮.deb
-Size: 16792
-MD5sum: 960e180ad7f25cdef78734b6afd5ca1f
-SHA1: a54c3227a77bbb802901c5e8b25ad3bdf9336176
-SHA256: 3f7775845ab61b341bbd43198cf9aff991f7609c18e86a3f29fd59ad470ec33d
+Size: 16772
+MD5sum: d962e7fd98ec9b626c65cc0c0792e196
+SHA1: bd60082b0e7b9ff9bf1fb6507c82f457bc653d2b
+SHA256: e3d305cf59b93195a556402ad94bee437a50da3202fe63953e5e88eaa78d8606
 Section: 系统增强
 Description: 计算器添加历史按钮
  - 自带计算器增强
@@ -1308,7 +1308,7 @@ Description: 计算器添加历史按钮
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Donato Fiore
 Name: CalculatorHistory计算器增加历史按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.fiore.calculatorhistory.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.fiore.calculatorhistory.json
 
 Package: lym.com.fly.ljm
 Version: 0.0.1
@@ -1318,17 +1318,17 @@ Installed-Size: 168
 Depends: mobilesubstrate
 Replaces: com.fly.ljm
 Filename: ./debs/拦截猫解锁-Rootless.deb
-Size: 8860
-MD5sum: da99e9c4eefe69c6827fa29a2e452151
-SHA1: 9be3db8dbf8fa7018be7ebb2d23dca8a24bc0c56
-SHA256: b53e60117286f6ffcecc5eae2ad7e50708395b2c920f4ffaa04b203e70bbc65c
+Size: 8844
+MD5sum: b40abd8213201383dc2310519c012ced
+SHA1: 6b0f002e2a85d29f2089ab55126c6daf99305ee0
+SHA256: 85522b60ec142c32cac52c2e84f240224d0098ab0c40d76783aa4479fd5bdc85
 Section: 软件增强
 Description: 解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 🅷🆆
 Name: 拦截猫解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.fly.ljm.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.fly.ljm.json
 
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
@@ -1337,9 +1337,9 @@ Maintainer: 妖刀
 Replaces: com.hk.atria.cn.rl
 Filename: ./debs/Atria 简体中文包-Rootless.deb
 Size: 8840
-MD5sum: 65a5b3ddf7984bbeda1170b7640704e8
-SHA1: fde070a1cf1fc0b4a5b22d65fd76063a78c22054
-SHA256: fd73a0ef4916d76c640495769c7ea6a53c86c5ef869377f3d7c05adf46287bd2
+MD5sum: 85821f55f3abd12bb5e533a40a72ccab
+SHA1: 8bf0bd46456155792d27c518a2037be83f22c0eb
+SHA256: 62e57be6214dcfaffd839c46eaa1efb9647a61c5b58ceca5d75c5735ef8be245
 Section: 插件汉化
 Description:
  - Atria 简体中文包
@@ -1347,7 +1347,7 @@ Description:
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 妖刀
 Name: Atria 简体中文包-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.atria.cn.rl.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.atria.cn.rl.json
 
 Package: lym.com.hk.choicy.cn.rl
 Version: 1.4.6
@@ -1355,10 +1355,10 @@ Architecture: iphoneos-arm64
 Maintainer: 妖刀
 Replaces: com.hk.choicy.cn.rl
 Filename: ./debs/Choicy 简体中文包-Rootless.deb
-Size: 4440
-MD5sum: 4112b782013c503bcdb55bbef471bfdc
-SHA1: 3e6bee844d0731814ccf33a941687792056b4ca1
-SHA256: 05b7fe734a2e34e2a75a61152d7be25b2fde8c08aedb3ac2c7d456a739890b9e
+Size: 4432
+MD5sum: 5f76264b6de8c921101e65846f539419
+SHA1: 0d53e31a3594c2c7cfd43abad2b5430165423f83
+SHA256: a89a70adb8b21d88d6008efcaf2e257381bbe7b56a7d2eaae547219fa66765b8
 Section: 插件汉化
 Description:
  - Choicy 简体中文包
@@ -1366,7 +1366,7 @@ Description:
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 妖刀
 Name: Choicy 简体中文包-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
 Package: lym.com.huam.wcenablecleanorigmsg
 Version: 1.0-2
@@ -1377,17 +1377,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huam.wcenablecleanorigmsg
 Replaces: com.huam.wcenablecleanorigmsg
 Filename: ./debs/WCEnableCleanOrigMsg原图清理-Rootless.deb
-Size: 3252
-MD5sum: 3566f7a0527091fa143eff10f223bacf
-SHA1: 15bab781431e40777d8c53135a946cd8327b796a
-SHA256: f11faa0968658d6ec76839f7e245314afba29e187180daa811b4a9159b20d812
+Size: 3248
+MD5sum: b6bbb03a02cd2289dc531c224a5a5799
+SHA1: bd089ef6816d0f450b74692dc5599a0661e0d770
+SHA256: cb841a3a09a00e80b9cb31757faa464846d8d7b3ab744ca85a6edd2247d5b197
 Section: 微信插件
 Description: 启用54版本【原图、原视频14天后自动清理】
  - 功能位于微信-设置-通用-照片、视频、文件与通话里面，默认开启
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: WCEnableCleanOrigMsg原图清理-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
 Package: lym.com.huami.DYYY
 Version: 1.8
@@ -1397,10 +1397,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.DYYY
 Replaces: com.huami.DYYY
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 25912
-MD5sum: c60585cf94adc2ae4357721e546afba6
-SHA1: ec6bbaca4a4e935e088968cd05ce9d4460880190
-SHA256: ccbc57e319515fad7cab66d1515f8dee8ce26de375c3777e325b21d0722ade01
+Size: 25868
+MD5sum: 5bd7bbc49babf7450113f7d9aa10d67c
+SHA1: fb4d4129632381afdfa0bab0bfe1e087493de582
+SHA256: a517663e057071f463fe81bdb3596f9da89628b29359653193ef4398c191ccdf
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1413,7 +1413,7 @@ Description: 抖音增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: 抖音 YYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.DYYY.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.DYYY.json
 
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
@@ -1423,17 +1423,17 @@ Installed-Size: 168
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.huami.bilinoad
 Filename: ./debs/BiliNoAd BiliBili净化开屏广告-Rootless.deb
-Size: 3656
-MD5sum: 2dc411a6c6c69707f9db9600c94c8dd0
-SHA1: a5e5e6a74db09b4a35baabb0c367f39b1529cf94
-SHA256: 1f7d3526fb74a8128ffbe54780455b18f1042ece4477c1ab57dd5dd8532ec10c
+Size: 3660
+MD5sum: 51728c0396caa11537e65cdcb43aa33f
+SHA1: fd8cf1cb24cc01d7848d5d2c8adff0fd95723112
+SHA256: c1d1640e599737c929ec05811c460701f2a44f03eec4451b8b40f63c45a10587
 Section: 软件增强
 Description: BiliBili净化开屏广告
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.bilinoad.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1
@@ -1442,10 +1442,10 @@ Maintainer: huami
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.huami.kugouNoAD
 Filename: ./debs/酷狗NoAD 去广告-Rootless.deb
-Size: 55612
-MD5sum: 4d5edb00da73904820a08c6a11e1df97
-SHA1: 25c0834b82ef0ee656d22dea87c0f6f5582781d4
-SHA256: 5416f2f6bf390df0bbbb815766a2f000dc2c47e12d362ff513a48eaab62dc7e0
+Size: 55788
+MD5sum: 581c48d5606e5fe7e035c5d22583c4e1
+SHA1: f66b090846677c58dc809fcc86bb56120e228347
+SHA256: 018fe472bbf626242dfb06676c483959cee34b212f8ab5ebd2db311408b1c8ed
 Section: 软件增强
 Description: 去除开屏广告(含概念版)
  - 去除【我的】页面寻搭子广告
@@ -1453,7 +1453,7 @@ Description: 去除开屏广告(含概念版)
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: 酷狗NoAD 去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.kugouNoAD.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
 Package: lym.com.icraze.easynotifications
 Version: 3.0
@@ -1464,33 +1464,33 @@ Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Replaces: com.icraze.easynotifications
 Filename: ./debs/EasyNotifications-Rootless.deb
 Size: 3052
-MD5sum: a25d138ab96893a820d2e81801c5a147
-SHA1: a2abbf9f61455bb15e61dea02b0865e2a9ec5588
-SHA256: 3458f7eb984dad1eec1f928cf6ab7fcfdd9e26956329b4f9f4c94394630463a8
+MD5sum: 11465faec50e10735e379ddfe1f0927f
+SHA1: e7a4b41db6cc513f4f1f7fd4c934ca11c690f288
+SHA256: dbe9e4c68e51d23133b4dc774b8c2dfa8b13d23f5f682500c317db9ab9c6aafb
 Section: 系统增强
 Description: 左滑快速清除通知消息
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iCraze <icrazeios@protonmail.com>
 Name: EasyNotifications-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.easynotifications.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.easynotifications.json
 
 Package: lym.com.icraze.smallboards
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: icraze
 Filename: ./debs/SmallBoard 键盘下沉-Rootless.deb
-Size: 3764
-MD5sum: 4615ff2c06db86666888749a65cce3d4
-SHA1: 04fd6b4053bea72578effa614d65276679a5a453
-SHA256: 697b8cc9ce0036280467ea17587166b061d3a300237aaefe2bb532fa3a378b76
+Size: 3760
+MD5sum: c2feb284df042ca623b3882a129468f8
+SHA1: eecd82a64df57c9fa0be9ac22adf576037183b1b
+SHA256: 9f0deb44e35b66574125b043dbb04db775ded8fbd3f2dfddcc8165635ef85240
 Section: 键盘插件
 Description: 缩小键盘与底部的间隙
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.icraze.smallboards.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
@@ -1499,17 +1499,17 @@ Maintainer: iosrxwy
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.iosrxwy.qidianyuedu
 Filename: ./debs/奇点阅读去广告-Rootless.deb
-Size: 215384
-MD5sum: b760326eb4e3ebc4fd997c4d395b74c7
-SHA1: c6aff226d2f8b5ba0f980b54b67cc59ac8041734
-SHA256: d78951373c2d5761c75b85acb42eb70d7b5a22d061d5a2bcb37620f4e8523c84
+Size: 215776
+MD5sum: 7f1146b67a5006e3853e17b47c1455d3
+SHA1: e77dc879678ea64123fe930ce914bc04e5c52171
+SHA256: 72cda0bc5e406069a4927057aa9f1503d65e2583eec5acfb6d8d3a04a24824ff
 Section: 软件增强
 Description: 奇点阅读去除三个首页面广告
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: iosrxwy
 Name: 奇点阅读去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
@@ -1519,17 +1519,17 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), com.opa334.ccsupport
 Conflicts: com.kingpuffdaddi.control-center.ccvpn, com.kingpuffdaddi.control-center.ccvpn.surge
 Replaces: com.kingpuffdaddi.control-center.ccvpn, com.kingpuffdaddi.control-center.ccvpn.surge
 Filename: ./debs/ccvpn.deb
-Size: 25692
-MD5sum: e445ce5c1d6e2d5679967e170be066fe
-SHA1: b6b6ec21e2ca033a87ef8aaf13abe4c4b550e22c
-SHA256: 9ae77587b8c2609722159da1d91398875ea1ce04776e784d9a37a682a4d73bc2
+Size: 25688
+MD5sum: bd411fc7b4111cc5829b90556e105ec6
+SHA1: fff57a62d776170806d7a7c2e146c87d2c1372ea
+SHA256: 7c3f43b35022b3e256fc9d6b53814f4e7fcdcae6541d26f175817bec80ac68fa
 Section: 控制中心
 Description: 在控制中心添加VPN模块并把VPN图标修改为 Surge
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: KingPuffdaddi
 Name: CCVPN Surge-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kingpuffdaddi.control-center.ccvpn.surge.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.kingpuffdaddi.control-center.ccvpn.surge.json
 
 Package: lym.com.kuan.noads
 Version: 1.0
@@ -1540,10 +1540,10 @@ Depends: mobilesubstrate
 Conflicts: com.kuan.noads
 Replaces: com.kuan.noads
 Filename: ./debs/酷安净化-Rootless.deb
-Size: 3768
-MD5sum: c86653afe8ce673fe65ac4c8ef971f4d
-SHA1: d0b80d2c2cd9d269bc80684846ef88248473f7d1
-SHA256: a2d8bff93d1dfb08a120c198e06d189264c73e89771c8cdac50295f3a3eb09d5
+Size: 3772
+MD5sum: a34548b8b42d0a2cc0173ae323ca1023
+SHA1: dfb81d9d9ed657e5d3d9c21ff705eae7052ea6ba
+SHA256: fa3b26f1c6e483da5d5acdb786689eac70acee37906c42457adefff2bef71887
 Section: 软件增强
 Description: 去除酷安开屏广告
  - 截止目前支持 5.7.5 版本
@@ -1551,7 +1551,7 @@ Description: 去除酷安开屏广告
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Unknown 佚名
 Name: 酷安净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.kuan.noads.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.kuan.noads.json
 
 Package: lym.com.lclrc.controltab
 Version: 1.0
@@ -1561,10 +1561,10 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.chr1s.newtab
 Filename: ./debs/ControlTab - 控制Safari标签页.deb
-Size: 6404
-MD5sum: 343a942bf8ecb247d506edb0e16c75b4
-SHA1: 750a602b038d0c89c92adffbd334acc892ff4f18
-SHA256: 0a87263e4f5f80c6964c0c310b664af3302057e16e610e30f1afeacaea2e6da6
+Size: 6412
+MD5sum: 45480b3e381ad28f30f934be9215b4ba
+SHA1: f7296bea0f9d4ddeaba8620bba3b230c60bd2b93
+SHA256: 6ba10d72923f8a76f53abaea6c162f7784aa09f1266d8c0b9954e95324a560f6
 Section: 系统增强
 Description: Safari工具栏添加按钮点击关闭标签页
  - 长按新建标签页并弹出键盘
@@ -1583,16 +1583,16 @@ Depends: mobilesubstrate
 Replaces: com.liuf.ceshi
 Filename: ./debs/Sileo头像转圈圈-Rootless.deb
 Size: 4276
-MD5sum: e892346350782a29eae15f2ee793ebf4
-SHA1: d85f56b0f978f7bb1dbc04498098153702fd2f44
-SHA256: 756aaa7bc1cbb0cc4b069b7bd3b3a3559ef1b27112925e84a220f4284aad5add
+MD5sum: 66c6d3ef93410f81f33efb01f121bb2b
+SHA1: 8e29d316622f507b3b15ded556ff29c1f84e16f8
+SHA256: d5ec5a1be7f68dfd292b79b9b82defc6ec79de5cadea647d1be948e80163d163
 Section: 系统美化
 Description: Sileo头像转圈圈
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Sileo头像转圈圈-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.liuf.ceshi.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lym.WXHelper
 Version: 0.1
@@ -1601,10 +1601,10 @@ Maintainer: lym
 Depends: firmware (>= 5.0), mobilesubstrate
 Replaces: com.lym.WXHelper
 Filename: ./debs/WXHelper助手-Rootless.deb
-Size: 9266464
-MD5sum: 6395493e8065da366b8e94d64781c643
-SHA1: 9f30130ad4cb3bdcfcd316681bd4df7be0faec4b
-SHA256: 75d714cd05ae59bd019917c68ff0fec4e9a27d02b6cab7c60770ae638333c480
+Size: 9264592
+MD5sum: 7e5750e131cbbb45c7e09c62cefb47cd
+SHA1: cb7c17f20996d765faf6d8928d12611948b02b48
+SHA256: 3f7f35b34b8e081230f0d5ec270b82928c99b48735abe90618f36e72fc4a6643
 Section: 微信插件
 Description: 文件/视频转语音
  - GPTAI文字转语音
@@ -1613,7 +1613,7 @@ Description: 文件/视频转语音
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: WXHelper助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lym.WXHelper.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.lym.WXHelper.json
 
 Package: lym.com.netskao.appdata
 Version: 1.4.4
@@ -1624,10 +1624,10 @@ Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata
 Replaces: com.netskao.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 5048260
-MD5sum: 140f12fbc17cc788d5b1750bef81ead0
-SHA1: 96aaab68abf0e8b6f9d30a41241596f5b3d5737a
-SHA256: de4a340f9b8647cb6f9eef97bca7592ffbc2b23e6f02f056bc39e787575ab9cc
+Size: 5050044
+MD5sum: 744dd143fb302370c7da292bd2b9062b
+SHA1: 79984e96d5735836ee996ea085b84cf51f029bb6
+SHA256: 5515ae288729d1b225a9dd4d8fd02dc3cd8f7365d1fef5c35bf5f4df629362ce
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1637,7 +1637,7 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.appdata.json
 
 Package: lym.com.netskao.awemealwaysshowtime
 Version: 1.1-1
@@ -1649,16 +1649,16 @@ Conflicts: com.netskao.awemealwaysshowtime
 Replaces: com.netskao.awemealwaysshowtime
 Filename: ./debs/AwemeAlwaysShowTime显示视频发布时间-Rootless.deb
 Size: 2488
-MD5sum: ab5d0a7c506851e2708054c7ee399a27
-SHA1: 687ffa1b6cbe59a902ba19ccfe21a539181abbab
-SHA256: 5a3e88e2fbd8b90857fad429ab139de9f9ad1a3ed390e040f184eff119e01c75
+MD5sum: 4b7a3d425607c56235b4554ba1583923
+SHA1: d810f8e8c187754e1fd97c7a20b0fc1bb24ff690
+SHA256: 37d37f144e93c642a7123e3b4e1fb99d02b6f3de479512d9d517ce77803f4554
 Section: 抖音插件
 Description: 抖音视频底部显示视频发布时间
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: AwemeAlwaysShowTime显示视频发布时间-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemealwaysshowtime.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemealwaysshowtime.json
 
 Package: lym.com.netskao.awemeclearlikes
 Version: 1.1-2
@@ -1669,17 +1669,17 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: com.netskao.awemeclearlikes
 Replaces: com.netskao.awemeclearlikes
 Filename: ./debs/AwemeClearLikes清除抖音点赞-Rootless.deb
-Size: 20028
-MD5sum: 5684bb10ef446dacdd6b1ccc3a0a2775
-SHA1: 3fa79998a918c3e2b62f7db6c800c5dd7f0e47f2
-SHA256: 0a83534520fc56de98f16a3262c9b4c8a6283add1122ff39f46b26a399d76a17
+Size: 20008
+MD5sum: 133bcbc335b7650382621839d31baa53
+SHA1: fb2f79114c17e5d5b03036b96e5e88a81fe0a873
+SHA256: 9c762dd9b99c46391db64455359ce7e04edb233835dfbaa3a07925e7ee03a4db
 Section: 抖音插件
 Description: 抖音自动清除抖音喜欢点赞过的视频
  - 使用方法:抖音-我-喜欢界面-摇晃手机
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: AwemeClearLikes清除抖音点赞-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
 
 Package: lym.com.netskao.awemedisablebar
 Version: 1.1-6
@@ -1689,10 +1689,10 @@ Installed-Size: 708
 Depends: firmware (>= 12.0), mobilesubstrate
 Replaces: com.netskao.awemedisablebar
 Filename: ./debs/AwemeDisableBar抖音禁用-Rootless.deb
-Size: 305216
-MD5sum: a89caf76944ba8c1094aede35f875443
-SHA1: 8a427ea236a55a8f622f75278f0797cebccbc960
-SHA256: 314fb716cc353f94d6109508a2d93bcab2ce09fc1d90dd9b49fbd016fc8d50af
+Size: 304820
+MD5sum: 53ff39f639b4907725940ce79b8ae04f
+SHA1: c758951c313bafa7d489e6ddc3eec2d885175a98
+SHA256: f72f0599590a64742ceb88715f34a70999911d913f598df993890122a93afddd
 Section: 抖音插件
 Description: 抖音禁用菜单按钮
  - 禁用“顶部/底部/右侧”选项/按钮
@@ -1701,7 +1701,7 @@ Description: 抖音禁用菜单按钮
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: AwemeDisableBar抖音禁用-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
 
 Package: lym.com.netskao.awemedownloadmedia
 Version: 1.1-8
@@ -1711,10 +1711,10 @@ Installed-Size: 456
 Depends: firmware (>= 15.0), mobilesubstrate
 Replaces: com.netskao.awemedownloadmedia
 Filename: ./debs/AwemeDownloadMedia抖音下载-Rootless.deb
-Size: 147084
-MD5sum: cd809921382ed035dda1621b02463566
-SHA1: a489810c8e71e7a9e08734990f7ce43a9f64cb11
-SHA256: ad389bac110314d893d6ba8ce9ce71c2f96a0065b49a0d408f029e09cbe1f936
+Size: 147820
+MD5sum: 9b73e6cdcfd1320a6cfedd1dd2a784c8
+SHA1: cb318e71edaa3664029e97b3ab91cd724e8df70f
+SHA256: 269d597bc456d2cbdcb551eaa713d5dd89f192ef9968570efc49bf9654776b02
 Section: 抖音插件
 Description: 抖音增强插件
  - 右下角显示下载按钮\n- 无水印保存图片、视频、LivePhoto
@@ -1725,7 +1725,7 @@ Description: 抖音增强插件
  - 开启功能后只有在视频/图片右侧中的下载按钮中下载才为无水印
 Author: Netskao
 Name: AwemeDownloadMedia抖音下载-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemedownloadmedia.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemedownloadmedia.json
 
 Package: lym.com.netskao.awemefullscreen
 Version: 1.2-3
@@ -1735,10 +1735,10 @@ Installed-Size: 384
 Depends: firmware (>= 12.0), mobilesubstrate
 Replaces: com.netskao.awemefullscreen
 Filename: ./debs/AwemeFullScreen抖音全屏-Rootless.deb
-Size: 161988
-MD5sum: d1ad0100ddd2e69d235ebf1074213d69
-SHA1: 3387e245ba8a220273e785467962e54297507478
-SHA256: 341a6f2e1af1af407cced4ff092ba91c619bd93983d2bc5f03388db9f8113f94
+Size: 161724
+MD5sum: 39e5200c2da70e071d0144fa75991cf0
+SHA1: 4ecd62b5ec2e097cd2bd6dae3464d3127086d825
+SHA256: 6346143025d3312c3e4900220b814ad4ee9a6ca8fc31f165eeb9bc494e2ad36e
 Section: 抖音插件
 Description: 抖音视频全屏显示
  - 对视频放大以达到全屏效果
@@ -1747,7 +1747,7 @@ Description: 抖音视频全屏显示
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
 Package: lym.com.netskao.awemesaveemoji
 Version: 1.1-2
@@ -1759,9 +1759,9 @@ Conflicts: com.netskao.awemesaveemoji
 Replaces: com.netskao.awemesaveemoji
 Filename: ./debs/AwemeSaveEmoji抖音保存表情-Rootless.deb
 Size: 75236
-MD5sum: f627bc4fc91d54de190b7711600e8e43
-SHA1: 78d714ccf29bfb674c705aa6f1339e94f32769ee
-SHA256: 21473af00b3b97b40ec737913fef573c54c5b34a9ca6b971b4fe639a4c349c8f
+MD5sum: 1459a31ec0b467da420f2980263b975c
+SHA1: 83ff7d3f431fc5667c2e9466ebd8476b5f0c914c
+SHA256: 429cd4f61d80ccbaff76ef27090001f578fc9b97178e434248abe5f7f0b55308
 Section: 抖音插件
 Description: 抖音评论区表情保存
  - 开启功能后只有评论区中长按表情才可保存至相册(不要点开放大表情)
@@ -1770,7 +1770,7 @@ Description: 抖音评论区表情保存
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: AwemeSaveEmoji抖音保存表情-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemesaveemoji.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemesaveemoji.json
 
 Package: lym.com.netskao.awemevideotime
 Version: 1.1-2
@@ -1780,10 +1780,10 @@ Installed-Size: 124
 Depends: firmware (>= 15.0), mobilesubstrate
 Replaces: com.netskao.awemevideotime
 Filename: ./debs/AwemeVideoTime抖音时间-Rootless.deb
-Size: 31768
-MD5sum: eb1068b7e0ad0f09c6a5f4f759c0f1c8
-SHA1: abc646c110e1eaa64cd5a8b2239eebc76c185bee
-SHA256: 8043c7add6c7f62ad0e55cd64dd1d08a20ac5c719886804c3c40ef07ee865c27
+Size: 31772
+MD5sum: 524b9f714323589ffc370d8fe6b983e8
+SHA1: f6d0fb55ef1f4082c8df74223662bca94942b82b
+SHA256: 34f4e4f2c5efec93bce45d0407a216a23de8055f0ad21e6c1a0ee8be6a5939e6
 Section: 抖音插件
 Description: 抖音增强插件
  - 抖音视频下方显示视频时长
@@ -1791,7 +1791,7 @@ Description: 抖音增强插件
  - 插件无设置项安装即可生效后请于24小时内删除!
 Author: Netskao
 Name: AwemeVideoTime抖音时间-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemevideotime.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemevideotime.json
 
 Package: lym.com.netskao.qqipadmodelogin
 Version: 1.1-1
@@ -1802,17 +1802,17 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.qqipadmodelogin
 Replaces: com.netskao.qqipadmodelogin
 Filename: ./debs/QQ iPad 模式登录-Rootless.deb
-Size: 2536
-MD5sum: e0c867a532955440405c131e0e1995d4
-SHA1: f7be53531273824db3e5b342f3b785031889b343
-SHA256: c85d0ff758d1ab8ba18253d46f55d98b02452d7c0e47db94ec2fe596242a907b
+Size: 2532
+MD5sum: 6bb9f2addea50d3387a618ae83fbd08b
+SHA1: 6f8c0a2afa099671cbee94109c9f01bbba7b451e
+SHA256: f7281c653351ffb768baeb95ca6aa01b62ecd0385f392a98b567ef8cb45ffc5b
 Section: 软件增强
 Description: QQ模拟iPad模式登录
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: QQ iPad 模式登录-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqipadmodelogin.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.qqipadmodelogin.json
 
 Package: lym.com.netskao.qqnotiavatar
 Version: 1.2-2
@@ -1823,17 +1823,17 @@ Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Conflicts: com.netskao.qqnotiavatar
 Replaces: com.netskao.qqnotiavatar
 Filename: ./debs/QQNotiAvatar消息头像-Rootless.deb
-Size: 25852
-MD5sum: 981186146bd6251114407d3d87867c7d
-SHA1: acc8d0b5670620efdacb2c38058d031f4292a0df
-SHA256: 81e4c1ac9f5a1a24d55f6157418fd80e2c1141096ae51eeb5a3e379d7c5bd36e
+Size: 25860
+MD5sum: 9c2e67bdd9d1ea185dd75d1ca783cf18
+SHA1: a749c49822552b41ff1dcce84b378d311f77669f
+SHA256: 4a63b281e7fd784adedc7b844ccb9f863263b2bfc4258a1c181e710da78655ad
 Section: 软件增强
 Description: 让QQ消息通知显示QQ好友头像
   - 插件无设置项安装即可生效
   - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: QQNotiAvatar消息头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
 
 Package: lym.com.netskao.ringtonesmanager
 Version: 1.1-4
@@ -1843,10 +1843,10 @@ Installed-Size: 114514
 Conflicts: com.netskao.ringtonesmanager
 Replaces: com.netskao.ringtonesmanager
 Filename: ./debs/Ring TonesManager铃声管理-Rootless.deb
-Size: 5333616
-MD5sum: 015695503a7bd84868482d51720eccd0
-SHA1: be6aacf886841b4d3ae94ef2b302d6c1ae02cada
-SHA256: f05aaa4f53f5cc784a97e2867e2f885e464e896f5286053d9a1fb9923383fee6
+Size: 5331064
+MD5sum: fc3a1eece435bd4bc71ec5ec0cd7592b
+SHA1: 52b961fb9a6eca935137f2fce70db8bb952810f1
+SHA256: 78615af7838d067e0d1801556a81f702b467119ca195b262929312dbace59484
 Section: 巨魔软件
 Description: 支持任意音频文件生成并设置iOS铃声
  - 丢弃繁琐的电脑和库乐队设置无30秒时间限制
@@ -1854,7 +1854,7 @@ Description: 支持任意音频文件生成并设置iOS铃声
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Netskao
 Name: Ring TonesManager铃声管理-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.ringtonesmanager.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.ringtonesmanager.json
 
 Package: lym.com.netskao.twitternoads
 Version: 1.1-2
@@ -1866,9 +1866,9 @@ Conflicts: com.netskao.twitternoads
 Replaces: com.netskao.twitternoads
 Filename: ./debs/Twitter NoAds-Rootless.deb
 Size: 2812
-MD5sum: 270d9750812e975b14488d6744ae4d69
-SHA1: c93a1b1d6e08392dec94d8d5d11bcf2a89370334
-SHA256: 4ec8193d48708b7886915411fcc83950fef3f3e2fdfc90dbf47ce3cb7dd16c48
+MD5sum: f2b070fc6e2a6e9eb87177b098b9a0b8
+SHA1: 59b4e43bdbbe38d7342017e4844f85e68d985421
+SHA256: 1ceeadb5e4c41d61a88448fde8e3063a50cee8b61fe251044f69127ffb1ec3f8
 Section: 软件增强
 Description: 删除Twitter数据流中广告
  - 仅在 10.64.1 版本上测试
@@ -1876,7 +1876,7 @@ Description: 删除Twitter数据流中广告
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: Twitter NoAds-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.twitternoads.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.twitternoads.json
 
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
@@ -1887,10 +1887,10 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.netskao.wcdisablehotupdates
 Replaces: com.netskao.wcdisablehotupdates
 Filename: ./debs/微信禁用热更新-Rootless.deb
-Size: 2500
-MD5sum: c24eb947f500d6ee8a93c9c6a973294c
-SHA1: ddbc1ffbfb70baeacbd04b4a6c117cf6731c6fde
-SHA256: 423008a3d3fcb673a5bd860d727e3c0a1a2822342154cb59b8d4cafacf91bb3c
+Size: 2492
+MD5sum: bb174820c5a8986f48ea4603292dd70f
+SHA1: 2d3db82675ba2bc3269cf9949de156938884d2d4
+SHA256: 66c23a1b8e8955e1d44c1483816c4326c7c9e33bfffdce3765775894311dab48
 Section: 微信插件
 Description: 微信禁用热更新
  - 热更新是通过动态下发和加载代码，在APP或SDK不重新下载和安装的情况下，改变其原有代码逻辑或资源文件
@@ -1898,7 +1898,7 @@ Description: 微信禁用热更新
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: 微信禁用热更新-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcdisablehotupdates.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcdisablehotupdates.json
 
 Package: lym.com.netskao.wcisoverseauser
 Version: 1.1-1
@@ -1910,9 +1910,9 @@ Conflicts: com.netskao.wcisoverseauser
 Replaces: com.netskao.wcisoverseauser
 Filename: ./debs/WCIsOverSeaUser海外通行秘钥-Rootless.deb
 Size: 2484
-MD5sum: b401c5ff306422884e925f18eacbc646
-SHA1: dfce2da1bc4633d051d024e0892b2c377c74ffa8
-SHA256: 665c7cdd2316a52f523a86a47c6126e3359d4652c14291108f09aaa4c9ea3267
+MD5sum: dabac85c256969d4a0d7f63833138dd9
+SHA1: 49d919705edeb1baec797b68f2c5ac9cc243a25c
+SHA256: 7177c537d21716f679fa783cdc9833be082bf795284d4fa249c37004e2a081ca
 Section: 微信插件
 Description: 微信通行密钥
  - 强制激活中国大陆86+号码使用「通行密钥」功能
@@ -1922,7 +1922,7 @@ Description: 微信通行密钥
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: WCIsOverSeaUser海外通行秘钥-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
 Package: lym.com.netskao.wcnewminiappfloatingwindow
 Version: 1.1-1
@@ -1934,16 +1934,16 @@ Conflicts: com.netskao.wcnewminiappfloatingwindow
 Replaces: com.netskao.wcnewminiappfloatingwindow
 Filename: ./debs/WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless.deb
 Size: 2456
-MD5sum: 22058aa550d55869bf81d4b48bf5bfda
-SHA1: 6df1aabf8bddc6b9ed9079d006388d4f98d3c4e1
-SHA256: 609f2387c61f3e9df263a522ed81ba9fb8b628243fd3cf21321b3d4dc50d72d2
+MD5sum: b185d7c7692c726688ec025a6795ffc2
+SHA1: 4a1594a1ff3ac80aadb41dca27219b9a5055476f
+SHA256: 546590988b15f382d1ae80e5919e18224f44d3cbf0c032ed14d933ccca8c3c95
 Section: 微信插件
 Description: 微信启用AB测试的miniApp浮动窗口功能，仅8.0.54+
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
 
 Package: lym.com.netskao.wechatuiswitchloader
 Version: 1.1-3
@@ -1954,17 +1954,17 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.netskao.wechatuiswitchloader
 Replaces: com.netskao.wechatuiswitchloader
 Filename: ./debs/WeChatUISwitchLoader微信UI开关-Rootless.deb
-Size: 91520
-MD5sum: 95854e980bd841847f2da4de679a6f43
-SHA1: 19befea1e4547e7c4efb3f84657acb41759776df
-SHA256: 3266f37f9bc26b988cadb725cc291ed30b7efa5e3d87e22d92630cdf5ac167ee
+Size: 91452
+MD5sum: e3fda747d0bb5e561dfb1caa169dc527
+SHA1: 51f19422546200f5383c763626628f2aadb01ba2
+SHA256: ae62b3ae674f7e0b9cca1d530f627007305270a97360230d1fb0c97bcc168abc
 Section: 微信插件
 Description: 微信UI开关
  - 有设置项可自行添加素材
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: WeChatUISwitchLoader微信UI开关-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatuiswitchloader.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wechatuiswitchloader.json
 
 Package: lym.com.nightwind.onesettings
 Version: 2.2
@@ -1974,10 +1974,10 @@ Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcu
 Conflicts: com.nightwind.onesettings
 Replaces: com.nightwind.onesettings
 Filename: ./debs/OneSettings设置归类-Rootless.deb
-Size: 217128
-MD5sum: befbaffda03dc2c68b77396a1c1be0fb
-SHA1: bf60ac2c3064db55ac9f64f677f5f0d9e098af2a
-SHA256: 318d849e3ac16ff979d5608fba24978f5f5a16ebc12dc9ee1b09ba34f54c3127
+Size: 217324
+MD5sum: 95fa7480f56c1a708314e5bd75aba4f1
+SHA1: 106d98789c66301b69b7f3440b53da1abaddc69c
+SHA256: 7a7db3c88b1b57194038d10f98c31b4d0a77654d04d47b27f490fed341d460fd
 Section: 系统增强
 Description: 系统设置美化分类插件
  - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
@@ -1986,7 +1986,7 @@ Description: 系统设置美化分类插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Nightwind
 Name: OneSettings设置归类-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.onesettings.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
 Package: lym.com.p2kdev.safarifind
 Version: 1.1.2
@@ -1997,17 +1997,17 @@ Depends: mobilesubstrate
 Conflicts: com.p2kdev.safarifind
 Replaces: com.p2kdev.safarifind
 Filename: ./debs/SafariFind长按分享查找-Rootless.deb
-Size: 8264
-MD5sum: 3a24b3dba6f779f8e9e9db15bea0fb3b
-SHA1: 61b2dd3cab8dd064d7b890b0c2c7889c50e9dcb5
-SHA256: ec2eb838d26ec059e5ed031535e7b6a292ec8e44e17309d32f0723436b600db7
+Size: 8268
+MD5sum: e11fcf4605d8c91b31f0c88655fa5985
+SHA1: 7d50c11d37e983697abe094cb9f8b1f989c1cd48
+SHA256: 65c22ff8a333638d973c7b906ef6675bda1eda0b17900cb14529b060310b21ee
 Section: 系统增强
 Description: Safari中长按共享按钮弹出搜索框
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: P2KDev <p2kdev@gmail.com>
 Name: SafariFind长按分享查找-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.p2kdev.safarifind.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.p2kdev.safarifind.json
 
 Package: lym.com.pingfan.wechat
 Version: 2.2-1
@@ -2016,10 +2016,10 @@ Maintainer: 平凡
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.pingfan.wechat
 Filename: ./debs/虚拟视频-Rootless.deb
-Size: 1658596
-MD5sum: 16fa656509961eb98c3c96151193dd2e
-SHA1: b3388aa192b76045b53b4982d021c320ef379968
-SHA256: afaecff45a8780d6d0db3e156537cd39a7d2d7733ce1c156e7e1c34af32dbc37
+Size: 1665980
+MD5sum: 1f11d231fcf6d97070085a428cae3501
+SHA1: da5b5e0f25ea34bb42b1edc06c2b22186a1c125c
+SHA256: a50ff8f5fb4ad0cd49f5775bcd89c40d0099a25e8d90b256005bdb24af645c2b
 Section: 微信插件
 Description: 微信虚拟视频
  - 抢红包,推送小助手伪装计算器
@@ -2030,7 +2030,7 @@ Description: 微信虚拟视频
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 平凡
 Name: 虚拟视频-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pingfan.wechat.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.pingfan.wechat.json
 
 Package: lym.com.qiop1379.swipeextenderx
 Version: 1.6.1~2
@@ -2041,10 +2041,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
 Conflicts: com.qiop1379.swipeextenderx
 Replaces: com.qiop1379.swipeextenderx
 Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
-Size: 85844
-MD5sum: 0094c5e0ca96cacd3ff1b398e71ebdfb
-SHA1: 6d4789f18b85c495772a4a60fbecb2853f800fc0
-SHA256: 567860fe0038957f66dc7ffa139314d5024b52ca29c5131c6d1306dbe3246268
+Size: 85956
+MD5sum: f29add6d8da0ce3641b1f802e85407ba
+SHA1: fdeb35ddf53ed98557c722ffd328ba7d8643333d
+SHA256: 4638855703ee64c41179327e724e5ba6d206086ecae436c90aa3bbd32554be1e
 Section: 键盘插件
 Description: IOS原生键盘增强功能
  - 仅仅支持系统原生键盘
@@ -2056,7 +2056,7 @@ Description: IOS原生键盘增强功能
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: MiRO <tweaks_support@miro92.com>
 Name: SwipeExtenderX键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
@@ -2064,10 +2064,10 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: com.screenshot.telegram
 Filename: ./debs/Telegram解除截图和去除界面分割线-Rootless.deb
-Size: 6116
-MD5sum: 49a0e363fa8ef66d001cbc4f63f4ed57
-SHA1: 0f4f02a1c2978bb9748ef8355fa7be4a09bfc6d5
-SHA256: f365d5a7cb4cd97e9a31cde9fd923576163ff07c123d28a7338e1283af1f9def
+Size: 6112
+MD5sum: 139e47e43a7f505351d57776124d4e8c
+SHA1: d69295f15c787085d7052c23afb5e61c8cddb660
+SHA256: 692e51d345bb8bfc0c617f7e818c4d0700843de792fc4a5a7b3069acec656d9a
 Section: 软件增强
 Description: Telegram功能增强
  - 去除Telegram包括第三方tg中删除分隔符
@@ -2076,7 +2076,7 @@ Description: Telegram功能增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Telegram解除截图和去除界面分割线-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.screenshot.telegram.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.screenshot.telegram.json
 
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
@@ -2085,17 +2085,17 @@ Maintainer: lym
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3文字图标.deb
-Size: 25232
-MD5sum: 3c0d353314a57b9742755dad306b9499
-SHA1: 96e0a44cc910d9f457a5f694cea9ecdf786f503c
-SHA256: 20250fd92d37e51d9717500fb772debaa9f08cf42243c2ff0bcf49add8e687b1
+Size: 25216
+MD5sum: 97c1c66df32646b8bf963038ba5afee7
+SHA1: 0ce2a9b12d7cf08f11fe513dfb651e20706ae7ff
+SHA256: 3f540a3ca0740568cda5ac0f5eb651599878b4e7562ac386ce1251cf703a7036
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Snapper 3文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.textforsnapper3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.textforsnapper3.json
 
 Package: lym.com.sini.xxforsnapper3
 Version: 1.0.1
@@ -2105,17 +2105,17 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini921.zhforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
 Filename: ./debs/Snapper 3繁体文字图标.deb
-Size: 60756
-MD5sum: 9307420cb50fa0ba3946830ea281d807
-SHA1: e5cc3e937b2266716ea12ef6d77f41c40ebca713
-SHA256: dd387be955bd1c32653abc524cff702c472b41f1bc292d1e46aacc693b077492
+Size: 60752
+MD5sum: ed5f3c15d9fab0799c154dd9590a5f60
+SHA1: e9c6a47ee07fa382c64dedb03910304129699b15
+SHA256: 50a9ab8a10bca843adce8d78224564a7d53f44465409fe2bda03d5688329c0ac
 Section: 系统美化
 Description: Snapper 3繁体文字美化图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Sini921
 Name: Snapper 3繁体文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
 
 Package: lym.com.sini921.zhforsnapper3
 Version: 1.0.4
@@ -2125,10 +2125,10 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: com.sini921.zhforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym1.com.sini.textforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.sini921.zhforsnapper3
 Filename: ./debs/Snapper 3对角文字图标.deb
-Size: 26448
-MD5sum: 030613c8970a63c312461c2de996f2d2
-SHA1: 2dd188929d73baaaf25a1eed3cc377df5cb46100
-SHA256: b31ef395cdeb072b1746cd7d9516698c5b044bc582ff559ab0be65bfbf03a5d5
+Size: 26444
+MD5sum: 0aa46d7f9b15e42ed74b1831eb96f27b
+SHA1: 90dc3c6c234171251a88dde877a9a909cc8b289f
+SHA256: 57970635914a51f64bf8b12c27d3f65aec80a6f4ce7b9f8d49c4d166f2f613dc
 Section: 系统美化
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
@@ -2136,7 +2136,7 @@ Description: Snapper 3自用文字美化图标
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 网友
 Name: Snapper 3对角文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.zhforsnapper3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini921.zhforsnapper3.json
 
 Package: lym.com.squidforce.doubletapflipcamera
 Version: 1.1
@@ -2147,10 +2147,10 @@ Depends: mobilesubstrate (>= 1.1.5000)
 Conflicts: com.squidforce.doubletapflipcamera
 Replaces: com.squidforce.doubletapflipcamera
 Filename: ./debs/双击翻转相机镜头-Rootless.deb
-Size: 5124
-MD5sum: 31bbbd8cb51585a1178c8290cd25b20c
-SHA1: e4b84ae51911084114cdc7765bf516590d0497ba
-SHA256: f350b89dbf58146ba72c85ab50d89db592a70e072ed24a2c4d85fe15979bbf92
+Size: 5112
+MD5sum: 5aeab1ec8d5bea500ad8a03a01fabaf5
+SHA1: 6d20b861e7e6eb0ff8fa6435df02dfde61760c45
+SHA256: 08d96f4b9fa3479abed2097c977db7d25168df1c91a917e44723d0d7a0274ece
 Section: 系统增强
 Description: 双击取景框翻转相机前置和后置镜头
  - 目前支持系统相机拍照和录像，微信拍照和视频，QQ拍照
@@ -2160,7 +2160,7 @@ Description: 双击取景框翻转相机前置和后置镜头
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SquidForce
 Name: 双击翻转相机镜头-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.squidforce.doubletapflipcamera.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.squidforce.doubletapflipcamera.json
 
 Package: lym.com.sunshinesong.split-view-pro
 Version: 1.3.7
@@ -2170,10 +2170,10 @@ Installed-Size: 5624
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Replaces: com.sunshinesong.split-view-pro
 Filename: ./debs/split-view-pro分屏-Rootless.deb
-Size: 1538172
-MD5sum: 13c808d3e51388d1a773c243307fd5e2
-SHA1: b511f95e744a105352b6bf6220909db0703bf082
-SHA256: 761bb674d90c1a3f2c832ffa825b62284f85629d3daff8a9b4c1284e28cedb81
+Size: 1538484
+MD5sum: c80cd4ca39a4ac8affde4e7800b0916b
+SHA1: 091fe27b4955a7328070dacfa205c22a28b2ab1b
+SHA256: 51a2350ddf14840dfe6a590ac78ea24ce1649c14d12ba9f0cd71b4959576f719
 Section: 系统增强
 Description: 已去除联网验证(网传删除node方法)
  - 上传仅为自用学习交流备份
@@ -2181,7 +2181,7 @@ Description: 已去除联网验证(网传删除node方法)
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: sunshinesong
 Name: split-view-pro分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.swing.fixlogintiktok
 Version: 0.0.1
@@ -2192,10 +2192,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.swing.fixlogintiktok
 Replaces: com.swing.fixlogintiktok
 Filename: ./debs/FixLoginTikTok修复登录去广告-Rootless.deb
-Size: 7964
-MD5sum: 2d4dead8ce063329cb351d0fdccf2cb4
-SHA1: 7e83ddcdc0951bd5b0efac695fc7cdad7a72ad45
-SHA256: 19cd132ed0ee874a6332fa50187f6bf156d1c376d232113bb2d79b4d08be29d6
+Size: 7960
+MD5sum: f0efd474c592c234d96663adb3acd5d9
+SHA1: 7ef5210d748b60955d9c214a4fde0d912038802f
+SHA256: c9270b90872a1fa9d23bedc63c0dbe1b9c0980fecce779f44093931241464b88
 Section: 软件增强
 Description: 修复 TikTok 挂代理也无法登录的问题
  - 屏蔽越狱检测，去广告！
@@ -2203,7 +2203,7 @@ Description: 修复 TikTok 挂代理也无法登录的问题
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SWING
 Name: FixLoginTikTok修复登录去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.swing.fixlogintiktok.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.fixlogintiktok.json
 
 Package: lym.com.swing.github
 Version: 1.0.1
@@ -2214,17 +2214,17 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.swing.github
 Replaces: com.swing.github
 Filename: ./debs/激活GitHub Pro-Rootless.deb
-Size: 6100
-MD5sum: 130a5bdb330f3feda59b05465e7b5e07
-SHA1: c082fe777c900066b306794a07cf4ef58d4e4f71
-SHA256: de5a30c5bbf0b029d8468a3d86ba28d03623bb6cc0f9b4f603fbba438d717dbf
+Size: 6088
+MD5sum: 80625624720957ffd3f840f9f43e5602
+SHA1: c5f45985938513675725a91ea56295f2a98772ea
+SHA256: 7ea0231fa95edc99d34ca272d09d54a72faca3b22d36d2c43e51220f21a16501
 Section: 软件增强
 Description: 激活GitHub Pro,除了Copilot功能,其他功能都支持
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: SWING
 Name: 激活GitHub Pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.swing.github.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.github.json
 
 Package: lym.com.telegram.return
 Version: 1.0
@@ -2232,10 +2232,10 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: com.telegram.return
 Filename: ./debs/Telegram换行键-Rootless.deb
-Size: 3832
-MD5sum: 757c93e6afa4cbe5bb083c51d5fa1e1f
-SHA1: dded99e0c0843036028238b1107f57a2d27fe9aa
-SHA256: 694843f1891cf79d48335352ab6d2c7ce5637c4cf16314c563e348f854808e8f
+Size: 3836
+MD5sum: 52ec6f9b47abc93d0e7044209a04e17a
+SHA1: 734b18254633ec3865b4b69e4732bc553b1f5ad2
+SHA256: 05d82623486bb8633a5de56e272660ff9f98ed9fb550d5ad227cde338c7ebf06
 Section: 软件增强
 Description: 把官方Telegram回车键/换行键修改为“发送”功能
  - 第三方tg自带此功能无需安装
@@ -2243,7 +2243,7 @@ Description: 把官方Telegram回车键/换行键修改为“发送”功能
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Telegram换行键-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.telegram.return.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tiaotiao.betteruiswitch
 Version: 1.1
@@ -2254,17 +2254,17 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.tiaotiao.betteruiswitch,lym1.com.tiaotiao.betteruiswitch
 Replaces: com.tiaotiao.betteruiswitch
 Filename: ./debs/全局版开关UI(白圈按钮版本)-Rootless.deb
-Size: 49264
-MD5sum: 250a4429c29adc627ba0ecd25bca0d05
-SHA1: 19908e783fc731b17f8f2895467c4ff419bb9a4b
-SHA256: 775d19f61a669281fe6d220ac402c976ebb931a6f02ea187bf4fea1ecf33d3f6
+Size: 49156
+MD5sum: 5d27182ea1a3abe72284319b278fcbce
+SHA1: 1effdf4f9ed39f23bb65a95dee4f4cdbec0e0799
+SHA256: 0c09403bb025112d3989bbc11511629d5fd47284d4bcbe6a081215521a3342ac
 Section: 系统美化
 Description: 全局版开关UI(涩涩版)
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: TiaoTiao
 Name: 全局版开关UI(白圈按钮版本)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tiaotiao.betteruiswitch.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.tiaotiao.betteruiswitch.json
 
 Package: lym.com.udevs.dockx
 Version: 2.6.2
@@ -2275,10 +2275,10 @@ Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
 Conflicts: com.restiveconch.actionbar, com.udevs.dockx
 Replaces: com.udevs.dockx
 Filename: ./debs/DockX 键盘增强-Rootless.deb
-Size: 421396
-MD5sum: 7026dc742d1ac831b50dad816abee6be
-SHA1: e246beea728a688fa71e03ae41d670fee027dc0e
-SHA256: a96a72e8367571d2f15e3ad800e3dfcac631b192bf31d44208d5dcc2f312d35c
+Size: 421224
+MD5sum: 897866ac59cf32734b536767eafee15b
+SHA1: bffafaa6b5ba2b53a80eab3df95192b6d9472ee1
+SHA256: 1770bd62b9f98a3504044e5e4bc197a792a4a368ec64633811d68603ef26db03
 Section: 键盘插件
 Description: 键盘底部增强插件
  - 经典键盘类插件DockX
@@ -2290,7 +2290,7 @@ Description: 键盘底部增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: udevs
 Name: DockX 键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.udevs.dockx.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
 Package: lym.com.xx.baiduhook
 Version: 1.0.2
@@ -2300,10 +2300,10 @@ Installed-Size: 356
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.baiduhook
 Filename: ./debs/百度地图优化-Rootless.deb
-Size: 102992
-MD5sum: 6067f3aa43897d48753de1c812e9523c
-SHA1: a83c6099dd9b6cf42b5abbeb0cbd593890257ff8
-SHA256: e32c73d5d78b34c380f3da8e661a71534d6fae656a1c3dcd991966b452c5e3d9
+Size: 102920
+MD5sum: f2bf370533a36d25069693254bda6ce1
+SHA1: 09f8b919fc53c404794fa835b4f267d9aa188d59
+SHA256: 9a0815bee286069af20cfda1c4dd4c4265baf199f47284d47225434aad2b877b
 Section: 软件增强
 Description: 去除百度地图一些无用的悬浮板块
  - 移除底部tab如果需要某功能
@@ -2311,7 +2311,7 @@ Description: 去除百度地图一些无用的悬浮板块
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 百度地图优化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.baiduhook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
 Version: 2.0.8+1
@@ -2322,10 +2322,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 5143024
-MD5sum: 61a1ba825c435514df358d44f5498474
-SHA1: 93a408c4734976fde252affa0d0a2c91fce1366e
-SHA256: 871ec7e58872d352e08dc4bafceedfae1618f346c07836cc71f829e7da4b2926
+Size: 5143172
+MD5sum: cad06e7cc8d793692760a09946601359
+SHA1: 901efb572e16c0e552d0d6692c756c05b63c0d12
+SHA256: b9b06072fe1289f19fd95b8f2ca8d2850e639777d1a1b9b58640b5feb24ed48d
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
@@ -2334,7 +2334,7 @@ Description: 抖音功能增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.dyhook.json
 
 Package: lym.com.xx.jrtthook
 Version: 1.0.4
@@ -2344,10 +2344,10 @@ Installed-Size: 644
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.jrtthook
 Filename: ./debs/今日头条图层-Rootless.deb
-Size: 180180
-MD5sum: 89ffe18ce608c7a126dcd672207f79f7
-SHA1: f436f53628912c0613234b3b00aad360ee1edded
-SHA256: 021a3ea455ab735afb0daaf4c2e995438c12c6039848ae148caba93285af70b0
+Size: 180024
+MD5sum: e4481f9f08a25bf966739c06084c74e5
+SHA1: 433cbb5f70f084b0d66a2ccc3b316ea019fae01c
+SHA256: 7861f77f43d41744d5974edb81a36eaa18e543c38b74626d870c7059455ded46
 Section: 软件增强
 Description: 默认移除头条一些广告
  - 无水印保存视频
@@ -2356,7 +2356,7 @@ Description: 默认移除头条一些广告
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 今日头条图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.jrtthook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.jrtthook.json
 
 Package: lym.com.xx.kshook
 Version: 1.0.6-3
@@ -2366,10 +2366,10 @@ Installed-Size: 2752
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.kshook
 Filename: ./debs/快手图层-Rootless.deb
-Size: 944944
-MD5sum: b0f8c31ebbf18624c33c91bb3d4c81d4
-SHA1: b803dd117420d96684027cecc0ce50c2d3f359b9
-SHA256: 6ad03c7c4bf59873c9b0dc3f27e61c7dad51be055bfcb48f3d65a2ff18d899f8
+Size: 944700
+MD5sum: fcbd1cf4cc799c8d3714ab882f209159
+SHA1: 1c49a371cbc13307ab865c68b74d11784ada5d4a
+SHA256: 0b4603b7ddc8b31a8ed03a0719b6d7cac11b51d45b8a8f78511b532b8c7dcde8
 Section: 软件增强
 Description: 移除一些广告 弹窗 无水印保存视频图片
  - 插件入口：依次点击-我-右上角三横-空白处长按打开菜单开启功能
@@ -2377,7 +2377,7 @@ Description: 移除一些广告 弹窗 无水印保存视频图片
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 快手图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.kshook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.kshook.json
 
 Package: lym.com.xx.ppxhook
 Version: 1.0.7
@@ -2387,10 +2387,10 @@ Installed-Size: 336
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.ppxhook
 Filename: ./debs/皮皮虾图层-Rootless.deb
-Size: 100972
-MD5sum: d27416811cbe5b346afde96e028fa373
-SHA1: d972e3cbb7a55fd96475a6e024ab6f78bfc9f10b
-SHA256: 24cf64c05cfdbd93bf254f8fab34309b89cd7ad89bc372984a7a1c3a7a94460d
+Size: 100932
+MD5sum: 27a25287086e563eb3f2f16469d29e7b
+SHA1: 77d1f196fdae0f9d010ebb3c4939861488235832
+SHA256: 5749ee74694bc3eb0ad883af2c15d4548cd9ead65345fef4efbbe8f6a368e55d
 Section: 软件增强
 Description: 皮皮虾去除一些广告
  - 原始按钮保存视频-图片无水印
@@ -2399,7 +2399,7 @@ Description: 皮皮虾去除一些广告
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 皮皮虾图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.ppxhook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.ppxhook.json
 
 Package: lym.com.xx.qqhook
 Version: 1.1.1-2
@@ -2410,10 +2410,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 785800
-MD5sum: 4ddfc9cec723836c7f71711762338de2
-SHA1: d55cf8b593a1ba2ace305da71612a3303a24eafc
-SHA256: 11f3a394f867bdf78501285da9c3c2c79a0da3c4f773073f0c3c5acf951c01a6
+Size: 786040
+MD5sum: fe8b616e95035263169bdeef2872fc26
+SHA1: f15765bbe0b6e93c978713f21ae738db91c89353
+SHA256: 2fd0e40bcadc09ece5fbf276a379c845bb7615a5b2ea56e0f1c89b3e1d1faf9a
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -2423,7 +2423,7 @@ Description: QQ功能增强
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: x✨
 Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.qqhook.json
 
 Package: lym.com.xx.xhshook
 Version: 1.1.2
@@ -2433,10 +2433,10 @@ Installed-Size: 3288
 Depends: mobilesubstrate (>= 0.9.5000)
 Replaces: com.xx.xhshook
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1146384
-MD5sum: 2c7d9cb087935758033f4252a9841eba
-SHA1: c572734255a17e0e34c2a068ec3c141e79afeb75
-SHA256: b4e931aeb184c56a93d64b1cd2fe57af7703b7f4492c5023f4d985858153796f
+Size: 1146460
+MD5sum: 2b61d0353671cea6ee0e94bc9a46de61
+SHA1: 5a06b2917d53092e103d72786f79846f6e4b7438
+SHA256: 8b1b365cd27d569573e862ae3a38699eca6c8dcbb2ce22a827bd322d15a72ffa
 Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
@@ -2446,7 +2446,7 @@ Description: 小红书软件增强
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 小红书图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.xhshook.json
 
 Package: lym.com.xybp888.lockbutton
 Version: 0.1-2
@@ -2456,17 +2456,17 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.xybp888.lockbutton
 Replaces: com.xybp888.lockbutton
 Filename: ./debs/一键锁屏-Rootless.deb
-Size: 30860
-MD5sum: 57dcc2531325d0ea932eebc6e41aff2a
-SHA1: ed562eb852267a4766fd36dcd58a580200fedbc8
-SHA256: f00bff2e9da678fdcd260c39a08a6e92012b658185513bb20b1cc423329cf5b9
+Size: 30840
+MD5sum: 786ac19964ad776ea802e392fe17b3a1
+SHA1: 9d02329f7f027c896cf18bafc04b4730176c0d4b
+SHA256: ee3cccb2e30bd743ee11c0a70133d46a6db12cbfe0c6994b084487c649a0b542
 Section: 系统增强
 Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: xybp888
 Name: 一键锁屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.lockbutton.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
 
 Package: lym.hxq-Rootless
 Version: 1.0
@@ -2475,16 +2475,16 @@ Maintainer: lym
 Replaces: hxq-Rootless
 Filename: ./debs/韩小圈解锁画质-Rootless.deb
 Size: 6660
-MD5sum: 76c680e56abef550490c2251b8b9d68a
-SHA1: e55a33fe3f6e5b0f76d60d15c0a249473b083cf8
-SHA256: 511512858e898e9d31d15b53842402821a61f11b91dc7f324ee52ecd5441c130
+MD5sum: 6d92effc9b0cd1cc4c8f05f497ada8ed
+SHA1: 29606d963e49065fe38f2b97a3eecb4b9c1418dd
+SHA256: f29f39a65d2d6e6aea124be44de399755bfb60aa6e9572c0e6d76677bc62d29c
 Section: 软件增强
 Description: 韩小圈解锁画质
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 韩小圈解锁画质-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.hxq-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.hxq-Rootless.json
 
 Package: lym.ios-rootless
 Version: 0.0.1
@@ -2495,16 +2495,16 @@ Conflicts: ios-rootless
 Replaces: ios-rootless
 Filename: ./debs/全局开关颜色-Rootless.deb
 Size: 3492
-MD5sum: 4dc166ae789fa74c5e8574cd5547512e
-SHA1: 009f9bc01989fb376a4ee59b23d886104036dbae
-SHA256: 5d0a9f1a33da76cf3ebb74428dcc84b3675fd13a31a082623b69bd675ab172c3
+MD5sum: 2fa7001666e3a5c62a0e363cc595b3b0
+SHA1: b5320b3561ced5409bf10e57dbaff00d9533f1e4
+SHA256: ab76c15e513f402943a5413af7cc22f128988f269ef9952dd36a20111c59315a
 Section: 系统增强
 Description: 让开关标签颜色更为好看
   - 开启方法：前往：设置 - 辅助功能 - 显示与文字大小 - 开/关标签
   - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ios-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ios-rootless.json
 
 Package: lym.jailbreak.lizi.repo
 Version: 1.0
@@ -2514,9 +2514,9 @@ Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
 Size: 2068
-MD5sum: 575f672612a0c429bfd275685ffca0f2
-SHA1: 46f51435a89fe2c7e5847b23b6d2b91238bd1e0c
-SHA256: ebfd8ffe0f7f930753b14bd856473df5949890397045bfa7bf8bb740703a4141
+MD5sum: 745960773d9188bdeb590b5fef40c774
+SHA1: 0bcb7f0bb56c6444e2ef1254a330d65ceeb301eb
+SHA256: d7cb9d206392a3a24574b1c381ccc4b6f7297fa234b7e846b0c6bd497df98fd0
 Section: 系统增强
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台
@@ -2525,7 +2525,7 @@ Description: 收藏越狱源大全
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 无名
 Name: 一键添加越狱源-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jailbreak.lizi.repo.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jailbreak.lizi.repo.json
 
 Package: lym.jp.r-plus.anykeytrackpad
 Version: 1.1.1
@@ -2536,10 +2536,10 @@ Depends: mobilesubstrate, firmware (>= 12.0)
 Conflicts: jp.r-plus.anykeytrackpad
 Replaces: jp.r-plus.anykeytrackpad
 Filename: ./debs/AnyKeyTrackpad键盘任意键光标-Rootless.deb
-Size: 7004
-MD5sum: 27ef4acb6c3bb77a82404a920593d80c
-SHA1: bea970cbc6666247957e464dab6dbe81b26165f5
-SHA256: 0d5da3f5da232ae918229f3999fe3cb82a971fdbaef003ba9fef353beca0ba53
+Size: 7000
+MD5sum: 4d52909e4c94a6e452f1eb37a642fb78
+SHA1: 23065346bcacdb9965d089795a45cd34b5248735
+SHA256: dc325577697b01495146756a90cafea938e8ad466756949401c5df6fc6722982
 Section: 键盘插件
 Description: 长按键盘滑动光标
  - 长按键盘任意键
@@ -2548,7 +2548,7 @@ Description: 长按键盘滑动光标
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
 Package: lym.kuwo-Rootless
 Version: 1.0
@@ -2557,17 +2557,17 @@ Maintainer: Netskao
 Conflicts: kuwo-Rootless
 Replaces: kuwo-Rootless
 Filename: ./debs/酷我畅听解锁-Rootless.deb
-Size: 64568
-MD5sum: c44bf3d026434f2eb39bd157943ac717
-SHA1: 21eb0ac8b6cf1de4bd58ee89a1596a7ea8fc3833
-SHA256: 35cc73263ccf2a3483a2dbe3de57cccc8eaa78073a2eb3727ce2d35311e0ceb2
+Size: 64540
+MD5sum: 33856740de8d193212c9370b93522973
+SHA1: 89797026b46a21b62e4269c7ce7da8e563692fb8
+SHA256: 6f132b35e5dcd17f0da945bfc6128de2a607154640befd0f6af5ca53d787dd37
 Section: 软件增强
 Description: 酷我畅听解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: 酷我畅听解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.kuwo-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.kuwo-Rootless.json
 
 Package: lym.me.lau.atria
 Version: 1.4.1
@@ -2578,10 +2578,10 @@ Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
 Replaces: me.lau.atria
 Filename: ./debs/Atria桌面布局-Rootless.deb
-Size: 237204
-MD5sum: de1ca3dc8a57d75b275fa13e85c6cab2
-SHA1: 97a11d3f7acde723f3b842cd923a7871706913ae
-SHA256: 0d591e65aad9b4ae0ac3d690097a420ba10de80fc9e3ed5633040c9f162ad284
+Size: 236976
+MD5sum: d5681cec63ad312887e0577da42557fc
+SHA1: 9716348b99dcb567cfb2f76ef5bccdfb347d922a
+SHA256: 821500ef725b0b64dce5f42e4410454a72352e00f874dbcc5d259781b077e2d8
 Section: 系统美化
 Description: 桌面布局美化
  - 自定义桌面图标大小
@@ -2591,7 +2591,7 @@ Description: 桌面布局美化
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: ren7995 <lau7995ren@gmail.com>
 Name: Atria桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.me.lau.atria.json
 
 Package: lym.net.camera
 Version: 0.1-2
@@ -2601,10 +2601,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: net.camera
 Replaces: net.camera
 Filename: ./debs/全屏相机-Rootless.deb
-Size: 3460
-MD5sum: 4b046f794acdbbd3f7428543e684367a
-SHA1: c79045619db7eb433ede4be7a51f0f62f9492f84
-SHA256: 702f86590eabd2c680ccdf12c3c6beadaaf7e382bb7df6069f90621daedde675
+Size: 3456
+MD5sum: 9cd7761689e2b7de99225215edb2231e
+SHA1: 237dc7e6278b30a65a99eb928ce09470dc6d3854
+SHA256: 767dd527bfbd232f7924f2c9eb6d932bc25d6fdfeb68794913b224d727253ecd
 Section: 系统增强
 Description: 仅去除原生相机顶部和底部两个黑色模块
  - 使其达到全屏视觉效果,默认拍照比例为4:3
@@ -2613,7 +2613,7 @@ Description: 仅去除原生相机顶部和底部两个黑色模块
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Name: 全屏相机-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.net.camera.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.net.camera.json
 
 Package: lym.netskao.actionbarreborn
 Version: 1.1-2
@@ -2624,17 +2624,17 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Conflicts: netskao.actionbarreborn
 Replaces: netskao.actionbarreborn
 Filename: ./debs/ActionBar Reborn键盘增强-Rootless.deb
-Size: 161684
-MD5sum: 7cb8b8b67644af898672fea8b0875cb4
-SHA1: 8f50079987a17e8fcae1ebb84513e384f49c224e
-SHA256: f86e0186d76f0d774b9385f799e7f9c060119a42bb67b253595114b2c1bef6d8
+Size: 161044
+MD5sum: 269b35467e1daefb6ae40ef6f07acd32
+SHA1: 1503d3b33eeed463b1667a2e49ed5d6637f78f50
+SHA256: 2d04b8c32f450dea2c9853bdfb5dd33fd3a341098f6f7fc47bfd37989b54ab57
 Section: 键盘插件
 Description: 在键盘底部增加撤消、重做、全选、复制、剪切和粘贴按钮
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: ActionBar Reborn键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.actionbarreborn.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.actionbarreborn.json
 
 Package: lym.netskao.alipayhooks-rootless
 Version: 1.1-3
@@ -2642,17 +2642,17 @@ Architecture: iphoneos-arm64
 Maintainer: Netskao
 Replaces: netskao.alipayhooks-rootless
 Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
-Size: 72576
-MD5sum: a5fda43e4a26958c2f46c1fdecb0e436
-SHA1: 120bc8036e4882c782362d7d6fa5c2c9559f48e5
-SHA256: 0a4729bd160238ce7231e36d767875cb675d997b3a45bbb43073e97cbfc890ca
+Size: 72620
+MD5sum: d81492979072d32cc968674c94521024
+SHA1: 9e093f0d3279bb2200e43a1266a6cd593771248a
+SHA256: a8af0097d7bcccf6df4044bf27ac33baa7913d6cb758b9bd2c4c9432df4aa393
 Section: 软件增强
 Description: 支付宝去除底部理财选项
  - 插件无设置项按照即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: 支付宝去除底部理财选项-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.alipayhooks-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.alipayhooks-rootless.json
 
 Package: lym.netskao.ccsim-rootless
 Version: 1.1-9
@@ -2663,17 +2663,17 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: netskao.ccsim-rootless
 Replaces: netskao.ccsim-rootless
 Filename: ./debs/CCSIM 快速禁用-Rootless.deb
-Size: 23640
-MD5sum: 579b843af544bdb29de831f427476526
-SHA1: b07a89111bf048ed273f0b97581c326ca04942b0
-SHA256: 1dfe03b1a1ec6a6755b121a9d5fcf1d445e14831d3e96402b4bebe45f67c9613
+Size: 23668
+MD5sum: d2ce0ec427c95cb4839574e9a260fe38
+SHA1: 698ab41f8c4730e0a07d62071bab0b337f85ebf5
+SHA256: 21f4500d0f5240d019d951c9e54e3b73c0f07adf23504c46d518dfee308fa1c7
 Section: 控制中心
 Description: 对于双SIM卡用户可以通过控制中心快速启用或禁用其中一张SIM卡
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: CCSIM 快速禁用-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccsim-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccsim-rootless.json
 
 Package: lym.netskao.ccswitchdata-rootless
 Version: 1.1-4
@@ -2684,17 +2684,17 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: netskao.ccswitchdata-rootless
 Replaces: netskao.ccswitchdata-rootless
 Filename: ./debs/CCSwitchData蜂窝-Rootless.deb
-Size: 21000
-MD5sum: c4d9073720c43887eb35f077c53c15c7
-SHA1: a4bf45be54a8afaf7c78d9e0de1f636d88bedc32
-SHA256: 9a4661c08fe7b3455d71ac5cbbbd1d828a2141f8318e057261cb83ea54539f4b
+Size: 21004
+MD5sum: 9595988a9b73859f635ce123604eca3b
+SHA1: d0f148b3983769614f6814d7bb581c8ec0bfeb3f
+SHA256: e95bdd7f7e853cf51eec355f8bc4c996aa5d3ae6ce25b683503e67814e2a7dce
 Section: 控制中心
 Description: 对于双SIM卡用户，可以通过控制中心快速切换选定的蜂窝网络
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 
 Package: lym.netskao.wechatpurification
 Version: 4.2-7-END
@@ -2704,17 +2704,17 @@ Installed-Size: 16676
 Depends: mobilesubstrate, firmware (>= 12.0)
 Replaces: netskao.wechatpurification
 Filename: ./debs/微信净化 END-Rootless.deb
-Size: 6273152
-MD5sum: 967c0ec321ea6d4b0f72b1691e66afc8
-SHA1: fd0bee13e361af7e979ed406ded03e70eea3278c
-SHA256: 94c33027e8cf04db0062550f17cf399866fcc53b305b969f556f1e95129ff0fc
+Size: 6274852
+MD5sum: 1c958149ef7b92694f3b1183bf57c8e6
+SHA1: 0a713f70950ab45bb46038d8e5a1aff28fafe29c
+SHA256: 4bbf1cf35f36405781eb16d586d368320e115f86d3aff924fdea599faa89ab1f
 Section: 微信插件
 Description: 微信净化，还原聊天本质，干净的微信给你
  - 仅支持8.0.29及以上版本，设置位于微信-设置
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
 Name: 微信净化 END-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.wechatpurification.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.wechatpurification.json
 
 Package: lym.qqshurukuang-Rootless
 Version: 1.0
@@ -2722,17 +2722,17 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: qqshurukuang-Rootless
 Filename: ./debs/QQ圆角输入框-Rootless.deb
-Size: 3348
-MD5sum: e1005d2111b9c7404bc0b46be181c569
-SHA1: 06812bc3217b1f0f6546e317ca1a0b01b8cce6d9
-SHA256: c885fe3faf47bceb25cb3c680530ad3e969c3ec6006bca34345091fbe1b3d169
+Size: 3344
+MD5sum: ffbfe9eb5aa88f05336e10e70cb0ee3f
+SHA1: 75f1a255ef7d1c00f3bca82c4c4d1482977c3377
+SHA256: 20d104d2a23178bffb2fcce9846c3b91ee1b163a73e08e60de64c60e3c15ade1
 Section: 软件增强
 Description: 修改QQ聊天输入框为圆角样式
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ圆角输入框-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.qqshurukuang-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.qqshurukuang-Rootless.json
 
 Package: lym.weixinipad-Rootless
 Version: 1.0
@@ -2740,17 +2740,17 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Replaces: weixinipad-Rootless
 Filename: ./debs/微信启用ipad登陆-Rootless.deb
-Size: 4244
-MD5sum: f0dbda2195befd394ec01348fd7a9645
-SHA1: cb8939630e0428747df8593d0d8ec19686bdfc91
-SHA256: e02677ddb5b294150e376ebb1148133fbe2ac019f2a991c7579a9141d2d0e925
+Size: 4240
+MD5sum: 672870340b9f2e6670e64fa0350e88e2
+SHA1: b8e7fdc846b3831f69a45ab011bfbc824bdd20b6
+SHA256: a871d77c385c0f17818c5200e0205babccce77f155a80d2563d062493b1826ef
 Section: 微信插件
 Description: 微信启用ipad登陆
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: 微信启用ipad登陆-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.weixinipad-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.weixinipad-Rootless.json
 
 Package: lym.ws.hbang.newterm3
 Version: 3.0~beta1
@@ -2761,16 +2761,16 @@ Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Filename: ./debs/NewTerm 3 Beta终端-Rootless.deb
-Size: 3839072
-MD5sum: 9c2b0be39ae8193f3585a33430b5b01b
-SHA1: 54a397c1a0ad3b959646eb7b899e9195d6a7956a
-SHA256: 445fe8c5464c0e1f2538ebd99f53a6d75272d69d7b4242c5c7a97be912e381c4
+Size: 3839204
+MD5sum: 445fda7d33d71823209707b4fcee4b36
+SHA1: d9d4caee968f8555cba709bbcf645b18cd55e53e
+SHA256: f5263f3d386e01b32a990919bd6e2a5d324a3e06dded68630977d94efb03c8ff
 Section: 系统增强
 Description: 强大的iOS端开发工具
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: HASHBANG Productions <support@hbang.ws>
 Name: NewTerm 3 Beta终端-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ws.hbang.newterm3.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
@@ -2778,10 +2778,10 @@ Architecture: iphoneos-arm64
 Maintainer: 无名
 Replaces: xtjpyj-Rootless
 Filename: ./debs/修改系统键盘圆角-Rootless.deb
-Size: 3880
-MD5sum: 3df8b7e18c372ea40906cb84fdd9022f
-SHA1: c6f0f60d47152960d157e080f7ebee50f60698a3
-SHA256: 99d5156eaec35e0a46b1e4b3bb7f81559f54533d6ed156c4015845252ec358b5
+Size: 3872
+MD5sum: 819e75a36a6f894142eececd28aeabed
+SHA1: c713f08b4db9cfabd50a32ab129d7963b3a955e0
+SHA256: 73019f29271a2fe909702a0b6488cd552b6839bb5ad2f1c43b4f19c23cbb6e8e
 Section: 键盘插件
 Description: 修改系统键盘为圆角
  - 插件无设置项安装后即可生效
@@ -2789,7 +2789,7 @@ Description: 修改系统键盘为圆角
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 无名
 Name: 修改系统键盘圆角-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xtjpyj-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
 
 Package: lym.zuji-Rootless
 Version: 1.0
@@ -2798,16 +2798,16 @@ Maintainer: 🅷🆆
 Replaces: zuji-Rootless
 Filename: ./debs/一生足迹解锁-Rootless.deb
 Size: 10648
-MD5sum: 3800e3bbb1f2d115ba43048bced5e1c3
-SHA1: ae173908597ad0b9ed72e3e9c7f0260be8d5af6b
-SHA256: 2c07e31e4f1e5b1f8ae46972c2457d70914afec635014817f3254bf9c3292f62
+MD5sum: 0ffac252291a727ce1d4381b4bbb964d
+SHA1: 8a539ef885d445c662b1d1ce2e11798345f82b2f
+SHA256: b70ae140da73a48db1c2f8df7c8dabd4f7002f4da2f57099c0e5eff74e08abda
 Section: 软件增强
 Description: 解锁会员
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.zuji-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
 
 Package: lym1.com.nightwind.onesettings
 Version: 1.0
@@ -2818,17 +2818,17 @@ Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcu
 Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle, com.nightwind.onesettings
 Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lym.com.nightwind.onesettings
 Filename: ./debs/OneSettings图标美化-Rootless.deb
-Size: 5900
-MD5sum: e946627e58eed61d84e8f79b9b924c05
-SHA1: d4a56bfc22074440024cc80c361315a8028d0c81
-SHA256: 91670d051c70d727462e48f24c9e553b652ab2c276cbe36db4322316adb1cc03
+Size: 5892
+MD5sum: 7ce6396888de11f139323a43436466b5
+SHA1: 1ea7360bbb2a957e6243b64be4835720915dcc22
+SHA256: ca708a0f65ed82221b2d0a1e6865323d0101022ad7daafca21e53ad2665a61b7
 Section: 系统美化
 Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: lym
 Name: OneSettings图标美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.nightwind.onesettings.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.nightwind.onesettings.json
 
 Package: lym1.com.sini.textforsnapper3
 Version: 1.0.1
@@ -2837,17 +2837,17 @@ Maintainer: lym
 Conflicts: lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
 Filename: ./debs/Snapper 3蓝色发光文字图标.deb
-Size: 91928
-MD5sum: 465ad816e406ba56b5eaf68ef96f813a
-SHA1: 3f6b77041888d061a4abff1305896c5f36d90842
-SHA256: 32c7a2a271759d9ef52cbabc8220471646fcd210febe5511ae403def9cf88c91
+Size: 91920
+MD5sum: 524412b3e9add4b629af2a565dd5585a
+SHA1: f6d66ec0ec8430cd5af9e937d0bcae2f9a77f5a3
+SHA256: 9a2a57cf51f6e803bbb25efc34c77e5a26f3abaa70b42646d6a6e6502001a688
 Section: 系统美化
 Description: Snapper 3自用蓝色发光文字美化图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: Snapper 3蓝色发光文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
 
 Package: lym1.com.tiaotiao.betteruiswitch
 Version: 1.1
@@ -2858,17 +2858,17 @@ Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.tiaotiao.betteruiswitch,lym.com.tiaotiao.betteruiswitch
 Replaces: com.tiaotiao.betteruiswitch
 Filename: ./debs/全局版开关UI(透明按钮版本)-Rootless.deb
-Size: 58588
-MD5sum: 81ded85b0b9bcf4c0c18f839c94e18d5
-SHA1: 183d61ada59af2d07768c850902aaeaa99952998
-SHA256: f16861bde67a23a46760d0c40751f365d169d8e900266ee6ca803847bfc330db
+Size: 58572
+MD5sum: 6d801d0137d4856ca7104d43de4891e1
+SHA1: 027e680480471cf910ff3d1de759c24bb55b7e17
+SHA256: 47a7dee50b4e4ed09d0a19b288dc4a7ce77a63f01587d22a75794c1aceed9de6
 Section: 系统美化
 Description: 全局版开关UI(涩涩版)
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: TiaoTiao
 Name: 全局版开关UI(透明按钮版本)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym1.com.tiaotiao.betteruiswitch.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.tiaotiao.betteruiswitch.json
 
 Package: qqipad-Rootless
 Version: 1.1-1
@@ -2876,9 +2876,9 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/QQ模拟iPad登陆-Rootless.deb
 Size: 2468
-MD5sum: ef7e27df1946c629c616697a79200013
-SHA1: eff67ff03313623f152efc58e292b6ff598ed121
-SHA256: de3f3dc2e12b3456b3ec160a423ea722e35cac914f4da71d49b1276c08800860
+MD5sum: 9300f3731c4a9f778eb0e9115c45ee6c
+SHA1: 4d5b8faf7be63c9e28c07e942184853351685a27
+SHA256: 608719d69b46a80cc71e3e107b52d722e7e60845f4742b0d6f7b0b9342bb0a66
 Section: 软件增强
 Description: QQ模拟iPad模式登录
  - 截止目前支持 11.0.40 版本
@@ -2886,17 +2886,17 @@ Description: QQ模拟iPad模式登录
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: lym
 Name: QQ模拟iPad登陆-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/qqipad-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/qqipad-Rootless.json
 
 Package: tikTok-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
 Filename: ./debs/移除tikTok底部发布符号-Rootless.deb
-Size: 3224
-MD5sum: 3abf26f9a99d3d6d569c50c344705bf8
-SHA1: bef62df8cb5ffcc49f46eeeea639a00749bbacd0
-SHA256: 84e8da2bb16fc2f7abb3fa43a41a1c4fb16aa1f00d78d95c7b947e4c4211ea96
+Size: 3220
+MD5sum: 5052655a900ff9ffbdf242951a0de96b
+SHA1: c10ab2859393848b5ab8833295e01440e79acea3
+SHA256: bd0f0551018664e772f758277e88a8882bbdc58cd5ff2b648dbe2b4ae18fdb89
 Section: 软件增强
 Description: tikTok移除底部➕号
  - 插件无设置项安装即可生效
@@ -2904,5 +2904,5 @@ Description: tikTok移除底部➕号
 Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/tikTok-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
 
