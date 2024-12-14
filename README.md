@@ -24,7 +24,7 @@
    Architectures: iphoneos-arm64
    Components: main
 
-7.	然后在页面最上方将文件命名为 shaoxia/Release，然后点击 Commit changes。（提交更改）
+7.	然后在页面最上方将文件命名为 repo/Release，然后点击 Commit changes。（提交更改）
 8.	在仓库页面点击 ... > Settings，进入 Pages。（仓库设置 > 页面）
 9.	在 Build and deployment(构建和部署)下选择 main，点击 Save(存储)
 10.	等待 2 分钟，刷新页面。找到 GitHub Page 下的链接并复制，作为源地址添加到 Sileo 进行使用。
@@ -62,7 +62,7 @@
 （此处替换为自己的 HTTPS 链接，将仓库克隆到本地）
 
 
-         git clone https://github.com/liym5238/shaoxia.git
+         git clone https://github.com/lu2412/repo.git
 
 
 3. 克隆完成后，在终端界面输入此代码查看仓库克隆到本地路径如(/var/jb/var/mobile)
@@ -101,7 +101,7 @@
 
 1.	在 NewTerm 3 Beta 中，输入以下命令初始化 Git 并将文件推送到 GitHub：
 
-         cd /var/jb/var/mobile/shaoxia
+         cd /var/jb/var/mobile/repo
          git pull
          git add .
          git commit -m "xxx"
@@ -119,7 +119,7 @@
 
 4. 也可以用以下代码一键更新Packages文件和上传到仓库（记得替换为自己的路径）
 
-       cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
+       cd /var/jb/var/mobile/repo && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
 
 # GitHub SSH Key 配置指南
 
@@ -151,17 +151,17 @@
 
 成功输入后后将看到类似如下的提示：
 
-      Hi liym5238! You've successfully authenticated, but GitHub does not provide shell access.
+      Hi lu2412! You've successfully authenticated, but GitHub does not provide shell access.
 
 步骤 5: 克隆仓库并配置 SSH URL
 
 1.	使用 SSH 链接克隆仓库命令。
 
-         git clone git@github.com:liym5238/liym.git
+         git clone git@github.com:lu2412/repo.git
 
 2.	打开克隆的仓库目录下的 .git/config 文件，将 url =  后的 HTTPS 链接替换为 SSH 格式的链接：
 
-          url = git@github.com:liym5238/liym.git
+          url = git@github.com:lu2412/repo.git
 
 
 
@@ -170,7 +170,7 @@
 1. 在终端NewTerm 3中使用以下命令更新到仓库
 
 
-         cd /var/jb/var/mobile/liym
+         cd /var/jb/var/mobile/repo
          git pull
          git add .
          git commit -m "提交说明"
@@ -179,7 +179,7 @@
 
 2.如有更新deb也可使用以下代码一键更新Packages文件和上传内容到仓库
 
-       cd /var/jb/var/mobile/liym && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
+       cd /var/jb/var/mobile/repo && rm -f Packages && dpkg-scanpackages . /dev/null > Packages && git pull && git add . && git commit -m "更新 Packages 文件" || true && git push
 
 
 </details>
