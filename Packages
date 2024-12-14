@@ -37,20 +37,19 @@ Name: 百度网盘下载文件导出-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/baiduwangpan-Rootless.json
 
 Package: cn.zqbb.disupdateapp
-Version: 2.0.0-3
+Version: 2.0.0-5
 Architecture: iphoneos-arm64
 Maintainer: zqbb
-Installed-Size: 788
+Installed-Size: 804
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/屏蔽app升级.deb
-Size: 206716
-MD5sum: cb589e91b75fa81f5135d593cdb7920b
-SHA1: 0eb638a9b3b5a4f8727bd1ff38991e8f9a03adf9
-SHA256: 7c04d1624f50232955ff320c2ed6b4594adc9b4e876e82ef63b5f078c468387d
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-5_iphoneos-arm64.deb
+Size: 197736
+MD5sum: 00f931684b83185b4363c5d0677ca3b9
+SHA1: 378019bb5d3fdb903da02a4b84049298c38c332c
+SHA256: fb775b0c25b0e57a3adb12010233612475e925bf76d198dc5cb345b4a581c6bb
 Section: 系统增强
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
 Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
