@@ -32,6 +32,12 @@
             "title": "QQ图层",
             "package": "lym.com.xx.qqhook",
             "hideShadow": true
+        },
+        {
+            "url": "https://lu2412.github.io/repo/icon/spo.png",
+            "title": "Spotify",
+            "package": "lym.com.eevee.spotify",
+            "hideShadow": true
         }
     ]
 }
