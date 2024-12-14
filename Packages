@@ -1121,10 +1121,10 @@ Depends: mobilesubstrate
 Conflicts: com.hk.daodao.noseparators, com.hk.daodao.rootless.noseparators, com.qms.noseparators, com.hk.noline, com.qms.noline, com.dao.noline
 Replaces: com.dao.noline
 Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
-Size: 4032
-MD5sum: 19190def9d45630d899f5c35e37ec7ec
-SHA1: 3abb786e63f226c81d7b4f2e35a1b216fe974c4d
-SHA256: 92d02fe80b44dae13867087289c41816bb559b46ff68e89e96172b68a8645077
+Size: 4104
+MD5sum: 05560f026c9702673e2db2da85f96fc9
+SHA1: b78d7e45862b3525ebc3896ec1e67adb4c8ba2af
+SHA256: 2b56c661466b858a5e76339805d8cf91504a5e42be7983da519769330d6dbca6
 Section: 系统增强
 Description: 去除全局分割线
  - 去除弹窗/UI/长按菜单等地方的分割线
