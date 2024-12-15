@@ -2737,24 +2737,6 @@ Author: Netskao
 Name: 微信净化 END-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.wechatpurification.json
 
-Package: lym.qqshurukuang-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: qqshurukuang-Rootless
-Filename: ./debs/QQ圆角输入框-Rootless.deb
-Size: 3344
-MD5sum: ffbfe9eb5aa88f05336e10e70cb0ee3f
-SHA1: 75f1a255ef7d1c00f3bca82c4c4d1482977c3377
-SHA256: 20d104d2a23178bffb2fcce9846c3b91ee1b163a73e08e60de64c60e3c15ade1
-Section: 软件增强
-Description: 修改QQ聊天输入框为圆角样式
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ圆角输入框-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.qqshurukuang-Rootless.json
-
 Package: lym.weixinipad-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
