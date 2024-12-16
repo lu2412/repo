@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信主题插件\n- 支持悬浮底栏,资料页头像居中\n- 私聊隐藏头像等支持全量DIY\n- 优先加载diy内容,此版本啥都能diУ\n- 路径:ThemeBox/diy/对应主题/素材\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信个人资料居中\n- 仅支持微信8.0.51及更高版本\n- 老猫收纳插件内开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,15 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/hezi.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tx.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/hezi1.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/hezi2.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tx1.png"
                                   }
                             ]
                   },
@@ -46,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "WeChat",
+                      "text": "Netskao",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.2-1",
+                      "text": "1.1-4",
                       "title": "插件版本"
                   },
                   {
@@ -72,14 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.2-1 \n- 修复DIY功能素材加载不上\n- 优化了一些细节，悬浮底栏新增描边和两个动画，"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.1\n- 初始版本"
+                      "markdown": "### 版本 1.1-4 \n- 新增点击微信号文本支持自定义文本内容"
                   },
               ]
           }

@@ -1967,6 +1967,28 @@ Author: Netskao
 Name: WCIsOverSeaUser海外通行秘钥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
+Package: lym.com.netskao.wcmypageinfocenter
+Version: 1.1-4
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 156
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcmypageinfocenter
+Replaces: com.netskao.wcmypageinfocenter
+Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
+Size: 41872
+MD5sum: 562ddb41814cb99638156fd46dd6e029
+SHA1: a60acb8c2cd0ac0143835e037d69dc0b1a64db11
+SHA256: c9f700ffaaa8f4c64a75db1cc838d8f33449ac1e1fcd1377b1c2514c4458121d
+Section: 微信插件
+Description: 微信个人资料居中
+ - 仅支持微信8.0.51及更高版本
+ - 老猫收纳插件内开启
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 微信资料居中WCMyPageInfoCenter-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcmypageinfocenter.json
+
 Package: lym.com.netskao.wcnewminiappfloatingwindow
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2310,18 +2332,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.0.1-1
+Version: 1.0.2-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 3660
+Installed-Size: 4000
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 1687852
-MD5sum: 486046d9ddd71bb056a2d638545c5aa1
-SHA1: 9103db5667b4389629a0a60a86095c31ff1e5269
-SHA256: 7cd307e4479336129609609c9b8225d5582620e1054d917c0597cb8c201dd0ad
+Size: 1830748
+MD5sum: 4b9750d4348823d48e0823b0010ec231
+SHA1: 034e8d9974d25bdcf0bb174dc7867321ad68d8a1
+SHA256: 0b029681921e8cef4d4956c177aa21d41fb50ce5c28d6fa57f3ca9da20354ee8
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
