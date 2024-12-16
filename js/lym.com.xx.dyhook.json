@@ -79,7 +79,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.8+3新增插件可选择视频背景\n- 修复一些人保存GIF的问题\n- 优化一些细节"
+                      "markdown": "### 版本2.0.8+\n- 3新增插件可选择视频背景\n- 修复一些人保存GIF的问题\n- 优化一些细节"
                   },
                   {
                       "class": "DepictionSeparatorView"
