@@ -2102,7 +2102,7 @@ Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.qqavatarrotation
-Version: 1.1.0
+Version: 1.1.0-1
 Architecture: iphoneos-arm64
 Maintainer: SINI
 Installed-Size: 168
@@ -2110,10 +2110,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.qqavatarrotation
 Replaces: com.qqavatarrotation
 Filename: ./debs/QQ头像旋转-Rootless.deb
-Size: 3824
-MD5sum: 97f93688ffa5d9473a534cd5374a18fe
-SHA1: 5d0eb5fb50a5e0e2d51b442e6245717ae93053c2
-SHA256: 94be53912d968dd8904e552db6e499e41e60b58e6cecf3aae4ede6842c3e8d49
+Size: 3856
+MD5sum: 9c2a52155284f2d801f805a4a1b9cc4c
+SHA1: a4e30535d14d1f8b9db937fd53a34ddadd83b82a
+SHA256: 231c2e4e88e1508b41c5ef9ff4e320ec5a0462a6fb999fc55ec2773260640c90
 Section: 软件增强
 Description: QQ内各种头像旋转
  - 插件无设置项安装即可生效

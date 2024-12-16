@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.0",
+                      "text": "1.1.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.0 \n- 初始版本"
+                      "markdown": "### 版本 1.1.0-1 \n- 修复表情也转的bug"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.0 初始版本"
                   },
               ]
           }
