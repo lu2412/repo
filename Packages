@@ -2560,13 +2560,13 @@ Package: lym.dianhua
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lu
-Conflicts: dianhua
-Replaces: dianhua
-Filename: ./debs/电话助手自用配置保存-Rootless.deb
+Conflicts: lym.dianhua1
+Replaces: lym.dianhua1
+Filename: ./debs/电话助手自用配置保存-Rootless.deb.deb
 Size: 2516
-MD5sum: 8d8e71e182946f0b32022151f61226c1
-SHA1: 1802f680d6a0d08b4be4148b45d40ef84e628107
-SHA256: 1039c10d8f549dfc2e45a9a45c2b8f4ef67c17bc63785fd01e5fe5875bc83766
+MD5sum: e5aff049737f1ba3ae9e2cdaa672855b
+SHA1: ee109e9ae59e5fdc5b96afcbc668e64b279d134c
+SHA256: 5bcc0f6f7105cf694b48486ffbf3ab5396f4590de728f8a47707397aa5cfcf22
 Section: 自用备份
 Description: 电话助手自用格式备份
  - 安装后去电话助手-管理配置参数--恢复当前配置
@@ -2575,6 +2575,26 @@ Description: 电话助手自用格式备份
 Author: lu
 Name: 电话助手自用配置保存-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua.json
+
+Package: lym.dianhua1
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lu
+Conflicts: lym.dianhua, dianhua1
+Replaces: lym.dianhua, dianhua1
+Filename: ./debs/电话助手自用配置保存(2)-Rootless.deb
+Size: 2504
+MD5sum: 4ef9d442cf44f5a43ce44ff2da66f1b4
+SHA1: 4923f7239a6ff6314929261c0b54b3a444edff87
+SHA256: fab8165e39c6e6c736f24c1075a40426544aa77a771891c8833a0235c372ddc4
+Section: 自用备份
+Description: 电话助手自用格式备份
+ - 安装后去电话助手-管理配置参数--恢复当前配置
+ - 然后注销即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lu
+Name: 电话助手自用配置保存(2)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua1.json
 
 Package: lym.hxq-Rootless
 Version: 1.0
