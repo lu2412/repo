@@ -1351,6 +1351,28 @@ Author: 🅷🆆
 Name: 拦截猫解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.fly.ljm.json
 
+Package: lym.com.github.wxsmalltabs
+Version: 0.0.1-5
+Architecture: iphoneos-arm64
+Maintainer: halo-michael
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.github.wxsmalltab, com.github.wxsmalltabs
+Replaces: com.github.wxsmalltabs
+Filename: ./debs/微信小底栏-Rootless.deb
+Size: 12172
+MD5sum: 58cf61d10ca8ddc1d735a177500582cd
+SHA1: 7d4471c6b0f0d26a57a50f07cd379ed9e65f761c
+SHA256: 00fb07473001c8d25930a4e73b1c1b3add863af32e1d0a28e5c0d533fd22e8df
+Section: 微信插件
+Description: 微信底栏悬浮
+ - 找不到请注入插件收纳插件
+ - 在插件归纳中查看并开启插件
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Michael
+Name: 微信小底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.github.wxsmalltabs.json
+
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
 Architecture: iphoneos-arm64
@@ -2079,6 +2101,27 @@ Author: MiRO <tweaks_support@miro92.com>
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
+Package: lym.com.qqavatarrotation
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.qqavatarrotation
+Replaces: com.qqavatarrotation
+Filename: ./debs/QQ头像旋转-Rootless.deb
+Size: 3824
+MD5sum: 97f93688ffa5d9473a534cd5374a18fe
+SHA1: 5d0eb5fb50a5e0e2d51b442e6245717ae93053c2
+SHA256: 94be53912d968dd8904e552db6e499e41e60b58e6cecf3aae4ede6842c3e8d49
+Section: 软件增强
+Description: QQ内各种头像旋转
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: SINI
+Name: QQ头像旋转-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qqavatarrotation.json
+
 Package: lym.com.screenshot.telegram
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2265,6 +2308,30 @@ Description: 把官方Telegram回车键/换行键修改为“发送”功能
 Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
+
+Package: lym.com.tencent.themebox
+Version: 1.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: WeChat
+Installed-Size: 3660
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Replaces: com.tencent.themebox
+Filename: ./debs/微信主题盒子-Rootless.deb
+Size: 1687852
+MD5sum: 486046d9ddd71bb056a2d638545c5aa1
+SHA1: 9103db5667b4389629a0a60a86095c31ff1e5269
+SHA256: 7cd307e4479336129609609c9b8225d5582620e1054d917c0597cb8c201dd0ad
+Section: 微信插件
+Description: 微信主题插件
+ - 支持悬浮底栏,资料页头像居中
+ - 私聊隐藏头像等支持全量DIY
+ - 优先加载diy内容,此版本啥都能diУ
+ - 路径:ThemeBox/diy/对应主题/素材
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: WeChat
+Name: 微信主题盒子-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.json
 
 Package: lym.com.tiaotiao.betteruiswitch
 Version: 1.1
