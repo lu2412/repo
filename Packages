@@ -2556,6 +2556,26 @@ Author: xybp888
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
 
+Package: lym.dianhua
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lu
+Conflicts: dianhua
+Replaces: dianhua
+Filename: ./debs/电话助手自用配置保存-Rootless.deb
+Size: 2516
+MD5sum: 8d8e71e182946f0b32022151f61226c1
+SHA1: 1802f680d6a0d08b4be4148b45d40ef84e628107
+SHA256: 1039c10d8f549dfc2e45a9a45c2b8f4ef67c17bc63785fd01e5fe5875bc83766
+Section: 自用备份
+Description: 电话助手自用格式备份
+ - 安装后去电话助手-管理配置参数--恢复当前配置
+ - 然后注销即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: lu
+Name: 电话助手自用配置保存-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua.json
+
 Package: lym.hxq-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
