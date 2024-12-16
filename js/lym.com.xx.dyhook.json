@@ -1,6 +1,6 @@
 {
     "class": "DepictionTabView",
-    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "headerImage": "https://liym5238.github.io/liym/icon/hengfu.png",
     "tintColor": "#87A2FF",
     "minVersion": "0.3",
     "tabs": [
@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "图层作者频道",
+                    "action": "https://t.me/DouYinHook",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.8+1",
+                      "text": "2.0.8+3",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月10日",
+                      "text": "2024年12月16日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.8+1 \n- 新增修改作品点赞等数量\n- 新增拍摄视屏时长限制\n- 移除新增点赞收藏等图标自定义\n- 新增评论区GIF保存\n- 新增相似表情包保存\n- 新增备份插件数据为文件恢复\n- 优化一些东西\n- 修复一些东西"
+                      "markdown": "### 版本 2.0.8+3 \n- 新增插件可选择视频背景\n- 修复一些人保存GIF的问题\n- 优化一些细节"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.8+1\n- 新增修改作品点赞等数量\n- 新增拍摄视屏时长限制\n- 移除新增点赞收藏等图标自定义\n- 新增评论区GIF保存\n- 新增相似表情包保存\n- 新增备份插件数据为文件恢复\n- 优化一些东西\n- 修复一些东西"
                   },
                   {
                       "class": "DepictionSeparatorView"

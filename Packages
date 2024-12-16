@@ -2402,18 +2402,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.8+1
+Version: 2.0.8+3
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 14896
+Installed-Size: 9072
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 5143172
-MD5sum: cad06e7cc8d793692760a09946601359
-SHA1: 901efb572e16c0e552d0d6692c756c05b63c0d12
-SHA256: b9b06072fe1289f19fd95b8f2ca8d2850e639777d1a1b9b58640b5feb24ed48d
+Size: 2783136
+MD5sum: d7152647aa5ace9336537320a8f2c7ae
+SHA1: a466ab5cfaa3d6ac87b6fd6043aa33126debd196
+SHA256: 9f727223802b1b03d2ca15ebe0b7b6fb4bdaebcab1a5dab32280fcd5a2ee86fc
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
@@ -2422,7 +2422,7 @@ Description: 抖音功能增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: x✨
 Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.dyhook.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
 Package: lym.com.xx.jrtthook
 Version: 1.0.4
@@ -2490,18 +2490,18 @@ Name: 皮皮虾图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.ppxhook.json
 
 Package: lym.com.xx.qqhook
-Version: 1.1.1-2
+Version: 1.1.2
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 2280
+Installed-Size: 2560
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 786040
-MD5sum: fe8b616e95035263169bdeef2872fc26
-SHA1: f15765bbe0b6e93c978713f21ae738db91c89353
-SHA256: 2fd0e40bcadc09ece5fbf276a379c845bb7615a5b2ea56e0f1c89b3e1d1faf9a
+Size: 760276
+MD5sum: 6836d820c5b27eec31f35a1427b53355
+SHA1: fa6678929f1e3b474a8503753284b269ecf97334
+SHA256: dd8f0b60f84a2c25ab9052a26a9b8813b572851855efe58dba11844792d01f7e
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -2511,7 +2511,7 @@ Description: QQ功能增强
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: x✨
 Name: QQ图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.qqhook.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
 
 Package: lym.com.xx.xhshook
 Version: 1.1.2
