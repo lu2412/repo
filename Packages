@@ -2402,18 +2402,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.8+3
+Version: 2.0.8+5
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 9072
+Installed-Size: 9136
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 2783136
-MD5sum: d7152647aa5ace9336537320a8f2c7ae
-SHA1: a466ab5cfaa3d6ac87b6fd6043aa33126debd196
-SHA256: 9f727223802b1b03d2ca15ebe0b7b6fb4bdaebcab1a5dab32280fcd5a2ee86fc
+Size: 2793960
+MD5sum: 7946694290cef5d7d9e78ed01cceffe4
+SHA1: 6568ffb4fcaa12d79a847abafb3fb6533e5658c5
+SHA256: 6f9ecf9581e185d3bcfd83a676d16d0ded6eb6ee6517af6bd4aa0efe9934439b
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
@@ -2641,11 +2641,11 @@ Maintainer: 无名
 Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2068
-MD5sum: 745960773d9188bdeb590b5fef40c774
-SHA1: 0bcb7f0bb56c6444e2ef1254a330d65ceeb301eb
-SHA256: d7cb9d206392a3a24574b1c381ccc4b6f7297fa234b7e846b0c6bd497df98fd0
-Section: 系统增强
+Size: 2076
+MD5sum: 25827ef0df690c9eb3608274d76262e3
+SHA1: 6c1fc71bb15ac987ebe4d2692202601295a6e669
+SHA256: 4cdf47ab89081af609225a104e6b8650cff5cfece92b46e1fcace9947de7a906
+Section: 自用备份
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台
   - 源地址路径/var/jb/etc/apt/sources.list.d
