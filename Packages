@@ -1167,10 +1167,10 @@ Depends: mobilesubstrate
 Conflicts: com.hk.daodao.noseparators, com.hk.daodao.rootless.noseparators, com.qms.noseparators, com.hk.noline, com.qms.noline, com.dao.noline
 Replaces: com.dao.noline
 Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
-Size: 4104
-MD5sum: f5556eba48b6ea0d5a599bfef023ef07
-SHA1: eacec02639949e0358961123fd2a063b8b2ffbe0
-SHA256: 1ca04735d8feb449774e805aaacdb6443786532de65060ed6c754d162cae88e1
+Size: 4096
+MD5sum: c71f9f985c305e776bb85e44b2eb0d59
+SHA1: 8453e9e6ede49ea017ba83d83277f90c75bd1e20
+SHA256: ac34c244ecd0c503e9038c29669e70ae4d65ffc18876ab2dca2aee78b1b640f2
 Section: 系统增强
 Description: 去除全局分割线
  - 去除弹窗/UI/长按菜单等地方的分割线
@@ -1993,18 +1993,18 @@ Name: WCIsOverSeaUser海外通行秘钥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.1-4
+Version: 1.1-5
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 156
+Installed-Size: 172
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 41872
-MD5sum: 562ddb41814cb99638156fd46dd6e029
-SHA1: a60acb8c2cd0ac0143835e037d69dc0b1a64db11
-SHA256: c9f700ffaaa8f4c64a75db1cc838d8f33449ac1e1fcd1377b1c2514c4458121d
+Size: 51844
+MD5sum: 56f07a14af933fd4d2f59e27fce7284a
+SHA1: 7293de5d9e23d89ba9f57b79e1084043f85a28f4
+SHA256: 245fb7e310b6bf7b87d619a06e437f8e18c93a0eee35b7f630b1b460d226699e
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
