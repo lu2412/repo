@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.2-1",
+                      "text": "1.0.3-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月17日",
+                      "text": "2024年12月19日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.2-1 \n- 修复DIY功能素材加载不上\n- 优化了一些细节，悬浮底栏新增描边和两个动画，"
+                      "markdown": "### 版本 1.0.3-1 \n- 修复1.0-3-1修改底栏动画闪退问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.3-1\n- 修复了1.0.2目前收集到的一些问题\n- 再次调整底栏样式，将底栏设置移动到了插件首页\n- 修复底栏点击漂移(点不到)问题\n- 修复主题包未上传顶栏时从聊天返回首页顶部透明问题\n- 我的页面居中布局增加头像旋转\n- 自定义名字和微信号显示内容"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.2\n- 修复DIY功能素材加载不上\n- 优化了一些细节，悬浮底栏新增描边和两个动画，"
                   },
                   {
                       "class": "DepictionSeparatorView"

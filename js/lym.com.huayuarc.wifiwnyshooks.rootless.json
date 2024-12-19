@@ -9,27 +9,27 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "下载万能钥匙",
+                    "action": "https://apps.apple.com/cn/app/id1544429501",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信个人资料居中\n- 仅支持微信8.0.51及更高版本\n- 老猫收纳插件内开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- Wi-Fi万能极速版\n- 免登陆全局去广告\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{1, 1}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/tx.png"
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/tx1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "Netskao",
+                      "text": "Huayuarc <xuanhua880@gmail.com>",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-7",
+                      "text": "0.0.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月17日",
+                      "text": "2024年12月19日",
                       "title": "最后更新"
                   }
               ]
@@ -68,28 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-7 \n- 调整控件间距,更加优雅"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-6向下兼容更多版本"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-5修改标题为中文,限制自定义微信文本不能为1到5个单空格(以防无法再次点击修改)"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-4\n- 新增点击微信号文本支持自定义文本内容"
+                      "markdown": "### 版本 0.0.1 \n- 初始版本"
                   },
               ]
           }

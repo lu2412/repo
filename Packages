@@ -1523,6 +1523,27 @@ Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
+Package: lym.com.huayuarc.wifiwnyshooks.rootless
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.wifiwnyshooks.rootless
+Replaces: com.huayuarc.wifiwnyshooks.rootless
+Filename: ./debs/Wi-Fi万能钥匙极速版解锁-Rootless.deb
+Size: 6260
+MD5sum: 75aded54615ca479660a8cb5967c236a
+SHA1: f90b485fac9d95e36241eebf8bcb569139bee923
+SHA256: e36191c9b6fd9ac5fa5a391bb71e2cc602f1e6abc34164d4693eb8a56a57b4b9
+Section: 软件增强
+Description: Wi-Fi万能极速版
+ - 免登陆全局去广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Huayuarc <xuanhua880@gmail.com>
+Name: Wi-Fi万能钥匙极速版解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.wifiwnyshooks.rootless.json
+
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -1993,18 +2014,18 @@ Name: WCIsOverSeaUser海外通行秘钥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.1-5
+Version: 1.1-7
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 14.0)
+Installed-Size: 188
+Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 51844
-MD5sum: 56f07a14af933fd4d2f59e27fce7284a
-SHA1: 7293de5d9e23d89ba9f57b79e1084043f85a28f4
-SHA256: 245fb7e310b6bf7b87d619a06e437f8e18c93a0eee35b7f630b1b460d226699e
+Size: 52800
+MD5sum: 4c4d38fa5b7c5a167a97fecbe7410695
+SHA1: 2c0e1b529ee6ecd9dfff303079a2916c44e687ba
+SHA256: e21c111f0d9403b4e7af46dd27cb307f272caf5ab03e590105421ba690a3c91f
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
@@ -2357,18 +2378,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.0.2-1
+Version: 1.0.3-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 4000
+Installed-Size: 4212
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 1830748
-MD5sum: 4b9750d4348823d48e0823b0010ec231
-SHA1: 034e8d9974d25bdcf0bb174dc7867321ad68d8a1
-SHA256: 0b029681921e8cef4d4956c177aa21d41fb50ce5c28d6fa57f3ca9da20354ee8
+Size: 1911752
+MD5sum: 4921b93ff9c44771627422db415ecba8
+SHA1: e6bea0d6c31235b85e4292c3f68948ffd4254bc6
+SHA256: 20c8dc1c96432c56c7499c8d85571f5bfc52c02f05bc6bb3d74964ba28f02577
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
