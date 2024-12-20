@@ -82,14 +82,14 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-6向下兼容更多版本"
+                      "markdown": "### 版本1.1-6\n- 向下兼容更多版本"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-5修改标题为中文,限制自定义微信文本不能为1到5个单空格(以防无法再次点击修改)"
+                      "markdown": "### 版本1.1-5\n- 修改标题为中文,限制自定义微信文本不能为1到5个单空格(以防无法再次点击修改)"
                   },
                   {
                       "class": "DepictionSeparatorView"

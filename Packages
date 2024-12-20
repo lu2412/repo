@@ -2022,10 +2022,10 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 59648
-MD5sum: 4932eb0cd163def6cfe26224085dda15
-SHA1: a548e1912dc108d2c164d0ff608757a36985ce20
-SHA256: f676f28ddac144d9ce5a1112f72dc8b5d19afd50a792ba4ad36ef873b540da53
+Size: 59600
+MD5sum: fda66185422c0e8b73f15d4c5c35997f
+SHA1: 8e1bd98dd54e4d97cfb0dc8ea501dbc5ec1abc63
+SHA256: 405103b458a3316dac999cbfde24634315f817db6d7ce2d83af83800446edc36
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
