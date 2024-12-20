@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-8 \n- 支持修改微信号换行"
+                      "markdown": "### 版本 1.1-8 \n- 支持昵称文本修改\n- 支持修改微信号换行"
                   },
                   {
                       "class": "DepictionSeparatorView"

@@ -928,11 +928,11 @@ Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmwar
 Conflicts: com.anthopak.quickprefs-rootless
 Replaces: com.anthopak.quickprefs-rootless
 Filename: ./debs/QuickPrefs快速跳转-Rootless.deb
-Size: 487020
-MD5sum: cd6ee092fc0524c8b89a0ed1847ce86d
-SHA1: 6831a789e59ac67abdbd895c16c314c267a64870
-SHA256: 781bfeee6264898506a6c66c282fa76102cae71cc0cff805bbc9418174ea62e9
-Section: 系统插件
+Size: 486972
+MD5sum: 099d75e9146aecd8608098380103cfbf
+SHA1: 8a5b06654437728ab5595e0db6b56355381ee67d
+SHA256: 5b81e1c273c176bc98143017c5cc068d22b029e1774d64f54b4bc948cfe035cf
+Section: 系统增强
 Description: 在设置三维触控面板增加菜单的插件
  - 在设置的三维触控菜单上，添加一些选项，方便快速直达
  - 支持添加电源增强类型快捷方式，例如注销、安全模式等
@@ -2017,15 +2017,15 @@ Package: lym.com.netskao.wcmypageinfocenter
 Version: 1.1-8
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 204
+Installed-Size: 220
 Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 59600
-MD5sum: fda66185422c0e8b73f15d4c5c35997f
-SHA1: 8e1bd98dd54e4d97cfb0dc8ea501dbc5ec1abc63
-SHA256: 405103b458a3316dac999cbfde24634315f817db6d7ce2d83af83800446edc36
+Size: 65456
+MD5sum: 37e37c5f0e897cfd64ef6b2bf9a481df
+SHA1: 0c1fc23b8efc31633e472fc6021e601b3ff4969e
+SHA256: 9542dd6320ac26979849a8db3d7de3460f67d2093e19c00b49e50056aafdbeb8
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
