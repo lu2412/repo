@@ -2014,18 +2014,18 @@ Name: WCIsOverSeaUser海外通行秘钥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.1-7
+Version: 1.1-8
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 188
+Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 52800
-MD5sum: 4c4d38fa5b7c5a167a97fecbe7410695
-SHA1: 2c0e1b529ee6ecd9dfff303079a2916c44e687ba
-SHA256: e21c111f0d9403b4e7af46dd27cb307f272caf5ab03e590105421ba690a3c91f
+Size: 59648
+MD5sum: 4932eb0cd163def6cfe26224085dda15
+SHA1: a548e1912dc108d2c164d0ff608757a36985ce20
+SHA256: f676f28ddac144d9ce5a1112f72dc8b5d19afd50a792ba4ad36ef873b540da53
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
@@ -2721,6 +2721,50 @@ Description: 让开关标签颜色更为好看
 Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ios-rootless.json
+
+Package: lym.iosign.baidudisk.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.baidudisk.rootless
+Replaces: iosign.baidudisk.rootless
+Filename: ./debs/百度网盘去广告-Rootless.deb
+Size: 3892
+MD5sum: 756b028e100748c02ffd3d0ff3f3336e
+SHA1: d1455224119fddc27ddb98da5b2acfe1ff243157
+SHA256: 3f56174c00026f54505729116fe655d8b21c5cddcfc99b42cf0d34a6f34c9236
+Section: 软件增强
+Description: 优化去除广告、精简个人主页
+ - 屏蔽TF版本更新检测、去除菜单栏红点提示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iOSign
+Name: 百度网盘去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.baidudisk.rootless.json
+
+Package: lym.iosign.hidesim2.rootless
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.hidesim2.rootless
+Replaces: iosign.hidesim2.rootless
+Filename: ./debs/隐藏副卡-Rootless.deb
+Size: 3084
+MD5sum: 1c1fb509f8bb1cedcca7d369ffc19f8d
+SHA1: 3e4dc51aa394b3284ef02b4bff47e1c471f568db
+SHA256: 3f02f32e8a25c5e1843e1c5a9be5b143bd6a9d8364de9dbedfaa5cc7842f63bf
+Section: 系统增强
+Description: 隐藏副卡对于双卡用户
+ - 隐藏控制中心其中一张运营商伪装为单卡
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iOSign
+Name: 隐藏副卡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
 
 Package: lym.jailbreak.lizi.repo
 Version: 1.0

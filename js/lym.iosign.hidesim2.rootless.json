@@ -16,20 +16,20 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信个人资料居中\n- 仅支持微信8.0.51及更高版本\n- 老猫收纳插件内开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 隐藏副卡对于双卡用户\n- 隐藏控制中心其中一张运营商伪装为单卡\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{1, 1}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/tx.png"
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/tx1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "Netskao",
+                      "text": "iOSign",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-8",
+                      "text": "0.1-1",
                       "title": "插件版本"
                   },
                   {
@@ -68,35 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-8 \n- 支持修改微信号换行"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-6\n- 调整控件间距,更加优雅"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-6向下兼容更多版本"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-5修改标题为中文,限制自定义微信文本不能为1到5个单空格(以防无法再次点击修改)"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-4\n- 新增点击微信号文本支持自定义文本内容"
+                      "markdown": "### 版本 0.1-1 \n- 初始版本"
                   },
               ]
           }
