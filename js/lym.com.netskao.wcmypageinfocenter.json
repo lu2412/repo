@@ -75,7 +75,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1-6\n- 调整控件间距,更加优雅"
+                      "markdown": "### 版本1.1-7\n- 调整控件间距,更加优雅"
                   },
                   {
                       "class": "DepictionSeparatorView"
