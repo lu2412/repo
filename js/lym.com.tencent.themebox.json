@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.3-2",
+                      "text": "1.0.5-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月19日",
+                      "text": "2024年12月21日",
                       "title": "最后更新"
                   }
               ]
@@ -72,14 +72,28 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.3-1 \n- 修复1.0-3-1修改底栏动画闪退问题"
+                      "markdown": "### 版本 1.0.5-1 \n- 修复了105-1底栏暗黑模式不能切换问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.3-1\n- 修复了1.0.2目前收集到的一些问题\n- 再次调整底栏样式，将底栏设置移动到了插件首页\n- 修复底栏点击漂移(点不到)问题\n- 修复主题包未上传顶栏时从聊天返回首页顶部透明问题\n- 我的页面居中布局增加头像旋转\n- 自定义名字和微信号显示内容"
+                      "markdown": "### 版本1.0.5-1\n- 增加背景动画,主题必需添加背景图片才能生效\n- 优化悬浮底栏,允许自定义大小悬浮\n- 底栏图标新增长按动作\n- 还有一些我也忘了"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.4\n- 修复1.0-3-1修改底栏动画闪退问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.3\n- 修复了1.0.2目前收集到的一些问题\n- 再次调整底栏样式，将底栏设置移动到了插件首页\n- 修复底栏点击漂移(点不到)问题\n- 修复主题包未上传顶栏时从聊天返回首页顶部透明问题\n- 我的页面居中布局增加头像旋转\n- 自定义名字和微信号显示内容"
                   },
                   {
                       "class": "DepictionSeparatorView"

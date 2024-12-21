@@ -2378,18 +2378,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.0.3-1
+Version: 1.0.5-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 4212
+Installed-Size: 4848
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 1911752
-MD5sum: 4921b93ff9c44771627422db415ecba8
-SHA1: e6bea0d6c31235b85e4292c3f68948ffd4254bc6
-SHA256: 20c8dc1c96432c56c7499c8d85571f5bfc52c02f05bc6bb3d74964ba28f02577
+Size: 2183008
+MD5sum: bfce3e887650ec4c2bfb9f3fa8fa5a9f
+SHA1: d904489cedf0a4bea43c0672fe8691035628a0e7
+SHA256: 6c4e74ecaa4b18ef03842b947440556a7fa4501f48b44ed641556a8befc9529f
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
