@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-3",
+                      "text": "1.1-4",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月27日",
+                      "text": "2024年12月21日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-3 \n- 添加缓存机制, 避免过度使用资源"
+                      "markdown": "### 版本 1.1-4 \n- 修改插件标题为中文,优化设置UI"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.1-3\n- 添加缓存机制, 避免过度使用资源"
                   },
                   {
                       "class": "DepictionSeparatorView"
