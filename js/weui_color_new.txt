@@ -1,5 +1,6 @@
 <resources>
 <!-- 这是菜单边框颜色 -->
+
 <color name="MenuBorderColor">#9D9D9DCC,#FFFFFFCC</color>
 <!-- 这是输入边框颜色 -->
 
