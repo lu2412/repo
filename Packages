@@ -1458,17 +1458,17 @@ Name: WCEnableCleanOrigMsg原图清理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
 Package: lym.com.huami.DYYY
-Version: 1.8
+Version: 1.8.1
 Architecture: iphoneos-arm64
 Maintainer: huami
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.DYYY
 Replaces: com.huami.DYYY
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 25868
-MD5sum: 5bd7bbc49babf7450113f7d9aa10d67c
-SHA1: fb4d4129632381afdfa0bab0bfe1e087493de582
-SHA256: a517663e057071f463fe81bdb3596f9da89628b29359653193ef4398c191ccdf
+Size: 25912
+MD5sum: 7f857c6338f952afc4a67dd4667496ab
+SHA1: 4997c4c723c6a5b3625f74620adf31fb6f167387
+SHA256: 987b7812b77d81901783097e66d94e682909827a8bbb93c76b29a3777a3eb4e1
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1481,7 +1481,7 @@ Description: 抖音增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: 抖音 YYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.DYYY.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.DYYY.json
 
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
@@ -1599,6 +1599,27 @@ Description: 奇点阅读去除三个首页面广告
 Author: iosrxwy
 Name: 奇点阅读去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
+
+Package: lym.com.iosrxwy.tianqiheihei
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.iosrxwy.tianqiheihei
+Replaces: com.iosrxwy.tianqiheihei
+Filename: ./debs/和风墨迹莉景天气解锁-Rootless.deb
+Size: 274720
+MD5sum: fd80aee03e63b2085e8633a15d77cbc5
+SHA1: be9264ee36c28fc374b4506f5403a7ebde956f34
+SHA256: 61e53cf42123b0a10f8e596c14b937edf0955d91ffc4cbf9ca0b526868fa8e62
+Section: 软件增强
+Description: 解锁和风天气、墨迹天气、莉景天气会员
+ - 天气通去广告。TG@iosrxwy
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosrxwy
+Name: 和风墨迹莉景天气解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.tianqiheihei.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6

@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "插件开发者频道",
+                    "action": "https://t.me/huamidev",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8",
+                      "text": "1.8.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月10日",
+                      "text": "2024年12月23日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8 \n- 进一步完善了评论区深色模式的适配"
+                      "markdown": "### 版本 1.8.1 \n- 修复未开启深色模式时,图标消失的问题,可选择更新"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8\n- 进一步完善了评论区深色模式的适配"
                   },
                   {
                       "class": "DepictionSeparatorView"
