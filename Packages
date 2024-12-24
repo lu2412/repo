@@ -2423,15 +2423,15 @@ Package: lym.com.tencent.themebox
 Version: 1.0.6-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 5188
+Installed-Size: 5172
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 2323124
-MD5sum: 9e4d13763d4cee1ea2c5f56f77397b73
-SHA1: 5fb0549dbb701ddf8852c1a6fc161c29f47fc1ed
-SHA256: 8ebd5f32c07a7d2c9b1f1ff654f8ac2577b54ede6c6681e2c0e385c12b627770
+Size: 2341984
+MD5sum: 6137c01b3546ed78f23ce0bc1680364b
+SHA1: ba72492cf50fa6111a0544a8c3b5fb75a9e2f5ca
+SHA256: 524100d37590539d4725f7ccb571bd0d8739b35bbf815422d74a78b53ab561ec
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
