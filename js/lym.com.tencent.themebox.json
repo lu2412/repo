@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.5-1",
+                      "text": "1.0.6-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月21日",
+                      "text": "2024年12月24日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.5-1 \n- 修复了105-1底栏暗黑模式不能切换问题"
+                      "markdown": "### 版本 1.0.6-1 \n- 优化背景动画功能\n- 新增了几个基础动画\n- 增加暗黑模式颜色调整\n- 可在允许范围内调整一些动画参数\n- 彻底修复悬浮底栏问题\n- 头像旋转增加旋转速度调整\n- 对其它一些收集到的问题进行修复"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.5.1\n- 修复了1.0.5底栏暗黑模式不能切换问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
