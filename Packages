@@ -1544,6 +1544,27 @@ Author: Huayuarc <xuanhua880@gmail.com>
 Name: Wi-Fi万能钥匙极速版解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.wifiwnyshooks.rootless.json
 
+Package: lym.com.hw.aptv
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 596
+Depends: mobilesubstrate
+Conflicts: com.hw.aptv
+Replaces: com.hw.aptv
+Filename: ./debs/APTV解锁-Rootless.deb
+Size: 105928
+MD5sum: 11b7db6bc224fe72888b9a60f0bd1452
+SHA1: c6946a0770eb2e807b943eeb8c160fa1c16753fb
+SHA256: 936e870d7ea4c0af57bcf6281572095e321f275bf300a4e4d7894cf87740d209
+Section: 软件增强
+Description: 解锁APTV会员
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 🅷🆆
+Name: APTV解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hw.aptv.json
+
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -2602,6 +2623,28 @@ Author: x✨
 Name: 皮皮虾图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.ppxhook.json
 
+Package: lym.com.xx.qmxshook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.qmxshook
+Replaces: com.xx.qmxshook
+Filename: ./debs/七猫免费小说去广告-Rootless.deb
+Size: 115100
+MD5sum: 8875e49d12b87c140ffa88619f638995
+SHA1: 4e9842ced6ec171a2136b619b276e6ec16e95b23
+SHA256: 8396ae2aa253a257ff9c66cbf2fb33eac205de6ddd10e86a40cdd0b93af3854b
+Section: 软件增强
+Description: 开通免广告权益
+ - 仅支持7.63.10版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 七猫免费小说去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qmxshook.json
+
 Package: lym.com.xx.qqhook
 Version: 1.1.2
 Architecture: iphoneos-arm64
@@ -2668,6 +2711,27 @@ Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能
 Author: xybp888
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
+
+Package: lym.com.ylr.xiaoxiangcs
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: ylr <ylr638058@gmail.com>
+Installed-Size: 72
+Depends: mobilesubstrate
+Conflicts: com.ylr.xiaoxiangcs
+Replaces: com.ylr.xiaoxiangcs
+Filename: ./debs/小象超市去广告-Rootless.deb
+Size: 2560
+MD5sum: 4482343a98499c702bea72c8ee82d430
+SHA1: fb1a6d162c4023c0512f4bc0bc6c46beb87b921b
+SHA256: 61d22a4a945497e069ea5c8f434e13230efb240f8c4d9e5abd067848c7e4f167
+Section: 软件增强
+Description: 小象超市去启动广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ylr <ylr638058@gmail.com>
+Name: 小象超市去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ylr.xiaoxiangcs.json
 
 Package: lym.com.yourepo.huayuarc.12306-rootless
 Version: 0.0.1
