@@ -2098,6 +2098,28 @@ Author: Netskao
 Name: WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
 
+Package: lym.com.netskao.wechatnotiavatar
+Version: 1.2-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 2336
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Conflicts: com.netskao.wechatnotiavatar
+Replaces: com.netskao.wechatnotiavatar
+Filename: ./debs/WeChatNotiAvatar微信头像-Rootless.deb
+Size: 523320
+MD5sum: 2dec39ab9affb9d9b82ac672c5bd2f59
+SHA1: e4da0a7e6180484626b9bdf929a7c7202ba0e1d9
+SHA256: f937c2295cc3231cc585c30a7c2b778cfc01faf42adafac0065ac01ab0bfb855
+Section: 微信插件
+Description: 让微信消息通知显示微信好友头像
+ - 仅支持越狱环境,注入无效
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: WeChatNotiAvatar微信头像-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatnotiavatar.json
+
 Package: lym.com.netskao.wechatuiswitchloader
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -2668,6 +2690,28 @@ Description: QQ功能增强
 Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
+
+Package: lym.com.xx.wsyhnojb
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 468
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.wsyhnojb
+Replaces: com.xx.wsyhnojb
+Filename: ./debs/网商银行越狱检测屏蔽-Rootless.deb
+Size: 128992
+MD5sum: 8ebfa35e7b72a9d7b739e375843921ea
+SHA1: f0f5531a93e697c2d2fca8561e0808e330112339
+SHA256: a7ef0bbc7cd57f36b5965b61aec09b7bcc04b4ba7ff8030c3950f1cd631252ee
+Section: 软件增强
+Description: 网商银行屏蔽越狱检测
+ - 截至目前支持最新4.6.4版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 网商银行越狱检测屏蔽-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.wsyhnojb.json
 
 Package: lym.com.xx.xhshook
 Version: 1.1.2
