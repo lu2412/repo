@@ -2536,6 +2536,27 @@ Author: udevs
 Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
+Package: lym.com.xuuz.ddhook
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: xuuz
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xuuz.ddhook
+Replaces: com.xuuz.ddhook
+Filename: ./debs/钉钉红包-Rootless.deb
+Size: 11880
+MD5sum: 53983157697e833da9a558c0e63a1667
+SHA1: 95a040052f50feca5cf5877069ce29cc9ee6ef91
+SHA256: 1be901080712f0d56096a3d1bc249ba801adf11b7458e82a61cf18dc9df3c6e6
+Section: 软件增强
+Description: 钉钉自动抢红包
+ - 在钉钉设置里启用开关
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: xuuz
+Name: 钉钉红包-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.ddhook.json
+
 Package: lym.com.xx.baiduhook
 Version: 1.0.2
 Architecture: iphoneos-arm64
