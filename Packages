@@ -2063,17 +2063,17 @@ Installed-Size: 72
 Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wckeyboardhidelogo
 Replaces: com.netskao.wckeyboardhidelogo
-Filename: ./debs/微信键盘隐藏logo-Rootless.deb
-Size: 2504
-MD5sum: 84f3e67fdc32747492265b0bb8f280fd
-SHA1: 234ac404e09cbe54c088cc84899ed3900d016d93
-SHA256: daeee204c7e45847a0597e7b2dabe2728e41c5b8ec0e881587d48a670ed962ea
+Filename: ./debs/微信输入法.deb
+Size: 2520
+MD5sum: 46fe636cd2bb4d58b818101868cee44b
+SHA1: 24d637c599ed98ada54cccc479b0cb9f18ac3d9b
+SHA256: e413b67b8f4197a4cf36dd7245d41151190a1900712406e5a9bfe4a72afe5257
 Section: 键盘插件
 Description: 隐藏微信键盘左上角标志Logo
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Netskao
-Name: 微信键盘隐藏logo-Rootless
+Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
 Package: lym.com.netskao.wcmypageinfocenter
@@ -2620,6 +2620,27 @@ Author: x✨
 Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
+Package: lym.com.xx.bbbsblhhook
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 332
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.bbbsblhhook
+Replaces: com.xx.bbbsblhhook
+Filename: ./debs/宝宝巴士·贝乐虎Svip-Rootless.deb
+Size: 78416
+MD5sum: cfe3597ef93a983b0200bacf6eda78c0
+SHA1: 4976717cebb4c72a3febda04d4b6008828739d86
+SHA256: 610c69a5da7ba10c8d3fb4eb79336fdf900d322b3d5fac7f36675e1ec72c4e3f
+Section: 软件增强
+Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 宝宝巴士·贝乐虎Svip-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.bbbsblhhook.json
+
 Package: lym.com.xx.dyhook
 Version: 2.0.8+5
 Architecture: iphoneos-arm64
@@ -2642,6 +2663,27 @@ Description: 抖音功能增强插件
 Author: x✨
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
+
+Package: lym.com.xx.fightenegery
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.fightenegery
+Replaces: com.xx.fightenegery
+Filename: ./debs/多彩壁纸Pro-Rootless.deb
+Size: 12828
+MD5sum: dd88d46832e55bfe47023877150ba0ef
+SHA1: e4633e66ef5a6b7baa0e74c78de699f8c81929ab
+SHA256: 24d053cfa366fa808c23010cb60b25bb63e6893039b348d21f83743b98ee5e2b
+Section: 软件增强
+Description: 多彩壁纸解锁pro
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 多彩壁纸Pro-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.fightenegery.json
 
 Package: lym.com.xx.jrtthook
 Version: 1.0.4
@@ -2754,6 +2796,27 @@ Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
 
+Package: lym.com.xx.totofinancevip
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 88
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.totofinancevip
+Replaces: com.xx.totofinancevip
+Filename: ./debs/图图记账会员解锁-Rootless.deb
+Size: 11924
+MD5sum: 644c61584ee977d1f10f56ba738dcae8
+SHA1: 0dac6004f1a5e4ae2e8eac407ba47babbc1c9b67
+SHA256: e718d72ab771876f6df4aa06889e68c604318eb8e06dd1a935592982e87a65a3
+Section: 软件增强
+Description: 图图记账会员解锁
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 图图记账会员解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.totofinancevip.json
+
 Package: lym.com.xx.wsyhnojb
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2800,18 +2863,18 @@ Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.xhshook.json
 
 Package: lym.com.xx.ysbrowserhook
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 88
+Installed-Size: 104
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.ysbrowserhook
 Replaces: com.xx.ysbrowserhook
 Filename: ./debs/亚瑟浏览器解锁pro-Rootless.deb
-Size: 10796
-MD5sum: 14b05a24f8c1bdd54e0bb293bb4611a6
-SHA1: 0c735cd7f74e2bcbb474606bfc11a4447b0c9d01
-SHA256: d0ed217fc4cc87d5c23a925723d820a982c771752eb2274de0e9cddb082a9438
+Size: 20964
+MD5sum: 614c349af5e4f16f94257ef95206821d
+SHA1: e6558471eab5fd1558d880c690d27ccb4e0038bc
+SHA256: b3ae1c9e670353a460309c5b70dce0e5c3b94d110c5b4625c27839cbf5b5614e
 Section: 软件增强
 Description: 解锁Pro权益
  - 屏蔽越狱检测

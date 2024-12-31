@@ -9,28 +9,20 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "亚瑟浏览器下载",
-                    "action": "https://apps.apple.com/cn/app/id1551893305",
+                    "text": "软件下载地址",
+                    "action": "https://apps.apple.com/cn/app/id1666532374",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 解锁Pro权益\n- 屏蔽越狱检测\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 多彩壁纸解锁Pro\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{1, 1}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ys.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ys1.png"
-                                  }
                             ]
                   },
 
@@ -47,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.2",
+                      "text": "1.0.0",
                       "title": "插件版本"
                   },
                   {
@@ -68,14 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.2 \n- 新增屏蔽黑名单检测"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.1\n- 初始版本"
+                      "markdown": "### 版本 1.0.0 \n- 初始版本"
                   },
               ]
           }
