@@ -2055,6 +2055,27 @@ Author: Netskao
 Name: WCIsOverSeaUser海外通行秘钥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
 
+Package: lym.com.netskao.wckeyboardhidelogo
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.netskao.wckeyboardhidelogo
+Replaces: com.netskao.wckeyboardhidelogo
+Filename: ./debs/微信键盘隐藏logo-Rootless.deb
+Size: 2504
+MD5sum: 84f3e67fdc32747492265b0bb8f280fd
+SHA1: 234ac404e09cbe54c088cc84899ed3900d016d93
+SHA256: daeee204c7e45847a0597e7b2dabe2728e41c5b8ec0e881587d48a670ed962ea
+Section: 键盘插件
+Description: 隐藏微信键盘左上角标志Logo
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 微信键盘隐藏logo-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
+
 Package: lym.com.netskao.wcmypageinfocenter
 Version: 1.1-8
 Architecture: iphoneos-arm64
@@ -2463,18 +2484,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.0.6-1
+Version: 1.0.7-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 5172
+Installed-Size: 5856
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 2341984
-MD5sum: 6137c01b3546ed78f23ce0bc1680364b
-SHA1: ba72492cf50fa6111a0544a8c3b5fb75a9e2f5ca
-SHA256: 524100d37590539d4725f7ccb571bd0d8739b35bbf815422d74a78b53ab561ec
+Size: 2614104
+MD5sum: 23e5ce83d3c78e63a3352d3efac2067c
+SHA1: 2c4589c8fe497f80d8849d5628b20f77560b6c27
+SHA256: 9ce1199e731e3ff7ce737317d6d9e75948d817789cb17aac899cc61b9a77dce5
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
