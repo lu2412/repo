@@ -2077,7 +2077,7 @@ Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.1-8
+Version: 1.1-9
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 220
@@ -2085,10 +2085,10 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 65456
-MD5sum: 37e37c5f0e897cfd64ef6b2bf9a481df
-SHA1: 0c1fc23b8efc31633e472fc6021e601b3ff4969e
-SHA256: 9542dd6320ac26979849a8db3d7de3460f67d2093e19c00b49e50056aafdbeb8
+Size: 67936
+MD5sum: a0582e452930d20f0b8018b99794d520
+SHA1: 2c5e07cdd9f02d46c076939e9d8577e298b8fa5c
+SHA256: 523e1842a02d5dfd0868fe33fee909d31c05607942cc93a8658df07fee826f96
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
@@ -2484,18 +2484,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.0.7-1
+Version: 1.0.8-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 5856
+Installed-Size: 5824
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 2614104
-MD5sum: 23e5ce83d3c78e63a3352d3efac2067c
-SHA1: 2c4589c8fe497f80d8849d5628b20f77560b6c27
-SHA256: 9ce1199e731e3ff7ce737317d6d9e75948d817789cb17aac899cc61b9a77dce5
+Size: 2596536
+MD5sum: f0774fb32469c8087ffe69649035fcb3
+SHA1: 466bbb02ae8a8a64c9dd53c08fefc6d3e6acd41c
+SHA256: 4814c7bd06d0ca699b8c787540e848f72798d78e8a67ec2e3bba20af0bdf63d9
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -2620,27 +2620,6 @@ Author: x✨
 Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
-Package: lym.com.xx.bbbsblhhook
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 332
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.bbbsblhhook
-Replaces: com.xx.bbbsblhhook
-Filename: ./debs/宝宝巴士·贝乐虎Svip-Rootless.deb
-Size: 78416
-MD5sum: cfe3597ef93a983b0200bacf6eda78c0
-SHA1: 4976717cebb4c72a3febda04d4b6008828739d86
-SHA256: 610c69a5da7ba10c8d3fb4eb79336fdf900d322b3d5fac7f36675e1ec72c4e3f
-Section: 软件增强
-Description: 宝宝巴士 · 宝宝巴士儿歌 · 贝乐虎儿歌 解锁Svip
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 宝宝巴士·贝乐虎Svip-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.bbbsblhhook.json
-
 Package: lym.com.xx.dyhook
 Version: 2.0.8+5
 Architecture: iphoneos-arm64
@@ -2663,27 +2642,6 @@ Description: 抖音功能增强插件
 Author: x✨
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
-
-Package: lym.com.xx.fightenegery
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 88
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.fightenegery
-Replaces: com.xx.fightenegery
-Filename: ./debs/多彩壁纸Pro-Rootless.deb
-Size: 12828
-MD5sum: dd88d46832e55bfe47023877150ba0ef
-SHA1: e4633e66ef5a6b7baa0e74c78de699f8c81929ab
-SHA256: 24d053cfa366fa808c23010cb60b25bb63e6893039b348d21f83743b98ee5e2b
-Section: 软件增强
-Description: 多彩壁纸解锁pro
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 多彩壁纸Pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.fightenegery.json
 
 Package: lym.com.xx.jrtthook
 Version: 1.0.4
@@ -2776,15 +2734,15 @@ Package: lym.com.xx.qqhook
 Version: 1.1.3-1
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 1976
+Installed-Size: 1960
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 597348
-MD5sum: 238a36c922b79c7e671fe3418925bb05
-SHA1: 5c22e3762fdbff3daa4ee16a7d31cfc55e4cf944
-SHA256: 2c5c1cdb64161c425d05a6bd43820f6d23fe2d5926fd0627730200d77993ec9c
+Size: 594652
+MD5sum: b15fe8121d55c5b1fb04d29be6b08baf
+SHA1: 6b2ce41e3c21c87edf2cc490bd417457406636f7
+SHA256: 6bf84df618657e2acb72e7f17706d4470d0c6cb58e448af36c6d4da302170d0a
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -2795,27 +2753,6 @@ Description: QQ功能增强
 Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
-
-Package: lym.com.xx.totofinancevip
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 88
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.totofinancevip
-Replaces: com.xx.totofinancevip
-Filename: ./debs/图图记账会员解锁-Rootless.deb
-Size: 11924
-MD5sum: 644c61584ee977d1f10f56ba738dcae8
-SHA1: 0dac6004f1a5e4ae2e8eac407ba47babbc1c9b67
-SHA256: e718d72ab771876f6df4aa06889e68c604318eb8e06dd1a935592982e87a65a3
-Section: 软件增强
-Description: 图图记账会员解锁
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 图图记账会员解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.totofinancevip.json
 
 Package: lym.com.xx.wsyhnojb
 Version: 1.0.0
@@ -2861,28 +2798,6 @@ Description: 小红书软件增强
 Author: x✨
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.xhshook.json
-
-Package: lym.com.xx.ysbrowserhook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 104
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.ysbrowserhook
-Replaces: com.xx.ysbrowserhook
-Filename: ./debs/亚瑟浏览器解锁pro-Rootless.deb
-Size: 20964
-MD5sum: 614c349af5e4f16f94257ef95206821d
-SHA1: e6558471eab5fd1558d880c690d27ccb4e0038bc
-SHA256: b3ae1c9e670353a460309c5b70dce0e5c3b94d110c5b4625c27839cbf5b5614e
-Section: 软件增强
-Description: 解锁Pro权益
- - 屏蔽越狱检测
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 亚瑟浏览器解锁pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.ysbrowserhook.json
 
 Package: lym.com.xybp888.lockbutton
 Version: 0.1-2

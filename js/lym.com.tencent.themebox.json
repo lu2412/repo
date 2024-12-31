@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.7-1",
+                      "text": "1.0.8-1",
                       "title": "插件版本"
                   },
                   {
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.7-1 \n- 优化一些已知问题\n- 单独增加原头像居中功能的设置入口\n- 挂件支持调整大小和上下位置\n- 支持头像在左或在右显示\n- 增加了一些主题的配置项"
+                      "markdown": "### 版本 1.0.8-1 \n- 优化了一些代码提升流畅度\n- 修复107版本聊天背景图不能加载\n- 增加重置插件设置功能"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.7-1优化一些已知问题\n- 单独增加原头像居中功能的设置入口\n- 挂件支持调整大小和上下位置\n- 支持头像在左或在右显示\n- 增加了一些主题的配置项"
                   },
                   {
                       "class": "DepictionSeparatorView"

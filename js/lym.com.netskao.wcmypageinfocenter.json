@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-8",
+                      "text": "1.1-9",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月20日",
+                      "text": "2024年12月31日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-8 \n- 支持昵称文本修改\n- 支持修改微信号换行"
+                      "markdown": "### 版本 1.1-9 \n- 修复8.0.55二维码按钮隐藏失效"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1-8\n- 支持昵称文本修改\n- 支持修改微信号换行"
                   },
                   {
                       "class": "DepictionSeparatorView"
