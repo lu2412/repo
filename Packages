@@ -2773,18 +2773,18 @@ Name: 七猫免费小说去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qmxshook.json
 
 Package: lym.com.xx.qqhook
-Version: 1.1.2
+Version: 1.1.3-1
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 2560
+Installed-Size: 1976
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 760276
-MD5sum: 6836d820c5b27eec31f35a1427b53355
-SHA1: fa6678929f1e3b474a8503753284b269ecf97334
-SHA256: dd8f0b60f84a2c25ab9052a26a9b8813b572851855efe58dba11844792d01f7e
+Size: 597348
+MD5sum: 238a36c922b79c7e671fe3418925bb05
+SHA1: 5c22e3762fdbff3daa4ee16a7d31cfc55e4cf944
+SHA256: 2c5c1cdb64161c425d05a6bd43820f6d23fe2d5926fd0627730200d77993ec9c
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件

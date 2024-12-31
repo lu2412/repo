@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.2",
+                      "text": "1.1.3-1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月16日",
+                      "text": "2024年12月31日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.2 \n- 新增支持TIM版\n- 新增Appsvip图标修改"
+                      "markdown": "### 版本 1.1.3-1 \n- 未知内容"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.2\n- 新增支持TIM版\n- 新增Appsvip图标修改"
                   },
               ]
           }
