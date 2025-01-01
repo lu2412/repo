@@ -10,12 +10,7 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-                    "title": "插件为空包请勿下载"
-                },
-                {
-                    "class": "DepictionSubheaderView",
-                    "title": "只为备份使用方便自己"
-                },
+
                 {
                     "text": "DowngradeApp_应用降级",
                     "action": "https://www.123865.com/s/4v0cVv-P2nRA",
