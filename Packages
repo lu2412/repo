@@ -273,6 +273,27 @@ Author: lym
 Name: Telegram删除分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Telegram-Rootless.json
 
+Package: lym.TrollStore.arm64
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: liym
+Installed-Size: 114514
+Conflicts: TrollStore.arm64, TrollStore.arm64
+Replaces: TrollStore.arm64, TrollStore.arm64
+Filename: ./debs/巨魔软件大合集-Rootless.deb
+Size: 956
+MD5sum: 198777cddb727ec32af231588074b693
+SHA1: 2bd60ef5b8133c924d7db9bc80c80b2be4aca5a8
+SHA256: 31622a2e0164f033978cc43d47489ca230a3df5c7e4bfbbf9917915ffe01b6ef
+Section: 巨魔软件
+Description: 巨魔常用软件大合集
+ - 插件为空包请勿下载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: liym
+Name: 巨魔软件大合集-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.TrollStore.arm64.json
+
 Package: lym.XMCDX2-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64

@@ -1,0 +1,131 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "铃声管理巨魔版下载"
+                },
+                {
+                    "class": "DepictionSubheaderView",
+                    "title": "https://www.123865.com/s/4v0cVv-G2nRA"
+                },
+                {
+                    "text": "DowngradeApp_应用降级",
+                    "action": "https://www.123865.com/s/4v0cVv-P2nRA",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "屏蔽系统升级",
+                    "action": "https://www.123865.com/s/4v0cVv-X2nRA",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "filza4.0巨魔版",
+                    "action": "https://www.123865.com/s/4v0cVv-n2nRA",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 4",
+                    "action": "https://example.com/link4",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 5",
+                    "action": "https://example.com/link5",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 6",
+                    "action": "https://example.com/link6",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 7",
+                    "action": "https://example.com/link7",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 8",
+                    "action": "https://example.com/link8",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 9",
+                    "action": "https://example.com/link9",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "text": "链接 10",
+                    "action": "https://example.com/link10",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 巨魔常用软件大合集\n- 插件为空包请勿下载\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 15,
+                    "itemSize": "{1, 1}",
+                    "screenshots": []
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "liym",
+                    "title": "插件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "1.0",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 16.5",
+                    "title": "支持系统"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2025年01月01日",
+                    "title": "最后更新"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 1.0 \n- 初始版本"
+                }
+            ]
+        }
+    ]
+}
