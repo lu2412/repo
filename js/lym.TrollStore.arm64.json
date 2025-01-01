@@ -10,7 +10,8 @@
             "views": [
                 {
                     "class": "DepictionHeaderView",
-
+                    "title": "巨魔工具合集"
+                },
                 {
                     "text": "DowngradeApp_应用降级",
                     "action": "https://www.123865.com/s/4v0cVv-P2nRA",
@@ -18,13 +19,13 @@
                     "class": "DepictionButtonView"
                 },
                 {
-                    "text": "屏蔽系统升级",
+                    "text": "屏蔽iOS系统升级",
                     "action": "https://www.123865.com/s/4v0cVv-X2nRA",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
-                    "text": "filza4.0巨魔版",
+                    "text": "Filza4.0 巨魔破解版",
                     "action": "https://www.123865.com/s/4v0cVv-n2nRA",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
@@ -76,7 +77,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 巨魔常用软件大合集\n- 插件为空包请勿下载\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 巨魔常用软件大合集\n- 插件为空包，请勿下载\n- 源内所有插件仅供本人学习交流使用，下载后请于 24 小时内删除！"
                 },
                 {
                     "class": "DepictionScreenshotsView",
@@ -118,7 +119,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.0 \n- 初始版本"
+                    "markdown": "### 版本 1.0\n- 初始版本"
                 }
             ]
         }
