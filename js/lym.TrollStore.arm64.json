@@ -9,10 +9,6 @@
             "tabname": "描述",
             "views": [
                 {
-                    "class": "DepictionHeaderView",
-                    "title": "巨魔工具合集"
-                },
-                {
                     "text": "DowngradeApp_应用降级",
                     "action": "https://www.123865.com/s/4v0cVv-P2nRA",
                     "openExternal": 1,
