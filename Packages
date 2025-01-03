@@ -2030,6 +2030,29 @@ Author: Netskao
 Name: Twitter NoAds-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.twitternoads.json
 
+Package: lym.com.netskao.wcabtestsinglechatbox
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcabtestsinglechatbox
+Replaces: com.netskao.wcabtestsinglechatbox
+Filename: ./debs/WCABTestSingle个人聊天折叠-Rootless.deb
+Size: 2476
+MD5sum: d9b08cc51cd90c238882cee1f7e0b0d0
+SHA1: 95460a3ace243eb392dca49f9af988e482c892ad
+SHA256: ab6c5d6d6f354f3ef6784ca14223d8c2ff61f17af8e8daba87a18ff86e6db34c
+Section: 微信插件
+Description: 私聊增加消息免打扰
+ - 启用微信个人聊天折叠功能
+ - 仅支持微信8.0.55及更高版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: WCABTestSingle个人聊天折叠-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestsinglechatbox.json
+
 Package: lym.com.netskao.wcdisablehotupdates
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -3233,6 +3256,30 @@ Description: 微信净化，还原聊天本质，干净的微信给你
 Author: Netskao
 Name: 微信净化 END-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.wechatpurification.json
+
+Package: lym.uncar
+Version: 0.0.1-6
+Architecture: iphoneos-arm64
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 132
+Conflicts: uncar
+Replaces: uncar
+Filename: ./debs/uncar提取car图像-Rootless.deb
+Size: 6912
+MD5sum: 31d560858ac28b9a4f96a5fc8f8f6118
+SHA1: 65e35a405e2af9992ec81d409a8e680b9f01859b
+SHA256: 018e89f66d2107bcace112af76c06413d60fa91454273629266b361b6d44a2dd
+Section: 系统增强
+Description: 从封包中提取Asset.car文件命令行工具，从Asset.car图像中提取png图像
+ - 用以下终端工具执行命定定位到xxx.car路径
+ - cd /var/mobile/Documents/DebBackup
+ - 再次执行以下指令用来保存提取后的位置
+ - uncar Assets.car /var/mobile/Documents
+ - 在此路径下会生成car同名称文件夹
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Elias Limneos <limneoselias@gmail.com>
+Name: uncar提取car图像-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.uncar.json
 
 Package: lym.weixinipad-Rootless
 Version: 1.0
