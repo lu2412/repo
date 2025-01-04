@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.8-1",
+                      "text": "1.0.9-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月31日",
+                      "text": "2025年01月04日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.8-1 \n- 优化了一些代码提升流畅度\n- 修复107版本聊天背景图不能加载\n- 增加重置插件设置功能"
+                      "markdown": "### 版本 1.0.9-1 \n- 主题选项新增气泡裁剪\n- 修复我的页面无法隐藏朋友圈\n- 修复8.0.55资料局中无法隐藏二维码图标\n- 修复切换暗黑模式背景动画颜色不会跟随问题\n- 聊天窗口已设置背景图时优先显示用户设置的背景\n- 增加聊天窗口消息背景显示，可在主题选项，透明时间线背景中关闭"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.-1\n- 优化了一些代码提升流畅度\n- 修复107版本聊天背景图不能加载\n- 增加重置插件设置功能"
                   },
                   {
                       "class": "DepictionSeparatorView"
