@@ -2686,18 +2686,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.0.8+6
+Version: 2.0.8+8
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 8940
+Installed-Size: 8652
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 2724592
-MD5sum: 760aa77f16d129e611f9b53f4b708b88
-SHA1: c53b0dc4009028485badd838790894225193495d
-SHA256: 0a252a34df261cfaf2d1f418b8c3be98309b3b4f3a8343d818832711434ec198
+Size: 2667864
+MD5sum: 40e2a7d9b060d8405755db8378162471
+SHA1: 3068409936d4ac6981edcae71f2e42da177b9fc7
+SHA256: c35e42864e33c120d26c8323251e55f9d4872c766fc039ddf536823ed2332051
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频
@@ -3337,6 +3337,27 @@ Description: 修改系统键盘为圆角
 Author: 无名
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
+
+Package: lym.xyz.cypwn.picsewpro
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: xyz.cypwn.picsewpro
+Replaces: xyz.cypwn.picsewpro
+Filename: ./debs/PicsewPro解锁-Rootless.deb
+Size: 25216
+MD5sum: b7b27bec5e4ec5495b64397712191ec5
+SHA1: 6209a162097327e92534cf88665daaf3e608a53f
+SHA256: 34c9e38d9bdaa316d5829a152f5de9ad34ddd4a7f1b0d812fc826df190ed1bfe
+Section: 软件增强
+Description: PicsewPro权益解锁
+ - 支持3.11.4版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: PicsewPro解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xyz.cypwn.picsewpro.json
 
 Package: lym.zuji-Rootless
 Version: 1.0
