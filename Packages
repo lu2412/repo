@@ -1457,6 +1457,25 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
+Package: lym.com.hongbao
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name
+Depends: mobilesubstrate
+Conflicts: com.hongbao
+Replaces: com.hongbao
+Filename: ./debs/微信红包气泡-Rootless.deb
+Size: 85060
+MD5sum: 5296aa219fc116b649dcf5c203fa06ed
+SHA1: 82c9690084e0d974b2e7f28d367bead7386087c5
+SHA256: 4b27fb222031ce421755a103c5aed493897d14d91ea0806e4836a500bfea2af4
+Section: 微信插件
+Description: 下载后文件在目录/var/mobile/Documents/红包气泡.zip
+ - 解压后结合主题盒子或者微信助手等插件食用。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Name: 微信红包气泡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hongbao.json
+
 Package: lym.com.huam.wcenablecleanorigmsg
 Version: 1.0-2
 Architecture: iphoneos-arm64
