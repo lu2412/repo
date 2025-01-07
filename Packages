@@ -2379,6 +2379,29 @@ Author: lym
 Name: Telegram解除截图和去除界面分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.screenshot.telegram.json
 
+Package: lym.com.showmytouches
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.showmytouches
+Replaces: com.showmytouches
+Filename: ./debs/ShowMyTouches触摸轨迹-Rootless.deb
+Size: 82972
+MD5sum: bc52d282130705df450fd5d81ce5e846
+SHA1: f1310877b2f0edd7dc0510161529d5c955e5abeb
+SHA256: cf761dd4b7e1ec29172b47a6af183531f17c39b2514cd4a0eab7cfe98c8023c6
+Section: 系统增强
+Description: 触摸轨迹
+ - 基于开源代码的基础
+ - 增加滑动轨迹效果
+ - 新增发光效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: dvntm & SINI
+Name: ShowMyTouches触摸轨迹-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.showmytouches.json
+
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
