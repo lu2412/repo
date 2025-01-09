@@ -1010,6 +1010,32 @@ Author: appku
 Name: 爱锋助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.appku.wechat.json
 
+Package: lym.com.apple.wechat.noads
+Version: 1.2.0
+Architecture: iphoneos-arm64
+Maintainer: Apple
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.apple.wechat.noads
+Replaces: com.apple.wechat.noads
+Filename: ./debs/微信去广告和谐版-Rootless.deb
+Size: 22300
+MD5sum: bf11161d7a50029c21ed8d1a2d525e19
+SHA1: c7b71444b1531cb2c00fad867315fdf286f7ef90
+SHA256: f8c1941d282b43b488d664469665c0345fdde1ca749d93131f55c7de043bca1e
+Section: 微信插件
+Description: 微信去广告和谐版
+ - 插件开关已纳入微信插件管理页面
+ - 删除搜索页面的广告
+ - 删除公众号列表广告、快讯
+ - 删除公众号文章中间和底部的广告
+ - 删除朋友圈广告,删除小程序的广告
+ - 删除直播和视频号中的广告
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Apple
+Name: 微信去广告和谐版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
+
 Package: lym.com.baiy.qqroundedcorners
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -2358,6 +2384,26 @@ Description: QQ内各种头像旋转
 Author: SINI
 Name: QQ头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qqavatarrotation.json
+
+Package: lym.com.sanhongbao
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Your Name
+Depends: mobilesubstrate
+Conflicts: com.sanhongbao
+Replaces: com.sanhongbao
+Filename: ./debs/微信三色红包气泡-Rootless.deb
+Size: 2318744
+MD5sum: 201c6a2b96c78c6651cab0510738d21a
+SHA1: 9b89060701543ffae8f054a6d08d043681cb7f58
+SHA256: 4b6c3007f6e9f214fc225465152b1b4a6c44f7c0a391c0d84f2d127e8975b35e
+Section: 微信插件
+Description: 网友分享三色气泡
+ - 下载后文件在目录/var/mobile/Documents/红包气泡.zip
+ - 解压后结合主题盒子或者微信助手等插件食用。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Name: 微信三色红包气泡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sanhongbao.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
