@@ -2616,7 +2616,7 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.1.0-1
+Version: 1.1.1-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Installed-Size: 6132
@@ -2624,10 +2624,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 2732080
-MD5sum: 0c751e9c0625449a9bd25a68fc6bb535
-SHA1: 50c5a2d2433fbd902185fee581432d6aa1b6e178
-SHA256: 634bd7c9f55c0b63c4b7ff03f553a150354c6ae5a1deaabe5635e65762019863
+Size: 2732376
+MD5sum: 2f590b25365ca34b011b280ddf1a2166
+SHA1: 9a85c0c7f56ddc3bdbe2c8ba99dd00d23a090531
+SHA256: ea2ac85d625e42d34037f325e81bfdbf2bda077ce8edd508184c5193715fdf0e
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3425,6 +3425,25 @@ Description: 修改系统键盘为圆角
 Author: 无名
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
+
+Package: lym.xyz.cypwn.movenotification16
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: mobilesubstrate, preferenceloader
+Conflicts: xyz.cypwn.movenotification16
+Replaces: xyz.cypwn.movenotification16
+Filename: ./debs/MoveNotification16通知位置-Rootless.deb
+Size: 17488
+MD5sum: e6cffb637865326327b85d706befc954
+SHA1: c674fdf0d47c8626e489b65262c7dfc4860a8724
+SHA256: 8af859e51cdc94a21111da74bca495ecf99163ca89a6a4628ce9e266664e3e1b
+Section: 系统增强
+Description: 调整IOS16通知横幅上下位置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: JunesiPhone
+Name: MoveNotification16通知位置-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xyz.cypwn.movenotification16.json
 
 Package: lym.xyz.cypwn.picsewpro
 Version: 1.0.0
