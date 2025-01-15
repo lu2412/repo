@@ -20,9 +20,13 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
+                                  },
                                 {
                                       "accessibilityText": "Screenshot",
                                       "url": "https://lu2412.github.io/repo/icon/123.png"
@@ -38,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.2",
+                      "text": "x✨",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.1.3",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月05日",
-                      "title": "最后更新时间"
+                      "text": "2025年01月16日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,8 +68,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.2\n- 新增评论区动图保存\n- 修复一些问题优化一些细节\n- > 2024-11-05"
-                  }
+                      "markdown": "### 版本 1.1.3 \n- ### 版本\n- 修复-新增无水印保存图片/实况/视频\n- 移除底部热点\n- 评论区实况保存\n- 新增顶部下载弹窗提示音\n- 移除底部购物\n- 移除底部消息\n- 移除底部加号\n- 移除首页赞助广告\n- 开启头像封面下载\n- 开启视频高清下载\n- 开启图片高清下载"
+                  },
               ]
           }
       ]
