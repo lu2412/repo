@@ -1572,18 +1572,18 @@ Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
 Package: lym.com.huami.xhstranslator
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 168
+Installed-Size: 172
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.xhstranslator
 Replaces: com.huami.xhstranslator
 Filename: ./debs/小红书自动翻译-Rootless.deb
-Size: 8228
-MD5sum: 9585ef2a388841cc001c037ae2788427
-SHA1: 21483bae39ab726ff5bfc724b4efd0fbc1d7e780
-SHA256: 47693583a5daeecb226e37c98724ca2aa55e1b8ff91cd7b2a2eac7832942405d
+Size: 8680
+MD5sum: a4284856d6cdd7e63330c9486a74485a
+SHA1: a1749c80dca73c0cd31ce3cdf7c8592ca679542d
+SHA256: 101c67dfb0f8c03a009c4f66a14b256f7b63f1639df91fd4a11d35dcc7db1eed
 Section: 软件增强
 Description: 小红书自动翻译
  - 英文默认自动翻译

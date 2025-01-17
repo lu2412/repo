@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0",
+                      "text": "1.1",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0 \n- 初始版本"
+                      "markdown": "### 版本 1.1 \n- 为更多语言进行支持\n- 在第一次请求失败后自动禁止请求\n- 重启软件后重新生效\n- 修补双语翻译简体中文支持"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 初始版本"
                   },
               ]
           }
