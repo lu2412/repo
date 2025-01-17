@@ -1483,25 +1483,6 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
-Package: lym.com.hongbao
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Your Name
-Depends: mobilesubstrate
-Conflicts: com.hongbao
-Replaces: com.hongbao
-Filename: ./debs/微信红包气泡-Rootless.deb
-Size: 85060
-MD5sum: 5296aa219fc116b649dcf5c203fa06ed
-SHA1: 82c9690084e0d974b2e7f28d367bead7386087c5
-SHA256: 4b27fb222031ce421755a103c5aed493897d14d91ea0806e4836a500bfea2af4
-Section: 微信插件
-Description: 下载后文件在目录/var/mobile/Documents/红包气泡.zip
- - 解压后结合主题盒子或者微信助手等插件食用。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Name: 微信红包气泡-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hongbao.json
-
 Package: lym.com.huam.wcenablecleanorigmsg
 Version: 1.0-2
 Architecture: iphoneos-arm64
@@ -1588,6 +1569,30 @@ Description: 去除开屏广告(含概念版)
 Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
+
+Package: lym.com.huami.xhstranslator
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.huami.xhstranslator
+Replaces: com.huami.xhstranslator
+Filename: ./debs/小红书自动翻译-Rootless.deb
+Size: 8228
+MD5sum: 9585ef2a388841cc001c037ae2788427
+SHA1: 21483bae39ab726ff5bfc724b4efd0fbc1d7e780
+SHA256: 47693583a5daeecb226e37c98724ca2aa55e1b8ff91cd7b2a2eac7832942405d
+Section: 软件增强
+Description: 小红书自动翻译
+ - 英文默认自动翻译
+ - 中文不翻译
+ - 依赖GoogleAPl,请务必使用魔法上网
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: 小红书自动翻译-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.xhstranslator.json
 
 Package: lym.com.huayuarc.wifiwnyshooks.rootless
 Version: 0.0.1
@@ -2384,26 +2389,6 @@ Description: QQ内各种头像旋转
 Author: SINI
 Name: QQ头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qqavatarrotation.json
-
-Package: lym.com.sanhongbao
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: Your Name
-Depends: mobilesubstrate
-Conflicts: com.sanhongbao
-Replaces: com.sanhongbao
-Filename: ./debs/微信三色红包气泡-Rootless.deb
-Size: 2318744
-MD5sum: 201c6a2b96c78c6651cab0510738d21a
-SHA1: 9b89060701543ffae8f054a6d08d043681cb7f58
-SHA256: 4b6c3007f6e9f214fc225465152b1b4a6c44f7c0a391c0d84f2d127e8975b35e
-Section: 微信插件
-Description: 网友分享三色气泡
- - 下载后文件在目录/var/mobile/Documents/红包气泡.zip
- - 解压后结合主题盒子或者微信助手等插件食用。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Name: 微信三色红包气泡-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sanhongbao.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
