@@ -836,24 +836,25 @@ Name: Single Mute 静音图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.singlemutes.json
 
 Package: lym.com.82flex.singlevpn
-Version: 1.4
+Version: 1.5
 Architecture: iphoneos-arm64
 Maintainer: 82Flex <82flex@gmail.com>
 Installed-Size: 384
 Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: com.82flex.singlevpn
 Replaces: com.82flex.singlevpn
-Filename: ./debs/Single VPN 上色-Rootless.deb
-Size: 29004
-MD5sum: 4727bcab206d52c98daa54cb33e78578
-SHA1: 7e1fe4e927d2724128d5c46b00a3cc93abf06fbf
-SHA256: ad728613f7107a0c270017ad931604765dec9c029e70d3d900e9e2097d84ae3b
+Filename: ./debs/Single VPN 着色-Rootless.deb
+Size: 29128
+MD5sum: b8ee629c910fecf1584b485539f4e8cc
+SHA1: d69e6017600452f76a6a37b8df1bec71fe7a1b3f
+SHA256: 2196b8cb01a198055d48f479f5fa1e14d68c43f6eac1cba61650d17a5227e132
 Section: 系统增强
-Description: 连接VPN时Wi-Fi和移动数据图标着色
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除
+Description: 连接 VPN 时进行着色
+ - Wi-Fi 和 移动数据图标着色
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: 82Flex <82flex@gmail.com>
-Name: Single VPN 上色-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.singlevpn.json
+Name: Single VPN 着色-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.singlevpn.json
 
 Package: lym.com.82flex.wtvrbglauncher
 Version: 1.1
