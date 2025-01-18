@@ -2959,18 +2959,18 @@ Name: 网商银行越狱检测屏蔽-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.wsyhnojb.json
 
 Package: lym.com.xx.xhshook
-Version: 1.1.5
+Version: 1.1.5-1
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 2608
+Installed-Size: 2836
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook
 Replaces: com.xx.xhshook
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 834664
-MD5sum: 3fc123ab79b01dd0e1a43504120d54f4
-SHA1: fdd8fd0e8fc9ca995af6350dc60dad919c2072ab
-SHA256: 05dfe0bea0bf5f9b6558f1d337ed2fa8a5602d55a4d6bc242d140b3f27c6e709
+Size: 906324
+MD5sum: ba6bc326f9f49191d6f62b1b831642a8
+SHA1: d3e3c51db214f00f48b4d070604b994fd1c05e03
+SHA256: fdd3ae8475b365d2f5bb134d0282bc50fb953c0c5d96e5ce8afebcc781adca11
 Section: 软件增强
 Description: 小红书软件增强
  - 默认移除一些广告
