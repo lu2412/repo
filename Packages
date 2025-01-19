@@ -2560,6 +2560,29 @@ Author: sunshinesong
 Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
+Package: lym.com.susu.nopreferencetips
+Version: 1.0.2-1
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
+Conflicts: com.susu.nopreferencetips
+Replaces: com.susu.nopreferencetips
+Filename: ./debs/电池提醒NoPreferencesTips-Rootless.deb
+Size: 5688
+MD5sum: e6953ef58070e4394837c14b10705a8d
+SHA1: 2442c09882a3a52e546f832b7dd5b82f3288cfd7
+SHA256: afe09ffc98e96eb179a3b3403d73d847d378a8ce6983e5d191f9af6645199e54
+Section: 系统增强
+Description: 此插件偏向于更换非官方电池的用户(一“件”全包)
+ - 修复“设置-电池-电池健康与充电”的提醒并显示健康值
+ - 移除桌面上的设置角标（只显示 15 天）
+ - 移除“关于本机”页面中-部件和服务历史记录下的未知部件提醒（如：电池-未知部件）
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 苏苏
+Name: 电池提醒NoPreferencesTips-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susu.nopreferencetips.json
+
 Package: lym.com.swing.fixlogintiktok
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2981,6 +3004,28 @@ Description: 小红书软件增强
 Author: x✨
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
+
+Package: lym.com.xx.ysbrowserhook
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 104
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.ysbrowserhook
+Replaces: com.xx.ysbrowserhook
+Filename: ./debs/亚瑟浏览器解锁pro-Rootless.deb
+Size: 20912
+MD5sum: 73adf23974177e868e907bd019cd0d8a
+SHA1: 1ee9634192d027cfac8e7edca8d786c9edc4262b
+SHA256: 71dd89fa11664a72077612083dd90464bdad39167982a95119b5124be71eb1c2
+Section: 软件增强
+Description: 解锁Pro权益
+ - 屏蔽越狱检测
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 亚瑟浏览器解锁pro-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.ysbrowserhook.json
 
 Package: lym.com.xybp888.lockbutton
 Version: 0.1-2
