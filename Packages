@@ -141,10 +141,10 @@ Maintainer: lym
 Depends: com.spark.snowboard, com.spark.snowboard.ui
 Replaces: zhuti.iosios.net.solsticerootless
 Filename: ./debs/lym.Eclectic.Themes_2.6_iphoneos-arm64.deb
-Size: 38170208
-MD5sum: 25099b558d4e59a5cc490c77f519a46a
-SHA1: 35aa99aae04a263470185ce7df1978a0c8aaace9
-SHA256: 6f3593018703d5956d87947aa43464fc54fc97e88a8475c089d96e1085c6592b
+Size: 38375008
+MD5sum: 697c413d4dcf747a04e87a225c40877a
+SHA1: 3559f1ac02fdc400d29ef6bf2dbf6043c8520699
+SHA256: f16ed92226f2728b300b84b251b5077942334cf2022b873ab213bc0d0f36422a
 Section: 系统美化
 Description: SnowBoard自用Eclectic by主题包
  - 主题安装后去SnowBoard设置里面启用生效
@@ -181,10 +181,10 @@ Maintainer: girl2023
 Conflicts: FuckWeChatAdBlocker-Rootless
 Replaces: FuckWeChatAdBlocker-Rootless
 Filename: ./debs/微信去广告.deb
-Size: 17108
-MD5sum: 8dc169038d003132df89ca59310c8661
-SHA1: 890f84b6e07419451baad6c2b3dffa6767e3b1d6
-SHA256: 4394b64788f42c4b1e22972fa76d57040e71c57e7b9b6e16dde58762680c03ca
+Size: 17120
+MD5sum: e624afcdb28f7d9c2033bfd9781dfaba
+SHA1: 0184d131354fc5f274c022721946ccfa19a691f6
+SHA256: cc891d4d70a4d64c4cad12aec7c0619e9bc39eed3b2ff5c3774df2052b2ed4f8
 Section: 微信插件
 Description: 去除最新8.0.54广告
  - 插件无设置项安装即可生效
@@ -672,11 +672,11 @@ Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.wcplugins.rootless
 Replaces: com.25mao.wcplugins.rootless
-Filename: ./debs/微信插件管理Plus-Rootless.deb
-Size: 23592
-MD5sum: 2ba2e910baaa89f31f7af2951f560390
-SHA1: 6f4b068d545e43a6782d2638305ed0c00734928f
-SHA256: 417213529e28c6007dfa9393d3ab63ad17ea1b0869310c7c01208f056b0fd4dc
+Filename: ./debs/微信插件管理Plus.deb
+Size: 23616
+MD5sum: b36e788f53de7fbfbc0c8f51afee5753
+SHA1: f9150501c72c78ce4b0767a3554673850a683233
+SHA256: 272a9b7fa92f0ff629913288d48e9d9634d6ba637813a92e24455c18e821f14e
 Section: 微信插件
 Description: 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
