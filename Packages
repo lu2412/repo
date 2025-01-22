@@ -2172,7 +2172,7 @@ Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.1-9
+Version: 1.2-1
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 220
@@ -2180,10 +2180,10 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 67936
-MD5sum: a0582e452930d20f0b8018b99794d520
-SHA1: 2c5e07cdd9f02d46c076939e9d8577e298b8fa5c
-SHA256: 523e1842a02d5dfd0868fe33fee909d31c05607942cc93a8658df07fee826f96
+Size: 65400
+MD5sum: e2c0d08db823956f39e96b3ce108b6ff
+SHA1: 11cb502989cb00312b3e623a2ee4a6f492f997cf
+SHA256: 52bfdeec55d874af79993f8574b676ce1689ca7f84e0d768445ded03cda71ea0
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
@@ -2279,18 +2279,18 @@ Name: WeChatNotiAvatar微信头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatnotiavatar.json
 
 Package: lym.com.netskao.wechatuiswitchloader
-Version: 1.1-4
+Version: 1.1-5
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 320
+Installed-Size: 304
 Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wechatuiswitchloader
 Replaces: com.netskao.wechatuiswitchloader
 Filename: ./debs/WeChatUISwitchLoader微信UI开关-Rootless.deb
-Size: 121192
-MD5sum: 3711114617c2a2f47cf8b5e72a4c291c
-SHA1: 46b50b8b4602812f4214b51848465f323778cfd2
-SHA256: 3633bb0b54bc2257a6a0a743b2608f59431d28e4ff387430594b412e5906f318
+Size: 119416
+MD5sum: a901b77dbaa46308f24339894c609acc
+SHA1: 778cd15ca23a4360be5e8bb261adfcb78a395d7d
+SHA256: e7d0bef85f1a412477cc82213f63156ddef178070b3c30baaa114ac4168795d4
 Section: 微信插件
 Description: 微信UI开关
  - 有设置项可自行添加素材
