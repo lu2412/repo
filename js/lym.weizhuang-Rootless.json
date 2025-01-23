@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "图层作者频道",
-                    "action": "https://t.me/DouYinHook",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- QQ功能增强精简无用组件\n- 消息防撤回，闪图保存等\n- 插件启用:QQ设置-辅助功能-右上角开启\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信伪装33版本\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/qqtc.png"
+                                      "url": "https://lu2412.github.io/repo/icon/33.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/qqtc1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/33.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "x✨",
+                      "text": "lym",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.5",
+                      "text": "1.0",
                       "title": "插件版本"
                   },
                   {
@@ -68,14 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.5 \n- 修复已知问题,更新支持新版"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.2\n- 新增支持TIM版\n- 新增Appsvip图标修改"
+                      "markdown": "### 版本 1.0 \n- 初始版本"
                   },
               ]
           }

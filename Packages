@@ -2913,18 +2913,18 @@ Name: 七猫免费小说去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qmxshook.json
 
 Package: lym.com.xx.qqhook
-Version: 1.1.3-1
+Version: 1.1.5
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 1960
+Installed-Size: 2012
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.qqhook
 Replaces: com.xx.qqhook
 Filename: ./debs/QQ图层-Rootless.deb
-Size: 594652
-MD5sum: b15fe8121d55c5b1fb04d29be6b08baf
-SHA1: 6b2ce41e3c21c87edf2cc490bd417457406636f7
-SHA256: 6bf84df618657e2acb72e7f17706d4470d0c6cb58e448af36c6d4da302170d0a
+Size: 616440
+MD5sum: de55ea5d316d52f57051cb66c4f6a1ed
+SHA1: d5d24e809284098e1c2b5de15ab879710d1c4091
+SHA256: c7486380f1b2435377ea22acb5967ae625725f49d786e9f7938cb806247d3a73
 Section: 软件增强
 Description: QQ功能增强
  - QQ功能增强精简无用组件
@@ -2935,6 +2935,30 @@ Description: QQ功能增强
 Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
+
+Package: lym.com.xx.wccallkit
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.wccallkit
+Replaces: com.xx.wccallkit
+Filename: ./debs/微信CallKit-Rootless.deb
+Size: 7492
+MD5sum: 643416003a4a05b4d0b5a54419878d88
+SHA1: bf1ca8f9a4c5d728f602c127730d68d9d375f70a
+SHA256: cca32da08d8db3582e9230a663f5524160d3234a0d684966f55afe0b9db2b290
+Section: 微信插件
+Description: 为微信开启Callkit功能
+ - 仅支持微信最新版(在8.0.46测试)
+ - 可能需要微信在后台才有效果
+ - 搭配伪装33可无后台Callkit
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 微信CallKit-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.wccallkit.json
 
 Package: lym.com.xx.wsyhnojb
 Version: 1.0.0
@@ -3438,6 +3462,24 @@ Description: 微信启用ipad登陆
 Author: lym
 Name: 微信启用ipad登陆-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.weixinipad-Rootless.json
+
+Package: lym.weizhuang-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: weizhuang-Rootless
+Replaces: weizhuang-Rootless
+Filename: ./debs/微信伪装33版本-Rootless.deb
+Size: 4668
+MD5sum: f80fbffc19c24d2e935938ba8c3d02b7
+SHA1: 9999f7686ec98ca0bbc869c5f91a5763071aed91
+SHA256: 6807bf33831ae437e5f579b69595205cdcb8989f62d6f16d7c1aba05ae2f0458
+Section: 微信插件
+Description: 微信伪装33版本
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 微信伪装33版本-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.weizhuang-Rootless.json
 
 Package: lym.ws.hbang.newterm3
 Version: 3.0~beta1
