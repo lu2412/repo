@@ -3129,6 +3129,25 @@ Author: lu
 Name: 电话助手自用配置保存(2)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua1.json
 
+Package: lym.dilan-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 佚名
+Conflicts: dilan-Rootless
+Replaces: dilan-Rootless
+Filename: ./debs/微信底栏降低-Rootless.deb
+Size: 2544
+MD5sum: f01983bda4e855b7994d1c477874edfe
+SHA1: 47f292f029853b9f852753c3ec4fb2170b0ecd49
+SHA256: eee29ca6f5230a2ebe45e68341a08bd08ff164491edd91e57a158ef4357a0359
+Section: 微信插件
+Description: 微信底栏降低
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 佚名
+Name: 微信底栏降低-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dilan-Rootless.json
+
 Package: lym.hxq-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
