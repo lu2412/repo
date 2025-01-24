@@ -3148,24 +3148,6 @@ Author: 佚名
 Name: 微信底栏降低-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dilan-Rootless.json
 
-Package: lym.hxq-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: hxq-Rootless
-Filename: ./debs/韩小圈解锁画质-Rootless.deb
-Size: 6660
-MD5sum: 6d92effc9b0cd1cc4c8f05f497ada8ed
-SHA1: 29606d963e49065fe38f2b97a3eecb4b9c1418dd
-SHA256: f29f39a65d2d6e6aea124be44de399755bfb60aa6e9572c0e6d76677bc62d29c
-Section: 软件增强
-Description: 韩小圈解锁画质
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 韩小圈解锁画质-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.hxq-Rootless.json
-
 Package: lym.ios-rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
