@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.8.4",
+                      "text": "5.8.6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月14日",
+                      "text": "2025年01月30日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.8.4 \n- 改进LRCLIB歌词抓取"
+                      "markdown": "### 版本 5.8.6 \n- 增加了对9.0.14的支持（修复了启用替换时加载歌词时崩溃的问题）\n- 由@dvirzxc更新的加泰罗尼亚语本地化"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.8.4\n- 改进LRCLIB歌词抓取"
                   },
                   {
                       "class": "DepictionSeparatorView"

@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "TiaoTiao",
+                      "text": "Doki",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.6",
+                      "text": "1.8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月02日",
+                      "text": "2025年01月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.6 \n- 初始版本"
+                      "markdown": "### 版本 1.8 \n- 日常更新"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 初始版本"
                   },
               ]
           }
