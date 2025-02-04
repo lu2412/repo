@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.1",
+                      "text": "1.8.2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月23日",
+                      "text": "2025年02月04日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.1 \n- 修复未开启深色模式时,图标消失的问题,可选择更新"
+                      "markdown": "### 版本 1.8.2 \n- 修复一些在32.8.0版本中失效的功能"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.1\n- 修复未开启深色模式时,图标消失的问题,可选择更新"
                   },
                   {
                       "class": "DepictionSeparatorView"

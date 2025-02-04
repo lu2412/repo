@@ -1529,17 +1529,17 @@ Name: WCEnableCleanOrigMsg原图清理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
 Package: lym.com.huami.DYYY
-Version: 1.8.1
+Version: 1.8.2
 Architecture: iphoneos-arm64
 Maintainer: huami
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.DYYY
 Replaces: com.huami.DYYY
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 25912
-MD5sum: 7f857c6338f952afc4a67dd4667496ab
-SHA1: 4997c4c723c6a5b3625f74620adf31fb6f167387
-SHA256: 987b7812b77d81901783097e66d94e682909827a8bbb93c76b29a3777a3eb4e1
+Size: 25888
+MD5sum: 220485257921bcdd09e0fbe30bc0c8d9
+SHA1: 67b38fe9d8dde200b1a5ba50891ea9ebc4927bd5
+SHA256: dc027b509ce8d05939c1682749815e2fdd9c251b1955fa9362f615de67c43e44
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
