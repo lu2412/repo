@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.3-1",
+                      "text": "1.1.4-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月22日",
+                      "text": "2025年02月04日",
                       "title": "最后更新"
                   }
               ]
@@ -72,14 +72,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.3-1 \n- 修复折叠的群聊无法加载自定义聊天背景\n- 增加以了一些图标的映射"
+                      "markdown": "### 版本 1.1.4-1 \n- 修复8.0.56不能自定义占位文字\n- 修复8.0.56未安装插件管理不能在设置中显示插件，强烈建议安装插件管理\n- 增加用户证书未配置增加内存限制的提示。未配置内存限制请及时联系证书商免费更新\n- 由于增加了全局动态/视频背景重写了背景加载逻辑，目前我自己测试没发现问题。如有问题请前往BUG反馈中提交。"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.2-1优化代码修复一些已知问题\n- 增加服务页面图标映射\n- 配色管理增加红包\n- 转账文字颜色修改"
+                      "markdown": "### 版本1.1.3\n- 修复折叠的群聊无法加载自定义聊天背景\n- 增加以了一些图标的映射"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.2-1\n- 优化代码修复一些已知问题\n- 增加服务页面图标映射\n- 配色管理增加红包\n- 转账文字颜色修改"
                   },
                   {
                       "class": "DepictionSeparatorView"
