@@ -1528,32 +1528,6 @@ Author: huami
 Name: WCEnableCleanOrigMsg原图清理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
-Package: lym.com.huami.DYYY
-Version: 1.8.2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.DYYY
-Replaces: com.huami.DYYY
-Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 25888
-MD5sum: 220485257921bcdd09e0fbe30bc0c8d9
-SHA1: 67b38fe9d8dde200b1a5ba50891ea9ebc4927bd5
-SHA256: dc027b509ce8d05939c1682749815e2fdd9c251b1955fa9362f615de67c43e44
-Section: 抖音插件
-Description: 抖音增强插件
- - 双指长按打开插件设置
- - 设置顶栏透明
- - 设置全局透明度
- - 隐藏全屏观看
- - 隐藏底栏加号
- - 开启弹幕改色
- - 新增默认倍速播放功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: huami
-Name: 抖音 YYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.DYYY.json
-
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1573,6 +1547,33 @@ Description: BiliBili净化开屏广告
 Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
+
+Package: lym.com.huami.dyyy
+Version: 1.9
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 236
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.huami.dyyy
+Replaces: com.huami.dyyy
+Filename: ./debs/抖音 YYYY-Rootless.deb
+Size: 26716
+MD5sum: 6f96beb754abcb6e1704a4bce85d7667
+SHA1: ed659de446df7d7bf39277be38979cf886b2b8fd
+SHA256: 4f61d290e0c49eb47e27bf09e24682e1640c4913d87a9367c49a3642db3b300d
+Section: 抖音插件
+Description: 抖音增强插件
+ - 双指长按打开插件设置
+ - 设置顶栏透明
+ - 设置全局透明度
+ - 隐藏全屏观看
+ - 隐藏底栏加号
+ - 开启弹幕改色
+ - 新增默认倍速播放功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: 抖音 YYYY-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1
@@ -2783,6 +2784,28 @@ Description: 解决个别用户微信通知不显示详细内容
 Author: QW
 Name: 解决微信通知不显示内容-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat.wxhook.json
+
+Package: lym.com.wkk.tiebahook
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.tiebahook
+Replaces: com.wkk.tiebahook
+Filename: ./debs/百度贴吧去广告-Rootless.deb
+Size: 78028
+MD5sum: 87cfda77a40be9a0501992f83d0826fd
+SHA1: be6700bea62983100cb78d7cda816ae8affc0fe2
+SHA256: 49457fec17311d91e2e840e48b23d8b586f5c3a2d972080f518388959bffc3c4
+Section: 软件增强
+Description: 去除百度贴吧广告
+ - 无效请卸载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 百度贴吧去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.tiebahook.json
 
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
