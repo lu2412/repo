@@ -46,12 +46,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "x✨",
+                      "text": "x✨ <xuanhua880@gmail.com>",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.0",
+                      "text": "2.0.8-9",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月05日",
+                      "text": "2025年02月06日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.0 \n- 网友分享不过期版本"
+                      "markdown": "### 版本 2.0.8-9 \n- 网友分享不过期版本"
                   },
                   {
                       "class": "DepictionSeparatorView"
