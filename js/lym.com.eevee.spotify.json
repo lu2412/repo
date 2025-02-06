@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.8.6",
+                      "text": "5.8.7",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月30日",
+                      "text": "2025年02月06日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.8.6 \n- 增加了对9.0.14的支持（修复了启用替换时加载歌词时崩溃的问题）\n- 由@dvirzxc更新的加泰罗尼亚语本地化"
+                      "markdown": "### 版本 5.8.7 \n- 修复了本地播放列表下载崩溃（用于在Wi-Fi网络中从PC“下载”仅包含本地曲目的播放列表）"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.8.5\n- 增加了对9.0.14的支持（修复了启用替换时加载歌词时崩溃的问题）\n- 由@dvirzxc更新的加泰罗尼亚语本地化"
                   },
                   {
                       "class": "DepictionSeparatorView"

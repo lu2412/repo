@@ -1383,7 +1383,7 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 5.8.6
+Version: 5.8.7
 Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1596
@@ -1391,10 +1391,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swif
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 398204
-MD5sum: e4cf61b98e1c94f2c2fe7f86ca0bc267
-SHA1: 575afa24507f58b02a9c8c45fe393e1abc670a34
-SHA256: 9bc31d96456fb9332722c8976ffd88cf5603e2df3c212c6bd39819c48ff1f96a
+Size: 397720
+MD5sum: 76aeb8846a4f0d6a65a01486da22f092
+SHA1: e5de24da983f0d98e499daef82121d0dd629cc51
+SHA256: 848de5051ddba35925cedeec4f35eba864d0ac3b1b88b13a189e57d6da357d6e
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -3322,6 +3322,27 @@ Description: 长按键盘滑动光标
 Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
+
+Package: lym.jp.uzra.enabledsreturn
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: uz.ra
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: jp.uzra.enabledsreturn
+Replaces: jp.uzra.enabledsreturn
+Filename: ./debs/DeepSeek_发送改为换行-Rootless.deb
+Size: 4704
+MD5sum: ab2eef99f6340eabd0b1f6837c1bd4cc
+SHA1: becabc4936580fda91390cf9b3ee37c218e121cc
+SHA256: 42ba4e64abdb06f4d02edccb8c584646990fdcc29db75bc8f0b0a76e6f3d2501
+Section: 软件增强
+Description: 将DeepSeek软件内键盘按钮由发送改为换行键
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: uz.ra
+Name: DeepSeek_发送改为换行-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jp.uzra.enabledsreturn.json
 
 Package: lym.kuwo-Rootless
 Version: 1.0
