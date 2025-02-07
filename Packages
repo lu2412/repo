@@ -2892,6 +2892,29 @@ Author: x✨ <xuanhua880@gmail.com>
 Name: 抖音图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
+Package: lym.com.xx.dyhooks.old
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: x✨
+Installed-Size: 224
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhooks.old
+Replaces: com.xx.dyhooks.old
+Filename: ./debs/抖音图层旧版-Rootless.deb
+Size: 41724
+MD5sum: c397a245f57e9c761157394f43a2cbd1
+SHA1: 7a967397aeb4dc3e32c39b5e67d7911a7f3df0a3
+SHA256: 80fbd25484cad5737ad700abf610fb1c53668b64059a5fff7447fb6498603c63
+Section: 抖音插件
+Description: 抖音图层旧版
+ - 只有少量功能
+ - 无时间限制
+ - 抖音内双指双击开启功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: x✨
+Name: 抖音图层旧版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhooks.old.json
+
 Package: lym.com.xx.jrtthook
 Version: 1.0.4
 Architecture: iphoneos-arm64
