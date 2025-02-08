@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9-2",
+                      "text": "1.9-4",
                       "title": "插件版本"
                   },
                   {
@@ -68,14 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9-2 \n- 优化UI\n- 新增修改底栏标题功能\n- 不支持商城因为可以改回朋友,反正没人喜欢商城"
+                      "markdown": "### 版本 1.9-4 \n- 修复全局透明度被覆盖的问题\n- 合并wwg135(M哥)的请求\n- 新增隐藏头像按钮\n- 新增隐藏音乐按钮"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9\n- 新增【显示视频进度条】by苏苏\n- 新增【关注二次确认】\n- 新增【收藏二次确认】\n- 支持【默认1.25x】\n- 修复【深色键盘】中的部分标签未被渲染(虽然官方已经对评论区进行了深色处理,但我觉得自己做的好看点!?)"
+                      "markdown": "### 版本1.9.2\n- 优化UI\n- 新增修改底栏标题功能\n- 不支持商城因为可以改回朋友,反正没人喜欢商城"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9-1\n- 新增【显示视频进度条】by苏苏\n- 新增【关注二次确认】\n- 新增【收藏二次确认】\n- 支持【默认1.25x】\n- 修复【深色键盘】中的部分标签未被渲染(虽然官方已经对评论区进行了深色处理,但我觉得自己做的好看点!?)"
                   },
                   {
                       "class": "DepictionSeparatorView"

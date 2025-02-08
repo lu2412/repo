@@ -1551,18 +1551,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 1.9-2
+Version: 1.9-4
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 236
+Installed-Size: 272
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 28044
-MD5sum: ddba6900d66bb002778891db0b44f0b6
-SHA1: dff2f8fcf656e533496e7f0576ed3ad26d00062f
-SHA256: 17fabc35ca4ce33e1f83bea9f427da264bee867c75de60cbe33557f1979478ca
+Size: 29732
+MD5sum: 6367b90619880dff25c9e1ace06a16f7
+SHA1: e8d5a88e0adec495040d05c3923d625b54f8ff36
+SHA256: 19e5ca5ceed74792c97ae51de120bfec354c44d6725614ef95f02ef548a18ed8
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
