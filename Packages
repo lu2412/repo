@@ -1554,15 +1554,15 @@ Package: lym.com.huami.dyyy
 Version: 1.9-4
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 272
+Installed-Size: 252
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 29732
-MD5sum: 6367b90619880dff25c9e1ace06a16f7
-SHA1: e8d5a88e0adec495040d05c3923d625b54f8ff36
-SHA256: 19e5ca5ceed74792c97ae51de120bfec354c44d6725614ef95f02ef548a18ed8
+Size: 28648
+MD5sum: 4e6c02f5ca8af0bc0c2db99633d464a7
+SHA1: 99eb467ac31a9d29ccee815e0a98c19525c8214d
+SHA256: cb7d15a14a5fb3b56a8874b70f18ef64b747e6ef1b220fb9c15043d5455707f9
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
