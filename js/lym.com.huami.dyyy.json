@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9-4",
+                      "text": "1.9-6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月08日",
+                      "text": "2025年02月09日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9-4 \n- 修复全局透明度被覆盖的问题\n- 合并wwg135(M哥)的请求\n- 新增隐藏头像按钮\n- 新增隐藏音乐按钮"
+                      "markdown": "### 版本 1.9-6 \n- 新增视频自动播放\n- 修复首次加载透明度为空的问题\n- 修复了部分已知的问题\n- 这里指的是视频 所以直播和图片自然不行，我想弄的时候自然会弄"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.3\n- 修复全局透明度被覆盖的问题\n- 合并wwg135(M哥)的请求\n- 新增隐藏头像按钮\n- 新增隐藏音乐按钮"
                   },
                   {
                       "class": "DepictionSeparatorView"

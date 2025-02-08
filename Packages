@@ -1039,6 +1039,28 @@ Author: Apple
 Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
 
+Package: lym.com.awemenoads
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: unknown
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.awemenoads
+Replaces: com.awemenoads
+Filename: ./debs/AwemeNoAds去除抖音广告-Rootless.deb
+Size: 9960
+MD5sum: 8569be88c6deab96ae44cdb70cbf24b9
+SHA1: e977db9f5d2ce6fa335127891e18be567fa19463
+SHA256: 6b796fbe92516a7702818d7e9447ef2b233695657a64d864c868af721224a553
+Section: 抖音插件
+Description: 去除启动广告
+ - 去除视频广告
+ - 去除青少年提醒
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: unknown
+Name: AwemeNoAds去除抖音广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.awemenoads.json
+
 Package: lym.com.baiy.qqroundedcorners
 Version: 1.3
 Architecture: iphoneos-arm64
@@ -1551,18 +1573,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 1.9-4
+Version: 1.9-6
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 252
+Installed-Size: 268
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 28648
-MD5sum: 4e6c02f5ca8af0bc0c2db99633d464a7
-SHA1: 99eb467ac31a9d29ccee815e0a98c19525c8214d
-SHA256: cb7d15a14a5fb3b56a8874b70f18ef64b747e6ef1b220fb9c15043d5455707f9
+Size: 29632
+MD5sum: 8032aad49f31dfe35f8b72f938f4064c
+SHA1: 7e5aa43594d634c9ade4b2f88cdc70dbe41e2ecc
+SHA256: 85126ab0aa36e6f16f1b42258dee49af230b4349c745d4b4b73affe17e6717d6
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
