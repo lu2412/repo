@@ -880,24 +880,26 @@ Name: 语音转文字免跳转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
 
 Package: lym.com.BeanbunsHelpers.DB
-Version: 1.0-1
+Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: Beanbuns
 Depends: mobilesubstrate
 Conflicts: com.BeanbunsHelpers.DB
 Replaces: com.BeanbunsHelpers.DB
-Filename: ./debs/抖音 豆包助手-Rootless.deb
-Size: 465340
-MD5sum: 58a27dd85369f3a3c5d3314fd968fa16
-SHA1: cfc79b4b381ba675a29e624a2fa4fef8996e09b9
-SHA256: 3199c3cece5bd389c0ce8776dd4d590b108da162996fe151cf27ac2f8dabbcbe
+Filename: ./debs/豆包助手-Rootless.deb
+Size: 424000
+MD5sum: e3ee1e2629fbdab3cd20f01c5936c886
+SHA1: 366ef45969b104402733df84fe3c30844f6978d4
+SHA256: f2359457e335a7aab8395a144d03208677ae6a8ce249253dd2d70763f6b372f4
 Section: 抖音插件
-Description: 豆包助手给自己的小抖音添加一些小功能
- - 插件设置位于抖音设置内
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Description: 抖音增强插件
+ - 无水印保存视频、图片、音频
+ - 双击打开评论区
+ - 隐藏菜单按钮
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Beanbuns
-Name: 抖音 豆包助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
+Name: 豆包助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
 Version: 1.7-8

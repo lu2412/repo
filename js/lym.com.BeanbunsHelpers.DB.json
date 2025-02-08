@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "插件作者频道",
-                    "action": "https://t.me/DYBeanbuns",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 豆包助手(DouYin)抖音项目（仅供逆向学习）\n- 给自己的小抖音添加一些小功能\n- 插件设置位于抖音设置内\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 抖音增强插件\n- 无水印保存视频、图片、音频\n- 双击打开评论区\n- 隐藏菜单按钮\n- 插件设置位于抖音设置内\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -46,18 +46,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-1",
+                      "text": "Beanbuns",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.0-2",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
+                      "text": "2025年02月08日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -67,7 +72,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-1 \n- 初始发布"
+                      "markdown": "### 版本 1.0-2 \n- 添加移除底部按钮\n- 添加移除底部所有文本\n- 添加秒过小程序激励广告(直接×掉有奖励)\n- 添加更清晰的视频无水印下载方式\n- 添加移除底部首页文本旁的图标兼容最新正式版版及TF33.1.0版\n- 修复新版隐藏底部红点失效的问题\n- 修复新版长按无水印菜单消失的问题\n- 优化保存无水印视频后在相册显示保存时间和用户名称"
                   },
               ]
           }
