@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9-6",
+                      "text": "1.9-7",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9-6 \n- 新增视频自动播放\n- 修复首次加载透明度为空的问题\n- 修复了部分已知的问题\n- 这里指的是视频 所以直播和图片自然不行，我想弄的时候自然会弄"
+                      "markdown": "### 版本 1.9-7 \n- 重写自动播放逻辑支持主页、收藏\n- 新增隐藏底栏【朋友、商城、消息】by哥)使用苏苏的算法优化\n- 修复视频进度条无法显示问题\n- 优化UI,加入分类更加简洁"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.4\n- 新增视频自动播放\n- 修复首次加载透明度为空的问题\n- 修复了部分已知的问题\n- 这里指的是视频 所以直播和图片自然不行，我想弄的时候自然会弄"
                   },
                   {
                       "class": "DepictionSeparatorView"
