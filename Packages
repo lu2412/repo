@@ -2630,6 +2630,28 @@ Author: susu
 Name: SuAwemeHook抖音增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susu.suawemehook.json
 
+Package: lym.com.susu.suxhshook
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: susu
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.susu.suxhshook
+Replaces: com.susu.suxhshook
+Filename: ./debs/SuXHSHook小红书调整-Rootless.deb
+Size: 12428
+MD5sum: 73e888946ab4921c5ffd4520b47cb99a
+SHA1: 61fab46a32781e8818043b0b3c7f5f8d064940fe
+SHA256: e76e0879a34ce9b7c1a102e8171c3f32c3fbd0968beac6f934e7a182eac50c6b
+Section: 软件增强
+Description: 隐藏小红书热点加号消息选项卡
+ - 无水印保存图片视频
+ - 小红书设置-双击关于版本号打开插件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: susu
+Name: SuXHSHook小红书调整-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susu.suxhshook.json
+
 Package: lym.com.swing.fixlogintiktok
 Version: 0.0.1
 Architecture: iphoneos-arm64
