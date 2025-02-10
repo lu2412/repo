@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9-7",
+                      "text": "1.9-8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月09日",
+                      "text": "2025年02月10日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9-7 \n- 重写自动播放逻辑支持主页、收藏\n- 新增隐藏底栏【朋友、商城、消息】by哥)使用苏苏的算法优化\n- 修复视频进度条无法显示问题\n- 优化UI,加入分类更加简洁"
+                      "markdown": "### 版本 1.9-8 \n- 新增首页净化模式(侧边倍速可退出)\n- 修复全局透明导致出现错位暂停按钮\n- 修复移除头像缺少的直播框\n- 将UI整体下移，避免与关闭按钮太近\n- 当前版本可支持显示版本号与构建日期"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.5\n- 重写自动播放逻辑支持主页、收藏\n- 新增隐藏底栏【朋友、商城、消息】by哥)使用苏苏的算法优化\n- 修复视频进度条无法显示问题\n- 优化UI,加入分类更加简洁"
                   },
                   {
                       "class": "DepictionSeparatorView"
