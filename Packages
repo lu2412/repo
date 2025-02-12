@@ -1590,12 +1590,12 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.fixmiyoutoolbar
 Replaces: com.huami.fixmiyoutoolbar
 Filename: ./debs/FixMiyouToolBar修复助手工具栏-Rootless.deb
-Size: 4760
-MD5sum: a2497df652a133bcab798c95e5f337ff
-SHA1: 05102e82586d5f2a766dab49c8f1f626ce44ac9a
-SHA256: 33c1f94187a6a74fba48b314347b4d139a1fc1636eea7ee1abcc3c4ae9dacd4b
+Size: 4736
+MD5sum: b51ec35fa66184c675ba544a94855f69
+SHA1: ca361b72d1efee742c3a234bda7d91dbbee82359
+SHA256: 1ec9128f294c4b337a5ae65545c1b6cd8fc1bf5bb8966920582fe950e4c832df
 Section: 微信插件
-Description: 重新适配8.0.56版本,修复因修复因热更新导致的微信助手工具栏失效问题
+Description: 修复因热更新导致的微信助手工具栏失效问题
  - 请勿在低于8.0.56的版本使用,以避免冲突。
  - 安装后可卸载禁用热更新插件,以免插件冲突。
  - 插件无设置项安装即可生效
