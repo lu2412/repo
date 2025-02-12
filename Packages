@@ -2609,7 +2609,7 @@ Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.susu.suawemehook
-Version: 1.2
+Version: 1.2-4
 Architecture: iphoneos-arm64
 Maintainer: susu
 Installed-Size: 236
@@ -2617,10 +2617,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.susu.suawemehook
 Replaces: com.susu.suawemehook
 Filename: ./debs/SuAwemeHook抖音增强-Rootless.deb
-Size: 20428
-MD5sum: 44c2203f62e4beab79cb2b002d68b515
-SHA1: e673712333bbcdc6609a1655e6ad3b988327d46c
-SHA256: 1c33b2874d217f593c4e29d836e62863304130971b532c9e228488eb4a869cc8
+Size: 22064
+MD5sum: 04b27698c5b592bb399c3588a501bcb6
+SHA1: becaf49eb9bb46a5d350befb8034edd662952c56
+SHA256: 0477bbff01b477a67e81f8334ae3837f25f5f1c8f4d6cd39a7eaae431447943b
 Section: 抖音插件
 Description: 新款抖音插件
  - 自定义移除一些多余组件
