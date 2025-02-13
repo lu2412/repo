@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "插件作者频道",
+                    "action": "https://t.me/huamidev",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-1",
+                      "text": "1.0-2",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-1 \n- 初始版本"
+                      "markdown": "### 版本 1.0-2 \n- 修复开启“输入时隐藏”选项时安全插入视图避免错位"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 初始版本"
                   },
               ]
           }
