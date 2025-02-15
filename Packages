@@ -884,18 +884,19 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.7-8
+Version: 1.7.9
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
+Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11251344
-MD5sum: 6b5395fb2c8ea607e9a203680e281b78
-SHA1: 1b44161011f5562231ab38e36a1ceb252f3b6a6f
-SHA256: 0387e271ea639ac30f62c0d16567e2d3173e39104ed159022a275faf255aeab1
+Size: 11110256
+MD5sum: 52cc8f58d5e7788916696af48c2c658d
+SHA1: 950d70a2bbe411e25b019ad57c697f2c9a8fac26
+SHA256: 3ea24dccacf7ee7fb27968d2d80b58016bbdc19af33702246c6e75fe0de9f88c
 Section: 微信插件
-Description: 一个微信插件文本转语音(付费功能）
+Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
  - 发送网络语录舔狗日记骂人等文案
  - 4K原图手绘壁纸等
@@ -905,7 +906,7 @@ Description: 一个微信插件文本转语音(付费功能）
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
 
 Package: lym.com.HideMfWeb
 Version: 0.1-2
@@ -2720,18 +2721,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 1.1.6-1
+Version: 1.1.7-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 6684
+Installed-Size: 6784
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 2982660
-MD5sum: 8f6fdbe54e42c95410e3b4fa5228d76c
-SHA1: 39083c958a6fd7153089f9e747c3b7a49c7e4c59
-SHA256: 1dfd1273737ebfc9e9b1429cd75982342f0b3f799ce6d99e1cffc6fd52024735
+Size: 3028940
+MD5sum: 6de78da2ab599fc0daf3113631c46ba2
+SHA1: 79074b60846f0e925bdc8da3663e1d9accfdf513
+SHA256: 24a2079778149ac7b9f69b92f635b071567ad29cd9dfa09e4ac114dbbc1bc1f8
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
