@@ -2394,6 +2394,29 @@ Author: Nightwind
 Name: OneSettings设置归类-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
+Package: lym.com.nwzj.hooktc
+Version: 0.2
+Architecture: iphoneos-arm64
+Maintainer: nwzj
+Installed-Size: 123
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.nwzj.hooktc
+Replaces: com.nwzj.hooktc
+Filename: ./debs/逆无止境图层1aa2-Rootless.deb
+Size: 163580
+MD5sum: fd4cd55dfed1c3fcb0cf7bca691b769f
+SHA1: 5b441cc5bc2d9de27e18e7cffdcfc0d439e14832
+SHA256: d3661650cc1b7600894dce791a03f3f7d003159a8ade503b20e6f125231aad23
+Section: 软件增强
+Description: 删除图层时间限制
+ - 譬如抖音图层和小红书图层等
+ - 安装此插件后再安装图层插件即可生效
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: nwzj
+Name: 逆无止境图层1aa2-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nwzj.hooktc.json
+
 Package: lym.com.p2kdev.safarifind
 Version: 1.1.2
 Architecture: iphoneos-arm64
