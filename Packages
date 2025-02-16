@@ -630,23 +630,24 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.8-0
+Version: 3.8-1
 Architecture: iphoneos-arm64
-Maintainer: Mao
+Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
+Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 10164416
-MD5sum: c318b57ea41f7744705118f6a59ebba8
-SHA1: b39749c54d2bb328185fe6a3cc93a03776932dd1
-SHA256: f4681e3c4cddeb06113653ad7c0d0ef84305cec4a10d0ddb0d86347bdc4da1d9
+Size: 9025656
+MD5sum: 61ca712d45572d2693b07aa225eafdf6
+SHA1: d2896e1186c1d2564e236a892f50e95b5a8ba3fa
+SHA256: c44c22cbedbeb46db28204dc2f517ef23e0f819a4f112d5b494737470e8cb3c0
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
 Name: 微信助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
 Package: lym.com.25mao.msgfilt.rootless
 Version: 1.0-5.1
@@ -881,17 +882,17 @@ Name: 语音转文字免跳转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
 
 Package: lym.com.BeanbunsHelpers.DB
-Version: 1.0-2
+Version: 1.0-3
 Architecture: iphoneos-arm64
 Maintainer: Beanbuns
 Depends: mobilesubstrate
 Conflicts: com.BeanbunsHelpers.DB
 Replaces: com.BeanbunsHelpers.DB
 Filename: ./debs/豆包助手-Rootless.deb
-Size: 424000
-MD5sum: e3ee1e2629fbdab3cd20f01c5936c886
-SHA1: 366ef45969b104402733df84fe3c30844f6978d4
-SHA256: f2359457e335a7aab8395a144d03208677ae6a8ce249253dd2d70763f6b372f4
+Size: 456384
+MD5sum: 02552e00b94c1efc5862bf221be25bf5
+SHA1: 37748eaa343a641b48774c4dd58ec58d5fa9448a
+SHA256: abc678a5e37c54f999b2ce26c1cdbeddabdafed347e92735f7f4ab38939a7541
 Section: 抖音插件
 Description: 抖音增强插件
  - 无水印保存视频、图片、音频

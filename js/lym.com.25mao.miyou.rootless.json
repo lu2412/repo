@@ -20,9 +20,17 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/zss.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/zss1.png"
+                                  }
                             ]
                   },
 
@@ -34,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.8-0",
+                      "text": "Mao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "3.8-1",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月02日",
-                      "title": "最后更新时间"
+                      "text": "2025年02月16日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +68,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.8-0\n- 修复上一版本勿扰模式自动挂断后无法回拨问题\n- > 2024-11-02\n ### 版本3.7-9\n- 修复快速折叠群聊闪退问题\n- 修复勿扰模式失效问题\n- 修复快速观看广告功能失效问题\n- 修复文件管理器重命名时未修改文件名直接确定导致文件被删问题\n- 视频去水印解析功能需要自定义解析接口\n- 接口需严格按照插件的数据返回格式\n- 自定义接口返回数据格式{code:200,data:{url:解析出的视频链接}\n- > 2024-08-06"
-                  }
+                      "markdown": "### 版本 3.8-1 \n- 修复微信8.0.56不显示工具栏\n- 修复灰度测试用户转载视频不能自动缓存问题"
+                  },
               ]
           }
       ]
