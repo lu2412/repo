@@ -1576,18 +1576,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 1.9-9
+Version: 1.9-9+1
 Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 272
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
-Filename: ./debs/抖音 YYYY-Rootless.deb
-Size: 35512
-MD5sum: cc72f45f591b7b483e91fedd095fc1ce
-SHA1: f856907497ab1d0eaa8bfd2d6e67dcea6b451c90
-SHA256: 9b58cffff2c5e95dd90011866f3ba6f0bf705c041e2ecab9f3dc92fb1609329f
+Filename: ./debs/抖音 DYYY-Rootless.deb
+Size: 34796
+MD5sum: 8970d15dcfea22c406a2047c8f393c0b
+SHA1: f567b1094b0660e75244e9b8275fed92ae82bef5
+SHA256: a9b8123d3a1aef75888afa7a9cb707fb9f6507f063c5ed25e6670dc0cf9d7419
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1599,7 +1599,7 @@ Description: 抖音增强插件
  - 新增默认倍速播放功能
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
-Name: 抖音 YYYY-Rootless
+Name: 抖音 DYYY-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.fixmiyoutoolbar
@@ -2658,7 +2658,7 @@ Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.susu.suawemehook
-Version: 1.2-4
+Version: 1.2-8
 Architecture: iphoneos-arm64
 Maintainer: susu
 Installed-Size: 236
@@ -2666,10 +2666,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.susu.suawemehook
 Replaces: com.susu.suawemehook
 Filename: ./debs/SuAwemeHook抖音增强-Rootless.deb
-Size: 22064
-MD5sum: 04b27698c5b592bb399c3588a501bcb6
-SHA1: becaf49eb9bb46a5d350befb8034edd662952c56
-SHA256: 0477bbff01b477a67e81f8334ae3837f25f5f1c8f4d6cd39a7eaae431447943b
+Size: 23120
+MD5sum: 01a2f61f309c50b62bb67aa556747426
+SHA1: f79398922c274348604d5299cf59adaa0dd13112
+SHA256: a445b5d2fbf4bb6f2aaa047b2891875fedec859e826a3db7068d91f81b3f608b
 Section: 抖音插件
 Description: 新款抖音插件
  - 自定义移除一些多余组件
