@@ -2966,18 +2966,18 @@ Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
 Package: lym.com.xx.dyhook
-Version: 2.1.0
+Version: 2.0.8+8
 Architecture: iphoneos-arm64
 Maintainer: x✨
-Installed-Size: 8796
+Installed-Size: 8716
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook
 Replaces: com.xx.dyhook
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 2673868
-MD5sum: c597082edbd002d97d1b8c4beec01d38
-SHA1: 3583ed30af30cdbfc8bae48a76549c5967a9011e
-SHA256: 5ee71717f6d65b130c0818196372e34e03cd9abed61a37ee95d505c122af57a9
+Size: 2664064
+MD5sum: cb2758a384c6a140a5072f0502f9160b
+SHA1: 647358a5ce0b562dcdd2e842b41cb075e41fe435
+SHA256: af5e1e254eea3c9d5764ad282cbb4776fa91b58386140739073586c4c8736667
 Section: 抖音插件
 Description: 抖音功能增强插件
    - 去广告、无水印下载视频

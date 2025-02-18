@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.0",
+                      "text": "2.0.8+8",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月16日",
+                      "text": "2025年02月19日",
                       "title": "最后更新"
                   }
               ]
@@ -72,14 +72,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.0 \n- 网友分享不过期版本"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.8+7\n- 修复某些功能导致闪退的问题"
+                      "markdown": "### 版本 2.0.8+8 \n- 修复某些功能导致闪退的问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
