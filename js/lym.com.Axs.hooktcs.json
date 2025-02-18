@@ -34,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "nwzj",
+                      "text": "逆无止境",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.2",
+                      "text": "0.3",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月16日",
+                      "text": "2025年02月19日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.2 \n- 初始版本"
+                      "markdown": "### 版本 0.3 \n- 初始版本"
                   },
               ]
           }
