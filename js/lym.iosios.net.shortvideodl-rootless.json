@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.2 \n- 初始版本"
+                      "markdown": "### 版本 1.8.2 \n- 抖音添加更多功能,双击视频点其它功能进入设置"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.1\n- 抖音添加视频上传地区、时间显示\n- 适配最新版小红书,更改为双击视频唤醒菜单"
                   },
               ]
           }
