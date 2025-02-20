@@ -1220,17 +1220,17 @@ Name: BHTikTok++中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtiktok++.json
 
 Package: lym.com.dao.bhtwitter
-Version: 4.3-3
+Version: 4.3-6
 Architecture: iphoneos-arm64
 Maintainer: Bandar Alruwaili
 Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter
 Replaces: com.dao.bhtwitter
 Filename: ./debs/BHTwitter 中文版-Rootless.deb
-Size: 7613108
-MD5sum: 121fcfc4115ed88cff628feeafaa595c
-SHA1: a0dc8b76a125b6d191981ba2a7adffe3ad09b799
-SHA256: aa4be153d55b0a157b6dfeb2dbe72d368aa328930fbfe3d0f9793a7aae267bc7
+Size: 7610788
+MD5sum: d85a3c18e9c6da7993bd00c9d24b3d7f
+SHA1: b67ccc5370b785f06ded9bdd8f9853c53edbe67a
+SHA256: 7c8b8a835dfb5f4bb3f7299f789e535931a67da8263cdadff377f4f413b22157
 Section: 软件增强
 Description: BHTwitter中文修复优化版
  - 推特(X)的综合功能性插件
@@ -1238,7 +1238,7 @@ Description: BHTwitter中文修复优化版
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Bandar Alruwaili
 Name: BHTwitter 中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtwitter.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtwitter.json
 
 Package: lym.com.dao.classicfolders3
 Version: 3.0.5.8

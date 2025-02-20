@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/x.png"
+                                      "url": "https://lu2412.github.io/repo/icon/122.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/x1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/12.png"
                                   }
                             ]
                   },
@@ -42,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "4.3-3",
+                      "text": "Bandar Alruwaili",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "4.3-6",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月14日",
-                      "title": "最后更新时间"
+                      "text": "2025年02月20日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -63,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 4.3-3 \n- 新增在搜索中隐藏热门视频选项\n- 「隐藏Premium注册优惠」的选项功能现在也会隐藏时间线上显示的广告(消息)"
+                      "markdown": "### 版本 4.3-6 \n- 布局调整可隐藏“视频”\n- 如果布局调整里看不见“视频”,点击右上角恢复按钮。"
                   },
               ]
           }
