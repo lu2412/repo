@@ -2658,25 +2658,25 @@ Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.susu.suawemehook
-Version: 1.2-8
+Version: 1.3
 Architecture: iphoneos-arm64
 Maintainer: susu
 Installed-Size: 236
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.susu.suawemehook
 Replaces: com.susu.suawemehook
-Filename: ./debs/SuAwemeHook抖音增强-Rootless.deb
-Size: 23120
-MD5sum: 01a2f61f309c50b62bb67aa556747426
-SHA1: f79398922c274348604d5299cf59adaa0dd13112
-SHA256: a445b5d2fbf4bb6f2aaa047b2891875fedec859e826a3db7068d91f81b3f608b
+Filename: ./debs/SuAwemeHook抖音增强 END-Rootless.deb
+Size: 23328
+MD5sum: 18105b47ef07b03951071694d9a45ff3
+SHA1: 733d18598a96ad305b337bc3cd1dfcd209ae79fa
+SHA256: bfb4e5106a8644c55f29181878fc7d8e3565690d6a3ae4504a731d9f940134f5
 Section: 抖音插件
-Description: 新款抖音插件
- - 自定义移除一些多余组件
- - 插件启用：抖音内双指双击调处设置项
+Description: 可隐藏移除Aweme多项无用功能
+ - 任意界面双指双击呼出调整菜单
+ - 最终版本,不再更新
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: susu
-Name: SuAwemeHook抖音增强-Rootless
+Name: SuAwemeHook抖音增强 END-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susu.suawemehook.json
 
 Package: lym.com.susu.suxhshook

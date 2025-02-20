@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 新款抖音插件\n- 自定义移除一些多余组件\n- 插件启用：抖音内双指双击调处设置项\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 可隐藏移除Aweme多项无用功能\n- 任意界面双指双击呼出调整菜单\n- 最终版本,不再更新\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2-8",
+                      "text": "1.3",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月17日",
+                      "text": "2025年02月20日",
                       "title": "最后更新"
                   }
               ]
@@ -68,28 +68,28 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2-8 \n- 日常更新"
+                      "markdown": "### 版本 1.3 \n- 添加视频自动播放\n- 最终版本,不再更新"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.4\n- 日常维护"
+                      "markdown": "### 版本1.2-8\n- 修复隐藏音乐封面,取消静音按钮错位的Bug\n- 结束进程添加结束动画@huamidev提供代码"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1\n- 优化UI"
+                      "markdown": "### 版本1.2-7\n- 修复iPad上不显示开关按钮的Bug\n- 此版本无功能更新,仅修复Bug"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0\n- 初始版本"
+                      "markdown": "### 版本1.2-6\n- 加入隐藏同城吃喝玩乐\n- 重新调整某些按钮位置"
                   },
               ]
           }
