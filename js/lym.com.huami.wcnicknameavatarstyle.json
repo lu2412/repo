@@ -29,7 +29,7 @@
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/you1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/ding.png"
                                   }
                             ]
                   },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-1",
+                      "text": "1.0-2",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-1 \n- 初始版本"
+                      "markdown": "### 版本 1.0-2 \n- 具体参数自己设置\n- 写的很详细了,无需重新启动居中就是没有标题\n- 右侧如果标题过长会错位\n- 屏蔽头像与消息时间会有问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.1\n- 初始版本"
                   },
               ]
           }

@@ -1690,24 +1690,24 @@ Name: WCAvatarButton聊天右侧头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
 
 Package: lym.com.huami.wcnicknameavatarstyle
-Version: 1.0-1
+Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 168
+Installed-Size: 256
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.wcnicknameavatarstyle
 Replaces: com.huami.wcnicknameavatarstyle
-Filename: ./debs/WCNicknameAvatarStyle标题头像-Rootless.deb
-Size: 6060
-MD5sum: fdd2504096c5b18b649035f54c57b7b8
-SHA1: 116c6ecb6d5b4796474639ee550e08d7acf531b0
-SHA256: c3a456b6e772f1471bce1a25d2e1f7ddee6055ba870b1902ee3198f9a341de71
+Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
+Size: 31196
+MD5sum: 2f5e7cc212dfb0812650a5d09898f0a0
+SHA1: 99d939334a071c11d80bb5fd701ce2f8295a3207
+SHA256: 2807b82607fed5bc7137eff339bde15530eca33769388211c9c1c63e0e86cbe2
 Section: 微信插件
 Description: 为微信聊天界面标题左侧添加头像显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami
-Name: WCNicknameAvatarStyle标题头像-Rootless
+Name: WCNicknameAvatarStyle顶栏元素-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcnicknameavatarstyle.json
 
 Package: lym.com.huami.xhstranslator
