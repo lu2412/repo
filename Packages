@@ -1668,27 +1668,6 @@ Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
-Package: lym.com.huami.wcavatarbutton
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.wcavatarbutton
-Replaces: com.huami.wcavatarbutton
-Filename: ./debs/WCAvatarButton聊天右侧头像-Rootless.deb
-Size: 5288
-MD5sum: 282312e68f02e48c99c68de442da1420
-SHA1: 8b7625953d8d4336221d8428caac144018550089
-SHA256: 2d6642a3115be10f85ef3e088f999bfbe409a42845dbc26fae80f0f81b72d6fd
-Section: 微信插件
-Description: 微信聊天界面右侧按钮修改为头像
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: WCAvatarButton聊天右侧头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
-
 Package: lym.com.huami.wcnicknameavatarstyle
 Version: 1.0-2
 Architecture: iphoneos-arm64
