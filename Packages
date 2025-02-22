@@ -1668,25 +1668,46 @@ Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
-Package: lym.com.huami.wcnicknameavatarstyle
-Version: 1.0-2
+Package: lym.com.huami.wcavatarbutton
+Version: 1.0-1
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 256
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.wcavatarbutton
+Replaces: com.huami.wcavatarbutton
+Filename: ./debs/WCAvatarButton聊天右侧头像-Rootless.deb
+Size: 5288
+MD5sum: 282312e68f02e48c99c68de442da1420
+SHA1: 8b7625953d8d4336221d8428caac144018550089
+SHA256: 2d6642a3115be10f85ef3e088f999bfbe409a42845dbc26fae80f0f81b72d6fd
+Section: 微信插件
+Description: 微信聊天界面右侧按钮修改为头像
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: WCAvatarButton聊天右侧头像-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
+
+Package: lym.com.huami.wcnicknameavatarstyle
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.wcnicknameavatarstyle
 Replaces: com.huami.wcnicknameavatarstyle
-Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
-Size: 31196
-MD5sum: 2f5e7cc212dfb0812650a5d09898f0a0
-SHA1: 99d939334a071c11d80bb5fd701ce2f8295a3207
-SHA256: 2807b82607fed5bc7137eff339bde15530eca33769388211c9c1c63e0e86cbe2
+Filename: ./debs/WCNicknameAvatarStyle标题头像-Rootless.deb
+Size: 6060
+MD5sum: fdd2504096c5b18b649035f54c57b7b8
+SHA1: 116c6ecb6d5b4796474639ee550e08d7acf531b0
+SHA256: c3a456b6e772f1471bce1a25d2e1f7ddee6055ba870b1902ee3198f9a341de71
 Section: 微信插件
 Description: 为微信聊天界面标题左侧添加头像显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami
-Name: WCNicknameAvatarStyle顶栏元素-Rootless
+Name: WCNicknameAvatarStyle标题头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcnicknameavatarstyle.json
 
 Package: lym.com.huami.xhstranslator
@@ -3831,6 +3852,27 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
+
+Package: lym1.com.huami.wcnicknameavatarstyle
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 256
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.huami.wcnicknameavatarstyle
+Replaces: com.huami.wcnicknameavatarstyle
+Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
+Size: 31200
+MD5sum: 60d570c899c0e5555ef8d73284d5fa57
+SHA1: c58c01758c4c71c666724e59e4194d6f90c017d0
+SHA256: 49269e11326c8e2f76999c5ffde626f155f89c7eea5c06f9c6b60fb22f86f088
+Section: 微信插件
+Description: 为微信聊天界面标题左侧添加头像显示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: WCNicknameAvatarStyle顶栏元素-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcnicknameavatarstyle.json
 
 Package: lym1.com.nightwind.onesettings
 Version: 1.0
