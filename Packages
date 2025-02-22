@@ -1690,24 +1690,24 @@ Name: WCAvatarButton聊天右侧头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
 
 Package: lym.com.huami.wcnicknameavatarstyle
-Version: 1.0-1
+Version: 1.0-4
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 168
+Installed-Size: 272
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.wcnicknameavatarstyle
 Replaces: com.huami.wcnicknameavatarstyle
-Filename: ./debs/WCNicknameAvatarStyle标题头像-Rootless.deb
-Size: 6060
-MD5sum: fdd2504096c5b18b649035f54c57b7b8
-SHA1: 116c6ecb6d5b4796474639ee550e08d7acf531b0
-SHA256: c3a456b6e772f1471bce1a25d2e1f7ddee6055ba870b1902ee3198f9a341de71
+Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
+Size: 31412
+MD5sum: 0979a6a1af543281d42fc717eda3110b
+SHA1: c68e000e9ae70170bd31e0218396f0453b4ac509
+SHA256: 558a13ad4adb65a4554a934e858347b8429b20fdde49a6d2056d7b43c070c170
 Section: 微信插件
 Description: 为微信聊天界面标题左侧添加头像显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami
-Name: WCNicknameAvatarStyle标题头像-Rootless
+Name: WCNicknameAvatarStyle顶栏元素-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcnicknameavatarstyle.json
 
 Package: lym.com.huami.xhstranslator
@@ -3852,27 +3852,6 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
-
-Package: lym1.com.huami.wcnicknameavatarstyle
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 256
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.wcnicknameavatarstyle
-Replaces: com.huami.wcnicknameavatarstyle
-Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
-Size: 31200
-MD5sum: 60d570c899c0e5555ef8d73284d5fa57
-SHA1: c58c01758c4c71c666724e59e4194d6f90c017d0
-SHA256: 49269e11326c8e2f76999c5ffde626f155f89c7eea5c06f9c6b60fb22f86f088
-Section: 微信插件
-Description: 为微信聊天界面标题左侧添加头像显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: WCNicknameAvatarStyle顶栏元素-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcnicknameavatarstyle.json
 
 Package: lym1.com.nightwind.onesettings
 Version: 1.0
