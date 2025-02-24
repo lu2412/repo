@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- MisakaHelper最终END版,已停止维护\n- 和其它类型微信插件类似,更多群功能!自行体验!\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信misaka助手\n- MisakaHelper最终END版,已停止维护\n- 和其它类型微信插件类似,更多群功能!自行体验!\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{1, 1}",
                       "screenshots": [
                             ]
                   },
@@ -34,18 +34,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-0",
+                      "text": "Misaka",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2.1.1",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月03日",
-                      "title": "最后更新时间"
+                      "text": "2025年02月24日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +60,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-0\n- MisakaHelper最终END版,已停止维护\n- > 2024-11-03"
-                  }
+                      "markdown": "### 版本 2.1.1 \n- MisakaEnd-1\n- 这个版本解决了Misaka 公众号无法关注问题。\n- 同时也是顺便修复一些反馈较多的问题，比如图片闪退，\n- 8056设置里不显示插件入口等问题。\n- 这次是由于特殊原因进行更新，后续如无意外，将不会在更新"
+                  },
               ]
           }
       ]

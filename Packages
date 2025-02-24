@@ -194,25 +194,25 @@ Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
 Package: lym.MisakaHelper
-Version: 2.1-0
+Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: Misaka
 Depends: mobilesubstrate
-Conflicts: MisakaHelper
+Conflicts: MisakaHelper, MisakaHelper
 Replaces: MisakaHelper, MisakaHelper
-Filename: ./debs/Misaka助手 END版-Rootless.deb
-Size: 13178068
-MD5sum: 6398b5a49357f29d10e8cb19e0349e5f
-SHA1: ab32a627fb6b86ed023f3c77bb77999f62c70b42
-SHA256: 290a662f9ecd5ab14292731480fa3b11e3d159c4786e3cf29eea0506b554a908
+Filename: ./debs/Misaka微信助手END1-Rootless.deb
+Size: 13207724
+MD5sum: b348cd064d7d32f906a07f7b64253883
+SHA1: c43e897ac731e47a430824f15a6f05baa98c4b03
+SHA256: 37e89dae01fe451a153742a3d43620e0c0a7809725417a04baffe3953c8bee66
 Section: 微信插件
 Description: 微信misaka助手
  - MisakaHelper最终END版,已停止维护
  - 和其它类型微信插件类似,更多群功能!自行体验!
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Misaka
-Name: Misaka助手 END版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.MisakaHelper.json
+Name: Misaka微信助手END1-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
 
 Package: lym.Store-Rootless
 Version: 1.0
