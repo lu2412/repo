@@ -193,6 +193,28 @@ Author: girl2023
 Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
+Package: lym.MikotoHelper
+Version: 1.3.6
+Architecture: iphoneos-arm64
+Maintainer: Mikoto
+Depends: mobilesubstrate
+Conflicts: MikotoHelper, MikotoHelper
+Replaces: MikotoHelper, MikotoHelper
+Filename: ./debs/Mikoto助手-Rootless.deb
+Size: 20604424
+MD5sum: 2117d5d829fff66bdffbff1b9526508e
+SHA1: 581fb083e50eb4ff42a3f6a48999daa82da44733
+SHA256: d75b7975159825cf9a1f226e80f7d0a0b6abfcc9075c4dd3f44fadbe5a6418ea
+Section: 微信插件
+Description: 微信多功能插件
+ - Mikoto插件不能与Misaka插件共存
+ - 但是插件设置可以通用
+ - 本插件不允许注入任何修改插件信息的插件，部分功能也有可能与其它插件冲突
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mikoto
+Name: Mikoto助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MikotoHelper.json
+
 Package: lym.MisakaHelper
 Version: 2.1.1
 Architecture: iphoneos-arm64
@@ -1690,18 +1712,18 @@ Name: WCAvatarButton聊天右侧头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
 
 Package: lym.com.huami.wcnicknameavatarstyle
-Version: 1.0-5
+Version: 1.0-6
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 272
+Installed-Size: 288
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.wcnicknameavatarstyle
 Replaces: com.huami.wcnicknameavatarstyle
 Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
-Size: 36548
-MD5sum: 115f11f166ac49333892848db9c3eefa
-SHA1: f90df6f4d66dd62ebf304aaa1ac40ba9cf172066
-SHA256: 112b7c5082323888f8402d0e83ef523acc38514c552ff51607e9d0abdf23d126
+Size: 38824
+MD5sum: 0f701d6d35c40a241e736d33c80a8bb5
+SHA1: a1bc9c994efc5315a29a5a3e07c525d3f18e7437
+SHA256: c118ab50d1d470f09c883fdaf5b38eaa2d6fb72cede256830ce0fce25aad8d17
 Section: 微信插件
 Description: 为微信聊天界面标题左侧添加头像显示
  - 插件无设置项安装即可生效
@@ -3441,18 +3463,18 @@ Name: 隐藏副卡-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
 
 Package: lym.iosios.net.shortvideodl-rootless
-Version: 1.8.3
+Version: 1.8.5
 Architecture: iphoneos-arm64
 Maintainer: 搬运工
-Installed-Size: 5076
+Installed-Size: 5044
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, iosios.net.shortvideodl-rootless
 Replaces: iosios.net.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1134776
-MD5sum: 129a87653eed2562f9051b3377b393e0
-SHA1: 436f8189d5657e7e187d6e6f0b1849bece504785
-SHA256: 8762ed9eadb74c0fb08ce6ead2ccbcba6ef77d4ea09c183852a04bd1cfffcc9c
+Size: 1122240
+MD5sum: 37594c7800c1eef2dba2e30aee26a7aa
+SHA1: 38be2fd6c0d88953ec66078774d7fdc874283bd0
+SHA256: 5d9639cddaea7213b2e4d181758cdfd41b350586843496e0252d6f7aaa2885b7
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
