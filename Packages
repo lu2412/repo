@@ -1519,6 +1519,23 @@ Author: 🅷🆆
 Name: 拦截猫解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.fly.ljm.json
 
+Package: lym.com.foxfort.krashkop
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: FoxfortMobile
+Installed-Size: 428
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Filename: ./debs/KrashKop崩溃日志.deb
+Size: 191148
+MD5sum: 5d81737da49be3796a1bf3a68bbdfdab
+SHA1: 2caefb5c53c4d9ec678312d376a8268869c0b9e0
+SHA256: 4a90375bdbd7ffa90cacb63f58fe8b8c88668e301d42adfd9b8c5f52e945050e
+Section: 系统增强
+Description: Lightweight crash reporter
+Author: FoxfortMobile
+Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
+Name: KrashKop崩溃日志
+
 Package: lym.com.github.wxsmalltabs
 Version: 0.0.1-5
 Architecture: iphoneos-arm64
