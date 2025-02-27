@@ -3315,6 +3315,32 @@ Author: xybp888
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
 
+Package: lym.com.xybp888.noapplemobilerepair
+Version: 0.0.1-88
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xybp888.noapplemobilerepair
+Replaces: com.xybp888.noapplemobilerepair
+Filename: ./debs/重要提醒No Apple MobileRepair-Rootless.deb
+Size: 10920
+MD5sum: 2866d811d3268eea21f7de3b5c45ecde
+SHA1: 87e976c6e6f4e38d87a725583264f51449202d2b
+SHA256: 2fa2f0a70603fd1c95c559d3f7cf4587033af86883e43435f4d31f0ca180f6f9
+Section: 系统增强
+Description: 禁止设置页面显示维修记录的插件
+ - 由电话助手作者 xybp888 开发
+ - 更换第三方电池后，开启显示正常健康
+ - 屏蔽关于本机页面显示未知部件记录
+ - 屏蔽设置显示红点1以及电池更新提醒信息
+ - 屏蔽设置系统 OTA 升级显示红点1提醒信息。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: xybp888
+Name: 重要提醒No Apple MobileRepair-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.noapplemobilerepair.json
+
 Package: lym.com.ylr.xiaoxiangcs
 Version: 0.0.2
 Architecture: iphoneos-arm64
