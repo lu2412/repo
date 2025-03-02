@@ -3506,18 +3506,18 @@ Name: 隐藏副卡-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
 
 Package: lym.iosios.net.shortvideodl-rootless
-Version: 1.8.5
+Version: 1.8.8
 Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 5044
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 5080
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, iosios.net.shortvideodl-rootless
+Conflicts: iosios.net.shortvideodl-rootless
 Replaces: iosios.net.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1122240
-MD5sum: 37594c7800c1eef2dba2e30aee26a7aa
-SHA1: 38be2fd6c0d88953ec66078774d7fdc874283bd0
-SHA256: 5d9639cddaea7213b2e4d181758cdfd41b350586843496e0252d6f7aaa2885b7
+Size: 1138812
+MD5sum: ac0a5f26f2bafb1dc00d1131a8e2b39d
+SHA1: 41f01dabde56a7beada9864bdb36ba686ff03e83
+SHA256: 141893e4633b64afb4693dd6e155e4d587d2fe30218cc7af45668c1a12728a9e
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
