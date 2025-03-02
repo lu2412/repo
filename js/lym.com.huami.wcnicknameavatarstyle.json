@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-8",
+                      "text": "2.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-8 \n- 修复几个可能导致闪退的问题\n- 新增双人头像可自定义中间元素\n- 纳入微信助手聊天工具栏更方便\n- 分享点你用的头像中间图片"
+                      "markdown": "### 版本 2.0-1 \n- 修复若干问题\n- 修复【居中-双人】在退出APP重新进入后崩溃(消失)问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.9\n- 修复点击头像打开主页闪退\n- 新增群聊头像调整"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.8\n- 修复几个可能导致闪退的问题\n- 新增双人头像可自定义中间元素\n- 纳入微信助手聊天工具栏更方便\n- 分享点你用的头像中间图片"
                   },
                   {
                       "class": "DepictionSeparatorView"
