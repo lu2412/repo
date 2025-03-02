@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-6",
+                      "text": "1.0-8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月25日",
+                      "text": "2025年03月02日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-6 \n- 优先使用黄白修改的头像\n- 头像优先级:黄白→WCNA→默认头像\n- 私聊中头像与标题居中对齐\n- 修复右侧按钮在非简体中文模式下不生效修复某些地方错误显示头像\n- 修复免打扰按钮占位问题\n- 点击头像可跳转主页\n- 单独处理群聊、私聊隐藏头像"
+                      "markdown": "### 版本 1.0-8 \n- 修复几个可能导致闪退的问题\n- 新增双人头像可自定义中间元素\n- 纳入微信助手聊天工具栏更方便\n- 分享点你用的头像中间图片"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.7\n- 优先使用黄白修改的头像\n- 头像优先级:黄白→WCNA→默认头像\n- 私聊中头像与标题居中对齐\n- 修复右侧按钮在非简体中文模式下不生效修复某些地方错误显示头像\n- 修复免打扰按钮占位问题\n- 点击头像可跳转主页\n- 单独处理群聊、私聊隐藏头像"
                   },
                   {
                       "class": "DepictionSeparatorView"
