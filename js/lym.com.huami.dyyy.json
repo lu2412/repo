@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9-9+1",
+                      "text": "2.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月18日",
+                      "text": "2025年03月03日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9-9+1 \n- 弃用自定义代码实现的自动连播"
+                      "markdown": "### 版本 2.0-1 \n- 新增隐藏底栏背景(即修复抖音全屏节日皮肤遮挡)"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.8\n- 弃用自定义代码实现的自动连播"
                   },
                   {
                       "class": "DepictionSeparatorView"

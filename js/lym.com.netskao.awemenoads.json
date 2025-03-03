@@ -34,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "unknown",
+                      "text": "Netskao",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0",
+                      "text": "1.1-3",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月09日",
+                      "text": "2025年03月04日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0 \n- 初始版本"
+                      "markdown": "### 版本 1.1-3 \n- 去除视频流广告,默认生效\n- 去除启动广告,默认生效\n- 去除每日青少年提示,默认生效\n- 小程序跳过广告,单独开关控制\n- 内存清理功能,单独开关控制"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 初始版本"
                   },
               ]
           }
