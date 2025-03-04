@@ -2087,17 +2087,18 @@ Name: AwemeDownloadMedia抖音下载-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemedownloadmedia.json
 
 Package: lym.com.netskao.awemefullscreen
-Version: 1.2-3
+Version: 1.2-5
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 384
+Installed-Size: 400
 Depends: firmware (>= 12.0), mobilesubstrate
+Conflicts: com.netskao.awemefullscreen
 Replaces: com.netskao.awemefullscreen
-Filename: ./debs/AwemeFullScreen抖音全屏-Rootless.deb
-Size: 161724
-MD5sum: 39e5200c2da70e071d0144fa75991cf0
-SHA1: 4ecd62b5ec2e097cd2bd6dae3464d3127086d825
-SHA256: 6346143025d3312c3e4900220b814ad4ee9a6ca8fc31f165eeb9bc494e2ad36e
+Filename: ./debs/AwemeFullScreen抖音全屏- Rootless.deb
+Size: 165808
+MD5sum: 634f01ca936841829b23f6c32a996944
+SHA1: 89160b4cab74a37320260a4e522257c9dd4c6367
+SHA256: 1a6b848daeeebd7a8597b0746a8986d1baba761b55d447bbb4e67dc9b38b21f7
 Section: 抖音插件
 Description: 抖音视频全屏显示
  - 对视频放大以达到全屏效果
@@ -2105,8 +2106,8 @@ Description: 抖音视频全屏显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Netskao
-Name: AwemeFullScreen抖音全屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
+Name: AwemeFullScreen抖音全屏- Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
 Package: lym.com.netskao.awemenoads
 Version: 1.1-3
@@ -2740,7 +2741,7 @@ Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.susu.suawemehook
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm64
 Maintainer: susu
 Installed-Size: 236
@@ -2748,10 +2749,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.susu.suawemehook
 Replaces: com.susu.suawemehook
 Filename: ./debs/SuAwemeHook抖音增强 END-Rootless.deb
-Size: 23328
-MD5sum: 18105b47ef07b03951071694d9a45ff3
-SHA1: 733d18598a96ad305b337bc3cd1dfcd209ae79fa
-SHA256: bfb4e5106a8644c55f29181878fc7d8e3565690d6a3ae4504a731d9f940134f5
+Size: 23564
+MD5sum: b0f94b11fce847d868fdc5a266527ccd
+SHA1: faaaaaec09e047799cef26dafcb96e73063c3a21
+SHA256: 6238a3a3980c8a58e0e8b263dcf18ea15d735c14f5d45c0f0d62b62ecdbdbbe3
 Section: 抖音插件
 Description: 可隐藏移除Aweme多项无用功能
  - 任意界面双指双击呼出调整菜单

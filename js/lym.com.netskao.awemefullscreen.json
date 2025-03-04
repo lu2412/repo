@@ -20,9 +20,13 @@
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 8,
-                      "itemSize": "{400,700}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/dyqp.png"
+                                  },
                                 {
                                       "accessibilityText": "Screenshot",
                                       "url": "https://lu2412.github.io/repo/icon/dyqp.png"
@@ -38,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2-3",
+                      "text": "Netskao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.2-5",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月06日",
-                      "title": "最后更新时间"
+                      "text": "2025年03月04日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,8 +68,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2-3\n- 首页直播界面关闭全屏显示\n- > 2024-11-06\n ### 版本1.2-2\n- 重构代码\n- 增加设置开关\n- > 2024-11-5"
-                  }
+                      "markdown": "### 版本 1.2-5 \n- 再次修复修复底部偶尔出现的背景"
+                  },
               ]
           }
       ]
