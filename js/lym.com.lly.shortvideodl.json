@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.8",
+                      "text": "1.8.9",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月02日",
+                      "text": "2025年03月05日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.8 \n- 适配最新版本拼多多,支持保存商品视频、多多视频\n- 淘宝最新版本无法适配,请降级至10.39.0版本"
+                      "markdown": "### 版本 1.8.9 \n- 抖音添加评论区图片、实况图片无水印下载,双击\n- 仅在最新版本33.2.0测试,其它版本"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.8\n- 适配最新版本拼多多,支持保存商品视频、多多视频\n- 淘宝最新版本无法适配,请降级至10.39.0版本"
                   },
                   {
                       "class": "DepictionSeparatorView"
