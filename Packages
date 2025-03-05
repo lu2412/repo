@@ -1433,7 +1433,7 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 5.8.7
+Version: 5.8.8
 Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1596
@@ -1441,10 +1441,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swif
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 397720
-MD5sum: 76aeb8846a4f0d6a65a01486da22f092
-SHA1: e5de24da983f0d98e499daef82121d0dd629cc51
-SHA256: 848de5051ddba35925cedeec4f35eba864d0ac3b1b88b13a189e57d6da357d6e
+Size: 397836
+MD5sum: 87f711270cc0f071216da23a29e0a3d4
+SHA1: 892da016e2d67fb8c55578d1eb90f322fa2c7eed
+SHA256: 9968ad711828abc65842e08c8bfab0c64bfa27b5b4594ddcade5c4aa690c82fd
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -1615,18 +1615,19 @@ Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
-Package: lym.com.huami.dyyys
-Version: 2.0-2
+Package: lym.com.huami.dyyy
+Version: 2.0-3
 Architecture: iphoneos-arm64
 Maintainer: huami
+Installed-Size: 400
 Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.DYYY, com.huami.dyyys
-Replaces: com.huami.dyyys
+Conflicts: com.huami.dyyy
+Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 37312
-MD5sum: dfe2a0db1ba10cd7de58efd27686f9f0
-SHA1: 7a52b212509cd9c24a2a19d1d34f16e70f74dcb9
-SHA256: 738135f865a14ca27e0ff03e95a835fd1c9df7d92e4ae20ef445c92e1d21b177
+Size: 45352
+MD5sum: 393b2ec329111171c0c6917c4078b026
+SHA1: 4ff284c7b8382e090126407fb06c2e5d2f5380d2
+SHA256: 6dffa4397d3088b925e089747666764ddeb290a504a427a9243212a2a4eda67b
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1639,7 +1640,7 @@ Description: 抖音增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: 抖音 DYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyys.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.fixmiyoutoolbar
 Version: 1.0-2
