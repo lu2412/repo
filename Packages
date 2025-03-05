@@ -1615,19 +1615,18 @@ Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
-Package: lym.com.huami.dyyy
-Version: 2.0-1
+Package: lym.com.huami.dyyys
+Version: 2.0-2
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 272
 Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.dyyy
-Replaces: com.huami.dyyy
+Conflicts: com.huami.DYYY, com.huami.dyyys
+Replaces: com.huami.dyyys
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 35448
-MD5sum: a5fd962e2592814ad0b7141e68554553
-SHA1: df70090d418c8161a3e92bd13767d905a3ed0d56
-SHA256: 23130d107b374b0ca2572daf19cc5c90d32b127433a61c2d231fffec08f40344
+Size: 37312
+MD5sum: dfe2a0db1ba10cd7de58efd27686f9f0
+SHA1: 7a52b212509cd9c24a2a19d1d34f16e70f74dcb9
+SHA256: 738135f865a14ca27e0ff03e95a835fd1c9df7d92e4ae20ef445c92e1d21b177
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1640,7 +1639,7 @@ Description: 抖音增强插件
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: huami
 Name: 抖音 DYYY-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyys.json
 
 Package: lym.com.huami.fixmiyoutoolbar
 Version: 1.0-2
