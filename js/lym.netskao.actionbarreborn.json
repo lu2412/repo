@@ -16,17 +16,13 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 在键盘底部增加撤消、重做、全选、复制、剪切和粘贴按钮\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 在键盘底部增加撤消、重做、全选、复制、剪切和粘贴按钮\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
                       "itemSize": "{300, 533}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/jp.png"
-                                  },
                                 {
                                       "accessibilityText": "Screenshot",
                                       "url": "https://lu2412.github.io/repo/icon/jp.png"
@@ -57,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月13日",
+                      "text": "2025年03月07日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +64,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-2 \n- 初始版本"
+                      "markdown": "### 版本 1.1-2 \n- 修复支持iOS系统"
                   },
               ]
           }
