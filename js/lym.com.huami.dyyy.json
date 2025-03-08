@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0-5",
+                      "text": "2.0-6",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0-5 \n- 新增首页全屏\n- 开启后需重新打开一次\n- 已知问题: 主页视频/搜索 文案会被上移\n- 优化UI\n- 引入毛玻璃效果\n- 采用模态显示(仅iOS15+)"
+                      "markdown": "### 版本 2.0-6 \n- 直接过滤直播内容\n- 修复全屏若干问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.6\n- 新增首页全屏\n- 开启后需重新打开一次\n- 已知问题: 主页视频/搜索 文案会被上移\n- 优化UI\n- 引入毛玻璃效果\n- 采用模态显示(仅iOS15+)"
                   },
                   {
                       "class": "DepictionSeparatorView"
