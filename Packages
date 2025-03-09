@@ -1593,18 +1593,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.0-8
+Version: 2.0-9
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 236
+Installed-Size: 432
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 54000
-MD5sum: bd95c09248febb7fb26ec863e9609e80
-SHA1: b1a1275e6393a2832789c30e3f3d49f3408775f6
-SHA256: 5ac844b5282f8115a320117c07f183d777a7b20c55f5fe7ac8a8173242455a79
+Size: 55476
+MD5sum: 3830ab6a8e0d90617151ef9929e2b0b8
+SHA1: 9adca16580d4d584349b9337393c6e70af76bece
+SHA256: 45e51a6b54dc05fef7ca216ad1c6bc4928abc1be7b7a66fbf977ab1499c3b972
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1931,7 +1931,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.9.0
+Version: 1.9.1
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1939,10 +1939,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 904252
-MD5sum: d24f11147124ddef51399500d725d5fd
-SHA1: 1f231f6cdafc5f8e0cfe0950c05fd11dfc693ac1
-SHA256: 8b4792d9739cca0ebe5e436b38479d0506b6bb8090520d19480fc5ded12a75c8
+Size: 902952
+MD5sum: 19a46c9eb3e822aab2f4bd57089b824d
+SHA1: e254096361386d8e3a5d99178f8a56b34387709a
+SHA256: 50ea32ea2e0d3dd5f9ddc7b90e55f61c371aa91c6a834200cd36ef759d024aab
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
