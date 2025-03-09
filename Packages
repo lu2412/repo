@@ -927,17 +927,17 @@ Name: 逆无止境图层1aa3-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.hooktcs.json
 
 Package: lym.com.BeanbunsHelpers.DB
-Version: 1.0-3
+Version: 1.0-4
 Architecture: iphoneos-arm64
 Maintainer: Beanbuns
 Depends: mobilesubstrate
 Conflicts: com.BeanbunsHelpers.DB
 Replaces: com.BeanbunsHelpers.DB
 Filename: ./debs/豆包助手-Rootless.deb
-Size: 456384
-MD5sum: 02552e00b94c1efc5862bf221be25bf5
-SHA1: 37748eaa343a641b48774c4dd58ec58d5fa9448a
-SHA256: abc678a5e37c54f999b2ce26c1cdbeddabdafed347e92735f7f4ab38939a7541
+Size: 639688
+MD5sum: 44c7fa73166f2cdd177875ae4d4cfed5
+SHA1: 35ad93bb8c79b734d87e9074fe800009189413aa
+SHA256: 5f8bf21ca48d7a653cf4b5b459539f56b8b33fcd6614092a71fe9e3650bb2f55
 Section: 抖音插件
 Description: 抖音增强插件
  - 无水印保存视频、图片、音频
@@ -1593,7 +1593,7 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.0-6
+Version: 2.0-8
 Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 236
@@ -1601,10 +1601,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 50336
-MD5sum: b357f43a888f34d70cec082f163a9b09
-SHA1: 111dba9526f783a0f997d30b65a54787ac5b85c7
-SHA256: cee78552689d4cfc556c1f75cfdf91463106b59eda4c3c41c0a0736d440189e9
+Size: 54000
+MD5sum: bd95c09248febb7fb26ec863e9609e80
+SHA1: b1a1275e6393a2832789c30e3f3d49f3408775f6
+SHA256: 5ac844b5282f8115a320117c07f183d777a7b20c55f5fe7ac8a8173242455a79
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1931,7 +1931,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.8.9
+Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1939,10 +1939,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1129388
-MD5sum: 02ebe1b3edfe8c94fb5adc0b9d5fa5b4
-SHA1: fbfa688bbe4e7db2870c1a69b7d34698ced77c89
-SHA256: 595febb0c55ecb14e6583b4d50b5a8fba66687bdec17b25d72067aa4697ffdee
+Size: 904252
+MD5sum: d24f11147124ddef51399500d725d5fd
+SHA1: 1f231f6cdafc5f8e0cfe0950c05fd11dfc693ac1
+SHA256: 8b4792d9739cca0ebe5e436b38479d0506b6bb8090520d19480fc5ded12a75c8
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
