@@ -1601,10 +1601,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 55476
-MD5sum: 3830ab6a8e0d90617151ef9929e2b0b8
-SHA1: 9adca16580d4d584349b9337393c6e70af76bece
-SHA256: 45e51a6b54dc05fef7ca216ad1c6bc4928abc1be7b7a66fbf977ab1499c3b972
+Size: 55360
+MD5sum: 3316cb939fc1aae62d1835a714f58c04
+SHA1: decf9766997bbbbb8a0fa91c79dd50f428066919
+SHA256: 330c7bb0aa0e40340137924be2287b9b5c501d4ae9e3723341119d727cdae00e
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
