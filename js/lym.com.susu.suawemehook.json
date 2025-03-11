@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.3.7",
+                      "text": "1.3.8",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.3.7 \n- 优化UI\n- 新增跳过直播"
+                      "markdown": "### 版本 1.3.8 \n- 优化UI\n- 新增直播类移除"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.3.7\n- 优化UI\n- 新增跳过直播"
                   },
                   {
                       "class": "DepictionSeparatorView"
