@@ -3770,13 +3770,13 @@ Maintainer: 佚名
 Conflicts: ph.telegra.Telegraph.adv.3-Rootless
 Replaces: ph.telegra.Telegraph.adv.3-Rootless
 Filename: ./debs/Telegram增强-Rootless.deb
-Size: 116980
-MD5sum: 8b20b9cdb7d966fd9720b8cfb8f6c531
-SHA1: 4e0f32aab6947b4cd58d1fefc4e794600c37efbc
-SHA256: 98c62c7fde5cf7ae7b6c759efb6b8400a2b1fae09f1bd15533f7899b259ae7e2
+Size: 117280
+MD5sum: 489531d71c8c8d04228c05f46f43809f
+SHA1: 9e0fac47f46157fc478d690eb8ba5748c2824731
+SHA256: 73a0f244ff5b338262e68c0bf74352a39bd9080678b9de007879f64233bfdd34
 Section: 软件增强
 Description: 优化官方TG客户端，支持Swiftgram,目前包含3个功能：
- - 1、回车键发送消息
+ - 回车键发送消息
  - 禁止右滑出现My Story
  - 单聊对话框显示对方UserID（显示 User ID 需要英文语言）
  - 插件无设置项安装即可生效
