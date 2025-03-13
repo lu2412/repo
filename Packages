@@ -3309,10 +3309,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.ysbrowserhook
 Replaces: com.xx.ysbrowserhook
 Filename: ./debs/亚瑟浏览器解锁pro-Rootless.deb
-Size: 20912
-MD5sum: 73adf23974177e868e907bd019cd0d8a
-SHA1: 1ee9634192d027cfac8e7edca8d786c9edc4262b
-SHA256: 71dd89fa11664a72077612083dd90464bdad39167982a95119b5124be71eb1c2
+Size: 20772
+MD5sum: 7e3b4c05d9908a6e49b6d4a259cef00b
+SHA1: d8edbb5c6c8b5d8a8bb2966c5f66264583245c66
+SHA256: 4c27ec8106c364c0b34634080c0243ea5a7609bf08872a34321e8b4439d6dbe1
 Section: 软件增强
 Description: 解锁Pro权益
  - 屏蔽越狱检测
@@ -3763,17 +3763,17 @@ Author: Netskao
 Name: 微信净化 END-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.wechatpurification.json
 
-Package: lym.ph.telegra.Telegraph.adv.3-Rootless
+Package: lym.ph.telegra.Telegraph.adv.4-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: 佚名
-Conflicts: ph.telegra.Telegraph.adv.3-Rootless
-Replaces: ph.telegra.Telegraph.adv.3-Rootless
+Conflicts: ph.telegra.Telegraph.adv.4-Rootless
+Replaces: ph.telegra.Telegraph.adv.4-Rootless
 Filename: ./debs/Telegram增强-Rootless.deb
-Size: 117280
-MD5sum: 489531d71c8c8d04228c05f46f43809f
-SHA1: 9e0fac47f46157fc478d690eb8ba5748c2824731
-SHA256: 73a0f244ff5b338262e68c0bf74352a39bd9080678b9de007879f64233bfdd34
+Size: 113160
+MD5sum: fc67b661a3d0daaa5688a4686e01e577
+SHA1: e523ec42614f7c72a99d9bd6fa58bc0774d6b55a
+SHA256: ded0764424bf267e3f7d6dee969a66c0a79df40578dac380dafd9cb6e40ac4e5
 Section: 软件增强
 Description: 优化官方TG客户端，支持Swiftgram,目前包含3个功能：
  - 回车键发送消息
@@ -3783,7 +3783,7 @@ Description: 优化官方TG客户端，支持Swiftgram,目前包含3个功能：
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 佚名
 Name: Telegram增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ph.telegra.Telegraph.adv.3-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ph.telegra.Telegraph.adv.4-Rootless.json
 
 Package: lym.uncar
 Version: 0.0.1-6

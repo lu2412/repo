@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0 \n- 初始版本"
+                      "markdown": "### 版本 1.0 \n- 支持中文环境下显示UserlD\n- bug修复"
                   },
               ]
           }
