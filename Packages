@@ -114,31 +114,6 @@ Author: 无名
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/jd-Rootless.json
 
-Package: lym.DYYYGirl-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Conflicts: DYYYGirl-Rootless
-Replaces: DYYYGirl-Rootless
-Filename: ./debs/抖音 DYYY 原生UI版-Rootless.deb
-Size: 64184
-MD5sum: 6d11b0ad42435be025719e0b8761c6b7
-SHA1: a5a80952c51e85633fdf148c59ff90f6df705112
-SHA256: fd6b9c2696860f2eb993f41f57018595b277c0a2578d67628067a035ee089670
-Section: 抖音插件
-Description: 抖音增强插件原生UI版
- - 双指长按打开插件设置
- - 设置顶栏透明
- - 设置全局透明度
- - 隐藏全屏观看
- - 隐藏底栏加号
- - 开启弹幕改色
- - 新增默认倍速播放功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 抖音 DYYY 原生UI版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.DYYYGirl-Rootless.json
-
 Package: lym.DayNigthSwitch
 Version: 1.0-0
 Architecture: iphoneos-arm64
@@ -1934,31 +1909,6 @@ Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
-Package: lym.com.lenglengyu.shortvideodl
-Version: 1.9.2
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3412
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl
-Replaces: com.lenglengyu.shortvideodl
-Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 917080
-MD5sum: 69b3816e0de477077964f227dc12046e
-SHA1: e5fbc0a001d6dff2ba7a9c43b6c2308d04c44693
-SHA256: 1a3c27c79ecd5685a3510b14586c7635a483d50e7b9af56995cb8437723c6d89
-Section: 软件增强
-Description: 短视频下载助手
- - 支持抖音、快手、微视等无水印下载
- - 支持微信公众号、视频号视频下载
- - 插件启用：在系统设置-短视频助手中开启
- - 开启后在软件视频界面双击下载视频
- - 另外抖音可以双击视频然后点其他功能进入更多功能设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lenglengyu
-Name: 短视频下载助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lenglengyu.shortvideodl.json
-
 Package: lym.com.liuf.ceshi
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1978,6 +1928,31 @@ Description: Sileo头像转圈圈
 Author: lym
 Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
+
+Package: lym.com.lly.shortvideodl
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 5076
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.lly.shortvideodl
+Replaces: com.lly.shortvideodl
+Filename: ./debs/短视频下载助手-Rootless.deb
+Size: 921992
+MD5sum: aa07ed4c2ea5e478417c3057b1844520
+SHA1: 986afb2fb6c063883008efda44ea836e139b1c5f
+SHA256: 1de568aae7c98fd4ba6e6a34439f160b4801c3c250645569a3c4e492b554eee8
+Section: 软件增强
+Description: 短视频下载助手
+ - 支持抖音、快手、微视等无水印下载
+ - 支持微信公众号、视频号视频下载
+ - 插件启用：在系统设置-短视频助手中开启
+ - 开启后在软件视频界面双击下载视频
+ - 另外抖音可以双击视频然后点其他功能进入更多功能设置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: 短视频下载助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lly.shortvideodl.json
 
 Package: lym.com.lym.WXHelper
 Version: 0.1
@@ -3052,6 +3027,30 @@ Description: 钉钉自动抢红包
 Author: xuuz
 Name: 钉钉红包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.ddhook.json
+
+Package: lym.com.xuuz.douyinhelpers
+Version: 1.0-8
+Architecture: iphoneos-arm64
+Maintainer: XUUᶻ
+Installed-Size: 624
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.xuuz.douyinhelper, byg.iosios.net.dyzs, com.xuuz.douyinhelpers
+Replaces: com.xuuz.douyinhelpers
+Filename: ./debs/抖音助手-Rootless.deb
+Size: 109948
+MD5sum: 13af57e4d7783304378d758497260c00
+SHA1: 69502f1931cc898d98970e11f1e98e435b13c2e2
+SHA256: 8d5144b95e9dabaaafcabef0fb9d3232b27a646c314c8933bc8e51eadc653b6b
+Section: 抖音插件
+Description: 基于DYYY的抖音助手插件
+ - 双指长按或设置页面调出
+ - 新增UI页面
+ - 新增双击下载
+ - 新增双击评论区功能
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: XUUᶻ
+Name: 抖音助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.douyinhelpers.json
 
 Package: lym.com.xx.baiduhook
 Version: 1.0.2
