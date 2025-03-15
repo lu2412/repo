@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-2",
+                      "text": "2.1-3",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月15日",
+                      "text": "2025年03月16日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-2 \n- 新增时间标签位置\n- 参考lenglengyu开源代码\n- 新增时间标签颜色调整 支持random\n- 新增旧面板长按下载\n- 感谢 2023 girl提供大量代码支持\n- 新增设置入口\n- 优化配色方案"
+                      "markdown": "### 版本 2.1-3 \n- 新增评论区实况图片无水印下载\n- 使用官方下载按钮\n- 优化文案大小处理算法ོ\n- 修复全屏模式下打开评论区后底部变黑\n- 修复全屏模式下部分用户直播错位问题\n- 修复未在首页情况下打开评论顶部变黑"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.2.0\n- 新增时间标签位置\n- 参考lenglengyu开源代码\n- 新增时间标签颜色调整 支持random\n- 新增旧面板长按下载\n- 感谢 2023 girl提供大量代码支持\n- 新增设置入口\n- 优化配色方案"
                   },
                   {
                       "class": "DepictionSeparatorView"

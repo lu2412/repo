@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-9 \n- 新增复制文案\n- 保存评论区实况使用原生下载\n- 右侧栏缩放度 设置 0.1-5 推荐0.85\n- 自定义右侧栏图标修改"
+                      "markdown": "### 版本 1.0-9 \n- 新增修改时间属地标签颜色\n- 新增复制文案\n- 保存评论区实况使用原生下载\n- 右侧栏缩放度 设置 0.1-5 推荐0.85\n- 自定义右侧栏图标修改"
                   },
                   {
                       "class": "DepictionSeparatorView"
