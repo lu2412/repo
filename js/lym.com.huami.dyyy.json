@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "插件开发者频道",
-                    "action": "https://t.me/huamidev",
+                    "text": "插件项目地址",
+                    "action": "https://github.com/huami1314/DYYY/releases/tag/v2.1-2",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0-9End",
+                      "text": "2.1-2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月11日",
+                      "text": "2025年03月15日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0-9End \n- 修复评论区毛玻璃bug"
+                      "markdown": "### 版本 2.1-2 \n- 新增时间标签位置\n- 参考lenglengyu开源代码\n- 新增时间标签颜色调整 支持random\n- 新增旧面板长按下载\n- 感谢 2023 girl提供大量代码支持\n- 新增设置入口\n- 优化配色方案"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.9\n- 修复评论区毛玻璃bug"
                   },
                   {
                       "class": "DepictionSeparatorView"
