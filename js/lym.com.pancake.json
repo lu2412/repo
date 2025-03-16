@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "插件开发者频道",
-                    "action": "https://t.me/xuuzios",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 基于DYYY的抖音助手插件\n- 双指长按或设置页面调出\n- 新增UI页面\n- 新增双击下载\n- 新增双击评论区功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 在屏幕上任何位置向右滑返回上一页\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/zhu.png"
+                                      "url": "https://lu2412.github.io/repo/icon/fanhui.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/zhu1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/fanhui1.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "XUUᶻ",
+                      "text": "AnthoPak <anthopakdev@gmail.com>",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-2",
+                      "text": "2.3",
                       "title": "插件版本"
                   },
                   {
@@ -68,28 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-2 \n- 新增时长进度显示,开启后时长和进度条一起显示\n- 新增评论区图片保存,用官方的长按下载"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.0\n- 修复dyyy修复了的问题\n- 支持新长按面板了"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.9\n- 新增修改时间属地标签颜色\n- 新增复制文案\n- 保存评论区实况使用原生下载\n- 右侧栏缩放度 设置 0.1-5 推荐0.85\n- 自定义右侧栏图标修改"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.8\n- 新增支持一键下载全部图片"
+                      "markdown": "### 版本 2.3 \n- 修复在无根设备上无法正确读取首选项的问题\n- 添加2个新的更轻的触觉反馈选项\n- 打开键盘时禁用手势"
                   },
               ]
           }
