@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-9",
+                      "text": "1.1-0",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月15日",
+                      "text": "2025年03月16日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-9 \n- 新增修改时间属地标签颜色\n- 新增复制文案\n- 保存评论区实况使用原生下载\n- 右侧栏缩放度 设置 0.1-5 推荐0.85\n- 自定义右侧栏图标修改"
+                      "markdown": "### 版本 1.1-0 \n- 修复dyyy修复了的问题\n- 支持新长按面板了"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.9\n- 新增修改时间属地标签颜色\n- 新增复制文案\n- 保存评论区实况使用原生下载\n- 右侧栏缩放度 设置 0.1-5 推荐0.85\n- 自定义右侧栏图标修改"
                   },
                   {
                       "class": "DepictionSeparatorView"
