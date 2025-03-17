@@ -1,0 +1,122 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "插件开发者频道",
+                    "action": "https://t.me/wjrlj",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 微信增强插件\n- 支持聊天按钮布局自定义等功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/yout.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/yout1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/yout2.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "愫 茶",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.0.8-1+debug",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2025年03月18日",
+                      "title": "最后更新"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 1.0.8-1+debug \n- 新增自定义网名位置\n- 尝试性修复圆角闪退的问题,添加了更多的安全检查(我没办法复现)\n- 修复了2x5布局只在私聊,群聊,公众号生效,在其他界面不生效的问题。例如企业联系人"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.7\n- 只针对微信原生做修改,其他插件造成的UI错位就不要反馈了,目前不再考虑之列\n- 支持对插件自定义文本的修改\n- 修复版本号不对的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.6\n- 修复深色模式下名字不可见的情况\n- 修复伪装版本,UI交互不正确的情况"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.4\n- 全局圆形头像支持自定义圆角程度\n- 尝试性修复2x5布局自己页面会有空白的问题(反正我是没问题了)\n- 隐藏头像支持单独控制显示,群聊,私聊,公众号\n- 顶栏信息分隔符支持自定义图片"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.3\n- 修复显示支付与服务时,自定义无效的问题\n- 修复显示订单与卡包时,自定义无效的问题\n- 触摸轨迹新增轨迹支持自定义图片\n- 顶栏信息新增:同时显示对方头像和网名\n- 优化插件设置入口页面的交互\n- 完全重写2x5布局推翻重写\n- 解决所有的已知问题\n- 更加细致化的排序"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.1\n- 允许自定义插件入口位置及名称\n- 列表拖动添加轻微的震动反馈\n- 注入闪退问题解决办法"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 支持自定义卡片位置\n- 调整了布局的计算逻辑(局中显示)\n- 左滑不能隐藏因为有bug,暂时禁用了"
+                  },
+              ]
+          }
+      ]
+}

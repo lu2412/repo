@@ -10,7 +10,7 @@
             "views": [
                 {
                     "text": "插件项目地址",
-                    "action": "https://github.com/huami1314/DYYY/releases/tag/v2.1-2",
+                    "action": "https://github.com/huami1314/DYYY",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-4",
+                      "text": "2.1-5",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月17日",
+                      "text": "2025年03月18日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-4 \n- 新增评论区表情包下载\n- 使用官方下载按钮与自定义实现,感谢 Wuang ོ 提供代码参考\n- 新增评论区图片无水印下载"
+                      "markdown": "### 版本 2.1-5 \n- 新增双击打开评论区\n- 新增GIF动图支持\n- 新增视频进度条时间显示\n- 新增去广告功能\n- 新增隐藏关注页xx直播,感谢 Huangbai233提供代码贡献\n- 新增隐藏聊天页头像列表\n- 新增隐藏首页左侧栏\n- 优化顶栏移除方案 支持长按调整排序,感谢 Wuang ོ 提供代码参考"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.5\n- 新增评论区表情包下载\n- 新增评论区图片无水印下载\n- 新增双击打开评论区\n- 新增视频进度时间显示"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.4\n- 新增评论区表情包下载\n- 使用官方下载按钮与自定义实现,感谢 Wuang ོ 提供代码参考\n- 新增评论区图片无水印下载"
                   },
                   {
                       "class": "DepictionSeparatorView"

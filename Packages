@@ -1593,18 +1593,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.1-4
+Version: 2.1-5
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 500
+Installed-Size: 516
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 73696
-MD5sum: 41dd4c5dfa7242b01d4a9d1dcaa035fc
-SHA1: fa8fbe992afdc1efb755699f9485a47482b064c5
-SHA256: c241131684581db8be3e9622e0646adb95510d11d2629d52b7f774f5addfdc1b
+Size: 79136
+MD5sum: cfab80ed59673f6a1269b2a604c34236
+SHA1: 0f8ebbac0d7ecf5581a49cfa1d80762e304d0ad5
+SHA256: 6d551b87892e0d6089f179e891110409d238635c093081e8a23eddd26c87fb50
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -1931,7 +1931,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.9.4
+Version: 1.9.5
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1939,10 +1939,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 961480
-MD5sum: 5ebddc73108b318cd427637eabee55ce
-SHA1: 3eac5223ff0cf233056a7a56a957ecaaa3b657fb
-SHA256: 0b332d1bb63729d6c0d63eda0e4096ab8802ba5139f7d1d373273de461ac9ed1
+Size: 902880
+MD5sum: 6741ab32551fdcb4569c035c6a9f54de
+SHA1: 0ee93b61eef319565b257c43c85b6ffd578d1381
+SHA256: 5bf880cb3912343c8fc57074795be21ccf72dfd6cf15c9516ccfe7fa9bdf53ef
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -2980,6 +2980,27 @@ Description: 键盘底部增强插件
 Author: udevs
 Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
+
+Package: lym.com.wechat.enhance
+Version: 1.0.8-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 愫 茶
+Installed-Size: 1488
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wechat.enhance
+Replaces: com.wechat.enhance
+Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
+Size: 227348
+MD5sum: 66d39ce429dba185814d620bf7e4d0f4
+SHA1: acc62b0a0b1f37a68b2c3e4ca6100cc29d82d3a2
+SHA256: 7df74ebb877210f841b6e6fce5c0c0812c41defb6481ce6c07acefa18c790c90
+Section: 微信插件
+Description: 微信增强插件
+ - 支持聊天按钮布局自定义等功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 愫 茶
+Name: 微信增强WeChatEnhance.sh-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat.enhance.json
 
 Package: lym.com.wechat.wxhook
 Version: 1.0
