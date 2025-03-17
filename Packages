@@ -1962,16 +1962,16 @@ Maintainer: Lxcloud
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.lxcloud.WCEhance
 Replaces: com.lxcloud.WCEhance
-Filename: ./debs/微信优化WCEhance.sh-Rootless.deb
-Size: 56952
-MD5sum: a14ddd1a9d7a5e7bc3a93a75a11be32b
-SHA1: 59b0b78bc5f4f843f24f6df5da38348d626cecc6
-SHA256: 2078e2b6df8504d16db1e7ec7374e680a4e866dd0b94d4ffdd867d8125436062
+Filename: ./debs/微信优化WCEhance.deb
+Size: 56704
+MD5sum: 61934571ba4b0d4f4d75a9c58ceeb47c
+SHA1: 94568a61ecf34850a3c3a262357645d44471f82c
+SHA256: e670477d291080c10f0bdd513b3c25ec324adfb80a4c7eaf8e91fb9bab0ec1e0
 Section: 微信插件
 Description: 用于优化一些反人类设计并增强功能
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami&Lxcloud
-Name: 微信优化WCEhance.sh-Rootless
+Name: 微信优化WCEhance-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lxcloud.WCEhance.json
 
 Package: lym.com.lym.WXHelper
