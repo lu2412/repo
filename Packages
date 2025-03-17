@@ -1931,7 +1931,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.9.3
+Version: 1.9.4
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1939,10 +1939,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 921992
-MD5sum: aa07ed4c2ea5e478417c3057b1844520
-SHA1: 986afb2fb6c063883008efda44ea836e139b1c5f
-SHA256: 1de568aae7c98fd4ba6e6a34439f160b4801c3c250645569a3c4e492b554eee8
+Size: 961480
+MD5sum: 5ebddc73108b318cd427637eabee55ce
+SHA1: 3eac5223ff0cf233056a7a56a957ecaaa3b657fb
+SHA256: 0b332d1bb63729d6c0d63eda0e4096ab8802ba5139f7d1d373273de461ac9ed1
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -1954,6 +1954,25 @@ Description: 短视频下载助手
 Author: lenglengyu
 Name: 短视频下载助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lly.shortvideodl.json
+
+Package: lym.com.lxcloud.WCEhance
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: Lxcloud
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.lxcloud.WCEhance
+Replaces: com.lxcloud.WCEhance
+Filename: ./debs/微信优化WCEhance.sh-Rootless.deb
+Size: 56952
+MD5sum: a14ddd1a9d7a5e7bc3a93a75a11be32b
+SHA1: 59b0b78bc5f4f843f24f6df5da38348d626cecc6
+SHA256: 2078e2b6df8504d16db1e7ec7374e680a4e866dd0b94d4ffdd867d8125436062
+Section: 微信插件
+Description: 用于优化一些反人类设计并增强功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami&Lxcloud
+Name: 微信优化WCEhance.sh-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lxcloud.WCEhance.json
 
 Package: lym.com.lym.WXHelper
 Version: 0.1
