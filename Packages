@@ -1931,7 +1931,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.9.5
+Version: 1.9.6
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1939,10 +1939,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 902880
-MD5sum: 6741ab32551fdcb4569c035c6a9f54de
-SHA1: 0ee93b61eef319565b257c43c85b6ffd578d1381
-SHA256: 5bf880cb3912343c8fc57074795be21ccf72dfd6cf15c9516ccfe7fa9bdf53ef
+Size: 906864
+MD5sum: c9153022a655ed6996a3647f283f1480
+SHA1: c0acfe799b4efab64242a77fac83fa791b48d9ce
+SHA256: 303a2b7d048cb2b933a0dd9bbdbfe893d732ae58c94a900d28cf7fb5c26c7f7d
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
