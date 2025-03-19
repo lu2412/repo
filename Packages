@@ -2985,15 +2985,15 @@ Package: lym.com.wechat.enhance
 Version: 1.0.9
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 880
+Installed-Size: 896
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 166748
-MD5sum: 0b4eee5e67be1f85b692d69a6833d3ec
-SHA1: 46e85e85af7f065a1de84e785262b44e91dddb76
-SHA256: 5b107fc5b56a688b15460ac955532b0140055024b2bf38fa55647393c73d4024
+Size: 170440
+MD5sum: f477b637ff34259e4b52aa822a3569e2
+SHA1: 38592c295ec1fdea710ac452a7bda656eeeef82b
+SHA256: 4a485da9215f25d9af00cdb50cdfdf32bf70b8d3ec90ece589675e4ce828b3b8
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
