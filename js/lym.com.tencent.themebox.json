@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.8-1",
+                      "text": "2.0.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月15日",
+                      "text": "2025年03月19日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.8-1 \n- 修复微信热更新带来的影响(聊天窗口底栏不拉伸，聊天窗口顶栏不能透明)\n- 修复一些图标大小不匹配问题\n- 增加聊天窗口时间背景图片\n- 增加聊天窗口置顶消息背景图片\n- 增加主题关闭暗黑模式，始终保存白天模式"
+                      "markdown": "### 版本 2.0.0-1 \n- 修复一些已知问题，同时优化大量代码\n- 增加气泡加载功能，可以随意给主题搭配气泡\n- 增加本地字体加载功能\n- 注：气泡需要主题作者上传，从下载中心下载，不支持本地添加"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.7\n- 修复微信热更新带来的影响(聊天窗口底栏不拉伸，聊天窗口顶栏不能透明)\n- 修复一些图标大小不匹配问题\n- 增加聊天窗口时间背景图片\n- 增加聊天窗口置顶消息背景图片\n- 增加主题关闭暗黑模式，始终保存白天模式"
                   },
                   {
                       "class": "DepictionSeparatorView"
