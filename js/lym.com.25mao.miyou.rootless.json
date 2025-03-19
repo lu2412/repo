@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.8-1",
+                      "text": "3.8-2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月16日",
+                      "text": "2025年03月19日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.8-1 \n- 修复微信8.0.56不显示工具栏\n- 修复灰度测试用户转载视频不能自动缓存问题"
+                      "markdown": "### 版本 3.8-2 \n- 修复一些已知问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.8-1\n- 修复微信8.0.56不显示工具栏\n- 修复灰度测试用户转载视频不能自动缓存问题"
                   },
               ]
           }
