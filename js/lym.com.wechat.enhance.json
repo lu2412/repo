@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.8-1+debug",
+                      "text": "1.0.9",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月18日",
+                      "text": "2025年03月19日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.8-1+debug \n- 新增自定义网名位置\n- 尝试性修复圆角闪退的问题,添加了更多的安全检查(我没办法复现)\n- 修复了2x5布局只在私聊,群聊,公众号生效,在其他界面不生效的问题。例如企业联系人"
+                      "markdown": "### 版本 1.0.9 \n- 新增点击头像显示对方信息弹窗\n- 新增对方网名可以替换为备注名\n- 新增8.0.57版本伪装\n- 新增可以自定伪装版本（需要版本ID）\n- 推翻重写了一次头像圆角（还闪退真没辙了）\n- 头像范围大小调整至5-45\n- 网名范围大小调整至5-24\n- 信息弹窗有一个不完美的地方就是群聊人数会显示为零"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.8\n- 新增自定义网名位置\n- 尝试性修复圆角闪退的问题,添加了更多的安全检查(我没办法复现)\n- 修复了2x5布局只在私聊,群聊,公众号生效,在其他界面不生效的问题。例如企业联系人"
                   },
                   {
                       "class": "DepictionSeparatorView"
