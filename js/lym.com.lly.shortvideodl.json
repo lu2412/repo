@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9.6",
+                      "text": "1.9.7",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月18日",
+                      "text": "2025年03月19日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9.6 \n- 应要求将抖音时间进度下移至进度条下方。(需开启全屏播放)"
+                      "markdown": "### 版本 1.9.7 \n- 抖音添加视频倍速悬浮按钮。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.6\n- 应要求将抖音时间进度下移至进度条下方。(需开启全屏播放)"
                   },
                   {
                       "class": "DepictionSeparatorView"
