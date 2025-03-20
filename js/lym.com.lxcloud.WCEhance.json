@@ -21,7 +21,7 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{500, 833}",
+                      "itemSize": "{500, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-6",
+                      "text": "1.0-7",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月17日",
+                      "text": "2025年03月20日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-6 \n- 新增功能:新增表情包圆角设置\n- 修复了部分已知问题"
+                      "markdown": "### 版本 1.0-7 \n- 新增头像边框\n- 在启用头像圆角后可选择开启边框\n- 边框效果默认为1.5px浅灰色\n- 后续有空了添加自定义\n- 新增禁用微信热更新\n- 启用后需重启微信生效\n- 可以“修复”部分插件因热更新导致的闪退"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.-6\n- 新增功能:新增表情包圆角设置\n- 修复了部分已知问题"
                   },
               ]
           }
