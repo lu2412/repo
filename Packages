@@ -201,10 +201,10 @@ Depends: mobilesubstrate
 Conflicts: MikotoHelper, MikotoHelper
 Replaces: MikotoHelper, MikotoHelper
 Filename: ./debs/Mikoto助手-Rootless.deb
-Size: 20604424
-MD5sum: 2117d5d829fff66bdffbff1b9526508e
-SHA1: 581fb083e50eb4ff42a3f6a48999daa82da44733
-SHA256: d75b7975159825cf9a1f226e80f7d0a0b6abfcc9075c4dd3f44fadbe5a6418ea
+Size: 20763632
+MD5sum: 33cdc1399be4d9401bce05c59e7c7623
+SHA1: 32a45ac0b47fe28e16b8d5f7e27750748d1609b9
+SHA256: 9ff0f68f096a0c2cb88e144914d6e90190723cf65a4ed74a8e70afb14704edca
 Section: 微信插件
 Description: 微信多功能插件
  - Mikoto插件不能与Misaka插件共存
