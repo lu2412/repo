@@ -1954,7 +1954,7 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lly.shortvideodl
-Version: 1.9.7
+Version: 1.9.9k
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 5076
@@ -1962,10 +1962,10 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.lly.shortvideodl
 Replaces: com.lly.shortvideodl
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 913340
-MD5sum: 2d98f806bda39c182096c70c6395fb88
-SHA1: 8b44f7dd93215369ed5d342834bc703c1e8fb476
-SHA256: e0f146a31159695e305cd184890eb4b083f552ac03a7f03e076919e81f295865
+Size: 929740
+MD5sum: 45e034e5975555d513ab1db02ba9175d
+SHA1: 6e1af0e5c7fd2f7c02329e3b1f79755bfc7b73e6
+SHA256: 9bf2b9a929a94a6760b3207c6b5b428f0321bf72b92a6f74ca8416c39ce55ce5
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -3115,15 +3115,15 @@ Package: lym.com.xuuz.douyinhelper
 Version: 1.1-4
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
-Installed-Size: 840
+Installed-Size: 872
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.xuuz.douyinhelper
 Replaces: com.xuuz.douyinhelper
 Filename: ./debs/抖音助手-Rootless.deb
-Size: 156000
-MD5sum: cc753cdde8e7672d6f927ff6d5948165
-SHA1: 8ddc77858dbff77a70c99228f33de98c7531d554
-SHA256: ad9e6c22711ed2e3518048beed30af7ba54f9e18cf75429e8deb72257a78b3a1
+Size: 160684
+MD5sum: da228e4cda913ecf8ed215f659d47b38
+SHA1: 80dbceb835cae14ef71d74c954e5243cb5d4633f
+SHA256: 8811d279e1defc04189168c6997cc27ea12e75d8c1a8b5420e70f5de8da36a39
 Section: 抖音插件
 Description: 基于DYYY的抖音助手插件
  - 双指长按或设置页面调出

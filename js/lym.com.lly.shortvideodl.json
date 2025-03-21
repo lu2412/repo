@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9.7",
+                      "text": "1.9.9k",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月19日",
+                      "text": "2025年03月22日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9.7 \n- 抖音添加视频倍速悬浮按钮。"
+                      "markdown": "### 版本 1.9.9k \n- 支持小红书实况图片下载"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.8\n- 优化抖音视频倍速,即时生效。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.7\n- 抖音添加视频倍速悬浮按钮。"
                   },
                   {
                       "class": "DepictionSeparatorView"

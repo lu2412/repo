@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月21日",
+                      "text": "2025年03月22日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-4 \n- 同步官方dyyy更新"
+                      "markdown": "### 版本 1.1-4 \n- 恢复双击下载"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.4\n- 同步官方dyyy更新"
                   },
                   {
                       "class": "DepictionSeparatorView"
