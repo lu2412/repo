@@ -659,10 +659,10 @@ Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 9037476
-MD5sum: 09a9b65dadde5c225d5440b569904a61
-SHA1: f7f0b91006c0d5402094bf5003e87618770c34d7
-SHA256: c9e0f7acb6e8582361ab97d98c3409d66c92d9a60a58d9351bd68f774f485153
+Size: 9037604
+MD5sum: 26afb1b8f6e0604fdd0ddef01830f805
+SHA1: e502fc8d30b516ed20718ce0a14b94d1c1630124
+SHA256: f99a6be9b8aa6e0bc006c37e2d693529a4d09a205820d636077fe2e15c3a63b4
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
