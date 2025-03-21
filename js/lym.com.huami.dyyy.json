@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-6",
+                      "text": "2.1-7",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月18日",
+                      "text": "2025年03月21日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-6 \n- 新增评论区文案复制\n- 可直接复制内容\n- 新增移除顶栏朋友\n- 新增移除消息页顶部联系人列表\n- 修复顶栏仅为一个的情况下透明无效\n- 优化GIF动图支持直接为GIF\n- 优化视频进度条时间显示\n- 优化屏蔽广告逻辑\n- 修复隐藏左侧栏影响到其他按钮\n- 修复部分设备替换图标显示异常\n- 重新加入自动播放逻辑\n- 优化媒体处理等若干逻辑"
+                      "markdown": "### 版本 2.1-7 \n- 修复隐藏去汽水听遗留的空白\n- 新增实况照片单独、全部下载\n- 优化GIF表情包单帧处理异常"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.4\n- 新增评论区文案复制\n- 可直接复制内容\n- 新增移除顶栏朋友\n- 新增移除消息页顶部联系人列表\n- 修复顶栏仅为一个的情况下透明无效\n- 优化GIF动图支持直接为GIF\n- 优化视频进度条时间显示\n- 优化屏蔽广告逻辑\n- 修复隐藏左侧栏影响到其他按钮\n- 修复部分设备替换图标显示异常\n- 重新加入自动播放逻辑\n- 优化媒体处理等若干逻辑"
                   },
                   {
                       "class": "DepictionSeparatorView"
