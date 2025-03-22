@@ -1933,6 +1933,31 @@ Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
+Package: lym.com.lenglengyu.shortvideodl-rootless
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 3648
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
+Replaces: com.lenglengyu.shortvideodl-rootless
+Filename: ./debs/短视频下载助手-Rootless.deb
+Size: 963640
+MD5sum: 27f6a185f85c3bc2a24b5ef01dc89a91
+SHA1: 7c3ae1d9fb48836e6178ccee5195b49f0193b27f
+SHA256: b6d894a4cc564f4ff87f40aba7601b8f806d0837e7fcf12ad876a3f5e48887b9
+Section: 软件增强
+Description: 短视频下载助手
+ - 支持抖音、快手、微视等无水印下载
+ - 支持微信公众号、视频号视频下载
+ - 插件启用：在系统设置-短视频助手中开启
+ - 开启后在软件视频界面双击下载视频
+ - 另外抖音可以双击视频然后点其他功能进入更多功能设置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: 短视频下载助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lenglengyu.shortvideodl-rootless.json
+
 Package: lym.com.liuf.ceshi
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1952,31 +1977,6 @@ Description: Sileo头像转圈圈
 Author: lym
 Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
-
-Package: lym.com.lly.shortvideodl
-Version: 1.9.9k
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 5076
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.lly.shortvideodl
-Replaces: com.lly.shortvideodl
-Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 929740
-MD5sum: 45e034e5975555d513ab1db02ba9175d
-SHA1: 6e1af0e5c7fd2f7c02329e3b1f79755bfc7b73e6
-SHA256: 9bf2b9a929a94a6760b3207c6b5b428f0321bf72b92a6f74ca8416c39ce55ce5
-Section: 软件增强
-Description: 短视频下载助手
- - 支持抖音、快手、微视等无水印下载
- - 支持微信公众号、视频号视频下载
- - 插件启用：在系统设置-短视频助手中开启
- - 开启后在软件视频界面双击下载视频
- - 另外抖音可以双击视频然后点其他功能进入更多功能设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lenglengyu
-Name: 短视频下载助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lly.shortvideodl.json
 
 Package: lym.com.lxcloud.WCEhance
 Version: 1.0-7
