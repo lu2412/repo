@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.2",
+                      "text": "1.1.5",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月21日",
+                      "text": "2025年03月23日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.2 \n- -2x5布局支持隐藏\n- 按照你们的要求对隐藏头像进行了解耦\n- 深思熟虑后,决定插件进入END版本,我要去忙我自己的事情了,有缘再更新吧,偷窃的恶劣性质太多了,吃力不讨好的行为,终是昙花一现"
+                      "markdown": "### 版本 1.1.5 \n- 新增信息时间显示\n- 修复一些潜在的问题\n- 新增信息时间显示在头像下方位置\n- 时间显示兼容隐藏头像\n- 添加更多可自定义项\n- 新增隐藏聊天界面原生时间标签"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.3\n- 2x5布局支持隐藏\n- 按照你们的要求对隐藏头像进行了解耦\n- 深思熟虑后,决定插件进入END版本,我要去忙我自己的事情了,有缘再更新吧,偷窃的恶劣性质太多了,吃力不讨好的行为,终是昙花一现"
                   },
                   {
                       "class": "DepictionSeparatorView"

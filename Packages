@@ -3005,18 +3005,18 @@ Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
 Package: lym.com.wechat.enhance
-Version: 1.1.2
+Version: 1.1.5
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 992
+Installed-Size: 1060
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 193056
-MD5sum: 5604778de37c8d5a320978b21fd601e6
-SHA1: c775ccbb7fbcea847b7577ac6a552c78d123fd26
-SHA256: fe9fc92ed5a852ffedf1f28a8738e9ca2c0d3f50bf44f0ed08afa523944b5a3c
+Size: 211480
+MD5sum: 3e785df857a6fb0228bf53e43c446e74
+SHA1: c98598608c53cebeee31b3ad9de247f63bb8d322
+SHA256: 3006873c46584371458523f1c4de4d4ead999723bf82570429704dd82f0d1d48
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
