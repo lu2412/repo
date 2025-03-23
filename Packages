@@ -1324,26 +1324,27 @@ Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
 
 Package: lym.com.dumpapp.wechat-rootless
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64
-Maintainer: WeChat
-Installed-Size: 23952
+Maintainer: DumpApp
+Installed-Size: 28364
 Depends: mobilesubstrate, firmware (>= 12.0)
+Conflicts: com.dumpapp.wechat-rootless
 Replaces: com.dumpapp.wechat-rootless
 Filename: ./debs/锤子助手-Rootless.deb
-Size: 9236408
-MD5sum: 2aa9e29b3b2dbdbff5c8a4ce9f400c9c
-SHA1: 0e28b1d5b1af4e380212b3e57691f38f308e0adf
-SHA256: f3d4bb8a1266f7c1cc0517155c0b1cd69f3150d05beaa15f387df2f9b1d84721
+Size: 10438608
+MD5sum: 2df15d994a04ffeb4745107f3a0a87b2
+SHA1: d156df96a3e98232c96f08b96ab6bc1d37d69648
+SHA256: 4f5db64990543dc687e9b7c60afd5f654299f1159f2b828c9c4ca152b138d870
 Section: 微信插件
 Description: 复刻[微信净化]插件
  - 越狱安装可能会和滑雪板UI扩展冲突
  - 导致微信无限闪退安全模式!
  - 功能基本一致,注意不可与净化共存
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: DumpApp
 Name: 锤子助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.2

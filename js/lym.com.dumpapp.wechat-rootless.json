@@ -16,17 +16,13 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 复刻 [微信净化] 插件\n- 越狱安装可能会和滑雪板UI扩展冲突\n- 导致微信无限闪退安全模式!\n- 功能基本一致,注意不可与净化共存\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 复刻[微信净化]插件\n- 越狱安装可能会和滑雪板UI扩展冲突\n- 导致微信无限闪退安全模式!\n- 功能基本一致,注意不可与净化共存\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10,10}",
+                      "itemSize": "{1, 1}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  }
                             ]
                   },
 
@@ -38,18 +34,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.4",
+                      "text": "DumpApp",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2.0.5",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月12日",
-                      "title": "最后更新时间"
+                      "text": "2025年03月23日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,7 +60,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.4 \n- 修复巨魔闪退问题,修复细节问题"
+                      "markdown": "### 版本 2.0.5 \n- 修复bug"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.4\n- 修复巨魔闪退问题,修复细节问题"
                   },
               ]
           }
