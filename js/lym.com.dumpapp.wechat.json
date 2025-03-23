@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.5",
+                      "text": "2.0.6",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月23日",
+                      "text": "2025年03月24日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.5 \n- 修复bug"
+                      "markdown": "### 版本 2.0.6 \n- 修复部分BUG\n- 修复插件入口不显示问题\n- 文字转语音普通版免key，免费使用新增文字转语音，高级版（内含100+语音）"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.5\n- 修复bug"
                   },
                   {
                       "class": "DepictionSeparatorView"

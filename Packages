@@ -1323,19 +1323,18 @@ Author: Netskao
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
 
-Package: lym.com.dumpapp.wechat-rootless
-Version: 2.0.5
+Package: lym.com.dumpapp.wechat
+Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: DumpApp
-Installed-Size: 28364
 Depends: mobilesubstrate, firmware (>= 12.0)
-Conflicts: com.dumpapp.wechat-rootless
-Replaces: com.dumpapp.wechat-rootless
+Conflicts: com.dumpapp.wechat
+Replaces: com.dumpapp.wechat
 Filename: ./debs/锤子助手-Rootless.deb
-Size: 10438608
-MD5sum: 2df15d994a04ffeb4745107f3a0a87b2
-SHA1: d156df96a3e98232c96f08b96ab6bc1d37d69648
-SHA256: 4f5db64990543dc687e9b7c60afd5f654299f1159f2b828c9c4ca152b138d870
+Size: 10514396
+MD5sum: 7813e6367e811030935423765f27d062
+SHA1: b5af0f36a031271d3a5d8ae7ff67b586825a560a
+SHA256: 1398d2225d515e4da4135b5cda8c6ef0e3897e98da3887cce0f060385a74e546
 Section: 微信插件
 Description: 复刻[微信净化]插件
  - 越狱安装可能会和滑雪板UI扩展冲突
@@ -1344,7 +1343,7 @@ Description: 复刻[微信净化]插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: DumpApp
 Name: 锤子助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat-rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
@@ -1934,31 +1933,6 @@ Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
-Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3664
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
-Replaces: com.lenglengyu.shortvideodl-rootless
-Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 971444
-MD5sum: 9388ef90b0ce0534f721b3b59f4b0a16
-SHA1: 0b5d2bfda3d01097ba8695697b222f3f4a7232b5
-SHA256: 83a9cebb9077b92a9c9558191e7e0fd3dca6281386090ab755b45e1bf3711d75
-Section: 软件增强
-Description: 短视频下载助手
- - 支持抖音、快手、微视等无水印下载
- - 支持微信公众号、视频号视频下载
- - 插件启用：在系统设置-短视频助手中开启
- - 开启后在软件视频界面双击下载视频
- - 另外抖音可以双击视频然后点其他功能进入更多功能设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lenglengyu
-Name: 短视频下载助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lenglengyu.shortvideodl-rootless.json
-
 Package: lym.com.liuf.ceshi
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1978,6 +1952,31 @@ Description: Sileo头像转圈圈
 Author: lym
 Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
+
+Package: lym.com.lly.shortvideodl
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 5076
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.lly.shortvideodl
+Replaces: com.lly.shortvideodl
+Filename: ./debs/短视频下载助手-Rootless.deb
+Size: 971840
+MD5sum: 5e811018c52d991ed22f72bba804279e
+SHA1: d32b82905c78578f5852fcc0fab365775766b346
+SHA256: 5802e5407e576793cdebf5d643705ad82d330dcc93358bee6883885644a25666
+Section: 软件增强
+Description: 短视频下载助手
+ - 支持抖音、快手、微视等无水印下载
+ - 支持微信公众号、视频号视频下载
+ - 插件启用：在系统设置-短视频助手中开启
+ - 开启后在软件视频界面双击下载视频
+ - 另外抖音可以双击视频然后点其他功能进入更多功能设置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: 短视频下载助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lly.shortvideodl.json
 
 Package: lym.com.lxcloud.WCEhance
 Version: 1.0-7
