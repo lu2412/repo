@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.0",
+                      "text": "2.0.1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月22日",
+                      "text": "2025年03月23日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.0 \n- 抖音添加自动清理缓存\n- 小红书添加首页视频自动连播、右边栏按钮隐藏、悬浮倍速按钮。"
+                      "markdown": "### 版本 2.0.1 \n- 小红书热门栏目也能自动连播\n- 顺便添加自动清理缓存、面容验证。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.0\n- 抖音添加自动清理缓存\n- 小红书添加首页视频自动连播、右边栏按钮隐藏、悬浮倍速按钮。"
                   },
                   {
                       "class": "DepictionSeparatorView"
