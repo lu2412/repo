@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.5",
+                      "text": "1.1.6",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月23日",
+                      "text": "2025年03月24日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.5 \n- 新增信息时间显示\n- 修复一些潜在的问题\n- 新增信息时间显示在头像下方位置\n- 时间显示兼容隐藏头像\n- 添加更多可自定义项\n- 新增隐藏聊天界面原生时间标签"
+                      "markdown": "### 版本 1.1.6 \n- 应某位打赏宝子的需求添加更多的自定义文本\n- 添加占位符,输入框圆角"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.5\n- 新增信息时间显示\n- 修复一些潜在的问题\n- 新增信息时间显示在头像下方位置\n- 时间显示兼容隐藏头像\n- 添加更多可自定义项\n- 新增隐藏聊天界面原生时间标签"
                   },
                   {
                       "class": "DepictionSeparatorView"
