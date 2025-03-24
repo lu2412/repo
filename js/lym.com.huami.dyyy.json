@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-8",
+                      "text": "2.1-9",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月24日",
+                      "text": "2025年03月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-8 \n- 在DYYY基础上增加:进度时长位置\n- 评论区透明、输入框透明、昵称缩放、隐藏头像关注十\n- 隐藏弹幕按钮、隐藏商店物品、隐藏商店预约、隐藏点击推荐等\n- 代码来自@wtrwx、@waa404等大佬的开源。"
+                      "markdown": "### 版本 2.1-9 \n- 在DYYY基础上增加:进度时长位置\n- 评论区透明、输入框透明、昵称缩放、隐藏头像关注十\n- 隐藏弹幕按钮、隐藏商店物品、隐藏商店预约、隐藏点击推荐等\n- 代码来自@wtrwx、@waa404等大佬的开源。"
                   },
                   {
                       "class": "DepictionSeparatorView"
