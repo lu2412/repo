@@ -1616,18 +1616,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.1-9
+Version: 2.1-7
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 716
+Installed-Size: 648
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 123720
-MD5sum: 36c07cede63b2b07567ccd829460b15b
-SHA1: b9317fcb52d54e1f0f57d130c96a7758608aa5ca
-SHA256: 226bca1e46709b5248cf1b053ed9bf56812cf7af1c8c958bdc3d63b521b9f0dd
+Size: 108304
+MD5sum: 1ef2c713a1a3b665fe64b14e8a66425b
+SHA1: edd0c078300a67a136b8fd7fc5bbdaa4ea9afc98
+SHA256: 3bc1729b0ef253625157841a05a7fb4acf639e70c07fee270fe0dea74b42bec9
 Section: 抖音插件
 Description: 抖音增强插件
  - 双指长按打开插件设置
@@ -3005,7 +3005,7 @@ Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
 Package: lym.com.wechat.enhance
-Version: 1.1.6
+Version: 1.1.7
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
 Installed-Size: 1124
@@ -3013,10 +3013,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 228108
-MD5sum: 362d96317ca9d1584a89476ee95d7e8b
-SHA1: c5ea60e32f876319cc8ec3b658526ad2b928ce3a
-SHA256: 4c56061e22bb5e1c3de6fa664087383b726eb9ec57df47e2d0d47bea61040b78
+Size: 232440
+MD5sum: b570a30e1359d0b0b32c7a4774b0ba4d
+SHA1: 10d193d8d79240755a67f774724c81821d06f1a9
+SHA256: 5170e6a9c0e60727e17cddc19cfbcb4e92b4349a87b3b53a15d2180757e4c1be
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
