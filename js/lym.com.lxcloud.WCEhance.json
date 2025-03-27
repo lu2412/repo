@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-7",
+                      "text": "1.0-9",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月20日",
+                      "text": "2025年03月27日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,28 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-7 \n- 新增头像边框\n- 在启用头像圆角后可选择开启边框\n- 边框效果默认为1.5px浅灰色\n- 后续有空了添加自定义\n- 新增禁用微信热更新\n- 启用后需重启微信生效\n- 可以“修复”部分插件因热更新导致的闪退"
+                      "markdown": "### 版本 1.0-9 \n- 新增长按菜单毛玻璃效果\n- 支持自定义毛玻璃颜色\n- 支持自定义毛玻璃透明度"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "与圆角、边框、阴影效果完美兼容\n- 修复部分界面切换时的显示异常"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.8\n- 新增57版本伪装选项\n- 新增圆角头像边框选项\n- 支持自定义边框颜色\n- 支持自定义边框宽度\n- 修复部分用户闪退问题\n- 修复版本切换时的配置冲突\n- 修复部分用户圆角失效问题\n- 重构圆角头像实现方法"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.7\n- 新增头像边框\n- 在启用头像圆角后可选择开启边框\n- 边框效果默认为1.5px浅灰色\n- 后续有空了添加自定义\n- 新增禁用微信热更新\n- 启用后需重启微信生效\n- 可以“修复”部分插件因热更新导致的闪退"
                   },
                   {
                       "class": "DepictionSeparatorView"

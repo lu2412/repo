@@ -1979,17 +1979,17 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lxcloud.WCEhance
-Version: 1.0-7
+Version: 1.0-9
 Architecture: iphoneos-arm64
 Maintainer: Lxcloud
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.lxcloud.WCEhance
 Replaces: com.lxcloud.WCEhance
 Filename: ./debs/微信优化WCEhance-Rootless.deb
-Size: 57508
-MD5sum: 5c739f95542c4cf4946492b869a57472
-SHA1: 11ee3d876db9e382d34331c1f1195e3d060cd820
-SHA256: f0e7352c8e82026b6b72fcd2098a871ff42096e18dbe9a150ba96554bcd7eadf
+Size: 58492
+MD5sum: 4ef3ad1b4f6088465347b507b377945c
+SHA1: 0f210ee319b0da82585832c8b06f0e6d708e06d8
+SHA256: 7650c790af9d8b6f6ae9cc8580788a3bb56213d5b80c82f20d65360319dc6a79
 Section: 微信插件
 Description: 用于优化一些反人类设计并增强功能
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -3112,18 +3112,18 @@ Name: 钉钉红包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.ddhook.json
 
 Package: lym.com.xuuz.douyinhelper
-Version: 1.1-4
+Version: 1.1-6
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
-Installed-Size: 872
+Installed-Size: 1144
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.xuuz.douyinhelper
 Replaces: com.xuuz.douyinhelper
 Filename: ./debs/抖音助手-Rootless.deb
-Size: 160684
-MD5sum: da228e4cda913ecf8ed215f659d47b38
-SHA1: 80dbceb835cae14ef71d74c954e5243cb5d4633f
-SHA256: 8811d279e1defc04189168c6997cc27ea12e75d8c1a8b5420e70f5de8da36a39
+Size: 223740
+MD5sum: f86b16ca6053157601e74a5f008cf991
+SHA1: 9fd1ed7b9ad26dbefee5553490065da2517a6c78
+SHA256: 25afb10bbd54431022e6633682a1a6e1ed07f39152c84353efd93986a067ab2e
 Section: 抖音插件
 Description: 基于DYYY的抖音助手插件
  - 双指长按或设置页面调出
