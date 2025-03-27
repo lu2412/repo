@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-6 \n- 长按顶部抖音助手即可导出账号数据和恢复账号数据"
+                      "markdown": "### 版本 1.1-6 \n- UI增加关闭按钮"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.6\n- 长按顶部抖音助手即可导出账号数据和恢复账号数据"
                   },
                   {
                       "class": "DepictionSeparatorView"

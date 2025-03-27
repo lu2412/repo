@@ -236,25 +236,6 @@ Author: Misaka
 Name: Misaka微信助手END1-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
 
-Package: lym.Store-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Conflicts: Store-Rootless
-Replaces: Store-Rootless
-Filename: ./debs/Days Matter倒数日解锁-Rootless.deb
-Size: 146132
-MD5sum: c0a495ceb9dc21c27b37179364444eb6
-SHA1: 99fd9f4ef346fa5b84a61e48d10e0166b65f55bf
-SHA256: 3e6865f88520151efb197eb91e980aea64c20fe7db01beec69f54ba234c67e41
-Section: 软件增强
-Description: 点击购买后取消付款
- - 解锁解锁高级会员
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: Days Matter倒数日解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.Store-Rootless.json
-
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -1433,18 +1414,18 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 5.9
+Version: 5.9.1
 Architecture: iphoneos-arm64
 Maintainer: Eevee
-Installed-Size: 1620
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.28.1)
+Installed-Size: 1616
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 404800
-MD5sum: 22eb3e31f915867a6b070a275447cd6e
-SHA1: d3d676f131a962d6b142a0b32907356b15fa21bf
-SHA256: 7626e1b2a56ce636eb16d1bfb4b1c8a80e174c42a8f0642f550e2697bc53ef09
+Size: 404136
+MD5sum: 95d5d9ffc2111730d29002c6115b2f19
+SHA1: 674470cb30c39e79a43afa0d852f99b7dc99d116
+SHA256: ee584ced0d67f3fe639445f94b1d2e34cb9b50fa1e0ce58dce94f125292b9db2
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -1934,18 +1915,18 @@ Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.0.5
+Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3720
+Installed-Size: 3972
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 981424
-MD5sum: 782172a3fcdcefcc7b8781d8eb4a1ea4
-SHA1: 2e9c7603dee7618532d742a39771ae4f00387a03
-SHA256: 7a7c18594d8ad2d10c86db44cd662f5fc21f38b096316b04108faf334aaab698
+Size: 1042932
+MD5sum: 05623e1f6b29ee2c40770bb9973575fb
+SHA1: bde1dca7810eeda2666e52c98ab22e38ef75aac1
+SHA256: 5e8664256267f1b7ca060a2ce7ea6275cf75b2a99bb9b974496436cfacd887a3
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -3115,15 +3096,15 @@ Package: lym.com.xuuz.douyinhelper
 Version: 1.1-6
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
-Installed-Size: 1144
+Installed-Size: 1176
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.xuuz.douyinhelper
 Replaces: com.xuuz.douyinhelper
 Filename: ./debs/抖音助手-Rootless.deb
-Size: 223740
-MD5sum: f86b16ca6053157601e74a5f008cf991
-SHA1: 9fd1ed7b9ad26dbefee5553490065da2517a6c78
-SHA256: 25afb10bbd54431022e6633682a1a6e1ed07f39152c84353efd93986a067ab2e
+Size: 223564
+MD5sum: bd5212534b17893e85c79c7e9ef416f2
+SHA1: 09f0297b24dadbf4b9e2a2461ad2ef21e999f3e7
+SHA256: ad3d8f2fbf7f8ce6ad996b8456c215fbbddc9ef11ce134f47e00da9a07895a26
 Section: 抖音插件
 Description: 基于DYYY的抖音助手插件
  - 双指长按或设置页面调出

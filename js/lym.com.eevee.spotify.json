@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.9",
+                      "text": "5.9.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月20日",
+                      "text": "2025年03月28日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.9 \n- LRCLIB服务器地址选项、繁重的设置代码重构和改进\n- 由@xiangfeidexiaohuo更新简体中文本地化\n- 由@UnexcitingDean更新的丹麦语本地化\n- 更新乌克兰本地化@LIKVIDATOR1337\n- 由@Orafilynie更新的法语本地化\n- 由@ElliotCHEN37更新的繁体中文本地化"
+                      "markdown": "### 版本 5.9.1 \n- 由@HackZy01更新的波兰语本地化\n- @avishekrijal更新尼泊尔本地化\n- 由@gocciolafr更新的意大利语本地化"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.8.8\n- LRCLIB服务器地址选项、繁重的设置代码重构和改进\n- 由@xiangfeidexiaohuo更新简体中文本地化\n- 由@UnexcitingDean更新的丹麦语本地化\n- 更新乌克兰本地化@LIKVIDATOR1337\n- 由@Orafilynie更新的法语本地化\n- 由@ElliotCHEN37更新的繁体中文本地化"
                   },
                   {
                       "class": "DepictionSeparatorView"
