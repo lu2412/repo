@@ -1597,30 +1597,26 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.1-7
+Version: 2.1-15
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 648
+Installed-Size: 764
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
-Filename: ./debs/抖音 DYYY-Rootless.deb
-Size: 108304
-MD5sum: 1ef2c713a1a3b665fe64b14e8a66425b
-SHA1: edd0c078300a67a136b8fd7fc5bbdaa4ea9afc98
-SHA256: 3bc1729b0ef253625157841a05a7fb4acf639e70c07fee270fe0dea74b42bec9
+Filename: ./debs/抖音魔术师-Rootless.deb
+Size: 139828
+MD5sum: d0bddc6733b62fbb5a72eda20d3f7f23
+SHA1: f057f7d52de247e89a0e85dd736795ddbf64314f
+SHA256: 4316c2680c36f76bb0008f37dce80508ffca745dd353bd0c8e1eb94aff11d3b6
 Section: 抖音插件
-Description: 抖音增强插件
- - 双指长按打开插件设置
- - 设置顶栏透明
- - 设置全局透明度
- - 隐藏全屏观看
- - 隐藏底栏加号
- - 开启弹幕改色
- - 新增默认倍速播放功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Description: 基于@huamidev的DYYY定制
+ - 使用弹窗UI,UI设计代码来自@iosxuuz
+ - 首页双指长按进入设置
+ - 新增来自@vita_app、@waa404等大佬的开源代码增加了新功能。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami
-Name: 抖音 DYYY-Rootless
+Name: 抖音魔术师-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
 Package: lym.com.huami.fixmiyoutoolbar

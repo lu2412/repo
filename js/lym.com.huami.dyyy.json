@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "插件项目地址",
-                    "action": "https://github.com/huami1314/DYYY",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 抖音增强插件\n- 双指长按打开插件设置\n- 设置顶栏透明\n- 设置全局透明度\n- 隐藏全屏观看\n- 隐藏底栏加号\n- 开启弹幕改色\n- 新增默认倍速播放功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 基于@huamidev的DYYY定制\n- 使用弹窗UI,UI设计代码来自@iosxuuz;首页双指长按进入设置\n- 新增来自@vita_app、@waa404等大佬的开源代码增加了新功能。\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://trollstorex.github.io/sileodepiction/DYYY/pic1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/mss.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://trollstorex.github.io/sileodepiction/DYYY/pic2.png"
+                                      "url": "https://lu2412.github.io/repo/icon/mss1.png"
                                   }
                             ]
                   },
@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-7",
+                      "text": "2.1-15",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月25日",
+                      "text": "2025年03月31日",
                       "title": "最后更新"
                   }
               ]
@@ -68,203 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-7 \n- 修复隐藏去汽水听遗留的空白\n- 新增实况照片单独、全部下载\n- 优化GIF表情包单帧处理异常"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.4\n- 新增评论区文案复制\n- 可直接复制内容\n- 新增移除顶栏朋友\n- 新增移除消息页顶部联系人列表\n- 修复顶栏仅为一个的情况下透明无效\n- 优化GIF动图支持直接为GIF\n- 优化视频进度条时间显示\n- 优化屏蔽广告逻辑\n- 修复隐藏左侧栏影响到其他按钮\n- 修复部分设备替换图标显示异常\n- 重新加入自动播放逻辑\n- 优化媒体处理等若干逻辑"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.5新增双击打开评论区\n- 新增GIF动图支持\n- 新增视频进度条时间显示\n- 新增去广告功能\n- 新增隐藏关注页xx直播,感谢 Huangbai233提供代码贡献\n- 新增隐藏聊天页头像列表\n- 新增隐藏首页左侧栏\n- 优化顶栏移除方案 支持长按调整排序,感谢 Wuang ོ 提供代码参考\n- 新增评论区表情包下载\n- 新增评论区图片无水印下载\n- 新增双击打开评论区\n- 新增视频进度时间显示"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.4\n- 新增评论区表情包下载\n- 使用官方下载按钮与自定义实现,感谢 Wuang ོ 提供代码参考\n- 新增评论区图片无水印下载"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.3\n- 新增评论区实况图片无水印下载\n- 使用官方下载按钮\n- 优化文案大小处理算法ོ\n- 修复全屏模式下打开评论区后底部变黑\n- 修复全屏模式下部分用户直播错位问题\n- 修复未在首页情况下打开评论顶部变黑"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.1\n- 新增时间标签位置\n- 参考lenglengyu开源代码\n- 新增时间标签颜色调整 支持random\n- 新增旧面板长按下载\n- 感谢 2023 girl提供大量代码支持\n- 新增设置入口\n- 优化配色方案"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.0\n- 修复评论区毛玻璃bug"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.9\n- 优化属地的判断逻辑\n- 修复图文的文案错误的显示(直播我未能复现)\n- 评论区毛玻璃根据亮/暗背景处理显示效果\n- 打开全屏后默认隐藏评论区输入框\n- 删除不必要的冗余代码"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.8\n- 修复横屏视频拉伸问题\n- 修复属地冲突问题\n- 修复全屏拉伸问题\n- 修复日间模式毛玻璃问题\n- 修复非首页文案上移问题"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.7\n- 新增 评论区毛玻璃\n- 为评论区添加模糊和半透明效果\n- 新增隐藏视频定位功能\n- 新增隐藏首页右上角搜索按钮功能\n- 新增隐藏 我的 页面下方作品页面功能\n- 来自 wwg135 的 PR 贡献\n- 修复归属地冲突问题\n- 优化全屏显示逻辑，隐藏不必要的黑色背景视图\n- 重写并优化全屏逻辑，避免错误的下移问题\n- 优化UI显示的逻辑，确保iPad正常显示设置"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.6\n- 新增首页全屏\n- 开启后需重新打开一次\n- 已知问题: 主页视频/搜索 文案会被上移\n- 优化UI\n- 引入毛玻璃效果\n- 采用模态显示(仅iOS15+)"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.3\n- 优化归属地细节"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.2\n- 新增首页时间/属地显示\n- 仅显示中国(含港澳台)等共计34个省级行政区"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.0.1\n- 新增隐藏底栏背景(即修复抖音全屏节日皮肤遮挡)"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.8\n- 弃用自定义代码实现的自动连播"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "\n- 使用官方的方法,确保直播、图文、进度均能正常优化UI箭头变形"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.7\n- 新增移除顶栏by久违"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.6\n- 新增首页净化模式(侧边倍速可退出)\n- 修复全局透明导致出现错位暂停按钮\n- 修复移除头像缺少的直播框\n- 将UI整体下移，避免与关闭按钮太近\n- 当前版本可支持显示版本号与构建日期"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.5\n- 重写自动播放逻辑支持主页、收藏\n- 新增隐藏底栏【朋友、商城、消息】by哥)使用苏苏的算法优化\n- 修复视频进度条无法显示问题\n- 优化UI,加入分类更加简洁"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.4\n- 新增视频自动播放\n- 修复首次加载透明度为空的问题\n- 修复了部分已知的问题\n- 这里指的是视频 所以直播和图片自然不行，我想弄的时候自然会弄"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.3\n- 修复全局透明度被覆盖的问题\n- 合并wwg135(M哥)的请求\n- 新增隐藏头像按钮\n- 新增隐藏音乐按钮"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9.2\n- 优化UI\n- 新增修改底栏标题功能\n- 不支持商城因为可以改回朋友,反正没人喜欢商城"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.9-1\n- 新增【显示视频进度条】by苏苏\n- 新增【关注二次确认】\n- 新增【收藏二次确认】\n- 支持【默认1.25x】\n- 修复【深色键盘】中的部分标签未被渲染(虽然官方已经对评论区进行了深色处理,但我觉得自己做的好看点!?)"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.8.2\n- 修复一些在32.8.0版本中失效的功能"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.8.1\n- 修复未开启深色模式时,图标消失的问题,可选择更新"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.8\n- 进一步完善了评论区深色模式的适配"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.7\n- 修复因新版本导致侧边倍速播放失效\n- 新增评论区键盘切换深色模式(在设置)\n- 为新版本抖音的弹幕热更新适配改色功能"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.6.1\n- 修复TF抖音31.9.0屏蔽底栏红点失效问题"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.6 \n- 新增默认倍速播放功能\n- 完全重构了UI\n- 修改打开设置方式为双指长按\n- 让#random也支持随机颜色"
+                      "markdown": "### 版本 2.1-15 \n- 初始版本"
                   },
               ]
           }
