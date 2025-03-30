@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.7",
+                      "text": "2.0.8",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月29日",
+                      "text": "2025年03月30日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.7 \n- 抖音添加关键词屏蔽作品\n- 移除导致频繁闪退的倍速功能。"
+                      "markdown": "### 版本 2.0.8 \n- 抖音直播实时人数添加刷新机制,真正做到实时人数。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.7\n- 抖音添加关键词屏蔽作品\n- 移除导致频繁闪退的倍速功能。"
                   },
                   {
                       "class": "DepictionSeparatorView"
