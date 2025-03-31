@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-15",
+                      "text": "2.2-3",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-15 \n- 初始版本"
+                      "markdown": "### 版本 2.2-3 \n- 全面使用Vita'sDYYY(维他入我心)版本代码\n- 双入口:设置顶端入口>>维他版DYYY,首页双指长按>>魔术师DYYY\n- 魔术师和维他版,功能相通,开关相通,魔术师界面设置的功能比维他版少一点点"
                   },
               ]
           }
