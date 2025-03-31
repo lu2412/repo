@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.0-1",
+                      "text": "2.0.1-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月19日",
+                      "text": "2025年03月31日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.0-1 \n- 修复一些已知问题，同时优化大量代码\n- 增加气泡加载功能，可以随意给主题搭配气泡\n- 增加本地字体加载功能\n- 注：气泡需要主题作者上传，从下载中心下载，不支持本地添加"
+                      "markdown": "### 版本 2.0.1-1 \n- 一些细节上的优化\n- 修复独立气泡的裁剪问题\n- 2.0版本之后可以自定义主题盒子页面上的图标\n- themebox.png（主题盒子Logo图标）\n- down.png（下载中心图标）\n- theme.png（更换主题图标）\n- bubble.png（更换气泡图标）\n- font.png（更换字体图标）\n- question.png（右上角问号2.0.1）\n- 主题作者可打包到主题中\n- 用户也可以自行放入ThemeBox/Icons文件夹中\n- 文件名后面加_Dark.png就是暗黑模式的图片。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.0\n- 修复一些已知问题，同时优化大量代码\n- 增加气泡加载功能，可以随意给主题搭配气泡\n- 增加本地字体加载功能\n- 注：气泡需要主题作者上传，从下载中心下载，不支持本地添加"
                   },
                   {
                       "class": "DepictionSeparatorView"
