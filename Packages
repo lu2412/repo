@@ -1605,10 +1605,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 204400
-MD5sum: 3ef65082011a967bbf3a5226f323a7a3
-SHA1: 51ce3ed0c8f2447e951c3d2297770279059f4ea5
-SHA256: 9f0b874addecd2ce908ae5fe9c64e48a17e49daaf71a61295104f57061a8ae88
+Size: 207592
+MD5sum: 1e8908500e2113a20f4026808befa2cb
+SHA1: b5f8be7e27b687203512ed6cf191b9439bafa5f4
+SHA256: 9c97e50f4a460ac9e3bb46e14ecc2065f8e34124af92f377cf197a7844ca2f35
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -3403,7 +3403,7 @@ Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
 
 Package: lym.com.xybp888.noapplemobilerepair
-Version: 0.0.1-88
+Version: 0.0.1-103
 Architecture: iphoneos-arm64
 Maintainer: xybp888
 Installed-Size: 152
@@ -3411,10 +3411,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xybp888.noapplemobilerepair
 Replaces: com.xybp888.noapplemobilerepair
 Filename: ./debs/重要提醒No Apple MobileRepair-Rootless.deb
-Size: 10920
-MD5sum: 2866d811d3268eea21f7de3b5c45ecde
-SHA1: 87e976c6e6f4e38d87a725583264f51449202d2b
-SHA256: 2fa2f0a70603fd1c95c559d3f7cf4587033af86883e43435f4d31f0ca180f6f9
+Size: 10924
+MD5sum: 5005b29efd5229f5cdc80e80bccd5810
+SHA1: 9c200ebf84e7e737b9e7c3a57ed2c141cf4d06d4
+SHA256: 78666d027ef8c6c5f5e6fc9518492ba7c067f115e15a6d0e8fd229ec954aa806
 Section: 系统增强
 Description: 禁止设置页面显示维修记录的插件
  - 由电话助手作者 xybp888 开发
