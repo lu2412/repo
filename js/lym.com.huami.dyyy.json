@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月02日",
+                      "text": "2025年04月03日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-3 \n- 全面使用Vita'sDYYY(维他入我心)版本代码\n- 双入口:设置顶端入口>>维他版DYYY,首页双指长按>>魔术师DYYY\n- 魔术师和维他版,功能相通,开关相通,魔术师界面设置的功能比维他版少一点点"
+                      "markdown": "### 版本 2.2-3 \n- 属地左移距离变为属地上移距离(一般不需要设置)\n- 隐藏投屏按钮、隐藏流量提醒、首页头像透明\n- 增补更多隐藏声明,各位大佬的其他各种修复和优化"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "2、更新@waa404的「评论区透明度」「输入框透明」,和「评论区毛玻璃」「毛玻璃透明度」互斥;两种效果,二"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "选一"
                   },
               ]
           }

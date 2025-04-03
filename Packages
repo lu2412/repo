@@ -1600,15 +1600,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-3
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 1092
+Installed-Size: 1108
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 207592
-MD5sum: 1e8908500e2113a20f4026808befa2cb
-SHA1: b5f8be7e27b687203512ed6cf191b9439bafa5f4
-SHA256: 9c97e50f4a460ac9e3bb46e14ecc2065f8e34124af92f377cf197a7844ca2f35
+Size: 207064
+MD5sum: 724022564cde2aa456c5a8f91cf3618e
+SHA1: 8588ffc93dcc7ca4e390349006b9b1adf3f2ee32
+SHA256: 9fb1873e78f5fef63b7c6b5704d85052380ceb71d828cca1844fcb3a91c12ce0
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
