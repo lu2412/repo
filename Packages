@@ -2373,7 +2373,7 @@ Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
 Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.2-1
+Version: 1.2-2
 Architecture: iphoneos-arm64
 Maintainer: Nets
 Installed-Size: 220
@@ -2381,10 +2381,10 @@ Depends: mobilesubstrate, firmware (>= 13.0)
 Conflicts: com.netskao.wcmypageinfocenter
 Replaces: com.netskao.wcmypageinfocenter
 Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 65400
-MD5sum: e2c0d08db823956f39e96b3ce108b6ff
-SHA1: 11cb502989cb00312b3e623a2ee4a6f492f997cf
-SHA256: 52bfdeec55d874af79993f8574b676ce1689ca7f84e0d768445ded03cda71ea0
+Size: 66592
+MD5sum: 257b0010871ed3ecf1e3f2e69f8d5a3e
+SHA1: 586ce7c6d289f5eef4e3e452912a5453bb96816c
+SHA256: 93b11bfff0282102e9846f85746c70489f7bc7a692b0dac6cdee711b772b8676
 Section: 微信插件
 Description: 微信个人资料居中
  - 仅支持微信8.0.51及更高版本
