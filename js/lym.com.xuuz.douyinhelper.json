@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-6",
+                      "text": "1.1-8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月27日",
+                      "text": "2025年04月06日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-6 \n- UI增加关闭按钮"
+                      "markdown": "### 版本 1.1-8 \n- 修复在iPad设备导出数据闪退问题\n- 长按顶部抖音助手即可导出账号数据or恢复账号数据\n- 官替即可直接恢复你从官方标识的抖音导出的数据\n- 若要恢复到多开需要先解压修改内部plist名称为你多开的标识.plist\n- 导入图标映射素材长按导入即可恢复原始图标"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.7\n- UI增加关闭按钮"
                   },
                   {
                       "class": "DepictionSeparatorView"

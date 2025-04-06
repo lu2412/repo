@@ -3112,7 +3112,7 @@ Name: 钉钉红包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.ddhook.json
 
 Package: lym.com.xuuz.douyinhelper
-Version: 1.1-6
+Version: 1.1-8
 Architecture: iphoneos-arm64
 Maintainer: XUUᶻ
 Installed-Size: 1176
@@ -3120,10 +3120,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.xuuz.douyinhelper
 Replaces: com.xuuz.douyinhelper
 Filename: ./debs/抖音助手-Rootless.deb
-Size: 223564
-MD5sum: bd5212534b17893e85c79c7e9ef416f2
-SHA1: 09f0297b24dadbf4b9e2a2461ad2ef21e999f3e7
-SHA256: ad3d8f2fbf7f8ce6ad996b8456c215fbbddc9ef11ce134f47e00da9a07895a26
+Size: 225396
+MD5sum: 7498961e33ab4bf22cc06641e65fe996
+SHA1: c75ea501e176195bd5bc3b25f89c1961ca4b5ae2
+SHA256: 69df8e0b8d04666d7b339163a9296f3c8f9db1e274d5c4049370616737afabd9
 Section: 抖音插件
 Description: 基于DYYY的抖音助手插件
  - 双指长按或设置页面调出
