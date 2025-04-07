@@ -3005,18 +3005,18 @@ Name: 微信消息直达-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat-push-msg-page.json
 
 Package: lym.com.wechat.enhance
-Version: 1.1.9
+Version: 1.2.3
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 1156
+Installed-Size: 1712
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 232260
-MD5sum: a8153698d275900d84ccc35870ed1505
-SHA1: 0e0d2f0a947d11c762042249b8ca7222cf27e14d
-SHA256: caef2be2fdd8ae89f1fcf040c9d0be7cbebcd513f4a1f7cb1c63c77b2e9f5cb4
+Size: 361820
+MD5sum: 242ef317bcf1f5b4fd4b647b6a5d40ca
+SHA1: f80020988ec1ede6e0451ebd18faa7ae59eec316
+SHA256: 95a8d0940c0edd3931a2066acc06718644633e707fb0de1de246918eb2de862f
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
