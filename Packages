@@ -930,17 +930,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.0
+Version: 1.8.1
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11228744
-MD5sum: 9062077faf9e7f5d022540fc1e70ade3
-SHA1: 857b55aefa5687021e7c24a3129fed01ba1d1077
-SHA256: fdeea9d402b649a10ba37c367438f50f5b0ee4d392339fd4e850699f2fc4eb39
+Size: 11189664
+MD5sum: ad87e9224742d715eacd900fa7a25d70
+SHA1: 88eace434d83f05f79fddd87081195e6dfea7d22
+SHA256: 1d9de9ac132d7ed14384e094a1e6ce994a40fd07da1ca00bd58537abc6bea4ef
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -1911,18 +1911,18 @@ Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.0.8
+Version: 2.0.9
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 4004
+Installed-Size: 4036
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1050528
-MD5sum: 4876b21b80dbb288ac01ad915a21eab4
-SHA1: ed5bec68c854fc4c30b652bc92365b5819c60f42
-SHA256: ba5e9739b6ad92a082027c968f7e4e4a4dab696e364417bfa23319d627adecee
+Size: 1068324
+MD5sum: bfb4beef51317c7e7a5f6024688b473f
+SHA1: 761f04cd83d17d09f99812201dc4c9db129dc60c
+SHA256: 646dac75a599af3986797a662aaabd395b64af14d2e9b0195fe2cb5bbce7c965
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载

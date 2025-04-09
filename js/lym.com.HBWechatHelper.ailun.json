@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.0",
+                      "text": "1.8.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月22日",
+                      "text": "2025年04月09日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.0 \n- 修复卡包导致闪退的问题\n- 修复免费点歌，新增点歌接口\n- 需要重新进入消息类功能重新选择接口\n- 部分带歌词，如听不了就是请求频繁风控了"
+                      "markdown": "### 版本 1.8.1 \n- 修复部分可能导致异常的功能\n- 修复合成背景音乐时闪退的问题\n- 优化友圈小尾巴,减少繁琐的代码\n- 移除应用自带的“反人类”礼物位置等功能\n- 请注意,本黄白将仅进行必要的维护,不进行全功能更新\n- 朋友圈评论复读也回来了"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.0\n- 修复卡包导致闪退的问题\n- 修复免费点歌，新增点歌接口\n- 需要重新进入消息类功能重新选择接口\n- 部分带歌词，如听不了就是请求频繁风控了"
                   },
                   {
                       "class": "DepictionSeparatorView"
