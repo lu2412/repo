@@ -1600,15 +1600,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-3
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 1108
+Installed-Size: 1700
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 207064
-MD5sum: 724022564cde2aa456c5a8f91cf3618e
-SHA1: 8588ffc93dcc7ca4e390349006b9b1adf3f2ee32
-SHA256: 9fb1873e78f5fef63b7c6b5704d85052380ceb71d828cca1844fcb3a91c12ce0
+Size: 314608
+MD5sum: b0ba7f63724361423174ead5e7a258b9
+SHA1: f1f44e68bb265773afffe2993e72a9c3dd3b1915
+SHA256: 6a988ad6f13548b9fabf52be1fb146bf41e0e9d8d4815886e3e4580c088b3ec1
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -2887,18 +2887,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.0.1-1
+Version: 2.0.2-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 8232
+Installed-Size: 8264
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 3621664
-MD5sum: 506c8ec9318121e1335afdbca56d8eed
-SHA1: 2be66e391b571483880e2d21fbe5964695898f5e
-SHA256: 000cf7f3f0ee8c05d505b609b2527b1ab7281edd82912e2c406aeb22c8f58439
+Size: 3640316
+MD5sum: 7309ba410e38ea1cd917b02520335e8b
+SHA1: 05437dcd3749d6f394b20b94ee49893700262352
+SHA256: 3e667fc9ebc44b74346d36f902f6f456c7b824efad5183d0ddbe598087b1d073
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中

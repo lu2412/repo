@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月03日",
+                      "text": "2025年04月10日",
                       "title": "最后更新"
                   }
               ]
@@ -68,21 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-3 \n- 属地左移距离变为属地上移距离(一般不需要设置)\n- 隐藏投屏按钮、隐藏流量提醒、首页头像透明\n- 增补更多隐藏声明,各位大佬的其他各种修复和优化"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "2、更新@waa404的「评论区透明度」「输入框透明」,和「评论区毛玻璃」「毛玻璃透明度」互斥;两种效果,二"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "选一"
+                      "markdown": "### 版本 2.2-3 \n- 修正隐藏短剧合集\n- 新增隐藏作者作品集\n- 搜索框合并到隐藏相关搜索\n- 聊天视频底部评论框背景透明\n- 修复全屏tab透明逻辑、GIF保存iOS16完美、代码优化等"
                   },
               ]
           }
