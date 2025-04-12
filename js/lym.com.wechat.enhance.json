@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2.3",
+                      "text": "1.2.6",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月07日",
+                      "text": "2025年04月12日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2.3 \n- 优化检测列表的头像加载方式(完美了)\n- 优化顶栏信息头像加载方式\n- 优化检测通知头像加载方式\n- 信息弹窗UI微调整"
+                      "markdown": "### 版本 1.2.6 \n- 聊天文本颜色自定义(待实现-双方文本颜色自定义)\n- 关注公众号(dylib会传入123云盘)复读按钮自定义"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.9\n- 优化检测列表的头像加载方式(完美了)\n- 优化顶栏信息头像加载方式\n- 优化检测通知头像加载方式\n- 信息弹窗UI微调整"
                   },
                   {
                       "class": "DepictionSeparatorView"

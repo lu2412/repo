@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月10日",
+                      "text": "2025年04月12日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-3 \n- 修正隐藏短剧合集\n- 新增隐藏作者作品集\n- 搜索框合并到隐藏相关搜索\n- 聊天视频底部评论框背景透明\n- 修复全屏tab透明逻辑、GIF保存iOS16完美、代码优化等"
+                      "markdown": "### 版本 2.2-3 \n- 一键清屏按钮、悬浮倍速控制都来了\n- 各种代码优化,架构升级等;自动播放失效别问了,很迷,重置下抖音应该可以生效。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.2-411\n- 修正隐藏短剧合集\n- 新增隐藏作者作品集\n- 搜索框合并到隐藏相关搜索\n- 聊天视频底部评论框背景透明\n- 修复全屏tab透明逻辑、GIF保存iOS16完美、代码优化等"
                   },
               ]
           }

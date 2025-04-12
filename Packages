@@ -1600,15 +1600,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-3
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 1700
+Installed-Size: 1816
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 314608
-MD5sum: b0ba7f63724361423174ead5e7a258b9
-SHA1: f1f44e68bb265773afffe2993e72a9c3dd3b1915
-SHA256: 6a988ad6f13548b9fabf52be1fb146bf41e0e9d8d4815886e3e4580c088b3ec1
+Size: 337640
+MD5sum: 2db79d0e6dc0a2dd8b0000343a36cb0a
+SHA1: 7d79cbdea065ca2b74205576604a38009269a099
+SHA256: 3ab6416ff857be6da6beae965586508dc3a572f4c030ad4f31ccc4d5e3b5fb37
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -3005,18 +3005,18 @@ Name: 微信消息直达-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat-push-msg-page.json
 
 Package: lym.com.wechat.enhance
-Version: 1.2.3
+Version: 1.2.6
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 1712
+Installed-Size: 1860
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 361820
-MD5sum: 242ef317bcf1f5b4fd4b647b6a5d40ca
-SHA1: f80020988ec1ede6e0451ebd18faa7ae59eec316
-SHA256: 95a8d0940c0edd3931a2066acc06718644633e707fb0de1de246918eb2de862f
+Size: 403916
+MD5sum: f16b2fb00206f56774c3268b6b262171
+SHA1: 5ee44ef8f3e415b3e47c47b580d83dcfdc3b99b4
+SHA256: ea5ea4d469b55f75c56f817d7a50ed6af1a361da2e99de952c79b309a09c4edd
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
