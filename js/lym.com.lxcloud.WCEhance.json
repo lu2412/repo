@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-9",
+                      "text": "1.1-0",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月27日",
+                      "text": "2025年04月12日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-9 \n- 新增长按菜单毛玻璃效果\n- 支持自定义毛玻璃颜色\n- 支持自定义毛玻璃透明度"
+                      "markdown": "### 版本 1.1-0 \n- 新增隐藏免打扰图标\n- 重构颜色选择,沿用了iOS官方颜色选择器,更精确的颜色选择\n- 重构提示弹窗,需要重启的功能项提供了取消选项\n- 优化了部分配置项交互以及一些小细节\n- 修复颜色选择器在部分系统上显示异常\n- Ps:颜色选择器因为是iOS14的接口,iOS14及以下做了兼容性处理\n- 默认返回可设置项,理论上可行\n- 我没有iOS13的设备也就没法测试。老问题等我空了再修吧～"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.9\n- 新增长按菜单毛玻璃效果\n- 支持自定义毛玻璃颜色\n- 支持自定义毛玻璃透明度"
                   },
                   {
                       "class": "DepictionSeparatorView"
