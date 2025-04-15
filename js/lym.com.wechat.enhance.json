@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2.6",
+                      "text": "1.2-8",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月12日",
+                      "text": "2025年04月15日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2.6 \n- 聊天文本颜色自定义(待实现-双方文本颜色自定义)\n- 关注公众号(dylib会传入123云盘)复读按钮自定义"
+                      "markdown": "### 版本 1.2-8 \n- 自动回复列表添加AI回复\n- 添加虚拟定位"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.2.0\n- 聊天文本颜色自定义(待实现-双方文本颜色自定义)\n- 关注公众号(dylib会传入123云盘)复读按钮自定义"
                   },
                   {
                       "class": "DepictionSeparatorView"

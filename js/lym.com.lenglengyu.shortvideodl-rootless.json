@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.1",
+                      "text": "2.1.2",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月12日",
+                      "text": "2025年04月15日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.1 \n- 修复最新版抖音直播实时人数无效问题\n- 修复最新版TikTok无法保存无水印视频问题"
+                      "markdown": "### 版本 2.1.2 \n- 快手添加更多功能,视频上传时间\n- 视频时间进度、屏蔽视频广告、过滤低点赞、过滤关键词等等。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.1\n- 修复最新版抖音直播实时人数无效问题\n- 修复最新版TikTok无法保存无水印视频问题"
                   },
                   {
                       "class": "DepictionSeparatorView"

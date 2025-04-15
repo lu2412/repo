@@ -1911,18 +1911,18 @@ Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.1.1
+Version: 2.1.2
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3872
+Installed-Size: 4020
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1012292
-MD5sum: ab4c64d2c7026c262454cd03bada69dc
-SHA1: c5178e294263b3bf2135721d4356bfb1f7b519ff
-SHA256: 7dd1558c5f257350fd61ff68f34f780f3c55288509c6cd212c49c3d0037c1b0f
+Size: 1055076
+MD5sum: f5b2f77d1043d8fd9b31798939b8b849
+SHA1: 4df2134d6fc63751c7f45904a8eb0b826f38a680
+SHA256: 5718176ba7dbdf8d6793301e4efd0f99e6424fe29ce04545dea11810ee1cde5e
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -3005,18 +3005,18 @@ Name: 微信消息直达-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat-push-msg-page.json
 
 Package: lym.com.wechat.enhance
-Version: 1.2.6
+Version: 1.2-8
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 1860
+Installed-Size: 1960
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 403916
-MD5sum: f16b2fb00206f56774c3268b6b262171
-SHA1: 5ee44ef8f3e415b3e47c47b580d83dcfdc3b99b4
-SHA256: ea5ea4d469b55f75c56f817d7a50ed6af1a361da2e99de952c79b309a09c4edd
+Size: 430956
+MD5sum: ebcbf0be145b70c4a0e67b0d91ebc985
+SHA1: 1cb3813e5bfa065dd03b8131f6de9912499fa97e
+SHA256: 146ef76178bf75e98291aefa9f17f2ec15a9bc4811e937af349d0d7cc2e7aa1f
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
@@ -3634,6 +3634,27 @@ Description: 隐藏副卡对于双卡用户
 Author: iOSign
 Name: 隐藏副卡-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
+
+Package: lym.iosios.net.iapstorefugu-rootless
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: 搬运工
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: iosios.net.iapstorefugu-rootless
+Replaces: iosios.net.iapstorefugu-rootless
+Filename: ./debs/IAPStore 内购神器-Rootless.deb
+Size: 42060
+MD5sum: 6878358009cd618f1a8b8e29b6688535
+SHA1: 592706401f5d60e681ca6fdb095bca1fca601c35
+SHA256: c1576ccc7d0fc2747e2756f4f20ded03b1bbf9d562d753825c9520d2216d6f6d
+Section: 软件增强
+Description: 针对 App Store 付费应用
+ - 可通过此内购插件进行测试：付款弹窗出现时点击‘取消’
+ - 若显示付款成功则表示破解成功；若无效则不支持破解，建议放弃尝试
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lly
+Name: IAPStore 内购神器-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosios.net.iapstorefugu-rootless.json
 
 Package: lym.jailbreak.lizi.repo
 Version: 1.0
