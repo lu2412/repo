@@ -2016,6 +2016,27 @@ Author: lym
 Name: WXHelper助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.lym.WXHelper.json
 
+Package: lym.com.nan.rebirth
+Version: 0.1.5
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, lsof, gawk
+Conflicts: com.nan.rebirth
+Replaces: com.nan.rebirth
+Filename: ./debs/Rebirth一键安装插件-Rootless.deb
+Size: 2296
+MD5sum: 89682392dff18047bc2b2a9c293960b1
+SHA1: a4a08f6b7be108e2ff5c205250e24317524ac695
+SHA256: 939bd421dae8eb99357791d6941762ac7414052abe12932d31ced551ddfa6213
+Section: 系统增强
+Description: 该插件将已安装插件的Packages汇总为一个.deb依赖
+ - 安装时,会根据Packages中的标识符自动引导安装相关
+ - 创建的插件.deb位于 /var/mobile/Documents/
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: zhaonan
+Name: Rebirth一键安装插件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.rebirth.json
+
 Package: lym.com.netskao.appdata
 Version: 1.4.4
 Architecture: iphoneos-arm64
