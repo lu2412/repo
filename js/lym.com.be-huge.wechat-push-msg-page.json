@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 点击微信通知消息即可跳转到该聊天界面\n- 已知bug无后台第一次收到消息会进入其他页面,不会直达\n- 有后台测试完全没有问题,锁屏可以.多开微信也可以\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 点击微信通知消息即可跳转到该聊天界面\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.1",
+                      "text": "0.0.3",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月05日",
+                      "text": "2025年04月16日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1 \n- 初始版本"
+                      "markdown": "### 版本 0.0.3 \n- 修复bug,完美无后台直达"
                   },
               ]
           }

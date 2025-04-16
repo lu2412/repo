@@ -1110,6 +1110,27 @@ Author: baiy
 Name: 微信头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.baiy.wechatrotate.json
 
+Package: lym.com.be-huge.wechat-push-msg-page
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 232
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.wechat-push-msg-page
+Replaces: com.be-huge.wechat-push-msg-page
+Filename: ./debs/微信消息直达-Rootless.deb
+Size: 23404
+MD5sum: 798cdf504f4754320852dcd4f6e129db
+SHA1: 929f7650a88079f42ee5c4cb8f1c6fda8f2e2e79
+SHA256: 0dc102ac1cc11cfe7c38498d9f7517d49ca8fbf06efc0ebed3f7cbbdbddf6f83
+Section: 微信插件
+Description: 点击微信通知消息即可跳转到该聊天界面
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: 微信消息直达-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.wechat-push-msg-page.json
+
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -2981,42 +3002,19 @@ Author: udevs
 Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
-Package: lym.com.wechat-push-msg-page
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 232
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.wechat-push-msg-page
-Replaces: com.wechat-push-msg-page
-Filename: ./debs/微信消息直达-Rootless.deb
-Size: 23364
-MD5sum: 25de1dc3027612190c9337446420fa12
-SHA1: 666bce81136803bb07921e81a5b12471275eb33a
-SHA256: d70dcc36caff8e7ede5d4342a0552ec3de0de2bdf42201a8ab790ceb9bcc93b0
-Section: 微信插件
-Description: 点击微信通知消息即可跳转到该聊天界面
- - 已知bug无后台第一次收到消息会进入其他页面,不会直达
- - 有后台测试完全没有问题,锁屏可以.多开微信也可以
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: 微信消息直达-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat-push-msg-page.json
-
 Package: lym.com.wechat.enhance
-Version: 1.2-8
+Version: 1.2-9
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 1960
+Installed-Size: 1992
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 430956
-MD5sum: ebcbf0be145b70c4a0e67b0d91ebc985
-SHA1: 1cb3813e5bfa065dd03b8131f6de9912499fa97e
-SHA256: 146ef76178bf75e98291aefa9f17f2ec15a9bc4811e937af349d0d7cc2e7aa1f
+Size: 436756
+MD5sum: 23b357d04be3928a97967e677048bec9
+SHA1: 79a8d63fb06e7e210a9d3306532fe76aeef6b674
+SHA256: 24bd0abe608a0a42ca2d1bf2b2f678a1f7144841432f7ed38ad6cdc5e3c6072f
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能

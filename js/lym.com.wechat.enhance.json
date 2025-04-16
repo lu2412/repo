@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2-8",
+                      "text": "1.2-9",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月15日",
+                      "text": "2025年04月16日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2-8 \n- 自动回复列表添加AI回复\n- 添加虚拟定位"
+                      "markdown": "### 版本 1.2-9 \n- 信息时间格式优化\n- 顶栏头像优先显示黄白自定义头像"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.2.7\n- 自动回复列表添加AI回复\n- 添加虚拟定位"
                   },
                   {
                       "class": "DepictionSeparatorView"
