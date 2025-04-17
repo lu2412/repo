@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.1",
+                      "text": "1.8.2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月09日",
+                      "text": "2025年04月18日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.1 \n- 修复部分可能导致异常的功能\n- 修复合成背景音乐时闪退的问题\n- 优化友圈小尾巴,减少繁琐的代码\n- 移除应用自带的“反人类”礼物位置等功能\n- 请注意,本黄白将仅进行必要的维护,不进行全功能更新\n- 朋友圈评论复读也回来了"
+                      "markdown": "### 版本 1.8.2 \n- 修复自动呼出键盘部分不生效\n- 新增特色类功能-快速删除好友按钮\n- 新增特色类功能-快速查询用户wxid"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.1\n- 修复部分可能导致异常的功能\n- 修复合成背景音乐时闪退的问题\n- 优化友圈小尾巴,减少繁琐的代码\n- 移除应用自带的“反人类”礼物位置等功能\n- 请注意,本黄白将仅进行必要的维护,不进行全功能更新\n- 朋友圈评论复读也回来了"
                   },
                   {
                       "class": "DepictionSeparatorView"
