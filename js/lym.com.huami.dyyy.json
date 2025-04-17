@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.2-5",
+                      "text": "2.1-7++",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月14日",
+                      "text": "2025年04月17日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-5 \n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
+                      "markdown": "### 版本 2.1-7++ \n- pxx新更新IP归属地显示区县新版UI"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.2.4\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
                   },
               ]
           }

@@ -1618,18 +1618,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.2-5
+Version: 2.1-7++
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 1896
+Installed-Size: 2060
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 351912
-MD5sum: 65d31b682a35d2a695c752e4c467204d
-SHA1: ac7ba9363c005bf78b0cbcec2bfc7a4ff4880017
-SHA256: de679c4210034df0260749287f4ea83afe2e012561a40584df0c31500b4a84c0
+Size: 325016
+MD5sum: 524cf25b7d4827e0c4e9c0233e904702
+SHA1: 9cbc665bc74f82f701a65f2d0b234b3e89313b96
+SHA256: eca31f9b0ce09a178e0985fdbc68caea2cf36d0b2bd75742276cb4c05379e576
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -3951,28 +3951,6 @@ Description: 从封包中提取Asset.car文件命令行工具，从Asset.car图�
 Author: Elias Limneos <limneoselias@gmail.com>
 Name: uncar提取car图像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.uncar.json
-
-Package: lym.wangtiaotiao-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Conflicts: wangtiaotiao-Rootless, wangtiaotiao-Rootless
-Replaces: wangtiaotiao-Rootless, wangtiaotiao-Rootless
-Filename: ./debs/王跳跳-跳广告-Rootless.deb
-Size: 39980
-MD5sum: 2b62b1de8974344c07d5155365e5a3e5
-SHA1: 6f56ab3ef64e5033ed7d4de238fc453d19b0115b
-SHA256: c2550a40bced42ae3ceca208448f2dc80ac195fccbe998b94fd4a0e69bb9dd0b
-Section: 软件增强
-Description: 快速模拟跳过广告
- - 源自威锋网友分享
- - 打包为deb方便自
- - 自用仅支持韩小圈|韩剧TV|汽水音乐|苏州银行
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 佚名
-Name: 王跳跳-跳广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.wangtiaotiao-Rootless.json
 
 Package: lym.weixinipad-Rootless
 Version: 1.0
