@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1-7++",
+                      "text": "2.2-5",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月17日",
+                      "text": "2025年04月18日",
                       "title": "最后更新"
                   }
               ]
@@ -68,14 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-7++ \n- pxx新更新IP归属地显示区县新版UI\n- 加入huami的抖音新型UI"
+                      "markdown": "### 版本 2.2-5 \n- 新版长按玻璃面板适配34.0\n- 新增:自动切换背景功能、过滤文案/用户权限的弹窗,其他优化等\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1-6\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
+                      "markdown": "### 版本2.2.4\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
                   },
               ]
           }
