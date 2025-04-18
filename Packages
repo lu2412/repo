@@ -1956,18 +1956,18 @@ Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.1.2
+Version: 2.1.4
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 4020
+Installed-Size: 4068
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1055076
-MD5sum: f5b2f77d1043d8fd9b31798939b8b849
-SHA1: 4df2134d6fc63751c7f45904a8eb0b826f38a680
-SHA256: 5718176ba7dbdf8d6793301e4efd0f99e6424fe29ce04545dea11810ee1cde5e
+Size: 1064752
+MD5sum: 29b22cee1aa41da1a662a75ee5d77268
+SHA1: 153db84d256b938ffba1477b8e103a1ba64b3fad
+SHA256: e2152e734ec1cbe4f017f5039cc7fb1417b4d16ad660b4ee161722c985eeceb3
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载

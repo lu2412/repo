@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.2",
+                      "text": "2.1.4",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月15日",
+                      "text": "2025年04月18日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.2 \n- 快手添加更多功能,视频上传时间\n- 视频时间进度、屏蔽视频广告、过滤低点赞、过滤关键词等等。"
+                      "markdown": "### 版本 2.1.4 \n- 快手添加视频倍速按钮、无水印实况图片保存(悬浮按钮)\n- 用户禁止下载的图片无水印保存(双指双击图片)。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.2\n- 快手添加更多功能,视频上传时间\n- 视频时间进度、屏蔽视频广告、过滤低点赞、过滤关键词等等。"
                   },
                   {
                       "class": "DepictionSeparatorView"
