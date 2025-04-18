@@ -1649,11 +1649,11 @@ Installed-Size: 2060
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
-Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 325016
-MD5sum: 524cf25b7d4827e0c4e9c0233e904702
-SHA1: 9cbc665bc74f82f701a65f2d0b234b3e89313b96
-SHA256: eca31f9b0ce09a178e0985fdbc68caea2cf36d0b2bd75742276cb4c05379e576
+Filename: ./debs/抖音魔术师.deb
+Size: 326580
+MD5sum: 4e511c549e765bf14d8be71bb2e4c5d6
+SHA1: 09ddf54c5bb530617835517bb075b89b896a19e9
+SHA256: a5442fb70a33836c2690e932f74a65a29dbfff131b13f2dc29f1ee00bd15de89
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz

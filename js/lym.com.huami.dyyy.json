@@ -68,14 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1-7++ \n- pxx新更新IP归属地显示区县新版UI"
+                      "markdown": "### 版本 2.1-7++ \n- pxx新更新IP归属地显示区县新版UI\n- 加入huami的抖音新型UI"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.2.4\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
+                      "markdown": "### 版本2.1-6\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
                   },
               ]
           }
