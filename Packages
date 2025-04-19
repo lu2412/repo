@@ -1773,6 +1773,27 @@ Author: huami
 Name: 小红书自动翻译-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.xhstranslator.json
 
+Package: lym.com.huayuarc.autoskipad
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.autoskipad
+Replaces: com.huayuarc.autoskipad
+Filename: ./debs/跳过启动广告-Rootless.deb
+Size: 11572
+MD5sum: 251fa72fb2a8ad1b59b31f6732ae8e66
+SHA1: 27b5038f3c7e85f06cf8d1b8247cc28366e9ccf6
+SHA256: 94348d9ff52cd0eef967ec890f991b903502e426b589acd919e7e8d299c2ea62
+Section: 软件增强
+Description: 智能跳过APP启动广告：汽水音楽｜百度网盘｜七猫小说｜铁路12306
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Huayuarc
+Name: 跳过启动广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.autoskipad.json
+
 Package: lym.com.huayuarc.wifiwnyshooks.rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2717,6 +2738,28 @@ Description: Telegram功能增强
 Author: lym
 Name: Telegram解除截图和去除界面分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.screenshot.telegram.json
+
+Package: lym.com.shiftcmdk.bookmarkicons
+Version: 1.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: shiftcmdk
+Installed-Size: 232
+Depends: mobilesubstrate
+Conflicts: com.shiftcmdk.bookmarkicons
+Replaces: com.shiftcmdk.bookmarkicons
+Filename: ./debs/Safari标签图标自定义-Rootless.deb
+Size: 17080
+MD5sum: 2fc33f318effa8ae8c7d609793910fa9
+SHA1: 21cda7e85f9c1d8963202cb5a6982c4531fac94d
+SHA256: 01d72cd4eec0168fcf396410dda012288245ef4b7ef3bcb1c6492874d73fde55
+Section: 系统增强
+Description: Safari书签设置自定义图标
+ - 创建或编辑书签时只需点击图标即可选择一个新的图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: shiftcmdk
+Name: Safari标签图标自定义-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.shiftcmdk.bookmarkicons.json
 
 Package: lym.com.showmytouches
 Version: 1.2.1
