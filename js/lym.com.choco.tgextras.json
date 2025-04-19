@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.1-1",
+                      "text": "1.2-9+debug",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月18日",
+                      "text": "2025年04月20日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1-1 \n- 初始版本"
+                      "markdown": "### 版本 1.2-9+debug \n- 新增中文汉化和其他语言\n- 修复了一些功能无法正常工作的问题(主要是因为我的技术问题)\n- 新增了位置虚拟定位\n- 修复了文件选择器(专为侧载用户修的)\n- 修复了查看动态时导致应用崩溃的问题"
                   },
               ]
           }
