@@ -1664,6 +1664,27 @@ Author: huami
 Name: 抖音魔术师-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
+Package: lym.com.huami.dyyy.pxx
+Version: 2.1-7++
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 1976
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.huami.dyyy.pxx
+Replaces: com.huami.dyyy.pxx
+Filename: ./debs/抖音 DYYY修改版pxx-Rootless.deb
+Size: 304272
+MD5sum: f6701fe615d332f9a60ce9ad7ba46062
+SHA1: 0b7a5d7b485a93e673dfd7732f7134ae4730873e
+SHA256: c3be76e0308e22598295ea7a6acde92ab69221c724b6136786655873ac601436
+Section: 抖音插件
+Description: 抖音增强插件
+ - 基于huami抖音修改版,全新UI风格
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: huami
+Name: 抖音 DYYY修改版pxx-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.pxx.json
+
 Package: lym.com.huami.fixmiyoutoolbar
 Version: 1.0-2
 Architecture: iphoneos-arm64
