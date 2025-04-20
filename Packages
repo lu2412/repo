@@ -2022,17 +2022,17 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lxcloud.WCEhance
-Version: 1.1-1
+Version: 1.1-2
 Architecture: iphoneos-arm64
 Maintainer: Lxcloud
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.lxcloud.WCEhance
 Replaces: com.lxcloud.WCEhance
 Filename: ./debs/微信优化WCEhance-Rootless.deb
-Size: 64244
-MD5sum: 2aad040c7f28d0da160e46b4a4ec58af
-SHA1: c29562d569a30bce3e3829c9c0333aa5d5b91729
-SHA256: 112a26ea792802aaadb9181554eb1286c70f7e970cecf694ba13c1e3bfd6433c
+Size: 61852
+MD5sum: cbbb9f2e513dea591b8196327df06343
+SHA1: ccda33c0e299e46c039dd9fd0f5d1044dcd3a9ce
+SHA256: 2d65ea5a38df4bd7a14db188ad864b3d63b84e3bfce6073d07535ec533e3fed9
 Section: 微信插件
 Description: 用于优化一些反人类设计并增强功能
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!

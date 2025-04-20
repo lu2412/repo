@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-1",
+                      "text": "1.1-2",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月18日",
+                      "text": "2025年04月21日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-1 \n- 新增助手快捷栏入口\n- 新增输入状态文案修改\n- 随机文案,自定义文案"
+                      "markdown": "### 版本 1.1-2 \n- 重构隐藏群人数\n- 支持动态居中\n- 重构助手快捷栏样式\n- 移除模态效果,沿用微信原生UI\n- 修复隐藏二维码在最新版微信失效\n- 修复部分用户可能闪退问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.1\n- 新增助手快捷栏入口\n- 新增输入状态文案修改\n- 随机文案,自定义文案"
                   },
                   {
                       "class": "DepictionSeparatorView"
