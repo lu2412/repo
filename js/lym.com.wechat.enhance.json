@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.3-1",
+                      "text": "1.3-2",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月20日",
+                      "text": "2025年04月21日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.3-1 \n- 添加朋友圈界面名称颜色修改\n- 添加设置Tab底栏透明度\n- 触摸轨迹新增点击音效-可自定义(感觉有点吵）\n- 修正可能无法触发Face ID的问题\n- 修正时间标签偶现状态显示不正确的问题"
+                      "markdown": "### 版本 1.3-2 \n- 临时屏蔽底栏透明度\n- Face ID 背景适配深色模式\n- 新增: 本地检测 123 网盘文件，实现更新检测与更新日志查看\n- 手动触发更新检测方式为，点击版本信息\n- 修复: 使用自定义图片作为触摸轨迹时，潜在的闪退问题，1.0.0版本就存在了\n- 开启透明度导致的卡死问题。遇到卡死时，等待自行闪退，多次闪退后会触发清理缓存，清理即可。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.3.1\n- 添加朋友圈界面名称颜色修改\n- 添加设置Tab底栏透明度\n- 触摸轨迹新增点击音效-可自定义(感觉有点吵）\n- 修正可能无法触发Face ID的问题\n- 修正时间标签偶现状态显示不正确的问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
