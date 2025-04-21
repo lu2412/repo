@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月18日",
+                      "text": "2025年04月22日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-5 \n- 新版长按玻璃面板适配34.0\n- 新增:自动切换背景功能、过滤文案/用户权限的弹窗,其他优化等\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
+                      "markdown": "### 版本 2.2-5 \n- 添加过滤用户和关键词功能\n- 添加对顶栏(影院、少儿、游戏)的隐藏\n- 优化热更新功能性能\n- 修复清晰度逻辑\n- 优化评论区毛玻璃透明度逻辑\n- 支持通知玻璃效果开关\n- 修改全屏逻辑等"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.2.5\n- 新版长按玻璃面板适配34.0\n- 新增:自动切换背景功能、过滤文案/用户权限的弹窗,其他优化等\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
                   },
                   {
                       "class": "DepictionSeparatorView"
