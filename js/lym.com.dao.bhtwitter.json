@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "4.3-6",
+                      "text": "4.3-7",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年02月20日",
+                      "text": "2025年04月22日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 4.3-6 \n- 布局调整可隐藏“视频”\n- 如果布局调整里看不见“视频”,点击右上角恢复按钮。"
+                      "markdown": "### 版本 4.3-7 \n- 修复roothide版本的错误"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本4.2-6\n- 布局调整可隐藏“视频”\n- 如果布局调整里看不见“视频”,点击右上角恢复按钮。"
                   },
               ]
           }

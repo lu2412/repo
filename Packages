@@ -1246,17 +1246,17 @@ Name: BHTikTok++中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtiktok++.json
 
 Package: lym.com.dao.bhtwitter
-Version: 4.3-6
+Version: 4.3-7
 Architecture: iphoneos-arm64
 Maintainer: Bandar Alruwaili
 Depends: mobilesubstrate, ws.hbang.common
 Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter
 Replaces: com.dao.bhtwitter
 Filename: ./debs/BHTwitter 中文版-Rootless.deb
-Size: 7610788
-MD5sum: d85a3c18e9c6da7993bd00c9d24b3d7f
-SHA1: b67ccc5370b785f06ded9bdd8f9853c53edbe67a
-SHA256: 7c8b8a835dfb5f4bb3f7299f789e535931a67da8263cdadff377f4f413b22157
+Size: 7614280
+MD5sum: 945636decb901df74cb1c371f1e1743a
+SHA1: 5268ce0bdb015764b9deb2b0312ffdcc430c074b
+SHA256: 95cb603ecd9e1f1e43fd00aed8931b7dd68fc01c47c93d5cd419ff0fd61a914d
 Section: 软件增强
 Description: BHTwitter中文修复优化版
  - 推特(X)的综合功能性插件
