@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月22日",
+                      "text": "2025年04月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,21 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-5 \n- 添加过滤用户和关键词功能\n- 添加对顶栏(影院、少儿、游戏)的隐藏\n- 优化热更新功能性能\n- 修复清晰度逻辑\n- 优化评论区毛玻璃透明度逻辑\n- 支持通知玻璃效果开关\n- 修改全屏逻辑等"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.2.5\n- 新版长按玻璃面板适配34.0\n- 新增:自动切换背景功能、过滤文案/用户权限的弹窗,其他优化等\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.2.4\n- 新增禁用热更新设置:设置入口>增强设置>热更新\n- 目前暂时完结归档了end"
+                      "markdown": "### 版本 2.2-5 \n- 隐藏底栏我的、时间属地随机变色\n- 清屏按钮支持GIF,清屏时隐藏进度条、各种优化等。\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
                   },
               ]
           }
