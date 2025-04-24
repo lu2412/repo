@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信斗图助手\n- 修复搜狗api接口问题\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信斗图助手\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{1, 1}",
                       "screenshots": [
                             ]
                   },
@@ -34,18 +34,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.1-5",
+                      "text": "Mao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "3.1-6",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月03日",
-                      "title": "最后更新时间"
+                      "text": "2025年04月24日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +60,8 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.1-5\n- 修复搜狗api接口问题\n- > 2024-11-03"
-                  }
+                      "markdown": "### 版本 3.1-6 \n- 修复聊天窗口图片转表情功能闪退问题"
+                  },
               ]
           }
       ]

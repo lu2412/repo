@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.3",
+                      "text": "1.6",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月23日",
+                      "text": "2025年04月24日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.3 \n- 初始版本"
+                      "markdown": "### 版本 1.6 \n- 初始版本"
                   },
               ]
           }

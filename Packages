@@ -573,23 +573,23 @@ Name: 微信快斗-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.KuaiDou.json
 
 Package: lym.com.25mao.doutu.rootless
-Version: 3.1-5
+Version: 3.1-6
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
+Conflicts: com.25mao.doutu.rootless
 Replaces: com.25mao.doutu.rootless
-Filename: ./debs/微信斗图助手.deb
-Size: 1209572
-MD5sum: 4433ac7a566c2b15b37a76baf7c7c5d7
-SHA1: 90273c5ca26bddc658989bf844ff24693e879b3a
-SHA256: ef0e101d6b5fa31ed461ba4b373c51440fa360d14565f5f38b6d95614476196e
+Filename: ./debs/微信斗图助手-Rootless.deb
+Size: 1051700
+MD5sum: 4fefd6af4112e6a031e463ae1a644a70
+SHA1: 16b826805433c777cf21bfa136486f3da6920b2e
+SHA256: 5d4cd7dafe82c27f5cd43a8816764108ad1c582b6d2e34588cf8cbd3c6281951
 Section: 微信插件
 Description: 微信斗图助手
- - 修复搜狗api接口问题
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 微信斗图助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.doutu.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.doutu.rootless.json
 
 Package: lym.com.25mao.jdquan.rootless
 Version: 1.0-1
@@ -633,17 +633,17 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.8-3
+Version: 3.8-4
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 9037604
-MD5sum: 26afb1b8f6e0604fdd0ddef01830f805
-SHA1: e502fc8d30b516ed20718ce0a14b94d1c1630124
-SHA256: f99a6be9b8aa6e0bc006c37e2d693529a4d09a205820d636077fe2e15c3a63b4
+Size: 9297136
+MD5sum: c8a88bc5026fcd53b49b7fbcdcacf433
+SHA1: 47437fab9df4ccea39ae0728cc05dd621bb5515b
+SHA256: d731a631f3a6e1e24c0dba62bbf8a43a6506a8b1331b158ca4c952912eb2a594
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
@@ -737,18 +737,18 @@ Name: 微信URL scheme扩展-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
 
 Package: lym.com.82flex.artworkspinner
-Version: 1.3
+Version: 1.6
 Architecture: iphoneos-arm64
 Maintainer: Lessica
-Installed-Size: 384
+Installed-Size: 424
 Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: com.82flex.artworkspinner
 Replaces: com.82flex.artworkspinner
 Filename: ./debs/ArtworkSpinner旋转专辑-Rootless.deb
-Size: 29192
-MD5sum: ab7b53ffa1fb742b2340e4391ec71109
-SHA1: 57af612b493a2ac3b9746c0d94e5c66016b206d2
-SHA256: f039d70ca642f1b8533367f773002942297cb07894a38f367f34047f84ab71e0
+Size: 39412
+MD5sum: 9e1209194f908959f4076f8ca7613d81
+SHA1: b07cf7584c56a350e9d149e35e0dd51f5978c66b
+SHA256: c28df9a861fd2bcf912912a19beeca196758f4a4f845482605f9143c0dafb753
 Section: 系统增强
 Description: 播放音乐时旋转专辑封面
  - 支持灵动岛和锁屏页面
