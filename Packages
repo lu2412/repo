@@ -952,17 +952,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.3
+Version: 1.8.4
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11080796
-MD5sum: 19fef4491c0d2e8cd3d03c6f4495a76d
-SHA1: 50a2ff7eb5f2ec255c2721961cf2081b9f6fd32b
-SHA256: c07f3a9ada28531bc9b7309b0d3479dfe285d2826ad03971944400d13b16ef15
+Size: 11180460
+MD5sum: a27d505f8ac2eaa12e6990165874b7fc
+SHA1: d81a514044da95086ca5d651cc2732e890944353
+SHA256: 1b895db7a4323de4db6dc812ac875963fba7fbfb79d2a465eb93bf67d6f73d50
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -1729,40 +1729,19 @@ Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
 
-Package: lym.com.huami.wcavatarbutton
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.wcavatarbutton
-Replaces: com.huami.wcavatarbutton
-Filename: ./debs/WCAvatarButton聊天右侧头像-Rootless.deb
-Size: 5288
-MD5sum: 282312e68f02e48c99c68de442da1420
-SHA1: 8b7625953d8d4336221d8428caac144018550089
-SHA256: 2d6642a3115be10f85ef3e088f999bfbe409a42845dbc26fae80f0f81b72d6fd
-Section: 微信插件
-Description: 微信聊天界面右侧按钮修改为头像
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: WCAvatarButton聊天右侧头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcavatarbutton.json
-
 Package: lym.com.huami.wcnicknameavatarstyle
-Version: 2.1
+Version: 2.2
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 320
+Installed-Size: 524
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.wcnicknameavatarstyle
 Replaces: com.huami.wcnicknameavatarstyle
 Filename: ./debs/WCNicknameAvatarStyle顶栏元素-Rootless.deb
-Size: 47980
-MD5sum: 276eabb2843286392b5706190a8bfa7e
-SHA1: 8b1c293fc7c85c40a34d6fad4d1c6025f13f21d5
-SHA256: 96ab0d3b07216762aae32762bd3bd45ae4d4c323185f7e3d6faf26fedcdb2786
+Size: 71264
+MD5sum: 9de45cccfa9d2cc544d218756ac5782b
+SHA1: c87dd081690defa8cf35e9261e97dc4e9ea0e429
+SHA256: 447a2505aa202189a4741d325641129a6bbf8cf6ad044d1d3eaee5828a490695
 Section: 微信插件
 Description: 为微信聊天界面标题左侧添加头像显示
  - 插件无设置项安装即可生效

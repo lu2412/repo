@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1",
+                      "text": "2.2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月12日",
+                      "text": "2025年04月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1 \n- 新增聊天详情页面-单独启用双人头像\n- 支持在非双人模式下单独启用自动处理大小设置\n- 优化处理逻辑与布局速度减少错误"
+                      "markdown": "### 版本 2.2 \n- 优化逻辑\n- 修复右侧按钮失效\n- 修复版本号错误显示\n- 修复59导致无法打开更多群成员页面"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.1\n- 新增聊天详情页面-单独启用双人头像\n- 支持在非双人模式下单独启用自动处理大小设置\n- 优化处理逻辑与布局速度减少错误"
                   },
                   {
                       "class": "DepictionSeparatorView"

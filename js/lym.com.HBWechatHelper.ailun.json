@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.3",
+                      "text": "1.8.4",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.3 \n- 增加稳定性\n- 修复界面无法正常返回的问题\n- 修复在新客户端上透明气泡不生效的问题\n- 修复最新客户端点击更多群成员闪退的问题"
+                      "markdown": "### 版本 1.8.4 \n- 修复圆圈头像启动时变方后变圆的问题\n- 修复首页部分机型低栏有空白栏的问题\n- 新增[特色类功能]-编辑图片后直接发送当前界面"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.3\n- 增加稳定性\n- 修复界面无法正常返回的问题\n- 修复在新客户端上透明气泡不生效的问题\n- 修复最新客户端点击更多群成员闪退的问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
