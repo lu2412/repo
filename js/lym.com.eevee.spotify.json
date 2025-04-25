@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.9.1",
+                      "text": "5.9.5",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年03月28日",
+                      "text": "2025年04月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.9.1 \n- 由@HackZy01更新的波兰语本地化\n- @avishekrijal更新尼泊尔本地化\n- 由@gocciolafr更新的意大利语本地化"
+                      "markdown": "### 版本 5.9.5 \n- 修复了Spotify 9.0.36上的播放器崩溃问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.8.9\n- 由@HackZy01更新的波兰语本地化\n- @avishekrijal更新尼泊尔本地化\n- 由@gocciolafr更新的意大利语本地化"
                   },
                   {
                       "class": "DepictionSeparatorView"
