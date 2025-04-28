@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 基于@huamidev的DYYY定制\n- 使用弹窗UI,UI设计代码来自@iosxuuz;首页双指长按进入设置\n- 新增来自@vita_app、@waa404等大佬的开源代码增加了新功能。\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 给灵动岛的外框内框添加自定义颜色,通知背景颜色等\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/mss.png"
+                                      "url": "https://lu2412.github.io/repo/icon/lingdong.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/mss1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/lingdong1.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "huami",
+                      "text": "MoreColor",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.2-5",
+                      "text": "1.0.0.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2-5 \n- 隐藏底栏我的、时间属地随机变色\n- 清屏按钮支持GIF,清屏时隐藏进度条、各种优化等。\n- 如果某些功能不生效,自行导入ABT文件,再禁用热更新!"
+                      "markdown": "### 版本 1.0.0.0-1 \n- 初始版本"
                   },
               ]
           }
