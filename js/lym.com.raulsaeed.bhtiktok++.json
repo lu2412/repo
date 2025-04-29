@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 全新的TikTok多功能插件\n- 刀刀基于开源定制并汉化\n- 插件选项在TikTok设置顶部\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- TikTok增强插件\n- 大陆用户使用时请在插件设置内将地区修改为美国等地区\n- 去广告、视频下载、自动播放下一条等功能\n- 插件设置位于主页-设置与隐私-BHTikTok\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                     "itemSize": "{300, 533}",                    
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
@@ -37,7 +37,7 @@
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/tikTok4.png"
+                                      "url": "https://lu2412.github.io/repo/icon/tikTok3.png"
                                   }
                             ]
                   },
@@ -50,18 +50,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.7",
+                      "text": "raul saeed",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.9.3",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月14日",
-                      "title": "最后更新时间"
+                      "text": "2025年04月30日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -71,7 +76,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.7 \n- 自动播放下一个仅支持到V36.6.0版本"
+                      "markdown": "### 版本 1.9.3 \n- 新增本地化支持\n- 新增自动清除历史记录(每60秒)\n- 新增“OpenInTikTok”插件\n- 新增匿名查看消息功能(测试版)\n- 设置中新增评论配置选项\n- 新增禁用评论提示\n- 新增将评论作为帖子发布\n- 新增将评论作为动态发布\n- 新增批量展开评论回复\n- 新增自动展开评论内容\n- 新增多表情评论栏\n- 新增隐藏表情栏选项\n- 新增评论设计样式(现代、紧凑、默认)\n- 新增语言设置\n- 修复自动滚动到下一个视频的问题\n- 修复跳过推荐的问题\n- 修复设置异常崩溃的问题"
                   },
               ]
           }

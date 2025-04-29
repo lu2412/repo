@@ -1265,28 +1265,6 @@ Author: 0xkuj
 Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
 
-Package: lym.com.dao.bhtiktok++
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: raul saeed & 刀刀
-Installed-Size: 604
-Depends: mobilesubstrate
-Conflicts: com.raulsaeed.bhtiktok++, com.bandarhl.bhtiktok, com.dao.bhtiktok++
-Replaces: com.dao.bhtiktok++
-Filename: ./debs/BHTikTok++中文版-Rootless.deb
-Size: 94272
-MD5sum: 9f4222963f9feab5b3de6b8b821893a5
-SHA1: 32e8e1fb57d9c352d3846651feb570b3180ba99f
-SHA256: 51466eb3223c034103c1cc9a5b5144b02129dc865900f9bf57c68c3092918795
-Section: 软件增强
-Description: 全新的TikTok多功能插件
- - 刀刀基于开源定制并汉化。
- - 插件选项在TikTok设置顶部
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: raul saeed & 刀刀
-Name: BHTikTok++中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.bhtiktok++.json
-
 Package: lym.com.dao.bhtwitter
 Version: 4.3-7
 Architecture: iphoneos-arm64
@@ -1692,10 +1670,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 375164
-MD5sum: f2c0f7fc98e82bd4d1b484635584832c
-SHA1: c0a96829c136ba1e189e0bc07fd3ee31783e406e
-SHA256: 4cc01470c9ee5b74a6d5551dec1376f912da531a5808db321114cd3e4ce0a4f4
+Size: 377260
+MD5sum: afacdad0332be2aa9110df541359b0e6
+SHA1: e9417331fb1fa6667b44e23d373cd4e4c9642dec
+SHA256: a5629edb04552c2a7fb506cef24ba4e550bc6d899f89ef2ccf45240529eaae8c
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -2716,6 +2694,29 @@ Description: QQ内各种头像旋转
 Author: SINI
 Name: QQ头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qqavatarrotation.json
+
+Package: lym.com.raulsaeed.bhtiktok++
+Version: 1.9.3
+Architecture: iphoneos-arm64
+Maintainer: raul saeed
+Installed-Size: 1124
+Depends: mobilesubstrate
+Conflicts: com.raulsaeed.bhtiktok++
+Replaces: com.raulsaeed.bhtiktok++
+Filename: ./debs/BHTikTok++-Rootless.deb
+Size: 198180
+MD5sum: 1684b84ab793f08d4666cccb8b01fff6
+SHA1: 370841635474adfb4b109bf74520c749d1bc0fa2
+SHA256: b40032fca63650621c1ceedc312e955ca73a36cdfb8c710b83d7c0823382eea5
+Section: 软件增强
+Description: TikTok增强插件
+ - 大陆用户使用时请在插件设置内将地区修改为美国等地区
+ - 去广告、视频下载、自动播放下一条等功能
+ - 插件设置位于主页-设置与隐私-BHTikTok
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: raul saeed
+Name: BHTikTok++-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.raulsaeed.bhtiktok++.json
 
 Package: lym.com.screenshot.telegram
 Version: 1.0
