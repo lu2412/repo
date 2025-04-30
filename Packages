@@ -1152,6 +1152,28 @@ Author: baiy
 Name: 微信头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.baiy.wechatrotate.json
 
+Package: lym.com.bandarhl.bhtwitters
+Version: 4.4-1
+Architecture: iphoneos-arm64
+Maintainer: Bandar Alruwaili
+Installed-Size: 23840
+Depends: mobilesubstrate, ws.hbang.common
+Conflicts: com.bandarhl.bhtwitter, byg.iosios.net.rootless.bhtwitter, com.dao.bhtwitter, com.bandarhl.bhtwitters
+Replaces: com.bandarhl.bhtwitters
+Filename: ./debs/BHTwitter 中文版-Rootless.deb
+Size: 7622940
+MD5sum: 9049ee8e8182d63614865c1470c41ba9
+SHA1: 40e83d6c70c4976d66e37d0f0855907396377004
+SHA256: 285fe6cb69f3fd32751cf62711780c142666aebc9df15d8adacd5b85ac642f1f
+Section: 软件增强
+Description: BHTwitter中文修复优化版
+ - 推特(X)的综合功能性插件
+ - 插件选项位于推特设置顶部
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Bandar Alruwaili
+Name: BHTwitter 中文版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitters.json
+
 Package: lym.com.be-huge.wechat-push-msg-page
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -1264,27 +1286,6 @@ Description: 3DAppVersionSpoofer伪装版本
 Author: 0xkuj
 Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
-
-Package: lym.com.dao.bhtwitter
-Version: 4.3-7
-Architecture: iphoneos-arm64
-Maintainer: Bandar Alruwaili
-Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter
-Replaces: com.dao.bhtwitter
-Filename: ./debs/BHTwitter 中文版-Rootless.deb
-Size: 7614280
-MD5sum: 945636decb901df74cb1c371f1e1743a
-SHA1: 5268ce0bdb015764b9deb2b0312ffdcc430c074b
-SHA256: 95cb603ecd9e1f1e43fd00aed8931b7dd68fc01c47c93d5cd419ff0fd61a914d
-Section: 软件增强
-Description: BHTwitter中文修复优化版
- - 推特(X)的综合功能性插件
- - 插件选项位于推特设置顶部
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Bandar Alruwaili
-Name: BHTwitter 中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.bhtwitter.json
 
 Package: lym.com.dao.classicfolders3
 Version: 3.0.5.8
@@ -2647,6 +2648,25 @@ Description: 微信虚拟视频
 Author: 平凡
 Name: 虚拟视频-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.pingfan.wechat.json
+
+Package: lym.com.primalfolder2
+Version: 0.1.2
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders, com.ichitaso.primalfolder2, com.primalfolder2
+Replaces: com.primalfolder2
+Filename: ./debs/PrimalFolder2文件夹图标-Rootless.deb
+Size: 54548
+MD5sum: 178b1e3e56e49b1798dd1457950d4fdd
+SHA1: 11317db05a0c6d1d258d1ea7402d54b9afa3d62e
+SHA256: a8834dab905a8cfa6225a98e9f3d17da36dedae577256d626e67480adf620765
+Section: 系统增强
+Description: 将文件夹显示为文件夹里第一个app的图标,动画略丝滑
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ichitaso
+Name: PrimalFolder2文件夹图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.primalfolder2.json
 
 Package: lym.com.qiop1379.swipeextenderx
 Version: 1.6.1~2

@@ -9,8 +9,8 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "作者项目地址",
+                    "action": "https://github.com/raulsaeed/TikTokPlusPlus",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
