@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.4-1",
+                      "text": "2.0.5-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月22日",
+                      "text": "2025年05月01日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.4-1 \n- 修复消息时间功能多行文字时错位问题\n- 增加将时间添加到头像底部\n- 增加自定义文本颜色修复聊天顶栏群聊不显示群内人数\n- 增加自定义头像大小"
+                      "markdown": "### 版本 2.0.5-1 \n- 一些细节上的代码优化\n- 增加朋友圈布局修改功能,将原来的点赞、评论操作直接固定在卡片底部"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.4\n- 修复消息时间功能多行文字时错位问题\n- 增加将时间添加到头像底部\n- 增加自定义文本颜色修复聊天顶栏群聊不显示群内人数\n- 增加自定义头像大小"
                   },
                   {
                       "class": "DepictionSeparatorView"

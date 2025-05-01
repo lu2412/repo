@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-4",
+                      "text": "1.1-5",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月26日",
+                      "text": "2025年05月02日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-4 \n- 修复部分用户开启消息引用手势功能闪退"
+                      "markdown": "### 版本 1.1-5 \n- 新增颜色预览视图\n- 新增置顶群特权者\n- 新增朋友圈实况自动播放\n- 支持静音播放"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.4\n- 修复部分用户开启消息引用手势功能闪退"
                   },
                   {
                       "class": "DepictionSeparatorView"

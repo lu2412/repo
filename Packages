@@ -1666,15 +1666,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-5
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 1980
+Installed-Size: 2012
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 377260
-MD5sum: afacdad0332be2aa9110df541359b0e6
-SHA1: e9417331fb1fa6667b44e23d373cd4e4c9642dec
-SHA256: a5629edb04552c2a7fb506cef24ba4e550bc6d899f89ef2ccf45240529eaae8c
+Size: 387112
+MD5sum: 57bd42c396a0cf48137c3c66d21e8354
+SHA1: 8e4bb02e82048d89a108e2bd347590e2159dc46f
+SHA256: f6df44bbcfcdf9abbf18437e621de7e3293990fae03cb9aa2bb1bab4be5a0b65
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -2022,17 +2022,17 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lxcloud.WCEhance
-Version: 1.1-4
+Version: 1.1-5
 Architecture: iphoneos-arm64
 Maintainer: Lxcloud
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.lxcloud.WCEhance
 Replaces: com.lxcloud.WCEhance
 Filename: ./debs/微信优化WCEhance-Rootless.deb
-Size: 64604
-MD5sum: 33d3116ce8b2f8a95d41e88834e36284
-SHA1: eeb4cc628a25d0927e2f577a5fc66392b2751111
-SHA256: 1d1fd9794aacd639a7dd87af089b8393a0530feb9f3cfd75bd543ffb99397c12
+Size: 997704
+MD5sum: baa44b8c6799fe36358b2d5283cff53e
+SHA1: bf7f0aedc9b69c027fd4a371c21cf7246081bd7a
+SHA256: 0c4362c70f74ccdb78ff191b37f42820d6ba9aee5d1a19600526e3b8c58efcce
 Section: 微信插件
 Description: 用于优化一些反人类设计并增强功能
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -2993,18 +2993,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.0.4-1
+Version: 2.0.5-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 8652
+Installed-Size: 8704
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 3808576
-MD5sum: 3cc1f7896ef782f2adc8daeec68e0f9e
-SHA1: 172e57c0413c4b0b24946127806c6b9719aec7e0
-SHA256: ca0475eec53c7772aeea0ab6a087c479bdc6a0a412a5ee48ea400ed25be219d9
+Size: 3863924
+MD5sum: fb7483bda29b5bcc8adca2abee2196b2
+SHA1: 75e94ed06673fd9f620ad831e3c34519cd410077
+SHA256: b83e2dd56e89c889a10159abd95db376447cb2cdb8c0373f4e5a9a20b7122107
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
