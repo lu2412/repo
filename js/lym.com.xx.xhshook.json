@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.5-1",
+                      "text": "1.1.6-3",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月18日",
+                      "text": "2025年05月02日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.5-1 \n- 新增移除视频页点赞\n- 新增移除视屏页评论\n- 新增移除视屏页推荐\n- 新增移除视屏页分享"
+                      "markdown": "### 版本 1.1.6-3 \n- 新增移除视频页点赞\n- 新增移除视屏页评论\n- 新增移除视屏页推荐\n- 新增移除视屏页分享"
                   },
                   {
                       "class": "DepictionSeparatorView"
