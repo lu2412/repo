@@ -1480,7 +1480,7 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 5.9.5
+Version: 5.9.6
 Architecture: iphoneos-arm64
 Maintainer: Eevee
 Installed-Size: 1616
@@ -1488,10 +1488,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swif
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 404452
-MD5sum: 19ae86676e4ecbab6c3f4331868830ea
-SHA1: e91231ce6ce5008982c8b0a5d5bbcb4ee235a396
-SHA256: 0d01f15f45d4f514a68fb7703175df5980fc9cef1dea137200127b39e245f2ef
+Size: 404628
+MD5sum: 0823419fbf727ba67d4059e30a6f8dec
+SHA1: f7bd543c0c718a854906e5fb65e94b275e5e21b4
+SHA256: b4dc49c53e5130914c1e06c2ad273aa656dce6c434fd5396fbbc3a47a4b16613
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -1663,18 +1663,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.2-5
+Version: 2.2-6
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2012
+Installed-Size: 2108
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 387112
-MD5sum: 57bd42c396a0cf48137c3c66d21e8354
-SHA1: 8e4bb02e82048d89a108e2bd347590e2159dc46f
-SHA256: f6df44bbcfcdf9abbf18437e621de7e3293990fae03cb9aa2bb1bab4be5a0b65
+Size: 405468
+MD5sum: bccb3f9e670586b6ac7a4cfdddbf2860
+SHA1: a79d579e6036738a4f238803ef3a169de0f1ef0c
+SHA256: 1347bc1622aee366fb29b3b525a35b3fe6f4dbee9567e3305b66097ae2c6d51b
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -1977,18 +1977,18 @@ Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.1.4
+Version: 2.1.5K
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 4068
+Installed-Size: 3752
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 1064752
-MD5sum: 29b22cee1aa41da1a662a75ee5d77268
-SHA1: 153db84d256b938ffba1477b8e103a1ba64b3fad
-SHA256: e2152e734ec1cbe4f017f5039cc7fb1417b4d16ad660b4ee161722c985eeceb3
+Size: 990740
+MD5sum: afd212e984b7a7b7ba7443826fe7ed11
+SHA1: 659851c0e059cc8637bd8c20f1333bb15a793f34
+SHA256: c33d4fef5b6871f24419a34d483857d018fd8d05f14db19d66c34d33d84a811b
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载
@@ -2022,17 +2022,17 @@ Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lxcloud.WCEhance
-Version: 1.1-5
+Version: 1.1-6
 Architecture: iphoneos-arm64
 Maintainer: Lxcloud
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.lxcloud.WCEhance
 Replaces: com.lxcloud.WCEhance
 Filename: ./debs/微信优化WCEhance-Rootless.deb
-Size: 997704
-MD5sum: baa44b8c6799fe36358b2d5283cff53e
-SHA1: bf7f0aedc9b69c027fd4a371c21cf7246081bd7a
-SHA256: 0c4362c70f74ccdb78ff191b37f42820d6ba9aee5d1a19600526e3b8c58efcce
+Size: 1118024
+MD5sum: 9ed2fe08e87a264b0811631eaa2ef1ae
+SHA1: 8aa27b4410b649de9ce3de0dfce3513e7f082eb7
+SHA256: 22b7f6160a83d2f34b49fdad705f38868847fa498daf216416bb43f41e4c7ad2
 Section: 微信插件
 Description: 用于优化一些反人类设计并增强功能
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!

@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-5",
+                      "text": "1.1-6",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月02日",
+                      "text": "2025年05月06日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-5 \n- 新增颜色预览视图\n- 新增置顶群特权者\n- 新增朋友圈实况自动播放\n- 支持静音播放"
+                      "markdown": "### 版本 1.1-6 \n- 新增表情包转自拍\n- 表情包圆角新增预览视图圆角\n- 优化设置界面一些小细节\n- 修复头像边框颜色无法更改"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.5\n- 新增颜色预览视图\n- 新增置顶群特权者\n- 新增朋友圈实况自动播放\n- 支持静音播放"
                   },
                   {
                       "class": "DepictionSeparatorView"
