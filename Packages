@@ -1671,10 +1671,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 405468
-MD5sum: bccb3f9e670586b6ac7a4cfdddbf2860
-SHA1: a79d579e6036738a4f238803ef3a169de0f1ef0c
-SHA256: 1347bc1622aee366fb29b3b525a35b3fe6f4dbee9567e3305b66097ae2c6d51b
+Size: 405172
+MD5sum: bf96e147f496a87a6f563aa367c75b40
+SHA1: ab44943efd4ac7d0976dfb1eefff6f57fd067964
+SHA256: 0be97f74b4431bcb7cbffbc110c4775d7f43e4890a6469463f172ec446abbbcc
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -3088,18 +3088,18 @@ Name: DockX 键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
 
 Package: lym.com.wechat.enhance
-Version: 1.3-3
+Version: 1.3-7
 Architecture: iphoneos-arm64
 Maintainer: 愫 茶
-Installed-Size: 2056
+Installed-Size: 2024
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wechat.enhance
 Replaces: com.wechat.enhance
 Filename: ./debs/微信增强WeChatEnhance.sh-Rootless.deb
-Size: 449700
-MD5sum: b5f56f6db52d1bf42739b16f658bd447
-SHA1: bd8471365b210c5824f288308cc499c3bc3481b4
-SHA256: 7cc6ff738f83a60ed3314ec34e48cd49af255a755963e73ff1b34df93c8adcae
+Size: 444496
+MD5sum: 74efd554262af68985bb606b04fb8269
+SHA1: 1a8f95aee7b1c7e9b8050e38879d045cfca6bdcd
+SHA256: a6fbefad52354387721c68c89019ddc6a5a6bd51ec96e3e19e0a5fbf4864f9f8
 Section: 微信插件
 Description: 微信增强插件
  - 支持聊天按钮布局自定义等功能
