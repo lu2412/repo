@@ -1976,6 +1976,28 @@ Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
+Package: lym.com.lecard.wuyu
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 1948
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Conflicts: com.lecard.wuyu
+Replaces: com.lecard.wuyu
+Filename: ./debs/Applecard分屏-Rootless.deb
+Size: 409276
+MD5sum: 04c14e60692c0979e6865e0991f87e88
+SHA1: f36d50b2038753bf08b3ddcc4e1b1c42af122c9a
+SHA256: cef9f7978b95d30c4726a5f53fbca0423a4d501cc4c318c151a2aefa53411a8e
+Section: 系统增强
+Description: 网友分享分屏插件
+ - 目前已停更
+ - 使用方法如图所示
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Applecard分屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lecard.wuyu.json
+
 Package: lym.com.lenglengyu.shortvideodl-rootless
 Version: 2.1.5K
 Architecture: iphoneos-arm64
