@@ -1217,6 +1217,27 @@ Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
+Package: lym.com.chatgpthook
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.chatgpthook
+Replaces: com.chatgpthook
+Filename: ./debs/ChatGPT屏蔽升级弹窗-Rootless.deb
+Size: 4328
+MD5sum: 94fa2a419c71ad21783fb4016c1b0ae1
+SHA1: dde1eec9e6f81c9476c45d84a48789b1098bcc86
+SHA256: caf0d80b019e1102ce9ec24ecb984c0910fa0f2ea7b26ea191556ab80dd148f5
+Section: 软件增强
+Description: 屏蔽每次打开ChatGPT软件的升级弹窗
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SINI
+Name: ChatGPT屏蔽升级弹窗-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.chatgpthook.json
+
 Package: lym.com.choco.tgextras
 Version: 1.2-9+debug
 Architecture: iphoneos-arm64
@@ -1666,15 +1687,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-6
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2108
+Installed-Size: 2092
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 405172
-MD5sum: bf96e147f496a87a6f563aa367c75b40
-SHA1: ab44943efd4ac7d0976dfb1eefff6f57fd067964
-SHA256: 0be97f74b4431bcb7cbffbc110c4775d7f43e4890a6469463f172ec446abbbcc
+Size: 406212
+MD5sum: 1d8249d9d4c39f067728c89f7ec44023
+SHA1: 3020778093c89db5223a978344396ff7e961cc25
+SHA256: 4f3026f1dcb84a1b4a7bed2f9c1e40c878d3858aa2e4558bcff9f083443e5819
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -3592,6 +3613,28 @@ Description: 快速跳过激励视频广告,奖励正常领取
 Author: lenglengyu
 Name: VideoAdsSpeed快速跳过广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.lly.adsspee-rootless.json
+
+Package: lym.de.finngaida.daynightswitch
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Finn Gaida
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch
+Replaces: de.finngaida.daynightswitch
+Filename: ./debs/DayNightSwitch日月开关-Rootless.deb
+Size: 68652
+MD5sum: 767a30acc0f0ba9d6bdfa98007332b69
+SHA1: a051af2a725628a3aaa61b95c31713d5b9a5baf9
+SHA256: e0cc22dd4cf226b885d41d2642bc4d5dc27d74ae49b9de18542b3c9b7d3bdbcc
+Section: 系统美化
+Description: 全局日月开关风格
+ - 由「乌龙工作室」专业修复
+ - 插件有设置项请开启全局效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Finn Gaida
+Name: DayNightSwitch日月开关-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.de.finngaida.daynightswitch.json
 
 Package: lym.dianhua
 Version: 1.0
