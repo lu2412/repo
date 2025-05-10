@@ -972,17 +972,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.4
+Version: 1.8.5
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11180460
-MD5sum: a27d505f8ac2eaa12e6990165874b7fc
-SHA1: d81a514044da95086ca5d651cc2732e890944353
-SHA256: 1b895db7a4323de4db6dc812ac875963fba7fbfb79d2a465eb93bf67d6f73d50
+Size: 11214712
+MD5sum: 17439f3e5a9687f9e624c2d68c5f5350
+SHA1: 589ea99c407b7d15f31ab26e5d7e77456d31d195
+SHA256: ba93487c851361e12cf99ed2595e28e32718c55e2ce8bdc7f0222e73f3b51006
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -1687,15 +1687,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-6
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2092
+Installed-Size: 2124
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 406212
-MD5sum: 1d8249d9d4c39f067728c89f7ec44023
-SHA1: 3020778093c89db5223a978344396ff7e961cc25
-SHA256: 4f3026f1dcb84a1b4a7bed2f9c1e40c878d3858aa2e4558bcff9f083443e5819
+Size: 414204
+MD5sum: 188434fd4e7ddaa027fdadfd81231435
+SHA1: e367c47ebb3510eb17be54dfc259ad6a13b0c3c5
+SHA256: dcb6ddaf25855bc7a006bcd286a9d7c07ce09115d369125576f55d0d67c8bb88
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
