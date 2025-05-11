@@ -552,6 +552,27 @@ Author: 来了老弟
 Name: SwipeExtenderX键盘增强(汉化包)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
+Package: lym.codes.aurora.kayoko
+Version: 2.9
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 952
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: codes.aurora.kayoko
+Replaces: codes.aurora.kayoko
+Filename: ./debs/Kayoko剪贴板-Rootless.deb
+Size: 128668
+MD5sum: a5a86e3c243315b11cfe1aa759ea902e
+SHA1: f680b66014f1d032980b11e162af7398d4c8592a
+SHA256: d0e202f8f4db05ed0e59c4761c1d62426b8a812286e39a142526dd24879f4530
+Section: 键盘插件
+Description: 特别好用的免费剪贴板插件
+ - 82flex修复支持iOS16
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Alexandra Aurora Göttlicher
+Name: Kayoko剪贴板-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.codes.aurora.kayoko.json
+
 Package: lym.com.25mao.KuaiDou
 Version: 0.1-1
 Architecture: iphoneos-arm64
