@@ -1196,7 +1196,7 @@ Name: BHTwitter 中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitters.json
 
 Package: lym.com.be-huge.wechat-push-msg-page
-Version: 0.0.3
+Version: 0.0.4
 Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 232
@@ -1204,10 +1204,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Conflicts: com.be-huge.wechat-push-msg-page
 Replaces: com.be-huge.wechat-push-msg-page
 Filename: ./debs/微信消息直达-Rootless.deb
-Size: 23404
-MD5sum: 798cdf504f4754320852dcd4f6e129db
-SHA1: 929f7650a88079f42ee5c4cb8f1c6fda8f2e2e79
-SHA256: 0dc102ac1cc11cfe7c38498d9f7517d49ca8fbf06efc0ebed3f7cbbdbddf6f83
+Size: 23520
+MD5sum: c557d108ace4f74ef78f2842f9f3c451
+SHA1: 7dd9f15a5279e67eea36f689377a8f14c2df7752
+SHA256: 6af3b8a2aa2004e948651921adaa603e585faa3117b5eb522e51c9d164b158e0
 Section: 微信插件
 Description: 点击微信通知消息即可跳转到该聊天界面
  - 插件无设置项安装即可生效
@@ -1705,18 +1705,18 @@ Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.huami.dyyy
-Version: 2.2-6
+Version: 2.2-7
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2124
+Installed-Size: 2156
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 414204
-MD5sum: 188434fd4e7ddaa027fdadfd81231435
-SHA1: e367c47ebb3510eb17be54dfc259ad6a13b0c3c5
-SHA256: dcb6ddaf25855bc7a006bcd286a9d7c07ce09115d369125576f55d0d67c8bb88
+Size: 416648
+MD5sum: f629ddfd8282b9e73af67da45e4ea479
+SHA1: f676a6a23747a911ba90958892fe481ce12e81a2
+SHA256: c4ea4f62c07a2b78a87ab75087206ce8c27a98f39ceb3cf8753a65bf25ae2d06
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
