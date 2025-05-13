@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.5-1",
+                      "text": "2.0.6-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月01日",
+                      "text": "2025年05月13日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.5-1 \n- 一些细节上的代码优化\n- 增加朋友圈布局修改功能,将原来的点赞、评论操作直接固定在卡片底部"
+                      "markdown": "### 版本 2.0.6-1 \n- 优化消息时间显示的代码\n- 增加两个朋友圈操作按钮布局选项"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.5\n- 一些细节上的代码优化\n- 增加朋友圈布局修改功能,将原来的点赞、评论操作直接固定在卡片底部"
                   },
                   {
                       "class": "DepictionSeparatorView"
