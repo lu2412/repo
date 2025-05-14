@@ -1173,19 +1173,19 @@ Author: baiy
 Name: 微信头像旋转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.baiy.wechatrotate.json
 
-Package: lym.com.bandarhl.bhtwitters
-Version: 4.4-1
+Package: lym.com.bandarhl.bhtwitter
+Version: 4.4-1+debug
 Architecture: iphoneos-arm64
 Maintainer: Bandar Alruwaili
-Installed-Size: 23840
+Installed-Size: 18344
 Depends: mobilesubstrate, ws.hbang.common
-Conflicts: com.bandarhl.bhtwitter, byg.iosios.net.rootless.bhtwitter, com.dao.bhtwitter, com.bandarhl.bhtwitters
-Replaces: com.bandarhl.bhtwitters
+Conflicts: com.bandarhl.bhtwitter
+Replaces: com.bandarhl.bhtwitter
 Filename: ./debs/BHTwitter 中文版-Rootless.deb
-Size: 7622940
-MD5sum: 9049ee8e8182d63614865c1470c41ba9
-SHA1: 40e83d6c70c4976d66e37d0f0855907396377004
-SHA256: 285fe6cb69f3fd32751cf62711780c142666aebc9df15d8adacd5b85ac642f1f
+Size: 6702564
+MD5sum: 42f174cfe6508232cb6bd34f2ec5d84f
+SHA1: 7b6997432de09c1c7e871379369d4f859fdac352
+SHA256: 330d5a9b44f7c55befe4b6fe287bef30d8f050202459a34c72c29f9c25af5ba1
 Section: 软件增强
 Description: BHTwitter中文修复优化版
  - 推特(X)的综合功能性插件
@@ -1193,7 +1193,7 @@ Description: BHTwitter中文修复优化版
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Bandar Alruwaili
 Name: BHTwitter 中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitters.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitter.json
 
 Package: lym.com.be-huge.wechat-push-msg-page
 Version: 0.0.4
@@ -1713,10 +1713,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 416648
-MD5sum: f629ddfd8282b9e73af67da45e4ea479
-SHA1: f676a6a23747a911ba90958892fe481ce12e81a2
-SHA256: c4ea4f62c07a2b78a87ab75087206ce8c27a98f39ceb3cf8753a65bf25ae2d06
+Size: 424020
+MD5sum: eb9fd7bc710ed2e949ae8fcc2513fd3e
+SHA1: 22e7458399ea65f385bd635b443bebebe837ac19
+SHA256: 00e6c77df27cfbec6380d54fc2ce31c5852d6187d413602f6b3602dd8f0fc717
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
