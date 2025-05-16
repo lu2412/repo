@@ -43,7 +43,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-6",
+                      "text": "1.1-7",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +53,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月06日",
+                      "text": "2025年05月15日",
                       "title": "最后更新"
                   }
               ]
@@ -64,7 +64,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-6 \n- 新增表情包转自拍\n- 表情包圆角新增预览视图圆角\n- 优化设置界面一些小细节\n- 修复头像边框颜色无法更改"
+                      "markdown": "### 版本 1.1-7 \n- 新增自定义撤回信息\n- 支持自定义自己/对方撤回提示\n- 新增朋友圈圆角\n- 朋友圈界面图片/视频/视频号圆角\n- 表情包圆角优化官方表情视图\n- 修复自拍转表情“移到最前”闪退"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.6\n- 新增表情包转自拍\n- 表情包圆角新增预览视图圆角\n- 优化设置界面一些小细节\n- 修复头像边框颜色无法更改"
                   },
                   {
                       "class": "DepictionSeparatorView"
