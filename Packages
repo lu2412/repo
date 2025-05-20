@@ -1708,15 +1708,15 @@ Package: lym.com.huami.dyyy
 Version: 2.2-7
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 2156
+Installed-Size: 2324
 Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 424020
-MD5sum: eb9fd7bc710ed2e949ae8fcc2513fd3e
-SHA1: 22e7458399ea65f385bd635b443bebebe837ac19
-SHA256: 00e6c77df27cfbec6380d54fc2ce31c5852d6187d413602f6b3602dd8f0fc717
+Size: 460448
+MD5sum: 59ab1365ec27becd68590d34f38079a6
+SHA1: 20114cd7f18eb0f3445fc4dd6963308f82fd26ca
+SHA256: e1c04105d4fa7e3163adbe6c3ffeb663ee743c3cedee87ad768b468a2bd9738e
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -2041,18 +2041,18 @@ Name: Applecard分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lecard.wuyu.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
-Version: 2.1.5K
+Version: 2.1.6
 Architecture: iphoneos-arm64
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 3752
+Installed-Size: 3640
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo, com.lenglengyu.shortvideodl-rootless
 Replaces: com.lenglengyu.shortvideodl-rootless
 Filename: ./debs/短视频下载助手-Rootless.deb
-Size: 990740
-MD5sum: afd212e984b7a7b7ba7443826fe7ed11
-SHA1: 659851c0e059cc8637bd8c20f1333bb15a793f34
-SHA256: c33d4fef5b6871f24419a34d483857d018fd8d05f14db19d66c34d33d84a811b
+Size: 957288
+MD5sum: 5654c147363b8b4e72e6425a56dba79f
+SHA1: 22920d57a25affb85d4d00ccc72e6d5e7046b1ec
+SHA256: 5c199a0076124ec9309cb92518e16f812d47eb9718fbde5e3b3d7108d006f870
 Section: 软件增强
 Description: 短视频下载助手
  - 支持抖音、快手、微视等无水印下载

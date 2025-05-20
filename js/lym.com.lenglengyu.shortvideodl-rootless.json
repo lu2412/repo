@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.5K",
+                      "text": "2.1.6",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月03日",
+                      "text": "2025年05月20日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.5K \n- 抖音添加关键词屏蔽作品\n- 抖音移除导致频繁闪退的倍速功能"
+                      "markdown": "### 版本 2.1.6 \n- 抖音优化秒过激励广告,基本完美。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.4\n- 抖音添加关键词屏蔽作品\n- 抖音移除导致频繁闪退的倍速功能"
                   },
                   {
                       "class": "DepictionSeparatorView"
