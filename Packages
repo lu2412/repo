@@ -993,17 +993,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.5
+Version: 1.8.6
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11214712
-MD5sum: 17439f3e5a9687f9e624c2d68c5f5350
-SHA1: 589ea99c407b7d15f31ab26e5d7e77456d31d195
-SHA256: ba93487c851361e12cf99ed2595e28e32718c55e2ce8bdc7f0222e73f3b51006
+Size: 11764024
+MD5sum: cc8d541fc126e6eaa0c7bc77adbbcf7a
+SHA1: 02049a34456471fa856e751673525b31d5cdf9c2
+SHA256: b0d735968339d9fe00838029ef78f90ac532bf82093f05d9e64af8006ab3c1e0
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -1377,10 +1377,10 @@ Depends: mobilesubstrate
 Conflicts: com.hk.daodao.noseparators, com.hk.daodao.rootless.noseparators, com.qms.noseparators, com.hk.noline, com.qms.noline, com.dao.noline
 Replaces: com.dao.noline
 Filename: ./debs/PurifyLine去除全局分割线-Rootless.deb
-Size: 4096
-MD5sum: c71f9f985c305e776bb85e44b2eb0d59
-SHA1: 8453e9e6ede49ea017ba83d83277f90c75bd1e20
-SHA256: ac34c244ecd0c503e9038c29669e70ae4d65ffc18876ab2dca2aee78b1b640f2
+Size: 4076
+MD5sum: 2fba4782fb45c0213653963079024a38
+SHA1: 133dbe05138c73316b8438dfa330d576504700e3
+SHA256: 8a3641129e3ac2d88e89d7d1ac6f318f7c25cecc396236db51a2e8991c1ac0af
 Section: 系统增强
 Description: 去除全局分割线
  - 去除弹窗/UI/长按菜单等地方的分割线
@@ -1454,6 +1454,28 @@ Description: iOS18圆角控制中心
 Author: dvntm
 Name: iOS18圆角控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.cc18.json
+
+Package: lym.com.dvntm.fbo
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.dvntm.fbo
+Replaces: com.dvntm.fbo
+Filename: ./debs/FilesBrowsingOnly文件精简-Rootless.deb
+Size: 3544
+MD5sum: 3069dcc4739b7a0886c598493c34cad3
+SHA1: 1facd56c0c65d207766a5870e57b412e1af7c1d0
+SHA256: d82971a42f7b517c951f1dfc53892bd0ff6ee9c1301d66226cd3532870983862
+Section: 系统增强
+Description: 隐藏自带文件App的底部最近/共享
+ - 仅显示“浏览”选项卡并隐藏选项卡栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: dvntm
+Name: FilesBrowsingOnly文件精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.fbo.json
 
 Package: lym.com.dvntm.oledkeyboard
 Version: 0.0.3

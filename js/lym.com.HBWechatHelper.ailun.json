@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.5",
+                      "text": "1.8.6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月11日",
+                      "text": "2025年05月21日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.5 \n- \n- 新增消息小尾巴功能-【消息类功能-第二个启用消息小尾巴】\n- 如果开启了部分主题气泡，可能无法正常显示"
+                      "markdown": "### 版本 1.8.6 \n- 优化[消息类功能]-消息小尾巴\n- 开启按钮后看按钮的提示内容\n- 移除[自动化功能]-不稳定的功能\n- 新增[禁用类功能]-禁用小尾巴显示"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.5\n- 新增消息小尾巴功能-【消息类功能-第二个启用消息小尾巴】\n- 如果开启了部分主题气泡，可能无法正常显示"
                   },
                   {
                       "class": "DepictionSeparatorView"
