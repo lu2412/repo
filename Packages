@@ -1735,10 +1735,10 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.huami.dyyy
 Replaces: com.huami.dyyy
 Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 460448
-MD5sum: 59ab1365ec27becd68590d34f38079a6
-SHA1: 20114cd7f18eb0f3445fc4dd6963308f82fd26ca
-SHA256: e1c04105d4fa7e3163adbe6c3ffeb663ee743c3cedee87ad768b468a2bd9738e
+Size: 460824
+MD5sum: dbf02dfa96c465e8d97f23b2e9d42df6
+SHA1: c87f4d10d8d3ba03ec2c4aaa9b9bb758be73f3cb
+SHA256: 6afc10269e203dc0993ab4440ce3934f02188dcd1a59e6a232d3346da164b808
 Section: 抖音插件
 Description: 基于@huamidev的DYYY定制
  - 使用弹窗UI,UI设计代码来自@iosxuuz
@@ -1857,6 +1857,27 @@ Description: 智能跳过APP启动广告：汽水音楽｜百度网盘｜七猫�
 Author: Huayuarc
 Name: 跳过启动广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.autoskipad.json
+
+Package: lym.com.huayuarc.caiyuntqpro
+Version: 0.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: Huayuarc
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.huayuarc.caiyuntqpro
+Replaces: com.huayuarc.caiyuntqpro
+Filename: ./debs/彩云天气pro-Rootless.deb
+Size: 3780
+MD5sum: 87f77d98133b10d3d980d203b4d02db1
+SHA1: e4274481d99d78e508f0ad0f3a211ef04a1234a6
+SHA256: 042b6bb90e5d2d4172f5220e43a554e914f45c479c6893993fab21b70066f557
+Section: 软件增强
+Description: 解锁彩云天气pro权益
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Huayuarc
+Name: 彩云天气pro-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
 
 Package: lym.com.huayuarc.wifiwnyshooks.rootless
 Version: 0.0.1
