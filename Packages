@@ -1707,7 +1707,7 @@ Name: WCEnableCleanOrigMsg原图清理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
 
 Package: lym.com.huami.WCPulse
-Version: 1.0-8
+Version: 1.0-9
 Architecture: iphoneos-arm64
 Maintainer: huami
 Installed-Size: 388
@@ -1715,10 +1715,10 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.WCPulse
 Replaces: com.huami.WCPulse
 Filename: ./debs/微信WCPulse-Rootless.deb
-Size: 69664
-MD5sum: ca49983a3a8909e86cae7d86d5bb0029
-SHA1: 277f1975dea72e9f83d01a121808575d06bdf5fc
-SHA256: 457c684e09a1d3476fc2b7b66f91474fd70eb6340a9932b8e71068955a4f20dc
+Size: 71048
+MD5sum: 074544f6d1a96442379a0db161e885a9
+SHA1: 72034f79a73b66d30799aabcf14bf49c30b3c425
+SHA256: 13d2c0010919134f5ee1061631fa131dce4903d7281fc56b4ff577fd1179b89c
 Section: 微信插件
 Description: 微信实用小插件
  - 启用视频倍速手势
