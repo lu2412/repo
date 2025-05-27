@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.9.7",
+                      "text": "5.9.8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月16日",
+                      "text": "2025年05月28日",
                       "title": "最后更新"
                   }
               ]
@@ -68,14 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.9.7 \n- @wlxxd更新了德语本地化"
+                      "markdown": "### 版本 5.9.8 \n- @sekertr更新了土耳其语本地化\n- 尺寸优化（可能不明显）"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本5.9.1\n- 修复了Spotify 9.0.40上的播放器崩溃问题\n- @sergio nadal更新了西班牙语本地化\n- @Incognito Coder更新波斯语本地化"
+                      "markdown": "### 版本5.9.7\n- @wlxxd更新了德语本地化"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.9.6\n- 修复了Spotify 9.0.40上的播放器崩溃问题\n- @sergio nadal更新了西班牙语本地化\n- @Incognito Coder更新波斯语本地化"
                   },
                   {
                       "class": "DepictionSeparatorView"

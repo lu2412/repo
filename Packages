@@ -1259,18 +1259,18 @@ Author: SINI
 Name: ChatGPT屏蔽升级弹窗-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.chatgpthook.json
 
-Package: lym.com.choco.tgextras
-Version: 1.2-9+debug
+Package: lym.com.choco.tg
+Version: 1.2-1+debug
 Architecture: iphoneos-arm64
-Maintainer: choco
-Installed-Size: 14980
-Conflicts: com.choco.tgextra, com.choco.tgextras
-Replaces: com.choco.tgextras
+Maintainer: waruhachi
+Installed-Size: 28284
+Conflicts: com.choco.tg
+Replaces: com.choco.tg
 Filename: ./debs/TGExtra- Telegram增强-Rootless.deb
-Size: 2317684
-MD5sum: 6e161bb239d69bbc9b03ba9ae1d55599
-SHA1: ef27acde90a39de2d666daf72345620d75656a67
-SHA256: ff1aa6d630b37930d8c2b64dc2df01f55e8967895ee5fd6d30dc88a2d3c5b4c8
+Size: 4659324
+MD5sum: 7937835428dd649c85f2bf1b7386091d
+SHA1: 19aca35033b8dec738affc48d72a198f1c08a96d
+SHA256: 86a832dfbd44b91ec91e6c8bfe25bb94a97c6ed86d2117e22b1afe6ba73b5682
 Section: 软件增强
 Description: Telegram 增强插件
  - 去除广告
@@ -1281,7 +1281,7 @@ Description: Telegram 增强插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: choco
 Name: TGExtra- Telegram增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.choco.tgextras.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.choco.tg.json
 
 Package: lym.com.cydiageek.byeseparatorscell
 Version: 1.1.3
@@ -1544,18 +1544,18 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 5.9.7
+Version: 5.9.8
 Architecture: iphoneos-arm64
 Maintainer: Eevee
-Installed-Size: 1612
+Installed-Size: 1548
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 398180
-MD5sum: 4f583618021ca1ed85c8ebafae224d2f
-SHA1: a73fc80a9e329c1ba72165d50aded35e3a80636b
-SHA256: 1c42e8fbdc3aa08ba353db100fef7d1700b95098f2165ab4f8b7831a711396b5
+Size: 392284
+MD5sum: 2465a5eadd2bae4e8e95a9c585e009fe
+SHA1: 080e890975c45d7082a9a95bf7667967f71c1daf
+SHA256: 27d70e5b6be629e786a29cdf5d183e03239726d1a849546c9aac0d3273670063
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
@@ -4046,16 +4046,16 @@ Installed-Size: 616
 Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Conflicts: netskao.cccellularrate-rootless
 Replaces: netskao.cccellularrate-rootless
-Filename: ./debs/CCCellularRate切换网络.sh-Rootless.deb
-Size: 90384
-MD5sum: edf6a368da372ea3f698c3abf404bfcb
-SHA1: 4f43ea3848490c01036fa05d1e883c07523ae8f7
-SHA256: a10a4a1116602d3504c9b3e0557eff79438131bc7e4f2c12715d3d9ee862e9fb
+Filename: ./debs/CCCellularRate切换网络.deb
+Size: 90260
+MD5sum: 7998fda5ed4cbbcd5686b5d88971245d
+SHA1: 446b56e651ddc41bb36324aa53a293562b341c49
+SHA256: 9de3ebde4716be2d28e51740efd47515f0b0ef3bc6668636723772b93d6117a1
 Section: 控制中心
 Description: 通过控制中心快速切换当前使用的2/3/4/5G蜂窝数据类型\n- 仅显示当前设备设置中支持的类型
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Netskao
-Name: CCCellularRate切换网络.sh-Rootless
+Name: CCCellularRate切换网络-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.cccellularrate-rootless.json
 
 Package: lym.netskao.ccsim-rootless
