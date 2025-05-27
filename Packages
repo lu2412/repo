@@ -194,17 +194,17 @@ Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
 Package: lym.MikotoHelper
-Version: 1.3.6
+Version: 1.3.6.2
 Architecture: iphoneos-arm64
 Maintainer: Mikoto
 Depends: mobilesubstrate
 Conflicts: MikotoHelper, MikotoHelper
 Replaces: MikotoHelper, MikotoHelper
 Filename: ./debs/Mikoto助手-Rootless.deb
-Size: 20763632
-MD5sum: 33cdc1399be4d9401bce05c59e7c7623
-SHA1: 32a45ac0b47fe28e16b8d5f7e27750748d1609b9
-SHA256: 9ff0f68f096a0c2cb88e144914d6e90190723cf65a4ed74a8e70afb14704edca
+Size: 21113436
+MD5sum: 941d5d7cca08dacc84d8da20ecbd07b1
+SHA1: 07b55ffe4addefc171cf44bb4f4f0c4d163ad892
+SHA256: 3b84344877676b044990d60a49f96df482ac571d8a811bf825618e8f407114d7
 Section: 微信插件
 Description: 微信多功能插件
  - Mikoto插件不能与Misaka插件共存
@@ -4037,6 +4037,26 @@ Description: 支付宝去除底部理财选项
 Author: Netskao
 Name: 支付宝去除底部理财选项-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.alipayhooks-rootless.json
+
+Package: lym.netskao.cccellularrate-rootless
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 616
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: netskao.cccellularrate-rootless
+Replaces: netskao.cccellularrate-rootless
+Filename: ./debs/CCCellularRate切换网络.sh-Rootless.deb
+Size: 90384
+MD5sum: edf6a368da372ea3f698c3abf404bfcb
+SHA1: 4f43ea3848490c01036fa05d1e883c07523ae8f7
+SHA256: a10a4a1116602d3504c9b3e0557eff79438131bc7e4f2c12715d3d9ee862e9fb
+Section: 控制中心
+Description: 通过控制中心快速切换当前使用的2/3/4/5G蜂窝数据类型\n- 仅显示当前设备设置中支持的类型
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: CCCellularRate切换网络.sh-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.netskao.cccellularrate-rootless.json
 
 Package: lym.netskao.ccsim-rootless
 Version: 1.1-9
