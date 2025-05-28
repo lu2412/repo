@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.4",
+                      "text": "0.0.5",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月12日",
+                      "text": "2025年05月29日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.4 \n- 修复如果已经打开对方聊天窗口,还会重新关闭再打开的情况"
+                      "markdown": "### 版本 0.0.5 \n- 修复高版本闪退问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本0.0.4\n- 修复如果已经打开对方聊天窗口,还会重新关闭再打开的情况"
                   },
                   {
                       "class": "DepictionSeparatorView"

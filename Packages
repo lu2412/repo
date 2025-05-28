@@ -1196,7 +1196,7 @@ Name: BHTwitter 中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitter.json
 
 Package: lym.com.be-huge.wechat-push-msg-page
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 232
@@ -1204,10 +1204,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Conflicts: com.be-huge.wechat-push-msg-page
 Replaces: com.be-huge.wechat-push-msg-page
 Filename: ./debs/微信消息直达-Rootless.deb
-Size: 23520
-MD5sum: c557d108ace4f74ef78f2842f9f3c451
-SHA1: 7dd9f15a5279e67eea36f689377a8f14c2df7752
-SHA256: 6af3b8a2aa2004e948651921adaa603e585faa3117b5eb522e51c9d164b158e0
+Size: 23488
+MD5sum: dca4f2ccff5456036ddc2efe243e761f
+SHA1: bb3f080411bec3ed506b7d735810ef0571b72db4
+SHA256: 729cd6db02bf8747b6f02a04da19361d69dddf989d6ef864347cee37af6a9c2d
 Section: 微信插件
 Description: 点击微信通知消息即可跳转到该聊天界面
  - 插件无设置项安装即可生效
