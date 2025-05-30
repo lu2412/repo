@@ -1412,6 +1412,27 @@ Author: Netskao
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
 
+Package: lym.com.developlab.appbadge
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: developlab
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+Conflicts: com.developlab.appbadge
+Replaces: com.developlab.appbadge
+Filename: ./debs/AppBadge-Rootless.deb
+Size: 8328
+MD5sum: ebd1f2cc541da2d3643b1ef2c1384e3f
+SHA1: e5dc6383be312293f6d78b908d7a0abfa73d34a3
+SHA256: c2277c42a1be9f2854acbf113aa3c1814044b43a94575a4a4b2f0e2bb563a4e4
+Section: 系统增强
+Description: 灵动岛或者刘海下面(Z轴)显示app的图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: developlab
+Name: AppBadge-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.developlab.appbadge.json
+
 Package: lym.com.dumpapp.wechat
 Version: 2.0.6
 Architecture: iphoneos-arm64
