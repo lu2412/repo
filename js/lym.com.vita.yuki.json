@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- Telegram 增强插件\n- 去除广告\n- 隐藏一些输入状态\n- 允许保存频道限制下载的文件\n- 点击左上角编辑，然后三指长按打开插件\n- 如果打不开插件,先把语言切换自带的英文或者香港中文等\n- 再长按设置一>倒数第三个按钮\n- 或者连续点击五六下底部中间按钮「对话」打开插件!\n- 支持 Telegram、Turrit 等第三方客户端\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- Telegram增强插件\n- 去除广告,隐藏一些输入状态\n- 允许保存频道限制下载的文件\n- 空白界面三指长按打开插件或者设置界面-长按倒数第三个选项“客服”打开插件\n- 支持Telegram、Turrit等第三方客户端\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "choco",
+                      "text": "vita",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2-1+debug",
+                      "text": "0.0-6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月28日",
+                      "text": "2025年05月31日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2-1+debug \n- 新增中文汉化和其他语言\n- 修复了一些功能无法正常工作的问题(主要是因为我的技术问题)\n- 新增了位置虚拟定位\n- 修复了文件选择器(专为侧载用户修的)\n- 修复了查看动态时导致应用崩溃的问题"
+                      "markdown": "### 版本 0.0-6 \n- 插件新增界面三指长按手势打开插件"
                   },
               ]
           }
