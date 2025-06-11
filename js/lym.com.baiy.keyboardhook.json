@@ -1,0 +1,76 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "在线激活破解此插件",
+                    "action": "https://www.apibug.com/ioscrack/168cnm.php",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 系统输入法和微信输入法的一些自定义\n- 让键盘更个性化!\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                },
+                {
+                      "class": "DepictionScreenshotsView",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{300, 533}",
+                      "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/pan.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/pan1.png"
+                                  }
+                            ]
+                  },
+
+                  {
+                      "class": "DepictionHeaderView",
+                      "title": "详细信息",
+                      "useBoldText": true,
+                      "useBottomMargin": false
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "baiy",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2.0-6+debug",
+                      "title": "插件版本"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "iOS 15 - iOS 16.5",
+                      "title": "支持系统"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "2025年06月11日",
+                      "title": "最后更新"
+                  }
+              ]
+          },
+          {
+              "class": "DepictionStackView",
+              "tabname": "更新日志",
+              "views": [
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本 2.0-6+debug \n- 初始版本"
+                  },
+              ]
+          }
+      ]
+}
