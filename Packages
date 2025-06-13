@@ -972,17 +972,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.7
+Version: 1.8.8
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11365348
-MD5sum: 19f3256d0f2a36b7319dd45c537fb020
-SHA1: 3ddea2b9cf87fd1b6c574f7ddd91b73db957a095
-SHA256: 46c201775b8dff64766ac2b457268c03c968c3f39e4b6cd2949d2c83753c0459
+Size: 11590780
+MD5sum: 95904a91e15de0dfe5d9826b5a6858f3
+SHA1: da662f16285701fca25fd4b7ec28d9a33252adea
+SHA256: 80e94a06e74881bf51ec35e284974e44a96d75a76288c5e07f6c2439c4c7afc6
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能

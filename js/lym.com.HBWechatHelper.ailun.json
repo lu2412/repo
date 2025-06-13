@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.7",
+                      "text": "1.8.8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月24日",
+                      "text": "2025年06月14日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.7 \n- 修复部分闪退功能向下兼容\n- 修复自定义头像和圆头像冲突\n- 修复圆圈头像的大小需重新开\n- 新增友圈时间详情年月日分秒\n- 新增移除首页标题旁的消息数量\n- 优化启用圆圈头像修改圆角大小优\n- 化友圈小尾巴功能支持安卓显示"
+                      "markdown": "### 版本 1.8.8 \n- 修复一些基础问题\n- 新增[特色类功能]-修改UI速度\n- 新增[特色类功能]-点歌的自定义接口"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.7\n- 修复部分闪退功能向下兼容\n- 修复自定义头像和圆头像冲突\n- 修复圆圈头像的大小需重新开\n- 新增友圈时间详情年月日分秒\n- 新增移除首页标题旁的消息数量\n- 优化启用圆圈头像修改圆角大小优\n- 化友圈小尾巴功能支持安卓显示"
                   },
                   {
                       "class": "DepictionSeparatorView"
