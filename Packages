@@ -1986,6 +1986,28 @@ Author: 🅷🆆
 Name: APTV解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hw.aptv.json
 
+Package: lym.com.hw.qianyuevip
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: 🅷🆆
+Installed-Size: 396
+Depends: mobilesubstrate
+Conflicts: com.hw.qianyuevip
+Replaces: com.hw.qianyuevip
+Filename: ./debs/千阅-小说阅读-Rootless.deb
+Size: 58788
+MD5sum: 26dc97d4285909477837ba2308ba54a4
+SHA1: 72f8d55afe806d5824e83c68ec0cd732fe5bf372
+SHA256: f10cb893eb88100b10e9c16552e72526c92badb9ce88d4b0fd1ff4b94e772118
+Section: 软件增强
+Description: 解锁会员权限
+ - 去除软件内广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 🅷🆆
+Name: 千阅-小说阅读-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hw.qianyuevip.json
+
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -2022,27 +2044,6 @@ Description: 缩小键盘与底部的间隙
 Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
-
-Package: lym.com.iosrxwy.qianyue
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.iosrxwy.qianyue
-Replaces: com.iosrxwy.qianyue
-Filename: ./debs/千阅-小说阅读-Rootless.deb
-Size: 78720
-MD5sum: 3225404f7c040baa388aea94a67afd39
-SHA1: 0420a4927784f0ecd16f2b745a289311742fab9e
-SHA256: 0d1b85bc44a2134197d26d3b14b26455e52477384b597d47ce2dd713511e50f9
-Section: 软件增强
-Description: 解锁会员权限
- - 去除软件内广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosrxwy
-Name: 千阅-小说阅读-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.qianyue.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
