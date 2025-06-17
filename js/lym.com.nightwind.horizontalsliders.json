@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "插件开源地址",
+                    "action": "https://github.com/NightwindDev/HorizontalSliders",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 全局日月开关风格\n- 由「乌龙工作室」专业修复\n- 插件有设置项请开启全局效果\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 将控制中心的亮度和音量滑块横过来\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ry.png"
+                                      "url": "https://lu2412.github.io/repo/icon/zz.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ry.png"
+                                      "url": "https://lu2412.github.io/repo/icon/zz.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "Finn Gaida",
+                      "text": "Nightwind",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2",
+                      "text": "0.0.1",
                       "title": "插件版本"
                   },
                   {
@@ -68,14 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.2 \n- 修复日月开关在时钟、QQ音乐中的错位、动画跳变问题"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1\n- 由「乌龙工作室」专业修复"
+                      "markdown": "### 版本 0.0.1 \n- 初始版本"
                   },
               ]
           }

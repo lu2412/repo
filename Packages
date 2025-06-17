@@ -2843,6 +2843,27 @@ Author: Netskao
 Name: WeChatUISwitchLoader微信UI开关-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatuiswitchloader.json
 
+Package: lym.com.nightwind.horizontalsliders
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
+Conflicts: com.nightwind.horizontalsliders
+Replaces: com.nightwind.horizontalsliders
+Filename: ./debs/HorizontalSliders-Rootless.deb
+Size: 10764
+MD5sum: 5fb791ceb508a947f19812a796b8dde5
+SHA1: 4d75e0c89bc645a48f270f6e4f308b9ee7d8ea29
+SHA256: c41cd07c3c2c213a66d3bf0d48317beb42a7fca624900c8a7e4f4c086d8092c6
+Section: 控制中心
+Description: 将控制中心的亮度和音量滑块横过来
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: HorizontalSliders-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.horizontalsliders.json
+
 Package: lym.com.nightwind.onesettings
 Version: 2.2
 Architecture: iphoneos-arm64
@@ -3897,7 +3918,7 @@ Name: VideoAdsSpeed快速跳过广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.lly.adsspee-rootless.json
 
 Package: lym.de.finngaida.daynightswitch
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: Finn Gaida
 Installed-Size: 584
@@ -3905,10 +3926,10 @@ Depends: firmware (>= 14.0), mobilesubstrate
 Conflicts: de.finngaida.daynightswitch
 Replaces: de.finngaida.daynightswitch
 Filename: ./debs/DayNightSwitch日月开关-Rootless.deb
-Size: 68652
-MD5sum: 767a30acc0f0ba9d6bdfa98007332b69
-SHA1: a051af2a725628a3aaa61b95c31713d5b9a5baf9
-SHA256: e0cc22dd4cf226b885d41d2642bc4d5dc27d74ae49b9de18542b3c9b7d3bdbcc
+Size: 69456
+MD5sum: f8fc30fee6817a9edb8c11d3e0c0810c
+SHA1: 00095824bbb61d3690780b666a29aea2c00feb97
+SHA256: c0ec6ca0fd871563876182f89c7994c408ae13680475a4c1d309c8b4b1dfc874
 Section: 系统美化
 Description: 全局日月开关风格
  - 由「乌龙工作室」专业修复
