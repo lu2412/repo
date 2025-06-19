@@ -10,22 +10,30 @@
             "views": [
                 {
                     "text": "插件开发者频道",
-                    "action": "https://t.me/Lx_hub",
+                    "action": "https://t.me/wjrlj",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 用于优化一些反人类设计并增强功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 微信增强插件\n- 支持聊天按钮布局自定义等功能\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{500, 533}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/112233.png"
+                                      "url": "https://lu2412.github.io/repo/icon/yout.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/yout1.png"
+                                  },
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/yout2.png"
                                   }
                             ]
                   },
@@ -43,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-7",
+                      "text": "1.1-8",
                       "title": "插件版本"
                   },
                   {
@@ -53,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月15日",
+                      "text": "2025年06月20日",
                       "title": "最后更新"
                   }
               ]
@@ -64,91 +72,189 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-7 \n- 新增自定义撤回信息\n- 支持自定义自己/对方撤回提示\n- 新增朋友圈圆角\n- 朋友圈界面图片/视频/视频号圆角\n- 表情包圆角优化官方表情视图\n- 修复自拍转表情“移到最前”闪退"
+                      "markdown": "### 版本 1.1-8 \n- 新增朋友圈提示修改\n- 长按修改朋友圈收到点赞/评论的提示\n- 新增应用信息水印自行选择水印样式\n- XY轴位置调整\n- 文本自定义颜色调整\n- 优化伪装版本\n- 移除部分版本的支持\n- 新增最新版本伪装选项\n- 优化信息引用回复处理逻辑\n- 修复部分用户艾特闪退"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.6\n- 新增表情包转自拍\n- 表情包圆角新增预览视图圆角\n- 优化设置界面一些小细节\n- 修复头像边框颜色无法更改"
+                      "markdown": "### 版本1.3.7\n- 新增气泡透明\n- 优化自定义字体覆盖范围\n- 添加气泡动画-樱花\n- 文本颜色区分发送方和接收方单独设置\n- 其他代码优化。"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.5\n- 新增颜色预览视图\n- 新增置顶群特权者\n- 新增朋友圈实况自动播放\n- 支持静音播放"
+                      "markdown": "### 版本1.3.6\n- 其他代细节方面的优化\n- 所有颜色选择部分支持深色浅色单独设置(除触摸轨迹）"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.4\n- 修复部分用户开启消息引用手势功能闪退"
+                      "markdown": "### 版本1.3.5\n- 继续修正可能的卡顿问题\n- 优化自定义字体覆盖范围\n- 版本控制添加微信VersionID查看(如402666021)"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.3\n- 新增消息引用手势\n- 快捷删除对方消息\n- 引用自己消息\n- 手势方向\n- 默认左滑可引用回复对方消息、撤回自身消息\n- 启用快捷删除对方消息\n- 引用回复对方功能将变为删除功能\n- 启用引用自己消息,撤回功能将变为引用消息功能\n- 重构表情包圆角处理逻辑"
+                      "markdown": "### 版本1.3.3\n- 界面净华添加隐藏分割线\n- 已知58版本微信会有概率卡死暂时未知。"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.2\n- 重构隐藏群人数\n- 支持动态居中\n- 重构助手快捷栏样式\n- 移除模态效果,沿用微信原生UI\n- 修复隐藏二维码在最新版微信失效\n- 修复部分用户可能闪退问题"
+                      "markdown": "### 版本1.3.2\n- 临时屏蔽底栏透明度\n- Face ID 背景适配深色模式\n- 新增: 本地检测 123 网盘文件，实现更新检测与更新日志查看\n- 手动触发更新检测方式为，点击版本信息\n- 修复: 使用自定义图片作为触摸轨迹时，潜在的闪退问题，1.0.0版本就存在了\n- 开启透明度导致的卡死问题。遇到卡死时，等待自行闪退，多次闪退后会触发清理缓存，清理即可。"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.1\n- 新增助手快捷栏入口\n- 新增输入状态文案修改\n- 随机文案,自定义文案"
+                      "markdown": "### 版本1.3.1\n- 添加朋友圈界面名称颜色修改\n- 添加设置Tab底栏透明度\n- 触摸轨迹新增点击音效-可自定义(感觉有点吵）\n- 修正可能无法触发Face ID的问题\n- 修正时间标签偶现状态显示不正确的问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.1.0\n- 新增隐藏免打扰图标\n- 重构颜色选择,沿用了iOS官方颜色选择器,更精确的颜色选择\n- 重构提示弹窗,需要重启的功能项提供了取消选项\n- 优化了部分配置项交互以及一些小细节\n- 修复颜色选择器在部分系统上显示异常\n- Ps:颜色选择器因为是iOS14的接口,iOS14及以下做了兼容性处理\n- 默认返回可设置项,理论上可行\n- 我没有iOS13的设备也就没法测试。老问题等我空了再修吧～"
+                      "markdown": "### 版本1.2.9\n- 修复添加字体无反应的问题\n- 修复信息直达冲突(我测试是没问题了的)\n- 时间自定义添加伪已读标签"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.9\n- 新增长按菜单毛玻璃效果\n- 支持自定义毛玻璃颜色\n- 支持自定义毛玻璃透明度"
+                      "markdown": "### 版本1.2.8\n- 信息时间格式优化\n- 顶栏头像优先显示黄白自定义头像"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "与圆角、边框、阴影效果完美兼容\n- 修复部分界面切换时的显示异常"
+                      "markdown": "### 版本1.2.7\n- 自动回复列表添加AI回复\n- 添加虚拟定位"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.8\n- 新增57版本伪装选项\n- 新增圆角头像边框选项\n- 支持自定义边框颜色\n- 支持自定义边框宽度\n- 修复部分用户闪退问题\n- 修复版本切换时的配置冲突\n- 修复部分用户圆角失效问题\n- 重构圆角头像实现方法"
+                      "markdown": "### 版本1.2.0\n- 聊天文本颜色自定义(待实现-双方文本颜色自定义)\n- 关注公众号(dylib会传入123云盘)复读按钮自定义"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.7\n- 新增头像边框\n- 在启用头像圆角后可选择开启边框\n- 边框效果默认为1.5px浅灰色\n- 后续有空了添加自定义\n- 新增禁用微信热更新\n- 启用后需重启微信生效\n- 可以“修复”部分插件因热更新导致的闪退"
+                      "markdown": "### 版本1.1.9\n- 优化检测列表的头像加载方式(完美了)\n- 优化顶栏信息头像加载方式\n- 优化检测通知头像加载方式\n- 信息弹窗UI微调整"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本1.0.-6\n- 新增功能:新增表情包圆角设置\n- 修复了部分已知问题"
+                      "markdown": "### 版本1.1.8\n- 新增屏蔽聊天界面撤回标签(可能会误判)\n- 新增屏蔽聊天界面拍一拍标签(可能会误判)\n- 添加一键重置所有插件配置(非本插件,所有!）\n- 再次尝试修复触摸轨迹自定义图丢失的问题(已经3天没有丢失了)\n- 新增屏蔽语音信息右侧小红点和转语音文字按钮\n- 修复通讯录自定义会失效的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.7\n- 新增输入框支持添加边框\n- 修复占位文本和输入框圆角会被错误应用到微信几乎所有输入框界面\n- 信息弹窗添加点击跳转个人信息入口(临时入口,后期再作修改)\n- 修复一些小的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.6\n- 应某位打赏宝子的需求添加更多的自定义文本\n- 添加占位符,输入框圆角"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.5\n- 新增信息时间显示\n- 修复一些潜在的问题\n- 新增信息时间显示在头像下方位置\n- 时间显示兼容隐藏头像\n- 添加更多可自定义项\n- 新增隐藏聊天界面原生时间标签"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.3\n- 2x5布局支持隐藏\n- 按照你们的要求对隐藏头像进行了解耦\n- 深思熟虑后,决定插件进入END版本,我要去忙我自己的事情了,有缘再更新吧,偷窃的恶劣性质太多了,吃力不讨好的行为,终是昙花一现"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.1\n- 导航栏标题中的网名显示问题\n- 网名标签的最大宽度限制从150像素到250像素\n- 添加了适当的文本截断模式设置\n- 顶栏应该能全部显示了\n- 用户信息弹窗的文本显示问题\n- 标题标签的固定宽度从40像素到60像素\n- 优化了内容布局及UI样式\n- 添加了禁用热更新-Plus版开关列表中阻止加载并执行更新即为Netskao那种禁用热更新\n- 注入密友导致搜索闪退的打开阻止加载主更新包即可解决,禁用热更新也可以(原理都差不多）\n- 加了一个打赏"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.1.0\n- 需要重新设置自定义图\n- 修复触摸轨迹自定义图片会丢失的问题\n- 修复顶栏分隔符自定义图会丢失的问题\n- 修复微信冷启动时圆头像会由方再变圆的问题\n- 这几个版本以修复bug为准暂不添加新功能"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.9\n- 新增点击头像显示对方信息弹窗\n- 新增对方网名可以替换为备注名\n- 新增8.0.57版本伪装\n- 新增可以自定伪装版本（需要版本ID）\n- 推翻重写了一次头像圆角（还闪退真没辙了）\n- 头像范围大小调整至5-45\n- 网名范围大小调整至5-24\n- 信息弹窗有一个不完美的地方就是群聊人数会显示为零"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.8\n- 新增自定义网名位置\n- 尝试性修复圆角闪退的问题,添加了更多的安全检查(我没办法复现)\n- 修复了2x5布局只在私聊,群聊,公众号生效,在其他界面不生效的问题。例如企业联系人"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.7\n- 只针对微信原生做修改,其他插件造成的UI错位就不要反馈了,目前不再考虑之列\n- 支持对插件自定义文本的修改\n- 修复版本号不对的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.6\n- 修复深色模式下名字不可见的情况\n- 修复伪装版本,UI交互不正确的情况"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.4\n- 全局圆形头像支持自定义圆角程度\n- 尝试性修复2x5布局自己页面会有空白的问题(反正我是没问题了)\n- 隐藏头像支持单独控制显示,群聊,私聊,公众号\n- 顶栏信息分隔符支持自定义图片"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.3\n- 修复显示支付与服务时,自定义无效的问题\n- 修复显示订单与卡包时,自定义无效的问题\n- 触摸轨迹新增轨迹支持自定义图片\n- 顶栏信息新增:同时显示对方头像和网名\n- 优化插件设置入口页面的交互\n- 完全重写2x5布局推翻重写\n- 解决所有的已知问题\n- 更加细致化的排序"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.1\n- 允许自定义插件入口位置及名称\n- 列表拖动添加轻微的震动反馈\n- 注入闪退问题解决办法"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0\n- 支持自定义卡片位置\n- 调整了布局的计算逻辑(局中显示)\n- 左滑不能隐藏因为有bug,暂时禁用了"
                   },
               ]
           }
