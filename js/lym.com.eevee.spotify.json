@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "5.9.8",
+                      "text": "6.0",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月28日",
+                      "text": "2025年06月20日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 5.9.8 \n- @sekertr更新了土耳其语本地化\n- 尺寸优化（可能不明显）"
+                      "markdown": "### 版本 6.0 \n- 分享到LiveContainer并显示Instagram目的地功能（由@Laiteux委托）\n- 通过Siri播放特定歌曲\n- 错误时隐藏歌词\n- 修复了歌词不显示在本地曲目上"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本5.9.8\n- @sekertr更新了土耳其语本地化\n- 尺寸优化（可能不明显）"
                   },
                   {
                       "class": "DepictionSeparatorView"
