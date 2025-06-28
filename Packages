@@ -3255,27 +3255,6 @@ Author: Starry6
 Name: 汽水&抖音秒过激励视频-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.lunanoad.json
 
-Package: lym.com.starry6.qishuinoad
-Version: 1.0.0-1
-Architecture: iphoneos-arm64
-Maintainer: starry6
-Installed-Size: 372
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.starry6.qishuinoad
-Replaces: com.starry6.qishuinoad
-Filename: ./debs/QiShuiNoAd汽水音乐精简-Rootless.deb
-Size: 62956
-MD5sum: b0941ba94c6bd01d2377fde6a9d453af
-SHA1: eebf609149f48f358d6b9c99da65848e8261a0a7
-SHA256: 8edf524c92358195e4b4fe1854c9bc02a22707326a414db6ccb218bc387326e9
-Section: 软件增强
-Description: 汽水音乐精简选项
- - 去除开屏广告,秒过激励视频
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: starry6
-Name: QiShuiNoAd汽水音乐精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.qishuinoad.json
-
 Package: lym.com.sunshinesong.split-view-pro
 Version: 1.3.7
 Architecture: iphoneos-arm64
