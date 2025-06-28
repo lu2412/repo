@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.8-5",
+                      "text": "3.8-6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年06月10日",
+                      "text": "2025年06月28日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,21 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.8-5 \n- 修复群助手及其它的一些问题\n- 大部份功能都没修"
+                      "markdown": "### 版本 3.8-6 \n- 可能大概修复了频繁闪退问题\n- 修复新版微信搜索按钮消失问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "20:01"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.8.5\n- 修复群助手及其它的一些问题\n- 大部份功能都没修"
                   },
                   {
                       "class": "DepictionSeparatorView"
