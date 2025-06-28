@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-9",
+                      "text": "1.1-0",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年05月26日",
+                      "text": "2025年06月28日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-9 \n- 新增“删除会话”菜单项\n- 消息列表按压后根据手指位置显示菜单\n- 移除绕过多开限制功能确保稳定性\n- 加入兼容性判断确保不支持按压的地方不会崩溃\n- 修复热更新导致的防撤回失效"
+                      "markdown": "### 版本 1.1-0 \n- 移除刚才修复的助手搜索(助手修了\n- 修复部分客户端配置保存异常(自动关闭)的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.9\n- 新增“删除会话”菜单项\n- 消息列表按压后根据手指位置显示菜单\n- 移除绕过多开限制功能确保稳定性\n- 加入兼容性判断确保不支持按压的地方不会崩溃\n- 修复热更新导致的防撤回失效"
                   },
                   {
                       "class": "DepictionSeparatorView"
