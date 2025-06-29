@@ -1215,6 +1215,28 @@ Author: Bandar Alruwaili
 Name: BHTwitter 中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bandarhl.bhtwitter.json
 
+Package: lym.com.be-huge.custom-notification-sound
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 540
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.custom-notification-sound
+Replaces: com.be-huge.custom-notification-sound
+Filename: ./debs/自定义微信好友通知铃声-Rootless.deb
+Size: 59260
+MD5sum: 8e744d82d0725d70972c74d2f18b22e2
+SHA1: 840651472e9d8aea603bde4e82553220cf224bcd
+SHA256: 55c0f58050adb95ec51161988c8ca1f40e49aac46e8c2ad4c125ca427818a066
+Section: 微信插件
+Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）
+ - 使用方式：在对话框中，长按对方头像即可
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: 自定义微信好友通知铃声-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
+
 Package: lym.com.be-huge.wechat-push-msg-page
 Version: 0.0.5
 Architecture: iphoneos-arm64
