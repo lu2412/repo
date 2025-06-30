@@ -53,23 +53,6 @@ Author: zqbb
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
-Package: com.dopamine.swapforcer
-Version: 0.0.2-7+debug
-Architecture: iphoneos-arm64
-Maintainer: Dopamine User
-Installed-Size: 76
-Depends: mobilesubstrate
-Filename: ./debs/提高应用后台留存率-0.1-虚拟内存机制.deb
-Size: 6046
-MD5sum: 3c3dd30d7b8b3c9c8a68add6b05e5e16
-SHA1: 2f2dc93c007050a0dd695a7147bab81484d6accb
-SHA256: f9f9785f6180f7c12d7fc5463ab235abf466d2f6002fadca421130f2c3094f8a
-Section: Tweaks
-Description: 强制启用并稳定运行iOS 16的Swap机制,提高应用留存率。
-Author: colorBlack
-Name: SwapForcer
-Prefix: /var/jb
-
 Package: com.sini921.fakesignalbar
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -109,22 +92,6 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
-
-Package: com.wangdonghua.backgroundretainer
-Version: 0.0.1-6+debug
-Architecture: iphoneos-arm64
-Maintainer: Your Name
-Installed-Size: 472
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/墓碑机制-提高后台应用留存率-不占用磁盘.deb
-Size: 74744
-MD5sum: e5cfc1d755e0fc037d4ad38f2ba8d7c9
-SHA1: 6c2c24464b043311f3196d8f93826707630e3a13
-SHA256: f1ad1dd922d93381cd9c8fc6f48093082aebfd690ad5bee6b3a2acea97dadcf6
-Section: Tweaks
-Description: 基于iOS墓碑机制的后台应用留存增强插件
-Author: Your Name
-Name: BackgroundRetainer
 
 Package: gaode-Rootless
 Version: 1.0.4
