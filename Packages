@@ -53,24 +53,6 @@ Author: zqbb
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
-Package: com.sini921.fakesignalbar
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: alias20
-Installed-Size: 364
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/FakeSignalBar.deb
-Size: 20268
-MD5sum: 0a03e401eb6fccd653a627e97288737a
-SHA1: 4c49835f4fdf1005ba6339759180b68d78ed49af
-SHA256: cf86d14f1d9760a250aecf839b4e0def820ea15dda1d244c7b6f125f0750ccc0
-Section: 系统增强
-Description: 自定义运营商名称、信号强度、蜂窝连接等等！基于开源汉化编译。
-Author: alias20 & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/fakesignalbar.png
-Name: FakeSignalBar(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/fakesignalbar/js.json
-
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
