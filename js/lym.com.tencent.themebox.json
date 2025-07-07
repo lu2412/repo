@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.8-1",
+                      "text": "2.0.9-1",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年06月30日",
+                      "text": "2025年07月05日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.8-1 \n- 修复因热更新导致输入框背景失效\n- 修复热更新导致因此消息来源失效。"
+                      "markdown": "### 版本 2.0.9-1 \n- 增加底栏抽屉功能\n- 可在首页和聊天窗口使用\n- 修复svg主题svg_color配置无效问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.8\n- 修复因热更新导致输入框背景失效\n- 修复热更新导致因此消息来源失效。"
                   },
                   {
                       "class": "DepictionSeparatorView"

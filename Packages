@@ -633,17 +633,17 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.8-6
+Version: 3.8-7
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 9086420
-MD5sum: 493ab15afa4d251e3d64fecd7f2ae0f2
-SHA1: f225dc498916693cb443b91e09abf4196c8da958
-SHA256: 84630e5d99afd08f9b1babe5616127d760d0d2af7c39bdced2f6b0d5c700c6ea
+Size: 6234408
+MD5sum: aaa9b625d1950b463e7d4528ec13e368
+SHA1: c2879b40676075fb7e260eac6edc073c12e6cbd5
+SHA256: edc95cf0a58836de434df44ae58921070dfe38d1e735e5e5dbeb13e26ab24cdd
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
@@ -3383,18 +3383,18 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.0.8-1
+Version: 2.0.9-1
 Architecture: iphoneos-arm64
 Maintainer: WeChat
-Installed-Size: 9204
+Installed-Size: 9516
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 4008996
-MD5sum: 1f22ef00f0e86f211c6acf792e8e8c33
-SHA1: f2a204fbe4b9a5b79ff44b947d07d0eeeb7a2ced
-SHA256: 14b3613fa906c0e7ba805fbac9ea511591f4765ab41bcf7d739c3e749c9020e7
+Size: 4175676
+MD5sum: 6f8fb1fb473b8863cf8197cdb52588c8
+SHA1: 15dbce27fb305ee9ffc15742cfeb7f64f62eadc6
+SHA256: 1e810f2e29110e5e7a8b82d2961eeceef2a405b3d7541092a8caee92712c8cbc
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
