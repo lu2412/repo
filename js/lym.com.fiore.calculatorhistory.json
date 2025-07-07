@@ -21,8 +21,12 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10,10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
+                                {
+                                      "accessibilityText": "Screenshot",
+                                      "url": "https://lu2412.github.io/repo/icon/123.png"
+                                  },
                                 {
                                       "accessibilityText": "Screenshot",
                                       "url": "https://lu2412.github.io/repo/icon/123.png"
@@ -38,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1.3-1",
+                      "text": "fiore",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.2",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月14日",
-                      "title": "最后更新时间"
+                      "text": "2025年07月08日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -59,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1.3-1 \n- 增加多步计算,修复重复运算符错误"
+                      "markdown": "### 版本 1.2 \n- 重写后端\n- 增加了与CalculatorConverter的兼容性。"
                   },
               ]
           }
