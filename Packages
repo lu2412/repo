@@ -3207,6 +3207,26 @@ Author: Sini921
 Name: Snapper 3繁体文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
 
+Package: lym.com.sini921.fakesignalbar
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 364
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.sini921.fakesignalbar
+Replaces: com.sini921.fakesignalbar
+Filename: ./debs/FakeSignalBar-Rootless.deb
+Size: 20392
+MD5sum: c4995c8058051ca9ff9e321233fb1004
+SHA1: 4ef0c701a4bee19a7665613aa26a402a206a8f93
+SHA256: 7466b0880898bdd6b6907b342092aa12c8762ee7c83f60389d3be5a7ca287494
+Section: 系统增强
+Description: 自定义运营商名称\n- 自定义运营商标签名称\n- 自定义蜂窝网络\n- 在「使用单卡的双卡机型」上,可启用虚假副卡信号\n- 基于开源编译并汉化
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: alias20 & SINI
+Name: FakeSignalBar-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.fakesignalbar.json
+
 Package: lym.com.sini921.zhforsnapper3
 Version: 1.0.4
 Architecture: iphoneos-arm64
