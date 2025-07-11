@@ -2649,6 +2649,30 @@ Author: Netskao
 Name: Twitter NoAds-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.twitternoads.json
 
+Package: lym.com.netskao.wcabtestc2clivephoto
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 72
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wcabtestc2clivephoto
+Replaces: com.netskao.wcabtestc2clivephoto
+Filename: ./debs/强开私聊发送Live图-Rootless.deb
+Size: 2524
+MD5sum: 9898c58bb847df2016d68a8df72ae7f1
+SHA1: 454b8c836d3e80382a24352d4c403371ada5dbd7
+SHA256: db73df9e181d1071bda8fa501e01d080e74f2acb5ed00415a1264980519e98d4
+Section: 微信插件
+Description: 强开私聊发送Live图
+ - 启用微信灰度测试的私聊发送Live图
+ - 应该8.0.57+及以上都可用
+ - 实测未灰度到发送Live图功能的用户也可以看见(安卓除外）
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 强开私聊发送Live图-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestc2clivephoto.json
+
 Package: lym.com.netskao.wcabtestlocalbackup
 Version: 1.1-1
 Architecture: iphoneos-arm64
