@@ -1626,7 +1626,7 @@ Name: YTLite- YouTube增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ytlite.json
 
 Package: lym.com.eevee.spotify
-Version: 6.0
+Version: 6.0.2
 Architecture: iphoneos-arm64
 Maintainer: Lessica <82flex@gmail.com>
 Installed-Size: 1668
@@ -1634,10 +1634,10 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swif
 Conflicts: com.eevee.spotify
 Replaces: com.eevee.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 431620
-MD5sum: 82ef8cb40c85456ae3feb29e3381a373
-SHA1: eaa14e54d1f0393477114f49be5292c89ef35890
-SHA256: a90149c58efa19d2f0df1d5b6aa98188030e9455ae2f7b40119bafac62e383e5
+Size: 432884
+MD5sum: 62990372094c411523a504ca8c13c6f1
+SHA1: 143ff729fd4b6891605e1ef41a3b27172b597232
+SHA256: 95eb27e3625404807e7e78aaf494ec76040b1d5d1975dce295d5c060e61230cd
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
