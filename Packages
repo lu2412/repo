@@ -3193,6 +3193,28 @@ Author: dvntm & SINI
 Name: ShowMyTouches触摸轨迹-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.showmytouches.json
 
+Package: lym.com.sini.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.sini.filzaswipeselect
+Replaces: com.sini.filzaswipeselect
+Filename: ./debs/FilzaSwipeSelect-Rootless.deb
+Size: 8864
+MD5sum: 896271324be64c1f736de7d598cfa6d8
+SHA1: 51d97695900e39f0a9b4bb64a84f43385730c443
+SHA256: 281f1f0e667c45b5d7a228c36e849eaf2f045188cc01aabc85aa4f19624c4e6c
+Section: 软件增强
+Description: 滑动选择Filza的多选功能
+ - 不再单独点击每个文件进行选择
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: korboy <korboybeats@gmail.com>
+Name: FilzaSwipeSelect-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.filzaswipeselect.json
+
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4527,27 +4549,6 @@ Description: 修改系统键盘为圆角
 Author: 无名
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
-
-Package: lym.xyz.cypwn.filzaswipeselect
-Version: 0.0.1~beta1
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: xyz.cypwn.filzaswipeselect
-Replaces: xyz.cypwn.filzaswipeselect
-Filename: ./debs/FilzaSwipeSelect-Rootless.deb
-Size: 8964
-MD5sum: 5cf78b87eb67fd56e105461fad0074ab
-SHA1: be6e75d0e9a501c08cb98783ec747edda6c076cd
-SHA256: 0364cbde5a67fe27e5b96d41cd43f66f04517616ce50fed9bb1e4f5145fb325a
-Section: 软件增强
-Description: 滑动选择Filza的多选功能
- - 不再单独点击每个文件进行选择
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Korboy <korboybeats@gmail.com>
-Name: FilzaSwipeSelect-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xyz.cypwn.filzaswipeselect.json
 
 Package: lym.xyz.cypwn.movenotification16
 Version: 1.0
