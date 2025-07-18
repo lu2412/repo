@@ -29,7 +29,7 @@
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/xc1.png"
+                                      "url": "https://lu2412.github.io/repo/icon/xc.png"
                                   }
                             ]
                   },
@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "iOSign",
+                      "text": "苏苏",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.6-2",
+                      "text": "1.0.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月29日",
+                      "text": "2025年07月19日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.6-2 \n- 由flex3补丁转换插件"
+                      "markdown": "### 版本 1.0.1 \n- 初始版本"
                   },
               ]
           }

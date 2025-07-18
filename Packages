@@ -463,32 +463,6 @@ Author: i0s-tweak3r
 Name: 农业银行屏蔽-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.nyyh.json
 
-Package: lym.byg.iosios.net.photos.rootless
-Version: 0.0.6-2
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: byg.iosios.net.photos.rootless
-Replaces: byg.iosios.net.photos.rootless
-Filename: ./debs/相册精简增强-Rootless.deb
-Size: 4336
-MD5sum: c72a42e79c14518410ed661a7149380c
-SHA1: eb8050e0eaed8afada36420bca7412d8816ffc67
-SHA256: a155db0f98f13231dc2c4a2da6a662c9e665545d20c2560aae5c9c49d7d5a849
-Section: 系统增强
-Description: 相册精简增强
- - 去除人物地点,去除个人收藏
- - 去除媒体类型,去除底部搜索和为你推荐
- - 去除浏览照片时下方的横幅,开启全选
- - 显示相册封面,删除照片无需确认
- - 屏蔽第三方App文件夹仅保留最近项目
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: iOSign
-Name: 相册精简增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.photos.rootless.json
-
 Package: lym.byg.iosios.net.settingswidgets.rootless
 Version: 1.2.3.1
 Architecture: iphoneos-arm64
@@ -3365,6 +3339,32 @@ Description: 已去除联网验证(网传删除node方法)
 Author: sunshinesong
 Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
+
+Package: lym.com.susu.photos
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: 苏苏
+Installed-Size: 168
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.susu.photos
+Replaces: com.susu.photos
+Filename: ./debs/SuPhotos相册精简增强-Rootless.deb
+Size: 4036
+MD5sum: cd8868922a2c142daa1cefd37ec8f4d6
+SHA1: 6783cf19b5e698c4d1814309d3a30a7d1795a89d
+SHA256: a2733a3e0a74f61c788dc567f6d1fec0a5b5bf4ac8f1d19acbd120766aa8aff8
+Section: 系统增强
+Description: 相册精简增强
+ - 去除人物地点,去除个人收藏
+ - 去除媒体类型,去除底部搜索和为你推荐
+ - 去除浏览照片时下方的横幅,开启全选
+ - 显示相册封面,删除照片无需确认
+ - 屏蔽第三方App文件夹仅保留最近项目
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: 苏苏
+Name: SuPhotos相册精简增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susu.photos.json
 
 Package: lym.com.susu.suxhshook
 Version: 1.0
