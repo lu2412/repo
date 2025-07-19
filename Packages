@@ -1022,27 +1022,6 @@ Author: baiy
 Name: KeyboardHook键盘美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.keyboardhook.json
 
-Package: lym.com.baiy.qqroundedcorners
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: baiy <QQ：961666883>
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.baiy.qqroundedcorners
-Replaces: com.baiy.qqroundedcorners
-Filename: ./debs/QQ圆角输入搜索框-Rootless.deb
-Size: 3700
-MD5sum: 639fe0deddc59bbbf4f921fb26d279e1
-SHA1: c7594f05dc6d2489de2e1f38635a5059fd07b777
-SHA256: 82e8e50601d5c31a8b7e25f5058e76694608ee01a89a50064315cbbb9a54167e
-Section: 软件增强
-Description: 修改QQ聊天输入框和QQ搜索界面为圆角样式
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: baiy <QQ：961666883>
-Name: QQ圆角输入搜索框-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.qqroundedcorners.json
-
 Package: lym.com.bandarhl.bhtwitter
 Version: 4.4-1+debug
 Architecture: iphoneos-arm64
@@ -2150,27 +2129,6 @@ Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.appdata.json
 
-Package: lym.com.netskao.awemealwaysshowtime
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 56
-Depends: mobilesubstrate, firmware (>= 12.0)
-Conflicts: com.netskao.awemealwaysshowtime
-Replaces: com.netskao.awemealwaysshowtime
-Filename: ./debs/AwemeAlwaysShowTime显示视频发布时间-Rootless.deb
-Size: 2488
-MD5sum: 4b7a3d425607c56235b4554ba1583923
-SHA1: d810f8e8c187754e1fd97c7a20b0fc1bb24ff690
-SHA256: 37d37f144e93c642a7123e3b4e1fb99d02b6f3de479512d9d517ce77803f4554
-Section: 抖音插件
-Description: 抖音视频底部显示视频发布时间
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeAlwaysShowTime显示视频发布时间-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemealwaysshowtime.json
-
 Package: lym.com.netskao.awemeclearlikes
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -2283,50 +2241,6 @@ Description: 去除启动广告
 Author: Netskao
 Name: AwemeNoAds去除抖音广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemenoads.json
-
-Package: lym.com.netskao.awemesaveemoji
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 224
-Depends: firmware (>= 12.0), mobilesubstrate
-Conflicts: com.netskao.awemesaveemoji
-Replaces: com.netskao.awemesaveemoji
-Filename: ./debs/AwemeSaveEmoji抖音保存表情-Rootless.deb
-Size: 75236
-MD5sum: 1459a31ec0b467da420f2980263b975c
-SHA1: 83ff7d3f431fc5667c2e9466ebd8476b5f0c914c
-SHA256: 429cd4f61d80ccbaff76ef27090001f578fc9b97178e434248abe5f7f0b55308
-Section: 抖音插件
-Description: 抖音评论区表情保存
- - 开启功能后只有评论区中长按表情才可保存至相册(不要点开放大表情)
- - 插件位于抖音设置内,默认关闭
- - 保存评论表情功能仅在32.3.0版本上测试
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeSaveEmoji抖音保存表情-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemesaveemoji.json
-
-Package: lym.com.netskao.awemevideotime
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 124
-Depends: firmware (>= 15.0), mobilesubstrate
-Replaces: com.netskao.awemevideotime
-Filename: ./debs/AwemeVideoTime抖音时间-Rootless.deb
-Size: 31772
-MD5sum: 524b9f714323589ffc370d8fe6b983e8
-SHA1: f6d0fb55ef1f4082c8df74223662bca94942b82b
-SHA256: 34f4e4f2c5efec93bce45d0407a216a23de8055f0ad21e6c1a0ee8be6a5939e6
-Section: 抖音插件
-Description: 抖音增强插件
- - 抖音视频下方显示视频时长
- - 仅在30.3.0及更高版本上进行测试
- - 插件无设置项安装即可生效后请于24小时内删除!
-Author: Netskao
-Name: AwemeVideoTime抖音时间-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemevideotime.json
 
 Package: lym.com.netskao.qqipadmodelogin
 Version: 1.1-1
@@ -2846,27 +2760,6 @@ Description: IOS原生键盘增强功能
 Author: MiRO <tweaks_support@miro92.com>
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
-
-Package: lym.com.qqavatarrotation
-Version: 1.1.0-1
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.qqavatarrotation
-Replaces: com.qqavatarrotation
-Filename: ./debs/QQ头像旋转-Rootless.deb
-Size: 3856
-MD5sum: 9c2a52155284f2d801f805a4a1b9cc4c
-SHA1: a4e30535d14d1f8b9db937fd53a34ddadd83b82a
-SHA256: 231c2e4e88e1508b41c5ef9ff4e320ec5a0462a6fb999fc55ec2773260640c90
-Section: 软件增强
-Description: QQ内各种头像旋转
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: SINI
-Name: QQ头像旋转-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.qqavatarrotation.json
 
 Package: lym.com.raulsaeed.bhtiktok++
 Version: 1.9.3
