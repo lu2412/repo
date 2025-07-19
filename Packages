@@ -95,26 +95,6 @@ Author: 无名
 Name: 京东去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/jd-Rootless.json
 
-Package: lym.DayNigthSwitch
-Version: 1.0-0
-Architecture: iphoneos-arm64
-Maintainer: Misaka
-Depends: mobilesubstrate
-Conflicts: DayNigthSwitch, DayNigthSwitch
-Replaces: DayNigthSwitch, DayNigthSwitch
-Filename: ./debs/微信日月开关-Rootless.deb
-Size: 218336
-MD5sum: 7d5cd3032e939bdd4317fdfc437ceccb
-SHA1: 9bef0838b1ce7d950b717666551118248d2b8227
-SHA256: d8378ed5643075ba591e43d3cc474be68f2b6a958a368af34c531110e03655ad
-Section: 微信插件
-Description: 微信日月开关标签
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Misaka
-Name: 微信日月开关-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.DayNigthSwitch.json
-
 Package: lym.Eclectic.Themes
 Version: 2.6
 Architecture: iphoneos-arm64
@@ -818,26 +798,6 @@ Description: 给灵动岛的外框内框添加自定义颜色,通知背景颜色
 Author: MoreColor
 Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
-
-Package: lym.com.Axs.switchtheme
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: baiy（qq：961666883））
-Installed-Size: 272
-Depends: mobilesubstrate
-Conflicts: com.Axs.switchtheme
-Replaces: com.Axs.switchtheme
-Filename: ./debs/日月开关2-Rootless.deb
-Size: 37588
-MD5sum: 7cc004f38e564a6e70918ba17f7340bb
-SHA1: 667298d7d7de7fb9e91da871ef014188dedfb190
-SHA256: fa7a42ebf58fbc573159631d4428386fb6e04e09d1176a7b878ebcfb914385f8
-Section: 系统增强
-Description: 这是一款款全新的开关主题\n- 通过模拟太阳升起与落下的动画效果\n- 带来极致流畅且视觉惊艳的替代体验。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 白衣
-Name: 日月开关2-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.switchtheme.json
 
 Package: lym.com.BeanbunsHelpers.DB
 Version: 1.0-4
@@ -1805,27 +1765,6 @@ Description: 奇点阅读去除三个首页面广告
 Author: iosrxwy
 Name: 奇点阅读去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
-
-Package: lym.com.iosrxwy.tianqiheihei
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.iosrxwy.tianqiheihei
-Replaces: com.iosrxwy.tianqiheihei
-Filename: ./debs/和风墨迹莉景天气解锁-Rootless.deb
-Size: 274720
-MD5sum: fd80aee03e63b2085e8633a15d77cbc5
-SHA1: be9264ee36c28fc374b4506f5403a7ebde956f34
-SHA256: 61e53cf42123b0a10f8e596c14b937edf0955d91ffc4cbf9ca0b526868fa8e62
-Section: 软件增强
-Description: 解锁和风天气、墨迹天气、莉景天气会员
- - 天气通去广告。TG@iosrxwy
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosrxwy
-Name: 和风墨迹莉景天气解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.tianqiheihei.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
@@ -2963,27 +2902,6 @@ Author: WeChat
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.json
 
-Package: lym.com.tiaotiao.betteruiswitch
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 232
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.tiaotiao.betteruiswitch,lym1.com.tiaotiao.betteruiswitch
-Replaces: com.tiaotiao.betteruiswitch
-Filename: ./debs/全局版开关UI(白圈按钮版本)-Rootless.deb
-Size: 49156
-MD5sum: 5d27182ea1a3abe72284319b278fcbce
-SHA1: 1effdf4f9ed39f23bb65a95dee4f4cdbec0e0799
-SHA256: 0c09403bb025112d3989bbc11511629d5fd47284d4bcbe6a081215521a3342ac
-Section: 系统美化
-Description: 全局版开关UI(涩涩版)
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: TiaoTiao
-Name: 全局版开关UI(白圈按钮版本)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.tiaotiao.betteruiswitch.json
-
 Package: lym.com.tiaotiao.wcaddborders
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -3274,28 +3192,6 @@ Author: x✨
 Name: 皮皮虾图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.ppxhook.json
 
-Package: lym.com.xx.qmxshook
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 400
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.qmxshook
-Replaces: com.xx.qmxshook
-Filename: ./debs/七猫免费小说去广告-Rootless.deb
-Size: 115100
-MD5sum: 8875e49d12b87c140ffa88619f638995
-SHA1: 4e9842ced6ec171a2136b619b276e6ec16e95b23
-SHA256: 8396ae2aa253a257ff9c66cbf2fb33eac205de6ddd10e86a40cdd0b93af3854b
-Section: 软件增强
-Description: 开通免广告权益
- - 仅支持7.63.10版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 七猫免费小说去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qmxshook.json
-
 Package: lym.com.xx.qqhook
 Version: 1.1.5
 Architecture: iphoneos-arm64
@@ -3319,30 +3215,6 @@ Description: QQ功能增强
 Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
-
-Package: lym.com.xx.wccallkit
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 72
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.wccallkit
-Replaces: com.xx.wccallkit
-Filename: ./debs/微信CallKit-Rootless.deb
-Size: 7492
-MD5sum: 643416003a4a05b4d0b5a54419878d88
-SHA1: bf1ca8f9a4c5d728f602c127730d68d9d375f70a
-SHA256: cca32da08d8db3582e9230a663f5524160d3234a0d684966f55afe0b9db2b290
-Section: 微信插件
-Description: 为微信开启Callkit功能
- - 仅支持微信最新版(在8.0.46测试)
- - 可能需要微信在后台才有效果
- - 搭配伪装33可无后台Callkit
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 微信CallKit-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.wccallkit.json
 
 Package: lym.com.xx.wsyhnojb
 Version: 1.0.0
@@ -3942,24 +3814,6 @@ Author: Elias Limneos <limneoselias@gmail.com>
 Name: uncar提取car图像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.uncar.json
 
-Package: lym.weixinipad-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: weixinipad-Rootless
-Filename: ./debs/微信启用ipad登陆-Rootless.deb
-Size: 4240
-MD5sum: 672870340b9f2e6670e64fa0350e88e2
-SHA1: b8e7fdc846b3831f69a45ab011bfbc824bdd20b6
-SHA256: a871d77c385c0f17818c5200e0205babccce77f155a80d2563d062493b1826ef
-Section: 微信插件
-Description: 微信启用ipad登陆
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 微信启用ipad登陆-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.weixinipad-Rootless.json
-
 Package: lym.ws.hbang.newterm3
 Version: 3.0~beta1
 Architecture: iphoneos-arm64
@@ -4096,27 +3950,6 @@ Description: Snapper 3自用蓝色发光文字美化图标
 Author: lym
 Name: Snapper 3蓝色发光文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
-
-Package: lym1.com.tiaotiao.betteruiswitch
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 232
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.tiaotiao.betteruiswitch,lym.com.tiaotiao.betteruiswitch
-Replaces: com.tiaotiao.betteruiswitch
-Filename: ./debs/全局版开关UI(透明按钮版本)-Rootless.deb
-Size: 58572
-MD5sum: 6d801d0137d4856ca7104d43de4891e1
-SHA1: 027e680480471cf910ff3d1de759c24bb55b7e17
-SHA256: 47a7dee50b4e4ed09d0a19b288dc4a7ce77a63f01587d22a75794c1aceed9de6
-Section: 系统美化
-Description: 全局版开关UI(涩涩版)
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: TiaoTiao
-Name: 全局版开关UI(透明按钮版本)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.tiaotiao.betteruiswitch.json
 
 Package: qqipad-Rootless
 Version: 1.1-1
