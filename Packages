@@ -2996,28 +2996,6 @@ Author: QW
 Name: 解决微信通知不显示内容-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat.wxhook.json
 
-Package: lym.com.wkk.tiebahook
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 400
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.wkk.tiebahook
-Replaces: com.wkk.tiebahook
-Filename: ./debs/百度贴吧去广告-Rootless.deb
-Size: 78028
-MD5sum: 87cfda77a40be9a0501992f83d0826fd
-SHA1: be6700bea62983100cb78d7cda816ae8affc0fe2
-SHA256: 49457fec17311d91e2e840e48b23d8b586f5c3a2d972080f518388959bffc3c4
-Section: 软件增强
-Description: 去除百度贴吧广告
- - 无效请卸载
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: 百度贴吧去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.tiebahook.json
-
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
 Architecture: iphoneos-arm64
