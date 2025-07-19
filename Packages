@@ -17,25 +17,6 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: baiduwangpan-Rootless
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/百度网盘下载文件导出-Rootless.deb
-Size: 142176
-MD5sum: 4a7f36f091d3d8553c33634bd1f12b90
-SHA1: a7be5d0de7d6b316eb4bd597eb4c15876370c88f
-SHA256: 0b42fc3557e087d1c908db9621aecc4df5ce9090f8239272fe61ee394f3291bd
-Section: 软件增强
-Description: 百度网盘文件导出
- - 下载缓存文件添加导出按钮
- - 免去每次进入路径寻找下载文件的繁琐方式
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 百度网盘下载文件导出-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/baiduwangpan-Rootless.json
-
 Package: cn.zqbb.disupdateapp
 Version: 2.0.0-5
 Architecture: iphoneos-arm64
@@ -989,25 +970,6 @@ Description: 微信插件文本转语音(付费功能）
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
-
-Package: lym.com.HideMfWeb
-Version: 0.1-2
-Architecture: iphoneos-arm64
-Maintainer: 黄白
-Depends: firmware (>= 5.0), mobilesubstrate
-Replaces: com.HideMfWeb
-Filename: ./debs/隐藏其它设备在线提示-Rootless.deb
-Size: 13672
-MD5sum: f188cd5b21985acd09cd7d9d70a8d2bb
-SHA1: 8e2fc2f9910b974430676a37ff3f566c98359018
-SHA256: 54b1899e8fc91ea8ae292d8c166d9fcd7795fc0d5f48cc29f727888bc7546ee5
-Section: 微信插件
-Description: 隐藏微信其它设备在线提示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 黄白
-Name: 隐藏其它设备在线提示-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.HideMfWeb.json
 
 Package: lym.com.anthopak.quickprefs-rootless
 Version: 1.3.3
