@@ -174,49 +174,6 @@ Author: girl2023
 Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
-Package: lym.MikotoHelper
-Version: 1.3.6.2
-Architecture: iphoneos-arm64
-Maintainer: Mikoto
-Depends: mobilesubstrate
-Conflicts: MikotoHelper, MikotoHelper
-Replaces: MikotoHelper, MikotoHelper
-Filename: ./debs/Mikoto助手-Rootless.deb
-Size: 21113436
-MD5sum: 941d5d7cca08dacc84d8da20ecbd07b1
-SHA1: 07b55ffe4addefc171cf44bb4f4f0c4d163ad892
-SHA256: 3b84344877676b044990d60a49f96df482ac571d8a811bf825618e8f407114d7
-Section: 微信插件
-Description: 微信多功能插件
- - Mikoto插件不能与Misaka插件共存
- - 但是插件设置可以通用
- - 本插件不允许注入任何修改插件信息的插件，部分功能也有可能与其它插件冲突
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mikoto
-Name: Mikoto助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MikotoHelper.json
-
-Package: lym.MisakaHelper
-Version: 2.1.1
-Architecture: iphoneos-arm64
-Maintainer: Misaka
-Depends: mobilesubstrate
-Conflicts: MisakaHelper, MisakaHelper
-Replaces: MisakaHelper, MisakaHelper
-Filename: ./debs/Misaka微信助手END1-Rootless.deb
-Size: 13207724
-MD5sum: b348cd064d7d32f906a07f7b64253883
-SHA1: c43e897ac731e47a430824f15a6f05baa98c4b03
-SHA256: 37e89dae01fe451a153742a3d43620e0c0a7809725417a04baffe3953c8bee66
-Section: 微信插件
-Description: 微信misaka助手
- - MisakaHelper最终END版,已停止维护
- - 和其它类型微信插件类似,更多群功能!自行体验!
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Misaka
-Name: Misaka微信助手END1-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MisakaHelper.json
-
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -691,28 +648,6 @@ Author: Mao
 Name: 微信URL scheme扩展-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
 
-Package: lym.com.82flex.artworkspinner
-Version: 1.6
-Architecture: iphoneos-arm64
-Maintainer: Lessica
-Installed-Size: 424
-Depends: firmware (>= 14.0), mobilesubstrate
-Conflicts: com.82flex.artworkspinner
-Replaces: com.82flex.artworkspinner
-Filename: ./debs/ArtworkSpinner旋转专辑-Rootless.deb
-Size: 39412
-MD5sum: 9e1209194f908959f4076f8ca7613d81
-SHA1: b07cf7584c56a350e9d149e35e0dd51f5978c66b
-SHA256: c28df9a861fd2bcf912912a19beeca196758f4a4f845482605f9143c0dafb753
-Section: 系统增强
-Description: 播放音乐时旋转专辑封面
- - 支持灵动岛和锁屏页面
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Lessica
-Name: ArtworkSpinner旋转专辑-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.82flex.artworkspinner.json
-
 Package: lym.com.82flex.iconrestore
 Version: 1.7
 Architecture: iphoneos-arm64
@@ -1108,27 +1043,6 @@ Author: baiy <QQ：961666883>
 Name: QQ圆角输入搜索框-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.qqroundedcorners.json
 
-Package: lym.com.baiy.wechatrotate
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: baiy（qq:961666883）
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.baiy.wechatrotate
-Replaces: com.baiy.wechatrotate
-Filename: ./debs/微信头像旋转-Rootless.deb
-Size: 6988
-MD5sum: 61be92a3b02ed7de770c57765eefb745
-SHA1: e58198cb9754ba69dd6e4098d8d0ee7ed36d6b2a
-SHA256: ad1425bd71ed08b87dc3c49a46a89df1c8b1855b7b2c2c9a78cd93aaaa81a9cf
-Section: 微信插件
-Description: 微信头像旋转
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: baiy
-Name: 微信头像旋转-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.baiy.wechatrotate.json
-
 Package: lym.com.bandarhl.bhtwitter
 Version: 4.4-1+debug
 Architecture: iphoneos-arm64
@@ -1408,27 +1322,6 @@ Description: DeletePhotosCompletely相册添加彻底删除按钮
 Author: Netskao
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
-
-Package: lym.com.developlab.appbadge
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: developlab
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
-Conflicts: com.developlab.appbadge
-Replaces: com.developlab.appbadge
-Filename: ./debs/AppBadge-Rootless.deb
-Size: 8328
-MD5sum: ebd1f2cc541da2d3643b1ef2c1384e3f
-SHA1: e5dc6383be312293f6d78b908d7a0abfa73d34a3
-SHA256: c2277c42a1be9f2854acbf113aa3c1814044b43a94575a4a4b2f0e2bb563a4e4
-Section: 系统增强
-Description: 灵动岛或者刘海下面(Z轴)显示app的图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: developlab
-Name: AppBadge-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.developlab.appbadge.json
 
 Package: lym.com.dumpapp.wechat
 Version: 2.0.6
@@ -1770,29 +1663,6 @@ Author: huami
 Name: 抖音魔术师-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
 
-Package: lym.com.huami.fixmiyoutoolbar
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.fixmiyoutoolbar
-Replaces: com.huami.fixmiyoutoolbar
-Filename: ./debs/FixMiyouToolBar修复助手工具栏-Rootless.deb
-Size: 5592
-MD5sum: 342eea316d62b30feab2c6fdedd64ee1
-SHA1: a7c67a8372eae1279a3ec16e7c2c2a2ac6554b94
-SHA256: 6e09255f5ceabc370823bfb498ca5c4e9521cdd55fd511d02df27eec4a43f1e0
-Section: 微信插件
-Description: 修复因热更新导致的微信助手工具栏失效问题
- - 请勿在低于8.0.56的版本使用,以避免冲突。
- - 安装后可卸载禁用热更新插件,以免插件冲突。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: FixMiyouToolBar修复助手工具栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.fixmiyoutoolbar.json
-
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -1941,27 +1811,6 @@ Description: Wi-Fi万能极速版
 Author: Huayuarc <xuanhua880@gmail.com>
 Name: Wi-Fi万能钥匙极速版解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.wifiwnyshooks.rootless.json
-
-Package: lym.com.hw.aptv
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 🅷🆆
-Installed-Size: 596
-Depends: mobilesubstrate
-Conflicts: com.hw.aptv
-Replaces: com.hw.aptv
-Filename: ./debs/APTV解锁-Rootless.deb
-Size: 105928
-MD5sum: 11b7db6bc224fe72888b9a60f0bd1452
-SHA1: c6946a0770eb2e807b943eeb8c160fa1c16753fb
-SHA256: 936e870d7ea4c0af57bcf6281572095e321f275bf300a4e4d7894cf87740d209
-Section: 软件增强
-Description: 解锁APTV会员
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 🅷🆆
-Name: APTV解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hw.aptv.json
 
 Package: lym.com.hw.qianyuevip
 Version: 0.0.1
@@ -4160,27 +4009,6 @@ Description: 长按键盘滑动光标
 Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
-
-Package: lym.jp.uzra.enabledsreturn
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: uz.ra
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: jp.uzra.enabledsreturn
-Replaces: jp.uzra.enabledsreturn
-Filename: ./debs/DeepSeek_发送改为换行-Rootless.deb
-Size: 4704
-MD5sum: ab2eef99f6340eabd0b1f6837c1bd4cc
-SHA1: becabc4936580fda91390cf9b3ee37c218e121cc
-SHA256: 42ba4e64abdb06f4d02edccb8c584646990fdcc29db75bc8f0b0a76e6f3d2501
-Section: 软件增强
-Description: 将DeepSeek软件内键盘按钮由发送改为换行键
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: uz.ra
-Name: DeepSeek_发送改为换行-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.jp.uzra.enabledsreturn.json
 
 Package: lym.kuwo-Rootless
 Version: 1.0
