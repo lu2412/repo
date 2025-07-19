@@ -669,26 +669,6 @@ Author: Lessica <82flex@gmail.com>
 Name: Icon Restore 图标时光机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.iconrestore.json
 
-Package: lym.com.82flex.noredirects
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 468
-Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
-Conflicts: com.82flex.noredirect, com.82flex.noredirects
-Replaces: com.82flex.noredirects
-Filename: ./debs/No Redirect 禁字诀-Rootless.deb
-Size: 44304
-MD5sum: 6478a9028faf03ebd24b8fa24f82ef53
-SHA1: 3760b04be93472569c7fd208aee933b2182b1203
-SHA256: b6271b2553fad53d2db8342e5b8f224ffd6617604b40d4d7bdfb560318ddd74c
-Section: 系统增强
-Description: 阻止指定的应用重定向到 App Store、Safari 或其他应用。
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Lessica <82flex@gmail.com>
-Name: No Redirect 禁字诀-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.noredirects.json
-
 Package: lym.com.82flex.ohmyinsetss
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -1301,28 +1281,6 @@ Description: DeletePhotosCompletely相册添加彻底删除按钮
 Author: Netskao
 Name: DeletePhotosCompletely相册添加彻底删除按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.deletephotoscompletely-rootless.json
-
-Package: lym.com.dumpapp.wechat
-Version: 2.0.6
-Architecture: iphoneos-arm64
-Maintainer: DumpApp
-Depends: mobilesubstrate, firmware (>= 12.0)
-Conflicts: com.dumpapp.wechat
-Replaces: com.dumpapp.wechat
-Filename: ./debs/锤子助手-Rootless.deb
-Size: 10514396
-MD5sum: 7813e6367e811030935423765f27d062
-SHA1: b5af0f36a031271d3a5d8ae7ff67b586825a560a
-SHA256: 1398d2225d515e4da4135b5cda8c6ef0e3897e98da3887cce0f060385a74e546
-Section: 微信插件
-Description: 复刻[微信净化]插件
- - 越狱安装可能会和滑雪板UI扩展冲突
- - 导致微信无限闪退安全模式!
- - 功能基本一致,注意不可与净化共存
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: DumpApp
-Name: 锤子助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dumpapp.wechat.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
@@ -2041,27 +1999,6 @@ Author: Ruphane
 Name: AirPods PodsGrant耳机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogrs.json
 
-Package: lym.com.lym.WXHelper
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Depends: firmware (>= 5.0), mobilesubstrate
-Replaces: com.lym.WXHelper
-Filename: ./debs/WXHelper助手-Rootless.deb
-Size: 9264592
-MD5sum: 7e5750e131cbbb45c7e09c62cefb47cd
-SHA1: cb7c17f20996d765faf6d8928d12611948b02b48
-SHA256: 3f7f35b34b8e081230f0d5ec270b82928c99b48735abe90618f36e72fc4a6643
-Section: 微信插件
-Description: 文件/视频转语音
- - GPTAI文字转语音
- - 语音进度拖动
- - 骰子作弊等功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: WXHelper助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.lym.WXHelper.json
-
 Package: lym.com.marsnakly.heiseztjp
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2219,29 +2156,6 @@ Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
-Package: lym.com.netskao.awemenoads
-Version: 1.1-3
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 140
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.awemenoads
-Replaces: com.netskao.awemenoads
-Filename: ./debs/AwemeNoAds去除抖音广告-Rootless.deb
-Size: 32848
-MD5sum: 224911fbe64b4febbbcf5eb6505075a1
-SHA1: 6beab08f8b39ed04d70ae587e7c87932e3e2dedc
-SHA256: dd5b8783220d25cd56ff7d8ac501edd4f85cd5f8d619e5633fd1baa39c94855e
-Section: 抖音插件
-Description: 去除启动广告
- - 去除视频广告
- - 去除青少年提醒
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeNoAds去除抖音广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemenoads.json
-
 Package: lym.com.netskao.qqipadmodelogin
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2351,49 +2265,6 @@ Author: Netskao
 Name: 强开私聊发送Live图-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestc2clivephoto.json
 
-Package: lym.com.netskao.wcabtestlocalbackup
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.netskao.wcabtestlocalbackup
-Replaces: com.netskao.wcabtestlocalbackup
-Filename: ./debs/WCABTestLocalBackup-Rootless.deb
-Size: 2844
-MD5sum: 0b40950f08672434d05bc57a2f4c6b97
-SHA1: 99a05a25f2412acd9b3cd728033ad2826ba213be
-SHA256: e7a7b8b524c346fdb9a59d4d3f9153dde1bde43ef2dec1566394ce958d3cd461
-Section: 微信插件
-Description: 强制启用AB微信测试的本地备份
- - 仅限8.0.50及以上版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: WCABTestLocalBackup-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestlocalbackup.json
-
-Package: lym.com.netskao.wcabtesttimelineemoticonorimage
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcabtesttimelineemoticonorimage
-Replaces: com.netskao.wcabtesttimelineemoticonorimage
-Filename: ./debs/强开朋友灰度功能评论表情图片-Rootless.deb
-Size: 2548
-MD5sum: 7796a1b223d8f610b27c3d2cd7ab3fe8
-SHA1: d4e81abfaa329864b87080291f69625ba0a9b8a4
-SHA256: 66ce55222d36d3b8ea028c6a8b3cb64e39d5b02777cc6d8599c2fb21efde7445
-Section: 微信插件
-Description: 强开朋友灰度功能:评论表情/图片
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 强开朋友灰度功能评论表情图片-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtesttimelineemoticonorimage.json
-
 Package: lym.com.netskao.wcabtestvoicerecordview
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2414,28 +2285,6 @@ Description: 在微信8.0.60开启新的语音按钮UI
 Author: Netskao
 Name: 微信开启新语音按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestvoicerecordview.json
-
-Package: lym.com.netskao.wcdisablehotupdates
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcdisablehotupdates
-Replaces: com.netskao.wcdisablehotupdates
-Filename: ./debs/微信禁用热更新-Rootless.deb
-Size: 2492
-MD5sum: bb174820c5a8986f48ea4603292dd70f
-SHA1: 2d3db82675ba2bc3269cf9949de156938884d2d4
-SHA256: 66c23a1b8e8955e1d44c1483816c4326c7c9e33bfffdce3765775894311dab48
-Section: 微信插件
-Description: 微信禁用热更新
- - 热更新是通过动态下发和加载代码，在APP或SDK不重新下载和安装的情况下，改变其原有代码逻辑或资源文件
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: 微信禁用热更新-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcdisablehotupdates.json
 
 Package: lym.com.netskao.wcisoverseauser
 Version: 1.1-1
@@ -2588,27 +2437,6 @@ Description: 让微信消息通知显示微信好友头像
 Author: Netskao
 Name: WeChatNotiAvatar微信头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatnotiavatar.json
-
-Package: lym.com.netskao.wechatuiswitchloader
-Version: 1.1-5
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 304
-Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.netskao.wechatuiswitchloader
-Replaces: com.netskao.wechatuiswitchloader
-Filename: ./debs/WeChatUISwitchLoader微信UI开关-Rootless.deb
-Size: 119416
-MD5sum: a901b77dbaa46308f24339894c609acc
-SHA1: 778cd15ca23a4360be5e8bb261adfcb78a395d7d
-SHA256: e7d0bef85f1a412477cc82213f63156ddef178070b3c30baaa114ac4168795d4
-Section: 微信插件
-Description: 微信UI开关
- - 有设置项可自行添加素材
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: WeChatUISwitchLoader微信UI开关-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatuiswitchloader.json
 
 Package: lym.com.nightwind.horizontalsliders
 Version: 0.0.1
