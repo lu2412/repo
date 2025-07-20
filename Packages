@@ -3560,25 +3560,6 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
-Package: lym.kuwo-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Conflicts: kuwo-Rootless
-Replaces: kuwo-Rootless
-Filename: ./debs/酷我畅听解锁-Rootless.deb
-Size: 64540
-MD5sum: 33856740de8d193212c9370b93522973
-SHA1: 89797026b46a21b62e4269c7ce7da8e563692fb8
-SHA256: 6f132b35e5dcd17f0da945bfc6128de2a607154640befd0f6af5ca53d787dd37
-Section: 软件增强
-Description: 酷我畅听解锁会员
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: 酷我畅听解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.kuwo-Rootless.json
-
 Package: lym.me.lau.atria
 Version: 1.4.1
 Architecture: iphoneos-arm64
