@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.9-1",
+                      "text": "2.1.0",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年07月05日",
+                      "text": "2025年07月21日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.9-1 \n- 增加底栏抽屉功能\n- 可在首页和聊天窗口使用\n- 修复svg主题svg_color配置无效问题"
+                      "markdown": "### 版本 2.1.0 \n- 底栏抽屉增加联系人、群聊、收藏对一些功能细节进行优化\n- 钱包页面可以关闭半透明(功能位于主题选项->透明选项)\n- 修复未启用插件时无法进入抽屉管理"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.9\n- 增加底栏抽屉功能\n- 可在首页和聊天窗口使用\n- 修复svg主题svg_color配置无效问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
