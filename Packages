@@ -1116,6 +1116,27 @@ Author: CydiaGeek <lucaluca86@aol.com>
 Name: ByeSeparatorsCell系统空格分隔符-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.cydiageek.byeseparatorscell.json
 
+Package: lym.com.cydiageek.whiteccborders
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 388
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Conflicts: com.cydiageek.whiteccborders
+Replaces: com.cydiageek.whiteccborders
+Filename: ./debs/WhiteCCBorders-Rootless.deb
+Size: 44076
+MD5sum: aad1952562e929bde844d792fa85a70d
+SHA1: f1a71b7c6430b86b87cdbea5259604abe3f2c39e
+SHA256: 17c2d0bbd96a6aae608db6a0fc5dd1b45cbdbde3c1dfe3749299ad76b387db48
+Section: 控制中心
+Description: 自定义控制中心的边框和圆角
+ - 主打白色效果。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: CydiaGeek <lucaluca86@aol.com>
+Name: WhiteCCBorders-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.cydiageek.whiteccborders.json
+
 Package: lym.com.dao.3dappversionspoofer
 Version: 2.0.3
 Architecture: iphoneos-arm64
