@@ -2502,6 +2502,26 @@ Author: ichitaso
 Name: PrimalFolder2文件夹图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.primalfolder2.json
 
+Package: lym.com.ps.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
+Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
+Filename: ./debs/RecordPause录像暂停-Rootless.deb
+Size: 12040
+MD5sum: dbd4de01dcb1aa99d23dea64c6dd44d4
+SHA1: 4d849b389e89501cc8a38228fc4707d412d8780a
+SHA256: 979f333417e3fa9807fa9cf7f8d37bc492ddcceed632ba678dbcbdc9ab507bb2
+Section: 系统增强
+Description: 录制视频时,可以手动暂停/恢复
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: PoomSmart
+Name: RecordPause录像暂停-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ps.recordpause.json
+
 Package: lym.com.qiop1379.swipeextenderx
 Version: 1.6.1~2
 Architecture: iphoneos-arm64
