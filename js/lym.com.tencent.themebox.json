@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.0",
+                      "text": "2.1.2",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年07月21日",
+                      "text": "2025年08月02日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.0 \n- 底栏抽屉增加联系人、群聊、收藏对一些功能细节进行优化\n- 钱包页面可以关闭半透明(功能位于主题选项->透明选项)\n- 修复未启用插件时无法进入抽屉管理"
+                      "markdown": "### 版本 2.1.2 \n- 聊天分组功能,功能位于布局设置\n- 首页聊天分组优化一些细节上的代码。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.2\n- 底栏抽屉增加联系人、群聊、收藏对一些功能细节进行优化\n- 钱包页面可以关闭半透明(功能位于主题选项->透明选项)\n- 修复未启用插件时无法进入抽屉管理"
                   },
                   {
                       "class": "DepictionSeparatorView"
