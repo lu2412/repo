@@ -822,17 +822,17 @@ Name: 豆包助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.8.9
+Version: 1.9.0
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11570748
-MD5sum: 9e5f3b34ccd9faa8e6644849e6c62219
-SHA1: 5993d96839826ad43a25b7d52c6f4613ec91d98c
-SHA256: ca3e1da2c5b72875afdd43ec26864d479f0b41bcf7e83ebf44c46d58d330c101
+Size: 11862032
+MD5sum: 07db331568c8da7f2f2d227c5ee3fb33
+SHA1: 6904e5a38a18a241cfab9a4c502c6e4644985352
+SHA256: 0c226d980e56fb7251bdf78857dacea3501244f13d0527c59fafdf30b5200581
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -2920,17 +2920,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.1.2
+Version: 2.1.4
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 4319308
-MD5sum: c071e42c90a1ad7e14cd8908fcca25db
-SHA1: 63f6d41652c332d3debbf7e3da3fe58c92b7b248
-SHA256: cb1fba4bf3db29bec3cdf7e0e3a32226cee0fe532b4c8a03e8a150a98dade75d
+Size: 4664928
+MD5sum: 20b4536e225fbb4739e1c25f1e1357a1
+SHA1: 9cb87afc6ee024058203ed1595d7a0dfc284746c
+SHA256: 44dae90b3f369a341ab5c4c17f936a724c9e95fa287cda5fed7c60e4592f1b17
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
