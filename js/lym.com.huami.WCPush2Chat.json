@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0",
+                      "text": "1.0-2",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年08月12日",
+                      "text": "2025年08月13日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0 \n- 初始版本"
+                      "markdown": "### 版本 1.0-2 \n- 新增设置界面\n- 开启前台直达\n- 前台直达模式 (全屏/半屏)\n- 开启后台直达\n- 后台直达模式 (全屏/半屏)"
                   },
               ]
           }

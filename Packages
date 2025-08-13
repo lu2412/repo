@@ -1539,18 +1539,18 @@ Name: 微信WCPulse-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.WCPulse.json
 
 Package: lym.com.huami.WCPush2Chat
-Version: 1.0
+Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 168
+Installed-Size: 272
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.WCPush2Chat
 Replaces: com.huami.WCPush2Chat
 Filename: ./debs/WCPush2Chat消息直达-Rootless.deb
-Size: 8820
-MD5sum: a5f1e105448b7a4253d92d638a5f8309
-SHA1: e70a1b6b6d282815534f2421e98f9320449a0314
-SHA256: ee1710fc70188ccdbd7ccc46e0c1be76473007a2256370d0666f14184b2621db
+Size: 36000
+MD5sum: 3c780bff4a0b77d5e09d2f400f67f950
+SHA1: cf7a9f12fb95f0163c25b4c5e1809c5e6722977c
+SHA256: 69f915e1974aa5fd05b4267c4cdf7672bddec5499ab3c9af5e4778045e6bd78f
 Section: 微信插件
 Description: 无后台/后台直达通知对应的消息界面
  - 前台不会重复跳转,初版有问题
