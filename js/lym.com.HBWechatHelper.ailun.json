@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9.0",
+                      "text": "1.9.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年08月09日",
+                      "text": "2025年08月14日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9.0 \n- 优化部分代码\n- 修复朋友圈小尾巴默认显示的问题\n- 新增更新日志自动获取或关闭按钮"
+                      "markdown": "### 版本 1.9.1 \n- 优化部分UI\n- 优化部分功能添加开关\n- 优化备注头像支持动态图和静态图\n- 修复最新版客户端视频转语音闪退的问题\n- 修复编辑图片后发送当前会话失效的问题\n- 修复首页禁用不生效的问题,若不生效则是冲突\n- 新增[禁用类功能]-禁用首页底部邀请朋友开通账号\n- 新增[特色类功能]-自定义我的头像-可设置动态图和静态图"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.0\n- 优化部分代码\n- 修复朋友圈小尾巴默认显示的问题\n- 新增更新日志自动获取或关闭按钮"
                   },
                   {
                       "class": "DepictionSeparatorView"
