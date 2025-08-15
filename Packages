@@ -2660,6 +2660,26 @@ Author: dvntm & SINI
 Name: ShowMyTouches触摸轨迹-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.showmytouches.json
 
+Package: lym.com.shtm.neowave16
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: SHTM
+Installed-Size: 8756
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.shtm.neowave16
+Replaces: com.shtm.neowave16
+Filename: ./debs/NeoWave16跑马灯-Rootless.deb
+Size: 8311256
+MD5sum: 84bec70104e1e35e93dad5a65c5b1795
+SHA1: 31b9a255f4b0306ce75d35fa97d23f3f5039c170
+SHA256: c5f3f7e71be540f6e85d49593ef44ae085b21d49a1b817ffca91656fcdaabafb
+Section: 系统增强
+Description: 唤醒Siri时显示渐变跑马灯动画
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SHTM
+Name: NeoWave16跑马灯-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.shtm.neowave16.json
+
 Package: lym.com.sini.filzaswipeselect
 Version: 0.0.2
 Architecture: iphoneos-arm64
