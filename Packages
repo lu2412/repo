@@ -829,10 +829,10 @@ Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11962992
-MD5sum: e557e61729d50c2b437530e0c7b8e42d
-SHA1: 8852b213bd43d3b572661e3cf33c851bd5e3e6c7
-SHA256: 50156029f64f6a8ba4627186f5dd153a1531c0808b07994a6718d2d79b02dd0a
+Size: 12102692
+MD5sum: 1f5e923eb035c6f5dd378838a4921557
+SHA1: 021f2a88d371e015e70ea90c49388a0155f8003b
+SHA256: f1a38a103c6efda2c8f4421c28766aeb0731535f3f42ef2448474a42cb23c57c
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
