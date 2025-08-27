@@ -154,6 +154,25 @@ Author: girl2023
 Name: 微信去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
 
+Package: lym.MiJia0628-Rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 佚名
+Conflicts: MiJia0628-Rootless
+Replaces: MiJia0628-Rootless
+Filename: ./debs/米家去广告-Rootless.deb
+Size: 4728
+MD5sum: d4f238b9f93b0041fb5f4fd911fa12f7
+SHA1: ef99593015118ed6d167a64f0d07145c00cf9212
+SHA256: 6b6055a36afb173ff1254ad4c15f23fe4cb20d87a6b4e0689fd8a7544276ca06
+Section: 软件增强
+Description: 去除米家启动开屏广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 佚名
+Name: 米家去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MiJia0628-Rootless.json
+
 Package: lym.StoreSwitchAccounts-Rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
