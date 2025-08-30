@@ -2399,18 +2399,18 @@ Name: 微信朋友圈尾巴WCTimeLineMessageTail-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wctimelinemessagetail.json
 
 Package: lym.com.netskao.wechatnotiavatar
-Version: 1.2-5
+Version: 1.2-9
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 2336
+Installed-Size: 1244
 Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
 Conflicts: com.netskao.wechatnotiavatar
 Replaces: com.netskao.wechatnotiavatar
 Filename: ./debs/WeChatNotiAvatar微信头像-Rootless.deb
-Size: 523320
-MD5sum: 2dec39ab9affb9d9b82ac672c5bd2f59
-SHA1: e4da0a7e6180484626b9bdf929a7c7202ba0e1d9
-SHA256: f937c2295cc3231cc585c30a7c2b778cfc01faf42adafac0065ac01ab0bfb855
+Size: 240972
+MD5sum: 8b8d054a7c6104b906e24e60a6549d60
+SHA1: 74bf6e6c3b1990ce26a771cb2ac6ca7c8bd0f68b
+SHA256: f52e2119f6260a008d627aad2f866df1522d041559a2b12427720ff9e4fd35f0
 Section: 微信插件
 Description: 让微信消息通知显示微信好友头像
  - 仅支持越狱环境,注入无效
