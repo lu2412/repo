@@ -18,19 +18,20 @@ Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
 Package: cn.zqbb.disupdateapp
-Version: 2.0.0-5
+Version: 2.0.0-6
 Architecture: iphoneos-arm64
 Maintainer: zqbb
-Installed-Size: 804
+Installed-Size: 692
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-5_iphoneos-arm64.deb
-Size: 197756
-MD5sum: 4e3c91b7ff301d5d494990e52f469574
-SHA1: 9b21d7a12fefb5eb1f335f4ef1f086dfd51d217e
-SHA256: a446915a35d7d22c2103012e5ec3cee4b005497709f1dd881d968d4133d141df
-Section: 系统增强
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64.deb
+Size: 129654
+MD5sum: c75257b62eaea463a9ca9444e21c25ba
+SHA1: b37330e105bd3e812b5cd143c02d49d8ea55e464
+SHA256: acb6b6f4f96c61f9c061aca4cc4728211ecbfed74038c2167cc717aa335e6859
+Section: Tweaks
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
 Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
@@ -1511,40 +1512,19 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
-Package: lym.com.huam.wcenablecleanorigmsg
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huam.wcenablecleanorigmsg
-Replaces: com.huam.wcenablecleanorigmsg
-Filename: ./debs/WCEnableCleanOrigMsg原图清理-Rootless.deb
-Size: 3248
-MD5sum: b6bbb03a02cd2289dc531c224a5a5799
-SHA1: bd089ef6816d0f450b74692dc5599a0661e0d770
-SHA256: cb841a3a09a00e80b9cb31757faa464846d8d7b3ab744ca85a6edd2247d5b197
-Section: 微信插件
-Description: 启用54版本【原图、原视频14天后自动清理】
- - 功能位于微信-设置-通用-照片、视频、文件与通话里面，默认开启
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: huami
-Name: WCEnableCleanOrigMsg原图清理-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huam.wcenablecleanorigmsg.json
-
 Package: lym.com.huami.WCPulse
-Version: 1.1-0
+Version: 1.2-5
 Architecture: iphoneos-arm64
 Maintainer: huami
-Installed-Size: 404
+Installed-Size: 988
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.huami.WCPulse
 Replaces: com.huami.WCPulse
 Filename: ./debs/微信WCPulse-Rootless.deb
-Size: 68540
-MD5sum: 27fc42b1ac5795d22a206b0fcd895727
-SHA1: e05abaee1783b2c01d6b0408a093a6a63bb709f1
-SHA256: 430c9f0cc1f7b0743f80a868e75f849f6a91eb09ded5d6523adaaa6eaa513e41
+Size: 192020
+MD5sum: 836e30043868a8873382b6fef63992c5
+SHA1: 521a0269111c52be94b07c08d8dcdd8a45277e61
+SHA256: a9e0935a5e9217d2e594e4493770717b992e89360b381d717a369dbf8082f922
 Section: 微信插件
 Description: 微信实用小插件
  - 启用视频倍速手势
@@ -1601,29 +1581,6 @@ Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
-Package: lym.com.huami.dyyy
-Version: 2.2-7
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 2324
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.dyyy
-Replaces: com.huami.dyyy
-Filename: ./debs/抖音魔术师-Rootless.deb
-Size: 460824
-MD5sum: dbf02dfa96c465e8d97f23b2e9d42df6
-SHA1: c87f4d10d8d3ba03ec2c4aaa9b9bb758be73f3cb
-SHA256: 6afc10269e203dc0993ab4440ce3934f02188dcd1a59e6a232d3346da164b808
-Section: 抖音插件
-Description: 基于@huamidev的DYYY定制
- - 使用弹窗UI,UI设计代码来自@iosxuuz
- - 首页双指长按进入设置
- - 新增来自@vita_app、@waa404等大佬的开源代码增加了新功能。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: 抖音魔术师-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.dyyy.json
-
 Package: lym.com.huami.kugouNoAD
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -1643,51 +1600,6 @@ Description: 去除开屏广告(含概念版)
 Author: huami
 Name: 酷狗NoAD 去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.kugouNoAD.json
-
-Package: lym.com.huami.wcenabledictaion
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.wcenabledictaion
-Replaces: com.huami.wcenabledictaion
-Filename: ./debs/WCEnableDictaion音转字-Rootless.deb
-Size: 3216
-MD5sum: fb4a1165cc0719006bb0f4fce46b400d
-SHA1: 4004f2559ae0f6ccda1b87e5a870f503d374b6d4
-SHA256: afd8e0ce80c27cc4459b275d36570f366c1a1f32408e7a8548e7713251ee8d5e
-Section: 微信插件
-Description: 强开微信输入框语音转述功能
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: WCEnableDictaion音转字-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.wcenabledictaion.json
-
-Package: lym.com.huami.xhstranslator
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 172
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.huami.xhstranslator
-Replaces: com.huami.xhstranslator
-Filename: ./debs/小红书自动翻译-Rootless.deb
-Size: 8680
-MD5sum: a4284856d6cdd7e63330c9486a74485a
-SHA1: a1749c80dca73c0cd31ce3cdf7c8592ca679542d
-SHA256: 101c67dfb0f8c03a009c4f66a14b256f7b63f1639df91fd4a11d35dcc7db1eed
-Section: 软件增强
-Description: 小红书自动翻译
- - 英文默认自动翻译
- - 中文不翻译
- - 依赖GoogleAPl,请务必使用魔法上网
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: 小红书自动翻译-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.xhstranslator.json
 
 Package: lym.com.huayuarc.autoskipad
 Version: 0.0.1
@@ -2138,27 +2050,6 @@ Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
-Package: lym.com.netskao.qqipadmodelogin
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.netskao.qqipadmodelogin
-Replaces: com.netskao.qqipadmodelogin
-Filename: ./debs/QQ iPad 模式登录-Rootless.deb
-Size: 2532
-MD5sum: 6bb9f2addea50d3387a618ae83fbd08b
-SHA1: 6f8c0a2afa099671cbee94109c9f01bbba7b451e
-SHA256: f7281c653351ffb768baeb95ca6aa01b62ecd0385f392a98b567ef8cb45ffc5b
-Section: 软件增强
-Description: QQ模拟iPad模式登录
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: QQ iPad 模式登录-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.qqipadmodelogin.json
-
 Package: lym.com.netskao.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -2223,75 +2114,6 @@ Author: Netskao
 Name: Twitter NoAds-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.twitternoads.json
 
-Package: lym.com.netskao.wcabtestc2clivephoto
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcabtestc2clivephoto
-Replaces: com.netskao.wcabtestc2clivephoto
-Filename: ./debs/强开私聊发送Live图-Rootless.deb
-Size: 2524
-MD5sum: 9898c58bb847df2016d68a8df72ae7f1
-SHA1: 454b8c836d3e80382a24352d4c403371ada5dbd7
-SHA256: db73df9e181d1071bda8fa501e01d080e74f2acb5ed00415a1264980519e98d4
-Section: 微信插件
-Description: 强开私聊发送Live图
- - 启用微信灰度测试的私聊发送Live图
- - 应该8.0.57+及以上都可用
- - 实测未灰度到发送Live图功能的用户也可以看见(安卓除外）
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 强开私聊发送Live图-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestc2clivephoto.json
-
-Package: lym.com.netskao.wcabtestvoicerecordview
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcabtestvoicerecordview
-Replaces: com.netskao.wcabtestvoicerecordview
-Filename: ./debs/微信开启新语音按钮-Rootless.deb
-Size: 2428
-MD5sum: cc0507b6789a2e6bb78328f9433a7b5f
-SHA1: 88dab3bea7e40800400c03c595f1edff57c8b03b
-SHA256: 4e49804c3e67e247e46ddf5e1d0c22e7222a5d811702f2d55c5019b0e3001d6b
-Section: 微信插件
-Description: 在微信8.0.60开启新的语音按钮UI
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 微信开启新语音按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcabtestvoicerecordview.json
-
-Package: lym.com.netskao.wcisoverseauser
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcisoverseauser
-Replaces: com.netskao.wcisoverseauser
-Filename: ./debs/WCIsOverSeaUser海外通行秘钥-Rootless.deb
-Size: 2484
-MD5sum: dabac85c256969d4a0d7f63833138dd9
-SHA1: 49d919705edeb1baec797b68f2c5ac9cc243a25c
-SHA256: 7177c537d21716f679fa783cdc9833be082bf795284d4fa249c37004e2a081ca
-Section: 微信插件
-Description: 微信通行密钥
- - 强制激活中国大陆86+号码使用「通行密钥」功能
- - 开启设置:设置-账号与安全-通行密钥
- - 仅支持微信8.0.54及以上
- - 仅支持iOS16及以上
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: WCIsOverSeaUser海外通行秘钥-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcisoverseauser.json
-
 Package: lym.com.netskao.wckeyboardhidelogo
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2313,49 +2135,6 @@ Author: Netskao
 Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
-Package: lym.com.netskao.wcmypageinfocenter
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 220
-Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.netskao.wcmypageinfocenter
-Replaces: com.netskao.wcmypageinfocenter
-Filename: ./debs/微信资料居中WCMyPageInfoCenter-Rootless.deb
-Size: 66592
-MD5sum: 257b0010871ed3ecf1e3f2e69f8d5a3e
-SHA1: 586ce7c6d289f5eef4e3e452912a5453bb96816c
-SHA256: 93b11bfff0282102e9846f85746c70489f7bc7a692b0dac6cdee711b772b8676
-Section: 微信插件
-Description: 微信个人资料居中
- - 仅支持微信8.0.51及更高版本
- - 老猫收纳插件内开启
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 微信资料居中WCMyPageInfoCenter-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcmypageinfocenter.json
-
-Package: lym.com.netskao.wcnewminiappfloatingwindow
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wcnewminiappfloatingwindow
-Replaces: com.netskao.wcnewminiappfloatingwindow
-Filename: ./debs/WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless.deb
-Size: 2456
-MD5sum: b185d7c7692c726688ec025a6795ffc2
-SHA1: 4a1594a1ff3ac80aadb41dca27219b9a5055476f
-SHA256: 546590988b15f382d1ae80e5919e18224f44d3cbf0c032ed14d933ccca8c3c95
-Section: 微信插件
-Description: 微信启用AB测试的miniApp浮动窗口功能，仅8.0.54+
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: WCNewMiniAppFloatingWindow开启悬浮按钮-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.wcnewminiappfloatingwindow.json
-
 Package: lym.com.netskao.wcsvgcolorhookexamples
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2376,27 +2155,6 @@ Description: 微信SVG图标彩色着色
 Author: Netskao
 Name: 微信svg图标着色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcsvgcolorhookexamples.json
-
-Package: lym.com.netskao.wctimelinemessagetail
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.netskao.wctimelinemessagetail
-Replaces: com.netskao.wctimelinemessagetail
-Filename: ./debs/微信朋友圈尾巴WCTimeLineMessageTail-Rootless.deb
-Size: 5608
-MD5sum: fefd804b08ff38a3b059b7081387f1cc
-SHA1: ac0e6d191100796d0c8561fa147582247c9382a4
-SHA256: 14111312b9a92e0d7357dcb2f6d0697b5b9afdbba9648138813253e9bd9822df
-Section: 微信插件
-Description: 微信朋友圈小尾巴自定义
- - 朋友圈发文自行设置小尾巴
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 微信朋友圈尾巴WCTimeLineMessageTail-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wctimelinemessagetail.json
 
 Package: lym.com.netskao.wechatnotiavatar
 Version: 1.3-1
@@ -4012,24 +3770,6 @@ Description: Snapper 3自用蓝色发光文字美化图标
 Author: lym
 Name: Snapper 3蓝色发光文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
-
-Package: qqipad-Rootless
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/QQ模拟iPad登陆-Rootless.deb
-Size: 2468
-MD5sum: 9300f3731c4a9f778eb0e9115c45ee6c
-SHA1: 4d5b8faf7be63c9e28c07e942184853351685a27
-SHA256: 608719d69b46a80cc71e3e107b52d722e7e60845f4742b0d6f7b0b9342bb0a66
-Section: 软件增强
-Description: QQ模拟iPad模式登录
- - 截止目前支持 11.0.40 版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: QQ模拟iPad登陆-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/qqipad-Rootless.json
 
 Package: tikTok-Rootless
 Version: 1.0

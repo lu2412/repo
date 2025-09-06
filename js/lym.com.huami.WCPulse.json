@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.1-0",
+                      "text": "1.2-5",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年06月28日",
+                      "text": "2025年09月06日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.1-0 \n- 移除刚才修复的助手搜索(助手修了\n- 修复部分客户端配置保存异常(自动关闭)的问题"
+                      "markdown": "### 版本 1.2-5 \n- 新增接管A翻译\n- 修复长按菜单冲突\n- 优化代码"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.2.3\n- 移除刚才修复的助手搜索(助手修了\n- 修复部分客户端配置保存异常(自动关闭)的问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
