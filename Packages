@@ -3055,28 +3055,6 @@ Author: x✨
 Name: QQ图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.qqhook.json
 
-Package: lym.com.xx.wsyhnojb
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 468
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.wsyhnojb
-Replaces: com.xx.wsyhnojb
-Filename: ./debs/网商银行越狱检测屏蔽-Rootless.deb
-Size: 128992
-MD5sum: 8ebfa35e7b72a9d7b739e375843921ea
-SHA1: f0f5531a93e697c2d2fca8561e0808e330112339
-SHA256: a7ef0bbc7cd57f36b5965b61aec09b7bcc04b4ba7ff8030c3950f1cd631252ee
-Section: 软件增强
-Description: 网商银行屏蔽越狱检测
- - 截至目前支持最新4.6.4版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 网商银行越狱检测屏蔽-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.wsyhnojb.json
-
 Package: lym.com.xx.xhshook
 Version: 1.1.6-3
 Architecture: iphoneos-arm64
