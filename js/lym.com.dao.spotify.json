@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "6.0.2",
+                      "text": "6.1.3",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年07月15日",
+                      "text": "2025年09月12日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 6.0.2 \n- 将远程跟踪分支“上游/swift”合并为开发"
+                      "markdown": "### 版本 6.1.3 \n- 将远程跟踪分支“上游/swift”合并为开发"
                   },
                   {
                       "class": "DepictionSeparatorView"
