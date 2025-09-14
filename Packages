@@ -35,6 +35,24 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
+Package: com.sini921.appstoretroller
+Version: 0.1.2-4
+Architecture: iphoneos-arm64
+Maintainer: Mineek & Nathan & SINI
+Installed-Size: 568
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.appstoretroller_0.1.2-4_iphoneos-arm64.deb
+Size: 46398
+MD5sum: 9a8b1c85b7ef09edd6da936f9fa30714
+SHA1: 46ed99fcb6f009501fac266c5f3fb5dc19808df7
+SHA256: cd6cedd88af4f6e39bbf18779fdf13318e3dc72e8e6a72a10acdd83e833ab823
+Section: 越狱插件
+Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
+Author: Mineek & Nathan & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
+Name: AppStoreTroller(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -776,29 +794,6 @@ Author: Lessica
 Name: 语音转文字免跳转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.wtvrbglauncher.json
 
-Package: lym.com.Axs.hooktcs
-Version: 0.3
-Architecture: iphoneos-arm64
-Maintainer: 逆无止境
-Installed-Size: 123
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.Axs.hooktcs
-Replaces: com.Axs.hooktcs
-Filename: ./debs/逆无止境图层1aa3-Rootless.deb
-Size: 96400
-MD5sum: d51f92ec09b524af11009937c0aaab29
-SHA1: 72f90b674ea1dc09fcde2284e9c6ac41d52cc487
-SHA256: 0edc0c1fd5527aa59c182b0e36f727b0407102d49776c1089c65646bf52a7c2f
-Section: 软件增强
-Description: 删除图层时间限制
- - 譬如抖音图层和小红书图层等
- - 安装此插件后再安装图层插件即可生效
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 逆无止境
-Name: 逆无止境图层1aa3-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.hooktcs.json
-
 Package: lym.com.Axs.lingdongdao
 Version: 1.0.0.0-1
 Architecture: iphoneos-arm64
@@ -818,28 +813,6 @@ Description: 给灵动岛的外框内框添加自定义颜色,通知背景颜色
 Author: MoreColor
 Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
-
-Package: lym.com.BeanbunsHelpers.DB
-Version: 1.0-4
-Architecture: iphoneos-arm64
-Maintainer: Beanbuns
-Depends: mobilesubstrate
-Conflicts: com.BeanbunsHelpers.DB
-Replaces: com.BeanbunsHelpers.DB
-Filename: ./debs/豆包助手-Rootless.deb
-Size: 639688
-MD5sum: 44c7fa73166f2cdd177875ae4d4cfed5
-SHA1: 35ad93bb8c79b734d87e9074fe800009189413aa
-SHA256: 5f8bf21ca48d7a653cf4b5b459539f56b8b33fcd6614092a71fe9e3650bb2f55
-Section: 抖音插件
-Description: 抖音增强插件
- - 无水印保存视频、图片、音频
- - 双击打开评论区
- - 隐藏菜单按钮
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Beanbuns
-Name: 豆包助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.BeanbunsHelpers.DB.json
 
 Package: lym.com.HBWechatHelper.ailun
 Version: 1.9.3
@@ -1434,26 +1407,6 @@ Description: 计算器添加历史按钮
 Author: fiore
 Name: CalculatorHistory计算器历史按钮-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.fiore.calculatorhistory.json
-
-Package: lym.com.fly.ljm
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 🅷🆆
-Installed-Size: 168
-Depends: mobilesubstrate
-Replaces: com.fly.ljm
-Filename: ./debs/拦截猫解锁-Rootless.deb
-Size: 8844
-MD5sum: b40abd8213201383dc2310519c012ced
-SHA1: 6b0f002e2a85d29f2089ab55126c6daf99305ee0
-SHA256: 85522b60ec142c32cac52c2e84f240224d0098ab0c40d76783aa4479fd5bdc85
-Section: 软件增强
-Description: 解锁会员
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 🅷🆆
-Name: 拦截猫解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.fly.ljm.json
 
 Package: lym.com.foxfort.krashkop
 Version: 1.0.2
@@ -2761,30 +2714,6 @@ Author: WeChat
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.json
 
-Package: lym.com.tiaotiao.wcaddborders
-Version: 1.2
-Architecture: iphoneos-arm64
-Maintainer: TiaoTiao
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.tiaotiao.wcaddborders
-Replaces: com.tiaotiao.wcaddborders
-Filename: ./debs/WCAddBorders微信边框-Rootless.deb
-Size: 8948
-MD5sum: bebdc6336a722905d06616b301439654
-SHA1: 8c87ebd85fce8a83d1b8642593e26561a5e11351
-SHA256: c0c826a873abdb1d19e424ada7100171de8bc43fc090e52bae907c48a829b4d9
-Section: 微信插件
-Description: 为微信长按菜单和输入框添加边框
- - 自定义边框色值需要在
- - weui_color_new.xml中按对应格式添加
- - MenuBorderColor
- - InputBorderColor
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: TiaoTiao
-Name: WCAddBorders微信边框-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tiaotiao.wcaddborders.json
-
 Package: lym.com.udevs.dockx
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -2832,28 +2761,6 @@ Description: 优化去除广告、精简个人主页
 Author: vita
 Name: 菜鸟精简去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.cnnoad.json
-
-Package: lym.com.wechat.wxhook
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Maintainer:QW
-Installed-Size: 798
-Depends: mobilesubstrate
-Conflicts: com.wechat.wxhook
-Replaces: com.wechat.wxhook
-Filename: ./debs/解决微信通知不显示内容-Rootless.deb
-Size: 11060
-MD5sum: 5e9950a37bdf18cdc80d2018ecf3f434
-SHA1: c4e02ff4f269a24659cf7bdffecbe9a2fe24bb22
-SHA256: 6c0f8545bf990b126cd653a48df42fb4d3d602f0a9b52c95f939fcd20b704945
-Section: 微信插件
-Description: 解决个别用户微信通知不显示详细内容
- - 插件入口在【设置】里帮助与反馈【上面】
- - 必须开启【修改版本号】才有效果
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: QW
-Name: 解决微信通知不显示内容-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wechat.wxhook.json
 
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
@@ -3077,28 +2984,6 @@ Author: x✨
 Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.xhshook.json
 
-Package: lym.com.xx.ysbrowserhook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 104
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.ysbrowserhook
-Replaces: com.xx.ysbrowserhook
-Filename: ./debs/亚瑟浏览器解锁pro-Rootless.deb
-Size: 20772
-MD5sum: 7e3b4c05d9908a6e49b6d4a259cef00b
-SHA1: d8edbb5c6c8b5d8a8bb2966c5f66264583245c66
-SHA256: 4c27ec8106c364c0b34634080c0243ea5a7609bf08872a34321e8b4439d6dbe1
-Section: 软件增强
-Description: 解锁Pro权益
- - 屏蔽越狱检测
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 亚瑟浏览器解锁pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.ysbrowserhook.json
-
 Package: lym.com.xybp888.lockbutton
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -3144,27 +3029,6 @@ Description: 禁止设置页面显示维修记录的插件
 Author: xybp888
 Name: 重要提醒No Apple MobileRepair-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.noapplemobilerepair.json
-
-Package: lym.com.ylr.xiaoxiangcs
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: ylr <ylr638058@gmail.com>
-Installed-Size: 72
-Depends: mobilesubstrate
-Conflicts: com.ylr.xiaoxiangcs
-Replaces: com.ylr.xiaoxiangcs
-Filename: ./debs/小象超市去广告-Rootless.deb
-Size: 2560
-MD5sum: 4482343a98499c702bea72c8ee82d430
-SHA1: fb1a6d162c4023c0512f4bc0bc6c46beb87b921b
-SHA256: 61d22a4a945497e069ea5c8f434e13230efb240f8c4d9e5abd067848c7e4f167
-Section: 软件增强
-Description: 小象超市去启动广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ylr <ylr638058@gmail.com>
-Name: 小象超市去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ylr.xiaoxiangcs.json
 
 Package: lym.com.yourepo.huayuarc.12306-rootless
 Version: 0.0.1
