@@ -35,24 +35,6 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
-Package: com.sini921.appstoretroller
-Version: 0.1.2-4
-Architecture: iphoneos-arm64
-Maintainer: Mineek & Nathan & SINI
-Installed-Size: 568
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.sini921.appstoretroller_0.1.2-4_iphoneos-arm64.deb
-Size: 46398
-MD5sum: 9a8b1c85b7ef09edd6da936f9fa30714
-SHA1: 46ed99fcb6f009501fac266c5f3fb5dc19808df7
-SHA256: cd6cedd88af4f6e39bbf18779fdf13318e3dc72e8e6a72a10acdd83e833ab823
-Section: 越狱插件
-Description: 可以安装苹果商店中提示「需要iOSXX或更高版本」的应用，入库了以后可以安装兼容你系统的版本(如果有的话)，基于开源汉化编译
-Author: Mineek & Nathan & SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/appstoretroller.png
-Name: AppStoreTroller(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/appstoretroller/js.json
-
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -2470,18 +2452,18 @@ Name: Snapper 3繁体文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
 
 Package: lym.com.sini921.fakesignalbar
-Version: 0.1-2
+Version: 0.1-3
 Architecture: iphoneos-arm64
 Maintainer: alias20
-Installed-Size: 364
+Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.sini921.fakesignalbar
 Replaces: com.sini921.fakesignalbar
 Filename: ./debs/FakeSignalBar-Rootless.deb
-Size: 20340
-MD5sum: fd839bf477e7aa4837741f7b4f01ce58
-SHA1: 673ccd36e83dd6ce11d350bc4dfd9aebb1de4df6
-SHA256: b133cba5856140ae5213764205de52e7f426efe5e3c14a6d6550693cf1e30227
+Size: 23304
+MD5sum: 24c509496b953dd8b7e3d5d443718db3
+SHA1: b963e83fcde959d57d39a5fa41aff74f2c41e857
+SHA256: d7b7f3915f0e29014b42ed73b3fbaf8d75882c8cc285fcbdc95400bd84575769
 Section: 系统增强
 Description: 自定义运营商名称、信号强度、蜂窝连接等等
  - 基于开源汉化编译。
@@ -2692,17 +2674,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.1.4
+Version: 2.1.7
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 4664928
-MD5sum: 20b4536e225fbb4739e1c25f1e1357a1
-SHA1: 9cb87afc6ee024058203ed1595d7a0dfc284746c
-SHA256: 44dae90b3f369a341ab5c4c17f936a724c9e95fa287cda5fed7c60e4592f1b17
+Size: 4766708
+MD5sum: 1b4bd6a37d483ca28f446d6a42496f16
+SHA1: 3f1351a1c9df557936b37d23459fc0e98fe41a1f
+SHA256: 88dde4dbc909a9dfa542ce9300cf7b9427a6e08b481fc6222e57e3afaecbd7e5
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中

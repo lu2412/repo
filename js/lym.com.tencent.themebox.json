@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.4",
+                      "text": "2.1.7",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年08月09日",
+                      "text": "2025年09月26日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.4 \n- 修复隐藏卡包失效\n- 修复低版本微信开启分组后闪退\n- 修复与下拉小程序页面冲突\n- 分组支持调整标签颜色,文字大小等"
+                      "markdown": "### 版本 2.1.7 \n- 主要适配iPhone17系列机型\n- 增加单独的悬浮底栏背景tabbar_float_bg"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.6\n- 修复隐藏卡包失效\n- 修复低版本微信开启分组后闪退\n- 修复与下拉小程序页面冲突\n- 分组支持调整标签颜色,文字大小等"
                   },
                   {
                       "class": "DepictionSeparatorView"
