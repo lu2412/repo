@@ -17,24 +17,6 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: cn.zqbb.disupdateapp
-Version: 2.0.0-6
-Architecture: iphoneos-arm64
-Maintainer: zqbb
-Installed-Size: 692
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64.deb
-Size: 129654
-MD5sum: c75257b62eaea463a9ca9444e21c25ba
-SHA1: b37330e105bd3e812b5cd143c02d49d8ea55e464
-SHA256: acb6b6f4f96c61f9c061aca4cc4728211ecbfed74038c2167cc717aa335e6859
-Section: Tweaks
-Description: 屏蔽App Store更新提示(Block App Store Updates)!
-Author: zqbb
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
-Name: Hello App
-Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
-
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
