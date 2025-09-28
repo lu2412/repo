@@ -17,6 +17,24 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
+Package: com.sini921.classicfolders3
+Version: 3.0.6-10
+Architecture: iphoneos-arm64
+Maintainer: CoolStar & Lizynz & SINI
+Installed-Size: 4272
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Filename: ./debs/com.sini921.classicfolders3_3.0.6-10_iphoneos-arm64.deb
+Size: 3234624
+MD5sum: 3d1629236fa02c0eea7c65c755dec955
+SHA1: 01dc7114b8ecc20f45300cb9a468548ebf524de3
+SHA256: 63dbd2026f8a5ad08a370e5c6364e91110e981af07510316eca99fdd2b4bb640
+Section: 越狱插件
+Description: 经典文件夹，基于开源代码优化编译。
+Author: CoolStar & Lizynz & SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/classicfolders3.png
+Name: ClassicFolders3(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/classicfolders3/js.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -1094,26 +1112,6 @@ Description: 3DAppVersionSpoofer伪装版本
 Author: 0xkuj
 Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
-
-Package: lym.com.dao.classicfolders3
-Version: 3.0.5.8
-Architecture: iphoneos-arm64
-Maintainer: CoolStar & Lizynz & 妖刀
-Installed-Size: 4312
-Depends: mobilesubstrate, preferenceloader
-Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless, com.dao.classicfolders3
-Replaces: com.dao.classicfolders3
-Filename: ./debs/ClassicFolders 3经典文件夹-Rootless.deb
-Size: 3274288
-MD5sum: 313a6caac25482436a0f26e52d36f94c
-SHA1: 7214c7f5a624e0460733ea0af35224be576e8357
-SHA256: 20067e51391e05f040ad877af686d89f8323df4e1a585a00a5c6a7482b8c7b9f
-Section: 系统增强
-Description: CoolStar的经典文件夹3，刀刀基于Lizynz的开源，简单定制。
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: CoolStar & Lizynz
-Name: ClassicFolders 3经典文件夹-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.classicfolders3.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
