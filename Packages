@@ -2432,18 +2432,18 @@ Name: Snapper 3繁体文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
 
 Package: lym.com.sini921.fakesignalbar
-Version: 0.1-3
+Version: 0.1-5
 Architecture: iphoneos-arm64
 Maintainer: alias20
-Installed-Size: 372
+Installed-Size: 404
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.sini921.fakesignalbar
 Replaces: com.sini921.fakesignalbar
 Filename: ./debs/FakeSignalBar-Rootless.deb
-Size: 23304
-MD5sum: 24c509496b953dd8b7e3d5d443718db3
-SHA1: b963e83fcde959d57d39a5fa41aff74f2c41e857
-SHA256: d7b7f3915f0e29014b42ed73b3fbaf8d75882c8cc285fcbdc95400bd84575769
+Size: 25120
+MD5sum: 4e76f9b991b2bb91b1f401c0abe585ed
+SHA1: 3dcb225d95740a1ebf3535a72c3c120517974a6b
+SHA256: 6562536b4550a97ec8618886710346fc5e042e4cb0793371f229be6763136746
 Section: 系统增强
 Description: 自定义运营商名称、信号强度、蜂窝连接等等
  - 基于开源汉化编译。

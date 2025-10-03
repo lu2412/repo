@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-3",
+                      "text": "0.1-5",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年09月26日",
+                      "text": "2025年10月04日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-3 \n- 将蜂窝网络类型分为3G、4G、LTE、5G分开自定义\n- 解决旧版本会直接把所有的网络类型都改成一个后无法知道真实网络是什么的尴尬场景"
+                      "markdown": "### 版本 0.1-5 \n- 去除3G与LTE相关设置\n- 减少没有意义的代码\n- 新增自定义4G与5G文本"
                   },
               ]
           }
