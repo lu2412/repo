@@ -797,17 +797,17 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.9.3
+Version: 1.9.5
 Architecture: iphoneos-arm64
-Maintainer: HuangBai <QQ:1343309363@qq.com>
+Maintainer: Axs
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 12274156
-MD5sum: ce87b8803fd5abfe7668a8ddfbb82b36
-SHA1: 3b8a1c4f071f196f47487da630aff591f16612df
-SHA256: 370b6e0216e1bebac969b357baa68379069f8a898a76b384d8ec44866c7c7c27
+Size: 12472484
+MD5sum: 940def0a489da88b2977f6c5649183f5
+SHA1: 2be91fa1b2cf2180ae368b776d6d8dd1229f6411
+SHA256: c2f530b1b1eff4afff63066b2b6aa32ca59775839832d063c97aff4e0f31fd2e
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -817,7 +817,7 @@ Description: 微信插件文本转语音(付费功能）
  - 自定义信息尾巴
  - 自定义拍一拍、百变小尾巴、实时尾巴时间等功能
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: HuangBai <QQ:1343309363@qq.com>
+Author: HuangBai
 Name: 黄白助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
 
