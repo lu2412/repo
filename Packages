@@ -3032,6 +3032,26 @@ Author: lenglengyu
 Name: VideoAdsSpeed快速跳过广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.lly.adsspee-rootless.json
 
+Package: lym.com.yourepo.trollstore.douyinliveusercount
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Depends: mobilesubstrate
+Conflicts: com.yourepo.trollstore.douyinliveusercount
+Replaces: com.yourepo.trollstore.douyinliveusercount
+Filename: ./debs/抖音直播间人数-Rootless.deb
+Size: 3288
+MD5sum: a62dba17cead7b482fc0fbe640efe88a
+SHA1: 70fb67caecf7c199bd4a0a77aed7e07cf147f576
+SHA256: 000391617d3a1d85c99aec6d7ef32d5ee5968a32f37e9cbba388659e07e0fb88
+Section: 抖音插件
+Description: 显示抖音直播间真实观看用户数
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 竺笙 <qiaozhani000@163.com>
+Name: 抖音直播间人数-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.trollstore.douyinliveusercount.json
+
 Package: lym.de.finngaida.daynightswitch
 Version: 1.2
 Architecture: iphoneos-arm64
