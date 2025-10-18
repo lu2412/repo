@@ -42,12 +42,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "HuangBai",
+                      "text": "HuangBai <QQ:1343309363@qq.com>",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9.5",
+                      "text": "1.9.6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年10月08日",
+                      "text": "2025年10月18日",
                       "title": "最后更新"
                   }
               ]
@@ -68,21 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9.5 \n- 优化［特色类功能］-微信铃声"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "﻿文件格式支持caf、wav、mp3等\n- 新增长按文件可快捷导入铃声列表\n- 新增［特色类功能］-键盘增强"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "﻿全选、剪切、复制、粘贴等按钮"
+                      "markdown": "### 版本 1.9.6 \n- 修复键盘图标丢失的问题\n- 新增键盘模组-中文转译功能\n- 自动翻译输入框的文本\n- 接口采用腾讯云接口翻译\n- 新增【特色类功能]-通话静音声\n- 拨打语音或视频电时静音对方铃声\n- 新增【消息类功能]-启用消息转发\n- 选择好用户后,往文件传输助手上\n- 发送信息会自动同步到你选的用户里\n- 选择后请谨慎发送消息,避免不必要的文件泄露"
                   },
                   {
                       "class": "DepictionSeparatorView"
