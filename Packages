@@ -2724,6 +2724,26 @@ Author: vita
 Name: 菜鸟精简去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.cnnoad.json
 
+Package: lym.com.vita.wchook
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: vita
+Installed-Size: 240
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.vita.wchook
+Replaces: com.vita.wchook
+Filename: ./debs/微信左滑消息引用-Rootless.deb
+Size: 30368
+MD5sum: c5eb280188b505a88a912a9e22436ee5
+SHA1: d4d3db0f223a523396927a6cff62a205d19c2fc2
+SHA256: cf47fb294fe3fce4634407fc1c089b697b6c6263cb625e26bad80f3c8a379c67
+Section: 微信插件
+Description: 带动画的微信消息手势左滑引用,点击引用快速跳转到原消息
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: vita
+Name: 微信左滑消息引用-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.wchook.json
+
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
 Architecture: iphoneos-arm64
