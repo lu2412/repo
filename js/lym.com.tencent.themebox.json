@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.7",
+                      "text": "2.1.8",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年09月26日",
+                      "text": "2025年10月24日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.7 \n- 主要适配iPhone17系列机型\n- 增加单独的悬浮底栏背景tabbar_float_bg"
+                      "markdown": "### 版本 2.1.8 \n- 悬浮底栏功能增加选中背景\n- 修复聊天窗口底栏透明偶尔失效。\n- 增加我的页面视频号图标的映射。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.1.6\n- 主要适配iPhone17系列机型\n- 增加单独的悬浮底栏背景tabbar_float_bg"
                   },
                   {
                       "class": "DepictionSeparatorView"
