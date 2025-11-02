@@ -21,16 +21,8 @@
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{300, 533}",
+                      "itemSize": "{1, 1}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ny.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/ny.png"
-                                  }
                             ]
                   },
 
@@ -47,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0.1",
+                      "text": "1.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月28日",
+                      "text": "2025年11月02日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0.1 \n- 初始版本发布"
+                      "markdown": "### 版本 1.1 \n- 修改只对农业银行生效,不会再影响其他软件了!支持最新版!"
                   },
               ]
           }

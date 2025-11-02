@@ -381,25 +381,25 @@ Name: Allow Network自动允许网络-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
 
 Package: lym.byg.iosios.net.nyyh
-Version: 1.0.1
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Depends: mobilesubstrate
 Conflicts: byg.iosios.net.nyyh
 Replaces: byg.iosios.net.nyyh
 Filename: ./debs/农业银行屏蔽-Rootless.deb
-Size: 7556
-MD5sum: 53e461ebbaee04bcd504b28faa36f42a
-SHA1: cddf67e9fb455e3000545ac304eb6e2088475240
-SHA256: 4ad3827b28b2876ba179264367296543184dff604c1764579a88dcb1a215a83b
-Section: 软件增强
+Size: 7564
+MD5sum: c6034dc166a95b8bcb77c52110ba9e77
+SHA1: fdcd98a204d23a380249dcec727ca3d44060d8b2
+SHA256: 1dfae5ed4c14fafcbd6f69e030e10da84eaed0c16b905d21114abb5096fc9992
+Section: 系软件增强
 Description: 屏蔽农业银行检测越狱
  - 进应用会看到检测弹窗，点击Cancel即可正常进入
  - 不要使用choicy或者魔术师屏蔽本插件注入农业银行
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: i0s-tweak3r
 Name: 农业银行屏蔽-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.nyyh.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.byg.iosios.net.nyyh.json
 
 Package: lym.byg.iosios.net.settingswidgets.rootless
 Version: 1.2.3.1
