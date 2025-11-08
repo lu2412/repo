@@ -1197,17 +1197,17 @@ Name: PurifyLine去除全局分割线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.noline.json
 
 Package: lym.com.dao.spotify
-Version: 6.1.3
+Version: 6.2
 Architecture: iphoneos-arm64
 Maintainer: Eevee
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), org.swift.protobuf.swiftprotobuf (>= 1.29.0)
 Conflicts: com.eevee.spotify, com.dao.spotify
 Replaces: com.dao.spotify
 Filename: ./debs/EeveeSpotify解锁-Rootless.deb
-Size: 436904
-MD5sum: c5d5847b1b8296bc718250d562c77537
-SHA1: 827564d9ed9861785d2116110cbce23a8befe017
-SHA256: 44ec7ef8b1919e84b46b034d64768e17bdde1b415ad64e63bdcefa377ef92927
+Size: 705772
+MD5sum: c91999b4dbefd4bfe96aed123882bcd8
+SHA1: 9f47b557aa96562d1b63555191f493e1fbedba2d
+SHA256: 168fd42465a5207849a86e6d49b458f480868d45c4f1a70b599b2a477654c336
 Section: 软件增强
 Description: 解锁Spotify会员
   - 免费获得SpotifyPremium
