@@ -797,17 +797,17 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.9.6
+Version: 1.9.7
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 12463644
-MD5sum: a95158b124f0cb914eb7d721a051b0c0
-SHA1: 3a3d60f1444806b3b1e32b6a515ddb85a21acbf5
-SHA256: cf7dbe839064545b1deb5be1cce9312fa5852458903788d1540887b324560e8c
+Size: 12845920
+MD5sum: 7a4f66550e7af7e0dd93be9829e19d75
+SHA1: 6a4cfb646c2f3eeb9e3ab0110f8ead1ea6a6e927
+SHA256: 26481c90fb90641c062046bc39b4b703fca99a2576f3f7a816f5addb8e99afad
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
