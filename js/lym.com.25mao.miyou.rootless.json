@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.8-7",
+                      "text": "3.8-9",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年07月07日",
+                      "text": "2025年11月14日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.8-7 \n- 优化部分代码"
+                      "markdown": "### 版本 3.8-9 \n- 修复8.0.65版本闪退问题\n- 修复首页搜索无法解除密友\n- 我再也不想动这坨山代码了"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.8.7\n- 优化部分代码"
                   },
                   {
                       "class": "DepictionSeparatorView"
