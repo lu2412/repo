@@ -17,6 +17,23 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
+Package: com.netskao.swiftgramcrack
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 224
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.netskao.swiftgramcrack_1.1-3_iphoneos-arm64.deb
+Size: 53960
+MD5sum: 8bb7799ccfca67311b4a520d15a6f3db
+SHA1: 26987b2afdc5c907c8546ac3befefa9829012947
+SHA256: 9ea42068ff539f2d1faf36dab86b32ea05f6951d2994373546c3a65fe551ac36
+Section: Netskao-Tweaks
+Description: Swiftgram Pro, 支持当前最新版11.15
+Author: Netskao
+Name: Swiftgram Crack
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.swiftgramcrack.json
+
 Package: com.sini921.classicfolders3
 Version: 3.0.6-10
 Architecture: iphoneos-arm64
