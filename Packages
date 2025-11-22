@@ -17,19 +17,36 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: com.netskao.swiftgramcrack
-Version: 1.1-3
+Package: com.netskao.leoreadercrack
+Version: 1.1-2
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 224
+Installed-Size: 1016
 Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.netskao.swiftgramcrack_1.1-3_iphoneos-arm64.deb
-Size: 53960
-MD5sum: 8bb7799ccfca67311b4a520d15a6f3db
-SHA1: 26987b2afdc5c907c8546ac3befefa9829012947
-SHA256: 9ea42068ff539f2d1faf36dab86b32ea05f6951d2994373546c3a65fe551ac36
+Filename: ./debs/com.netskao.leoreadercrack_1.1-2_iphoneos-arm64.deb
+Size: 387632
+MD5sum: e6d6f71834bba5f62d9484c4a4d5e61f
+SHA1: 5dda89428a9012d5ce737684134dde32c147ca80
+SHA256: 515e68b8190e37f4ed07f01c9801305556b4c35387960bc1957c3400215c6145
 Section: Netskao-Tweaks
-Description: Swiftgram Pro, 支持当前最新版11.15
+Description: 极简阅读解锁Pro, 支持当前最新版1.9.9
+Author: Netskao
+Name: 极简阅读 Crack
+Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.leoreadercrack.json
+
+Package: com.netskao.swiftgramcrack
+Version: 1.1-5
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 256
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./debs/com.netskao.swiftgramcrack_1.1-5_iphoneos-arm64.deb
+Size: 69896
+MD5sum: d01befa2a7ccb806e10462166518029d
+SHA1: bfbc6f0969aed305a37a3d1566e4f8202830a5c6
+SHA256: 059231ded0b80d98b7ff253d429c6c16eecc8746b93c2265399d3680a4a70603
+Section: Netskao-Tweaks
+Description: Swiftgram Pro. 附加解除下载保护/解除截图保护, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
 Author: Netskao
 Name: Swiftgram Crack
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.swiftgramcrack.json
@@ -934,7 +951,7 @@ Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
 
 Package: lym.com.baiy.keyboardhook
-Version: 2.0-6+debug
+Version: 2.1-3+debug
 Architecture: iphoneos-arm64
 Maintainer: baiy(QQ：961666883)
 Installed-Size: 524
@@ -942,10 +959,10 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Conflicts: com.baiy.keyboardhook
 Replaces: com.baiy.keyboardhook
 Filename: ./debs/KeyboardHook键盘美化-Rootless.deb
-Size: 45408
-MD5sum: 869d9a6e7a913108e6541ae2b7b7081c
-SHA1: 53bb00ac17c5a001f04959187f04cdbe8c43debd
-SHA256: e8845c8e26229a33dc8c5efe64d76eba6977e259e282c71683a754d77c93843e
+Size: 44740
+MD5sum: b5499dee324cab99a7893089eeb08ceb
+SHA1: b4debdf8e33632b411decaf2059d2a8881a15490
+SHA256: b7a7b4207da4b9ec8aa108b676416dfed81442d77ba849f8138c69f52c9b1eda
 Section: 键盘插件
 Description: 系统输入法和微信输入法的一些自定义
  - 让键盘更个性化!
