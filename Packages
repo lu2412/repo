@@ -90,6 +90,22 @@ Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
+Package: com.ylr.wcsimplify
+Version: 1.5.7-1
+Architecture: iphoneos-arm64
+Maintainer: ylr
+Installed-Size: 548
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.ylr.wcsimplify_1.5.7-1_iphoneos-arm64.deb
+Size: 118366
+MD5sum: 2f84c57e828a542936bfa498bade10e7
+SHA1: 0a8223cc751b4e038b1864924f37e18abee96a5e
+SHA256: f7f77f89d61df148ef98729bc1daa920fa488ede5179eb86d75a4e58f0bffa01
+Section: Tweaks
+Description: 本插件仅测试使用，如有传播，请马上删除！
+Author: ylr
+Name: WCSimplify
+
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
