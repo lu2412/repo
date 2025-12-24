@@ -3082,6 +3082,27 @@ Author: xybp888
 Name: 重要提醒No Apple MobileRepair-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.noapplemobilerepair.json
 
+Package: lym.com.ylr.wcsimplify
+Version: 1.5.7-1
+Architecture: iphoneos-arm64
+Maintainer: ylr
+Installed-Size: 548
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ylr.wcsimplify
+Replaces: com.ylr.wcsimplify
+Filename: ./debs/百度网盘去广告文件导出-Rootless.deb
+Size: 118548
+MD5sum: 85ea8b31039b7d234df2fff20b5f715a
+SHA1: 3f0e3ae4732fbcbfd68270dba9dfe77f2faaa67b
+SHA256: 1b8de6999bed37412886a07202ab062cf4de5c176b33658c7a54c86d6302869f
+Section: 软件增强
+Description: 百度去开屏以及添加导出按钮,ylr制作投稿
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ylr
+Name: 百度网盘去广告文件导出-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ylr.wcsimplify.json
+
 Package: lym.com.yourepo.huayuarc.12306-rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
