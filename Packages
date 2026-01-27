@@ -90,6 +90,23 @@ Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
+Package: com.wkk.magicsms
+Version: 0.0.1-9
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/修改替换短信内容.deb
+Size: 17664
+MD5sum: 7b1d7532486001dd6cae4edaed3b4c45
+SHA1: 633e1c9e0acbe5c8b70bd968603d5f74f4f399b0
+SHA256: 30d87e5c4534a05f494dc63c371dd35790377dab5a2c60e693d9a8b67c5ef9e0
+Section: Tweaks
+Description: 免责声明：不存在任何收费且严禁用于商业用途，仅供学习交流使用，严禁用于欺骗与误导，后果自负。本人不承担任何法律责任。信息搜索栏输入8开启/关闭。
+Author: rain
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Name: MagicSMS
+
 Package: com.ylr.wcsimplify
 Version: 1.5.7-1
 Architecture: iphoneos-arm64
