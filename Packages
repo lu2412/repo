@@ -34,22 +34,6 @@ Author: Netskao
 Name: 极简阅读 Crack
 Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.leoreadercrack.json
 
-Package: com.netskao.swiftgramcrack
-Version: 1.1-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1080
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/swiftgramcrack_1.1-7_iphoneos-arm64.deb
-Size: 423212
-MD5sum: a5d46ee732a831fcc8e26e7d7c238406
-SHA1: e2d5ba34a1db3fbc9d9401c5132b1f5b775d42a0
-SHA256: 670c3c781f20f5a9e247c584f825a29ddc6933adf912583b3354a536f8454a30
-Section: Netskao-Tweaks
-Description: Swiftgram Pro. 附加解除下载保护/解除截图保护/去除官方广告, 支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
-Author: Netskao
-Name: Swiftgram Crack
-
 Package: com.sini921.classicfolders3
 Version: 3.0.6-10
 Architecture: iphoneos-arm64
@@ -1491,31 +1475,6 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
-Package: lym.com.huami.WCPulse
-Version: 1.2-5
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 988
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.WCPulse
-Replaces: com.huami.WCPulse
-Filename: ./debs/微信WCPulse-Rootless.deb
-Size: 192020
-MD5sum: 836e30043868a8873382b6fef63992c5
-SHA1: 521a0269111c52be94b07c08d8dcdd8a45277e61
-SHA256: a9e0935a5e9217d2e594e4493770717b992e89360b381d717a369dbf8082f922
-Section: 微信插件
-Description: 微信实用小插件
- - 启用视频倍速手势
- - 启用头像时间标签
- - 自定义防撤回功能
- - 插件管理排序功能
- - 默认绕过多开人脸、无后台限制
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: 微信WCPulse-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.WCPulse.json
-
 Package: lym.com.huami.WCPush2Chat
 Version: 1.0-2
 Architecture: iphoneos-arm64
@@ -2830,6 +2789,26 @@ Description: 带动画的微信消息手势左滑引用,点击引用快速跳转
 Author: vita
 Name: 微信左滑消息引用-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.wchook.json
+
+Package: lym.com.wkk.wctimelinereplacefind
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 852
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.wkk.wctimelinereplacefind
+Replaces: com.wkk.wctimelinereplacefind
+Filename: ./debs/朋友圈替换发现底栏-Rootless.deb
+Size: 347944
+MD5sum: e03b17b18a27e710ef0b55d4585e00d1
+SHA1: 581771ad3cfdbc9bc2f6c531ba91140df5d6d2c0
+SHA256: d0e6d1069b0fa9b9d3c94cedb4fda3c17c879d7a8d531ede70b4fdd722423afa
+Section: 微信插件
+Description: 使用朋友圈替换发现底栏
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 朋友圈替换发现底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.wctimelinereplacefind.json
 
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
