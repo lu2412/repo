@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 百度去开屏以及添加导出按钮,ylr制作投稿\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 双击顶部导航栏(如首页顶栏、聊天页顶栏)弹出菜单,修改透明度/毛玻璃、隐藏通讯录、发现等。\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年12月24日",
+                      "text": "2026年02月13日",
                       "title": "最后更新"
                   }
               ]

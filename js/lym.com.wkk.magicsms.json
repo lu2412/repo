@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 从封包中提取Asset.car文件命令行工具，从Asset.car图像中提取png图像\n- 用以下终端工具执行命定定位到xxx.car路径\n- cd /var/mobile/Documents/DebBackup\n- 再次执行以下指令用来保存提取后的位置\n- uncar Assets.car /var/mobile/Documents\n- 在此路径下会生成car同名称文件夹\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 修改短信文字内容\n- 信息搜索栏输入8开启/关闭\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -34,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "Elias Limneos <limneoselias@gmail.com>",
+                      "text": "rain",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.0.1-6",
+                      "text": "0.0.1-9",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年01月03日",
+                      "text": "2026年02月13日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.0.1-6 \n- 初始版本"
+                      "markdown": "### 版本 0.0.1-9 \n- 初始版本"
                   },
               ]
           }

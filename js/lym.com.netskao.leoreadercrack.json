@@ -16,21 +16,13 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 优化去除广告、精简个人主页\n- 屏蔽TF版本更新检测、去除菜单栏红点提示\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 极简阅读解锁Pro,支持当前最新版2.0.5\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
                       "itemSize": "{1, 1}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  }
                             ]
                   },
 
@@ -42,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "iOSign",
+                      "text": "Netskao",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-1",
+                      "text": "1.1-2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年12月20日",
+                      "text": "2026年02月13日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-1 \n- 初始版本"
+                      "markdown": "### 版本 1.1-2 \n- 初始版本"
                   },
               ]
           }

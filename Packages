@@ -17,35 +17,18 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: com.netskao.leoreadercrack
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1016
-Depends: firmware (>= 13.0), mobilesubstrate
-Filename: ./debs/com.netskao.leoreadercrack_1.1-2_iphoneos-arm64.deb
-Size: 387632
-MD5sum: e6d6f71834bba5f62d9484c4a4d5e61f
-SHA1: 5dda89428a9012d5ce737684134dde32c147ca80
-SHA256: 515e68b8190e37f4ed07f01c9801305556b4c35387960bc1957c3400215c6145
-Section: Netskao-Tweaks
-Description: 极简阅读解锁Pro, 支持当前最新版1.9.9
-Author: Netskao
-Name: 极简阅读 Crack
-Sileodepiction: https://jailrepo.initnil.com/Depictions/com.netskao.leoreadercrack.json
-
 Package: com.sini921.classicfolders3
 Version: 3.0.6-10
 Architecture: iphoneos-arm64
 Maintainer: CoolStar & Lizynz & SINI
 Installed-Size: 4272
 Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
-Filename: ./debs/com.sini921.classicfolders3_3.0.6-10_iphoneos-arm64.deb
-Size: 3234624
-MD5sum: 3d1629236fa02c0eea7c65c755dec955
-SHA1: 01dc7114b8ecc20f45300cb9a468548ebf524de3
-SHA256: 63dbd2026f8a5ad08a370e5c6364e91110e981af07510316eca99fdd2b4bb640
-Section: 越狱插件
+Filename: ./debs/classicfolders经典文件夹_iphoneos-arm64.deb
+Size: 3230144
+MD5sum: 200c22c411aef8570b5eb17668f77e99
+SHA1: 1992f39a428625aafb2099545f9fd7263d1eb301
+SHA256: 913f03fb74c20306df8768f64014aa9e3f75ef0e18f7bae337f011aeb8ea50a1
+Section: 系统增强
 Description: 经典文件夹，基于开源代码优化编译。
 Author: CoolStar & Lizynz & SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/classicfolders3.png
@@ -73,39 +56,6 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
-
-Package: com.wkk.magicsms
-Version: 0.0.1-9
-Architecture: iphoneos-arm64
-Maintainer: rain
-Installed-Size: 232
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/修改替换短信内容.deb
-Size: 17664
-MD5sum: 7b1d7532486001dd6cae4edaed3b4c45
-SHA1: 633e1c9e0acbe5c8b70bd968603d5f74f4f399b0
-SHA256: 30d87e5c4534a05f494dc63c371dd35790377dab5a2c60e693d9a8b67c5ef9e0
-Section: Tweaks
-Description: 免责声明：不存在任何收费且严禁用于商业用途，仅供学习交流使用，严禁用于欺骗与误导，后果自负。本人不承担任何法律责任。信息搜索栏输入8开启/关闭。
-Author: rain
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Name: MagicSMS
-
-Package: com.ylr.wcsimplify
-Version: 1.5.7-1
-Architecture: iphoneos-arm64
-Maintainer: ylr
-Installed-Size: 548
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.ylr.wcsimplify_1.5.7-1_iphoneos-arm64.deb
-Size: 118366
-MD5sum: 2f84c57e828a542936bfa498bade10e7
-SHA1: 0a8223cc751b4e038b1864924f37e18abee96a5e
-SHA256: f7f77f89d61df148ef98729bc1daa920fa488ede5179eb86d75a4e58f0bffa01
-Section: Tweaks
-Description: 本插件仅测试使用，如有传播，请马上删除！
-Author: ylr
-Name: WCSimplify
 
 Package: gaode-Rootless
 Version: 1.0.4
@@ -1475,6 +1425,27 @@ Author: 妖刀
 Name: Choicy 简体中文包-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
+Package: lym.com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Conflicts: com.huami.ChoicyConfigPin
+Replaces: com.huami.ChoicyConfigPin
+Filename: ./debs/ChoicyConfigPin-Rootless.deb
+Size: 7120
+MD5sum: 8f9b78199092062fc329c6191366ae18
+SHA1: 3096c41909345e1a89a0f8a9369ea39868ea3a1a
+SHA256: a600288bb1244f2fff8fdbd1fa7137198dccd8f4d938b8e5515f2a27cdb6ff5d
+Section: 系统增强
+Description: 打开Choicy时将已调整的 App/Process置顶到Section最顶部
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: ChoicyConfigPin-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.json
+
 Package: lym.com.huami.WCPush2Chat
 Version: 1.0-2
 Architecture: iphoneos-arm64
@@ -2009,6 +1980,27 @@ Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
+Package: lym.com.netskao.leoreadercrack
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 1016
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.leoreadercrack
+Replaces: com.netskao.leoreadercrack
+Filename: ./debs/极简阅读pro-Rootless.deb
+Size: 386908
+MD5sum: 3221541bd69ee9239c404120add91472
+SHA1: 3966594e2de4722bc540cc742a86454c39eb299e
+SHA256: 6ce35bf6f41e5ffb54d215a00082dcb1d840e0d8c4bf37f1459918cb9f98d207
+Section: 软件增强
+Description: 极简阅读解锁Pro,支持当前最新版2.0.5
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 极简阅读pro-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.leoreadercrack.json
+
 Package: lym.com.netskao.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
@@ -2051,28 +2043,6 @@ Author: Netskao
 Name: Ring TonesManager铃声管理-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.ringtonesmanager.json
 
-Package: lym.com.netskao.twitternoads
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 72
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.netskao.twitternoads
-Replaces: com.netskao.twitternoads
-Filename: ./debs/Twitter NoAds-Rootless.deb
-Size: 2812
-MD5sum: f2b070fc6e2a6e9eb87177b098b9a0b8
-SHA1: 59b4e43bdbbe38d7342017e4844f85e68d985421
-SHA256: 1ceeadb5e4c41d61a88448fde8e3063a50cee8b61fe251044f69127ffb1ec3f8
-Section: 软件增强
-Description: 删除Twitter数据流中广告
- - 仅在 10.64.1 版本上测试
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: Twitter NoAds-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.twitternoads.json
-
 Package: lym.com.netskao.wckeyboardhidelogo
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2114,28 +2084,6 @@ Description: 微信SVG图标彩色着色
 Author: Netskao
 Name: 微信svg图标着色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wcsvgcolorhookexamples.json
-
-Package: lym.com.netskao.wechatnotiavatar
-Version: 1.3-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1228
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Conflicts: com.netskao.wechatnotiavatar
-Replaces: com.netskao.wechatnotiavatar
-Filename: ./debs/WeChatNotiAvatar微信头像-Rootless.deb
-Size: 242716
-MD5sum: c41a8a90f49362afbd9df689aa0c6227
-SHA1: 470f97eeb0a67e4f1e3bce3d8deb6bff42477033
-SHA256: 0cf0e7127d69e5d3a75d8dbc38aadf04d9cf20e52ad788ce5f2d60957a59044b
-Section: 微信插件
-Description: 让微信消息通知显示微信好友头像
- - 仅支持越狱环境,注入无效
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: WeChatNotiAvatar微信头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wechatnotiavatar.json
 
 Package: lym.com.nightwind.horizontalsliders
 Version: 0.0.1
@@ -2790,6 +2738,28 @@ Author: vita
 Name: 微信左滑消息引用-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.wchook.json
 
+Package: lym.com.wkk.magicsms
+Version: 0.0.1-9
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 232
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.magicsms
+Replaces: com.wkk.magicsms
+Filename: ./debs/修改短信文字内容-Rootless.deb
+Size: 17704
+MD5sum: edcaddfd13b2d902a63f841d8c6e5b38
+SHA1: c2cae02ed0fc03cb4ab968d7a8ccdfdea4fcdbdd
+SHA256: 9e7e3bafc3622441c0e59bafc4e1d8d043f832cf351ddadc1d92357b93f4856f
+Section: 系统增强
+Description: 修改短信文字内容
+ - 信息搜索栏输入8开启/关闭
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: rain
+Name: 修改短信文字内容-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.magicsms.json
+
 Package: lym.com.wkk.wctimelinereplacefind
 Version: 1.1-2
 Architecture: iphoneos-arm64
@@ -3086,17 +3056,16 @@ Installed-Size: 548
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ylr.wcsimplify
 Replaces: com.ylr.wcsimplify
-Filename: ./debs/百度网盘去广告文件导出-Rootless.deb
-Size: 118548
-MD5sum: 85ea8b31039b7d234df2fff20b5f715a
-SHA1: 3f0e3ae4732fbcbfd68270dba9dfe77f2faaa67b
-SHA256: 1b8de6999bed37412886a07202ab062cf4de5c176b33658c7a54c86d6302869f
-Section: 软件增强
-Description: 百度去开屏以及添加导出按钮,ylr制作投稿
- - 插件无设置项安装即可生效
+Filename: ./debs/WCSimplify-Rootless.deb
+Size: 118928
+MD5sum: f14bc56d6b7efe15c23f9028b26b6883
+SHA1: a3c9a1c3c121586fec058417249ff748f5236506
+SHA256: 3411f3ef9346032f4bd869175fc7c3f381e6b5f2efb1f1e28687a3b36f6fcf1b
+Section: 微信插件
+Description: 双击顶部导航栏(如首页顶栏、聊天页顶栏)弹出菜单,修改透明度/毛玻璃、隐藏通讯录、发现等。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: ylr
-Name: 百度网盘去广告文件导出-Rootless
+Name: WCSimplify-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ylr.wcsimplify.json
 
 Package: lym.com.yourepo.huayuarc.12306-rootless
@@ -3240,28 +3209,6 @@ Description: 让开关标签颜色更为好看
 Author: iBreak <xuanhua880@gmail.com>
 Name: 全局开关颜色-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ios-rootless.json
-
-Package: lym.iosign.baidudisk.rootless
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iOSign
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: iosign.baidudisk.rootless
-Replaces: iosign.baidudisk.rootless
-Filename: ./debs/百度网盘去广告-Rootless.deb
-Size: 3892
-MD5sum: 756b028e100748c02ffd3d0ff3f3336e
-SHA1: d1455224119fddc27ddb98da5b2acfe1ff243157
-SHA256: 3f56174c00026f54505729116fe655d8b21c5cddcfc99b42cf0d34a6f34c9236
-Section: 软件增强
-Description: 优化去除广告、精简个人主页
- - 屏蔽TF版本更新检测、去除菜单栏红点提示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iOSign
-Name: 百度网盘去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.baidudisk.rootless.json
 
 Package: lym.iosign.hidesim2.rootless
 Version: 0.1-1
@@ -3538,30 +3485,6 @@ Description: 优化官方TG客户端，支持Swiftgram,目前包含3个功能：
 Author: 佚名
 Name: Telegram增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ph.telegra.Telegraph.adv.4-Rootless.json
-
-Package: lym.uncar
-Version: 0.0.1-6
-Architecture: iphoneos-arm64
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 132
-Conflicts: uncar
-Replaces: uncar
-Filename: ./debs/uncar提取car图像-Rootless.deb
-Size: 6912
-MD5sum: 31d560858ac28b9a4f96a5fc8f8f6118
-SHA1: 65e35a405e2af9992ec81d409a8e680b9f01859b
-SHA256: 018e89f66d2107bcace112af76c06413d60fa91454273629266b361b6d44a2dd
-Section: 系统增强
-Description: 从封包中提取Asset.car文件命令行工具，从Asset.car图像中提取png图像
- - 用以下终端工具执行命定定位到xxx.car路径
- - cd /var/mobile/Documents/DebBackup
- - 再次执行以下指令用来保存提取后的位置
- - uncar Assets.car /var/mobile/Documents
- - 在此路径下会生成car同名称文件夹
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Elias Limneos <limneoselias@gmail.com>
-Name: uncar提取car图像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.uncar.json
 
 Package: lym.ws.hbang.newterm3
 Version: 3.0~beta1
