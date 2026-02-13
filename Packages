@@ -524,17 +524,17 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.8-9
+Version: 3.9-1
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 5147032
-MD5sum: ef71f95d00bc59276e854825a9b8a45c
-SHA1: f347609949d4a29cf7ca09a0e27934ad30fec1fb
-SHA256: eeba8320731a6799c46950d0e5f6fdcaf6cd9a6d7410dc79cbb79cae3b35ec21
+Size: 5190844
+MD5sum: 93274f12cea76c0f4f36702f6335fb94
+SHA1: 8e2eba6666e570540773b58c8a0dfba0bc924b88
+SHA256: 3a3eab0268bd9333c90b36ffe6579a53f6c8a6f0b6fe8390996d18d4aac97296
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
@@ -776,17 +776,17 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 1.9.7
+Version: 2.0.3
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 12845920
-MD5sum: 7a4f66550e7af7e0dd93be9829e19d75
-SHA1: 6a4cfb646c2f3eeb9e3ab0110f8ead1ea6a6e927
-SHA256: 26481c90fb90641c062046bc39b4b703fca99a2576f3f7a816f5addb8e99afad
+Size: 13176072
+MD5sum: aaae24a28293c69231270294943dc69d
+SHA1: 0fee03fefb8fa0d15ee9ef0af24dab7fa7c709ba
+SHA256: 25aca5cd52861ad6e34fce81650d7ef7fd40edd43026c57a54d4402d96705ed8
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -2474,6 +2474,27 @@ Author: Starry6
 Name: 汽水&抖音秒过激励视频-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.lunanoad.json
 
+Package: lym.com.starry6.qsyy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Starry6
+Installed-Size: 340
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.starry6.qsyy
+Replaces: com.starry6.qsyy
+Filename: ./debs/QiShuiNoAd汽水音乐精简-Rootless.deb
+Size: 54720
+MD5sum: c7f946dc46f2e6aef0b44b777951760d
+SHA1: 2cd6ff82fac7ca4feb1aef2e2e98549afb723495
+SHA256: e6e5c310a55a61323b837f2d147a031e4473000d5c750d2c181285934d40c544
+Section: 软件增强
+Description: 汽水音乐精简选项
+ - 去除开屏广告,秒过激励视频
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Starry6
+Name: QiShuiNoAd汽水音乐精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.qsyy.json
+
 Package: lym.com.sunshinesong.split-view-pro
 Version: 1.3.7
 Architecture: iphoneos-arm64
@@ -2606,17 +2627,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.1.8
+Version: 2.2.5
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 4782492
-MD5sum: caf36b3202fd0b6a913146cecaca4283
-SHA1: fdd9db00ad194a11ad5b6a765a7eed36717056cc
-SHA256: a84b459e86bf0cffda0023eff46d8cd1a1085e51cb86bd23b3fa8b832a82dbaa
+Size: 5025960
+MD5sum: 6f470e5bf737bde78fd8b9def0e8633b
+SHA1: fdc6b1883b60a8e546d267c65215f2545e6d6ed7
+SHA256: 0f7144c93796acbdbb069e8edee81f88ab83a662ba5d74432ef8e2b45a79dc4b
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3065,26 +3086,6 @@ Description: 快速跳过激励视频广告,奖励正常领取
 Author: lenglengyu
 Name: VideoAdsSpeed快速跳过广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.lly.adsspee-rootless.json
-
-Package: lym.com.yourepo.trollstore.douyinliveusercount
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Axs <qiaozhani000@163.com>
-Depends: mobilesubstrate
-Conflicts: com.yourepo.trollstore.douyinliveusercount
-Replaces: com.yourepo.trollstore.douyinliveusercount
-Filename: ./debs/抖音直播间人数-Rootless.deb
-Size: 3288
-MD5sum: a62dba17cead7b482fc0fbe640efe88a
-SHA1: 70fb67caecf7c199bd4a0a77aed7e07cf147f576
-SHA256: 000391617d3a1d85c99aec6d7ef32d5ee5968a32f37e9cbba388659e07e0fb88
-Section: 抖音插件
-Description: 显示抖音直播间真实观看用户数
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 竺笙 <qiaozhani000@163.com>
-Name: 抖音直播间人数-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.trollstore.douyinliveusercount.json
 
 Package: lym.de.finngaida.daynightswitch
 Version: 1.2
