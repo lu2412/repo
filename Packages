@@ -1671,6 +1671,27 @@ Author: marsnakly
 Name: 键盘深色模式-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.marsnakly.heiseztjp.json
 
+Package: lym.com.nan.debd
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
+Conflicts: com.nan.debd
+Replaces: com.nan.debd
+Filename: ./debs/DEB下载插件-Rootless.deb
+Size: 4912
+MD5sum: 34667449e828ebc231937281e09d041a
+SHA1: 9f06c572c5e98186cf7e77df30ac41d010813374
+SHA256: 682c42ece31465006f203baf70161d825bb19f87aa9410fd6f0e00e58f66fe5d
+Section: 系统增强
+Description: 轻量deb下载工具,不支持付费才能下的插件
+ - 默认下载目录/var/mobile/Downloads/deb搭配快捷指令下载deb插件快人一步!)
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: zhaonan <invalidunit@icloud.com>
+Name: DEB下载插件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.debd.json
+
 Package: lym.com.nan.rebirth
 Version: 0.1.5
 Architecture: iphoneos-arm64
