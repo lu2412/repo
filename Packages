@@ -1714,18 +1714,18 @@ Name: Rebirth一键安装插件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.rebirth.json
 
 Package: lym.com.netskao.appdata
-Version: 1.4.4
+Version: 1.4.6
 Architecture: iphoneos-arm64
 Maintainer: Nets
-Installed-Size: 13548
+Installed-Size: 5140
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata
 Replaces: com.netskao.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 5050044
-MD5sum: 744dd143fb302370c7da292bd2b9062b
-SHA1: 79984e96d5735836ee996ea085b84cf51f029bb6
-SHA256: 5515ae288729d1b225a9dd4d8fd02dc3cd8f7365d1fef5c35bf5f4df629362ce
+Size: 1501756
+MD5sum: d4de6d9d2a28b34e7b2f6101d8c77f30
+SHA1: 10cee15d5b64768b147f00ab4a529da9bb93631e
+SHA256: 91b75ee9ab0e774230929dc7e8f9a0e23bc4f82b1232d8777cecf2d55dc045c8
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1735,7 +1735,7 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.appdata.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
 Package: lym.com.netskao.awemeclearlikes
 Version: 1.1-2
@@ -2973,10 +2973,10 @@ Maintainer: 无名
 Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2140
-MD5sum: 56834a20e1b0bff84d6b10f945c606d6
-SHA1: 4ef89c9cb8a242895174885a27d3945c727f45a0
-SHA256: ae4883cba888e333338b41e351633c191f07c39f731dcc136f9ad0d453950d41
+Size: 2104
+MD5sum: ed2ab86b9dab216e005f4921c1e0e7fc
+SHA1: 010ee088feac9919cf30845cff58e6bef5e72e37
+SHA256: 0d6785716ec8b127b181d6a0df68650aa02a50e83b6ffcdce3b569d40b1d252a
 Section: 自用备份
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台

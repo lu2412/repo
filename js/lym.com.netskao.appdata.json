@@ -25,11 +25,11 @@
                       "screenshots": [
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/appdata.png"
+                                      "url": "https://liym5238.github.io/liym/icon/appdata.png"
                                   },
                                 {
                                       "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/appdata1.png"
+                                      "url": "https://liym5238.github.io/liym/icon/appdata1.png"
                                   }
                             ]
                   },
@@ -42,18 +42,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.4.4",
+                      "text": "Fouad Raheb",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.4.6",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月15日",
-                      "title": "最后更新时间"
+                      "text": "2026年02月15日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -63,14 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.4.4 \n- 允许TrollStore安装的应用程序重置数据和权限"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.4.3 \n- 优化显示数据大小加载速度\n- 降级应用显示ID"
+                      "markdown": "### 版本 1.4.6 \n- 修复iOS15崩溃问题\n- 修改API接口以获取应用程序的降级版本号"
                   },
               ]
           }
