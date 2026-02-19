@@ -1,3 +1,28 @@
+#!/bin/bash
+REPO_ROOT="$(dirname "$0")/.."
+POOL_DIR="$REPO_ROOT/pool"
+DEPICTIONS_DIR="$REPO_ROOT/depictions"
+STATS_BASE_URL="https://lu2412.github.io/repo/stats"
+DEB_BASE_URL="https://lu2412.github.io/repo/pool"
+
+mkdir -p "$DEPICTIONS_DIR"
+
+find "$POOL_DIR" -name "*.deb" | while read -r deb_path; do
+  # 从 deb 提取信息
+  pkg_id="$(dpkg-deb -I "$deb_path" 2>/dev/null | grep -A10 "Package:" | awk '/Package:/{print $2}')"
+  version="$(dpkg-deb -I "$deb_path" 2>/dev/null | grep -A10 "Version:" | awk '/Version:/{print $2}')"
+  author="$(dpkg-deb -I "$deb_path" 2>/dev/null | grep -A10 "Maintainer:" | awk '/Maintainer:/{sub(/^.*</,""); sub(/>.*$/,""); print $0}')"
+  if [ -z "$author" ]; then author="MacXK"; fi
+
+  # 计算 deb 文件名和 URL
+  deb_name="$(basename "$deb_path")"
+  deb_url="$DEB_BASE_URL/$deb_name"
+
+  # 生成 depiction JSON 文件名
+  dep_file="$DEPICTIONS_DIR/${pkg_id}.json"
+
+  # 写入 JSON
+  cat > "$dep_file" <<EOF
 {
     "class": "DepictionTabView",
     "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
@@ -9,14 +34,20 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "text": "App Store 下载",
+                    "action": "https://apps.apple.com/cn/app/酷我音乐纯净版/id1594175673",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 酷我音乐纯净版VIP解锁\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- VIP 功能解锁\n- 无设置项，安装即生效\n- 仅供学习交流，24小时内删除"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 15,
+                    "itemSize": "{1, 1}",
+                    "screenshots": []
                 },
                 {
                     "class": "DepictionHeaderView",
@@ -38,7 +69,7 @@
                                 },
                                 {
                                     "class": "DepictionLabelView",
-                                    "text": "0.1-1",
+                                    "text": "$version",
                                     "fontSize": 24
                                 }
                             ]
@@ -57,7 +88,7 @@
                                 },
                                 {
                                     "class": "DepictionLabelView",
-                                    "text": "2026-02-19 21:08:26",
+                                    "text": "$(date +"%Y-%m-%d %H:%M:%S")",
                                     "fontSize": 24
                                 }
                             ]
@@ -79,10 +110,10 @@
                                 {
                                     "class": "DepictionTableTextView",
                                     "title": "",
-                                    "action": "https://lu2412.github.io/repo/pool/酷我音乐纯净版-Rootless.deb",
+                                    "action": "$deb_url",
                                     "openExternal": 0,
                                     "parse": 1,
-                                    "pattern": "Content-Length:\\s*(\\d+)",
+                                    "pattern": "Content-Length:\\\\s*(\\\\d+)",
                                     "transform": "bytesToSize",
                                     "text": "加载中…"
                                 }
@@ -124,10 +155,10 @@
                                 {
                                     "class": "DepictionTableTextView",
                                     "title": "",
-                                    "action": "https://lu2412.github.io/repo/stats/downloads.count",
+                                    "action": "$STATS_BASE_URL/downloads.count",
                                     "openExternal": 0,
                                     "parse": 1,
-                                    "pattern": "lym\\.com\\.macxk\\.kwcrack=(\\d+)",
+                                    "pattern": "$(echo "$pkg_id" | sed 's/\./\\\\./g')=(\\\\d+)",
                                     "text": "加载中…"
                                 }
                             ]
@@ -147,10 +178,10 @@
                                 {
                                     "class": "DepictionTableTextView",
                                     "title": "",
-                                    "action": "https://lu2412.github.io/repo/stats/last_download_time",
+                                    "action": "$STATS_BASE_URL/last_download_time",
                                     "openExternal": 0,
                                     "parse": 1,
-                                    "pattern": "lym\\.com\\.macxk\\.kwcrack=(.+)",
+                                    "pattern": "$(echo "$pkg_id" | sed 's/\./\\\\./g')=(.+)",
                                     "text": "加载中…"
                                 }
                             ]
@@ -165,7 +196,7 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "MacXK",
+                    "text": "$author",
                     "title": "插件作者"
                 }
             ]
@@ -174,11 +205,17 @@
             "class": "DepictionStackView",
             "tabname": "更新日志",
             "views": [
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-1 \n- 初始版本"
-                  },
-              ]
-          }
-      ]
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 $version\n- 初始版本 / 修复已知问题"
+                }
+            ]
+        }
+    ]
 }
+EOF
+
+  echo "✅ 已生成：$dep_file"
+done
+
+echo "🎉 全部插件 Depiction 生成完成，路径：$DEPICTIONS_DIR"
