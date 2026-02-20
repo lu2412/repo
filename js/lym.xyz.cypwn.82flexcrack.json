@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "酷我音乐纯净版下载",
-                    "action": "https://apps.apple.com/cn/app/%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90%E7%BA%AF%E5%87%80%E7%89%88/id1594175673",
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 酷我音乐纯净版VIP解锁\n- 注意，只支持酷我纯净版\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 破解82Flex的ColorfulWallPaperX、Touch Viz和Write Now调整。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
@@ -34,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "MacXK",
+                      "text": "CBZ",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-1",
+                      "text": "0.0.2",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年02月19日",
+                      "text": "2026年02月20日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-1 \n- 初始版本"
+                      "markdown": "### 版本 0.0.2 \n- 初始版本"
                   },
               ]
           }
