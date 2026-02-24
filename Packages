@@ -504,17 +504,17 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.9-1
+Version: 3.9-2
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 5190844
-MD5sum: 93274f12cea76c0f4f36702f6335fb94
-SHA1: 8e2eba6666e570540773b58c8a0dfba0bc924b88
-SHA256: 3a3eab0268bd9333c90b36ffe6579a53f6c8a6f0b6fe8390996d18d4aac97296
+Size: 4121236
+MD5sum: f45d375d4002f550a05c86c73530ee98
+SHA1: d733072abeda592d922ba04025ffd79b6ffcde38
+SHA256: 09720dc49b69efad60748f603b28854ec7538f327c879ef469369c274d86b75d
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题

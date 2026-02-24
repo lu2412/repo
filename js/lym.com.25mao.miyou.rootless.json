@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.9-1",
+                      "text": "3.9-2",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年02月13日",
+                      "text": "2026年02月24日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.9-1 \n- 修复3.9.0斗图按钮及发送按钮错位的特性"
+                      "markdown": "### 版本 3.9-2 \n- 修复部分用户3.9.1无故闪退问题\n- 修复首页右上角菜单部分功能不显示问题\n- 修复快速删除好友功能闪退问题\n- 分组群发功能调整至每组500人"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本\n- 修复3.9.0斗图按钮及发送按钮错位的特性"
                   },
                   {
                       "class": "DepictionSeparatorView"
