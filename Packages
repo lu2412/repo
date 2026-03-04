@@ -1933,6 +1933,26 @@ Author: Netskao
 Name: 微信输入法隐藏logo-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wckeyboardhidelogo.json
 
+Package: lym.com.netskao.wctimelinereplacefind
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 836
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.netskao.wctimelinereplacefind
+Replaces: com.netskao.wctimelinereplacefind
+Filename: ./debs/朋友圈替换发现底栏-Rootless.deb
+Size: 338412
+MD5sum: a9fbc856a92c9b087b724381383e17e6
+SHA1: 91234b29028f9d7de6ec867f112494fe4e5bf517
+SHA256: 3153edf3d72bf9930fae8ca52fa4c6c37f0c8533dd18419012bd57b8ca1fa1a5
+Section: 微信插件
+Description: 使用朋友圈替换发现底栏
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 朋友圈替换发现底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.wctimelinereplacefind.json
+
 Package: lym.com.nightwind.horizontalsliders
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -2585,26 +2605,6 @@ Description: 修改短信文字内容
 Author: rain
 Name: 修改短信文字内容-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.magicsms.json
-
-Package: lym.com.wkk.wctimelinereplacefind
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 852
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.wkk.wctimelinereplacefind
-Replaces: com.wkk.wctimelinereplacefind
-Filename: ./debs/朋友圈替换发现底栏-Rootless.deb
-Size: 347944
-MD5sum: e03b17b18a27e710ef0b55d4585e00d1
-SHA1: 581771ad3cfdbc9bc2f6c531ba91140df5d6d2c0
-SHA256: d0e6d1069b0fa9b9d3c94cedb4fda3c17c879d7a8d531ede70b4fdd722423afa
-Section: 微信插件
-Description: 使用朋友圈替换发现底栏
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 朋友圈替换发现底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.wctimelinereplacefind.json
 
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
