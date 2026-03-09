@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.9-2",
+                      "text": "3.9-3",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年02月24日",
+                      "text": "2026年03月09日",
                       "title": "最后更新"
                   }
               ]
@@ -68,21 +68,28 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.9-2 \n- 修复部分用户3.9.1无故闪退问题\n- 修复首页右上角菜单部分功能不显示问题\n- 修复快速删除好友功能闪退问题\n- 分组群发功能调整至每组500人"
+                      "markdown": "### 版本 3.9-3 \n- 移除纯属懒猫公众号\n- 修复勿扰模式/密友模式下语音/视频消息弹窗问题\n- 移除了大量的无效代码\n- 优化了大量导致卡顿的代码"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本\n- 修复3.9.0斗图按钮及发送按钮错位的特性"
+                      "markdown": "### 版本3.9.2\n- 修复部分用户3.9.1无故闪退问题\n- 修复首页右上角菜单部分功能不显示问题\n- 修复快速删除好友功能闪退问题\n- 分组群发功能调整至每组500人"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本\n- 修复8.0.65版本闪退问题\n- 修复首页搜索无法解除密友\n- 我再也不想动这坨山代码了"
+                      "markdown": "### 版本3.9.1\n- 修复3.9.0斗图按钮及发送按钮错位的特性"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.9.0\n- 修复8.0.65版本闪退问题\n- 修复首页搜索无法解除密友\n- 我再也不想动这坨山代码了"
                   },
                   {
                       "class": "DepictionSeparatorView"

@@ -17,6 +17,43 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
+Package: com.Axs.accode
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Filename: ./debs/分屏插件.deb
+Size: 19608
+MD5sum: 6d02f0b7a52539eb82c5b30e122645a6
+SHA1: 26ee87aa4e11aa9c2b99cf552b790fbe0cff6869
+SHA256: b2b428411a199c6706b1dfdaf2296d623491d263e00505d5bcd79b7a49c561a8
+Section: 分屏插件
+Description: 为奥利奥分屏生成激活码的插件，安装之后去Filza找到/usr/bin/vm_stat点击运行，并输入stheno+udid，回车即可获得16位激活码。在https://axs66.github.io/pro源里面先安装77.1.4.7版本，根据插件描述呼出页面输入激活码，激活成功后再安装77.1.4.8最终版本。
+Tag: role::hacker
+Author: Crassna
+Icon: https://axs66.github.io/pro/icon/stheno.png
+Name: stheno 奥利奥分屏激活码生成器
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
+
+Package: com.Axs.stheno
+Version: 77.1.4.8
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Filename: ./debs/Stheno奥利奥_77.1.4.8_无根.deb
+Size: 530756
+MD5sum: b8cae806570143c103940633e74b6ccf
+SHA1: c08b99c2c7c432531e797d001ff8a1f87c3b47ef
+SHA256: b6b3653acf069d221474a0fd766173eeed677c7471817a8f903ff34a3edc95d7
+Section: 分屏插件
+Description: Medusa,Jump Whenever。
+Author: Crassna
+Icon: https://axs66.github.io/pro/icon/stheno.png
+Name: Stheno
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
+
 Package: com.sini921.classicfolders3
 Version: 3.0.6-10
 Architecture: iphoneos-arm64
@@ -444,17 +481,17 @@ Name: 微信快斗-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.KuaiDou.json
 
 Package: lym.com.25mao.doutu.rootless
-Version: 3.1-6
+Version: 3.1-7
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.doutu.rootless
 Replaces: com.25mao.doutu.rootless
 Filename: ./debs/微信斗图助手-Rootless.deb
-Size: 1051700
-MD5sum: 4fefd6af4112e6a031e463ae1a644a70
-SHA1: 16b826805433c777cf21bfa136486f3da6920b2e
-SHA256: 5d4cd7dafe82c27f5cd43a8816764108ad1c582b6d2e34588cf8cbd3c6281951
+Size: 783300
+MD5sum: b9428ad6ec486fde4584e5442d22681d
+SHA1: 3f66c0a0599f2a3009042360066926e9fde2d0f3
+SHA256: 3319da3f1ca3ef9cc084b813d4ed8def51ab1fb429ff5a329ffc026e30f9e0f0
 Section: 微信插件
 Description: 微信斗图助手
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -504,17 +541,17 @@ Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
 
 Package: lym.com.25mao.miyou.rootless
-Version: 3.9-2
+Version: 3.9-3
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.miyou.rootless
 Replaces: com.25mao.miyou.rootless
 Filename: ./debs/微信助手-Rootless.deb
-Size: 4121236
-MD5sum: f45d375d4002f550a05c86c73530ee98
-SHA1: d733072abeda592d922ba04025ffd79b6ffcde38
-SHA256: 09720dc49b69efad60748f603b28854ec7538f327c879ef469369c274d86b75d
+Size: 5114972
+MD5sum: 81a0046bb63b32e114fb627a09c2d2ef
+SHA1: 8735dd1107a6f9525e9725b0cf7a2ffdeddb7d7f
+SHA256: dcde116f779a89e81ebad68a9add3b0adbba911a90bd279ea99223d6645d7c2f
 Section: 微信插件
 Description: 微信多功能插件助手
  - 修复上一版本勿扰模式自动挂断后无法回拨问题
@@ -756,17 +793,17 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 2.0.3
+Version: 2.0.5
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 13176072
-MD5sum: aaae24a28293c69231270294943dc69d
-SHA1: 0fee03fefb8fa0d15ee9ef0af24dab7fa7c709ba
-SHA256: 25aca5cd52861ad6e34fce81650d7ef7fd40edd43026c57a54d4402d96705ed8
+Size: 13110388
+MD5sum: ecbec8aa41a158e0e4268130ea4b84cc
+SHA1: fa1c306ab9adf5fb26d1a718c3ea3782a31c5922
+SHA256: 247fd67402b0c54e7e0825bbd43a1058586ce0b46f4d3fa8fca26aecd00e5bff
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能

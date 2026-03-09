@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.1-6",
+                      "text": "3.1-7",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2025年04月24日",
+                      "text": "2026年03月09日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.1-6 \n- 修复聊天窗口图片转表情功能闪退问题"
+                      "markdown": "### 版本 3.1-7 \n- 更换为新的公众号"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.1-6修复聊天窗口图片转表情功能闪退问题"
                   },
               ]
           }
