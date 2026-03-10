@@ -561,22 +561,23 @@ Name: 微信助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
 Package: lym.com.25mao.msgfilt.rootless
-Version: 1.0-5.1
+Version: 1.0-7
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
+Conflicts: com.25mao.msgfilt.rootless
 Replaces: com.25mao.msgfilt.rootless
 Filename: ./debs/消息屏蔽助手-Rootless.deb
-Size: 122488
-MD5sum: 2a342bd0779845a96676fd52e2bedf71
-SHA1: 7487168229edb9d24bbc3d3d87d2689733b5b075
-SHA256: 35d8f71627486daa518535ef77fd2316305cd0730aca740eba67588b327085be
+Size: 145108
+MD5sum: c68116fcca81781e816a813cb908845e
+SHA1: 34b4bd620d71bbe90352334747686c5548f1286a
+SHA256: c5d2a54689c5a00134e1e3c245968ad4988cf1f16ad238acd4c14473e397f1ee
 Section: 微信插件
-Description: 微信消息屏蔽助手
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Description: 消息屏蔽助手,群消息屏蔽,私聊消息屏蔽。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 消息屏蔽助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
 
 Package: lym.com.25mao.wcplugins.rootless
 Version: 0.1-3

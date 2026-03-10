@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 微信消息屏蔽助手\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 消息屏蔽助手,群消息屏蔽,私聊消息屏蔽。\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
-                      "itemCornerRadius": 6,
-                      "itemSize": "{10,10}",
+                      "itemCornerRadius": 15,
+                      "itemSize": "{1, 1}",
                       "screenshots": [
                             ]
                   },
@@ -34,18 +34,23 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0-5.1",
+                      "text": "Mao",
+                      "title": "插件作者"
+                  },
+                  {
+                      "class": "DepictionTableTextView",
+                      "text": "1.0-7",
                       "title": "插件版本"
                   },
                   {
                       "class": "DepictionTableTextView",
                       "text": "iOS 15 - iOS 16.5",
-                      "title": "支持的系统"
+                      "title": "支持系统"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月03日",
-                      "title": "最后更新时间"
+                      "text": "2026年03月10日",
+                      "title": "最后更新"
                   }
               ]
           },
@@ -55,8 +60,15 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0-5.1\n- 适配8.0.39客户端\n- > 2024-11-03"
-                  }
+                      "markdown": "### 版本 1.0-7 \n- 新增插件总开关\n- 新增可选是否屏蔽红包/转账消息"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.0.6\n- 更换关注公众号\n- 优化漏消息问题\n- 不屏蔽转账和红包消息"
+                  },
               ]
           }
       ]
