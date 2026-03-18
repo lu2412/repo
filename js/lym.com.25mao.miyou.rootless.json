@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "3.9-3",
+                      "text": "3.9-4",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年03月09日",
+                      "text": "2026年03月18日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 3.9-3 \n- 移除纯属懒猫公众号\n- 修复勿扰模式/密友模式下语音/视频消息弹窗问题\n- 移除了大量的无效代码\n- 优化了大量导致卡顿的代码"
+                      "markdown": "### 版本 3.9-4 \n- 移除验证弹窗\n- 修复通知偶尔不显示详情"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本3.9.4\n- 移除纯属懒猫公众号\n- 修复勿扰模式/密友模式下语音/视频消息弹窗问题\n- 移除了大量的无效代码\n- 优化了大量导致卡顿的代码"
                   },
                   {
                       "class": "DepictionSeparatorView"
