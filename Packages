@@ -3034,10 +3034,10 @@ Maintainer: 无名
 Conflicts: jailbreak.lizi.repo
 Replaces: jailbreak.lizi.repo
 Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2104
-MD5sum: ed2ab86b9dab216e005f4921c1e0e7fc
-SHA1: 010ee088feac9919cf30845cff58e6bef5e72e37
-SHA256: 0d6785716ec8b127b181d6a0df68650aa02a50e83b6ffcdce3b569d40b1d252a
+Size: 2116
+MD5sum: 19f8336c41d8fbeade70c1551579daad
+SHA1: 34f11a23d4048fa76c57385840df8fdc28dacd3f
+SHA256: 22b6c7687a91e243ec652e5e2c9c57dc278c0c66bb849278e57dd7a4dd2f1769
 Section: 自用备份
 Description: 收藏越狱源大全
  - 安装后会自动杀掉sileo后台
