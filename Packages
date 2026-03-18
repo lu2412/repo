@@ -481,17 +481,17 @@ Name: 微信快斗-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.KuaiDou.json
 
 Package: lym.com.25mao.doutu.rootless
-Version: 3.1-7
+Version: 3.1-8
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.doutu.rootless
 Replaces: com.25mao.doutu.rootless
 Filename: ./debs/微信斗图助手-Rootless.deb
-Size: 783300
-MD5sum: b9428ad6ec486fde4584e5442d22681d
-SHA1: 3f66c0a0599f2a3009042360066926e9fde2d0f3
-SHA256: 3319da3f1ca3ef9cc084b813d4ed8def51ab1fb429ff5a329ffc026e30f9e0f0
+Size: 786900
+MD5sum: 64e6c487f350aa73eb3330148e0e752a
+SHA1: dac56c21ce7256ac5f642850f34ba71fcac1f955
+SHA256: 65fcceea7d4ccc91cfb0f20b92a97c0a4c971fa52f7e365fe5c44505bd47a159
 Section: 微信插件
 Description: 微信斗图助手
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -2552,17 +2552,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.2.5
+Version: 2.2.6
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 5025960
-MD5sum: 6f470e5bf737bde78fd8b9def0e8633b
-SHA1: fdc6b1883b60a8e546d267c65215f2545e6d6ed7
-SHA256: 0f7144c93796acbdbb069e8edee81f88ab83a662ba5d74432ef8e2b45a79dc4b
+Size: 5191096
+MD5sum: bd1d6a5f83438e87a981845e5b050e52
+SHA1: 06a2e4d07d5f1606a39afc9c6db3a584b801decb
+SHA256: cb369341d4bb6627e2bda0ab823762c0550132b54f10b4e8f818cc3de9d3082e
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中

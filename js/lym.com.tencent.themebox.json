@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.2.5",
+                      "text": "2.2.6",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年02月13日",
+                      "text": "2026年03月18日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,28 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2.5 \n- 修复8.0.68部分主题进入聊天页面闪退"
+                      "markdown": "### 版本 2.2.6 \n- 新增消息合并功能\n- 新增一些图标/气泡的映射\n- 将聊天中的系统提示为半透明\n- 修复部分消息不能修改颜色问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "修复分组显示位置设在底栏上方时左右没有间距问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "3.1K19:18"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.4\n- 修复8.0.68部分主题进入聊天页面闪退"
                   },
                   {
                       "class": "DepictionSeparatorView"
