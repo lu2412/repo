@@ -2034,6 +2034,27 @@ Author: Nightwind
 Name: OneSettings设置归类-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.nightwind.onesettings.json
 
+Package: lym.com.p2kdev.alarmtime
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 212
+Depends: firmware (>= 14.0),mobilesubstrate
+Conflicts: com.p2kdev.alarmtime
+Replaces: com.p2kdev.alarmtime
+Filename: ./debs/AlarmTime时钟增强-Rootless.deb
+Size: 16688
+MD5sum: 5a33dfb8463570623db110be6829472a
+SHA1: 7558a02493a8063efe2c53ddbce00e3ee8575918
+SHA256: f01431ca4852e77212d2f30a8a1bf64518cf70452ddf932262d4c317eb526b60
+Section: 系统增强
+Description: 为已设置的闹钟显示响铃剩余时间
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: P2KDev <p2kdev@gmail.com>
+Name: AlarmTime时钟增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.p2kdev.alarmtime.json
+
 Package: lym.com.p2kdev.safarifind
 Version: 1.1.2
 Architecture: iphoneos-arm64
