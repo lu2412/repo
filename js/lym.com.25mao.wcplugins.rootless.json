@@ -23,14 +23,6 @@
                       "itemCornerRadius": 15,
                       "itemSize": "{1, 1}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  },
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  }
                             ]
                   },
 
@@ -47,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "0.1-3",
+                      "text": "0.1-6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2024年11月27日",
+                      "text": "2026年03月21日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1-3 \n- 增加密友隐藏插件"
+                      "markdown": "### 版本 0.1-6 \n- 初始版本"
                   },
               ]
           }
