@@ -2160,6 +2160,26 @@ Author: MiRO <tweaks_support@miro92.com>
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
+Package: lym.com.rain.rainback
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: rain
+Installed-Size: 400
+Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
+Conflicts: com.rain.rainback
+Replaces: com.rain.rainback
+Filename: ./debs/rain的返回-Rootless.deb
+Size: 30016
+MD5sum: 94fdcd433a1f8c5a513245a47d26e37f
+SHA1: 43942bd6c5c3b683f46f814fda90b3aa3121470f
+SHA256: a48ac3064e47bfe00c9a03ca2a4de6a9089fbc921f5715bff559a6e5bd509a77
+Section: 系统增强
+Description: 从屏幕右侧边缘左滑返回上一页面,支持灵敏度调节、黑白名单、震动反馈。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: rain
+Name: rain的返回-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.rain.rainback.json
+
 Package: lym.com.raulsaeed.bhtiktok++
 Version: 1.9.3
 Architecture: iphoneos-arm64
@@ -2573,17 +2593,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.2.6
+Version: 2.2.7
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 5191096
-MD5sum: bd1d6a5f83438e87a981845e5b050e52
-SHA1: 06a2e4d07d5f1606a39afc9c6db3a584b801decb
-SHA256: cb369341d4bb6627e2bda0ab823762c0550132b54f10b4e8f818cc3de9d3082e
+Size: 5301968
+MD5sum: c053df63ed1efb229e6221a9bf108731
+SHA1: 56dd91220904b5d5eedd90a3e9e81821773fff3a
+SHA256: d165b07b386a51d025ad04eed360bc71c6b38e7a9e898a963dde326223455eb1
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中

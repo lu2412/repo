@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.2.6",
+                      "text": "2.2.7",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年03月18日",
+                      "text": "2026年03月22日",
                       "title": "最后更新"
                   }
               ]
@@ -72,21 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2.6 \n- 新增消息合并功能\n- 新增一些图标/气泡的映射\n- 将聊天中的系统提示为半透明\n- 修复部分消息不能修改颜色问题"
+                      "markdown": "### 版本 2.2.7 \n- 优化消息合并功能的按时合并\n- 新增气泡内显示消息时间\n- 修复一些素材加载问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "修复分组显示位置设在底栏上方时左右没有间距问题"
-                  },
-                  {
-                      "class": "DepictionSeparatorView"
-                  },
-                  {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "3.1K19:18"
+                      "markdown": "### 版本2.0.6\n- 新增消息合并功能\n- 新增一些图标/气泡的映射\n- 将聊天中的系统提示为半透明\n- 修复部分消息不能修改颜色问题\n- 修复分组显示位置设在底栏上方时左右没有间距问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
@@ -114,7 +107,7 @@
                   },
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本2.1.6\n- 修复隐藏卡包失效\n- 修复低版本微信开启分组后闪退\n- 修复与下拉小程序页面冲突\n- 分组支持调整标签颜色,文字大小等"
+                      "markdown": "### 版本2.1.5\n- 修复隐藏卡包失效\n- 修复低版本微信开启分组后闪退\n- 修复与下拉小程序页面冲突\n- 分组支持调整标签颜色,文字大小等"
                   },
                   {
                       "class": "DepictionSeparatorView"
