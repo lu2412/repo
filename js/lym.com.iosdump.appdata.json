@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.4.6",
+                      "text": "1.8.8",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年02月15日",
+                      "text": "2026年03月25日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.4.6 \n- 修复iOS15崩溃问题\n- 修改API接口以获取应用程序的降级版本号"
+                      "markdown": "### 版本 1.8.8 \n- 优化插件,修改兼容iOS15+添加降级app\n- iOS15+可通过面板卸载巨魔安装的app\n- 添加修改app图标点击面板app图标呼出界面(仅越狱状态有效)"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.7\n- 修复iOS15崩溃问题\n- 修改API接口以获取应用程序的降级版本号"
                   },
               ]
           }

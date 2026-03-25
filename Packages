@@ -1517,6 +1517,29 @@ Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
+Package: lym.com.iosdump.appdata
+Version: 1.8.8
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
+Replaces: com.iosdump.appdata
+Filename: ./debs/appData桌面图标增强-Rootless.deb
+Size: 169968
+MD5sum: e6403164be21c96d749627132a54b4ad
+SHA1: 7913a2aa84beca76a4f95b98663a9ad4d30c0d18
+SHA256: b9d0ea23a36f42cb5ec6d789f10f2a83f7373b04b30ea2f43e29ac654bd12377
+Section: 系统增强
+Description: 降级应用
+ - 修改应用名称
+ - 清除/重置应用数据
+ - 重置应用权限
+ - 快速跳转Filza应用路径
+ - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Author: Fouad Raheb
+Name: appData桌面图标增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
+
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -1772,30 +1795,6 @@ Description: 该插件将已安装插件的Packages汇总为一个.deb依赖
 Author: zhaonan
 Name: Rebirth一键安装插件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.rebirth.json
-
-Package: lym.com.netskao.appdata
-Version: 1.4.6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 5140
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata
-Replaces: com.netskao.appdata
-Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 1501756
-MD5sum: d4de6d9d2a28b34e7b2f6101d8c77f30
-SHA1: 10cee15d5b64768b147f00ab4a529da9bb93631e
-SHA256: 91b75ee9ab0e774230929dc7e8f9a0e23bc4f82b1232d8777cecf2d55dc045c8
-Section: 系统增强
-Description: 降级应用
- - 修改应用名称
- - 清除/重置应用数据
- - 重置应用权限
- - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Fouad Raheb
-Name: appData桌面图标增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.appdata.json
 
 Package: lym.com.netskao.awemeclearlikes
 Version: 1.1-2
@@ -2161,18 +2160,18 @@ Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.rain.rainback
-Version: 1.0.0
+Version: 1.4.0-3+debug
 Architecture: iphoneos-arm64
 Maintainer: rain
-Installed-Size: 400
+Installed-Size: 668
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Conflicts: com.rain.rainback
 Replaces: com.rain.rainback
 Filename: ./debs/rain的返回-Rootless.deb
-Size: 30016
-MD5sum: 94fdcd433a1f8c5a513245a47d26e37f
-SHA1: 43942bd6c5c3b683f46f814fda90b3aa3121470f
-SHA256: a48ac3064e47bfe00c9a03ca2a4de6a9089fbc921f5715bff559a6e5bd509a77
+Size: 74360
+MD5sum: e0c07c31d5e4ee753a7e08bd6b21db31
+SHA1: b1d83c5ba1cebf43128b5e125e4108e7f9ac29e2
+SHA256: 0dd237d3bf9937e147b65ba4df0bbe4f1f87445ffea94b72550af6c4649194a3
 Section: 系统增强
 Description: 从屏幕右侧边缘左滑返回上一页面,支持灵敏度调节、黑白名单、震动反馈。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
