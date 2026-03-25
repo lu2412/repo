@@ -2160,18 +2160,18 @@ Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.rain.rainback
-Version: 1.4.0-3+debug
+Version: 1.5.0-3+debug
 Architecture: iphoneos-arm64
 Maintainer: rain
-Installed-Size: 668
+Installed-Size: 672
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Conflicts: com.rain.rainback
 Replaces: com.rain.rainback
 Filename: ./debs/rain的返回-Rootless.deb
-Size: 74360
-MD5sum: e0c07c31d5e4ee753a7e08bd6b21db31
-SHA1: b1d83c5ba1cebf43128b5e125e4108e7f9ac29e2
-SHA256: 0dd237d3bf9937e147b65ba4df0bbe4f1f87445ffea94b72550af6c4649194a3
+Size: 76196
+MD5sum: eec9bd43dfc4f47025100bec183b5a9a
+SHA1: faeeaa11f9fef82c3ff45e8698e364d1435b5a84
+SHA256: 0581bda645823034ca718f24ee81efe9bca11b5934ad5f31584f09c9f8ae778c
 Section: 系统增强
 Description: 从屏幕右侧边缘左滑返回上一页面,支持灵敏度调节、黑白名单、震动反馈。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
