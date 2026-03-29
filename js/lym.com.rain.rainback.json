@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.5.0-3+debug",
+                      "text": "1.6.0-1+debug",
                       "title": "插件版本"
                   },
                   {
@@ -49,7 +49,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年03月26日",
+                      "text": "2026年03月29日",
                       "title": "最后更新"
                   }
               ]
@@ -60,7 +60,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.5.0-3+debug \n- 初始版本"
+                      "markdown": "### 版本 1.6.0-1+debug \n- 新增连击计数器(快速连续返回时显示连击数)\n- 新增昼夜主题色(轨迹/呼吸灯颜色随时间自动变化)\n- 新增自定义返回动画速度(可调节返回过渡快慢)"
                   },
               ]
           }
