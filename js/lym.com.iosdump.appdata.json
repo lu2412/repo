@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.8.8",
+                      "text": "1.8.9",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年03月25日",
+                      "text": "2026年03月29日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.8.8 \n- 优化插件,修改兼容iOS15+添加降级app\n- iOS15+可通过面板卸载巨魔安装的app\n- 添加修改app图标点击面板app图标呼出界面(仅越狱状态有效)"
+                      "markdown": "### 版本 1.8.9 \n- 修复时钟图标模糊问题\n- 修复在修改应用图标后,退出应用时图标出现“闪了一下”的问题\n- 修复修改图标时后台应用小图标不及时更新问题\n- 修复iPad横屏时呼出面板会强制转成竖屏问题提升呼出面板稳定性。\n- 添加在降级应用账号显示不匹配时可直接在当前界面切换账号。"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.8.8\n- 优化插件,修改兼容iOS15+添加降级app\n- iOS15+可通过面板卸载巨魔安装的app\n- 添加修改app图标点击面板app图标呼出界面(仅越狱状态有效)"
                   },
                   {
                       "class": "DepictionSeparatorView"
