@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.2.7",
+                      "text": "2.2.8",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年03月22日",
+                      "text": "2026年04月05日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.2.7 \n- 优化消息合并功能的按时合并\n- 新增气泡内显示消息时间\n- 修复一些素材加载问题"
+                      "markdown": "### 版本 2.2.8 \n- 新增气泡内显示时间自定义字符\n- 新增使用原生角标(在主题选项中开启)聊天隐藏头像\n- 新增多个选项\n- 修复底栏抽屉打开二维码闪退问题\n- 修复部分消息无法修改颜色问题\n- 修复快速搜索聊天记录返回时直接返回到主页问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.8\n- 优化消息合并功能的按时合并\n- 新增气泡内显示消息时间\n- 修复一些素材加载问题"
                   },
                   {
                       "class": "DepictionSeparatorView"
