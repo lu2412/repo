@@ -17,6 +17,59 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
+Size: 1669876
+MD5sum: d38371de53575fc0cbd53188d4f68824
+SHA1: d20c91d4adf1e709ac17bc8eae2a8cfc95cfb1be
+SHA256: 4c238d55929f8023d0d825c96f8ed1fad35a9f1f2d9533403c50fb2647d58b80
+Section: 嗨-付费
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
+Size: 2285264
+MD5sum: c221fff63e0da2f5f1bcb13ceaf5ff08
+SHA1: cadc9571737befc2d31f263a6369c2c0d2e5ca36
+SHA256: ab4654bb32b7d36b8fa8a4fe0285b351c918dff2f90b9f9e8f94289b8e1bcb49
+Section: Tweaks
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
+Size: 1769084
+MD5sum: 052d5080e630b1dcfdfec22648dfc154
+SHA1: de19c9317248c3e83710f7d4697b7d32080b7557
+SHA256: 783eadb006f533a3b0fe382adca5207907f71334150ba19a2e395e82d08702be
+Section: Tweaks
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: com.Axs.accode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1518,17 +1571,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 1.9.2
+Version: 1.9.3
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 180128
-MD5sum: fb0b7711b8707400fce27b9a95531381
-SHA1: b49af098fc1b6fc0483fc73a2dcde811af7cd639
-SHA256: fb0a70340d21f83a6c29d4ceef4953f6f2e4d4d89930a5fccd39e5fcbb6c5a43
+Size: 207076
+MD5sum: b15bbabdb0189e018f41681acffc0eeb
+SHA1: f27441ef8ac9ce857f60d74033b1a80a7378126d
+SHA256: 556bf771cc1b82a8776dc79479f98bfaf1e80876248088a301fd087c491fdc2c
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1558,6 +1611,26 @@ Description: 奇点阅读去除三个首页面广告
 Author: iosrxwy
 Name: 奇点阅读去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
+
+Package: lym.com.iosrxwy.xmlynoads
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.iosrxwy.xmlynoads
+Replaces: com.iosrxwy.xmlynoads
+Filename: ./debs/喜马拉雅NoAd-Rootless.deb
+Size: 98592
+MD5sum: a60e1d48fa9a5630a2ab87dc7a93b4e7
+SHA1: 9e450abf64f81601791c33c8f32a024e1219bc5c
+SHA256: 8f3571628f12f0f7cac6b8c0be4f0d1f23c350145c83664c96b61336a3c4ff89
+Section: 软件增强
+Description: 喜马拉雅去广告,非破解!
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosrxwy
+Name: 喜马拉雅NoAd-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.xmlynoads.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
