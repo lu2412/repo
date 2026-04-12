@@ -1571,17 +1571,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 1.9.3
+Version: 1.9.4
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 207076
-MD5sum: b15bbabdb0189e018f41681acffc0eeb
-SHA1: f27441ef8ac9ce857f60d74033b1a80a7378126d
-SHA256: 556bf771cc1b82a8776dc79479f98bfaf1e80876248088a301fd087c491fdc2c
+Size: 206592
+MD5sum: d590903d48de916760bd940e1ad8752e
+SHA1: f147650fbc9593538bc4fdc6881d83aa13a34402
+SHA256: 9cc617ea5c8b5828b7d63d52ba3611a37dd9741574bca447ed027402f195a702
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
