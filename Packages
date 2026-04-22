@@ -1571,17 +1571,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 1.9.4
+Version: 1.9.5
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 206592
-MD5sum: d590903d48de916760bd940e1ad8752e
-SHA1: f147650fbc9593538bc4fdc6881d83aa13a34402
-SHA256: 9cc617ea5c8b5828b7d63d52ba3611a37dd9741574bca447ed027402f195a702
+Size: 211800
+MD5sum: 1a9f1ab76c9052d1f288d34e23dc40f5
+SHA1: 15fbf829cbf72e71d8af81ddf7b211e641fbe0b5
+SHA256: ca0c1ba35e2d536369c2f9361c4dc559ee99e70df1c16522fc2fdcd4ca89d0f2
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -2233,18 +2233,18 @@ Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
 Package: lym.com.rain.rainback
-Version: 1.6.4-1+debug
+Version: 1.6.4-3+debug
 Architecture: iphoneos-arm64
 Maintainer: rain
-Installed-Size: 676
+Installed-Size: 1124
 Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader, com.opa334.altlist
 Conflicts: com.rain.rainback
 Replaces: com.rain.rainback
 Filename: ./debs/rain的返回-Rootless.deb
-Size: 78788
-MD5sum: 3510956af45921c7941f239fa20a6c76
-SHA1: de1d159193b70802498de67f414c7b95760a1af5
-SHA256: ab0899f10e05468ce3e40c8602488e6a3a8c958ff5a8525f459aa36c0d6cbc0d
+Size: 156896
+MD5sum: 47e9fa1b8bdbd21670369249cd9644d6
+SHA1: 7ca0cad865af0b6c1aa96da9fc357307c9af25ce
+SHA256: 080dec27d69b1987cb112bddb2708f4541dc15958c319566a3a421045026043a
 Section: 系统增强
 Description: 从屏幕右侧边缘左滑返回上一页面,支持灵敏度调节、黑白名单、震动反馈。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
