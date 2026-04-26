@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0.9",
+                      "text": "2.1.1",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年04月05日",
+                      "text": "2026年04月26日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.0.9 \n- 修复热更新导致的语音按钮错位\n- 新增[消息类功能]-启用显示真实未读数量\n- 消息列表上不在显示[999+]条消息\n- 有多少条消息直接显示完整的消息[1001]条消息\n- 修复长按面板热更新"
+                      "markdown": "### 版本 2.1.1 \n- 优化拍一拍自动回复\n- 优化修改头像支持透明头像\n- 选择照片时不选择退出即可\n- 修复全局视图性能闪退的问题\n- 修复朋友圈笔记无法转发问题\n- 修复搜索wxid确认后闪退的问题\n- 修复禁用插件进入设置闪退的问题"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本2.0.0\n- 修复热更新导致的语音按钮错位\n- 新增[消息类功能]-启用显示真实未读数量\n- 消息列表上不在显示[999+]条消息\n- 有多少条消息直接显示完整的消息[1001]条消息\n- 修复长按面板热更新"
                   },
                   {
                       "class": "DepictionSeparatorView"

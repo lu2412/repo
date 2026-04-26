@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.9.5",
+                      "text": "1.9.6",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年04月22日",
+                      "text": "2026年04月23日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.9.5 \n- 修复一些bug\n- 增加更多功能入口包含禁止启动应用、禁用应用通知\n- 禁止卸载应用(仅做隐藏确认删除App按钮而已)\n- 应用跳转设置(移自NoRedirect)设置中已标明\n- 修改App图标依旧是单击应用图标修改。"
+                      "markdown": "### 版本 1.9.6 \n- 修复一些bug\n- 增加更多功能入口包含禁止启动应用、禁用应用通知\n- 禁止卸载应用(仅做隐藏确认删除App按钮而已)\n- 应用跳转设置(移自NoRedirect)设置中已标明\n- 修改App图标依旧是单击应用图标修改。"
                   },
                   {
                       "class": "DepictionSeparatorView"

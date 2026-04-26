@@ -847,17 +847,17 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 2.0.9
+Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 13906500
-MD5sum: 0a844c64e1f83b8106bbb14ecbf4bf72
-SHA1: 885c8afdd95b6c0a73fe5c2f5633df87fa32aa5d
-SHA256: f11f6702b6a22783c2def8ef35d2e0a56fe6a410d790dcb8dc4f8d91edd78bf7
+Size: 13974552
+MD5sum: 250e076472ffff76601cf35f3f4f14dc
+SHA1: 3c496930eaeaf2aabc6b561362014fa7e6cf89c7
+SHA256: c1d6816ba838c57edf5afd8e6c3dd423524c3e6f2dc454395bf4059b3e0d01bc
 Section: 微信插件
 Description: 微信插件文本转语音(付费功能）
  - 点歌朋友圈一键点赞等诸多功能
@@ -1571,17 +1571,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 1.9.5
+Version: 1.9.6
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 211800
-MD5sum: 1a9f1ab76c9052d1f288d34e23dc40f5
-SHA1: 15fbf829cbf72e71d8af81ddf7b211e641fbe0b5
-SHA256: ca0c1ba35e2d536369c2f9361c4dc559ee99e70df1c16522fc2fdcd4ca89d0f2
+Size: 213288
+MD5sum: b0d1c128d3be6eb2ac778a743eb87e4b
+SHA1: ef468426191e33064150962ddfc511ad2edf5941
+SHA256: 12a074ee47ca035aa18079e1b8bb5c7ba185ccbc0e7834325416327e6527363d
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -2665,17 +2665,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.2.8
+Version: 2.3.0
 Architecture: iphoneos-arm64
 Maintainer: WeChat
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 5328736
-MD5sum: 221ed6170081835025cf75014414cdd5
-SHA1: 0894372394c6aba9b75175a33f689f4e2524d24b
-SHA256: 48f016af68feb07dbc59f05604c7155876746a186fda719abf1ced52b486143e
+Size: 5385024
+MD5sum: 95c01481d1ebf19797c4d025a1e8113b
+SHA1: 26b96c0c468f53f404fd9b8141f600275486d025
+SHA256: 4252f1d7227667bbbd1d240ae625ae0ab3b50f1b854339078d238c2875fd5827
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
