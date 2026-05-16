@@ -51,7 +51,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.3.0",
+                      "text": "2.3.3",
                       "title": "插件版本"
                   },
                   {
@@ -61,7 +61,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年04月26日",
+                      "text": "2026年05月16日",
                       "title": "最后更新"
                   }
               ]
@@ -72,7 +72,7 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.3.0 \n- 消息合并功能新增头像置底\n- 支持跟换公众号文章的字体\n- 修复朋友圈笔记无法转发一些小细节的修复"
+                      "markdown": "### 版本 2.3.3 \n- 消息合并功能新增头像置底\n- 支持跟换公众号文章的字体\n- 修复朋友圈笔记无法转发一些小细节的修复"
                   },
                   {
                       "class": "DepictionSeparatorView"
