@@ -1593,6 +1593,26 @@ Author: Fouad Raheb
 Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
 
+Package: lym.com.iosdump.shellx
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.shellx
+Replaces: com.iosdump.shellx
+Filename: ./debs/SHELLX截图套壳-Rootless.deb
+Size: 127420
+MD5sum: 54f4ff32240cdeb2970eba0696398117
+SHA1: c3066622612ddc8d429a15eb025c455558f81209
+SHA256: f7ca035cced3305b3d8b43d7d662e5ce4440fda79cbbc1bc0de577a8a6334022
+Section: 系统增强
+Description: 录屏/截图,自动套壳、水印工具,支持i0S14-17所有越狱
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: SHELLX截图套壳-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.json
+
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -2644,6 +2664,26 @@ Description: 激活GitHub Pro,除了Copilot功能,其他功能都支持
 Author: SWING
 Name: 激活GitHub Pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.github.json
+
+Package: lym.com.tang.removebgblur
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: tang
+Installed-Size: 348
+Depends: mobilesubstrate
+Conflicts: com.tang.removebgblur
+Replaces: com.tang.removebgblur
+Filename: ./debs/移除后台模糊-Rootless.deb
+Size: 17784
+MD5sum: 10705144f64d415f611421f7b4831e74
+SHA1: 6aeedca9093ce37523f0cbcb95d6ffc49e9744eb
+SHA256: 1795b2954a28e36d698784e6dadfcba56c6544e19f583f7781c93602181bf22c
+Section: 系统增强
+Description: 自定义移除后台隐私模糊与遮罩层
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: tang
+Name: 移除后台模糊-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tang.removebgblur.json
 
 Package: lym.com.telegram.return
 Version: 1.0
