@@ -1594,18 +1594,18 @@ Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
 
 Package: lym.com.iosdump.shellx
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 780
+Installed-Size: 812
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 127420
-MD5sum: 54f4ff32240cdeb2970eba0696398117
-SHA1: c3066622612ddc8d429a15eb025c455558f81209
-SHA256: f7ca035cced3305b3d8b43d7d662e5ce4440fda79cbbc1bc0de577a8a6334022
+Size: 136756
+MD5sum: 7ea1eed5a5fcf3e3a5d68eeef557410d
+SHA1: 36cfd74b7f95cf6219ed84a21b71349d98a6d851
+SHA256: 572d3d67a6d8e4b13ee1d19d1f2a50345f3b34a055d6bd160314e89f2fa5fdc7
 Section: 系统增强
 Description: 录屏/截图,自动套壳、水印工具,支持i0S14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
