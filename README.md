@@ -62,7 +62,7 @@
 （此处替换为自己的 HTTPS 链接，将仓库克隆到本地）
 
 
-         git clone https://github.com/lu2412/repo.git
+          git clone git@github.com:lu2412/repo.git
 
 
 3. 克隆完成后，在终端界面输入此代码查看仓库克隆到本地路径如(/var/jb/var/mobile)
