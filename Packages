@@ -17,59 +17,6 @@ Author: lym
 Name: Talkatone去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/Talkatone-Rootless.json
 
-Package: cn.octoforce.copyvault
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
-Size: 1669876
-MD5sum: d38371de53575fc0cbd53188d4f68824
-SHA1: d20c91d4adf1e709ac17bc8eae2a8cfc95cfb1be
-SHA256: 4c238d55929f8023d0d825c96f8ed1fad35a9f1f2d9533403c50fb2647d58b80
-Section: 嗨-付费
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
-Package: cn.octoforce.squidextender
-Version: 3.7.4
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 9988
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
-Size: 2285264
-MD5sum: c221fff63e0da2f5f1bcb13ceaf5ff08
-SHA1: cadc9571737befc2d31f263a6369c2c0d2e5ca36
-SHA256: ab4654bb32b7d36b8fa8a4fe0285b351c918dff2f90b9f9e8f94289b8e1bcb49
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
-Author: SquidForce, Backup
-Name: SquidExtender(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
-Size: 1769084
-MD5sum: 052d5080e630b1dcfdfec22648dfc154
-SHA1: de19c9317248c3e83710f7d4697b7d32080b7557
-SHA256: 783eadb006f533a3b0fe382adca5207907f71334150ba19a2e395e82d08702be
-Section: Tweaks
-Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
-Author: SquidForce, Backup
-Name: SquidGesturePro(激活码)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
 Package: com.Axs.accode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1570,29 +1517,6 @@ Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
-Package: lym.com.iosdump.appdata
-Version: 2.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
-Replaces: com.iosdump.appdata
-Filename: ./debs/appData桌面图标增强-Rootless.deb
-Size: 226816
-MD5sum: e5e71e550fe7ea5e1e2074273a1d940f
-SHA1: fb7196436f103a3acfc40c5c3e097020ab910e36
-SHA256: 8f982f1598d04d5ef2ea65a116e0ab6bc9f5e934a0c7c97d477a0b4cac4793cd
-Section: 系统增强
-Description: 降级应用
- - 修改应用名称
- - 清除/重置应用数据
- - 重置应用权限
- - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Fouad Raheb
-Name: appData桌面图标增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
-
 Package: lym.com.iosdump.shellx
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -1846,27 +1770,6 @@ Description: 任何时间,任何模式
 Author: marsnakly
 Name: 键盘深色模式-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.marsnakly.heiseztjp.json
-
-Package: lym.com.nan.debd
-Version: 0.4.0
-Architecture: iphoneos-arm64
-Maintainer: zhaonan
-Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq
-Conflicts: com.nan.debd
-Replaces: com.nan.debd
-Filename: ./debs/DEB下载插件-Rootless.deb
-Size: 4912
-MD5sum: 34667449e828ebc231937281e09d041a
-SHA1: 9f06c572c5e98186cf7e77df30ac41d010813374
-SHA256: 682c42ece31465006f203baf70161d825bb19f87aa9410fd6f0e00e58f66fe5d
-Section: 系统增强
-Description: 轻量deb下载工具,不支持付费才能下的插件
- - 默认下载目录/var/mobile/Downloads/deb搭配快捷指令下载deb插件快人一步!)
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: zhaonan <invalidunit@icloud.com>
-Name: DEB下载插件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.debd.json
 
 Package: lym.com.nan.rebirth
 Version: 0.1.5
@@ -3034,26 +2937,6 @@ Description: 修复VVebo用户时间线和粉丝列表显示
 Author: lhl
 Name: VVebo时间线修复-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourcompany.vvebofix.json
-
-Package: lym.com.yourepo.huayuarc.12306-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junfo <xuanhua880@gmail.com>
-Depends: mobilesubstrate
-Conflicts: com.yourepo.huayuarc.12306-rootless
-Replaces: com.yourepo.huayuarc.12306-rootless
-Filename: ./debs/铁路12306去广告-Rootless.deb
-Size: 3252
-MD5sum: 772d67869f149cfde26e8d23f62f9832
-SHA1: d4a762b55704a4770dac472547451168c42bd917
-SHA256: 78ed41e447d72f009becfb0a20d15fbf43d23a57a66e6ce0603f957d634b7b82
-Section: 软件增强
-Description: 去除启动广告、去掉首页轮播广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Junfo <xuanhua880@gmail.com>
-Name: 铁路12306去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.huayuarc.12306-rootless.json
 
 Package: lym.com.yourepo.lly.adsspee-rootless
 Version: 1.1.3
