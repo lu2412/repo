@@ -34,42 +34,6 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
-Package: cn.octoforce.squidextender
-Version: 3.7.4
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 9988
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
-Size: 2285264
-MD5sum: c221fff63e0da2f5f1bcb13ceaf5ff08
-SHA1: cadc9571737befc2d31f263a6369c2c0d2e5ca36
-SHA256: ab4654bb32b7d36b8fa8a4fe0285b351c918dff2f90b9f9e8f94289b8e1bcb49
-Section: Tweaks
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
-Author: SquidForce, Backup
-Name: SquidExtender(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
-Size: 1769084
-MD5sum: 052d5080e630b1dcfdfec22648dfc154
-SHA1: de19c9317248c3e83710f7d4697b7d32080b7557
-SHA256: 783eadb006f533a3b0fe382adca5207907f71334150ba19a2e395e82d08702be
-Section: Tweaks
-Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
-Author: SquidForce, Backup
-Name: SquidGesturePro(激活码)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
 Package: com.Axs.accode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1512,27 +1476,6 @@ Author: Huayuarc <xuanhua880@gmail.com>
 Name: Wi-Fi万能钥匙极速版解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.wifiwnyshooks.rootless.json
 
-Package: lym.com.hw.zgnyyh
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 🄷🅆
-Installed-Size: 2072
-Depends: mobilesubstrate
-Conflicts: com.hw.zgnyyh
-Replaces: com.hw.zgnyyh
-Filename: ./debs/最新农业银行屏蔽-Rootless.deb
-Size: 360912
-MD5sum: c00de971faf5c21c926194b364ce7de7
-SHA1: 9c94813090b8e02e3b1f91f32355950046bd1ea6
-SHA256: 76bfdaa0d69531cb06ce9abf7539e1b2e70e5504b98eb5547617dddf7ababe9a
-Section: 软件增强
-Description: 农业银行解除越狱限制完美使用
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 🄷🅆
-Name: 最新农业银行屏蔽-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hw.zgnyyh.json
-
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -2507,31 +2450,6 @@ Author: SquidForce
 Name: 双击翻转相机镜头-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.squidforce.doubletapflipcamera.json
 
-Package: lym.com.starry6.lunanoad
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: liwhs
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.starry6.lunanoad
-Replaces: com.starry6.lunanoad
-Filename: ./debs/汽水&抖音秒过激励视频-Rootless.deb
-Size: 7844
-MD5sum: 6e9dc3aab0a95bba8be03d8860fae2cb
-SHA1: bfa1241cb5e99ca9a89ac02393358441e150ec5e
-SHA256: 1fc3d3d9157f4ef9dfa584046b5b6851e9333b528e8d8295246b0e04759d8bdb
-Section: 软件增强
-Description: 汽水音乐、抖音秒过激励视
- - 去开屏广告
- - 秒过激励式视频
- - 屏蔽抖音插屏广告
- - 插件对抖音、极速版、火山版等版本也支持秒过激励式视频
- - 测试:iOS17.0巨魔可用、iOS16.1.1越狱可用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Starry6
-Name: 汽水&抖音秒过激励视频-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.lunanoad.json
-
 Package: lym.com.starry6.qsyy
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3034,26 +2952,6 @@ Description: 修复VVebo用户时间线和粉丝列表显示
 Author: lhl
 Name: VVebo时间线修复-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourcompany.vvebofix.json
-
-Package: lym.com.yourepo.huayuarc.12306-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Junfo <xuanhua880@gmail.com>
-Depends: mobilesubstrate
-Conflicts: com.yourepo.huayuarc.12306-rootless
-Replaces: com.yourepo.huayuarc.12306-rootless
-Filename: ./debs/铁路12306去广告-Rootless.deb
-Size: 3252
-MD5sum: 772d67869f149cfde26e8d23f62f9832
-SHA1: d4a762b55704a4770dac472547451168c42bd917
-SHA256: 78ed41e447d72f009becfb0a20d15fbf43d23a57a66e6ce0603f957d634b7b82
-Section: 软件增强
-Description: 去除启动广告、去掉首页轮播广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Junfo <xuanhua880@gmail.com>
-Name: 铁路12306去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.huayuarc.12306-rootless.json
 
 Package: lym.com.yourepo.lly.adsspee-rootless
 Version: 1.1.3
