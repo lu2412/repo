@@ -1907,6 +1907,28 @@ Author: Netskao
 Name: AwemeFullScreen抖音全屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
 
+Package: lym.com.netskao.flreadercrack
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 528
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.netskao.flreadercrack
+Replaces: com.netskao.flreadercrack
+Filename: ./debs/千阅-小说阅读-Rootless.deb
+Size: 186592
+MD5sum: e16e5e8a74bd2f74315482a54f1c5ba8
+SHA1: ee11a9ffea9f9c075f07c2627f4f729e7a6bc6e2
+SHA256: 801f2aace66bedc8ca1f22e7f1318fb10c8765b4684eecfa7b9f16af33f65c35
+Section: 软件增强
+Description: 解锁会员权限
+ - 去除软件内广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 千阅-小说阅读-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.flreadercrack.json
+
 Package: lym.com.netskao.qqnotiavatar
 Version: 1.2-2
 Architecture: iphoneos-arm64
