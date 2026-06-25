@@ -47,7 +47,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.1.0",
+                      "text": "2.2.0",
                       "title": "插件版本"
                   },
                   {
@@ -57,7 +57,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2026年06月21日",
+                      "text": "2026年06月26日",
                       "title": "最后更新"
                   }
               ]
@@ -68,7 +68,14 @@
               "views": [
                   {
                       "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 2.1.0 \n- 新增自动清理缓存功能,更多功能内开启\n- 修复会被部分汉化插件影响的问题\n- 完善禁止打开应用功能解决开启后还能在后台卡片打开问题\n- 修复iPadOS16桌面无法呼出面板问题?\n- 新增面板右上注销按钮"
+                      "markdown": "### 版本 2.2.0 \n- 修复两处可能导致SB崩溃的地方\n- 新增更多信息显示应用加密状态\n- 面板UI微调并把文字应用类型显示改为图标显示\n- 面板注销按钮改为可操作关机、重启用户空间、安全模式、重启设备设置页UI重构\n- 设置页新增开启全应用自动清理缓存开关"
+                  },
+                  {
+                      "class": "DepictionSeparatorView"
+                  },
+                  {
+                      "class": "DepictionMarkdownView",
+                      "markdown": "### 版本1.9.4\n- 新增自动清理缓存功能,更多功能内开启\n- 修复会被部分汉化插件影响的问题\n- 完善禁止打开应用功能解决开启后还能在后台卡片打开问题\n- 修复iPadOS16桌面无法呼出面板问题?\n- 新增面板右上注销按钮"
                   },
                   {
                       "class": "DepictionSeparatorView"
