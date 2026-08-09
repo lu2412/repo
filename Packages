@@ -584,17 +584,17 @@ Name: 消息屏蔽助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
 
 Package: lym.com.25mao.wcplugins.rootless
-Version: 0.1-6
+Version: 0.1-3
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: firmware (>= 5.0)
 Conflicts: com.25mao.wcplugins.rootless
 Replaces: com.25mao.wcplugins.rootless
-Filename: ./debs/微信插件管理-Rootless.deb
-Size: 13800
-MD5sum: a725cfe44d3da31e1884bef50c9b8c60
-SHA1: f4c30e686fc46a23af18dbeb06e29fdd38c1a4a9
-SHA256: e1652ae24ffd0cde6d547aed994fc92fd7a62c894009f6248674f0b538b22fd1
+Filename: ./debs/微信插件管理Plus.deb
+Size: 23616
+MD5sum: b36e788f53de7fbfbc0c8f51afee5753
+SHA1: f9150501c72c78ce4b0767a3554673850a683233
+SHA256: 272a9b7fa92f0ff629913288d48e9d9634d6ba637813a92e24455c18e821f14e
 Section: 微信插件
 Description: 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
@@ -604,8 +604,8 @@ Description: 收纳第三方微信插件
  - 首页搜索框输入密码则重新出现,留空表示取消隐藏。
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
 Author: Mao
-Name: 微信插件管理-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
+Name: 微信插件管理Plus-Rootless
+Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
 
 Package: lym.com.25mao.weapptool.rootless
 Version: 0.1-9
@@ -1022,6 +1022,48 @@ Description: Telegram增强插件
 Author: choco
 Name: TGExtra- Telegram增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.choco.tgextras.json
+
+Package: lym.com.colorblack.alinfcwakefix
+Version: 0.0.36
+Architecture: iphoneos-arm64
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Conflicts: com.colorblack.alinfcwakefix
+Replaces: com.colorblack.alinfcwakefix
+Filename: ./debs/支付宝助手-Rootless.deb
+Size: 334324
+MD5sum: 747870b3199d384088f72f24bcf8bb43
+SHA1: 7b27874447ac6edeed156c3da1ac3593592ab024
+SHA256: a2198e3bf3d6c849ae0fd81be1a5eca0345156e6637016b931dad0cec3fa18d2
+Section: 软件增强
+Description: 支付宝助手，优化支付宝碰一碰支付功能
+ - 改善低版本碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: colorblack
+Name: 支付宝助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.colorblack.alinfcwakefix.json
+
+Package: lym.com.colorblack.alinfcwakefix-roothide.roothide
+Version: 0.0.36-roothide
+Architecture: iphoneos-arm64e
+Maintainer: colorblack
+Installed-Size: 996
+Depends: firmware (>= 15.0), preferenceloader
+Conflicts: com.colorblack.alinfcwakefix-roothide
+Replaces: com.colorblack.alinfcwakefix-roothide
+Filename: ./debs/支付宝助手-RootHide.deb
+Size: 334456
+MD5sum: 358c0d30a80b93b94942a5571d1374b6
+SHA1: e6072bf4bea506ac5637fd9cd0a2c80520e19320
+SHA256: 840499ab3575d4146ff42762a4d58b6cafeb9cca5a39632ad42a1cf757179dbe
+Section: 软件增强
+Description: 支付宝助手，优化支付宝碰一碰支付功能
+ - 改善低版本碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: colorblack
+Name: 支付宝助手-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.colorblack.alinfcwakefix-roothide.roothide.json
 
 Package: lym.com.crctdd.surgectl
 Version: 0.0.1
