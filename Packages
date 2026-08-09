@@ -1521,6 +1521,47 @@ Author: iosdump
 Name: appData桌面图标增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
 
+Package: lym.com.iosdump.screenrecordnostatusba
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.iosdump.screenrecordnostatusba
+Replaces: com.iosdump.screenrecordnostatusba
+Filename: ./debs/录屏时隐藏状态栏-Rootless.deb
+Size: 5764
+MD5sum: f087673922943b81030782e5b427c791
+SHA1: cfe0f8f59fbf48d322d3a30f76224b8486e9270a
+SHA256: 78b92bc70b87928e02020c69f4038d3b102503e34025cfd3b035b18ac4edd7fb
+Section: 系统增强
+Description: 录屏时隐藏状态栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: 录屏时隐藏状态栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenrecordnostatusba.json
+
+Package: lym.com.iosdump.screenshotnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Depends: mobilesubstrate
+Conflicts: com.iosdump.screenshotnostatusbar
+Replaces: com.iosdump.screenshotnostatusbar
+Filename: ./debs/录屏时隐藏状态栏-RootHide.deb
+Size: 5248
+MD5sum: e2c607a1b25fa11be7b6787973d3f8d2
+SHA1: 7e90857ddbecc12680ba4f1f276209fba5750b41
+SHA256: eed932d282f05cc8594218391516e09eaf77aa547f002211b86af896cdf403d8
+Section: 系统增强
+Description: 录屏时隐藏状态栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: 录屏时隐藏状态栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.json
+
 Package: lym.com.iosdump.shellx
 Version: 1.1.0
 Architecture: iphoneos-arm64
