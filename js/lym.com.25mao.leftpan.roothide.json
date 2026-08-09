@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.0",
+                      "text": "2.0-1",
                       "title": "插件版本"
                   },
                   {
@@ -60,7 +60,7 @@
               "views": [
                   {
                         "class": "DepictionMarkdownView",
-                        "markdown": "### 版本 2.0 \n- 新增关闭弹出层和返回桌面"
+                        "markdown": "### 版本 2.0-1 \n- 新增关闭弹出层和返回桌面"
                     },
               ]
           }
