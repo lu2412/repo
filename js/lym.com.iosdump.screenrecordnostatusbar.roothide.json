@@ -16,12 +16,12 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 录屏时隐藏状态栏\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
-                      "itemSize": "{10,10}",
+                      "itemSize": "{300, 533}",
                       "screenshots": [
                             ]
                   },
@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.2.1",
+                      "text": "0.1",
                       "title": "插件版本"
                   },
                   {
@@ -48,9 +48,9 @@
                       "title": "支持系统"
                   },
                   {
+                      "class": "DepictionTableTextView",
                       "text": "2026年08月09日",
-                      "title": "最后更新",
-                      "class": "DepictionTableTextView"
+                      "title": "最后更新"
                   }
               ]
           },
@@ -60,7 +60,7 @@
               "views": [
                   {
                         "class": "DepictionMarkdownView",
-                        "markdown": "### 版本 1.2.1 \n- 大幅度提高兼容性,并新增自动检测根据当前是否为横屏来调整套壳\n- 修复因使用一些超大分辨率素材导致录屏/视频套壳失败问题\n- 新增与修复需到设置手动开启提升套壳兼容性开关即可体验\n- 未细测出现问题直接关闭开关可恢复未更新前状态"
+                        "markdown": "### 版本 0.1 \n- 初始版本"
                     },
               ]
           }

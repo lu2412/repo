@@ -59,9 +59,9 @@
               "tabname": "更新日志",
               "views": [
                   {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 0.1 \n- 初始版本"
-                  },
+                        "class": "DepictionMarkdownView",
+                        "markdown": "### 版本 0.1 \n- 初始版本"
+                    },
               ]
           }
       ]
