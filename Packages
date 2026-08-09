@@ -2427,6 +2427,54 @@ Author: ichitaso
 Name: PrimalFolder2文件夹图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.primalfolder2.json
 
+Package: lym.com.promotion.120hz
+Version: 1.0.0-76+debug
+Architecture: iphoneos-arm64
+Maintainer: 小白
+Installed-Size: 180
+Depends: mobilesubstrate
+Conflicts: com.promotion120, com.promotion.120hz
+Replaces: com.promotion.120hz
+Filename: ./debs/ProMotion 120Hz-Rootless.deb
+Size: 12672
+MD5sum: 3c6490cd0ebd64a5552e5af9196ea7b6
+SHA1: c1e4e6989dc304ed28c54ffef46be6733fd665fb
+SHA256: afc384b95ff33fb37000f927017f23ad3c51f2f2a590805fd82f267d6b06cdf6
+Section: 系统增强
+Description: 强制全局 120Hz
+ - ProMotion 刷新率，解除系统 80Hz 限制
+ - 支持 Rootless、RootHide 越狱
+ - 支持 NathanLR、BootStrap 半越狱
+ - 支持 iPhone 13 Pro 及以上 ProMotion 设备
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 无尽伤痛都锁进黑夜
+Name: ProMotion 120Hz-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.promotion.120hz.json
+
+Package: lym.com.promotion.120hz.roothide
+Version: 1.0.0-76+debug
+Architecture: iphoneos-arm64e
+Maintainer: 小白
+Installed-Size: 180
+Depends: mobilesubstrate
+Conflicts: com.promotion120, com.promotion.120hz
+Replaces: com.promotion.120hz
+Filename: ./debs/ProMotion 120Hz-RootHide.deb
+Size: 13588
+MD5sum: e6ecc3a8f6acbc5c17f8344592e30a58
+SHA1: c0113def47ac0f1b2d9e0f4c29402c1eca6be684
+SHA256: d5d23d9f2e79e70ed839d073b059c359c360a9e6077ed0afa1a9e35c1f1b5b42
+Section: 系统增强
+Description: 强制全局 120Hz
+ - ProMotion 刷新率，解除系统 80Hz 限制
+ - 支持 Rootless、RootHide 越狱
+ - 支持 NathanLR、BootStrap 半越狱
+ - 支持 iPhone 13 Pro 及以上 ProMotion 设备
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 无尽伤痛都锁进黑夜
+Name: ProMotion 120Hz-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.promotion.120hz.roothide.json
+
 Package: lym.com.ps.recordpause
 Version: 2.0.7
 Architecture: iphoneos-arm64
