@@ -915,6 +915,26 @@ Author: be-huge
 Name: 自定义微信好友通知铃声-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
 
+Package: lym.com.be-huge.insulation
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 484
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.insulation
+Replaces: com.be-huge.insulation
+Filename: ./debs/insulation(解除温控)-Rootless.deb
+Size: 58060
+MD5sum: 6e4ccb539d3ef0a8c84e545b1b3c6b38
+SHA1: 8ec4ee7ffac08a0ec0a5322abb24b5a1cc0e8756
+SHA256: d12f5f037baad252e54c0c68773003ca8a0a2c209619a26f85d46c62f01919b6
+Section: 系统增强
+Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: insulation(解除温控)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.insulation.json
+
 Package: lym.com.be-huge.wechat-push-msg-page
 Version: 0.0.5
 Architecture: iphoneos-arm64
@@ -1627,6 +1647,46 @@ Description: 降级应用
 Author: iosdump
 Name: AppData软件增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide.json
+
+Package: lym.com.iosdump.memorycontrol
+Version: 1.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 780
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.memorycontrol
+Replaces: com.iosdump.memorycontrol
+Filename: ./debs/MemoryControlX内存优化-Rootless.deb
+Size: 91944
+MD5sum: 6e4f5c3d012c79832061918be7ca4f17
+SHA1: 67bca300d552c71b29129c44821378a9c2656458
+SHA256: 1663724aee25f0cc52dbb335ff2e6a330032aedbc7fb08585c82d6128f58b1a2
+Section: 系统增强
+Description: iOS 14-17 进程内存与优先级调整
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: MemoryControlX内存优化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.memorycontrol.json
+
+Package: lym.com.iosdump.memorycontrol.roothide
+Version: 1.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 764
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.memorycontrol
+Replaces: com.iosdump.memorycontrol
+Filename: ./debs/MemoryControlX内存优化-RootHide.deb
+Size: 90652
+MD5sum: 310ee0ed6ebd17f015cd20bc1d5f9672
+SHA1: e1c6ca2eda9de6b30c66cde0bcd4654169809ff9
+SHA256: 01cc0a5d7e41b19f3584ac5403680e44b4cbb913c27c62d211505a989dd37bfb
+Section: 系统增强
+Description: iOS 14-17 进程内存与优先级调整
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: MemoryControlX内存优化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.memorycontrol.roothide.json
 
 Package: lym.com.iosdump.screenrecordnostatusbar
 Version: 0.1
