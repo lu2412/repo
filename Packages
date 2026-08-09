@@ -1445,18 +1445,39 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
 Conflicts: com.huami.ChoicyConfigPin
 Replaces: com.huami.ChoicyConfigPin
-Filename: ./debs/ChoicyConfigPin-Rootless.deb
-Size: 7120
-MD5sum: 8f9b78199092062fc329c6191366ae18
-SHA1: 3096c41909345e1a89a0f8a9369ea39868ea3a1a
-SHA256: a600288bb1244f2fff8fdbd1fa7137198dccd8f4d938b8e5515f2a27cdb6ff5d
+Filename: ./debs/Choicy补丁-Rootless.deb
+Size: 7132
+MD5sum: b4218c2094f295acec1576ee3e33fe15
+SHA1: 2f29e3a95848aa39d51737ed3c7d2712cc2c70f7
+SHA256: 35ffc7fefa0c2b2fa6927c295b9815f35e6cd1ca14fd876302cf7c740d6a1052
 Section: 系统增强
-Description: 打开Choicy时将已调整的 App/Process置顶到Section最顶部
+Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: huami
-Name: ChoicyConfigPin-Rootless
+Name: Choicy补丁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.json
+
+Package: lym.com.huami.ChoicyConfigPin.roothide
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Conflicts: com.huami.ChoicyConfigPin
+Replaces: com.huami.ChoicyConfigPin
+Filename: ./debs/Choicy补丁-RootHide.deb
+Size: 6052
+MD5sum: 3b6d006d652782022ebfcc1032d8a004
+SHA1: 518c1afe6acc4c1494e3986c8292a15d88aa92ec
+SHA256: e5e48d0a86a2b5ef740107fa44c0338c2a5dce3a2bd1561036f7b3f6d9e8ddd4
+Section: 系统增强
+Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: Choicy补丁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.roothide.json
 
 Package: lym.com.huami.WCPush2Chat
 Version: 1.0-2
