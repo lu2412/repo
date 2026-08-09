@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.6.6",
+                      "text": "2.6.7",
                       "title": "插件版本"
                   },
                   {
@@ -60,7 +60,7 @@
               "views": [
                   {
                         "class": "DepictionMarkdownView",
-                        "markdown": "### 版本 2.6.6 \n- 更多功能新增启动应用禁音\n- 更多功能新增应用启动亮度\n- 新增应用运行指示显示,设置页开启\n- 新增注销(SB)按钮"
+                        "markdown": "### 版本 2.6.7 \n- 更多功能新增启动应用禁音\n- 更多功能新增应用启动亮度\n- 新增应用运行指示显示,设置页开启\n- 新增注销(SB)按钮"
                     },
                   {
                             "class": "DepictionSeparatorView"

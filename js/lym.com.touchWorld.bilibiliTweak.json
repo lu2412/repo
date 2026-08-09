@@ -16,17 +16,13 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 国区哔哩哔哩全局去广告\n- 群友girl2023分享,效果不错\n- 不知道有无时间限制请自测\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 一个通过iOS逆向分析\n- 实现的无广告版哔哩哔哩客户端\n- 在保留原有功能的基础上专注于去广告移除与体验优化\n- 在「我的 → 设置」中提供多种配置选项，支持按需自由调整\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 },
                 {
                       "class": "DepictionScreenshotsView",
                       "itemCornerRadius": 15,
                       "itemSize": "{10, 10}",
                       "screenshots": [
-                                {
-                                      "accessibilityText": "Screenshot",
-                                      "url": "https://lu2412.github.io/repo/icon/123.png"
-                                  }
                             ]
                   },
 
@@ -38,12 +34,12 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "girl2023",
+                      "text": "TouchWorld",
                       "title": "插件作者"
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "1.0",
+                      "text": "3.1.0",
                       "title": "插件版本"
                   },
                   {
@@ -52,9 +48,9 @@
                       "title": "支持系统"
                   },
                   {
-                      "class": "DepictionTableTextView",
-                      "text": "2024年11月18日",
-                      "title": "最后更新"
+                      "text": "2026年08月09日",
+                      "title": "最后更新",
+                      "class": "DepictionTableTextView"
                   }
               ]
           },
@@ -63,9 +59,9 @@
               "tabname": "更新日志",
               "views": [
                   {
-                      "class": "DepictionMarkdownView",
-                      "markdown": "### 版本 1.0 \n- 发布初始版本"
-                  },
+                        "class": "DepictionMarkdownView",
+                        "markdown": "### 版本 3.1.0 \n- 移除[详情页-评论-大家都在搜]\n- 移除直播-直播带货\n- 移除动态-你可能感兴趣的UP主移除动态广告\n- 移除直播-顶部吊坠\n- 移除竖屏模式的流量广告\n- 移除竖屏模式的购物车广告,比如视频同款立即购买可选关闭「底部栏-关注」启动页适配夜间模式"
+                    },
               ]
           }
       ]

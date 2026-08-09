@@ -132,27 +132,6 @@ Author: lym
 Name: Eclectic by主题-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Eclectic.Themes.json
 
-Package: lym.FuckBiliNoAds-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: girl2023
-Conflicts: FuckBiliNoAds-Rootless
-Replaces: FuckBiliNoAds-Rootless
-Filename: ./debs/哔哩哔哩全局去广告-Rootless.deb
-Size: 16140
-MD5sum: 54bddeb1b7e9170f425e3faf5b6a7121
-SHA1: 5f8a4e4fa2c4689718e2a6b5ca7a7029e225b12b
-SHA256: 60700372bb638bb0d1f0e7c87231b4cfbf5dbd90fa36393558b43785b4f61b1d
-Section: 软件增强
-Description: 国区哔哩哔哩全局去广告
- - 群友girl2023分享,效果不错
- - 不知道有无时间限制请自测
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: girl2023
-Name: 哔哩哔哩全局去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckBiliNoAds-Rootless.json
-
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1604,17 +1583,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 2.6.6
+Version: 2.6.7
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-Rootless.deb
-Size: 1706824
-MD5sum: b3efa2364ff80b5ef00b3f09552e5985
-SHA1: 25e580e1b25e3ac65cb333d09eb93fb78539b845
-SHA256: 0535874a397f388c48319bdd7102d5c13ea2e5fb865275b22eb49c5a3b62e7b1
+Size: 1703768
+MD5sum: e756d9919d32888ef7d03e5ac72ae0d5
+SHA1: d7460184ebed587dddea37e08c7da5ee29661220
+SHA256: 417f6189746286ce0aca9014dda8510f999ceaf477335c030ce26195f0ead4b0
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1627,17 +1606,17 @@ Name: AppData软件增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
 
 Package: lym.com.iosdump.appdata.roothide
-Version: 2.6.6
+Version: 2.6.7
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-RootHide.deb
-Size: 1708776
-MD5sum: 4b154ae006abd0868b325126e8ef06b7
-SHA1: 2ead5093a9414903f4cb02aef53b3e033b1ca526
-SHA256: fbfa8fb8b14780477f39e078659546fe36b9dab79f41df3c8db39612813ef562
+Size: 1706592
+MD5sum: d6ce5fc2360e715bfec862c15493dc1b
+SHA1: 95954ebe2f9e7af6c4ea9f9960c5a218637097d0
+SHA256: 9723e4e1ec2300a7bcad55e615dd7eaaae1276a02affbc294761e7abd62d2159
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -2861,6 +2840,28 @@ Description: 微信主题插件
 Author: WeChat
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.json
+
+Package: lym.com.touchWorld.bilibiliTweak
+Version: 3.1.0
+Architecture: iphoneos-arm64
+Maintainer: TouchWorld
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.touchWorld.bilibiliTweak
+Replaces: com.touchWorld.bilibiliTweak
+Filename: ./debs/哔呷哔哩去广告-Rootless.deb
+Size: 173000
+MD5sum: c666cd169e4afdf7b1ba822ce3518676
+SHA1: 71e77f073425799328ac5d5b04ca57fb364fcdcd
+SHA256: 6b839da6649c4aec79ba4cf057fc9a3e9f91921cc2868d0ae77365c5176de0cb
+Section: 软件增强
+Description: 一个通过iOS逆向分析
+ - 实现的无广告版哔哩哔哩客户端
+ - 在保留原有功能的基础上专注于去广告移除与体验优化
+ - 在「我的 → 设置」中提供多种配置选项，支持按需自由调整
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: TouchWorld
+Name: 哔呷哔哩去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.touchWorld.bilibiliTweak.json
 
 Package: lym.com.udevs.dockx
 Version: 2.6.2
