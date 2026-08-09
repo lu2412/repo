@@ -979,6 +979,46 @@ Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
+Package: lym.com.charlieleung.snapvision
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Charlie Leung
+Installed-Size: 1032
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.charlieleung.snapvision
+Replaces: com.charlieleung.snapvision
+Filename: ./debs/SnapVision长截图-Rootless.deb
+Size: 175544
+MD5sum: 6432a3f73f73afbaf1d74921b4408f85
+SHA1: b1ca2deac18ea84886f11a05f271cad29d610dbd
+SHA256: ddb8808c4a1283ae0a3150d3c25af74bf9a981c0aba31bbff295b2f6a3584a60
+Section: 系统增强
+Description: 这是一款长截图插件,支持鱿鱼手势,支持openjb分屏手势
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Charlie Leung
+Name: SnapVision长截图-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.charlieleung.snapvision.json
+
+Package: lym.com.charlieleung.snapvision.roothide
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Charlie Leung
+Installed-Size: 1032
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.charlieleung.snapvision
+Replaces: com.charlieleung.snapvision
+Filename: ./debs/SnapVision长截图-RootHide.deb
+Size: 175404
+MD5sum: c833b7001157e025d3a44e4b9335c9b0
+SHA1: 1cfe032c3c331546decb32785d698efd257330c2
+SHA256: 659c8460da2bd070780676365f9c8a14e22e4e2ef1f89e05eb6517a309f6d011
+Section: 系统增强
+Description: 这是一款长截图插件,支持鱿鱼手势,支持openjb分屏手势
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Charlie Leung
+Name: SnapVision长截图-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.charlieleung.snapvision.roothide.json
+
 Package: lym.com.chatgpthook
 Version: 0.0.1-2+debug
 Architecture: iphoneos-arm64
