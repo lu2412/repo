@@ -1624,17 +1624,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 2.6.7
+Version: 2.6.9
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-Rootless.deb
-Size: 1703768
-MD5sum: e756d9919d32888ef7d03e5ac72ae0d5
-SHA1: d7460184ebed587dddea37e08c7da5ee29661220
-SHA256: 417f6189746286ce0aca9014dda8510f999ceaf477335c030ce26195f0ead4b0
+Size: 1712716
+MD5sum: 0426c5745dc80cba51b1808259d7bbe5
+SHA1: 68eb2fbf3e13f7c06af010720e08b9059636e67b
+SHA256: 4523bced4e621f586c0fca1f9e7fea03cda37590fc1233a8bef7fb7d84781a6d
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1647,17 +1647,17 @@ Name: AppData软件增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
 
 Package: lym.com.iosdump.appdata.roothide
-Version: 2.6.7
+Version: 2.6.9
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-RootHide.deb
-Size: 1706592
-MD5sum: d6ce5fc2360e715bfec862c15493dc1b
-SHA1: 95954ebe2f9e7af6c4ea9f9960c5a218637097d0
-SHA256: 9723e4e1ec2300a7bcad55e615dd7eaaae1276a02affbc294761e7abd62d2159
+Size: 1716888
+MD5sum: 53e86cddaf8dc9ceca430ef5e5dbf69e
+SHA1: 8de3db23a37668eae647de4776d7f98c4a97cda6
+SHA256: 7ad92bc48396a48b5c65140fd750199dfcf83400cc3ff526c6148da51306041a
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1832,6 +1832,46 @@ Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有�
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide.json
+
+Package: lym.com.iosdump.trollcmtweak
+Version: 1.1.7
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.trollcmtweak
+Replaces: com.iosdump.trollcmtweak
+Filename: ./debs/TrollCM触摸轨迹-Rootless.deb
+Size: 57024
+MD5sum: d82563ba8f4049ab9577c4e897ad99e4
+SHA1: f2d02d34dd6da16bbdc9b7b386464d5b9d5a40a6
+SHA256: ee02ac5994d5fe915aec7822b126542f80177486c2b92c6ebea357b7c9c4499e
+Section: 系统增强
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: TrollCM触摸轨迹-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.trollcmtweak.json
+
+Package: lym.com.iosdump.trollcmtweak.roothide
+Version: 1.1.7
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.iosdump.trollcmtweak
+Replaces: com.iosdump.trollcmtweak
+Filename: ./debs/TrollCM触摸轨迹-RootHide.deb
+Size: 56860
+MD5sum: 71daa7281acbe820de10f848ee00655e
+SHA1: 92d0f4af98faab90cf67fe70c140ba1663aa2f11
+SHA256: 17662f3eb4211e0c47ec2e6a829d2e44ec8832a36e123570d882a4885cb9f615
+Section: 系统增强
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: TrollCM触摸轨迹-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.trollcmtweak.roothide.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2

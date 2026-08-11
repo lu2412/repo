@@ -39,7 +39,7 @@
                   },
                   {
                       "class": "DepictionTableTextView",
-                      "text": "2.6.7",
+                      "text": "2.6.9",
                       "title": "插件版本"
                   },
                   {
@@ -48,7 +48,7 @@
                       "title": "支持系统"
                   },
                   {
-                      "text": "2026年08月09日",
+                      "text": "2026年08月12日",
                       "title": "最后更新",
                       "class": "DepictionTableTextView"
                   }
@@ -60,14 +60,14 @@
               "views": [
                   {
                         "class": "DepictionMarkdownView",
-                        "markdown": "### 版本 2.6.7 \n- 更多功能新增启动应用禁音\n- 更多功能新增应用启动亮度\n- 新增应用运行指示显示,设置页开启\n- 新增注销(SB)按钮"
+                        "markdown": "### 版本 2.6.9 \n- 1.补齐缺失的英语翻译\n- 2.面板UI微改\n- 3.新增禁止应用自动更新"
                     },
                   {
                             "class": "DepictionSeparatorView"
                         },
                   {
                         "class": "DepictionMarkdownView",
-                        "markdown": "优化降级应用功能"
+                        "markdown": "### 版本2.6.6\n- 更多功能新增启动应用禁音\n- 更多功能新增应用启动亮度\n- 新增应用运行指示显示,设置页开启\n- 新增注销(SB)按钮\n- 优化降级应用功能"
                     },
                   {
                             "class": "DepictionSeparatorView"
