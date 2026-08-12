@@ -2781,6 +2781,29 @@ Author: lym
 Name: Snapper 3文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.textforsnapper3.json
 
+Package: lym.com.sini.weifeng
+Version: 7.0.3
+Architecture: iphoneos-arm64
+Maintainer: 小果子
+Installed-Size: 884
+Depends: mobilesubstrate
+Conflicts: com.sini.weifeng
+Replaces: com.sini.weifeng
+Filename: ./debs/ 威锋去广告+VIP-Rootless.deb
+Size: 326848
+MD5sum: 532c94be81eb10d029e679ef8e0a9c2a
+SHA1: 6071466e59a3f8dd9ce42d5a044c18343cc00615
+SHA256: f235ff52b02130138b5fb5663e74a7cb89983fc8717d5e34bd6e73aaa9e31566
+Section: 软件增强
+Description: 去除你能看到的所有广告
+ - 基于威锋7.0开发！通杀威锋7.0.1及之后的版本！
+ - 开启会员功能!点亮会员头像!更新支持7.1.1
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 小果子
+Name: 威锋去广告+VIP-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.weifeng.json
+
 Package: lym.com.sini.xxforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
