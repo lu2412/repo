@@ -1,0 +1,60 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "捐赠给开发者",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- Snapper3 截图标记扩展插件\n- 颜色选择器：红/黄/蓝/绿/白/黑等6种颜色\n- 箭头标记：手指拖拽绘制方向箭头\n- 自由画线：手指跟随绘制任意曲线\n- 矩形图标：点1次是矩形描边、点2次是矩形填充\n- 撤回操作：一键撤销上一步标注\n- 保存相册：渲染并写入系统相册\n- 复制剪贴板：一键复制标注后截图\n- 自定义图标：将 tag.png / tag_menu.png 放入 \n- /var/mobile/Axs/Snapper3图标/ 即可替换。\n- 没有文件夹自己建立一个就行\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                }
+                ,{
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Axs",
+                    "title": "插件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "5.2.0-16",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 16.5",
+                    "title": "支持系统"
+                },
+                {
+                    "text": "2026年08月12日",
+                    "title": "最后更新",
+                    "class": "DepictionTableTextView"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 5.2.0-16\n- 初始版本"
+                }
+            ]
+        }
+    ]
+}
