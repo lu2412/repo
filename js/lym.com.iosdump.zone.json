@@ -10,13 +10,13 @@
             "views": [
                 {
                     "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f/",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- Snapper3 截图标记扩展插件\n- 颜色选择器：红/黄/蓝/绿/白/黑等6种颜色\n- 箭头标记：手指拖拽绘制方向箭头\n- 自由画线：手指跟随绘制任意曲线\n- 矩形图标：点1次是矩形描边、点2次是矩形填充\n- 撤回操作：一键撤销上一步标注\n- 保存相册：渲染并写入系统相册\n- 复制剪贴板：一键复制标注后截图\n- 自定义图标：将 tag.png / tag_menu.png 放入 \n- /var/mobile/Axs/Snapper3图标/ 即可替换。\n- 没有文件夹自己建立一个就行\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- Zone 插件用于设置\n- tendies交互壁纸/视频壁纸 支持iOS14-17\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 }
                 ,{
                     "class": "DepictionHeaderView",
@@ -26,12 +26,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Axs",
+                    "text": "iosdump",
                     "title": "插件作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "5.2.0-16",
+                    "text": "2.1.0",
                     "title": "插件版本"
                 },
                 {
@@ -40,7 +40,7 @@
                     "title": "支持系统"
                 },
                 {
-                    "text": "2026年08月12日",
+                    "text": "2026年08月13日",
                     "title": "最后更新",
                     "class": "DepictionTableTextView"
                 }
@@ -52,7 +52,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 5.2.0-16\n- 初始版本"
+                    "markdown": "### 版本 2.1.0\n- 修复未开启双锁屏时导致锁屏无法呼出海报板\n- 修复当开启插件时未选择壁纸时黑屏问题\n- 视频模式新增可控制,锁屏/桌面视频壁纸是否循环播放修改设置界面UI"
                 }
             ]
         }
