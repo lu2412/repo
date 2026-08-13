@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "点击添加快捷指令",
-                    "action": "https://www.icloud.com/shortcuts/69ca3953456541e3aae08f0b70522e86",
+                    "text": "字体下载链接",
+                    "action": "https://www.fonts.net.cn/",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 轻量deb下载工具,不支持付费才能下的插件\n- 默认下载目录/var/mobile/Downloads/deb\n- 搭配快捷指令下载deb插件快人一步!\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- iOS14-17+免挂载修改系统字体\n- 可设置ttf、ttc和otf字体文件\n- 导入字体路径：/var/mobile/Library/NeoFont\n- 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!"
                 }
                 ,{
                     "class": "DepictionHeaderView",
@@ -26,12 +26,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "zhaonan",
+                    "text": "iosdump",
                     "title": "插件作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "0.4.2",
+                    "text": "0.0.1",
                     "title": "插件版本"
                 },
                 {
@@ -52,7 +52,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 0.4.2\n- 初始版本"
+                    "markdown": "### 版本 0.0.1\n- 初始版本"
                 }
             ]
         }
