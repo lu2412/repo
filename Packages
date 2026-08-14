@@ -1222,6 +1222,48 @@ Author: 0xkuj
 Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
 
+Package: lym.com.dao.axon
+Version: 2.5
+Architecture: iphoneos-arm64
+Maintainer: 刀刀
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
+Replaces: com.dao.axon
+Filename: ./debs/Axon中文版-Rootless.deb
+Size: 157380
+MD5sum: bb8090f76319beed3901ef8e187e699c
+SHA1: f8359104bca6ef0d544baf90bebda832f62c424c
+SHA256: 28b2066dbaf81cc03b4c086b2f4b596e4d16791ee129669b1831246f9c11fe37
+Section: 系统增强
+Description: 插件介绍
+ - 锁屏通知聚合插件，刀刀中文优化版
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nepeta & daodao
+Name: Axon中文版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.json
+
+Package: lym.com.dao.axon.roothide
+Version: 2.5
+Architecture: iphoneos-arm64e
+Maintainer: 刀刀
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
+Replaces: com.dao.axon
+Filename: ./debs/Axon中文版-RootHide.deb
+Size: 156944
+MD5sum: 7cc025370851091dade8963ee9f47ecb
+SHA1: 3c94341787f83d3b778d7947b736554e5ba7f392
+SHA256: 9518d87ac923f3037516719d5b22dd15e69588dcbe9140f605947d82831d6e81
+Section: 系统增强
+Description: 插件介绍
+ - 锁屏通知聚合插件，刀刀中文优化版
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nepeta & daodao
+Name: Axon中文版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.roothide.json
+
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64
@@ -1595,27 +1637,6 @@ Author: Huayuarc
 Name: 彩云天气pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
 
-Package: lym.com.huayuarc.wifiwnyshooks.rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc <xuanhua880@gmail.com>
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.wifiwnyshooks.rootless
-Replaces: com.huayuarc.wifiwnyshooks.rootless
-Filename: ./debs/Wi-Fi万能钥匙极速版解锁-Rootless.deb
-Size: 6260
-MD5sum: 75aded54615ca479660a8cb5967c236a
-SHA1: f90b485fac9d95e36241eebf8bcb569139bee923
-SHA256: e36191c9b6fd9ac5fa5a391bb71e2cc602f1e6abc34164d4693eb8a56a57b4b9
-Section: 软件增强
-Description: Wi-Fi万能极速版
- - 免登陆全局去广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Huayuarc <xuanhua880@gmail.com>
-Name: Wi-Fi万能钥匙极速版解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.wifiwnyshooks.rootless.json
-
 Package: lym.com.icraze.easynotifications
 Version: 3.0
 Architecture: iphoneos-arm64
@@ -1738,28 +1759,6 @@ Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
 Name: MemoryControlX内存优化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.memorycontrol.roothide.json
-
-Package: lym.com.iosdump.neofont
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 396
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.neofont
-Replaces: com.iosdump.neofont
-Filename: ./debs/NeoFont字体修改-Rootless.deb
-Size: 34268
-MD5sum: 7cadbfe2746e88670354111b770784dc
-SHA1: 9a90014bdfc10b9ac2fc2814d41b921a3c33c888
-SHA256: 2cd41c3ccab6f4e0fe0c7cea79ac05722c4d84bc09c9c10f4eb102b3330daf29
-Section: 系统增强
-Description: iOS14-17+免挂载修改系统字体
- - 可设置ttf、ttc和otf字体文件
- - 导入字体路径：/var/mobile/Library/NeoFontn
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: NeoFont字体修改-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.neofont.json
 
 Package: lym.com.iosdump.screenrecordnostatusbar
 Version: 0.1
@@ -2135,27 +2134,6 @@ Description: Sileo头像转圈圈
 Author: lym
 Name: Sileo头像转圈圈-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
-
-Package: lym.com.lns.pogrs
-Version: 0.5.1
-Architecture: iphoneos-arm64
-Maintainer: Ruphane
-Installed-Size: 480
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.lns.pogr, com.lns.pogrs
-Replaces: com.lns.pogrs
-Filename: ./debs/AirPods PodsGrant耳机-Rootless.deb
-Size: 75304
-MD5sum: dff77bae92960233b090117b56dc0301
-SHA1: 7c2c1d9d2e15872e9086d3dae6ab939e51727684
-SHA256: b55d7e3c727006e6a3c17514286a2ec221111e270b91c58819bf7292efe13aad
-Section: 系统增强
-Description: 提高低系统与新AirPods兼容性
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Ruphane
-Name: AirPods PodsGrant耳机-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogrs.json
 
 Package: lym.com.macxk.kwcrack
 Version: 0.1-1
