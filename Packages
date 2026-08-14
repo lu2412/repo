@@ -418,6 +418,56 @@ Author: liym
 Name: DEB插件备份-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
 
+Package: lym.cn.llld.biaoji
+Version: 1.5
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 164
+Depends: mobilesubstrate
+Conflicts: cn.llld.biaoji
+Replaces: cn.llld.biaoji
+Filename: ./debs/Snapper 3扩展截图标记-Rootless.deb
+Size: 36676
+MD5sum: 680e7b2a3b8128b79978c569b1edf90e
+SHA1: 6b3f7ede7fd36b057a96162927a84848b324d742
+SHA256: e0744a14e7263fec94bdae236fa45596aeca1466823789c0d38f96d770a944aa
+Section: 系统增强
+Description: 插件介绍
+ - 给Snapper 或stayShot插件增加标记功能
+ - 快速对图进行箭头，打码，复制，方块，涂鸦，保存等
+ - 免去了装第三方软件或者跳转程序的繁琐14-17可用，修改图标在插件目录下
+ - Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+ - 设置里图标名为Settings-biaoji.png
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 来了老弟 X: h_h_x_t
+Name: Snapper 3扩展截图标记-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.biaoji.json
+
+Package: lym.cn.llld.biaoji.roothide
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟 X: h_h_x_t
+Installed-Size: 180
+Depends: mobilesubstrate
+Conflicts: cn.llld.biaoji
+Replaces: cn.llld.biaoji
+Filename: ./debs/Snapper 3扩展截图标记-RootHide.deb
+Size: 36752
+MD5sum: 17f415fd0d2bb8e0b360758cd21fcc82
+SHA1: 06e64c92e79799bbb130614640c0be7bd0bf8637
+SHA256: ef27300419d9f7b43af3c8c6210adc4d870b4282125ee4a2105b10d2b4d79588
+Section: 系统增强
+Description: 插件介绍
+ - 给Snapper 或stayShot插件增加标记功能
+ - 快速对图进行箭头，打码，复制，方块，涂鸦，保存等
+ - 免去了装第三方软件或者跳转程序的繁琐14-17可用，修改图标在插件目录下
+ - Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+ - 设置里图标名为Settings-biaoji.png
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 来了老弟 X: h_h_x_t
+Name: Snapper 3扩展截图标记-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.biaoji.roothide.json
+
 Package: lym.cn.llld.swipeextenderx
 Version: 0.0.2
 Architecture: iphoneos-arm64
@@ -881,10 +931,10 @@ Depends: mobilesubstrate
 Conflicts: com.axs.snapper3tag
 Replaces: com.axs.snapper3tag
 Filename: ./debs/Snapper3Tag标记扩展-Rootless.deb
-Size: 26952
-MD5sum: 380db6cb6f0cc2240c506be63f8444e3
-SHA1: c75bb5e168616c8f38ea548439b222c727e53e44
-SHA256: f49f243907b3e21f5c35a63ab96f9890483f03f36831f2211f3624c38f6d6962
+Size: 27028
+MD5sum: 6826a4ca39f7423fe0e7453fe33865c6
+SHA1: 2a93aa5521d25f6c43782d240506ca7439f6a55c
+SHA256: 468a885d1624aae7651e32516ace9997df3c1deaf5b829f1493cf703b97aafb3
 Section: 系统增强
 Description: Snapper3 截图标记扩展插件。
  - 颜色选择器：红/黄/蓝/绿/白/黑等6种颜色
@@ -899,7 +949,7 @@ Description: Snapper3 截图标记扩展插件。
  - 没有文件夹则自己建立就行
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Axs
-Name: Snapper3Tag标记扩展-Rootless
+Name: Snapper 3Tag标记扩展-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.axs.snapper3tag.json
 
 Package: lym.com.baiy.keyboardhook
