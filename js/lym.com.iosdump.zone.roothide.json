@@ -9,14 +9,14 @@
             "tabname": "描述",
             "views": [
                 {
-                    "text": "捐赠给开发者",
-                    "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f/",
+                    "text": "壁纸链接下载",
+                    "action": "https://t.me/iOS_TrollStore/7555",
                     "openExternal": 1,
                     "class": "DepictionButtonView"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- Zone 插件用于设置\n- tendies交互壁纸/视频壁纸 支持iOS14-17\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!!"
+                    "markdown": "### 插件介绍\n- Zone插件用于设置.tendies交互壁纸/视频壁纸\n- 支持iOS14-17\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
                 }
                 ,{
                     "class": "DepictionHeaderView",
@@ -40,7 +40,7 @@
                     "title": "支持系统"
                 },
                 {
-                    "text": "2026年08月13日",
+                    "text": "2026年08月16日",
                     "title": "最后更新",
                     "class": "DepictionTableTextView"
                 }
@@ -52,7 +52,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.1.0\n- 修复未开启双锁屏时导致锁屏无法呼出海报板\n- 修复当开启插件时未选择壁纸时黑屏问题\n- 视频模式新增可控制,锁屏/桌面视频壁纸是否循环播放修改设置界面UI"
+                    "markdown": "### 版本 2.1.0\n- 初始版本"
                 }
             ]
         }
