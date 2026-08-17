@@ -1966,17 +1966,17 @@ Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Conflicts: com.iosdump.zone
 Replaces: com.iosdump.zone
 Filename: ./debs/Zone视频壁纸-Rootless.deb
-Size: 210680
-MD5sum: 853e7f1d78aeb7d48b5082a454d5bc58
-SHA1: ef40bb4086014d21fdc657af1cc4b06194c3d151
-SHA256: c15ab369a44643ab180ca61df0ff7123836add1f60187cee8b0b0d093abc861a
-Section: 系统增强
-Description: Zone 插件用于设置
- - tendies交互壁纸/视频壁纸 支持iOS14-17
+Size: 211160
+MD5sum: 49c4bee61ad070fbeb18d8ce03f03479
+SHA1: 981d101511cef44267fa06b7cc0d7d1395bf45fe
+SHA256: 33e1fc600a93156e21c205b8e483f039bc18a12e42128b22cbe3af62da39a0d4
+Section: 系统美化
+Description: Zone插件用于设置
+ - tendies交互壁纸/视频壁纸支持iOS14-17
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: Zone视频壁纸-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.zone.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.zone_2.1.0.json
 
 Package: lym.com.iosdump.zone.roothide
 Version: 2.1.0
@@ -1987,17 +1987,17 @@ Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Conflicts: com.iosdump.zone
 Replaces: com.iosdump.zone
 Filename: ./debs/Zone视频壁纸-RootHide.deb
-Size: 208808
-MD5sum: cc6277a801a3aca5c89955e03108b401
-SHA1: 189948ab34b03ee9910d8bbb96b16ab8d13b2d02
-SHA256: ce504cd81341abe5d97eb7caa3557b93e970ed034d6367c0e28554e8087a0b11
-Section: 系统增强
-Description: Zone 插件用于设置
- - tendies交互壁纸/视频壁纸 支持iOS14-17
+Size: 209184
+MD5sum: 199336f203b57581a0a678e9e02c637f
+SHA1: 07f9ba1468b872a6aa97f870cdf4694934878e8c
+SHA256: 5c7d458693b27ff78b6b02c0f9f74e3f857668675940553c9c6345c46824f528
+Section: 系统美化
+Description: Zone插件用于设置
+ - tendies交互壁纸/视频壁纸支持iOS14-17
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: Zone视频壁纸-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.zone.roothide.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.zone.roothide_2.1.0.json
 
 Package: lym.com.iosrxwy.qidianyuedu
 Version: 0.1-2
@@ -3290,6 +3290,29 @@ Description: 禁用解锁时主屏幕图标飞入
 Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.cscathook.json
+
+Package: lym.com.wkk.keyboardx
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wkk.keyboardx
+Replaces: com.wkk.keyboardx
+Filename: ./debs/KeyboardX键盘调整-Rootless.deb
+Size: 64608
+MD5sum: c1bbf82d0a702e59ea91ffb2f8e5333e
+SHA1: 2fabcb8dd596a3862d609b8f063b47d93ff5654c
+SHA256: 737d65206741307f008d25b656c3c6d4f7546a3c0da1e0d13674516918b3a4ad
+Section: 键盘插件
+Description: 键盘美化插件
+ - 支持自带键盘-微信输入法调整
+ - 搜狗,百度,讯飞,豆包输入法候选词颜色渐变
+ - 调整背景色和圆角等相关功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: KeyboardX键盘调整-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.keyboardx_1.0-6.json
 
 Package: lym.com.wkk.magicsms
 Version: 0.0.1-9
