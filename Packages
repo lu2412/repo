@@ -3636,46 +3636,6 @@ Author: Finn Gaida
 Name: DayNightSwitch日月开关-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.de.finngaida.daynightswitch.json
 
-Package: lym.dianhua
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lu
-Conflicts: lym.dianhua1
-Replaces: lym.dianhua1
-Filename: ./debs/电话助手自用配置保存-Rootless.deb.deb
-Size: 2516
-MD5sum: e5aff049737f1ba3ae9e2cdaa672855b
-SHA1: ee109e9ae59e5fdc5b96afcbc668e64b279d134c
-SHA256: 5bcc0f6f7105cf694b48486ffbf3ab5396f4590de728f8a47707397aa5cfcf22
-Section: 自用备份
-Description: 电话助手自用格式备份
- - 安装后去电话助手-管理配置参数--恢复当前配置
- - 然后注销即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lu
-Name: 电话助手自用配置保存-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua.json
-
-Package: lym.dianhua1
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lu
-Conflicts: lym.dianhua, dianhua1
-Replaces: lym.dianhua, dianhua1
-Filename: ./debs/电话助手自用配置保存(2)-Rootless.deb
-Size: 2504
-MD5sum: 4ef9d442cf44f5a43ce44ff2da66f1b4
-SHA1: 4923f7239a6ff6314929261c0b54b3a444edff87
-SHA256: fab8165e39c6e6c736f24c1075a40426544aa77a771891c8833a0235c372ddc4
-Section: 自用备份
-Description: 电话助手自用格式备份
- - 安装后去电话助手-管理配置参数--恢复当前配置
- - 然后注销即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lu
-Name: 电话助手自用配置保存(2)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.dianhua1.json
-
 Package: lym.ios-rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -3738,27 +3698,6 @@ Description: 针对 App Store 付费应用
 Author: lly
 Name: IAPStore 内购神器-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosios.net.iapstorefugu-rootless.json
-
-Package: lym.jailbreak.lizi.repo
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 无名
-Conflicts: jailbreak.lizi.repo
-Replaces: jailbreak.lizi.repo
-Filename: ./debs/一键添加越狱源-Rootless.deb
-Size: 2116
-MD5sum: 19f8336c41d8fbeade70c1551579daad
-SHA1: 34f11a23d4048fa76c57385840df8fdc28dacd3f
-SHA256: 22b6c7687a91e243ec652e5e2c9c57dc278c0c66bb849278e57dd7a4dd2f1769
-Section: 自用备份
-Description: 收藏越狱源大全
- - 安装后会自动杀掉sileo后台
-  - 源地址路径/var/jb/etc/apt/sources.list.d
- - 重新进入Sileo即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 无名
-Name: 一键添加越狱源-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jailbreak.lizi.repo.json
 
 Package: lym.jp.r-plus.anykeytrackpad
 Version: 1.1.1
