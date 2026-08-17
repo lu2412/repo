@@ -16,7 +16,30 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 锁屏通知聚合插件,长按锁屏通知图标可清除通知。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- CoolStar的经典文件夹\n- Lizynz修复支持多巴胺无根越狱\n- 基于Lizynz的开源代码修改优化\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+                }
+                ,{
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 15,
+                    "itemSize": "{300, 533}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/Screenshot_01"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/Screenshot_02"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/Screenshot_03"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/Screenshot_04"
+                        }
+                    ]
                 }
                 ,{
                     "class": "DepictionHeaderView",
@@ -26,12 +49,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Nepeta & daodao",
+                    "text": "Lizynz & sini921",
                     "title": "插件作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.5.1",
+                    "text": "3.3",
                     "title": "插件版本"
                 },
                 {
@@ -52,7 +75,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.5.1\n- 修复闹钟通知无法消除优化偏好缓存"
+                    "markdown": "### 版本 3.3\n- 设置页美化\n- 顶部卡片信息,卡片背景加入轻微玻璃/磨砂质感其他微调美化"
                 }
             ]
         }

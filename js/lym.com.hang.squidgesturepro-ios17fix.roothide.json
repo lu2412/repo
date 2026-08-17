@@ -16,7 +16,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 插件介绍\n- 锁屏通知聚合插件,长按锁屏通知图标可清除通知。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+                    "markdown": "### 插件介绍\n- 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷指令时导致的安全模模式\n- 安装后需重新开启SquidGesture Pro开关一次\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
                 }
                 ,{
                     "class": "DepictionHeaderView",
@@ -26,12 +26,12 @@
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "Nepeta & daodao",
+                    "text": "航",
                     "title": "插件作者"
                 },
                 {
                     "class": "DepictionTableTextView",
-                    "text": "2.5.1",
+                    "text": "1.2",
                     "title": "插件版本"
                 },
                 {
@@ -40,7 +40,7 @@
                     "title": "支持系统"
                 },
                 {
-                    "text": "2026年08月16日",
+                    "text": "2026年08月17日",
                     "title": "最后更新",
                     "class": "DepictionTableTextView"
                 }
@@ -52,7 +52,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 2.5.1\n- 修复闹钟通知无法消除优化偏好缓存"
+                    "markdown": "### 版本 1.2\n- 首次发布"
                 }
             ]
         }
