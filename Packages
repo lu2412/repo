@@ -379,27 +379,6 @@ Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
 
-Package: lym.cn.bswbw.DEB.backup.arm64
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: liym
-Installed-Size: 114514
-Conflicts: cn.bswbw.DEB.backup.arm64
-Replaces: cn.bswbw.DEB.backup.arm64
-Filename: ./debs/DEB插件备份-Rootless.deb
-Size: 588880
-MD5sum: 1939ace0f0d8e41fd570775e8f8f8159
-SHA1: b44ca2856ea2e20274c58568aae5c0d11076dfe9
-SHA256: b9c92f18753408c6ce00a14b7d6e72d14f4c39fc0938bbcc8650afd979d04c97
-Section: 巨魔软件
-Description: DEB备份IPA插件版
- - 只是用来方便自己安装
- - 安装后桌面有图标
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: liym
-Name: DEB插件备份-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.bswbw.DEB.backup.arm64.json
-
 Package: lym.cn.llld.biaoji
 Version: 1.5
 Architecture: iphoneos-arm64
