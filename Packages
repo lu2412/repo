@@ -3357,6 +3357,32 @@ Author: Crassna
 Name: 旧版奥利奥-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.sthenohei.json
 
+Package: lym.com.wkk.systembox
+Version: 1.3-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 1244
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.systembox
+Replaces: com.wkk.systembox
+Filename: ./debs/SystemX系统调整-Rootless.deb
+Size: 226796
+MD5sum: 4c706bf496ab15cdbd9188655555026b
+SHA1: 3260cc6e6be0e659773ec15396daf49719ada0b1
+SHA256: 80a9c60b8ce5d68e5281cdc06c9d2c98d049f461f991dccc3081ebf1e4c2c995
+Section: 系统增强
+Description: 对系统进行各种调整
+ - 文件夹
+ - 时间日期
+ - 相册功能
+ - 桌面功能
+ - 常规功能
+ - 禁用隐藏等相关调整
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: SystemX系统调整-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.systembox_1.3-5.json
+
 Package: lym.com.wxkeyboarduihook
 Version: 1.8
 Architecture: iphoneos-arm64
