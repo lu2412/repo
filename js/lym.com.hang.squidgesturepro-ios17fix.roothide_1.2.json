@@ -52,7 +52,7 @@
             "views": [
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "### 版本 1.2\n- 首次发布"
+                    "markdown": "### 版本 1.2\n- 初始版本"
                 }
             ]
         }

@@ -1255,88 +1255,46 @@ Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
 
 Package: lym.com.dao.axon
-Version: 2.5.1
+Version: 2.5
 Architecture: iphoneos-arm64
 Maintainer: 刀刀
 Installed-Size: 688
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
 Replaces: com.dao.axon
-Filename: ./debs/Axon锁屏通知-Rootless.deb
-Size: 157004
-MD5sum: 3a4e8aee0402968c32e21b2c08c470a9
-SHA1: 3004f8c7b9f06ad62e24aa8c37fdf6ca27f73e6e
-SHA256: 16cd7aaac3c3642eba1e84f8fbf4d0b7bea663d5d28bb7541723bdb45f772076
-Section: 系统美化
-Description: 锁屏通知聚合插件,长按锁屏通知图标可清除通知。
+Filename: ./debs/Axon中文版-Rootless.deb
+Size: 157380
+MD5sum: bb8090f76319beed3901ef8e187e699c
+SHA1: f8359104bca6ef0d544baf90bebda832f62c424c
+SHA256: 28b2066dbaf81cc03b4c086b2f4b596e4d16791ee129669b1831246f9c11fe37
+Section: 系统增强
+Description: 插件介绍
+ - 锁屏通知聚合插件，刀刀中文优化版
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Nepeta & daodao
-Name: Axon锁屏通知-Rootless
+Name: Axon中文版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.json
 
 Package: lym.com.dao.axon.roothide
-Version: 2.5.1
+Version: 2.5
 Architecture: iphoneos-arm64e
 Maintainer: 刀刀
 Installed-Size: 688
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
 Replaces: com.dao.axon
-Filename: ./debs/Axon锁屏通知-RootHide.deb
-Size: 156780
-MD5sum: e4efb898ba8f33fab59efe6047d32ca5
-SHA1: 4a808a91020ea9d9b7c244d486ed2194be6289e8
-SHA256: 493f0f7816ff2130d2333ce9a9e785b64b1762a7bc532d19eed6f07cffc60a23
-Section: 系统美化
-Description: 锁屏通知聚合插件,长按锁屏通知图标可清除通知。
+Filename: ./debs/Axon中文版-RootHide.deb
+Size: 156944
+MD5sum: 7cc025370851091dade8963ee9f47ecb
+SHA1: 3c94341787f83d3b778d7947b736554e5ba7f392
+SHA256: 9518d87ac923f3037516719d5b22dd15e69588dcbe9140f605947d82831d6e81
+Section: 系统增强
+Description: 插件介绍
+ - 锁屏通知聚合插件，刀刀中文优化版
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Nepeta & daodao
-Name: Axon锁屏通知-RootHide
+Name: Axon中文版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.roothide.json
-
-Package: lym.com.dao.classicfolders3
-Version: 3.3
-Architecture: iphoneos-arm64
-Maintainer: sini921 & daodao
-Installed-Size: 3844
-Depends: mobilesubstrate, preferenceloader
-Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless, com.dao.classicfolders3
-Replaces: com.dao.classicfolders3
-Filename: ./debs/ClassicFolders经典文件夹-Rootless.deb
-Size: 2872744
-MD5sum: bee306477f85ffea499ac783fc31322a
-SHA1: 16cebd6d5c982d939c621dfa1da578cbbd3eb138
-SHA256: 1a4cfc1de51800ce5936364699d669ea2743c60d0e3931460ec7d2977c2ba8a9
-Section: 系统美化
-Description: CoolStar的经典文件夹
- - Lizynz修复支持多巴胺无根越狱
- - 基于Lizynz的开源代码修改优化
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Lizynz & sini921
-Name: ClassicFolders经典文件夹-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.classicfolders3.json
-
-Package: lym.com.dao.classicfolders3.roothide
-Version: 3.3
-Architecture: iphoneos-arm64e
-Maintainer: sini921 & daodao
-Installed-Size: 3844
-Depends: mobilesubstrate, preferenceloader
-Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless, com.dao.classicfolders3
-Replaces: com.dao.classicfolders3
-Filename: ./debs/ClassicFolders经典文件夹-RootHide.deb
-Size: 2870812
-MD5sum: 92cc24d720995b14e5da68726193f006
-SHA1: ce8701512a721a98b81e1b2d1db828081ae1a3d8
-SHA256: bfe8408024901c1e39d14551a322f5791545dd13b8e559e602b7c6defecf66d6
-Section: 系统美化
-Description: CoolStar的经典文件夹
- - Lizynz修复支持多巴胺无根越狱
- - 基于Lizynz的开源代码修改优化
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Lizynz & sini921
-Name: ClassicFolders经典文件夹-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.classicfolders3.roothide.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
@@ -1553,19 +1511,19 @@ Installed-Size: 92
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
 Conflicts: com.hang.squidgesturepro-ios17fix
 Replaces: com.hang.squidgesturepro-ios17fix
-Filename: ./debs/乌贼手势IOS17修复补丁-RootHide.deb
+Filename: ./debs/乌贼手势iOS17补丁-RootHide.deb
 Size: 12792
-MD5sum: 30f860b0ffcebdab01eb9ccb7edb9f13
-SHA1: 9cd72b3ab2bd38ebf801dbe0f0e203a8f572cd3f
-SHA256: b7bd43ccb4d20f60957f68dd4647cba844929d7f49581439d253e691325e2696
+MD5sum: 267f33443b0a1df7b79b914aa3cdc041
+SHA1: eae0ac551e4c69e99d982ccae8495fa1ce026eef
+SHA256: fd687f06b4149391fcec02fca98d12c24fdcf47ee208b895fefbe42e49b2bba3
 Section: 补丁扩展
 Description: 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷指令时导致的安全模模式
  - 安装后需重新开启SquidGesture Pro开关一次
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 航
-Name: 乌贼手势IOS17修复补丁-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hang.squidgesturepro-ios17fix.roothide.json
+Name: 乌贼手势iOS17补丁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hang.squidgesturepro-ios17fix.roothide_1.2.json
 
 Package: lym.com.hk.atria.cn.rl
 Version: 1.4.1
