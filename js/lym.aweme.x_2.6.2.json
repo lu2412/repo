@@ -1,0 +1,79 @@
+{
+    "class": "DepictionTabView",
+    "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+    "tintColor": "#87A2FF",
+    "minVersion": "0.3",
+    "tabs": [
+        {
+            "class": "DepictionStackView",
+            "tabname": "描述",
+            "views": [
+                {
+                    "text": "插件下载链接",
+                    "action": "https://pdf2.webgetstore.com/2026/07/29/36935ff7e3834ec1dfa0055cc1012cd2.deb?sg=a323883c947382869ac2a48e6691cfc3&e=6a86c56d&fileName=aweme.x_2.6.2_iphoneos-arm64.deb&fi=303042421",
+                    "openExternal": 1,
+                    "class": "DepictionButtonView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 插件介绍\n- 去广告、无水印下载视频\n- 隐藏各种按钮文字等\n- 插件启用:双指双击屏幕打开插件设置界面\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+                }
+                ,{
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 15,
+                    "itemSize": "{300,533}",
+                    "screenshots": [
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/dytc.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/dytc1.png"
+                        },
+                        {
+                            "accessibilityText": "Screenshot",
+                            "url": "https://lu2412.github.io/repo/icon/dytc2.png"
+                        }
+                    ]
+                }
+                ,{
+                    "class": "DepictionHeaderView",
+                    "title": "详细信息",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "𝙓",
+                    "title": "插件作者"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "2.6.2",
+                    "title": "插件版本"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "iOS 15 - iOS 16.5",
+                    "title": "支持系统"
+                },
+                {
+                    "text": "2026年08月20日",
+                    "title": "最后更新",
+                    "class": "DepictionTableTextView"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "更新日志",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### 版本 2.6.2\n- 解决新版评论语音UI无法使用语音包问题(简单修了下有问题用热更新配置回旧版UI)\n- 再次对授权:更新系统进行优化\n- 修复一些已知问题\n- 尽量保持在合适的版本使用"
+                }
+            ]
+        }
+    ]
+}

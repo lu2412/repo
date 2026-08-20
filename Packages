@@ -254,6 +254,30 @@ Author: alias20
 Name: CalcLog计算器显示过程-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.alias20.calclog.json
 
+Package: lym.aweme.x
+Version: 2.6.2
+Architecture: iphoneos-arm64
+Maintainer: 𝙓
+Installed-Size: 11908
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook, aweme.x
+Replaces: com.xx.dyhook, aweme.x
+Filename: ./debs/抖音图层-Rootless.deb
+Size: 3616068
+MD5sum: 80bd0943772dcee2bbb29708d8044c7a
+SHA1: 31e7bac98ab3d4ef4fb72f8589d4b1c03a1477bb
+SHA256: 86f8130bc534a841ff8b2f58c961bf75b76d08e12588b82b9bf37a4d06d62e43
+Section: 抖音插件
+Description: 去广告、无水印下载视频
+ - 隐藏各种按钮文字等
+ - 插件启用:双指双击屏幕打开插件设置界面
+ - 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 𝙓
+Name: 抖音图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.aweme.x_2.6.2.json
+
 Package: lym.byg.iosios.net.autoscroll
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3445,29 +3469,6 @@ Description: 去除百度地图一些无用的悬浮板块
 Author: x✨
 Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
-
-Package: lym.com.xx.dyhook
-Version: 2.0.8+8
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 8716
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.dyhook
-Replaces: com.xx.dyhook
-Filename: ./debs/抖音图层-Rootless.deb
-Size: 2664064
-MD5sum: cb2758a384c6a140a5072f0502f9160b
-SHA1: 647358a5ce0b562dcdd2e842b41cb075e41fe435
-SHA256: af5e1e254eea3c9d5764ad282cbb4776fa91b58386140739073586c4c8736667
-Section: 抖音插件
-Description: 抖音功能增强插件
-   - 去广告、无水印下载视频
-   - 隐藏各种按钮文字等
-   - 插件启用:双指双击屏幕打开插件设置界面
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: x✨
-Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhook.json
 
 Package: lym.com.xx.dyhooks.old
 Version: 1.0.3
