@@ -1002,27 +1002,6 @@ Author: be-huge
 Name: insulation(解除温控)-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.insulation.json
 
-Package: lym.com.be-huge.wechat-push-msg-page
-Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 232
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.be-huge.wechat-push-msg-page
-Replaces: com.be-huge.wechat-push-msg-page
-Filename: ./debs/微信消息直达-Rootless.deb
-Size: 23488
-MD5sum: dca4f2ccff5456036ddc2efe243e761f
-SHA1: bb3f080411bec3ed506b7d735810ef0571b72db4
-SHA256: 729cd6db02bf8747b6f02a04da19361d69dddf989d6ef864347cee37af6a9c2d
-Section: 微信插件
-Description: 点击微信通知消息即可跳转到该聊天界面
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: 微信消息直达-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.wechat-push-msg-page.json
-
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -1609,30 +1588,6 @@ Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
 Author: huami
 Name: Choicy补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.roothide.json
-
-Package: lym.com.huami.WCPush2Chat
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 272
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.huami.WCPush2Chat
-Replaces: com.huami.WCPush2Chat
-Filename: ./debs/WCPush2Chat消息直达-Rootless.deb
-Size: 36000
-MD5sum: 3c780bff4a0b77d5e09d2f400f67f950
-SHA1: cf7a9f12fb95f0163c25b4c5e1809c5e6722977c
-SHA256: 69f915e1974aa5fd05b4267c4cdf7672bddec5499ab3c9af5e4778045e6bd78f
-Section: 微信插件
-Description: 无后台/后台直达通知对应的消息界面
- - 前台不会重复跳转,初版有问题
- - 自测无需OrionSwift依赖
- - 仅在8.0.61测试理论上支持31+
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: WCPush2Chat消息直达-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.WCPush2Chat.json
 
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
@@ -3565,26 +3520,6 @@ Author: xybp888
 Name: 重要提醒No Apple MobileRepair-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.noapplemobilerepair.json
 
-Package: lym.com.ylr.wcsimplify
-Version: 1.5.7-1
-Architecture: iphoneos-arm64
-Maintainer: ylr
-Installed-Size: 548
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.ylr.wcsimplify
-Replaces: com.ylr.wcsimplify
-Filename: ./debs/WCSimplify-Rootless.deb
-Size: 118928
-MD5sum: f14bc56d6b7efe15c23f9028b26b6883
-SHA1: a3c9a1c3c121586fec058417249ff748f5236506
-SHA256: 3411f3ef9346032f4bd869175fc7c3f381e6b5f2efb1f1e28687a3b36f6fcf1b
-Section: 微信插件
-Description: 双击顶部导航栏(如首页顶栏、聊天页顶栏)弹出菜单,修改透明度/毛玻璃、隐藏通讯录、发现等。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ylr
-Name: WCSimplify-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ylr.wcsimplify.json
-
 Package: lym.com.yourcompany.vvebofix
 Version: 1.0-5+debug
 Architecture: iphoneos-arm64
@@ -3923,26 +3858,6 @@ Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 
-Package: lym.netskao.wechatpurification
-Version: 4.2-7-END
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 16676
-Depends: mobilesubstrate, firmware (>= 12.0)
-Replaces: netskao.wechatpurification
-Filename: ./debs/微信净化 END-Rootless.deb
-Size: 6274852
-MD5sum: 1c958149ef7b92694f3b1183bf57c8e6
-SHA1: 0a713f70950ab45bb46038d8e5a1aff28fafe29c
-SHA256: 4bbf1cf35f36405781eb16d586d368320e115f86d3aff924fdea599faa89ab1f
-Section: 微信插件
-Description: 微信净化，还原聊天本质，干净的微信给你
- - 仅支持8.0.29及以上版本，设置位于微信-设置
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: 微信净化 END-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.wechatpurification.json
-
 Package: lym.ph.telegra.Telegraph.adv.4-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3966,24 +3881,44 @@ Name: Telegram增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ph.telegra.Telegraph.adv.4-Rootless.json
 
 Package: lym.ws.hbang.newterm3
-Version: 3.0~beta1
+Version: 3.0~beta1-1042+debug
 Architecture: iphoneos-arm64
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 14899
+Installed-Size: 24244
 Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
 Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm3
-Filename: ./debs/NewTerm 3 Beta终端-Rootless.deb
-Size: 3839204
-MD5sum: 445fda7d33d71823209707b4fcee4b36
-SHA1: d9d4caee968f8555cba709bbcf645b18cd55e53e
-SHA256: f5263f3d386e01b32a990919bd6e2a5d324a3e06dded68630977d94efb03c8ff
-Section: 系统增强
-Description: 强大的iOS端开发工具
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Filename: ./debs/NewTerm 3终端-Rootless.deb
+Size: 3943880
+MD5sum: 09e00376362de07594127f28f824fd99
+SHA1: 3c84126b02594f0ef5ba9c7ac55bd03e80e430ec
+SHA256: 11bbfda9c7bfdfc3d707ed6d4e4f53ac4203c41b5d04b96c200b03bbdeddd097
+Section: 编程脚本
+Description: 强大的IOS端开发工具！
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: HASHBANG Productions <support@hbang.ws>
-Name: NewTerm 3 Beta终端-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ws.hbang.newterm3.json
+Name: NewTerm 3终端-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm3_3.0~beta1-1042+debug.json
+
+Package: lym.ws.hbang.newterm33.roothide
+Version: 3.0~beta1-2048
+Architecture: iphoneos-arm64e
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 25736
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm33
+Replaces: ws.hbang.newterm, ws.hbang.newterm2, ws.hbang.newterm33
+Filename: ./debs/NewTerm 3终端-RootHide.deb
+Size: 5349072
+MD5sum: 13cce2fd3d0e2a9b217fbb8f4389c25c
+SHA1: 059443acbed9f70c1b54e01ba7be604b29a45128
+SHA256: aadb543e4caf295d739559ef35c114c049edcb07675c249ac71052decadb8aaf
+Section: 编程脚本
+Description: 强大的IOS端开发工具！
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: HASHBANG Productions <support@hbang.ws>
+Name: NewTerm 3终端-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm33.roothide_3.0~beta1-2048.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
