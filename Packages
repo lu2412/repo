@@ -2004,25 +2004,6 @@ Author: iosdump
 Name: Zone视频壁纸-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.zone.roothide_2.1.0.json
 
-Package: lym.com.iosrxwy.qidianyuedu
-Version: 0.1-2
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Depends: firmware (>= 5.0), mobilesubstrate
-Replaces: com.iosrxwy.qidianyuedu
-Filename: ./debs/奇点阅读去广告-Rootless.deb
-Size: 215776
-MD5sum: 7f1146b67a5006e3853e17b47c1455d3
-SHA1: e77dc879678ea64123fe930ce914bc04e5c52171
-SHA256: 72cda0bc5e406069a4927057aa9f1503d65e2583eec5acfb6d8d3a04a24824ff
-Section: 软件增强
-Description: 奇点阅读去除三个首页面广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: iosrxwy
-Name: 奇点阅读去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.iosrxwy.qidianyuedu.json
-
 Package: lym.com.iosrxwy.xmlynoads
 Version: 0.1-1
 Architecture: iphoneos-arm64
