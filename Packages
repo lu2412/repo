@@ -2151,6 +2151,50 @@ Author: Ruphane
 Name: AirPods PodsGrant增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogr.json
 
+Package: lym.com.m4fn3.mikkyy
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Replaces: com.m4fn3.mikkyy
+Filename: ./debs/Mikkyy 主题插件-Rootless.deb
+Size: 351812
+MD5sum: f88f6e674edcb75d949f8af103f9da64
+SHA1: 944823437b3150b6897aec2647a17e659be54e3c
+SHA256: 319d6b4bad21d0072c4fa0cd8deb5866446766b3fa12bf6e05d737f84efb8b1c
+Section: 美化插件
+Description: iOS越狱主题管理插件
+ - 现代、轻量级的主题引擎，支持iOS16至iOS26
+ - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: m4fn3
+Name: Mikkyy 主题插件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.m4fn3.mikkyy_1.0.0.json
+
+Package: lym.com.m4fn3.mikkyy.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: m4fn3
+Installed-Size: 1500
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Replaces: com.m4fn3.mikkyy
+Filename: ./debs/Mikkyy 主题插件-RootHide.deb
+Size: 360356
+MD5sum: 7a6895c40a294caa7f336b9715cd264b
+SHA1: 095863c87e7edadb0fb4a1b28262b37fe48b010d
+SHA256: f2079d038250e23ab3ab233d1e70d7fdb28493a04e1400016c445f297dc930f1
+Section: 美化插件
+Description: iOS越狱主题管理插件
+ - 现代、轻量级的主题引擎，支持iOS16至iOS26
+ - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: m4fn3
+Name: Mikkyy 主题插件-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.m4fn3.mikkyy.roothide_1.0.0.json
+
 Package: lym.com.macxk.kwcrack
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -3582,27 +3626,47 @@ Author: yourname
 Name: 铁路12306去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourname.12306noad.json
 
-Package: lym.de.finngaida.daynightswitch
+Package: lym.de.finngaida.daynightswitchs
 Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: Finn Gaida
 Installed-Size: 584
 Depends: firmware (>= 14.0), mobilesubstrate
-Conflicts: de.finngaida.daynightswitch
-Replaces: de.finngaida.daynightswitch
+Conflicts: de.finngaida.daynightswitch, de.finngaida.daynightswitchs
+Replaces: de.finngaida.daynightswitchs
 Filename: ./debs/DayNightSwitch日月开关-Rootless.deb
-Size: 69456
-MD5sum: f8fc30fee6817a9edb8c11d3e0c0810c
-SHA1: 00095824bbb61d3690780b666a29aea2c00feb97
-SHA256: c0ec6ca0fd871563876182f89c7994c408ae13680475a4c1d309c8b4b1dfc874
-Section: 系统美化
+Size: 69324
+MD5sum: 87ea7efafe9fb8e5460ed7c20b917029
+SHA1: daac3f0ab8b0a2b1b888d1de72cb8107e865e7fa
+SHA256: b5eb5f55b83fad9e92968fdf6505f998c88cca62a98de4caaea8aee5cc6b3bd7
+Section: 美化插件
 Description: 全局日月开关风格
  - 由「乌龙工作室」专业修复
- - 插件有设置项请开启全局效果
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Finn Gaida
 Name: DayNightSwitch日月开关-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.de.finngaida.daynightswitch.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.de.finngaida.daynightswitchs_1.2.json
+
+Package: lym.de.finngaida.daynightswitchs.roothide
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: Finn Gaida
+Installed-Size: 584
+Depends: firmware (>= 14.0), mobilesubstrate
+Conflicts: de.finngaida.daynightswitch, de.finngaida.daynightswitchs
+Replaces: de.finngaida.daynightswitchs
+Filename: ./debs/DayNightSwitch日月开关-RootHide.deb
+Size: 67720
+MD5sum: 96810582ced31b6cdf43ec951b5143b0
+SHA1: 2129f7f36708f16f83eebf3d78c9dc6d1e93e280
+SHA256: 187a54331ea6d3f3ee7c12ff757acbfa0de238574cca1cfbeff9fb7db6c73af7
+Section: 美化插件
+Description: 全局日月开关风格
+ - 由「乌龙工作室」专业修复
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Finn Gaida
+Name: DayNightSwitch日月开关-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.de.finngaida.daynightswitchs.roothide_1.2.json
 
 Package: lym.ios-rootless
 Version: 0.0.1
