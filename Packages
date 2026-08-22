@@ -1857,46 +1857,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 1.2.1
+Version: 2.3.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 868
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.shellx
+Installed-Size: 6492
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 146384
-MD5sum: c4ab7962cf7b7ee7e236dda7e2966d82
-SHA1: 4c06f8a0dcbd536c7546c4e959eb16983fdaaa50
-SHA256: 58e4d35d33384e8ba16326e10b7288ce1c65a0c9bbac0562e74bc505bdc55bce
+Size: 2835100
+MD5sum: d140fd0cdfc754355296f66f5c79c0e8
+SHA1: 5bf367343006bd67a597c68d54038778b7fbf0a4
+SHA256: 14c264b59deae7a6fa63ea6d7df884aeb4c397175bf0012c39be92492f18def1
 Section: 系统增强
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
- - 插件无设置项安装即可生效
+Description: 支持录屏/区域截图套壳
+ - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.3.1.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 1.2.1
+Version: 2.3.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 852
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.shellx
+Installed-Size: 6476
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 144316
-MD5sum: ccd551cb827670ba4e8dfce5668c44ac
-SHA1: 097b79665de06a52623ed31d4f8e19f1bbee6d65
-SHA256: ce335959540ee0631ee281fc145961c38602a6ebbb1d2a8e98e1d566f1f326b2
+Size: 2833060
+MD5sum: 06cb85da317d6c2eb139691c9e4ec910
+SHA1: 674534da0649aa9d2f451ac0ebee042c89f38f5c
+SHA256: ead73898d38a34f2f8fdc1e3455ca96aa61e38af620dc5b56e3ce282c396094f
 Section: 系统增强
-Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱
- - 插件无设置项安装即可生效
+Description: 支持录屏/区域截图套壳
+ - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.3.1.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.7
@@ -2063,27 +2063,6 @@ Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
-Package: lym.com.lclrc.hammerit
-Version: 1.7.1
-Architecture: iphoneos-arm64
-Maintainer: lclrc(SquidForce)
-Installed-Size: 3808
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Conflicts: com.lclrc.hammerit
-Replaces: com.lclrc.hammerit
-Filename: ./debs/Hammer It-Rootless.deb
-Size: 980484
-MD5sum: 9e1ed5eead99d881c3b8f7e8a812b7b5
-SHA1: 6b66605f4d4a87edc53d5b7a0c1d17f4dff6918d
-SHA256: c179b4e3a2bbea7e75e73ce71a8a94ed1009224a8a9ef7081aa19ffa428561da
-Section: 系统增强
-Description: 插件介绍
- - 分词、翻译
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lclrc(SquidForce)
-Name: Hammer It-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lclrc.hammerit.json
-
 Package: lym.com.lecard.wuyu
 Version: 0.1
 Architecture: iphoneos-arm64
@@ -2093,11 +2072,11 @@ Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
 Conflicts: com.lecard.wuyu
 Replaces: com.lecard.wuyu
 Filename: ./debs/Applecard分屏-Rootless.deb
-Size: 409276
-MD5sum: 04c14e60692c0979e6865e0991f87e88
-SHA1: f36d50b2038753bf08b3ddcc4e1b1c42af122c9a
-SHA256: cef9f7978b95d30c4726a5f53fbca0423a4d501cc4c318c151a2aefa53411a8e
-Section: 系统增强
+Size: 409108
+MD5sum: bd6ee2896868bf3e1964395c3cdf65aa
+SHA1: df5737af2b94c95479e3feaca91ad36ff10585ca
+SHA256: 2673a8838bde2df88dfa6cde263795eeac67a941e8850506a214a454060f5b52
+Section: 分屏插件
 Description: 网友分享分屏插件
  - 目前已停更
  - 使用方法如图所示
