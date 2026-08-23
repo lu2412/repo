@@ -1841,10 +1841,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2858492
-MD5sum: cabb7053dc3be0df41de131cabb4efa9
-SHA1: e26fd1e2b23a5b568f2e3eb46bbfc0ee4be3f19e
-SHA256: 892f0fd9284702f93a1c72b82df5d74903945c12d1a552bb03161c66214e46d1
+Size: 2856324
+MD5sum: 2b018786ce898e1175474b45a8f5ad6f
+SHA1: 3d8863d0f293fa64832938080b795f65cdd6864c
+SHA256: e266ce5de300f5000ad78da7309d9abf06b85c0a000049c25cf521a33b48d099
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -1862,10 +1862,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2858232
-MD5sum: 73bdb8eb9e3307134ad3764733c2b55e
-SHA1: a12d9408ee0b5b0ae66e15050e2c29fd419fab50
-SHA256: a56847274a2d7acd142079b9564fc3c7e398a6d425b017f3fe0c4f4092387545
+Size: 2858268
+MD5sum: c773c4f82775f955636c6241a53bc9c8
+SHA1: 18918b1a022564a93028f3b2b183af409746161a
+SHA256: 6158dcfb13d1b563681605a81df1f5eb795ad4b2a8b2364ee01c92ea7e180345
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
