@@ -85,10 +85,10 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.wkk.keyboardx
 Replaces: com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-Rootless.deb
-Size: 64452
-MD5sum: 519fbc225350958b0597912c5f8ba506
-SHA1: cfdc5327edd89df2c9378349eb0df89ea5e42892
-SHA256: eed2092dbcaea2c0eb5fa1bed8e096c7f5f49310eaa0b2d7a9cd54e610f35976
+Size: 64636
+MD5sum: 6a827aa2620ad79e373dde4d7e1a7a53
+SHA1: b151020745de1b61c3eadf3299bbc9b1d0f5b0c7
+SHA256: 31637bb4b619f286680359b592705f3e11deee1535922a22b1128b2839c1610e
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
