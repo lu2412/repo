@@ -85,10 +85,10 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.wkk.keyboardx
 Replaces: com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-Rootless.deb
-Size: 64636
-MD5sum: 6a827aa2620ad79e373dde4d7e1a7a53
-SHA1: b151020745de1b61c3eadf3299bbc9b1d0f5b0c7
-SHA256: 31637bb4b619f286680359b592705f3e11deee1535922a22b1128b2839c1610e
+Size: 64340
+MD5sum: 13240d71205186e6d9175ebb091507f0
+SHA1: 1f66af320f0842c7da56796b2b6f28241de00292
+SHA256: b5147f47360bb6f315797175b9cef475842018833d85e6f0e495fa048cfa5965
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
@@ -97,7 +97,7 @@ Description: 键盘美化插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: wkk
 Name: KeyboardX键盘调整-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.keyboardx_1.0-6.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.keyboardx_1.0-6.json
 
 Package: gaode-Rootless
 Version: 1.0.4
