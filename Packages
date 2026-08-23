@@ -774,29 +774,27 @@ Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
 Package: lym.com.HBWechatHelper.ailun
-Version: 2.1.4
+Version: 2.1.5
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 11859160
-MD5sum: d9b882143454f51738e228304b8856fc
-SHA1: 2b9b0021650fc6fe0277d24726ed4ee446d20d22
-SHA256: e4a8fcfdb7a930f3305d3b719245ac1f53f1c77a3f76e019f774114152b35735
+Size: 6881168
+MD5sum: 228f2ffc1776bc368871b2c41d9c5103
+SHA1: 88299860c1a8748743b05b999d875c0ba4d8857f
+SHA256: 91e7ac8ca3ccc461cb433884e5ff4cf14ea131cdfea8a13e421b2542df8ec45f
 Section: 微信插件
-Description: 微信插件文本转语音(付费功能）
+Description: 一个微信插件文本转语音（付费功能）
  - 点歌朋友圈一键点赞等诸多功能
  - 发送网络语录舔狗日记骂人等文案
- - 4K原图手绘壁纸等
- - 抢私聊红包
- - 自定义信息尾巴
- - 自定义拍一拍、百变小尾巴、实时尾巴时间等功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 抢私聊红包自定义信息尾巴自定义拍一拍
+ - 百变小尾巴、实时尾巴时间等功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.HBWechatHelper.ailun_2.1.5.json
 
 Package: lym.com.anthopak.quickprefs-rootless
 Version: 1.3.3
