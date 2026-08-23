@@ -76,6 +76,29 @@ Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
+Package: com.wkk.keyboardx
+Version: 1.0-6
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wkk.keyboardx
+Replaces: com.wkk.keyboardx
+Filename: ./debs/KeyboardX键盘调整-Rootless.deb
+Size: 64452
+MD5sum: 519fbc225350958b0597912c5f8ba506
+SHA1: cfdc5327edd89df2c9378349eb0df89ea5e42892
+SHA256: eed2092dbcaea2c0eb5fa1bed8e096c7f5f49310eaa0b2d7a9cd54e610f35976
+Section: 键盘插件
+Description: 键盘美化插件
+ - 支持自带键盘-微信输入法调整
+ - 搜狗,百度,讯飞,豆包输入法候选词颜色渐变
+ - 调整背景色和圆角等相关功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: KeyboardX键盘调整-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.keyboardx_1.0-6.json
+
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -3164,29 +3187,6 @@ Description: 禁用解锁时主屏幕图标飞入
 Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.cscathook.json
-
-Package: lym.com.wkk.keyboardx
-Version: 1.0-6
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 516
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx
-Replaces: com.wkk.keyboardx
-Filename: ./debs/KeyboardX键盘调整-Rootless.deb
-Size: 64608
-MD5sum: c1bbf82d0a702e59ea91ffb2f8e5333e
-SHA1: 2fabcb8dd596a3862d609b8f063b47d93ff5654c
-SHA256: 737d65206741307f008d25b656c3c6d4f7546a3c0da1e0d13674516918b3a4ad
-Section: 键盘插件
-Description: 键盘美化插件
- - 支持自带键盘-微信输入法调整
- - 搜狗,百度,讯飞,豆包输入法候选词颜色渐变
- - 调整背景色和圆角等相关功能
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: KeyboardX键盘调整-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.keyboardx_1.0-6.json
 
 Package: lym.com.wkk.magicsms
 Version: 0.0.1-9
