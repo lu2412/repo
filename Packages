@@ -54,6 +54,46 @@ Icon: https://axs66.github.io/pro/icon/stheno.png
 Name: Stheno
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
+Package: com.dao.pulloverx
+Version: 2.2.2
+Architecture: iphoneos-arm64
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
+Filename: ./debs/PullOverX分屏-Rootless.deb
+Size: 176524
+MD5sum: 265fbe8b4ccd480e30396ba444a455fb
+SHA1: 7d6ac6faacd90b9f5837d4f2d49f6b12caaf825d
+SHA256: b49669ae4087cd4f0b0ef4f7c3392612dd67501cdf112b32207f8e2d9df140c8
+Section: 分屏插件
+Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: mlgm
+Name: PullOverX分屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.2.json
+
+Package: com.dao.pulloverx.roothide
+Version: 2.2.2
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 796
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
+Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
+Filename: ./debs/PullOverX分屏-RootHide.deb
+Size: 176488
+MD5sum: 8aaaad943633128eb20a595a53582d99
+SHA1: 5a03fd854de1f2ad2633cc1d37bd70252d02d224
+SHA256: 73f1cf99a8fc060055e1305e96e9cec166e0021fc59ce923da44be09dee884b0
+Section: 分屏插件
+Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: mlgm
+Name: PullOverX分屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.2.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
