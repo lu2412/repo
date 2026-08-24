@@ -36,7 +36,7 @@ Name: Stheno
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
 Package: com.dao.pulloverx
-Version: 2.2.4
+Version: 2.2.8
 Architecture: iphoneos-arm64
 Maintainer: daodao
 Installed-Size: 812
@@ -44,36 +44,36 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-Rootless.deb
-Size: 180932
-MD5sum: fde6cd12b85ed67618d46466d4350a6e
-SHA1: f923d3b289c87b0dfa4834ed1087329106726090
-SHA256: ecd9f7d53a964110f4ee87bc7cc179c3f8f336daf6ce4eb61e1b29d12f14a453
+Size: 180772
+MD5sum: 59bcd0ac8f0a607d14d88d19b38849f1
+SHA1: 24e4a18fe3dcb5d1aa2c20d504099832fd3c6d0d
+SHA256: e189aeaebcf343f595e0c07cacf10412f2b95ed735dd323290410cdca1e81455
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.8.json
 
 Package: com.dao.pulloverx.roothide
-Version: 2.2.4
+Version: 2.2.8
 Architecture: iphoneos-arm64e
 Maintainer: daodao
-Installed-Size: 812
+Installed-Size: 796
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-RootHide.deb
-Size: 179608
-MD5sum: 50e3049f5fded9dfd7a93ef01ce9d618
-SHA1: 541d373deb0fc5368a3d57dfe9c79d9e8f098581
-SHA256: a18b6d1b9e297345e55e104fe98dd456fed883c3f078a6a631697bf448579b8c
+Size: 178108
+MD5sum: fcabae39a23bc68c69d78f2160638750
+SHA1: 830f1f0669bbac30be5b52c4291b4dd79e581340
+SHA256: 1f6a81de9b2a7be3f0e660e0215a7fe80baf854dad05a19b6d82802a16629182
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.8.json
 
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
@@ -1801,46 +1801,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.4.1
+Version: 2.4.6
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 6588
+Installed-Size: 6652
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2856324
-MD5sum: 2b018786ce898e1175474b45a8f5ad6f
-SHA1: 3d8863d0f293fa64832938080b795f65cdd6864c
-SHA256: e266ce5de300f5000ad78da7309d9abf06b85c0a000049c25cf521a33b48d099
+Size: 2879656
+MD5sum: 9ab4170e3f81dba5f0bbc75709718622
+SHA1: 488886db2d1ff28fc12ce5284a6c5b35496e0275
+SHA256: 8ddfbf97630b3c79f952daa9ae2d16c180ebf9470f317345a8be7589f3c8b018
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.4.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.4.6.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.4.1
+Version: 2.4.6
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 6572
+Installed-Size: 6652
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2858268
-MD5sum: c773c4f82775f955636c6241a53bc9c8
-SHA1: 18918b1a022564a93028f3b2b183af409746161a
-SHA256: 6158dcfb13d1b563681605a81df1f5eb795ad4b2a8b2364ee01c92ea7e180345
+Size: 2878636
+MD5sum: 629c213497f85bcb7d8f1dfdcf933644
+SHA1: 0d7a9c2f1c4f8a7e5e08d887b40e44e4bcfbd5ca
+SHA256: c7b073ff32a63114c4b39549043b464e851dd5f7385a4970615d215e1fc19553
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.4.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.4.6.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8
