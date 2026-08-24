@@ -2754,12 +2754,12 @@ Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
 Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Filename: ./debs/Snapper 3文字图标.deb
-Size: 25216
-MD5sum: 97c1c66df32646b8bf963038ba5afee7
-SHA1: 0ce2a9b12d7cf08f11fe513dfb651e20706ae7ff
-SHA256: 3f540a3ca0740568cda5ac0f5eb651599878b4e7562ac386ce1251cf703a7036
-Section: 系统美化
+Filename: ./debs/Snapper 3文字图标-Rootless.deb
+Size: 25224
+MD5sum: 077ab8f851c5ceec639795d61fc7c93c
+SHA1: 040cd6b185ad9c05c5fcfde50f43ba61190ac4fd
+SHA256: b815e1c2df195de1d448bbd2c3df127cea8c4a5f0c6c7d0a347df0bf2b0b5e7f
+Section: 美化插件
 Description: Snapper 3自用文字美化图标
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
@@ -3124,19 +3124,19 @@ Installed-Size: 492
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wkk.showmytouches
 Replaces: com.wkk.showmytouches
-Filename: ./debs/ShowMyTouches-Rootless.deb
-Size: 82888
-MD5sum: 8491723a4b9a3a06ec7aac147038b8eb
-SHA1: c12f6c209ab30e6f1148609ec584b70fa56ff36b
-SHA256: 5a5871ad3aaeded78dcea441eeeb6872587a1220f7851977ac053bb99f1f9435
-Section: .美化插件
+Filename: ./debs/ShowMyTouches轨迹-Rootless.deb
+Size: 82892
+MD5sum: 09b8e740291957d0040f83a4a0111204
+SHA1: defac5b937ad2cb7656693ca9dc46d1f308a0e0a
+SHA256: 41bdfde98db9923fbd6ac3fec9e62411da122c96574ffadeb2f99dbb1693b834
+Section: 美化插件
 Description: 触摸轨迹
  - 基于开源代码的基础上
  - 增加滑动轨迹效果
  - 新增发光效果
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: dvntm & SINI
-Name: ShowMyTouches-Rootless
+Name: ShowMyTouches轨迹-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.showmytouches_1.2.1.json
 
 Package: lym.com.wkk.showmytouches.roothide
@@ -3147,19 +3147,19 @@ Installed-Size: 492
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.wkk.showmytouches
 Replaces: com.wkk.showmytouches
-Filename: ./debs/ShowMyTouches-RootHide.deb
-Size: 84884
-MD5sum: 6697f28cdf3699fe0f9fd79f9c6b5542
-SHA1: c897b4ccb91105e8963754852e3d6223ad41cc54
-SHA256: 14be5eb9f1d2ca2f9fcc5879b116a735892fecd4d47c0c50e45c29c67e30bd92
-Section: .美化插件
+Filename: ./debs/ShowMyTouches轨迹-RootHide.deb
+Size: 84856
+MD5sum: f91c89733f742011121e0af201d33a58
+SHA1: de5f1ceab39bd219f5cf31e63cac1e3efdcebbca
+SHA256: a9542029983dd5661aeeefdf5f431f628ea8ef83c1036ca013a24d98182f7566
+Section: 美化插件
 Description: 触摸轨迹
  - 基于开源代码的基础上
  - 增加滑动轨迹效果
  - 新增发光效果
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: dvntm & SINI
-Name: ShowMyTouches-RootHide
+Name: ShowMyTouches轨迹-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.showmytouches.roothide_1.2.1.json
 
 Package: lym.com.wkk.sthenohei
@@ -3851,27 +3851,6 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
-
-Package: lym1.com.nightwind.onesettings
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 1084
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle, com.nightwind.onesettings
-Replaces: com.nightwind.onesettings,byg.iosios.net.onesettings,lym.com.nightwind.onesettings
-Filename: ./debs/OneSettings图标美化-Rootless.deb
-Size: 5892
-MD5sum: 7ce6396888de11f139323a43436466b5
-SHA1: 1ea7360bbb2a957e6243b64be4835720915dcc22
-SHA256: ca708a0f65ed82221b2d0a1e6865323d0101022ad7daafca21e53ad2665a61b7
-Section: 系统美化
-Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: OneSettings图标美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.nightwind.onesettings.json
 
 Package: tikTok-Rootless
 Version: 1.0
