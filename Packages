@@ -97,6 +97,48 @@ Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
+Package: com.wkk.atria
+Version: 1.4.1-6
+Architecture: iphoneos-arm64
+Maintainer: ren7995 & SINI
+Installed-Size: 1104
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.wkk.atria
+Replaces: com.wkk.atria
+Filename: ./debs/Atria桌面布局-Rootless.deb
+Size: 376328
+MD5sum: a633cae241480169e110e9b7248bc3f0
+SHA1: e0eda8834878edbd7dace63499e0042e4aa86416
+SHA256: e0a183bc23a6ef0c382924c1b66e5f7194aaa4d148320b2c5aeb8c2e571478ad
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
+ - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 & SINI
+Name: Atria桌面布局-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.atria_1.4.1-6.json
+
+Package: com.wkk.atria.roothide
+Version: 1.4.1-6
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 & SINI
+Installed-Size: 1072
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.wkk.atria
+Replaces: com.wkk.atria
+Filename: ./debs/Atria桌面布局-RootHide.deb
+Size: 375116
+MD5sum: e5643daff6199a0d181642bcb7ca0a7f
+SHA1: e02ff3159b7b02fa62ccf291672df5ff1053af6f
+SHA256: 58752f148bfd64f531687dd709bba9de4131abe89bfb758170af90cc8f4a439a
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
+ - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 & SINI
+Name: Atria桌面布局-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.atria.roothide_1.4.1-6.json
+
 Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -222,26 +264,6 @@ Author: lym
 Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
-
-Package: lym.Sye
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Depends: com.spark.snowboard, com.spark.snowboard.ui
-Conflicts: Sye
-Replaces: zhuti.iosios.net.solsticerootless,lym.eclectic.themes
-Filename: ./debs/马里奥-开关标签美化-Rootless.deb
-Size: 43060
-MD5sum: b69a89205ac9b320b38775d715061fe9
-SHA1: acf71ea645abc4adc7bef34ad8d9edf263090526
-SHA256: a2cc67a7fbc84fb6a60113a4c247f1e5e07cc20025647940948994ca1c7bffd3
-Section: 系统美化
-Description: 系统开关按钮美化
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: 马里奥-开关标签美化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.Sye.json
 
 Package: lym.TrollStore.arm64
 Version: 1.0
@@ -715,27 +737,6 @@ Description: 备份或恢复主屏幕图标布局
 Author: Lessica <82flex@gmail.com>
 Name: Icon Restore 图标时光机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.iconrestore.json
-
-Package: lym.com.82flex.removewidgetbg
-Version: 1.7
-Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 384
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.altlist
-Replaces: com.82flex.removewidgetbg
-Filename: ./debs/Remove Widget Background透明小组件-Rootless.deb
-Size: 29932
-MD5sum: 2efefdd37e962942c3afd95f7ac9b334
-SHA1: 309b0cf38c6d45ea2e3d56d3b5d98b36ea97e8ee
-SHA256: 00a1cc11e6fa8634c4ebd7bd22020c7113a98541a2e4b9e01c094a91310ac311
-Section: 系统美化
-Description: 移除小组件背景
- - 移除小组件桌面名称
- - 支持桌面小组件，支持负一屏小组件
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Remove Widget Background透明小组件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.82flex.removewidgetbg.json
 
 Package: lym.com.82flex.singlemutes
 Version: 1.4
@@ -1471,25 +1472,6 @@ Author: 航
 Name: 乌贼手势iOS17补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hang.squidgesturepro-ios17fix.roothide_1.2.json
 
-Package: lym.com.hk.atria.cn.rl
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: 妖刀
-Replaces: com.hk.atria.cn.rl
-Filename: ./debs/Atria 简体中文包-Rootless.deb
-Size: 8840
-MD5sum: 85821f55f3abd12bb5e533a40a72ccab
-SHA1: 8bf0bd46456155792d27c518a2037be83f22c0eb
-SHA256: 62e57be6214dcfaffd839c46eaa1efb9647a61c5b58ceca5d75c5735ef8be245
-Section: 插件汉化
-Description:
- - Atria 简体中文包
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 妖刀
-Name: Atria 简体中文包-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.atria.cn.rl.json
-
 Package: lym.com.hk.choicy.cn.rl
 Version: 1.4.6
 Architecture: iphoneos-arm64
@@ -1909,11 +1891,11 @@ Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Conflicts: com.iosdump.zone
 Replaces: com.iosdump.zone
 Filename: ./debs/Zone视频壁纸-Rootless.deb
-Size: 211160
-MD5sum: 49c4bee61ad070fbeb18d8ce03f03479
-SHA1: 981d101511cef44267fa06b7cc0d7d1395bf45fe
-SHA256: 33e1fc600a93156e21c205b8e483f039bc18a12e42128b22cbe3af62da39a0d4
-Section: 系统美化
+Size: 210856
+MD5sum: d237a9bd03db3fbfbfb1cbb0b759f1fc
+SHA1: 6c17802902ad84c0c21dbe2e8ad21857228da6d2
+SHA256: cf5796d990cdfa0246f90d07e5a1db25991739f43d4eae9b48e3e06718f1a980
+Section: 美化插件
 Description: Zone插件用于设置
  - tendies交互壁纸/视频壁纸支持iOS14-17
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -1930,11 +1912,11 @@ Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
 Conflicts: com.iosdump.zone
 Replaces: com.iosdump.zone
 Filename: ./debs/Zone视频壁纸-RootHide.deb
-Size: 209184
-MD5sum: 199336f203b57581a0a678e9e02c637f
-SHA1: 07f9ba1468b872a6aa97f870cdf4694934878e8c
-SHA256: 5c7d458693b27ff78b6b02c0f9f74e3f857668675940553c9c6345c46824f528
-Section: 系统美化
+Size: 209252
+MD5sum: 7c7b77e26ab6b701e6e12f4b5b1bb112
+SHA1: 0ccd3eaa0be06a32327165ce505c2d3af77eba43
+SHA256: a107642640fbe847ea9c28d36b0d89edb316d0bb33cfeb57b2fe1ab03290afb1
+Section: 美化插件
 Description: Zone插件用于设置
  - tendies交互壁纸/视频壁纸支持iOS14-17
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -2071,26 +2053,6 @@ Description: 短视频下载助手
 Author: lenglengyu
 Name: 短视频下载助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lenglengyu.shortvideodl-rootless.json
-
-Package: lym.com.liuf.ceshi
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Installed-Size: 168
-Depends: mobilesubstrate
-Replaces: com.liuf.ceshi
-Filename: ./debs/Sileo头像转圈圈-Rootless.deb
-Size: 4276
-MD5sum: 66c6d3ef93410f81f33efb01f121bb2b
-SHA1: 8e29d316622f507b3b15ded556ff29c1f84e16f8
-SHA256: d5ec5a1be7f68dfd292b79b9b82defc6ec79de5cadea647d1be948e80163d163
-Section: 系统美化
-Description: Sileo头像转圈圈
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Sileo头像转圈圈-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.liuf.ceshi.json
 
 Package: lym.com.lns.pogr
 Version: 0.5.5~prerelease3
@@ -2744,29 +2706,6 @@ Author: shiftcmdk
 Name: Safari标签图标自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.shiftcmdk.bookmarkicons.json
 
-Package: lym.com.showmytouches
-Version: 1.2.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm & SINI
-Installed-Size: 492
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.showmytouches
-Replaces: com.showmytouches
-Filename: ./debs/ShowMyTouches触摸轨迹-Rootless.deb
-Size: 82972
-MD5sum: bc52d282130705df450fd5d81ce5e846
-SHA1: f1310877b2f0edd7dc0510161529d5c955e5abeb
-SHA256: cf761dd4b7e1ec29172b47a6af183531f17c39b2514cd4a0eab7cfe98c8023c6
-Section: 系统增强
-Description: 触摸轨迹
- - 基于开源代码的基础
- - 增加滑动轨迹效果
- - 新增发光效果
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: dvntm & SINI
-Name: ShowMyTouches触摸轨迹-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.showmytouches.json
-
 Package: lym.com.shtm.neowave16
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -2828,26 +2767,6 @@ Author: lym
 Name: Snapper 3文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.textforsnapper3.json
 
-Package: lym.com.sini.xxforsnapper3
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: Sini921
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini921.zhforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym.com.sini.textforsnapper3,lym1.com.sini.textforsnapper3
-Filename: ./debs/Snapper 3繁体文字图标.deb
-Size: 60752
-MD5sum: ed5f3c15d9fab0799c154dd9590a5f60
-SHA1: e9c6a47ee07fa382c64dedb03910304129699b15
-SHA256: 50a9ab8a10bca843adce8d78224564a7d53f44465409fe2bda03d5688329c0ac
-Section: 系统美化
-Description: Snapper 3繁体文字美化图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Sini921
-Name: Snapper 3繁体文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.xxforsnapper3.json
-
 Package: lym.com.sini921.fakesignalbar
 Version: 0.1-5
 Architecture: iphoneos-arm64
@@ -2868,69 +2787,6 @@ Description: 自定义运营商名称、信号强度、蜂窝连接等等
 Author: alias20 & SINI
 Name: FakeSignalBar-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.fakesignalbar.json
-
-Package: lym.com.sini921.zhforsnapper3
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: sini921
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.sini921.zhforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym1.com.sini.textforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3, com.sini.bigshot, byg.iosios.net.bigshotsnapper3plugin, com.dao.bigshotsnapper3plugin, com.sini.snapper3, byg.iosios.net.snapper3, com.sini921.zhforsnapper3
-Filename: ./debs/Snapper 3对角文字图标.deb
-Size: 26444
-MD5sum: 0aa46d7f9b15e42ed74b1831eb96f27b
-SHA1: 90dc3c6c234171251a88dde877a9a909cc8b289f
-SHA256: 57970635914a51f64bf8b12c27d3f65aec80a6f4ce7b9f8d49c4d166f2f613dc
-Section: 系统美化
-Description: Snapper 3自用文字美化图标
- - 插件无设置项安装即可生效
- - 安装前请卸载其它相关图标插件
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 网友
-Name: Snapper 3对角文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini921.zhforsnapper3.json
-
-Package: lym.com.spark.snowboard
-Version: 1.5.37-Beta4-rootless
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 3268
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.spark.snowboard
-Replaces: com.spark.snowboard
-Filename: ./debs/SnowBoard-Rootless.deb
-Size: 1124448
-MD5sum: 5153039fa81f3edb60598425a96dd110
-SHA1: 0e99e388f0e2ee8d941e39ed8108d1b5a33de52e
-SHA256: b3082fa67dd9cdf761ec83b0fd0d80a8d644003762d98844dc13159f4919016e
-Section: 系统美化
-Description: 插件介绍
- - 滑雪板主题引擎
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Spark & Dennis D. Bednarz
-Name: SnowBoard-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.spark.snowboard.json
-
-Package: lym.com.spark.snowboard.ui
-Version: 1.3.0~Beta2-rootless
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 476
-Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
-Conflicts: com.spark.snowboard.ui
-Replaces: com.spark.snowboard.ui
-Filename: ./debs/SnowBoard UI扩展-Rootless.deb
-Size: 66004
-MD5sum: 8bbfc008bac72b159c4a6e353ddaf755
-SHA1: 3005e268527cb630cb76b76710052dd90b8e822b
-SHA256: 814a310a1244dfa425addd2b087123560010c981609df19f3a37f816307ac11d
-Section: 系统美化
-Description: 插件介绍
- - 滑雪板UI扩展
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Spark
-Name: SnowBoard UI扩展-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.spark.snowboard.ui.json
 
 Package: lym.com.squidforce.doubletapflipcamera
 Version: 1.1
@@ -3259,6 +3115,52 @@ Description: 修改短信文字内容
 Author: rain
 Name: 修改短信文字内容-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.magicsms.json
+
+Package: lym.com.wkk.showmytouches
+Version: 1.2.1
+Architecture: iphoneos-arm64
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.showmytouches
+Replaces: com.wkk.showmytouches
+Filename: ./debs/ShowMyTouches-Rootless.deb
+Size: 82888
+MD5sum: 8491723a4b9a3a06ec7aac147038b8eb
+SHA1: c12f6c209ab30e6f1148609ec584b70fa56ff36b
+SHA256: 5a5871ad3aaeded78dcea441eeeb6872587a1220f7851977ac053bb99f1f9435
+Section: .美化插件
+Description: 触摸轨迹
+ - 基于开源代码的基础上
+ - 增加滑动轨迹效果
+ - 新增发光效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: dvntm & SINI
+Name: ShowMyTouches-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.showmytouches_1.2.1.json
+
+Package: lym.com.wkk.showmytouches.roothide
+Version: 1.2.1
+Architecture: iphoneos-arm64e
+Maintainer: dvntm & SINI
+Installed-Size: 492
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.showmytouches
+Replaces: com.wkk.showmytouches
+Filename: ./debs/ShowMyTouches-RootHide.deb
+Size: 84884
+MD5sum: 6697f28cdf3699fe0f9fd79f9c6b5542
+SHA1: c897b4ccb91105e8963754852e3d6223ad41cc54
+SHA256: 14be5eb9f1d2ca2f9fcc5879b116a735892fecd4d47c0c50e45c29c67e30bd92
+Section: .美化插件
+Description: 触摸轨迹
+ - 基于开源代码的基础上
+ - 增加滑动轨迹效果
+ - 新增发光效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: dvntm & SINI
+Name: ShowMyTouches-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.showmytouches.roothide_1.2.1.json
 
 Package: lym.com.wkk.sthenohei
 Version: 1.0-1
@@ -3667,30 +3569,6 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
-Package: lym.me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria桌面布局-Rootless.deb
-Size: 236976
-MD5sum: d5681cec63ad312887e0577da42557fc
-SHA1: 9716348b99dcb567cfb2f76ef5bccdfb347d922a
-SHA256: 821500ef725b0b64dce5f42e4410454a72352e00f874dbcc5d259781b077e2d8
-Section: 系统美化
-Description: 桌面布局美化
- - 自定义桌面图标大小
- - 自定义图标排列数量
- - 自定义小组件大小
- - 编辑布局:通过长按主屏幕图标或桌面壁纸空白处轻点三下
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.me.lau.atria.json
-
 Package: lym.net.camera
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -3994,25 +3872,6 @@ Description: 美化OneSettings插件中的越狱插件分类为Sileo图标
 Author: lym
 Name: OneSettings图标美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.nightwind.onesettings.json
-
-Package: lym1.com.sini.textforsnapper3
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3,lym1.com.sini.textforsnapper3,lym.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Filename: ./debs/Snapper 3蓝色发光文字图标.deb
-Size: 91920
-MD5sum: 524412b3e9add4b629af2a565dd5585a
-SHA1: f6d66ec0ec8430cd5af9e937d0bcae2f9a77f5a3
-SHA256: 9a2a57cf51f6e803bbb25efc34c77e5a26f3abaa70b42646d6a6e6502001a688
-Section: 系统美化
-Description: Snapper 3自用蓝色发光文字美化图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Snapper 3蓝色发光文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym1.com.sini.textforsnapper3.json
 
 Package: tikTok-Rootless
 Version: 1.0
