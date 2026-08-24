@@ -2998,6 +2998,50 @@ Author: sunshinesong
 Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
+Package: lym.com.susudear.susuocr
+Version: 1.0.22
+Architecture: iphoneos-arm64
+Maintainer: SuSuDear
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.susudear.susuocr
+Replaces: com.susudear.susuocr
+Filename: ./debs/SuSuOCR扩展-Rootless.deb
+Size: 126516
+MD5sum: b02a7f485cef9b01e4c825f58c5f7eaa
+SHA1: 5eaced18acc546ce441ead2f9fbb59a20ae48acb
+SHA256: 89595389d09975110dfa473d4dd5d8133e3fd32788c92b3a7fda5981a42a4802
+Section: 编程脚本
+Description: 百度OCR识别提取文字
+ - 百度翻译和AI截图处理，需要自备 API。
+ - 搭配Snapper 3和SHELLX使用。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSuDear
+Name: SuSuOCR扩展-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susudear.susuocr_1.0.22.json
+
+Package: lym.com.susudear.susuocr.roothide
+Version: 1.0.22
+Architecture: iphoneos-arm64e
+Maintainer: SuSuDear
+Installed-Size: 792
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.susudear.susuocr
+Replaces: com.susudear.susuocr
+Filename: ./debs/SuSuOCR扩展-RootHide.deb
+Size: 126492
+MD5sum: c72054f9533df361639f3be06cc9b932
+SHA1: 15d6db66813d327e047d4902647eb20ee898b470
+SHA256: 104ed9d6f1961d4ac898ec9ba302638ced590dc0e977bf4c0b2e0e0a2e2d11b1
+Section: 编程脚本
+Description: 百度OCR识别提取文字
+ - 百度翻译和AI截图处理，需要自备 API。
+ - 搭配Snapper 3和SHELLX使用。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSuDear
+Name: SuSuOCR扩展-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susudear.susuocr.roothide_1.0.22.json
+
 Package: lym.com.swing.fixlogintiktok
 Version: 0.0.1
 Architecture: iphoneos-arm64
