@@ -36,27 +36,27 @@ Name: Stheno
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
 Package: com.dao.pulloverx
-Version: 2.2.8
+Version: 2.2.3
 Architecture: iphoneos-arm64
 Maintainer: daodao
-Installed-Size: 812
+Installed-Size: 796
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-Rootless.deb
-Size: 180772
-MD5sum: 59bcd0ac8f0a607d14d88d19b38849f1
-SHA1: 24e4a18fe3dcb5d1aa2c20d504099832fd3c6d0d
-SHA256: e189aeaebcf343f595e0c07cacf10412f2b95ed735dd323290410cdca1e81455
+Size: 178160
+MD5sum: d66358964c74f38f183b011a055470ab
+SHA1: da565b5ca88c6843384a659c0fc40ead3b49327a
+SHA256: 04079561199d5208b7e449325399923e0072e1ebd360cb5d9099f408703b2f7b
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.8.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.3.json
 
 Package: com.dao.pulloverx.roothide
-Version: 2.2.8
+Version: 2.2.3
 Architecture: iphoneos-arm64e
 Maintainer: daodao
 Installed-Size: 796
@@ -64,16 +64,16 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-RootHide.deb
-Size: 178108
-MD5sum: fcabae39a23bc68c69d78f2160638750
-SHA1: 830f1f0669bbac30be5b52c4291b4dd79e581340
-SHA256: 1f6a81de9b2a7be3f0e660e0215a7fe80baf854dad05a19b6d82802a16629182
+Size: 176788
+MD5sum: 918ebfedaa3ca2ea3a4260adce769140
+SHA1: de0edf2d446cadfd50d423d0e9eb68d9d16bc9c7
+SHA256: acf8d9bb7cedee18592745f5e4d668a122ba63c444e3bbbac5c89d2f15e395fc
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.8.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.3.json
 
 Package: com.m4fn3.mikkyy
 Version: 1.0.2
@@ -342,11 +342,11 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.dyhook, aweme.x
 Replaces: com.xx.dyhook, aweme.x
 Filename: ./debs/抖音图层-Rootless.deb
-Size: 3616068
-MD5sum: 80bd0943772dcee2bbb29708d8044c7a
-SHA1: 31e7bac98ab3d4ef4fb72f8589d4b1c03a1477bb
-SHA256: 86f8130bc534a841ff8b2f58c961bf75b76d08e12588b82b9bf37a4d06d62e43
-Section: 抖音插件
+Size: 3611660
+MD5sum: 1ed8898dc7ac43cb4e8da15ada15dc9d
+SHA1: b3cd28580fd477fd01fb1bdf271d4ae5c88bad4c
+SHA256: a8a8a00ac660ca5ca98c425dc6b7729a1e42982e13fb271a1072c6bc0fb765b0
+Section: 软件增强
 Description: 去广告、无水印下载视频
  - 隐藏各种按钮文字等
  - 插件启用:双指双击屏幕打开插件设置界面
@@ -929,10 +929,10 @@ Installed-Size: 240
 Conflicts: com.aptzh
 Replaces: com.aptzh
 Filename: ./debs/Sileo APT-DPKG汉化-Rootless.deb
-Size: 24684
-MD5sum: 42fd316ab07b809af7f74835048ddf19
-SHA1: 94398b5a862573971df4202483dbafa8f7f4268e
-SHA256: 48fbba6c109050eb9e65decabf080050ca3366946ee7aeb8d6e8adbd46065b03
+Size: 24616
+MD5sum: d56036ef760844876359c81d93ed70f0
+SHA1: 8cb567fd714c307fdea7168901b5a5a64b7f4965
+SHA256: a419d144306f088c60c84064310091ae6202c42202ea352cd0081de84a0e20af
 Section: 编程脚本
 Description: Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
  - 插件无设置项安装即可生效
@@ -1200,29 +1200,6 @@ Description: 解除隔空投送十分钟限制
 Author: RrrankkK
 Name: 解除隔空投送十分钟限制-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.crctdd.surgectl.json
-
-Package: lym.com.cydiageek.byeseparatorscell
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 448
-Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
-Conflicts: com.cydiageek.byeseparatorscell
-Replaces: com.cydiageek.byeseparatorscell
-Filename: ./debs/ByeSeparatorsCell系统空格分隔符-Rootless.deb
-Size: 63740
-MD5sum: 1736b88a1197b9b316dfd03f2eb4055a
-SHA1: 13a7d92d4eb3bf7e04ce96be95f05f4f6b3e97bc
-SHA256: 0f954a7de50d202bbd096370241e5a33427e0c4b69b457b3de3a12b43e4f5ae6
-Section: 系统增强
-Description: 删除系统范围内单元格之间的空格
- - 去处系统分隔符号
- - 搭配PurifyLine效果会更好
- - 插件有设置项自行调整
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: CydiaGeek <lucaluca86@aol.com>
-Name: ByeSeparatorsCell系统空格分隔符-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.cydiageek.byeseparatorscell.json
 
 Package: lym.com.cydiageek.whiteccborders
 Version: 1.0.0
@@ -2189,96 +2166,6 @@ Author: zhaonan
 Name: Rebirth一键安装插件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nan.rebirth.json
 
-Package: lym.com.netskao.awemeclearlikes
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 88
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.netskao.awemeclearlikes
-Replaces: com.netskao.awemeclearlikes
-Filename: ./debs/AwemeClearLikes清除抖音点赞-Rootless.deb
-Size: 20008
-MD5sum: 133bcbc335b7650382621839d31baa53
-SHA1: fb2f79114c17e5d5b03036b96e5e88a81fe0a873
-SHA256: 9c762dd9b99c46391db64455359ce7e04edb233835dfbaa3a07925e7ee03a4db
-Section: 抖音插件
-Description: 抖音自动清除抖音喜欢点赞过的视频
- - 使用方法:抖音-我-喜欢界面-摇晃手机
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeClearLikes清除抖音点赞-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemeclearlikes.json
-
-Package: lym.com.netskao.awemedisablebar
-Version: 1.1-6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 708
-Depends: firmware (>= 12.0), mobilesubstrate
-Replaces: com.netskao.awemedisablebar
-Filename: ./debs/AwemeDisableBar抖音禁用-Rootless.deb
-Size: 304820
-MD5sum: 53ff39f639b4907725940ce79b8ae04f
-SHA1: c758951c313bafa7d489e6ddc3eec2d885175a98
-SHA256: f72f0599590a64742ceb88715f34a70999911d913f598df993890122a93afddd
-Section: 抖音插件
-Description: 抖音禁用菜单按钮
- - 禁用“顶部/底部/右侧”选项/按钮
- - 仅在30.3.0及更高版本上进行测试
- - 插件位于抖音-设置最上方
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeDisableBar抖音禁用-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemedisablebar.json
-
-Package: lym.com.netskao.awemedownloadmedia
-Version: 1.1-8
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 456
-Depends: firmware (>= 15.0), mobilesubstrate
-Replaces: com.netskao.awemedownloadmedia
-Filename: ./debs/AwemeDownloadMedia抖音下载-Rootless.deb
-Size: 147820
-MD5sum: 9b73e6cdcfd1320a6cfedd1dd2a784c8
-SHA1: cb318e71edaa3664029e97b3ab91cd724e8df70f
-SHA256: 269d597bc456d2cbdcb551eaa713d5dd89f192ef9968570efc49bf9654776b02
-Section: 抖音插件
-Description: 抖音增强插件
- - 右下角显示下载按钮\n- 无水印保存图片、视频、LivePhoto
- - 仅在31.7.0及更高版本上进行测试
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
- - 使用提示
- - 评论区「图片/实况」无需点开大图,直接长按图片即可开始下载(不要点开大图)
- - 开启功能后只有在视频/图片右侧中的下载按钮中下载才为无水印
-Author: Netskao
-Name: AwemeDownloadMedia抖音下载-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.awemedownloadmedia.json
-
-Package: lym.com.netskao.awemefullscreen
-Version: 1.3-6
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 448
-Depends: firmware (>= 12.0), mobilesubstrate
-Conflicts: com.netskao.awemefullscreen
-Replaces: com.netskao.awemefullscreen
-Filename: ./debs/AwemeFullScreen抖音全屏-Rootless.deb
-Size: 187024
-MD5sum: a69c399a6c45f22e478fa02aa6837f79
-SHA1: cdff3673858df119e58f35eaa171419907adb728
-SHA256: 2619957621ed7ea55724b548c0089cae9fe1fdee14f8360fd267b176cdd12ea7
-Section: 抖音插件
-Description: 抖音视频全屏显示
- - 对视频放大以达到全屏效果
- - 可能会有视频显示不全介意勿装
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: AwemeFullScreen抖音全屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.awemefullscreen.json
-
 Package: lym.com.netskao.flreadercrack
 Version: 1.1-1
 Architecture: iphoneos-arm64
@@ -2921,27 +2808,50 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 2.3.3
+Version: 3.0.3
 Architecture: iphoneos-arm64
-Maintainer: WeChat
+Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 5578496
-MD5sum: 19d78ed4bdfb855a5367253d6232a776
-SHA1: e2bb758f9b6fb50bd8e84307c4189e3a381d105c
-SHA256: 120949082dc513f82e5e5e11f4e7a070e451b90431a809261453fa250cc77c73
+Size: 9168260
+MD5sum: f12b67a02281a95f970741c0fb1ae62a
+SHA1: 0e9573915a6bdcf189b403e47e164443797a4edc
+SHA256: 76e72e3897fcfec0ecceaf34bf9cad8c9a2dd1cbccd3380722d3723c5178f8d2
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
  - 私聊隐藏头像等支持全量DIY
  - 优先加载diy内容,此版本啥都能diУ
  - 路径:ThemeBox/diy/对应主题/素材
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: WeChat
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
 Name: 微信主题盒子-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.3.json
+
+Package: lym.com.tencent.themebox.roothide
+Version: 3.0.3
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Replaces: com.tencent.themebox
+Filename: ./debs/微信主题盒子-RootHide.deb
+Size: 9177024
+MD5sum: d003f2bbc34b200d1f9b91d0ccdaea8d
+SHA1: d00ede79e702223038cb268f25bc99d04a591b14
+SHA256: 4dcea8bfba05b56321b5e440ba51dfb8aeb6a361abfbac74ec9e6e26a55d4a3e
+Section: 微信插件
+Description: 微信主题插件
+ - 支持悬浮底栏,资料页头像居中
+ - 私聊隐藏头像等支持全量DIY
+ - 优先加载diy内容,此版本啥都能diУ
+ - 路径:ThemeBox/diy/对应主题/素材
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信主题盒子-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.3.json
 
 Package: lym.com.touchWorld.bilibiliTweak
 Version: 3.1.0
@@ -3185,29 +3095,6 @@ Description: 去除百度地图一些无用的悬浮板块
 Author: x✨
 Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
-
-Package: lym.com.xx.dyhooks.old
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 224
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.dyhooks.old
-Replaces: com.xx.dyhooks.old
-Filename: ./debs/抖音图层旧版-Rootless.deb
-Size: 41724
-MD5sum: c397a245f57e9c761157394f43a2cbd1
-SHA1: 7a967397aeb4dc3e32c39b5e67d7911a7f3df0a3
-SHA256: 80fbd25484cad5737ad700abf610fb1c53668b64059a5fff7447fb6498603c63
-Section: 抖音插件
-Description: 抖音图层旧版
- - 只有少量功能
- - 无时间限制
- - 抖音内双指双击开启功能
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: 抖音图层旧版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xx.dyhooks.old.json
 
 Package: lym.com.xx.jrtthook
 Version: 1.0.4

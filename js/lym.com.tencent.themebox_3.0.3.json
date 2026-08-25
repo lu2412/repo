@@ -16,12 +16,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 微信主题插件\n- 支持悬浮底栏,资料页头像居中\n- 私聊隐藏头像等支持全量DIY\n- 优先加载diy内容,此版本啥都能diУ\n- 路径:ThemeBox/diy/对应主题/素材\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/bc.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/bc.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/hezi.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/hezi1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/hezi2.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Custom"
+          "text": "Mao"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.2-1-5+debug"
+          "text": "3.0.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2-1-5+debug\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.0.3\n- 修复低于8.0.60版本闪退问题\n- 修复顶栏图标不变色问题映射问小微图标为xiaowei_filled"}
       ]
     }
   ]

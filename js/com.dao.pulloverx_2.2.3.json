@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月23日"
+          "text": "2026年08月25日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.3\n- 优化汉化内容，全覆盖"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.1\n- 优化调整间距，圆角"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.1\n- 向下兼容至IOS14"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.3\n- 彻底修复汉化翻译"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.4\n- 提升面板切换稳定性\n- 修复面板切换时偶发的注销"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.3\n- 优化汉化内容，全覆盖"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.2\n- 优化调整间距，圆角"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.1\n- 向下兼容至IOS14"}
       ]
     }
   ]
