@@ -36,27 +36,27 @@ Name: Stheno
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
 Package: com.dao.pulloverx
-Version: 2.2.3
+Version: 2.2.9
 Architecture: iphoneos-arm64
 Maintainer: daodao
-Installed-Size: 796
+Installed-Size: 812
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-Rootless.deb
-Size: 178160
-MD5sum: d66358964c74f38f183b011a055470ab
-SHA1: da565b5ca88c6843384a659c0fc40ead3b49327a
-SHA256: 04079561199d5208b7e449325399923e0072e1ebd360cb5d9099f408703b2f7b
+Size: 180316
+MD5sum: 773bf8390cd9f8baf9d2e6c4ebef702c
+SHA1: 080f3195ed64975d99956f609501b2158fc02b12
+SHA256: 41a82882d38f9f6438aa85c8682dc4a639d0f81054b9e8582d6eec86a948954b
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.3.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.9.json
 
 Package: com.dao.pulloverx.roothide
-Version: 2.2.3
+Version: 2.2.9
 Architecture: iphoneos-arm64e
 Maintainer: daodao
 Installed-Size: 796
@@ -64,16 +64,16 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
 Filename: ./debs/PullOverX分屏-RootHide.deb
-Size: 176788
-MD5sum: 918ebfedaa3ca2ea3a4260adce769140
-SHA1: de0edf2d446cadfd50d423d0e9eb68d9d16bc9c7
-SHA256: acf8d9bb7cedee18592745f5e4d668a122ba63c444e3bbbac5c89d2f15e395fc
+Size: 177416
+MD5sum: 0c19e331426b5674ad76b1c166c5bbdf
+SHA1: eaac5d625686e63f3d4b6a3dec374e56dd006f26
+SHA256: 013b08e6a9ac52f959b24154f467c9f87d4318623aa2c9aca75eeb393b43a853
 Section: 分屏插件
 Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: mlgm
 Name: PullOverX分屏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.3.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
 
 Package: com.m4fn3.mikkyy
 Version: 1.0.2
