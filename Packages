@@ -3571,6 +3571,28 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
+Package: lym.me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
+Replaces: me.lau.atria
+Filename: ./debs/Atria原版桌面布局-Rootless.deb
+Size: 239512
+MD5sum: 07881ce596e8da8500f62512aedd6256
+SHA1: 0af1a6feb07ea44852b888735901f6c25a64009f
+SHA256: a03dac2c8b0fdc54ae85af0930aa6060338eaf4d02f46b68dad5fa2fb3f37245
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器
+ - 原作者插件，添加汉化支持
+ - 无移除资源库bug
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria原版桌面布局-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria_1.4.1.json
+
 Package: lym.net.camera
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -3853,28 +3875,6 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
-
-Package: me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria原版桌面布局-Rootless.deb
-Size: 239780
-MD5sum: 5e801f996eb01029f07a579d3605c43f
-SHA1: 77ec9f43b975512ce51df8d1758ad4ea560a3f35
-SHA256: 7965b5c4f003757c17e6a17a19bc5d7e7d451cdd6c07302a37164743d2c8b989
-Section: 美化插件
-Description: 适用于iOS13-16的主屏幕布局编辑器
- - 原作者插件，添加汉化支持
- - 无移除资源库bug
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria原版桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/me.lau.atria_1.4.1.json
 
 Package: tikTok-Rootless
 Version: 1.0
