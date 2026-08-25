@@ -75,6 +75,94 @@ Author: mlgm
 Name: PullOverX分屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.8.json
 
+Package: com.m4fn3.mikkyy
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: m4fn3
+Installed-Size: 1812
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Replaces: com.m4fn3.mikkyy
+Filename: ./debs/Mikkyy 主题插件-Rootless.deb
+Size: 427120
+MD5sum: 371d62e6ad24c111acc6d28147ee94da
+SHA1: f932ed06726220e3f06b08fcb5f03ec20ffb631a
+SHA256: 4abf8b11b79fdd18d10f437064d6e96887e211a012a8fe100adcc3f013441aff
+Section: 美化插件
+Description: iOS越狱主题管理插件
+ - 现代、轻量级的主题引擎，支持iOS16至iOS26
+ - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: m4fn3
+Name: Mikkyy 主题插件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.m4fn3.mikkyy_1.0.2.json
+
+Package: com.m4fn3.mikkyy.roothide
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: m4fn3
+Installed-Size: 1796
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Replaces: com.m4fn3.mikkyy
+Filename: ./debs/Mikkyy 主题插件-RootHide.deb
+Size: 428768
+MD5sum: 6d002df4139996aabd8ee84674b7671b
+SHA1: b77d9ba23a859eec287e147bc7667c2a00c954cc
+SHA256: 50530d3e9b409f40e053baa5d33636768914546b82931d96ee9d7221ffcfeb48
+Section: 美化插件
+Description: iOS越狱主题管理插件
+ - 现代、轻量级的主题引擎，支持iOS16至iOS26
+ - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: m4fn3
+Name: Mikkyy 主题插件-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.m4fn3.mikkyy.roothide_1.0.2.json
+
+Package: com.sini921.atria
+Version: 1.4.1-8
+Architecture: iphoneos-arm64
+Maintainer: ren7995 & SINI
+Installed-Size: 1008
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.sini921.atria
+Replaces: com.sini921.atria
+Filename: ./debs/Atria桌面布局-Rootless.deb
+Size: 215772
+MD5sum: 77c194904b5b3df3cdae7e6037d0c0a1
+SHA1: e28d4c8953d5957fbe25802670a278e287b0eeee
+SHA256: 72aed0516da26a45bfb3b80012c2cd1858b89e7e2a41744dfff8b0f10195c070
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
+ - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+ - 移除资源库有些许bug，可选择用回原作者插件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 & SINI
+Name: Atria桌面布局-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.sini921.atria_1.4.1-8.json
+
+Package: com.sini921.atria.roothide
+Version: 1.4.1-8
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 & SINI
+Installed-Size: 992
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.sini921.atria
+Replaces: com.sini921.atria
+Filename: ./debs/Atria桌面布局-RootHide.deb
+Size: 215016
+MD5sum: 921f7be95876281e22bba1d1f62222b3
+SHA1: 5d0c209a5c0b5d0812d197466c96ab66c4a9c79a
+SHA256: a49b55e93b59de62c079c9308413dab028377065599a96bd458f7c5f466afe9c
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
+ - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
+ - 移除资源库有些许bug，可选择用回原作者插件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 & SINI
+Name: Atria桌面布局-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.sini921.atria.roothide_1.4.1-8.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -96,48 +184,6 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
-
-Package: com.wkk.atria
-Version: 1.4.1-6
-Architecture: iphoneos-arm64
-Maintainer: ren7995 & SINI
-Installed-Size: 1104
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.wkk.atria
-Replaces: com.wkk.atria
-Filename: ./debs/Atria桌面布局-Rootless.deb
-Size: 376328
-MD5sum: a633cae241480169e110e9b7248bc3f0
-SHA1: e0eda8834878edbd7dace63499e0042e4aa86416
-SHA256: e0a183bc23a6ef0c382924c1b66e5f7194aaa4d148320b2c5aeb8c2e571478ad
-Section: 美化插件
-Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
- - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 & SINI
-Name: Atria桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.atria_1.4.1-6.json
-
-Package: com.wkk.atria.roothide
-Version: 1.4.1-6
-Architecture: iphoneos-arm64e
-Maintainer: ren7995 & SINI
-Installed-Size: 1072
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.wkk.atria
-Replaces: com.wkk.atria
-Filename: ./debs/Atria桌面布局-RootHide.deb
-Size: 375116
-MD5sum: e5643daff6199a0d181642bcb7ca0a7f
-SHA1: e02ff3159b7b02fa62ccf291672df5ff1053af6f
-SHA256: 58752f148bfd64f531687dd709bba9de4131abe89bfb758170af90cc8f4a439a
-Section: 美化插件
-Description: 适用于iOS13-16的主屏幕布局编辑器，基于开源修改
- - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 & SINI
-Name: Atria桌面布局-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.atria.roothide_1.4.1-6.json
 
 Package: com.wkk.keyboardx
 Version: 1.0-6
@@ -2075,50 +2121,6 @@ Author: Ruphane
 Name: AirPods PodsGrant增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogr.json
 
-Package: lym.com.m4fn3.mikkyy
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: m4fn3
-Installed-Size: 1812
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.m4fn3.mikkyy
-Replaces: com.m4fn3.mikkyy
-Filename: ./debs/Mikkyy 主题插件-Rootless.deb
-Size: 426892
-MD5sum: ac876d7f6330b01030f1be7862c4ebaa
-SHA1: 39dd4107d92e82a0619209b9eec1fe02eedffde0
-SHA256: f6c5f856ca5eed5be2b251ac7ec89e4ee662dad66bcfe8fe6d487e1798150bf7
-Section: 美化插件
-Description: iOS越狱主题管理插件
- - 现代、轻量级的主题引擎，支持iOS16至iOS26
- - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: m4fn3
-Name: Mikkyy 主题插件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.m4fn3.mikkyy_1.0.2.json
-
-Package: lym.com.m4fn3.mikkyy.roothide
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: m4fn3
-Installed-Size: 1796
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.m4fn3.mikkyy
-Replaces: com.m4fn3.mikkyy
-Filename: ./debs/Mikkyy 主题插件-RootHide.deb
-Size: 429580
-MD5sum: 14936d6833cb0c0be3294a1502991b81
-SHA1: 8753bd82940480c777833d86bb3b1059dfc9efa1
-SHA256: 6ce4cd46805893ffdca0b7838e84206ea4dd5edb5ab83acc939167351f445eaa
-Section: 美化插件
-Description: iOS越狱主题管理插件
- - 现代、轻量级的主题引擎，支持iOS16至iOS26
- - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: m4fn3
-Name: Mikkyy 主题插件-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.m4fn3.mikkyy.roothide_1.0.2.json
-
 Package: lym.com.macxk.kwcrack
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -3851,6 +3853,28 @@ Description: 解锁会员
 Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
+
+Package: me.lau.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
+Replaces: me.lau.atria
+Filename: ./debs/Atria原版桌面布局-Rootless.deb
+Size: 239780
+MD5sum: 5e801f996eb01029f07a579d3605c43f
+SHA1: 77ec9f43b975512ce51df8d1758ad4ea560a3f35
+SHA256: 7965b5c4f003757c17e6a17a19bc5d7e7d451cdd6c07302a37164743d2c8b989
+Section: 美化插件
+Description: 适用于iOS13-16的主屏幕布局编辑器
+ - 原作者插件，添加汉化支持
+ - 无移除资源库bug
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria原版桌面布局-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/me.lau.atria_1.4.1.json
 
 Package: tikTok-Rootless
 Version: 1.0

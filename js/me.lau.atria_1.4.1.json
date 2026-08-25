@@ -16,12 +16,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 适用于iOS13-16的主屏幕布局编辑器，基于开源修改\n- 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 适用于iOS13-16的主屏幕布局编辑器\n- 原作者插件，添加汉化支持\n- 无移除资源库bug。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/at.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/at1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/at2.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/bt.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/bt1.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "ren7995 & SINI"
+          "text": "ren7995 <lau7995ren@gmail.com>"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.4.1-6"
+          "text": "1.4.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月24日"
+          "text": "2026年08月25日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.4.1-6\n- 增加了iPad的默认停靠栏\n- 修复了导致意外长呼吸时间的错误"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.4.1\n- 增加了iPad的默认停靠栏\n- 修复了导致意外长呼吸时间的错误"}
       ]
     }
   ]
