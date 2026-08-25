@@ -311,27 +311,6 @@ Icon:  
 Name: StoreSwitchAccounts账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
 
-Package: lym.TrollStore.arm64
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: liym
-Installed-Size: 114514
-Conflicts: TrollStore.arm64, TrollStore.arm64
-Replaces: TrollStore.arm64, TrollStore.arm64
-Filename: ./debs/巨魔软件大合集-Rootless.deb
-Size: 956
-MD5sum: 198777cddb727ec32af231588074b693
-SHA1: 2bd60ef5b8133c924d7db9bc80c80b2be4aca5a8
-SHA256: 31622a2e0164f033978cc43d47489ca230a3df5c7e4bfbbf9917915ffe01b6ef
-Section: 巨魔软件
-Description: 巨魔常用软件大合集
- - 插件为空包请勿下载
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: liym
-Name: 巨魔软件大合集-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.TrollStore.arm64.json
-
 Package: lym.alias20.calclog
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -552,27 +531,6 @@ Description: 插件介绍
 Author: 来了老弟 X: h_h_x_t
 Name: Snapper 3扩展截图标记-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.biaoji.roothide.json
-
-Package: lym.cn.llld.swipeextenderx
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: cn.llld.swipeextenderx
-Replaces: cn.llld.swipeextenderx
-Filename: ./debs/SwipeExtenderX键盘增强(汉化包)-Rootless.deb
-Size: 10548
-MD5sum: 61619c91e345ca9bef27cc3b842aaa65
-SHA1: a0c5f1075c06b253acc8b31aaf0c8e2714b490d2
-SHA256: 64f7255011b3b41e9c1eae93f3afc59c6beff45c50dc2607cf4656eba9429be3
-Section: 插件汉化
-Description: SwipeExtenderX汉化包
- - SwipeExtenderX的专用插件汉化包
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 来了老弟
-Name: SwipeExtenderX键盘增强(汉化包)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.cn.llld.swipeextenderx.json
 
 Package: lym.com.25mao.KuaiDou
 Version: 0.1-1
@@ -962,6 +920,26 @@ Description: 微信去广告和谐版
 Author: Apple
 Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
+
+Package: lym.com.aptzh
+Version: 1.2-1-5+debug
+Architecture: iphoneos-arm64
+Maintainer: Custom
+Installed-Size: 240
+Conflicts: com.aptzh
+Replaces: com.aptzh
+Filename: ./debs/Sileo APT-DPKG汉化-Rootless.deb
+Size: 24684
+MD5sum: 42fd316ab07b809af7f74835048ddf19
+SHA1: 94398b5a862573971df4202483dbafa8f7f4268e
+SHA256: 48fbba6c109050eb9e65decabf080050ca3366946ee7aeb8d6e8adbd46065b03
+Section: 编程脚本
+Description: Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Custom
+Name: Sileo APT-DPKG汉化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.aptzh_1.2-1-5+debug.json
 
 Package: lym.com.axs.snapper3tag
 Version: 5.2.0-16
@@ -1517,25 +1495,6 @@ Description: 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷�
 Author: 航
 Name: 乌贼手势iOS17补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hang.squidgesturepro-ios17fix.roothide_1.2.json
-
-Package: lym.com.hk.choicy.cn.rl
-Version: 1.4.6
-Architecture: iphoneos-arm64
-Maintainer: 妖刀
-Replaces: com.hk.choicy.cn.rl
-Filename: ./debs/Choicy 简体中文包-Rootless.deb
-Size: 4432
-MD5sum: 5f76264b6de8c921101e65846f539419
-SHA1: 0d53e31a3594c2c7cfd43abad2b5430165423f83
-SHA256: a89a70adb8b21d88d6008efcaf2e257381bbe7b56a7d2eaae547219fa66765b8
-Section: 插件汉化
-Description:
- - Choicy 简体中文包
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 妖刀
-Name: Choicy 简体中文包-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.hk.choicy.cn.rl.json
 
 Package: lym.com.huami.ChoicyConfigPin
 Version: 1.0-2
@@ -2362,27 +2321,6 @@ Description: 让QQ消息通知显示QQ好友头像
 Author: Netskao
 Name: QQNotiAvatar消息头像-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
-
-Package: lym.com.netskao.ringtonesmanager
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Installed-Size: 114514
-Conflicts: com.netskao.ringtonesmanager
-Replaces: com.netskao.ringtonesmanager
-Filename: ./debs/Ring TonesManager铃声管理-Rootless.deb
-Size: 5331064
-MD5sum: fc3a1eece435bd4bc71ec5ec0cd7592b
-SHA1: 52b961fb9a6eca935137f2fce70db8bb952810f1
-SHA256: 78615af7838d067e0d1801556a81f702b467119ca195b262929312dbace59484
-Section: 巨魔软件
-Description: 支持任意音频文件生成并设置iOS铃声
- - 丢弃繁琐的电脑和库乐队设置无30秒时间限制
- - 只是用来方便自己安装,安装后桌面有图标
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: Ring TonesManager铃声管理-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.ringtonesmanager.json
 
 Package: lym.com.netskao.swiftgramcrack
 Version: 1.1-7
