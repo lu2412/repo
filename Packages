@@ -835,16 +835,14 @@ Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 6881168
-MD5sum: 228f2ffc1776bc368871b2c41d9c5103
-SHA1: 88299860c1a8748743b05b999d875c0ba4d8857f
-SHA256: 91e7ac8ca3ccc461cb433884e5ff4cf14ea131cdfea8a13e421b2542df8ec45f
+Size: 6880840
+MD5sum: 3e416b9bb26cc0cae856b12391e0e90e
+SHA1: 4717eec592a9b1f8e7b7b6a489b28d4949645a14
+SHA256: 546d58f18c9cd7defa3344f50c4fc5e662c39f2b113725f2bb8d855f04b564df
 Section: 微信插件
 Description: 一个微信插件文本转语音（付费功能）
- - 点歌朋友圈一键点赞等诸多功能
- - 发送网络语录舔狗日记骂人等文案
- - 抢私聊红包自定义信息尾巴自定义拍一拍
- - 百变小尾巴、实时尾巴时间等功能
+ - 内容
+ - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: HuangBai <QQ:1343309363@qq.com>
 Name: 黄白助手-Rootless
@@ -1012,6 +1010,28 @@ Description: 系统输入法和微信输入法的一些自定义
 Author: baiy
 Name: KeyboardHook键盘美化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.baiy.keyboardhook.roothide_2.1-3+debug.json
+
+Package: lym.com.ban.mydock
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.ban.mydock
+Replaces: com.ban.mydock
+Filename: ./debs/MyDock键盘增强-Rootless.deb
+Size: 5380
+MD5sum: 79103f8ca879cf7643d5ec0f9fff11d1
+SHA1: b3949a96aff8ebbccac1dc5d30ce525be3042e73
+SHA256: 657b5b8d26ef3f7f09ec8f1f2f6811c620c2af81a4264d4c79bd347160d7fb07
+Section: 键盘插件
+Description: 为键盘底部增加
+ - 全选、复制、撤销、关闭键盘等功能
+ - 轻量级小插件，插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: MyDock键盘增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ban.mydock_1.0.0.json
 
 Package: lym.com.be-huge.custom-notification-sound
 Version: 1.0.0
@@ -1576,6 +1596,31 @@ Description: 解锁彩云天气pro权益
 Author: Huayuarc
 Name: 彩云天气pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
+
+Package: lym.com.hx.wn
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hx.wn
+Replaces: com.hx.wn
+Filename: ./debs/去除分隔符-Rootless.deb
+Size: 21208
+MD5sum: cbf798ce331dc283833272eb508af5d7
+SHA1: 77a4bec44ef1a9e171c81173c7500a9313fa2777
+SHA256: e2bd969a7d506b943a5bf9d7128cb3d888cddb154d8b774d76078e64fcafd6a3
+Section: 美化插件
+Description: 去除一些顽固分隔符
+ - 例如系统时钟、备忘录、文件、天气、iCleaner pro
+ - sileo分隔符
+ - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
+ - 以及Telegram等第三方电报去除分割线等
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 去除分隔符-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn_1.0.5.json
 
 Package: lym.com.icraze.easynotifications
 Version: 3.0

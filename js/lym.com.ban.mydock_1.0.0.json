@@ -16,8 +16,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 内容\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+          "markdown": "### 插件介绍\n- 为键盘底部增加\n- 全选、复制、撤销、关闭键盘等功能\n- 轻量级小插件，插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/xjp.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/xjp1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -27,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "HuangBai <QQ:1343309363@qq.com>"
+          "text": "半生年华"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.1.5"
+          "text": "1.0.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1.5\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.0\n- 初始版本"}
       ]
     }
   ]
