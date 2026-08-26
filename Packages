@@ -1615,17 +1615,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 2.6.9
+Version: 2.7.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-Rootless.deb
-Size: 1712716
-MD5sum: 0426c5745dc80cba51b1808259d7bbe5
-SHA1: 68eb2fbf3e13f7c06af010720e08b9059636e67b
-SHA256: 4523bced4e621f586c0fca1f9e7fea03cda37590fc1233a8bef7fb7d84781a6d
+Size: 1717704
+MD5sum: 2cad230f5f5aa39847073cd72680ad5a
+SHA1: 0f248084f1faa95cba3f87e360936428a5692fee
+SHA256: 57942ab1494bc061d27416b6d199a1b18e72aaec479ea308e718040c1b12d191
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1635,20 +1635,20 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: AppData软件增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata_2.7.0.json
 
 Package: lym.com.iosdump.appdata.roothide
-Version: 2.6.9
+Version: 2.7.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-RootHide.deb
-Size: 1716888
-MD5sum: 53e86cddaf8dc9ceca430ef5e5dbf69e
-SHA1: 8de3db23a37668eae647de4776d7f98c4a97cda6
-SHA256: 7ad92bc48396a48b5c65140fd750199dfcf83400cc3ff526c6148da51306041a
+Size: 1720080
+MD5sum: eee03f89fa603d51fc91905b749c0d31
+SHA1: c99404be3377ea79714c60e09d76a525784879a9
+SHA256: deab01bf1f03e3ed31752baeac0b4a3d5e3c4668c7d089db8a6d5d88cc5b0423
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1658,7 +1658,7 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: AppData软件增强-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide_2.7.0.json
 
 Package: lym.com.iosdump.memorycontrol
 Version: 1.3
