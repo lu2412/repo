@@ -3438,31 +3438,6 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
-Package: lym.js
-Version: 1.0.5
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: js
-Replaces: js
-Filename: ./debs/去除分隔符-Rootless.deb
-Size: 21176
-MD5sum: 46ca4dc1617b5831230c20348d4d7113
-SHA1: 8e93081534fe4c45d07a9766ae6c025ac4a210b5
-SHA256: 0047a8e6aa0c77b5ce3182a29509a0d1dc04a8295712ded051bdb35021ef8d49
-Section: 美化插件
-Description: 去除一些顽固分隔符
- - 例如系统时钟、备忘录、文件、天气、iCleaner pro
- - sileo分隔符
- - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
- - 以及Telegram等第三方电报去除分割线等
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 去除分隔符-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.js_1.0.5.json
-
 Package: lym.me.lau.atria
 Version: 1.4.1
 Architecture: iphoneos-arm64
