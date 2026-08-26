@@ -1,0 +1,23 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://abc07968695-a11y.github.io/banner.png",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 加入交流群\n\n群号：1106363887\n\n点击下方按钮即可加入："
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "点击加入QQ群",
+          "action": "https://qun.qq.com/universal-share/share?ac=1&authKey=RWh38kfN8upwmJgGaqSH7Ip7XmiuN6rUj8l76mCEOM2NweKEMleo6lqM1TL%2BiCw8&busi_data=eyJncm91cENvZGUiOiIxMTA2MzYzODg3IiwidG9rZW4iOiJpbkRVek5RLytNQWNTYk9tZm1GTjJrZWlJUitnY3VnZ0dWNTZtdldyb0FVdTZjam9MRiszYWZTQ2lxMzBSTFhRIiwidWluIjoiMTcyOTQyODA1In0%3D&data=a0OqOqZA4od4VhQfVjP47-jMAJfukq7fi70KTUgXES5CLkD0jfzJ1QzfsDoAGl-ZHa5HSLpN5cvFNadums4NDg&svctype=4&tempid=h5_group_info",
+          "openExternal": true
+        }
+      ]
+    }
+  ]
+}

@@ -253,6 +253,22 @@ Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/gaode-Rootless.json
 
+Package: js
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/js_1.0.5_iphoneos-arm64.deb
+Size: 20988
+MD5sum: bbf885eaaa76da1c9c3bfcd1b3f03a5a
+SHA1: 542f183de89996313e847541b1490aec424b9cc1
+SHA256: 3a920766f541db470045ffe6e664ac852c381bf18c6e0d047f3598afc87983e6
+Section: Tweaks
+Description: 把日历、备忘录、天气、提醒事项、时钟、短信、电话、文件、相册、Sileo能看到的横线去除。电话、文件、相册精简了页面。把全局分享的横线去除，如果有更好的想法，qq172942805
+Author: 半生年华
+Name: AllInOneNoLines
+
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
