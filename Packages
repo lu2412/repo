@@ -2944,6 +2944,48 @@ Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.cscathook.json
 
+Package: lym.com.wkk.fuckicon
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.fuckicon
+Replaces: com.wkk.fuckicon
+Filename: ./debs/隐藏app标签名称-Rootless.deb
+Size: 3392
+MD5sum: 7d716b2371e498c5bd60c06ab36c4b32
+SHA1: bcbb73452eeb7366a1235e055f2269adf13b308c
+SHA256: ab42c3b15f476ec2adb0a78f160f08671a37f05960c84db2f03b3ecf5eb59aba
+Section: 美化插件
+Description: 隐藏桌面App以及小组件名称
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 隐藏app标签名称-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.fuckicon_1.0-1.json
+
+Package: lym.com.wkk.fuckicon.roothide
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.fuckicon
+Replaces: com.wkk.fuckicon
+Filename: ./debs/隐藏app标签名称-RootHide.deb
+Size: 4344
+MD5sum: c9dfa92086ccc76538411e970679fdc2
+SHA1: c6ea8e2a3441c9d94b0ee230005ed0339610bd84
+SHA256: e411b6bfee20911ac43824760ec20a2813c6a9ff5dcd1e85f83712ea9a4cc443
+Section: 美化插件
+Description: 隐藏桌面App以及小组件名称
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 隐藏app标签名称-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.fuckicon.roothide_1.0-1.json
+
 Package: lym.com.wkk.magicsms
 Version: 0.0.1-9
 Architecture: iphoneos-arm64
