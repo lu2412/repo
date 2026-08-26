@@ -1615,17 +1615,17 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.appdata
-Version: 2.7.0
+Version: 2.7.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-Rootless.deb
-Size: 1717704
-MD5sum: 2cad230f5f5aa39847073cd72680ad5a
-SHA1: 0f248084f1faa95cba3f87e360936428a5692fee
-SHA256: 57942ab1494bc061d27416b6d199a1b18e72aaec479ea308e718040c1b12d191
+Size: 1719196
+MD5sum: 12759c076d6016eb39d1f9c3fe63a3d5
+SHA1: 8416c4bbb36edfd8e5c7365eeb69285015122435
+SHA256: f75c0fbae5cf5b9990f7e61defb661d411eb2b3721260745449d4734aeab2624
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1635,20 +1635,20 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: AppData软件增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata_2.7.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata_2.7.1.json
 
 Package: lym.com.iosdump.appdata.roothide
-Version: 2.7.0
+Version: 2.7.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
 Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
 Replaces: com.iosdump.appdata
 Filename: ./debs/AppData软件增强-RootHide.deb
-Size: 1720080
-MD5sum: eee03f89fa603d51fc91905b749c0d31
-SHA1: c99404be3377ea79714c60e09d76a525784879a9
-SHA256: deab01bf1f03e3ed31752baeac0b4a3d5e3c4668c7d089db8a6d5d88cc5b0423
+Size: 1721944
+MD5sum: fe23acba2a21227f3069af45d05359b1
+SHA1: 2a12a23773c5cd2878015830b26abc3395e1ef1e
+SHA256: 2fa2b1a5f18dd4fd91e09730bb48a2dcc6a92cc46c75d172831dfed9c5235201
 Section: 系统增强
 Description: 降级应用
  - 修改应用名称
@@ -1658,7 +1658,7 @@ Description: 降级应用
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: AppData软件增强-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide_2.7.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide_2.7.1.json
 
 Package: lym.com.iosdump.memorycontrol
 Version: 1.3
@@ -1783,46 +1783,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.4.6
+Version: 2.5.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 6652
+Installed-Size: 6936
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2879656
-MD5sum: 9ab4170e3f81dba5f0bbc75709718622
-SHA1: 488886db2d1ff28fc12ce5284a6c5b35496e0275
-SHA256: 8ddfbf97630b3c79f952daa9ae2d16c180ebf9470f317345a8be7589f3c8b018
+Size: 3090664
+MD5sum: c1e769dddfa30386503b5af7b6811036
+SHA1: d00574f49b39359dee788d10885c05f8a906257f
+SHA256: 3480a07cde2d0eba3943893aba9fa2d7159b1f74d0d06094fa95d0f0ff840093
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.4.6.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.5.1.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.4.6
+Version: 2.5.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 6652
+Installed-Size: 6920
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2878636
-MD5sum: 629c213497f85bcb7d8f1dfdcf933644
-SHA1: 0d7a9c2f1c4f8a7e5e08d887b40e44e4bcfbd5ca
-SHA256: c7b073ff32a63114c4b39549043b464e851dd5f7385a4970615d215e1fc19553
+Size: 3086128
+MD5sum: 025d24b0c893cb368c6d726bc5c98886
+SHA1: 701c66b098743c4be5bc10d3cf94fda476a33be3
+SHA256: 92f5589ddb034b1182dd91fa858e5de113b167702693dbdb2852e8cb9368f816
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.4.6.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.5.1.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8
