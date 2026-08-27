@@ -7,16 +7,16 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Conflicts: cn.zqbb.disupdateapp
 Replaces: cn.zqbb.disupdateapp
 Filename: ./debs/App Store屏蔽更新-Rootless.deb
-Size: 130176
-MD5sum: ab208c6100c5295b4c26f1dec434d14e
-SHA1: d0a1c653e74c639f9c919a972096b3f34ec415ad
-SHA256: 775482a7fc8cd31bc3e495d7ce18de765ee61fafd29708b983478c7e48c36652
+Size: 129924
+MD5sum: 640e4083f03ef96e2c12992c7401554c
+SHA1: 7b66b518156c544d436cefafe3eeab33d84cf642
+SHA256: b662af8f153b6f475fe3c1a0bf9d008b8662ce6748af8d6c0ea8cd892cc9ee1e
 Section: 系统增强
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: zqbb
 Name: App Store屏蔽更新-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/cn.zqbb.disupdateapp_2.0.0-6.json
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
 Package: cn.zqbb.disupdateapp.roothide
 Version: 2.0.0-6
@@ -27,16 +27,16 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
 Conflicts: cn.zqbb.disupdateapp
 Replaces: cn.zqbb.disupdateapp
 Filename: ./debs/App Store屏蔽更新-RootHide.deb
-Size: 129388
-MD5sum: 2ace3299d502538db10b8a6421c6a64c
-SHA1: 0972086dc191e12b090651b6e85752022dc0856a
-SHA256: dbddf72bf1ace425149a4cc60c18f4da3cf0b4b6a090498c4284514e6068aeb8
+Size: 129516
+MD5sum: 1de58058ea094bc667e821ea370419ca
+SHA1: 16a9c73b9364a955bd819ea5fe1836af2b11c84e
+SHA256: 74740b573a73bba87fe878276a9a39c9e5c1adde233d3a887cc558dfbeea74c3
 Section: 系统增强
 Description: 屏蔽App Store更新提示(Block App Store Updates)!
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: zqbb
 Name: App Store屏蔽更新-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/cn.zqbb.disupdateapp.roothide_2.0.0-6.json
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
 Package: com.Axs.accode
 Version: 1.0
