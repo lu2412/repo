@@ -1854,46 +1854,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.5.1
+Version: 2.6.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 6936
+Installed-Size: 7524
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 3090664
-MD5sum: c1e769dddfa30386503b5af7b6811036
-SHA1: d00574f49b39359dee788d10885c05f8a906257f
-SHA256: 3480a07cde2d0eba3943893aba9fa2d7159b1f74d0d06094fa95d0f0ff840093
+Size: 3230216
+MD5sum: b8d7cd1a23ae82642929fa2c62051722
+SHA1: 7ba2173ddc02c5db695917baf1198cb90c460737
+SHA256: 6af84d30623a782a6d96c1b74ffa9027980e0d597650f8eda1e6d3206e0bbcf3
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.5.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.6.1.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.5.1
+Version: 2.6.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 6920
+Installed-Size: 7524
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 3086128
-MD5sum: 025d24b0c893cb368c6d726bc5c98886
-SHA1: 701c66b098743c4be5bc10d3cf94fda476a33be3
-SHA256: 92f5589ddb034b1182dd91fa858e5de113b167702693dbdb2852e8cb9368f816
+Size: 3229256
+MD5sum: 214e289ff2a6ab010654a83d768c1fe6
+SHA1: b147d481800b48e8e2ae63a3d4e3dda68d97de2a
+SHA256: 5616eff1f130ab2ede3c663f940e7ef4a180801f2b632e185a1a3d5bc81319c9
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.5.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.6.1.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8
