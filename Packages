@@ -1123,6 +1123,26 @@ Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
+Package: lym.com.bs.Flashlight.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.bs.Flashlight
+Replaces: com.bs.Flashlight
+Filename: ./debs/长按电源开手电筒-RootHide.deb
+Size: 3392
+MD5sum: 50fa6871f60ededa75249f36819da951
+SHA1: d28daf5b4512ee238bff269be067dd0d614b98e2
+SHA256: 670b620fd0ff0ad8d7e212c2aedd828167d55e458a6ba06c985164af88082563
+Section: 轻量插件
+Description: 长按电源键，打开手电筒，再次长按关闭手电筒
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 长按电源开手电筒-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bs.Flashlight.roothide_1.0.json
+
 Package: lym.com.charlieleung.snapvision
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1623,6 +1643,49 @@ Author: Huayuarc
 Name: 彩云天气pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
 
+Package: lym.com.huhansibuxin.colorfulcloudsnoads
+Version: 1.5.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: huhansibuxin
+Installed-Size: 232
+Depends: mobilesubstrate, ellekit
+Conflicts: com.huhansibuxin.colorfulcloudsnoads
+Replaces: com.huhansibuxin.colorfulcloudsnoads
+Filename: ./debs/彩云天气精简-Rootless.deb
+Size: 18396
+MD5sum: 98cbf12f9c830a399c32ea48d37b8b07
+SHA1: d12b1d605f19959129eead96b377f6926b9d055a
+SHA256: 8f711499a9e268607516454e56bc453f88c1ff4e7ad2a2113d452fced78c4e9e
+Section: 软件增强
+Description:
+ - 去除底栏小助手菜单
+ - 拦截svip频繁弹窗
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huhansibuxin
+Name: 彩云天气精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huhansibuxin.colorfulcloudsnoads_1.5.1-1+debug.json
+
+Package: lym.com.hx.Flashlight
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hx.Flashlight
+Replaces: com.hx.Flashlight
+Filename: ./debs/长按电源开手电筒-Rootless.deb
+Size: 3480
+MD5sum: 65a6b0791ef6989e272e2bf1f5418799
+SHA1: e0ecb866c740f7204f5b0fe5d35db2dab6b1ae86
+SHA256: e57650bd720a75a1295f696eb5fe7578f9aa6c05ae6bcb97588848b9ff8417c4
+Section: 轻量插件
+Description: 长按电源键，打开手电筒，再次长按关闭手电筒
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 长按电源开手电筒-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.Flashlight_1.0.json
+
 Package: lym.com.hx.wn
 Version: 1.0.5
 Architecture: iphoneos-arm64
@@ -1854,46 +1917,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.6.1
+Version: 2.6.4
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 7524
+Installed-Size: 7944
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 3230216
-MD5sum: b8d7cd1a23ae82642929fa2c62051722
-SHA1: 7ba2173ddc02c5db695917baf1198cb90c460737
-SHA256: 6af84d30623a782a6d96c1b74ffa9027980e0d597650f8eda1e6d3206e0bbcf3
+Size: 3341896
+MD5sum: a03570424b5bc1d17d4f36c099be5fcf
+SHA1: 5c8de5c3f9e8e701e228e584758b86b32e40e64a
+SHA256: addd24d9dad98650343b63a07699454db346dd3bea68a2d2b1cf5c913ea8ce34
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.6.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.6.4.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.6.1
+Version: 2.6.4
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 7524
+Installed-Size: 7928
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 3229256
-MD5sum: 214e289ff2a6ab010654a83d768c1fe6
-SHA1: b147d481800b48e8e2ae63a3d4e3dda68d97de2a
-SHA256: 5616eff1f130ab2ede3c663f940e7ef4a180801f2b632e185a1a3d5bc81319c9
+Size: 3343744
+MD5sum: bc398855057972a060378a85c880faf9
+SHA1: efd169c1fed311f9bb4aa63c0a6d955a80e8481c
+SHA256: eb8e1ae0acb10b5ab11fe41bf3df07a38eeca552eb40afb773722e14a0d30e55
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.6.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.6.4.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8
