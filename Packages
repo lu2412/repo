@@ -93,50 +93,6 @@ Author: mlgm
 Name: PullOverX分屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
 
-Package: com.m4fn3.mikkyy
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: m4fn3
-Installed-Size: 1812
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.m4fn3.mikkyy
-Replaces: com.m4fn3.mikkyy
-Filename: ./debs/Mikkyy 主题插件-Rootless.deb
-Size: 427120
-MD5sum: 371d62e6ad24c111acc6d28147ee94da
-SHA1: f932ed06726220e3f06b08fcb5f03ec20ffb631a
-SHA256: 4abf8b11b79fdd18d10f437064d6e96887e211a012a8fe100adcc3f013441aff
-Section: 美化插件
-Description: iOS越狱主题管理插件
- - 现代、轻量级的主题引擎，支持iOS16至iOS26
- - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: m4fn3
-Name: Mikkyy 主题插件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.m4fn3.mikkyy_1.0.2.json
-
-Package: com.m4fn3.mikkyy.roothide
-Version: 1.0.2
-Architecture: iphoneos-arm64e
-Maintainer: m4fn3
-Installed-Size: 1796
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.m4fn3.mikkyy
-Replaces: com.m4fn3.mikkyy
-Filename: ./debs/Mikkyy 主题插件-RootHide.deb
-Size: 428768
-MD5sum: 6d002df4139996aabd8ee84674b7671b
-SHA1: b77d9ba23a859eec287e147bc7667c2a00c954cc
-SHA256: 50530d3e9b409f40e053baa5d33636768914546b82931d96ee9d7221ffcfeb48
-Section: 美化插件
-Description: iOS越狱主题管理插件
- - 现代、轻量级的主题引擎，支持iOS16至iOS26
- - 可将图标主题应用于主屏幕、Dock栏、App切换器、共享菜单、设置界面、文件夹预览，以及实时更新的日历和时钟图标
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: m4fn3
-Name: Mikkyy 主题插件-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.m4fn3.mikkyy.roothide_1.0.2.json
-
 Package: com.sini921.atria
 Version: 1.4.1-8
 Architecture: iphoneos-arm64
@@ -867,6 +823,26 @@ Author: MoreColor
 Name: 灵动岛自定义-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
 
+Package: lym.com.Dynamic.torch.roothide
+Version: 3.3
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 198
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.1)
+Conflicts: com.Dynamic.torch
+Replaces: com.Dynamic.torch
+Filename: ./debs/长按电源开手电筒-RootHide.deb
+Size: 13420
+MD5sum: 342fa8c18d9ae2e145b6c7bb8aa08ace
+SHA1: 87e15909d6d9ea9564a17efd560f14c9fdf87fce
+SHA256: 4b3c78904f6018ef76522ececf6fd359d554680579690a7e15a35fc31d1ed678
+Section: 轻量插件
+Description: 长按电源键，打开手电筒，再次长按关闭手电筒
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 长按电源开手电筒-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Dynamic.torch.roothide_3.3.json
+
 Package: lym.com.HBWechatHelper.ailun
 Version: 2.1.5
 Architecture: iphoneos-arm64
@@ -1102,26 +1078,6 @@ Description: 注销免解锁
 Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
-
-Package: lym.com.bs.Flashlight.roothide
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.bs.Flashlight
-Replaces: com.bs.Flashlight
-Filename: ./debs/长按电源开手电筒-RootHide.deb
-Size: 3392
-MD5sum: 50fa6871f60ededa75249f36819da951
-SHA1: d28daf5b4512ee238bff269be067dd0d614b98e2
-SHA256: 670b620fd0ff0ad8d7e212c2aedd828167d55e458a6ba06c985164af88082563
-Section: 轻量插件
-Description: 长按电源键，打开手电筒，再次长按关闭手电筒
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 长按电源开手电筒-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.bs.Flashlight.roothide_1.0.json
 
 Package: lym.com.charlieleung.snapvision
 Version: 0.0.1
@@ -2730,6 +2686,28 @@ Author: alias20 & SINI
 Name: FakeSignalBar-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.fakesignalbar.json
 
+Package: lym.com.spark.snowboard
+Version: 1.5.50
+Architecture: iphoneos-arm64
+Maintainer: Spark
+Installed-Size: 3268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
+Filename: ./debs/SnowBoard主题-Rootless.deb
+Size: 1256360
+MD5sum: 12e4214b6590aaf88862cc876463b1e7
+SHA1: 0ca68129c1101d92a273b31a672f97ffde8f7cb6
+SHA256: 70ebaeb40ace0781a55823499654cff9490c8f26b66dedd2d4c6731bc3c328f8
+Section: 美化插件
+Description:
+ - SnowBoard主题美化插件
+ - 已自带SnowBoard UI扩展无需再次安装
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Spark & Dennis D. Bednarz
+Name: SnowBoard主题-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.spark.snowboard_1.5.50.json
+
 Package: lym.com.squidforce.doubletapflipcamera
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -3100,6 +3078,50 @@ Description: 隐藏桌面App以及小组件名称
 Author: wkk
 Name: 隐藏app标签名称-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.fuckicon.roothide_1.0-1.json
+
+Package: lym.com.wkk.gaodehook
+Version: 1.1-3
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.gaodehook
+Replaces: com.wkk.gaodehook
+Filename: ./debs/高德旧版去广告-Rootless.deb
+Size: 37552
+MD5sum: 52acea8ea57fa5419a504b5b4c8789ab
+SHA1: 91c03911d9d12681f26a524746d847b391826d35
+SHA256: 8ca8cce33de6260d3fb9e32afee59fbbd2514e7c7e5236e2f1a842692ea5ca6c
+Section: 软件增强
+Description:
+ - 去开屏/首页顶部/部分豆腐块广告/去升级提示/去一些弹窗，测试版本：16.10.6
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 高德旧版去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.gaodehook_1.1-3.json
+
+Package: lym.com.wkk.gaodehook.roothide
+Version: 1.1-3
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.gaodehook
+Replaces: com.wkk.gaodehook
+Filename: ./debs/高德旧版去广告-RootHide.deb
+Size: 38336
+MD5sum: 70e7b9cc8838b4dcd41ee7f5fe9be040
+SHA1: cd062f3a167724911d05a65c82b24032f9667b32
+SHA256: 93a963a61647245207794eef6e453bef61d605a36329eb9a1b193f3550e9f4b5
+Section: 软件增强
+Description:
+ - 去开屏/首页顶部/部分豆腐块广告/去升级提示/去一些弹窗，测试版本：16.10.6
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 高德旧版去广告-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.gaodehook.roothide_1.1-3.json
 
 Package: lym.com.wkk.magicsms
 Version: 0.0.1-9
@@ -3759,6 +3781,29 @@ Description: 强大的IOS端开发工具！
 Author: HASHBANG Productions <support@hbang.ws>
 Name: NewTerm 3终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm33.roothide_3.0~beta1-2048.json
+
+Package: lym.xhs.x
+Version: 1.2.5
+Architecture: iphoneos-arm64
+Maintainer: 𝙓
+Installed-Size: 2760
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.xhshook, xhs.x
+Replaces: com.xx.xhshook, xhs.x
+Filename: ./debs/小红书图层-Rootless.deb
+Size: 1061920
+MD5sum: badc707301773321ad8bcd0064a82123
+SHA1: d353f56b988e4d1a05b905ce3e38c4cb2c36ad8e
+SHA256: 444945355bfaf069630fc99e77280a8e61bc08d671121f3d6ac2184d52176e2f
+Section: 软件增强
+Description: 默认移除一些广告
+ - 无水印保存图片、视频、live图、评论区图片,长按复制文案
+ - 放大图片双指长按可保存高分辨率图片
+ - APP设置界面右上角打开插件界面或双指长按设置界面
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 𝙓
+Name: 小红书图层-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.5.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
