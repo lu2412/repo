@@ -12,13 +12,13 @@
         {
             "url": "https://lu2412.github.io/repo/icon/zhifubao.png",
             "title": "Alipay",
-            "package": "lym.netskao.alipayhooks-rootless",
+            "package": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
             "hideShadow": true
         },
         {
             "url": "https://lu2412.github.io/repo/icon/xiaohongshu.png",
             "title": "小红薯",
-            "package": "lym.com.xx.xhshook",
+            "package": "lym.xhs.x",
             "hideShadow": true
         },
         {
