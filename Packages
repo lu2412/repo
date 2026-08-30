@@ -1624,7 +1624,7 @@ Name: 长按电源开手电筒-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.Flashlight_1.0.json
 
 Package: lym.com.hx.wn
-Version: 1.0.5
+Version: 1.0.6
 Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 168
@@ -1632,10 +1632,10 @@ Depends: mobilesubstrate
 Conflicts: com.hx.wn
 Replaces: com.hx.wn
 Filename: ./debs/去除分隔符-Rootless.deb
-Size: 21208
-MD5sum: cbf798ce331dc283833272eb508af5d7
-SHA1: 77a4bec44ef1a9e171c81173c7500a9313fa2777
-SHA256: e2bd969a7d506b943a5bf9d7128cb3d888cddb154d8b774d76078e64fcafd6a3
+Size: 19248
+MD5sum: d8917a6f636cbfbe000c48abb8f5c748
+SHA1: d629f9543c99e962c71df401738c1e03639fce17
+SHA256: 01b2c672db9eee76d29a6156ff5d3d0a5ab7268cf11170ab03787fb4860a25b3
 Section: 美化插件
 Description: 去除一些顽固分隔符
  - 例如系统时钟、备忘录、文件、天气、iCleaner pro
@@ -1646,7 +1646,32 @@ Description: 去除一些顽固分隔符
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 半生年华
 Name: 去除分隔符-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn_1.0.5.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn_1.0.6.json
+
+Package: lym.com.hx.wn.roothide
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hx.wn
+Replaces: com.hx.wn
+Filename: ./debs/去除分隔符-RootHide.deb
+Size: 19248
+MD5sum: 8eb956013e2c6e8c5ff767d92959352f
+SHA1: 26d8aa6290a5d1aa5b1ddbcebadafc39cd17362f
+SHA256: 7bde030b2245ebe83b56b615dd17bf0f093dd8b5672ac4fe69319b162247c147
+Section: 美化插件
+Description: 去除一些顽固分隔符
+ - 例如系统时钟、备忘录、文件、天气、iCleaner pro
+ - sileo分隔符
+ - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
+ - 以及Telegram等第三方电报去除分割线等
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 去除分隔符-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn.roothide_1.0.6.json
 
 Package: lym.com.icraze.easynotifications
 Version: 3.0
@@ -1996,6 +2021,52 @@ Description: 喜马拉雅去广告,非破解!
 Author: iosrxwy
 Name: 喜马拉雅NoAd-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.xmlynoads.json
+
+Package: lym.com.jaysuen.ccflex16
+Version: 1.0.0-beta.1
+Architecture: iphoneos-arm64
+Maintainer: JaySuen
+Installed-Size: 6444
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness, com.jaysuen.ccflex16
+Replaces: com.wkk.betterccbrightness, com.jaysuen.ccflex16
+Filename: ./debs/EvoCenter16-Rootless.deb
+Size: 169044
+MD5sum: d6bd2282077d53a98b9b4b10ab998b45
+SHA1: 3bf2beb7a73a37eddd3f850490533ad9aad4181e
+SHA256: 749458502718f8262b261b2af2e56f7edfa522d35ec9fbb54897a3dd8d7507ce
+Section: 控制中心
+Description: 全新的控制中心插件
+ - 主要功能
+ - 为系统控制中心模块增加多种可选尺寸,并为2x1、2x2等多尺寸提供类似新版iOS的现代化布局。
+ - 安装后可往系统设置-控制中心内调整布局
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: JaySuen
+Name: EvoCenter16-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jaysuen.ccflex16_1.0.0-beta.1.json
+
+Package: lym.com.jaysuen.ccflex16.roothide
+Version: 1.0.0-beta.1
+Architecture: iphoneos-arm64e
+Maintainer: JaySuen
+Installed-Size: 6444
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.wkk.betterccbrightness, com.jaysuen.ccflex16
+Replaces: com.wkk.betterccbrightness, com.jaysuen.ccflex16
+Filename: ./debs/EvoCenter16-RootHide.deb
+Size: 179784
+MD5sum: fe5c86de064d62f18bb43e294e4b5ca1
+SHA1: 159a91fe2ae1f67b6595bd3f00631738e6deacfd
+SHA256: ac12cbdb22ef70ba864fdb4494e1c870248e7893d73d53ed45c4103513382fd4
+Section: 控制中心
+Description: 全新的控制中心插件
+ - 主要功能
+ - 为系统控制中心模块增加多种可选尺寸,并为2x1、2x2等多尺寸提供类似新版iOS的现代化布局。
+ - 安装后可往系统设置-控制中心内调整布局
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: JaySuen
+Name: EvoCenter16-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jaysuen.ccflex16.roothide_1.0.0-beta.1.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
