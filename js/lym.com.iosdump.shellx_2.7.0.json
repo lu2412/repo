@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 支持录屏/区域截图套壳\n- 水印以及区域截图、长截图等，兼容iOS14-17所有越狱\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh2.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "iosdump"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "2.7.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月01日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.0\n- 翻译结果优化\n- 翻译引擎新增DeepL\n- 修复清空记录时在相删除后旧图会恢复问题\n- 新增可关闭或启用悬浮图片阴影\n- 新增可启用悬浮图片圆角\n- 优化全屏标记功能\n- 新增全屏标记调用指令\n- 新增标记菜单可在编辑时调整菜单大小按住四角缩放\n- Sileo直接翻译功能优化\n- 新增插件备份功能,设置页右上角菜单"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.6.4\n- 适配全屏冻结后第二次物理截图键截到冻结画面\n- 适配框选后截图,框和菜单可截进图\n- 新增适配系统原生截图可复制到剪切板,需到设置开启开关\n- 修复区域截图保存时重复多一张全屏截图记录\n- 优化翻译面板\n- 优化分词面板\n- 优化原生翻译当使用原生系统翻译时提示,目前不可用则直接切换到其它翻译引擎替代\n- 新增菜单背景到100+种\n- 修复上版本弄坏的横屏遮罩问题\n- 修复Sileo长按手势问题,以及调整逻辑如选的翻译引擎失败时直接由分词面板替代\n- 新增标记菜单当选中拖动按钮时可单指平移拖动双指放大缩小"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.6.3\n- 初始化菜单全屏截图键修改为可选系统原生截图或插件。冻结模式已适配系统原生截图\n- 优化截图记录逻辑\n- 修复截图记录模糊图片问题\n- 提升插件整体截图清晰度\n- 快捷截图记录新增搜索跟左滑复制/删除与清空\n- 编辑器菜单与标记菜单新增贴纸功能,在设置导入贴纸\n- 修复放大镜保存后图片颠倒问题\n- 新增Sileo长按翻译或分词插件详情内容\n- 新增自动拼接长截图方式\n- 适配辅助触控/背面轻点与截图键走同一套分发\n- 标记菜单新增复制/分享/导入图片\n- 编辑器新增复制已修改按钮\n- 修复标记菜单选中矩形、圆形、直线无滑块问题\n- 新增可更换初始菜单与框选菜单按钮背景,内置49种样式\n- 提升插件整体稳定性"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.3.3\n- 新增初始菜单可双击遮罩退出手势\n- 新增截图记录可选无限制\n- 新增标记菜单双层样式,设置内切换\n- 新增编辑器菜单双层样式,设置内切换\n- 新增高亮形状包含,方形/圆角/胶囊\n- 修复标记时放大镜卡顿问题\n- 新增长按音量减触发方式可设置另外的功能触发,如有相同功能插件卸载或关闭\n- 截图记录调整为包含系统截图\n- 初始化菜单底栏全屏截图键改为系统原生截图\n- 修复长截图智能拼接小窗口预览条点截取不居中问题11.优化iPad冻结模式问题\n- 新增框选吸附边缘效果可关闭,默认打开13.彩蛋新增与优化"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.3.3\n- 彻底修复标记与编辑时候文字标注不出键盘问题\n- 套壳触发方式新增仅区域截图触发\n- 文字标注新增可放大缩小\n- 新增标记菜单可调整按钮顺序\n- 新增框选高亮\n- 新增框选时候自动吸附边缘\n- 新增支持多张图片悬浮\n- 文字标注弹窗优化"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.3.2\n- 新增双击选框内悬浮功能\n- 新增双击选框外取消功能\n- 新增插件内截图震动功能\n- 优化iOS16本地OCR功能\n- 新增长截图方式（超低内存损耗且更精准）设置内切换\n- 新增隐藏菜单按钮分割线\n- 修复框选菜单修改解锁按钮点击恢复默认图标问题并新增解锁图标修改\n- 新增框选后支持将框截下来\n- 新增图片编辑器可自定义按钮顺序\n- 其它优化"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.3.1\n- 修复当处于遮罩状态下熄屏导致的无法操作屏幕问题，建议马上更新此新版\n- 修复本地翻译时有概率导致桌面无法操作问题，建议马上更新此新版\n- 悬浮图片效果优化\n- 新增双击手势关闭悬浮图\n- 去除多于设置按钮\n- 优化二维码识别逻辑\n- 优化Pad与手机上的冻结模式功能\n- 新增改按钮图标可自定义选系统SF图标\n- 截图记录默认修改为关闭\n- 修复缺失的静音键\n- 控制中心指令模块优化\n- 修复部分设备文字标注无法弹键盘问题\n- 彩蛋新增了牢大进行曲以及66种动画"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.3.0\n- 修复标记马赛克无效问题\n- 改善分词面板深色模式太黑问题\n- 新增悬浮截图后可双指缩放\n- 标记菜单部分功能新增调整大小滑块\n- 新增在标记菜单中长按保存按钮可缩小菜单移动位置\n- 新增二维码识别功能\n- 新增可设置默认直接翻译\n- 新增可自定义选择激活SHELLX截图方式\n- 新增可调整悬浮长按菜单\n- 新增即时模式并支持指令调用\n- 新增截图记录功能，前往设置查看，支持指令调\n- 调整框选菜单与调整底部菜单内新增可调整按钮图标与按钮名字大小\n- 新增更多OCR跟翻译引擎\n- 新增录屏时隐藏状态栏功能\n- 框选优化\n- 新增控制中心模块，包含冻结画板、即时模式、截图记录、全屏套壳、区域画板、长截图"}
+      ]
+    }
+  ]
+}

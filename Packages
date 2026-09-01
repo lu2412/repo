@@ -1879,46 +1879,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.6.4
+Version: 2.7.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 7944
+Installed-Size: 8040
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 3341896
-MD5sum: a03570424b5bc1d17d4f36c099be5fcf
-SHA1: 5c8de5c3f9e8e701e228e584758b86b32e40e64a
-SHA256: addd24d9dad98650343b63a07699454db346dd3bea68a2d2b1cf5c913ea8ce34
+Size: 3379228
+MD5sum: 9597d6f10e45cd95dcf2626dd1201636
+SHA1: b373d97a364ceef096271e3fd4d4aacb0b4162ef
+SHA256: 582a75129a8a5e602fe1abf127b5a3e4f0ac0833f71185274f031e21c683b916
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.6.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.7.0.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.6.4
+Version: 2.7.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 7928
+Installed-Size: 8040
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 3343744
-MD5sum: bc398855057972a060378a85c880faf9
-SHA1: efd169c1fed311f9bb4aa63c0a6d955a80e8481c
-SHA256: eb8e1ae0acb10b5ab11fe41bf3df07a38eeca552eb40afb773722e14a0d30e55
+Size: 3374116
+MD5sum: 36798ab9e3caaa11fb0f99c28bfa35f0
+SHA1: ab2c61bcd9a26982b7b986ee92ef8c231206617e
+SHA256: 008ee6dc45fdf46f71859da3085e7152543f3e39a9e9c83482f75dc3b133b48c
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.6.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.7.0.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8
@@ -3854,18 +3854,18 @@ Name: NewTerm 3终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm33.roothide_3.0~beta1-2048.json
 
 Package: lym.xhs.x
-Version: 1.2.5
+Version: 1.2.6
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 2760
+Installed-Size: 3932
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1061920
-MD5sum: badc707301773321ad8bcd0064a82123
-SHA1: d353f56b988e4d1a05b905ce3e38c4cb2c36ad8e
-SHA256: 444945355bfaf069630fc99e77280a8e61bc08d671121f3d6ac2184d52176e2f
+Size: 1578584
+MD5sum: 10884c2414217862eb37a5a26874c0bd
+SHA1: 36bcacc511f23207988754c4a3d4907dce964d1f
+SHA256: 2b8006b19d35ca01cbeafd12380e2c9d8f0c9bc6ecd32d5da77731f2dd438955
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
@@ -3874,7 +3874,7 @@ Description: 默认移除一些广告
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 𝙓
 Name: 小红书图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.5.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.6.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
