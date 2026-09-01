@@ -629,29 +629,51 @@ Author: Mao
 Name: 消息屏蔽助手-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
 
-Package: lym.com.25mao.wcplugins.rootless
-Version: 0.1-3
+Package: lym.com.25mao.wcplugins
+Version: 0.1-7
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Conflicts: com.25mao.wcplugins.rootless
-Replaces: com.25mao.wcplugins.rootless
-Filename: ./debs/微信插件管理Plus.deb
-Size: 23616
-MD5sum: b36e788f53de7fbfbc0c8f51afee5753
-SHA1: f9150501c72c78ce4b0767a3554673850a683233
-SHA256: 272a9b7fa92f0ff629913288d48e9d9634d6ba637813a92e24455c18e821f14e
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.25mao.wcplugins
+Replaces: com.25mao.wcplugins
+Filename: ./debs/微信插件管理-Rootless.deb
+Size: 15364
+MD5sum: a53195747d96c8b9adef1f64d00a44ad
+SHA1: f1296266e604e7943c96b9c8ec71044dbb5326c5
+SHA256: 71fd06ceccee7f91bc76a98d1cc368dee362e54fbf353e880c8f157d6733895f
 Section: 微信插件
-Description: 收纳第三方微信插件
+Description:
+ - 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
  - 部分微信插件不支持收纳
- - 我-插件页面,长按插件图标可设置密码
- - 重启微信可隐藏我的页面“插件”
- - 首页搜索框输入密码则重新出现,留空表示取消隐藏。
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
-Name: 微信插件管理Plus-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wcplugins.rootless.json
+Name: 微信插件管理-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins_0.1-7.json
+
+Package: lym.com.25mao.wcplugins.roothide
+Version: 0.1-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.25mao.wcplugins
+Replaces: com.25mao.wcplugins
+Filename: ./debs/微信插件管理-RootHide.deb
+Size: 15360
+MD5sum: 2e1d23cdf19af8d3d4220d47d01fb19f
+SHA1: dd3cbf869f157beac8695454bea6eba304f9fc72
+SHA256: 1da66c0fc450477559c6447575e7de924f469fb4e66c6a1772816ecf98b78f13
+Section: 微信插件
+Description:
+ - 收纳第三方微信插件
+ - 位于微信右下角“我”-“插件”
+ - 部分微信插件不支持收纳
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信插件管理-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins.roothide_0.1-7.json
 
 Package: lym.com.25mao.weapptool.rootless
 Version: 0.1-9
@@ -1413,6 +1435,50 @@ Description: 屏蔽app不定时弹出的评分窗口
 Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ratebegone.json
+
+Package: lym.com.dynamicx.tweak
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 1424
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Replaces: com.dynamicx.tweak
+Filename: ./debs/DynamicX上岛-Rootless.deb
+Size: 301796
+MD5sum: 52527a5deee5eedfc690160fa0dd5766
+SHA1: bce54c6a3ceb55314da0c4f46fd31b9bbf1ba4e0
+SHA256: 371deb3c5cbb3e0a089c3dcad7d55a5d1f888fb0f9b1a40e779dc12c31fd8222
+Section: 系统增强
+Description:
+ - 通知、温度高于40度等上岛显示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: DynamicX上岛-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dynamicx.tweak_1.0.json
+
+Package: lym.com.dynamicx.tweak.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 1424
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.dynamicx.tweak
+Replaces: com.dynamicx.tweak
+Filename: ./debs/DynamicX上岛-RootHide.deb
+Size: 301752
+MD5sum: f815346e718b6fa70c96ec55abb8daec
+SHA1: 32464a5e68a4f815e0c4b809cd47b1fa97f67894
+SHA256: 0c002d9df159a8bf5495f4bb5bda2071d09cefa25d413d7671170828f21d9cc0
+Section: 系统增强
+Description:
+ - 通知、温度高于40度等上岛显示
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: DynamicX上岛-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dynamicx.tweak.roothide_1.0.json
 
 Package: lym.com.fiore.calculatorhistory
 Version: 1.2
@@ -3854,18 +3920,18 @@ Name: NewTerm 3终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm33.roothide_3.0~beta1-2048.json
 
 Package: lym.xhs.x
-Version: 1.2.6
+Version: 1.2.8
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 3932
+Installed-Size: 4012
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1578584
-MD5sum: 10884c2414217862eb37a5a26874c0bd
-SHA1: 36bcacc511f23207988754c4a3d4907dce964d1f
-SHA256: 2b8006b19d35ca01cbeafd12380e2c9d8f0c9bc6ecd32d5da77731f2dd438955
+Size: 1606020
+MD5sum: aecabf25730b1d08c55d4cd337bd198d
+SHA1: 0168b094905ee99ed6797489c1ea6c484d914ec0
+SHA256: f206d3001e9d73274feb359a1e815ac5741152dbd5c79b9b586b525ceee46a02
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
@@ -3874,7 +3940,7 @@ Description: 默认移除一些广告
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 𝙓
 Name: 小红书图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.6.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.8.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
