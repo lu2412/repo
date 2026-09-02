@@ -637,13 +637,12 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.25mao.wcplugins
 Replaces: com.25mao.wcplugins
 Filename: ./debs/微信插件管理-Rootless.deb
-Size: 15364
-MD5sum: a53195747d96c8b9adef1f64d00a44ad
-SHA1: f1296266e604e7943c96b9c8ec71044dbb5326c5
-SHA256: 71fd06ceccee7f91bc76a98d1cc368dee362e54fbf353e880c8f157d6733895f
+Size: 15392
+MD5sum: 6f4d8b701771f9e720fd44d87efe0a9b
+SHA1: fa2ec65549505f1d975122261086ee48cb059a02
+SHA256: e77e56ba9f96c4be1314b234f92efdc7e4beb2be84b17fdc2146e802182d1492
 Section: 微信插件
-Description:
- - 收纳第三方微信插件
+Description: 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
  - 部分微信插件不支持收纳
  - 插件无设置项安装即可生效
@@ -660,13 +659,12 @@ Depends: firmware (>= 5.0), mobilesubstrate
 Conflicts: com.25mao.wcplugins
 Replaces: com.25mao.wcplugins
 Filename: ./debs/微信插件管理-RootHide.deb
-Size: 15360
-MD5sum: 2e1d23cdf19af8d3d4220d47d01fb19f
-SHA1: dd3cbf869f157beac8695454bea6eba304f9fc72
-SHA256: 1da66c0fc450477559c6447575e7de924f469fb4e66c6a1772816ecf98b78f13
+Size: 15344
+MD5sum: 7d0119459167de15d4e836c379cde57e
+SHA1: 1ebd9d945c9942a625dfe9f1ab85fa855df4a5bd
+SHA256: 7e7adbf0f1f80342650df8b4c67d103f7778ed8194c100a78815948514a72911
 Section: 微信插件
-Description:
- - 收纳第三方微信插件
+Description: 收纳第三方微信插件
  - 位于微信右下角“我”-“插件”
  - 部分微信插件不支持收纳
  - 插件无设置项安装即可生效
@@ -1445,13 +1443,12 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.dynamicx.tweak
 Replaces: com.dynamicx.tweak
 Filename: ./debs/DynamicX上岛-Rootless.deb
-Size: 301796
-MD5sum: 52527a5deee5eedfc690160fa0dd5766
-SHA1: bce54c6a3ceb55314da0c4f46fd31b9bbf1ba4e0
-SHA256: 371deb3c5cbb3e0a089c3dcad7d55a5d1f888fb0f9b1a40e779dc12c31fd8222
+Size: 301428
+MD5sum: 78a96352a06f9fa329654c2f157ead91
+SHA1: 30f8153da1d240ebe3b80e348bbe49d4131d41cf
+SHA256: 09e1a4dd935c42e5a5c7aafd25b6fee5f4d6214dfb3c0f846bacf961d7354a39
 Section: 系统增强
-Description:
- - 通知、温度高于40度等上岛显示
+Description: 通知、温度高于40度等上岛显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 半生年华
@@ -1467,13 +1464,12 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.dynamicx.tweak
 Replaces: com.dynamicx.tweak
 Filename: ./debs/DynamicX上岛-RootHide.deb
-Size: 301752
-MD5sum: f815346e718b6fa70c96ec55abb8daec
-SHA1: 32464a5e68a4f815e0c4b809cd47b1fa97f67894
-SHA256: 0c002d9df159a8bf5495f4bb5bda2071d09cefa25d413d7671170828f21d9cc0
+Size: 301804
+MD5sum: cec9fa547b109035ada81d74e78da7cb
+SHA1: de189c7684a73ae9ab8aaf55102a9be5514e6f6c
+SHA256: 8b03a43f9a9c3302527583e96440291f524b20c6eff33ea7059abb24a5841d1b
 Section: 系统增强
-Description:
- - 通知、温度高于40度等上岛显示
+Description: 通知、温度高于40度等上岛显示
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 半生年华
@@ -2911,6 +2907,50 @@ Author: sunshinesong
 Name: split-view-pro分屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
+Package: lym.com.susudear.screencore
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2540
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.susudear.screencore
+Replaces: com.susudear.screencore
+Filename: ./debs/ScreenCore分屏-Rootless.deb
+Size: 374692
+MD5sum: f83dbbb6bcd2e5dd66e9345cd81fa6e7
+SHA1: 6062c357cf66e26d43727ff96831828fe96fb952
+SHA256: a2f515d907f867ac313145e6fd83962a3237345aa0f48f075e9ac524e743c111
+Section: 分屏插件
+Description: 简约分屏插件
+ - 支持ARC菜单
+ - 支持系统URL跳转等
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Name: ScreenCore分屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susudear.screencore_1.0.7.json
+
+Package: lym.com.susudear.screencore.roothide
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2540
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.susudear.screencore
+Replaces: com.susudear.screencore
+Filename: ./debs/ScreenCore分屏-RootHide.deb
+Size: 370280
+MD5sum: 2c18ec2740f50197e021a186e2ad0690
+SHA1: 982f60a9fb10c007a5b8b1279e833fd68c5f3d14
+SHA256: 7b912d8fd9ef3f66ebc1d5905d8e5a7379ec618f03ea09d2a3290236827767bc
+Section: 分屏插件
+Description: 简约分屏插件
+ - 支持ARC菜单
+ - 支持系统URL跳转等
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Name: ScreenCore分屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.susudear.screencore.roothide_1.0.7.json
+
 Package: lym.com.susudear.susuocr
 Version: 1.0.22
 Architecture: iphoneos-arm64
@@ -3038,17 +3078,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 3.0.3
+Version: 3.0.4
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 9168260
-MD5sum: f12b67a02281a95f970741c0fb1ae62a
-SHA1: 0e9573915a6bdcf189b403e47e164443797a4edc
-SHA256: 76e72e3897fcfec0ecceaf34bf9cad8c9a2dd1cbccd3380722d3723c5178f8d2
+Size: 9140428
+MD5sum: 6f504a2d20ea3b559f017e461e8b005f
+SHA1: f58b04167b6d793cede4fdeb33c3718a02a15692
+SHA256: d8bf9a66b0d1e5acc258aeea392867d411f1d18cf76fac4b62aa7ac9ce5677b2
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3058,20 +3098,20 @@ Description: 微信主题插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 微信主题盒子-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.3.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.4.json
 
 Package: lym.com.tencent.themebox.roothide
-Version: 3.0.3
+Version: 3.0.4
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-RootHide.deb
-Size: 9177024
-MD5sum: d003f2bbc34b200d1f9b91d0ccdaea8d
-SHA1: d00ede79e702223038cb268f25bc99d04a591b14
-SHA256: 4dcea8bfba05b56321b5e440ba51dfb8aeb6a361abfbac74ec9e6e26a55d4a3e
+Size: 9142272
+MD5sum: 390c7e9bacdd48537f04d0d08275692e
+SHA1: 50854c845d228ba3d08e6dcd06f701941a598033
+SHA256: bd5e1d55b0ce300a47875ef2fa560076deca75375886e2e2dc4f9520c2664db1
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3081,7 +3121,7 @@ Description: 微信主题插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 微信主题盒子-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.3.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.4.json
 
 Package: lym.com.touchWorld.bilibiliTweak
 Version: 3.1.0
