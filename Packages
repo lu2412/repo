@@ -1437,48 +1437,6 @@ Author: dvntm
 Name: RateBeGone屏蔽app弹窗评分-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ratebegone.json
 
-Package: lym.com.dynamicx.tweak
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 1424
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Replaces: com.dynamicx.tweak
-Filename: ./debs/DynamicX上岛-Rootless.deb
-Size: 301428
-MD5sum: 78a96352a06f9fa329654c2f157ead91
-SHA1: 30f8153da1d240ebe3b80e348bbe49d4131d41cf
-SHA256: 09e1a4dd935c42e5a5c7aafd25b6fee5f4d6214dfb3c0f846bacf961d7354a39
-Section: 系统增强
-Description: 通知、温度高于40度等上岛显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: DynamicX上岛-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dynamicx.tweak_1.0.json
-
-Package: lym.com.dynamicx.tweak.roothide
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 1424
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.dynamicx.tweak
-Replaces: com.dynamicx.tweak
-Filename: ./debs/DynamicX上岛-RootHide.deb
-Size: 301804
-MD5sum: cec9fa547b109035ada81d74e78da7cb
-SHA1: de189c7684a73ae9ab8aaf55102a9be5514e6f6c
-SHA256: 8b03a43f9a9c3302527583e96440291f524b20c6eff33ea7059abb24a5841d1b
-Section: 系统增强
-Description: 通知、温度高于40度等上岛显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: DynamicX上岛-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dynamicx.tweak.roothide_1.0.json
-
 Package: lym.com.fiore.calculatorhistory
 Version: 1.2
 Architecture: iphoneos-arm64
