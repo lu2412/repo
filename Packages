@@ -1351,6 +1351,27 @@ Author: Alexandra Aurora Göttlicher
 Name: Kayoko剪贴板-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.kayoko.json
 
+Package: lym.com.duncan.tiebanoshop
+Version: 0.0.4
+Architecture: iphoneos-arm64
+Maintainer: duncan <duncan@example.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000)
+Conflicts: com.duncan.tiebanoshop
+Replaces: com.duncan.tiebanoshop
+Filename: ./debs/百度贴吧精简-Rootless.deb
+Size: 5780
+MD5sum: 4cedd79bfc832a2fd4578f9d5f960682
+SHA1: a8a7ef99b66854e5fb815bc9d1c7bc536eacd7be
+SHA256: 1741e035951e55867fdf7d1136c149da9f380e0d287fd5c63adf20f605cf5f2d
+Section: 软件增强
+Description: 仅移除百度贴吧底部小卖部
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: duncan
+Name: 百度贴吧精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.duncan.tiebanoshop_0.0.4.json
+
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
 Architecture: iphoneos-arm64
