@@ -939,6 +939,27 @@ Author: Delewhopper, julioverne ,AnubisTweaks
 Name: KeySwipe上下切换键盘-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.anubistweaks.keyswipe11.json
 
+Package: lym.com.apple.DocumentsApp
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp
+Filename: ./debs/软件去底栏-Rootless.deb
+Size: 3992
+MD5sum: 285d7d0fcaac64ec63bbcf839f17d2cc
+SHA1: 7805d167e47c14636b3d60f51b42831eefc21977
+SHA256: 75be12d7edf49b826e048908a2922cfad137a431a5f884f764d479aab8d78079
+Section: 轻量插件
+Description: 仅针对性移除 钉钉 酷安 App Store的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 软件去底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.DocumentsApp_1.0.0-1+debug.json
+
 Package: lym.com.apple.wechat.noads
 Version: 1.2.0
 Architecture: iphoneos-arm64
