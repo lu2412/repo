@@ -4280,23 +4280,3 @@ Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
 
-Package: xyz.cypwn.sileo
-Version: 2.5.5
-Architecture: iphoneos-arm64
-Maintainer: Korboy <korboybeats@gmail.com>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Conflicts: org.coolstar.sileo, xyz.cypwn.sileo
-Replaces: xyz.cypwn.sileo
-Filename: ./debs/Sileo增强版-Rootless.deb
-Size: 2900916
-MD5sum: ce08d33519ee6073c7a2117721a8932e
-SHA1: 90cd38ab453c713fd03d054e1c2f5edf94cfe1e0
-SHA256: 29e16b9577dcebf0410dae92ee0e4cc7b93e1aa5e84310f8ee1e4b2f31e1b205
-Section: 系统增强
-Description: 一个现代化的APT包管理器前端。
- - 相比原版增强显示刷新进度等功能，自行体验
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Amy While, waruhachi, Korboy <korboybeats@gmail.com>
-Name: Sileo增强版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xyz.cypwn.sileo_2.5.5.json
-
