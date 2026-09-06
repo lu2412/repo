@@ -16,24 +16,6 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
-Package: cn.octoforce.copyvault
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6220
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
-Size: 1668848
-MD5sum: 88663ece274cdc844f987d871025fc70
-SHA1: fff0b5a88bf8c3ae61c555c67dc694528e830745
-SHA256: 980e940aa6b0282034a7b33930b1b97b301a36a24c564b40765918cc694518df
-Section: 乌贼插件
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
 Package: cn.octoforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64
@@ -64,24 +46,6 @@ Size: 1787908
 MD5sum: 17024df247da6f231b9d07efded35f36
 SHA1: b6cc93177a0dc4a1a08a0625be380f6d21521872
 SHA256: 1a93735d95ba354f3a006e6e165d0e70d9d412742f992db6096d2862a3d29b5b
-Section: 乌贼插件
-Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
-Author: SquidForce, Backup
-Name: SquidGesturePro(激活码)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
-Size: 1768812
-MD5sum: a2444b3944785ac5752522671a04a004
-SHA1: b409938702c02a7965058e0ede03870eb4bb5f33
-SHA256: 01a338f3adeb8e6365bbfd69623ac1b9184e677f97403a704536165ab4e350ec
 Section: 乌贼插件
 Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
 Author: SquidForce, Backup
@@ -146,6 +110,23 @@ Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客�
 Author: mlgm
 Name: PullOverX分屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64.deb
+Size: 977832
+MD5sum: 69c65dd3ea9226e37f59c06c6bf33e97
+SHA1: f5a68dcd6d7eb3d2f3723eb11307f1863888fc8f
+SHA256: ec76cff1a644c327e970d86c3efa02dbd9c4aa7583d206aaff89579ab23ec317
+Section: 乌贼插件
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
 
 Package: com.sini921.atria
 Version: 1.4.1-8
@@ -224,26 +205,6 @@ Size: 380768
 MD5sum: 67d54ef24829e7cbf5ffbc4719793af5
 SHA1: cd338c781539fe956af9c8089aa1646686999a21
 SHA256: 8558b80a59fc67d93f2fad4f3b601fab6bef8e985f20990d7ea48fad85175c38
-Section: 分屏插件
-Description: 简约分屏插件
-   - 支持ARC菜单
-   - 支持系统URL跳转等
-   - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏
-
-Package: com.susudear.screencore
-Version: 1.0.7-1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2644
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-Rootless.deb
-Size: 384176
-MD5sum: d1716d00fc846d37c954d0da9154a7d2
-SHA1: b32125da60f0a199c78b4f9f30843c50c0dc22c1
-SHA256: 4e05bbab73cf88f7cd21159aeac5d7c2c946a66788b41eace69b63401812af75
 Section: 分屏插件
 Description: 简约分屏插件
    - 支持ARC菜单
@@ -3264,17 +3225,17 @@ Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.tencent.themebox
-Version: 3.0.4
+Version: 3.0.5
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 9140428
-MD5sum: 6f504a2d20ea3b559f017e461e8b005f
-SHA1: f58b04167b6d793cede4fdeb33c3718a02a15692
-SHA256: d8bf9a66b0d1e5acc258aeea392867d411f1d18cf76fac4b62aa7ac9ce5677b2
+Size: 9402140
+MD5sum: a847809e01c1041a7202411151d93bd4
+SHA1: 9dbe0564ade3085435741fde6ca3d0d8ed24302d
+SHA256: ce8ee4c099a48f7a2581d88c73f16d1156c3c82f327f22a2a50dcbcd83df78fa
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3284,20 +3245,20 @@ Description: 微信主题插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 微信主题盒子-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.5.json
 
 Package: lym.com.tencent.themebox.roothide
-Version: 3.0.4
+Version: 3.0.5
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-RootHide.deb
-Size: 9142272
-MD5sum: 390c7e9bacdd48537f04d0d08275692e
-SHA1: 50854c845d228ba3d08e6dcd06f701941a598033
-SHA256: bd5e1d55b0ce300a47875ef2fa560076deca75375886e2e2dc4f9520c2664db1
+Size: 9397164
+MD5sum: 50443497c1ad8c0c691241e5237ec42d
+SHA1: c5c8793db50653e7d333cafad85496cec5cd570d
+SHA256: 1a6cbeab7d2c5a7bf9ebaefcc96ae4245dc24332526ddbf516ebf1f778d83c05
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3307,7 +3268,7 @@ Description: 微信主题插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Mao
 Name: 微信主题盒子-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.4.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.5.json
 
 Package: lym.com.touchWorld.bilibiliTweak
 Version: 3.1.0
