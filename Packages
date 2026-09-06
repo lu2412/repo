@@ -192,6 +192,46 @@ Author: wkk
 Name: SystemX系统调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.systembox_1.3-5.json
 
+Package: com.ym.stheno
+Version: 0
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Conflicts: com.ym.stheno
+Replaces: com.ym.stheno
+Filename: ./debs/Stheno分屏新版-Rootless.deb
+Size: 530084
+MD5sum: 784019ca7804c1b1a5ebdca43d159b4d
+SHA1: 27fb8da1b6024d2da626e18e43b22667b8a1ee19
+SHA256: 964a8ae81e400638c80d8be3c32571364dadecf3a4f98a60c6f1fa960cea9501
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.ym.stheno_0.json
+
+Package: com.ym.stheno.roothide
+Version: 0
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Conflicts: com.ym.stheno
+Replaces: com.ym.stheno
+Filename: ./debs/Stheno分屏新版-RootHide.deb
+Size: 528200
+MD5sum: 7a915d354038001ca3e801a824b5be0a
+SHA1: 40628309c260e62e5647cebd54f8cf42446c5dba
+SHA256: 2d71515a2285fcf4fe856a52ab3df57c53c1087824a160ca57fe01dbf24a7f0e
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.ym.stheno.roothide_0.json
+
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
