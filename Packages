@@ -4262,46 +4262,6 @@ Author: 🅷🆆
 Name: 一生足迹解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.zuji-Rootless.json
 
-Package: org.coolstar.sileo
-Version: 2.5.7
-Architecture: iphoneos-arm64
-Maintainer: Korboy <korboybeats@gmail.com>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Conflicts: org.coolstar.sileo
-Replaces: org.coolstar.sileo
-Filename: ./debs/Sileo增强版-Rootless.deb
-Size: 3121728
-MD5sum: 75c297b5c8bf3f99aa99771ff96cada5
-SHA1: 2fde9da7fc4ef227b975d30426efd612d5d4c335
-SHA256: 187dcffca437e4f5782363f251ca99dbc526b3b6b91136f6df3f0a002695ab88
-Section: 系统增强
-Description: 一个现代化的APT包管理器前端。
- - 相比原版增强显示刷新进度等功能，自行体验
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Name: Sileo增强版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/org.coolstar.sileo_2.5.7.json
-
-Package: org.coolstar.sileo.roothide
-Version: 2.5.7
-Architecture: iphoneos-arm64e
-Maintainer: Korboy <korboybeats@gmail.com>
-Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
-Conflicts: org.coolstar.sileo
-Replaces: org.coolstar.sileo
-Filename: ./debs/Sileo增强版-RootHide.deb
-Size: 6190600
-MD5sum: 97247865a904c0a6174696b516d53b78
-SHA1: 4c44e7e4604462d942da8d8dbe45aaafdb21f7f4
-SHA256: 5d43e7f7002d0ff2eb6f1fdb3ad0845f221cb31301d868a9baa34f26cec7902a
-Section: 系统增强
-Description: 一个现代化的APT包管理器前端。
- - 相比原版增强显示刷新进度等功能，自行体验
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Korboy <korboybeats@gmail.com>, Amy While, waruhachi
-Name: Sileo增强版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/org.coolstar.sileo.roothide_2.5.7.json
-
 Package: tikTok-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -4319,4 +4279,24 @@ Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
+
+Package: xyz.cypwn.sileo
+Version: 2.5.5
+Architecture: iphoneos-arm64
+Maintainer: Korboy <korboybeats@gmail.com>
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: org.coolstar.sileo, xyz.cypwn.sileo
+Replaces: xyz.cypwn.sileo
+Filename: ./debs/Sileo增强版-Rootless.deb
+Size: 2900916
+MD5sum: ce08d33519ee6073c7a2117721a8932e
+SHA1: 90cd38ab453c713fd03d054e1c2f5edf94cfe1e0
+SHA256: 29e16b9577dcebf0410dae92ee0e4cc7b93e1aa5e84310f8ee1e4b2f31e1b205
+Section: 系统增强
+Description: 一个现代化的APT包管理器前端。
+ - 相比原版增强显示刷新进度等功能，自行体验
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Amy While, waruhachi, Korboy <korboybeats@gmail.com>
+Name: Sileo增强版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/xyz.cypwn.sileo_2.5.5.json
 

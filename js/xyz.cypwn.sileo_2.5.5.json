@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Korboy <korboybeats@gmail.com>, Amy While, waruhachi"
+          "text": "Amy While, waruhachi, Korboy <korboybeats@gmail.com>"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.5.7"
+          "text": "2.5.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.5.7\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.5.5\n- 初始版本"}
       ]
     }
   ]
