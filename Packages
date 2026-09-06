@@ -1,3 +1,93 @@
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6380
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64e.deb
+Size: 1706492
+MD5sum: 51c980ad87b63cce88b82c947e7f39f2
+SHA1: 84a52cc3754e8b384695f44c89bba9a2b0057ae0
+SHA256: 682b0dbf8ba81804cb6c9a6d10a195aaec43fd9277bb5d1117cd0b886e79c63b
+Section: 乌贼插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
+Size: 1669108
+MD5sum: 9573f2727c3df960627dab916f678fd4
+SHA1: 6352233d7a0f1bf3f9678e3468f921792301caca
+SHA256: e261d53ff9a4e1be4c3e931aab9e0945bb8a9eb0cb5f7861b30d22508609b206
+Section: 乌贼插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4
+Architecture: iphoneos-arm
+Maintainer: SquidForce, Backup
+Installed-Size: 10040
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm.deb
+Size: 2293824
+MD5sum: a610d1fc1a1cd292f824c35b8bac5ac9
+SHA1: 1d39a73ce3ff5d44afc5ec06e8b68341c8596309
+SHA256: 638946dd3e7601eaa73ac36062f2859d260ddc5c0a5806062b0814bede8e44ca
+Section: 乌贼插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
+Size: 1788692
+MD5sum: 0a5529a29bde4ccabc157203d73dd353
+SHA1: e85a4d5d6e7f2fcca204a4684c66a3046f1add50
+SHA256: 384a635b0737c485b58d673fbd9d7e5ce7eab99837db93b1905f9e7061bd13c0
+Section: 乌贼插件
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm.deb
+Size: 1766640
+MD5sum: c19265525e21d191b5faa42629822bce
+SHA1: 9b661cde1cdf57b9b346f51702f9b17d41ee664c
+SHA256: 1d00d07d0f83c07a86c02581402deaaf4602e9055c5c8b5a6889cd433bc10614
+Section: 乌贼插件
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: com.Axs.accode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2270,11 +2360,11 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.chr1s.newtab
 Filename: ./debs/ControlTab - 控制Safari标签页.deb
-Size: 6412
-MD5sum: 45480b3e381ad28f30f934be9215b4ba
-SHA1: f7296bea0f9d4ddeaba8620bba3b230c60bd2b93
-SHA256: 6ba10d72923f8a76f53abaea6c162f7784aa09f1266d8c0b9954e95324a560f6
-Section: 系统增强
+Size: 6392
+MD5sum: 6662a914e6ce3bbb7abecfc7c30bfb03
+SHA1: 6c52c6aa501e6c6cec00eb5359e1b32186f455ed
+SHA256: 1acbabf7089edea0e5a5e844071c7a17698f2d46d6ce0b0d49ec0995cc7a98b9
+Section: 乌贼插件
 Description: Safari工具栏添加按钮点击关闭标签页
  - 长按新建标签页并弹出键盘
  - 插件无设置项安装即可生效
