@@ -16,6 +16,24 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
+Package: cn.octoforce.copyvault
+Version: 1.9.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6220
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.squidforce.copyvault
+Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
+Size: 1668848
+MD5sum: 88663ece274cdc844f987d871025fc70
+SHA1: fff0b5a88bf8c3ae61c555c67dc694528e830745
+SHA256: 980e940aa6b0282034a7b33930b1b97b301a36a24c564b40765918cc694518df
+Section: 乌贼插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
+Author: SquidForce, Backup
+Name: CopyVault(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
+
 Package: cn.octoforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64
@@ -46,6 +64,24 @@ Size: 1787908
 MD5sum: 17024df247da6f231b9d07efded35f36
 SHA1: b6cc93177a0dc4a1a08a0625be380f6d21521872
 SHA256: 1a93735d95ba354f3a006e6e165d0e70d9d412742f992db6096d2862a3d29b5b
+Section: 乌贼插件
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Author: SquidForce, Backup
+Name: SquidGesturePro(激活码)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
+Package: cn.octoforce.squidgesturepro
+Version: 2.7.6-1
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
+Size: 1768812
+MD5sum: a2444b3944785ac5752522671a04a004
+SHA1: b409938702c02a7965058e0ede03870eb4bb5f33
+SHA256: 01a338f3adeb8e6365bbfd69623ac1b9184e677f97403a704536165ab4e350ec
 Section: 乌贼插件
 Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
 Author: SquidForce, Backup
@@ -188,6 +224,26 @@ Size: 380768
 MD5sum: 67d54ef24829e7cbf5ffbc4719793af5
 SHA1: cd338c781539fe956af9c8089aa1646686999a21
 SHA256: 8558b80a59fc67d93f2fad4f3b601fab6bef8e985f20990d7ea48fad85175c38
+Section: 分屏插件
+Description: 简约分屏插件
+   - 支持ARC菜单
+   - 支持系统URL跳转等
+   - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏
+
+Package: com.susudear.screencore
+Version: 1.0.7-1
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2644
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-Rootless.deb
+Size: 384176
+MD5sum: d1716d00fc846d37c954d0da9154a7d2
+SHA1: b32125da60f0a199c78b4f9f30843c50c0dc22c1
+SHA256: 4e05bbab73cf88f7cd21159aeac5d7c2c946a66788b41eace69b63401812af75
 Section: 分屏插件
 Description: 简约分屏插件
    - 支持ARC菜单
