@@ -123,26 +123,6 @@ Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
 
-Package: com.susudear.screencore
-Version: 1.0.7-1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2640
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-RootHide.deb
-Size: 380768
-MD5sum: 67d54ef24829e7cbf5ffbc4719793af5
-SHA1: cd338c781539fe956af9c8089aa1646686999a21
-SHA256: 8558b80a59fc67d93f2fad4f3b601fab6bef8e985f20990d7ea48fad85175c38
-Section: 分屏插件
-Description: 简约分屏插件
-   - 支持ARC菜单
-   - 支持系统URL跳转等
-   - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏
-
 Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64
