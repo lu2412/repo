@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 呼出设置：点击调解边缘手势区域大小，继续点击切换手势出发边缘。\n- 窗口切换：单个及多个窗口切换，单窗口状态同步，调整及还原浮窗大小。\n- 比例窗口：开启16:9模式窗口，长按浮窗四角重启并强制匹配浮窗UI。\n- 监听服务：以浮窗模式打开（1.开启后仅对已添加应用生效；2.消息通知以浮窗\n- 打开；3.URL Scheme以浮窗打开；4.账号授权以浮窗打开。）\n- 旋转切换：三种切换横屏模式及说明（1.浮窗后立即旋转，但游戏UI容易错乱；\n- 2.浮窗后延迟旋转，效果稳定；3.兼容模式，效果未知。）\n- 浮窗手势:打开为浮窗四个边缘位置交互，关闭则为上下两边位置交互。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f2.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f3.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f4.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "Crassna"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "77.1.4.7"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月06日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 77.1.4.7\n- 初始版本"}
+      ]
+    }
+  ]
+}
