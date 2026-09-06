@@ -192,46 +192,6 @@ Author: wkk
 Name: SystemX系统调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.systembox_1.3-5.json
 
-Package: com.ym.stheno
-Version: 0
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 2788
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.ym.stheno
-Replaces: com.ym.stheno
-Filename: ./debs/Stheno分屏新版-Rootless.deb
-Size: 530084
-MD5sum: 784019ca7804c1b1a5ebdca43d159b4d
-SHA1: 27fb8da1b6024d2da626e18e43b22667b8a1ee19
-SHA256: 964a8ae81e400638c80d8be3c32571364dadecf3a4f98a60c6f1fa960cea9501
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.ym.stheno_0.json
-
-Package: com.ym.stheno.roothide
-Version: 0
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 2788
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.ym.stheno
-Replaces: com.ym.stheno
-Filename: ./debs/Stheno分屏新版-RootHide.deb
-Size: 528200
-MD5sum: 7a915d354038001ca3e801a824b5be0a
-SHA1: 40628309c260e62e5647cebd54f8cf42446c5dba
-SHA256: 2d71515a2285fcf4fe856a52ab3df57c53c1087824a160ca57fe01dbf24a7f0e
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.ym.stheno.roothide_0.json
-
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64
@@ -2154,52 +2114,6 @@ Author: JaySuen
 Name: EvoCenter16-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jaysuen.ccflex16.roothide_1.0.0-beta.1.json
 
-Package: lym.com.jh.accode
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 204
-Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
-Conflicts: com.jh.accode
-Replaces: com.jh.accode
-Filename: ./debs/stheno激活插件-Rootless.deb
-Size: 19700
-MD5sum: c36a6cbf77f3a641dbd685840a0534d1
-SHA1: f46df443e1e63807cdc4ac16767df5a634ce142a
-SHA256: 869fa01bee123e3318d0c6f16ca20634d48271e8048932dd0998dea67f3b8810
-Section: 分屏插件
-Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
- - 终端执行：stheno 你的UDID，复制输出的16位激活码
- - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
- - 激活成功后，安装Stheno新版即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: stheno激活插件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jh.accode_1.0.json
-
-Package: lym.com.jh.accode.roothide
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 204
-Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
-Conflicts: com.jh.accode
-Replaces: com.jh.accode
-Filename: ./debs/stheno激活插件-RootHide.deb
-Size: 19640
-MD5sum: 13529d11d536c77cec6a87c64001d45c
-SHA1: f110077cb6acfdcc7052db3db0eb44972080654e
-SHA256: 4bc4b6397ac317dc075c0d5dc41fb8ce30734cd5e4fce819b3e8f3cdf6b12236
-Section: 分屏插件
-Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
- - 终端执行：stheno 你的UDID，复制输出的16位激活码
- - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
- - 激活成功后，安装Stheno新版即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: stheno激活插件-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jh.accode.roothide_1.0.json
-
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -2587,56 +2501,6 @@ Description: 系统设置美化分类插件
 Author: Nightwind
 Name: OneSettings设置归类-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.nightwind.onesettings.json
-
-Package: lym.com.nx.stheno
-Version: 77.1.4.7
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 1928
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.nx.stheno
-Replaces: com.nx.stheno
-Filename: ./debs/Stheno分屏旧版-Rootless.deb
-Size: 222096
-MD5sum: c239ca652d445ab44e0f69185806a673
-SHA1: ceb67aaaa40b313ae13d6d4b815cbc89a23af770
-SHA256: 01932fe549ed09c6299fa4ef660d8fcaf953aa02d26204b53134ce362abd574e
-Section: 分屏插件
-Description: 呼出设置：点击调解边缘手势区域大小，继续点击切换手势出发边缘。
- - 窗口切换：单个及多个窗口切换，单窗口状态同步，调整及还原浮窗大小。
- - 比例窗口：开启16:9模式窗口，长按浮窗四角重启并强制匹配浮窗UI。
- - 监听服务：以浮窗模式打开（1.开启后仅对已添加应用生效；2.消息通知以浮窗打开；3.URL Scheme以浮窗打开；4.账号授权以浮窗打开。）
- - 旋转切换：三种切换横屏模式及说明（1.浮窗后立即旋转，但游戏UI容易错乱；2.浮窗后延迟旋转，效果稳定；3.兼容模式，效果未知。）
- - 浮窗手势:打开为浮窗四个边缘位置交互，关闭则为上下两边位置交互。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏旧版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nx.stheno_77.1.4.7.json
-
-Package: lym.com.nx.stheno.roothide
-Version: 77.1.4.7
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 1928
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.nx.stheno
-Replaces: com.nx.stheno
-Filename: ./debs/Stheno分屏旧版-RootHide.deb
-Size: 223868
-MD5sum: 3076f5cd284f35a422727afd56f452c2
-SHA1: 747891387a6eb0c228826c5775654c1b9764cb25
-SHA256: a9ed7a626b3ca5cdce9836bd51b01c37cbae261fef02467251c11766d5fa8c38
-Section: 分屏插件
-Description: 呼出设置：点击调解边缘手势区域大小，继续点击切换手势出发边缘。
- - 窗口切换：单个及多个窗口切换，单窗口状态同步，调整及还原浮窗大小。
- - 比例窗口：开启16:9模式窗口，长按浮窗四角重启并强制匹配浮窗UI。
- - 监听服务：以浮窗模式打开（1.开启后仅对已添加应用生效；2.消息通知以浮窗打开；3.URL Scheme以浮窗打开；4.账号授权以浮窗打开。）
- - 旋转切换：三种切换横屏模式及说明（1.浮窗后立即旋转，但游戏UI容易错乱；2.浮窗后延迟旋转，效果稳定；3.兼容模式，效果未知。）
- - 浮窗手势:打开为浮窗四个边缘位置交互，关闭则为上下两边位置交互。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏旧版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nx.stheno.roothide_77.1.4.7.json
 
 Package: lym.com.p2kdev.alarmtime
 Version: 1.1
