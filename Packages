@@ -1136,24 +1136,44 @@ Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
 
 Package: lym.com.aptzh
-Version: 1.2-1-5+debug
+Version: 1.3-3+debug
 Architecture: iphoneos-arm64
 Maintainer: Custom
 Installed-Size: 240
 Conflicts: com.aptzh
 Replaces: com.aptzh
 Filename: ./debs/Sileo APT-DPKG汉化-Rootless.deb
-Size: 24616
-MD5sum: d56036ef760844876359c81d93ed70f0
-SHA1: 8cb567fd714c307fdea7168901b5a5a64b7f4965
-SHA256: a419d144306f088c60c84064310091ae6202c42202ea352cd0081de84a0e20af
+Size: 28736
+MD5sum: 48a48d15d86c02355e61b0921e031705
+SHA1: 19da377bd5ef8d700c62836fd6cbf1050e302d36
+SHA256: 90fb3d389e6ba32209b1ba1f2c74aa6d936b47a51a2122b79b1cedff2b6fc59e
 Section: 编程脚本
 Description: Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Custom
 Name: Sileo APT-DPKG汉化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.aptzh_1.2-1-5+debug.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.aptzh_1.3-3+debug.json
+
+Package: lym.com.aptzh.roothide
+Version: 1.3-3+debug
+Architecture: iphoneos-arm64e
+Maintainer: Custom
+Installed-Size: 240
+Conflicts: com.aptzh
+Replaces: com.aptzh
+Filename: ./debs/Sileo APT-DPKG汉化-RootHide.deb
+Size: 29520
+MD5sum: 8150f06186050ce3b876993314e4ee39
+SHA1: 3135a1a44980ab114d22afc3e022f5babebb2e0e
+SHA256: 9ef9aed5600ed12ea5d366221513191bb41904307965d11ab7a44a0f38d08833
+Section: 编程脚本
+Description: Sileo软件源刷新、dpkg安装日志完整汉化，覆盖全部报错与输出文本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Custom
+Name: Sileo APT-DPKG汉化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.aptzh.roothide_1.3-3+debug.json
 
 Package: lym.com.axs.snapper3tag
 Version: 5.2.0-16
@@ -2092,46 +2112,46 @@ Name: 截屏时隐藏状态栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
-Version: 2.9.0
+Version: 3.0.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 10984
+Installed-Size: 13476
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 3686500
-MD5sum: 6db6fa803d1d9c0f23dbcb2785c2508b
-SHA1: 1651f01dfacdd66ad8151b9c64a09162de250848
-SHA256: 7973a718cfe50760ddebeedb91141bc668a9748f09f913605aa3fcd3a3329009
+Size: 2961316
+MD5sum: 8e466fd6ae2b96b34ac8c6feb013b3a8
+SHA1: 99133604a723827093d04f94ffb0d8db6bb67a7b
+SHA256: 79c6c5040248d88ca8748736d166d038f0f1088e7f07dd35e41a16ffa84dd5a4
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_2.9.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_3.0.1.json
 
 Package: lym.com.iosdump.shellx.roothide
-Version: 2.9.0
+Version: 3.0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 10984
+Installed-Size: 13476
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 3688888
-MD5sum: 8603d4fb737f31348ca9e1435160cffd
-SHA1: 66800ec50f586eb4946eed6a4567f07ef0b7c97b
-SHA256: cfadf974ce651a07b40516eb22bb13a5bfe0efe29e2887c5c2513ee800ae28db
+Size: 2951508
+MD5sum: 18add225a02f4935c1cab48f4450c2ae
+SHA1: e0ea094e2189844098b81bb8210d0bdabe377d64
+SHA256: 3ec0d5ac391b5d4182ef4fc54fc340e5cbfa0827d3296db457f42f91b1e9fb4f
 Section: 系统增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_2.9.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_3.0.1.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8

@@ -11,7 +11,7 @@
         {
           "class": "DepictionButtonView",
           "text": "捐赠给开发者",
-          "action": "https://qr.alipay.com/fkx16447droqidnuzcldk3a",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
           "openExternal": 1
         },
         {
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.2-1-5+debug"
+          "text": "1.3-3+debug"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月25日"
+          "text": "2026年09月06日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2-1-5+debug\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.3-3+debug\n- 初始版本"}
       ]
     }
   ]
