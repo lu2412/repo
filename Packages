@@ -1249,26 +1249,6 @@ Author: be-huge
 Name: 自定义微信好友通知铃声-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
 
-Package: lym.com.be-huge.insulation
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 484
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.be-huge.insulation
-Replaces: com.be-huge.insulation
-Filename: ./debs/insulation(解除温控)-Rootless.deb
-Size: 58060
-MD5sum: 6e4ccb539d3ef0a8c84e545b1b3c6b38
-SHA1: 8ec4ee7ffac08a0ec0a5322abb24b5a1cc0e8756
-SHA256: d12f5f037baad252e54c0c68773003ca8a0a2c209619a26f85d46c62f01919b6
-Section: 系统增强
-Description: 解除温控，一切从简即可。代码已开源：https://github.com/be-huge/insulation
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: insulation(解除温控)-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.insulation.json
-
 Package: lym.com.brend0n.nopassafterrespringsafe
 Version: 0.0.3
 Architecture: iphoneos-arm64
@@ -1460,46 +1440,44 @@ Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
 
 Package: lym.com.dao.axon
-Version: 2.5
+Version: 2.5.3
 Architecture: iphoneos-arm64
 Maintainer: 刀刀
 Installed-Size: 688
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
 Replaces: com.dao.axon
-Filename: ./debs/Axon中文版-Rootless.deb
-Size: 157380
-MD5sum: bb8090f76319beed3901ef8e187e699c
-SHA1: f8359104bca6ef0d544baf90bebda832f62c424c
-SHA256: 28b2066dbaf81cc03b4c086b2f4b596e4d16791ee129669b1831246f9c11fe37
+Filename: ./debs/Axon 中文版-Rootless.deb
+Size: 155980
+MD5sum: a0590bfd72e4ada9af7f60d5d80adda9
+SHA1: 326f096a5acd58a328176f08796d1b8da59f10c6
+SHA256: 9d5f2fae7b527dccf0ce267ef6df91fbe1598bb33320fc8259ef29cf919644a9
 Section: 系统增强
-Description: 插件介绍
- - 锁屏通知聚合插件，刀刀中文优化版
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Nepeta & daodao
-Name: Axon中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.json
+Name: Axon 中文版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon_2.5.3.json
 
 Package: lym.com.dao.axon.roothide
-Version: 2.5
+Version: 2.5.3
 Architecture: iphoneos-arm64e
 Maintainer: 刀刀
 Installed-Size: 688
 Depends: mobilesubstrate, firmware (>= 14.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
 Replaces: com.dao.axon
-Filename: ./debs/Axon中文版-RootHide.deb
-Size: 156944
-MD5sum: 7cc025370851091dade8963ee9f47ecb
-SHA1: 3c94341787f83d3b778d7947b736554e5ba7f392
-SHA256: 9518d87ac923f3037516719d5b22dd15e69588dcbe9140f605947d82831d6e81
+Filename: ./debs/Axon 中文版-RootHide.deb
+Size: 156176
+MD5sum: 72733248a7453f31ed451e96b2c13d8c
+SHA1: 275ba5a8216333db9dd213458a577a1594eb05c6
+SHA256: 2ab02628739a234a5ee64c215802f3f9c05e30434ea4842e3a813d28fec90c2b
 Section: 系统增强
-Description: 插件介绍
- - 锁屏通知聚合插件，刀刀中文优化版
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Nepeta & daodao
-Name: Axon中文版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.roothide.json
+Name: Axon 中文版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.roothide_2.5.3.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
@@ -1695,11 +1673,11 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
 Conflicts: com.codex.squidgesture17fix, com.hang.squidgesturepro-ios17fix
 Replaces: com.hang.squidgesturepro-ios17fix
 Filename: ./debs/乌贼手势iOS17补丁-RootHide.deb
-Size: 15204
-MD5sum: 3a88093f65fd5f38b4e6df73271f6991
-SHA1: cb710883e0b46ecc2cc1a44f2d76dd81d69ccb9b
-SHA256: ee70fef3c8e85d1bccb1d2657633b5f913f73bdcab75ff02cccbaaa279296456
-Section: 编程脚本
+Size: 15192
+MD5sum: 6fbf9acdc5f19ac4f698a5cc5830e5d0
+SHA1: 390ee9ac47f4ce51f2b4522a009a746ec1efd91e
+SHA256: 2d92c5b6c0e7a421d5bb03ccbfb1bd56e517a6e4238df863cf9b053d284eedb7
+Section: 轻量插件
 Description:
  - 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷指令时导致的安全模模式
  - 安装后需重新开启SquidGesture Pro开关一次
@@ -1718,11 +1696,11 @@ Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334
 Conflicts: com.huami.ChoicyConfigPin
 Replaces: com.huami.ChoicyConfigPin
 Filename: ./debs/Choicy补丁-Rootless.deb
-Size: 7132
-MD5sum: b4218c2094f295acec1576ee3e33fe15
-SHA1: 2f29e3a95848aa39d51737ed3c7d2712cc2c70f7
-SHA256: 35ffc7fefa0c2b2fa6927c295b9815f35e6cd1ca14fd876302cf7c740d6a1052
-Section: 系统增强
+Size: 7112
+MD5sum: ea7c206abad96fdf33c4d49f194dab68
+SHA1: c4bb2bf27ad17aa7894b4f5a0bc40365701dd05e
+SHA256: 4e4bb143df7d186b99ff3e61a3b314c68b414b1945b7fe204e07edf8bc62f46a
+Section: 轻量插件
 Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -1739,11 +1717,11 @@ Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334
 Conflicts: com.huami.ChoicyConfigPin
 Replaces: com.huami.ChoicyConfigPin
 Filename: ./debs/Choicy补丁-RootHide.deb
-Size: 6052
-MD5sum: 3b6d006d652782022ebfcc1032d8a004
-SHA1: 518c1afe6acc4c1494e3986c8292a15d88aa92ec
-SHA256: e5e48d0a86a2b5ef740107fa44c0338c2a5dce3a2bd1561036f7b3f6d9e8ddd4
-Section: 系统增强
+Size: 6048
+MD5sum: 0f37d89e5cdc9b1e0cb4317dffd21cd4
+SHA1: 13451d59c6a06fb994b5b940e9741187d62631b4
+SHA256: dd154d33894ea31781534ad989061f7d33dda9caa5736630214a477b477e206a
+Section: 轻量插件
 Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -1988,128 +1966,6 @@ Description: 降级应用
 Author: iosdump
 Name: AppData软件增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide_2.7.1.json
-
-Package: lym.com.iosdump.memorycontrol
-Version: 1.3
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 780
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.memorycontrol
-Replaces: com.iosdump.memorycontrol
-Filename: ./debs/MemoryControlX内存优化-Rootless.deb
-Size: 91944
-MD5sum: 6e4f5c3d012c79832061918be7ca4f17
-SHA1: 67bca300d552c71b29129c44821378a9c2656458
-SHA256: 1663724aee25f0cc52dbb335ff2e6a330032aedbc7fb08585c82d6128f58b1a2
-Section: 系统增强
-Description: iOS 14-17 进程内存与优先级调整
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: MemoryControlX内存优化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.memorycontrol.json
-
-Package: lym.com.iosdump.memorycontrol.roothide
-Version: 1.3
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 764
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.iosdump.memorycontrol
-Replaces: com.iosdump.memorycontrol
-Filename: ./debs/MemoryControlX内存优化-RootHide.deb
-Size: 90652
-MD5sum: 310ee0ed6ebd17f015cd20bc1d5f9672
-SHA1: e1c6ca2eda9de6b30c66cde0bcd4654169809ff9
-SHA256: 01cc0a5d7e41b19f3584ac5403680e44b4cbb913c27c62d211505a989dd37bfb
-Section: 系统增强
-Description: iOS 14-17 进程内存与优先级调整
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: MemoryControlX内存优化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.memorycontrol.roothide.json
-
-Package: lym.com.iosdump.screenrecordnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: mobilesubstrate
-Conflicts: com.iosdump.screenrecordnostatusbar
-Replaces: com.iosdump.screenrecordnostatusbar
-Filename: ./debs/录屏时隐藏状态栏-Rootless.deb
-Size: 5744
-MD5sum: de33a5f87b6212867b86baad2f107eaf
-SHA1: 9dc8c3996e0fd083db96cb59013d3926487e52f2
-SHA256: cca7057e78d606e91c763acb14f70c7d6d9e1422062b5a159920c29fd8dd8190
-Section: 系统增强
-Description: 录屏时隐藏状态栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: 录屏时隐藏状态栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenrecordnostatusbar.json
-
-Package: lym.com.iosdump.screenrecordnostatusbar.roothide
-Version: 0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Depends: mobilesubstrate
-Conflicts: com.iosdump.screenrecordnostatusbar
-Replaces: com.iosdump.screenrecordnostatusbar
-Filename: ./debs/录屏时隐藏状态栏-RootHide.deb
-Size: 5680
-MD5sum: de280942d5f96118d35e8744bee51b72
-SHA1: 7438a56879a6357a1a42f83635b4afdd06dc45b6
-SHA256: d2015c896b2124a11d1a73c1904dadaa22bd7eb5ee5a04a88f147f95b3ddfab8
-Section: 系统增强
-Description: 录屏时隐藏状态栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: 录屏时隐藏状态栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenrecordnostatusbar.roothide.json
-
-Package: lym.com.iosdump.screenshotnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.iosdump.screenshotnostatusbar
-Replaces: com.iosdump.screenshotnostatusbar
-Filename: ./debs/截屏时隐藏状态栏-Rootless.deb
-Size: 5336
-MD5sum: 61a4fa85fe1685ac9588d085dc59e9b1
-SHA1: 85e0daa6342783d860c8d6919f0be546793d0baf
-SHA256: 814ce599885ed5673fe8e9a61bf838d41ae002c6a55b5ffd86a6e7e4c0f647f6
-Section: 系统增强
-Description: 截屏时隐藏状态栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: 截屏时隐藏状态栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.json
-
-Package: lym.com.iosdump.screenshotnostatusbar.roothide
-Version: 0.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.iosdump.screenshotnostatusbar
-Replaces: com.iosdump.screenshotnostatusbar
-Filename: ./debs/截屏时隐藏状态栏-RootHide.deb
-Size: 5272
-MD5sum: 5a86aedd84eecd1cb9f5a373c15ecc5b
-SHA1: a898d02393d162634d2dd02533c21abde6a50a78
-SHA256: f6698f1f5c37ca33a7afcf782ce1c5f09d72811b379dfea5a7b5345026f775e9
-Section: 系统增强
-Description: 截屏时隐藏状态栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: 截屏时隐藏状态栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.screenshotnostatusbar.roothide.json
 
 Package: lym.com.iosdump.shellx
 Version: 3.0.1
@@ -2465,17 +2321,16 @@ Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.lns.pogr
 Replaces: com.lns.pogr
-Filename: ./debs/AirPods PodsGrant增强-Rootless.deb
-Size: 75356
-MD5sum: 2b54a08bf6877d27ea725a49aca20ee9
-SHA1: 421a5037c2e32d1d1e3f1f134cbd00963352c1fd
-SHA256: 54c3a3fc1bbea7e9b5384cb606f3bdde53e3f89053c5a5d823c8aef25516daaf
+Filename: ./debs/PodsGrant耳机.deb
+Size: 75396
+MD5sum: 5bbe62dcd72615081bf2194090933257
+SHA1: 17a76df5a0b42c49bc1e91be68237b31b3b62e47
+SHA256: 870838aef1d2072b9a78e07a3dd42eecda8dae48f53dac83b5bb85c5127469d0
 Section: 系统增强
-Description: 插件介绍
- - 调整以提高旧设备上AirPods的兼容性
+Description: - 调整以提高旧设备上AirPods的兼容性
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Ruphane
-Name: AirPods PodsGrant增强-Rootless
+Name: PodsGrant耳机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogr.json
 
 Package: lym.com.macxk.kwcrack
