@@ -173,11 +173,11 @@ Depends: mobilesubstrate
 Conflicts: com.squidforce.moreactionsforappicon
 Replaces: com.squidforce.moreactionsforappicon
 Filename: ./debs/应用3DTouch菜单.deb
-Size: 8524
-MD5sum: 817d15af7e65048e02ce3c4d195dd470
-SHA1: 68f5d12e16e5f9246dffb9e404e109ed07ce50b5
-SHA256: 21ad069faf456301926ec8c8defabff19c09ad1b3fbd5751fc7229fcb69aa5c9
-Section: 系统增强
+Size: 8528
+MD5sum: 6f179a610286029c637bf35ef3647b21
+SHA1: db61ef4e9b6804311a42f34cc672b315a6003582
+SHA256: 33276f81d6209fabc617b94bc5362312627f4f384bd8d8667c760555e8b32b68
+Section: 乌贼插件
 Description: 添加“应用标识符”，“应用设置”和“在AppStore中查看”动作
  - 去除掉多余动作
  - 插件无设置项安装即可生效
@@ -584,56 +584,6 @@ Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
 
-Package: lym.cn.llld.biaoji
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X: h_h_x_t
-Installed-Size: 164
-Depends: mobilesubstrate
-Conflicts: cn.llld.biaoji
-Replaces: cn.llld.biaoji
-Filename: ./debs/Snapper 3扩展截图标记-Rootless.deb
-Size: 36676
-MD5sum: 680e7b2a3b8128b79978c569b1edf90e
-SHA1: 6b3f7ede7fd36b057a96162927a84848b324d742
-SHA256: e0744a14e7263fec94bdae236fa45596aeca1466823789c0d38f96d770a944aa
-Section: 系统增强
-Description: 插件介绍
- - 给Snapper 或stayShot插件增加标记功能
- - 快速对图进行箭头，打码，复制，方块，涂鸦，保存等
- - 免去了装第三方软件或者跳转程序的繁琐14-17可用，修改图标在插件目录下
- - Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
- - 设置里图标名为Settings-biaoji.png
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 来了老弟 X: h_h_x_t
-Name: Snapper 3扩展截图标记-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.biaoji.json
-
-Package: lym.cn.llld.biaoji.roothide
-Version: 1.5
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 X: h_h_x_t
-Installed-Size: 180
-Depends: mobilesubstrate
-Conflicts: cn.llld.biaoji
-Replaces: cn.llld.biaoji
-Filename: ./debs/Snapper 3扩展截图标记-RootHide.deb
-Size: 36752
-MD5sum: 17f415fd0d2bb8e0b360758cd21fcc82
-SHA1: 06e64c92e79799bbb130614640c0be7bd0bf8637
-SHA256: ef27300419d9f7b43af3c8c6210adc4d870b4282125ee4a2105b10d2b4d79588
-Section: 系统增强
-Description: 插件介绍
- - 给Snapper 或stayShot插件增加标记功能
- - 快速对图进行箭头，打码，复制，方块，涂鸦，保存等
- - 免去了装第三方软件或者跳转程序的繁琐14-17可用，修改图标在插件目录下
- - Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
- - 设置里图标名为Settings-biaoji.png
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 来了老弟 X: h_h_x_t
-Name: Snapper 3扩展截图标记-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.cn.llld.biaoji.roothide.json
-
 Package: lym.com.25mao.KuaiDou
 Version: 0.1-1
 Architecture: iphoneos-arm64
@@ -951,26 +901,6 @@ Author: t.me/gyddpu
 Name: KeyboardHook键盘美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.keyboardhook_2.1-3+debug.json
 
-Package: lym.com.Axs.lingdongdao
-Version: 1.0.0.0-1
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 2144
-Depends: mobilesubstrate
-Conflicts: com.Axs.lingdongdao
-Replaces: com.Axs.lingdongdao
-Filename: ./debs/灵动岛自定义-Rootless.deb
-Size: 463248
-MD5sum: 849519201d2e0b1c4e739dfd6fe4f035
-SHA1: 3cb749f5e1f8791187978e2c2de418afffcda55a
-SHA256: 5b0360076b6b802c6751f026fade603a4d9cba937ab2655325830519c9c700a1
-Section: 系统增强
-Description: 给灵动岛的外框内框添加自定义颜色,通知背景颜色等
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: MoreColor
-Name: 灵动岛自定义-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.Axs.lingdongdao.json
-
 Package: lym.com.Dynamic.torch.roothide
 Version: 3.3
 Architecture: iphoneos-arm64e
@@ -1152,36 +1082,6 @@ Author: Custom
 Name: Sileo APT-DPKG汉化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.aptzh.roothide_1.3-3+debug.json
 
-Package: lym.com.axs.snapper3tag
-Version: 5.2.0-16
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 240
-Depends: mobilesubstrate
-Conflicts: com.axs.snapper3tag
-Replaces: com.axs.snapper3tag
-Filename: ./debs/Snapper3Tag标记扩展-Rootless.deb
-Size: 27028
-MD5sum: 6826a4ca39f7423fe0e7453fe33865c6
-SHA1: 2a93aa5521d25f6c43782d240506ca7439f6a55c
-SHA256: 468a885d1624aae7651e32516ace9997df3c1deaf5b829f1493cf703b97aafb3
-Section: 系统增强
-Description: Snapper3 截图标记扩展插件。
- - 颜色选择器：红/黄/蓝/绿/白/黑等6种颜色
- - 箭头标记：手指拖拽绘制方向箭头
- - 自由画线：手指跟随绘制任意曲线
- - 矩形图标：点1次是矩形描边、点2次是矩形填充
- - 撤回操作：一键撤销上一步标注
- - 保存相册：渲染并写入系统相册；
- - 复制剪贴板：一键复制标注后截图
- - 自定义图标：将 tag.png / tag_menu.png 放入
- - /var/mobile/Axs/Snapper3图标/ 即可替换。
- - 没有文件夹则自己建立就行
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Axs
-Name: Snapper 3Tag标记扩展-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.axs.snapper3tag.json
-
 Package: lym.com.ban.mydock
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -1247,46 +1147,6 @@ Description: 注销免解锁
 Author: Brend0n <brendonjkding@126.com>
 Name: NoPassAfterRespring注销免解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
-
-Package: lym.com.charlieleung.snapvision
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Charlie Leung
-Installed-Size: 1032
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.charlieleung.snapvision
-Replaces: com.charlieleung.snapvision
-Filename: ./debs/SnapVision长截图-Rootless.deb
-Size: 175544
-MD5sum: 6432a3f73f73afbaf1d74921b4408f85
-SHA1: b1ca2deac18ea84886f11a05f271cad29d610dbd
-SHA256: ddb8808c4a1283ae0a3150d3c25af74bf9a981c0aba31bbff295b2f6a3584a60
-Section: 系统增强
-Description: 这是一款长截图插件,支持鱿鱼手势,支持openjb分屏手势
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Charlie Leung
-Name: SnapVision长截图-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.charlieleung.snapvision.json
-
-Package: lym.com.charlieleung.snapvision.roothide
-Version: 0.0.1
-Architecture: iphoneos-arm64e
-Maintainer: Charlie Leung
-Installed-Size: 1032
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.charlieleung.snapvision
-Replaces: com.charlieleung.snapvision
-Filename: ./debs/SnapVision长截图-RootHide.deb
-Size: 175404
-MD5sum: c833b7001157e025d3a44e4b9335c9b0
-SHA1: 1cfe032c3c331546decb32785d698efd257330c2
-SHA256: 659c8460da2bd070780676365f9c8a14e22e4e2ef1f89e05eb6517a309f6d011
-Section: 系统增强
-Description: 这是一款长截图插件,支持鱿鱼手势,支持openjb分屏手势
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Charlie Leung
-Name: SnapVision长截图-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.charlieleung.snapvision.roothide.json
 
 Package: lym.com.chatgpthook
 Version: 0.0.1-2+debug
@@ -4038,27 +3898,32 @@ Name: NewTerm 3终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ws.hbang.newterm33.roothide_3.0~beta1-2048.json
 
 Package: lym.xhs.x
-Version: 1.2.8
+Version: 1.2.9
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 4012
+Installed-Size: 3560
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1606020
-MD5sum: aecabf25730b1d08c55d4cd337bd198d
-SHA1: 0168b094905ee99ed6797489c1ea6c484d914ec0
-SHA256: f206d3001e9d73274feb359a1e815ac5741152dbd5c79b9b586b525ceee46a02
+Size: 1394124
+MD5sum: 59fdc2bfbfd21cd014ae41c78cc49f6c
+SHA1: 26ffd92a9b91af831b91a05de9f86223952db36d
+SHA256: 7afa529e5b29bf3a33cb547ec733c9c5ec1b502e58f32f5c5b3d2d19a008e99e
 Section: 软件增强
-Description: 默认移除一些广告
+Description: 新增图片文字识别(开启后可在原下载按钮找到识别图片文
+ - 新增评论区视频无水印下载(开启后使用小红书自己的保存按钮即可）字)
+ - 新增私信自动回复(点击标题可配置AI及固定词回复)
+ - 修复一些问题优化一些细节
+ - ### 版本1.2.8
+ - 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
  - 放大图片双指长按可保存高分辨率图片
  - APP设置界面右上角打开插件界面或双指长按设置界面
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 𝙓
 Name: 小红书图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.8.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xhs.x_1.2.9.json
 
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
