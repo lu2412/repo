@@ -2830,10 +2830,10 @@ Conflicts: com.squidforce.doubletapflipcamera
 Replaces: com.squidforce.doubletapflipcamera
 Filename: ./debs/双击翻转相机镜头-Rootless.deb
 Size: 5112
-MD5sum: 5aeab1ec8d5bea500ad8a03a01fabaf5
-SHA1: 6d20b861e7e6eb0ff8fa6435df02dfde61760c45
-SHA256: 08d96f4b9fa3479abed2097c977db7d25168df1c91a917e44723d0d7a0274ece
-Section: 系统增强
+MD5sum: 7b2a409ea2198de1f29a8cd8471ec763
+SHA1: 1e3499564afc8c8e825fdc94c647d01de805b15d
+SHA256: 398ac47043970ed6b023edb866d1be5c1a3a350b4351a36a21a8d67045be4d48
+Section: 乌贼插件
 Description: 双击取景框翻转相机前置和后置镜头
  - 目前支持系统相机拍照和录像，微信拍照和视频，QQ拍照
  - 理论上调用系统相机拍照的应用都可以
@@ -4060,4 +4060,46 @@ Author: lym
 Icon:  
 Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
+
+Package: wiki.qaq.ighostvt
+Version: 0.9.0
+Architecture: iphoneos-arm64
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19252
+Depends: firmware (>= 15.0), uikittools
+Conflicts: wiki.qaq.ighostvt
+Replaces: wiki.qaq.ighostvt
+Filename: ./debs/iGhostVT 终端-Rootless.deb
+Size: 7889256
+MD5sum: 261a3f644d207e5e4091a1ea8db4b65b
+SHA1: 9a87299ea34abcf56d710030fe5d6994d37404ba
+SHA256: 7783b5fa7a7d75527b5b2d432c63ca9229d693487c9cb74ab7adbb9620dd643d
+Section: 编程脚本
+Description: 由厂长开发的一款iOS终端插件
+ - 可后台运行执行命令
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Name: iGhostVT 终端-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/wiki.qaq.ighostvt_0.9.0.json
+
+Package: wiki.qaq.ighostvt.roothide
+Version: 0.9.0
+Architecture: iphoneos-arm64e
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 19252
+Depends: firmware (>= 15.0), uikittools
+Conflicts: wiki.qaq.ighostvt
+Replaces: wiki.qaq.ighostvt
+Filename: ./debs/iGhostVT 终端-RootHide.deb
+Size: 7891464
+MD5sum: 2fd6215ed711d297c303c587d7009bff
+SHA1: a23c37d2667840857e6c52a7acd03c391073ebb6
+SHA256: 20d75abbe80cc1183c61ef83cc1a62a694cd2236752233ece1023167ef985c6d
+Section: 编程脚本
+Description: 由厂长开发的一款iOS终端插件
+ - 可后台运行执行命令
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Name: iGhostVT 终端-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/wiki.qaq.ighostvt.roothide_0.9.0.json
 
