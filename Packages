@@ -414,6 +414,27 @@ Author: alias20
 Name: CalcLog计算器显示过程-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.alias20.calclog.json
 
+Package: lym.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria, lym.atria
+Replaces: me.lau.atria, lym.atria
+Filename: ./debs/Atria原版-Rootless.deb
+Size: 239900
+MD5sum: a3d1c82798359df10ecb0fd362e362fa
+SHA1: 6dfae399a80564e6499faa752f9787bbf4816d35
+SHA256: 05b7755f5459df84ec65ee652f20f94d68ee65a4a103460ef3f2d0d23ca199f0
+Section: 美化插件
+Description: 适用于iOS 13-16的合适的主屏幕布局编辑器
+ - 此版本禁用资源库后，依然可以保留移除app选项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria原版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.atria_1.4.1.json
+
 Package: lym.aweme.x
 Version: 2.6.2
 Architecture: iphoneos-arm64
@@ -3764,27 +3785,6 @@ Description: 长按键盘滑动光标
 Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
-
-Package: lym.me.la.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria原版-Rootless.deb
-Size: 239476
-MD5sum: 7b92ffb78d3a41b358c93ce0da099960
-SHA1: 407511a05f20e4852010974cf70a4d664a43d283
-SHA256: e73f38a931de101c6f2dda38a9622d13bf8833493d1f242e4c42176e8bdd7b84
-Section: 美化插件
-Description: 适用于iOS 13-16的合适的主屏幕布局编辑器
- - 此版本禁用资源库后，依然可以保留移除app选项
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria原版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria_1.4.1.json
 
 Package: lym.me.lau.atria
 Version: 1.4.1
