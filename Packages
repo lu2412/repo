@@ -147,6 +147,26 @@ Author: mlgm
 Name: PullOverX分屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
 
+Package: com.daopu.amap.hidebottom
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 一刀
+Depends: firmware (>= 15.0), ellekit
+Conflicts: com.daopu.amap.hidebottom
+Replaces: com.daopu.amap.hidebottom
+Filename: ./debs/高德去底栏-Rootless.deb
+Size: 3452
+MD5sum: dc82a873b86c8f9605ae144fdc8464c7
+SHA1: 1a6b6cb9a428abb4627e7affe081959c63d049dc
+SHA256: 0c3b23eecd2469822d39cb498e07207399b475f170cce3b3419bae2c4a99e777
+Section: 软件增强
+Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 一刀
+Name: 高德去底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom_1.0.0.json
+
 Package: com.lclrc.hammerit
 Version: 1.7.1
 Architecture: iphoneos-arm64
