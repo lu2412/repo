@@ -3765,7 +3765,7 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
-Package: lym.me.lau.atria
+Package: lym.me.la.atria
 Version: 1.4.1
 Architecture: iphoneos-arm64
 Maintainer: ren7995 <lau7995ren@gmail.com>
@@ -3774,10 +3774,10 @@ Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis
 Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
 Replaces: me.lau.atria
 Filename: ./debs/Atria原版-Rootless.deb
-Size: 239656
-MD5sum: 0a973f3fe619585d1bbae5d37a886e0f
-SHA1: 5156da6d1f58f8f2114ff23578e59e8fdd92e2b3
-SHA256: 27acec146874fe545756c9f26e556f8aa8d89860db7de6a0fd15219e5900166b
+Size: 239476
+MD5sum: 7b92ffb78d3a41b358c93ce0da099960
+SHA1: 407511a05f20e4852010974cf70a4d664a43d283
+SHA256: e73f38a931de101c6f2dda38a9622d13bf8833493d1f242e4c42176e8bdd7b84
 Section: 美化插件
 Description: 适用于iOS 13-16的合适的主屏幕布局编辑器
  - 此版本禁用资源库后，依然可以保留移除app选项
