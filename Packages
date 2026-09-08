@@ -289,7 +289,7 @@ Author: wkk
 Name: KeyboardX键盘调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.keyboardx_1.0-6.json
 
-Package: com.wkk.keyboardx.roothide
+Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64e
 Maintainer: wkk
@@ -298,10 +298,10 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.wkk.keyboardx, com.wkk.keyboardx
 Replaces: com.wkk.keyboardx, com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-RootHide.deb
-Size: 67036
-MD5sum: 6b22337223ec85793c0f89d51ac2e597
-SHA1: 77904d2b9033ad3d27cee665613314d48365f78d
-SHA256: 29ee37db08bddd23ef3fc00402d4535f0e09718feb714b10b5921dae869e2205
+Size: 67128
+MD5sum: 7797892e0785b18b1087cdc2f568abb7
+SHA1: 4edfdaa238096ca13020955b42897c4f411aaccd
+SHA256: 7d60cf132cb20ec1e7024517fcd066ce44c7f6265e70d6ee0a7fe291bd0d43e7
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
