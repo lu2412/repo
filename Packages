@@ -650,26 +650,6 @@ Author: 佚名
 Name: 米家去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MiJia0628-Rootless.json
 
-Package: lym.StoreSwitchAccounts-Rootless
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: lym
-Filename: ./debs/StoreSwitchAccounts账号切换-Rootless.deb
-Size: 102576
-MD5sum: f8ab6347d360071e0fae3a472475d2b6
-SHA1: 692daa6648909d6d1496fcb4a3157abdc1db1958
-SHA256: dd539f2b1decce10296f84515f78953c7053f7924843faf25bf291369f8294ac
-Section: 系统增强
-Description: 快速切换App Store账号
- - 快速在登录帐户之间切换
- - 长按桌面AppStore图标进行切换
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Icon:  
-Name: StoreSwitchAccounts账号切换-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.StoreSwitchAccounts-Rootless.json
-
 Package: lym.alias20.calclog
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -3102,6 +3082,48 @@ Description: 汽水音乐精简选项
 Author: Starry6
 Name: QiShuiNoAd汽水音乐精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.qsyy.json
+
+Package: lym.com.storeswitcher.appstore
+Version: 1.0.6
+Architecture: iphoneos-arm64e
+Maintainer: 0xkuj
+Depends: firmware (>= 11)
+Conflicts: com.yourepo.0xkuj.storeswitcher2rootless, com.storeswitcher.appstore
+Replaces: com.storeswitcher.appstore
+Filename: ./debs/StoreSwitcher 账号切换-RootHide.deb
+Size: 24220
+MD5sum: afe841dfd156141087531a7e557f3619
+SHA1: 5a46aeec37d10d72002903ab566af0f3d2686b8b
+SHA256: be47aee55c44ad814d016c206169e1da881e20234dee990fbc685bf59d9c53e7
+Section: 系统增强
+Description: 桌面长按 App Store 进行切换账号
+ - * Long press the App Store on the desktop to switch accounts
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: subdiox & iosdump
+Name: StoreSwitcher 账号切换-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.storeswitcher.appstore.json
+
+Package: lym.com.storeswitcher.appstore
+Version: 1.0.6
+Architecture: iphoneos-arm64
+Maintainer: 0xkuj
+Depends: firmware (>= 11)
+Conflicts: com.yourepo.0xkuj.storeswitcher2rootless, com.storeswitcher.appstore
+Replaces: com.storeswitcher.appstore
+Filename: ./debs/StoreSwitcher 账号切换-Rootless.deb
+Size: 23216
+MD5sum: 6be35e91c267d8225ad75807076ce30b
+SHA1: 3943c66f06d77015ddad550a3b8c8b85927ed9a6
+SHA256: 7063de62d7e7815f4a3340e38aacb18d9f3545ea3bd2e94ecedd9e17ea0442ba
+Section: 系统增强
+Description: 桌面长按 App Store 进行切换账号
+ - * Long press the App Store on the desktop to switch accounts
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: subdiox & iosdump
+Name: StoreSwitcher 账号切换-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.storeswitcher.appstore.json
 
 Package: lym.com.sunshinesong.split-view-pro
 Version: 1.3.7
