@@ -36,6 +36,25 @@ Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copy
 
 Package: cn.octoforce.squidextender
 Version: 3.7.4
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 6854422
+MD5sum: 079974c577c21695fa1ee7bdae2159cb
+SHA1: cbcbf2de78392ddc6518f6b2253a40bc41af6aa4
+SHA256: f8295018db8d2d3f2f443e1b5fa15da0c24ea397723d625408e3ac21bdc2f76d
+Section: 乌贼插件
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Author: SquidForce, Backup
+Name: SquidExtender(激活码版)
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidextender
+Version: 3.7.4
 Architecture: iphoneos-arm64
 Maintainer: SquidForce, Backup
 Installed-Size: 9988
@@ -228,6 +247,59 @@ Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
 Author: 半生年华
 Name: 移除软件底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dlxg.ym.json
+
+Package: com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64e.deb
+Size: 6280
+MD5sum: bc224ed86a498cf98b047601121e6034
+SHA1: 69269d8407439cdafb78bafb53df55981815af8d
+SHA256: 2e8146607318fd22f98728b4ab94f70cca17fb651573eb687170f6adfe82f525
+Section: 乌贼插件
+Description: tweak for Safari
+Author: SquidForce
+Name: ControlTab - 控制Safari标签页
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
+Package: com.lclrc.controltab
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: SquidForce
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.chr1s.newtab
+Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64.deb
+Size: 6208
+MD5sum: 74fd0436258f9484f4b6602fac8f8855
+SHA1: 974fa0b4a7acd79687b9fdc700ba5370e6f4f9ce
+SHA256: 6cb800873bcaeb522b6cb2e5f7d1c3c034a48f217c87fa7cee3e385f7c19c757
+Section: 乌贼插件
+Description: tweak for Safari
+Author: SquidForce
+Name: ControlTab - 控制Safari标签页
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
+
+Package: com.lclrc.hammerit
+Version: 1.7.1
+Architecture: iphoneos-arm64e
+Maintainer: lclrc(SquidForce)
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Filename: ./debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e.deb
+Size: 2753732
+MD5sum: 525da57322873146c2f2b1943d0b21f9
+SHA1: f32b996e5d44c07b78b00f0e0030dd037505c9b3
+SHA256: 3a08c81d1d9e6eb2c633c9623fc958304fea26e07fa8bd08c325a0a52a4e66ef
+Section: 乌贼插件
+Description: Control your text or translate as you wish.
+Author: lclrc(SquidForce)
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Name: Hammer It
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -525,20 +597,43 @@ Architecture: iphoneos-arm64
 Maintainer: ren7995 <lau7995ren@gmail.com>
 Installed-Size: 886
 Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria, lym.atria
-Replaces: me.lau.atria, lym.atria
-Filename: ./debs/Atria原版-Rootless.deb
-Size: 239900
-MD5sum: a3d1c82798359df10ecb0fd362e362fa
-SHA1: 6dfae399a80564e6499faa752f9787bbf4816d35
-SHA256: 05b7755f5459df84ec65ee652f20f94d68ee65a4a103460ef3f2d0d23ca199f0
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria, lym.atria, lym.atria
+Replaces: me.lau.atria, lym.atria, lym.atria
+Filename: ./debs/Atria作者版-Rootless.deb
+Size: 239936
+MD5sum: 4e3316b0958598153d8c7a457df37ca5
+SHA1: 874be01ad047d21d6e5602111f88aa924468f21e
+SHA256: affd3cea875455db1b25dc1ebf97cce0869d09e91e52cd9a077d6d89c058ce2a
 Section: 美化插件
-Description: 适用于iOS 13-16的合适的主屏幕布局编辑器
+Description: 桌面布局美化插件
+ - 仅针对性适用于iOS 13-16的合适的主屏幕布局编辑器
  - 此版本禁用资源库后，依然可以保留移除app选项
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria原版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.atria_1.4.1.json
+Name: Atria作者版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.atria.json
+
+Package: lym.atria
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: ren7995 <lau7995ren@gmail.com>
+Installed-Size: 886
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria, lym.atria, lym.atria
+Replaces: me.lau.atria, lym.atria, lym.atria
+Filename: ./debs/Atria作者版-RootHide.deb
+Size: 243816
+MD5sum: 9c4f24ae3deaf7aea3a3c7f12abcf149
+SHA1: 88e12f1cc8f1c4bff8113d7a382af2e1383ddedd
+SHA256: 115125ddaa8b679012c06da9535762ead1a3c30aa007add17bc898ba8afbabff
+Section: 美化插件
+Description: 桌面布局美化插件
+ - 仅针对性适用于iOS 13-16的合适的主屏幕布局编辑器
+ - 此版本禁用资源库后，依然可以保留移除app选项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995 <lau7995ren@gmail.com>
+Name: Atria作者版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.atria.json
 
 Package: lym.aweme.x
 Version: 2.6.2
@@ -3750,72 +3845,6 @@ Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
 
-Package: lym.me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria原版桌面布局-Rootless.deb
-Size: 239512
-MD5sum: 07881ce596e8da8500f62512aedd6256
-SHA1: 0af1a6feb07ea44852b888735901f6c25a64009f
-SHA256: a03dac2c8b0fdc54ae85af0930aa6060338eaf4d02f46b68dad5fa2fb3f37245
-Section: 美化插件
-Description: 适用于iOS13-16的主屏幕布局编辑器
- - 原作者插件，添加汉化支持
- - 无移除资源库bug
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria原版桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria_1.4.1.json
-
-Package: lym.me.lau.atria
-Version: 1.4.1-11
-Architecture: iphoneos-arm64
-Maintainer: ren7995
-Installed-Size: 1008
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria布局-Rootless.deb
-Size: 213800
-MD5sum: 52660df32a2595ff5259b84395888e84
-SHA1: ee158557cf97d1809e76cf629d25436447f5af10
-SHA256: f8da6c5a6afc161308446babe4b08e7eadf1c55efcdb3423807bf91ca5813627
-Section: 美化插件
-Description: 适用于iOS13-17的主屏幕布局编辑器，基于开源修改
- - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
- - 移除资源库有些许bug，可选择用回原作者插件
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995
-Name: Atria布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria_1.4.1-11.json
-
-Package: lym.me.lau.atria.roothide
-Version: 1.4.1-11
-Architecture: iphoneos-arm64e
-Maintainer: ren7995
-Installed-Size: 1008
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria布局-RootHide.deb
-Size: 211388
-MD5sum: 19cc18e1c0fde864584f05e2703b650f
-SHA1: 8f34e9efbf18a81ed8a39a3616ac5d21690f9644
-SHA256: 3d4da521f183cfad05766b9ac6767c3b91f3182e06cf88721295ecc462fa3adb
-Section: 美化插件
-Description: 适用于iOS13-17的主屏幕布局编辑器，基于开源修改
- - 编译的中文版，去掉了Alderis Color Picker依赖，编译支持roothide。
- - 移除资源库有些许bug，可选择用回原作者插件
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995
-Name: Atria布局-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria.roothide_1.4.1-11.json
-
 Package: lym.net.camera
 Version: 0.1-2
 Architecture: iphoneos-arm64
@@ -4186,4 +4215,48 @@ Description: 由厂长开发的一款iOS终端插件
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Name: iGhostVT 终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/wiki.qaq.ighostvt.roothide_0.9.0.json
+
+Package: ym.atria
+Version: 1.4.1-11
+Architecture: iphoneos-arm64
+Maintainer: ren7995
+Installed-Size: 1008
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria, me.lau.atria, ym.atria
+Replaces: me.lau.atria, ym.atria
+Filename: ./debs/Atria修改版-Rootless.deb
+Size: 213732
+MD5sum: 86c3e0f90d72b806d1e2be34a54726c1
+SHA1: ceaea7b046ddb86d1307459d45b40da46452bb15
+SHA256: 03367061e0bda1f1e0504fb46780d98e4a934ea61a89977df888e35cfa1cf5bb
+Section: 美化插件
+Description: 桌面布局美化插件
+ - 适用于iOS 13-16的合适的主屏幕布局编辑器
+ - 编译的中文版,去掉了 Alderis Color Picker依赖,编译支持roothide。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995
+Name: Atria修改版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/ym.atria.json
+
+Package: ym.atria
+Version: 1.4.1-11
+Architecture: iphoneos-arm64e
+Maintainer: ren7995
+Installed-Size: 1008
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro,acreson.rootless.cj.atria, me.lau.atria, ym.atria
+Replaces: me.lau.atria, ym.atria
+Filename: ./debs/Atria修改版-RootHide.deb
+Size: 211428
+MD5sum: a98f7802ed92a9896ff9c7cfd74576f2
+SHA1: 2a7ea617a923d375a82e615cb3574caefb7d4e8e
+SHA256: ee47593a88f7317ff568bbe25ae3d8a0ed5cb93d91267b4c84ac24b10d62abfc
+Section: 美化插件
+Description: 桌面布局美化插件
+ - 适用于iOS 13-16的合适的主屏幕布局编辑器
+ - 编译的中文版,去掉了 Alderis Color Picker依赖,编译支持roothide。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ren7995
+Name: Atria修改版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/ym.atria.json
 
