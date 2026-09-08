@@ -16,24 +16,6 @@ Author: SquidForce, Backup
 Name: CopyVault(激活码版)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 
-Package: cn.octoforce.copyvault
-Version: 1.9.0
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6220
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.squidforce.copyvault
-Filename: ./debs/cn.octoforce.copyvault_1.9.0_iphoneos-arm64.deb
-Size: 1668848
-MD5sum: 88663ece274cdc844f987d871025fc70
-SHA1: fff0b5a88bf8c3ae61c555c67dc694528e830745
-SHA256: 980e940aa6b0282034a7b33930b1b97b301a36a24c564b40765918cc694518df
-Section: 乌贼插件
-Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
-Author: SquidForce, Backup
-Name: CopyVault(激活码版)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-
 Package: cn.octoforce.squidextender
 Version: 3.7.4
 Architecture: iphoneos-arm64
@@ -64,24 +46,6 @@ Size: 1787908
 MD5sum: 17024df247da6f231b9d07efded35f36
 SHA1: b6cc93177a0dc4a1a08a0625be380f6d21521872
 SHA256: 1a93735d95ba354f3a006e6e165d0e70d9d412742f992db6096d2862a3d29b5b
-Section: 乌贼插件
-Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
-Author: SquidForce, Backup
-Name: SquidGesturePro(激活码)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
-Package: cn.octoforce.squidgesturepro
-Version: 2.7.6-1
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
-Size: 1768812
-MD5sum: a2444b3944785ac5752522671a04a004
-SHA1: b409938702c02a7965058e0ede03870eb4bb5f33
-SHA256: 01a338f3adeb8e6365bbfd69623ac1b9184e677f97403a704536165ab4e350ec
 Section: 乌贼插件
 Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
 Author: SquidForce, Backup
@@ -217,26 +181,6 @@ Size: 380768
 MD5sum: 67d54ef24829e7cbf5ffbc4719793af5
 SHA1: cd338c781539fe956af9c8089aa1646686999a21
 SHA256: 8558b80a59fc67d93f2fad4f3b601fab6bef8e985f20990d7ea48fad85175c38
-Section: 分屏插件
-Description: 简约分屏插件
-   - 支持ARC菜单
-   - 支持系统URL跳转等
-   - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏
-
-Package: com.susudear.screencore
-Version: 1.0.7-1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2644
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-Rootless.deb
-Size: 384176
-MD5sum: d1716d00fc846d37c954d0da9154a7d2
-SHA1: b32125da60f0a199c78b4f9f30843c50c0dc22c1
-SHA256: 4e05bbab73cf88f7cd21159aeac5d7c2c946a66788b41eace69b63401812af75
 Section: 分屏插件
 Description: 简约分屏插件
    - 支持ARC菜单
@@ -2425,28 +2369,6 @@ Author: Nightwind
 Name: HorizontalSliders-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.horizontalsliders.json
 
-Package: lym.com.nightwind.onesettings
-Version: 2.2
-Architecture: iphoneos-arm64
-Maintainer: Nightwind
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.nightwind.onesettings
-Replaces: com.nightwind.onesettings
-Filename: ./debs/OneSettings设置归类-Rootless.deb
-Size: 217324
-MD5sum: 95fa7480f56c1a708314e5bd75aba4f1
-SHA1: 106d98789c66301b69b7f3440b53da1abaddc69c
-SHA256: 7a7db3c88b1b57194038d10f98c31b4d0a77654d04d47b27f490fed341d460fd
-Section: 系统增强
-Description: 系统设置美化分类插件
- - OneSettings是Settings应用程序的一个调整它模仿了从三星OneUl到iOS的设置应用程序
- - 插件中有很多可定制性和功能，适合任何人的口味表格单元格的字幕、自定义设置背景、表格视图插图和角半径、恶搞存储量等等
- - 有很多很多功能，还有更多功能将在更新中推出
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Nightwind
-Name: OneSettings设置归类-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.nightwind.onesettings.json
-
 Package: lym.com.nx.stheno
 Version: 77.1.4.7
 Architecture: iphoneos-arm64
@@ -3497,6 +3419,48 @@ Author: lhl
 Name: VVebo时间线修复-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourcompany.vvebofix.roothide_1.0-5+debug.json
 
+Package: lym.com.yourdomain.newpackage
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage
+Replaces: com.nightwind.onesettings, com.yourdomain.newpackage
+Filename: ./debs/OneSettings设置归类-Rootless.deb
+Size: 216232
+MD5sum: b278526213be5012e5262735ef9a5bf8
+SHA1: 5d7976ff67494cb16bf9c0f9a915169de350ee70
+SHA256: e8990c14e30883de312c94806f0ce4d89a3791b2749c5d884a79a8aa4ac880f2
+Section: 美化插件
+Description: 设置内插件归类
+ - 自定义背景图、顶图、单元格
+ - 更改关于本机页面的一些内容
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: OneSettings设置归类-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourdomain.newpackage_2.2.json
+
+Package: lym.com.yourdomain.newpackage.roothide
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage
+Replaces: com.nightwind.onesettings, com.yourdomain.newpackage
+Filename: ./debs/OneSettings设置归类-RootHide.deb
+Size: 224828
+MD5sum: 13eb18089b130f24b3ad1d0410494ffc
+SHA1: ba0ed4adf8ae02fb10f3bb6b93297f383fdface2
+SHA256: 151b93468ae02aeb65cd7f1b951aec389f52f551bd237f9ab75718f8be35e69d
+Section: 美化插件
+Description: 设置内插件归类
+ - 自定义背景图、顶图、单元格
+ - 更改关于本机页面的一些内容
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: OneSettings设置归类-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourdomain.newpackage.roothide_2.2.json
+
 Package: lym.com.yourepo.lly.adsspee-rootless
 Version: 1.1.3
 Architecture: iphoneos-arm64
@@ -3665,28 +3629,6 @@ Description: 长按键盘滑动光标
 Author: r_plus
 Name: AnyKeyTrackpad键盘任意键光标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.jp.r-plus.anykeytrackpad.json
-
-Package: lym.me.lau.atria
-Version: 1.4.1
-Architecture: iphoneos-arm64
-Maintainer: ren7995 <lau7995ren@gmail.com>
-Installed-Size: 886
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, ws.hbang.alderis (>= 1.1)
-Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, me.lau.atria
-Replaces: me.lau.atria
-Filename: ./debs/Atria原版桌面布局-Rootless.deb
-Size: 239512
-MD5sum: 07881ce596e8da8500f62512aedd6256
-SHA1: 0af1a6feb07ea44852b888735901f6c25a64009f
-SHA256: a03dac2c8b0fdc54ae85af0930aa6060338eaf4d02f46b68dad5fa2fb3f37245
-Section: 美化插件
-Description: 适用于iOS13-16的主屏幕布局编辑器
- - 原作者插件，添加汉化支持
- - 无移除资源库bug
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ren7995 <lau7995ren@gmail.com>
-Name: Atria原版桌面布局-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.me.lau.atria_1.4.1.json
 
 Package: lym.me.lau.atria
 Version: 1.4.1-11
