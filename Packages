@@ -1064,20 +1064,41 @@ Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 76
 Depends: mobilesubstrate
-Conflicts: com.apple.DocumentsApp
-Replaces: com.apple.DocumentsApp
-Filename: ./debs/软件去底栏-Rootless.deb
+Conflicts: com.apple.DocumentsApp, lym.com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp, lym.com.apple.DocumentsApp
+Filename: ./debs/移除软件底栏-Rootless.deb
 Size: 3992
-MD5sum: 285d7d0fcaac64ec63bbcf839f17d2cc
-SHA1: 7805d167e47c14636b3d60f51b42831eefc21977
-SHA256: 75be12d7edf49b826e048908a2922cfad137a431a5f884f764d479aab8d78079
+MD5sum: 006d896ff4e9bc1d1c5273c8716691bb
+SHA1: 0a2f636884dee4d85e1243e301554fa77cda2737
+SHA256: 0ccc059ad69d2b0e9667260a5995cd21bd984440d629431f9399599542034e60
 Section: 轻量插件
-Description: 仅针对性移除 钉钉 酷安 App Store的底栏
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 半生年华
-Name: 软件去底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.DocumentsApp_1.0.0-1+debug.json
+Name: 移除软件底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.apple.DocumentsApp.json
+
+Package: lym.com.apple.DocumentsApp.roothide
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, lym.com.apple.DocumentsApp.roothide
+Replaces: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, lym.com.apple.DocumentsApp.roothide
+Filename: ./debs/移除软件底栏-RootHide.deb
+Size: 4996
+MD5sum: 0a9dc3a027ae4e15efa06aa798c53e14
+SHA1: 2568ae62867bb76a2b3e3743006c9ce75c93e8da
+SHA256: a9588c74b9d0b69bfd7efd9fa6586b7b38c9cfec58c4c6d23e35aed50d14c466
+Section: 轻量插件
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 移除软件底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.apple.DocumentsApp.roothide.json
 
 Package: lym.com.apple.wechat.noads
 Version: 1.2.0
