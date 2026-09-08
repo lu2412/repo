@@ -3,5 +3,5 @@ Label:  横七竖八研究内部源
 Description: 本人自用,收藏备份。
 Suite: stable
 Version: 1.0
-Architectures: iphoneos-arm64
+Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
