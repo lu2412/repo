@@ -107,6 +107,42 @@ Author: SquidForce, Backup
 Name: SquidGesturePro(激活码)
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-6
+Architecture: iphoneos-arm64
+Maintainer: zqbb
+Installed-Size: 692
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64.deb
+Size: 129916
+MD5sum: b5bd91772c35857304671a214bd57892
+SHA1: 2e297b30abc67ad5dad07833d636166f27d9348a
+SHA256: 438c01a962208f9153db5d7a84c0df50a4fc1e1976044fcefb19ae114fb2351b
+Section: 乌贼插件
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
+Package: cn.zqbb.disupdateapp
+Version: 2.0.0-6
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 720
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/cn.zqbb.disupdateapp_2.0.0-6_iphoneos-arm64e.deb
+Size: 129224
+MD5sum: 1be923b6c15755aea20a5febc5f58c97
+SHA1: a0fec81ed92bc16c6145912723875a46eb13ce64
+SHA256: 7e45b9a485fb604426ceadd1a85243537633c36acfae5fa34c1b62fa5c96de85
+Section: 乌贼插件
+Description: 屏蔽App Store更新提示(Block App Store Updates)!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
+Name: Hello App
+Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
+
 Package: com.Axs.accode
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -255,14 +291,14 @@ Maintainer: SquidForce
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64e.deb
-Size: 6280
-MD5sum: bc224ed86a498cf98b047601121e6034
-SHA1: 69269d8407439cdafb78bafb53df55981815af8d
-SHA256: 2e8146607318fd22f98728b4ab94f70cca17fb651573eb687170f6adfe82f525
+Size: 6300
+MD5sum: 86055ccec98608fd0550b89bdfbf3017
+SHA1: 8fc448ed768b298ab1f61c0bff1569b6b6a7a2ce
+SHA256: 8d173a755f9e082561805336ebd05225aeaacb7e75f6aa3610c65d5ea89da481
 Section: 乌贼插件
 Description: tweak for Safari
 Author: SquidForce
-Name: ControlTab - 控制Safari标签页
+Name: ControlTab - 控制Safari标签页无根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: com.lclrc.controltab
@@ -273,14 +309,14 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.chr1s.newtab
 Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64.deb
-Size: 6208
-MD5sum: 74fd0436258f9484f4b6602fac8f8855
-SHA1: 974fa0b4a7acd79687b9fdc700ba5370e6f4f9ce
-SHA256: 6cb800873bcaeb522b6cb2e5f7d1c3c034a48f217c87fa7cee3e385f7c19c757
+Size: 6224
+MD5sum: a7744813a6c7345982ac3850c151b277
+SHA1: 075c430c87aa405090e508e988e44adb941c6324
+SHA256: e596f78bd768a5667f45c3e7c018587e7133591af1b2edfd95ca582e85d991c5
 Section: 乌贼插件
 Description: tweak for Safari
 Author: SquidForce
-Name: ControlTab - 控制Safari标签页
+Name: ControlTab - 控制Safari标签页隐根
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: com.lclrc.hammerit
@@ -494,22 +530,45 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: gaode-Rootless
 Version: 1.0.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: lym
-Filename: ./debs/高德图层-Rootless.deb
-Size: 357760
-MD5sum: 91c3854d52beece4c36db3f34f599e5a
-SHA1: 4be067a95cecfbef1f2b22b38f452ad35fd6956f
-SHA256: 7c2d4f5ba1ab54360820a8f497f9c7572e5560e2b1b5767b308d6ab6854b15ff
+Conflicts: gaode-Rootless
+Replaces: gaode-Rootless
+Filename: ./debs/高德图层-RootHide.deb
+Size: 358956
+MD5sum: 5a69f4a422dbfbd5eca49efa09999ba5
+SHA1: 334dd405fe2d57006114d9d6eb8a8e72e2e3ff27
+SHA256: 74be19cf8d5c08714dbcdab1279f65781064fb5b29918472521e2ce38540d473
 Section: 软件增强
 Description: 高德图层去广告优化
  - 自用功能默认开启去除启动广告
  - 首页一些无用的悬浮移除底部消息-打车移除扫一扫
  - 插件启用：长按底栏1秒弹出设置菜单
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 高德图层-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/gaode-Rootless.json
+
+Package: gaode-Rootless
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: gaode-Rootless
+Replaces: gaode-Rootless
+Filename: ./debs/高德图层-Rootless.deb
+Size: 357956
+MD5sum: 35caf6581f19bf84371fd473dc338bda
+SHA1: fa014f1e41c408d39bbeb7eab050a188262eaaae
+SHA256: ef1ca7e49ce428a6ce4a89794d8a865f4a115fad1e382fc669c3f98f10144777
+Section: 软件增强
+Description: 高德图层去广告优化
+ - 自用功能默认开启去除启动广告
+ - 首页一些无用的悬浮移除底部消息-打车移除扫一扫
+ - 插件启用：长按底栏1秒弹出设置菜单
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: lym
 Name: 高德图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/gaode-Rootless.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/gaode-Rootless.json
 
 Package: lym.FuckWeChatAdBlocker-Rootless
 Version: 1.0
