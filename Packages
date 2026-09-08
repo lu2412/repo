@@ -152,13 +152,13 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: 一刀
 Depends: firmware (>= 15.0), ellekit
-Conflicts: com.daopu.amap.hidebottom
-Replaces: com.daopu.amap.hidebottom
+Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
+Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
 Filename: ./debs/高德去底栏-Rootless.deb
-Size: 3452
-MD5sum: dc82a873b86c8f9605ae144fdc8464c7
-SHA1: 1a6b6cb9a428abb4627e7affe081959c63d049dc
-SHA256: 0c3b23eecd2469822d39cb498e07207399b475f170cce3b3419bae2c4a99e777
+Size: 3444
+MD5sum: e0a62da6d040189b54f801399dd03084
+SHA1: 2edcb44511f7f16180a30659e73127897e8e5a7f
+SHA256: c7f4c1234c664af30260cfc2a3dc4548f97c403aeba1222684589847b9831181
 Section: 软件增强
 Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备。
  - 插件无设置项安装即可生效
@@ -166,6 +166,26 @@ Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使
 Author: 一刀
 Name: 高德去底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom_1.0.0.json
+
+Package: com.daopu.amap.hidebottom.roothide
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 一刀
+Depends: firmware (>= 15.0), ellekit
+Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
+Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
+Filename: ./debs/高德去底栏-RootHide.deb
+Size: 4388
+MD5sum: 98a7a74d6953c434d58d2e057b1eb518
+SHA1: c9189fde837afc969a63d5eab45015765f500dc9
+SHA256: 1cae58b321864c866dc7aeaddff67a757153b69472efda9cd4f49c10104f1644
+Section: 软件增强
+Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 一刀
+Name: 高德去底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom.roothide_1.0.0.json
 
 Package: com.lclrc.hammerit
 Version: 1.7.1
@@ -252,13 +272,13 @@ Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 516
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx
-Replaces: com.wkk.keyboardx
+Conflicts: com.wkk.keyboardx, com.wkk.keyboardx
+Replaces: com.wkk.keyboardx, com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-Rootless.deb
-Size: 64340
-MD5sum: 13240d71205186e6d9175ebb091507f0
-SHA1: 1f66af320f0842c7da56796b2b6f28241de00292
-SHA256: b5147f47360bb6f315797175b9cef475842018833d85e6f0e495fa048cfa5965
+Size: 65044
+MD5sum: 71cba059fbfb2fb99e78b97265791432
+SHA1: 21248386a47e7bec7e55b84c79f09f214c3b5378
+SHA256: 0942d55f12314a824d427625ff4771d8d5697ac841afc38137f5aa22b5f86d25
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
@@ -268,6 +288,29 @@ Description: 键盘美化插件
 Author: wkk
 Name: KeyboardX键盘调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.keyboardx_1.0-6.json
+
+Package: com.wkk.keyboardx.roothide
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wkk.keyboardx, com.wkk.keyboardx
+Replaces: com.wkk.keyboardx, com.wkk.keyboardx
+Filename: ./debs/KeyboardX键盘调整-RootHide.deb
+Size: 67036
+MD5sum: 6b22337223ec85793c0f89d51ac2e597
+SHA1: 77904d2b9033ad3d27cee665613314d48365f78d
+SHA256: 29ee37db08bddd23ef3fc00402d4535f0e09718feb714b10b5921dae869e2205
+Section: 键盘插件
+Description: 键盘美化插件
+ - 支持自带键盘-微信输入法调整
+ - 搜狗,百度,讯飞,豆包输入法候选词颜色渐变
+ - 调整背景色和圆角等相关功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: KeyboardX键盘调整-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.keyboardx.roothide_1.0-6.json
 
 Package: com.wkk.systembox
 Version: 1.3-5
@@ -1697,13 +1740,13 @@ Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 168
 Depends: mobilesubstrate
-Conflicts: com.hx.wn
-Replaces: com.hx.wn
+Conflicts: com.hx.wn, lym.com.hx.wn, com.hx.wn
+Replaces: com.hx.wn, lym.com.hx.wn, com.hx.wn
 Filename: ./debs/去除分隔符-Rootless.deb
-Size: 19248
-MD5sum: d8917a6f636cbfbe000c48abb8f5c748
-SHA1: d629f9543c99e962c71df401738c1e03639fce17
-SHA256: 01b2c672db9eee76d29a6156ff5d3d0a5ab7268cf11170ab03787fb4860a25b3
+Size: 19228
+MD5sum: 3eb333051d65b217d32025b638cec99f
+SHA1: 780a502f699552cc877084daab6113a58b387565
+SHA256: 68df2ce9ea7b3ceae424fcdfee0cb7707f4e4b9ff15e0d7f322d990727ac326e
 Section: 美化插件
 Description: 去除一些顽固分隔符
  - 例如系统时钟、备忘录、文件、天气、iCleaner pro
@@ -1722,13 +1765,13 @@ Architecture: iphoneos-arm64e
 Maintainer: 半生年华
 Installed-Size: 168
 Depends: mobilesubstrate
-Conflicts: com.hx.wn
-Replaces: com.hx.wn
+Conflicts: com.hx.wn, lym.com.hx.wn, com.hx.wn
+Replaces: com.hx.wn, lym.com.hx.wn, com.hx.wn
 Filename: ./debs/去除分隔符-RootHide.deb
-Size: 19248
-MD5sum: 8eb956013e2c6e8c5ff767d92959352f
-SHA1: 26d8aa6290a5d1aa5b1ddbcebadafc39cd17362f
-SHA256: 7bde030b2245ebe83b56b615dd17bf0f093dd8b5672ac4fe69319b162247c147
+Size: 20908
+MD5sum: 3000646ae85e87cb52f25f697376033f
+SHA1: bc561f3379a498bc4a3f91123d2723c1f59ac377
+SHA256: b74b86b4389b9b19864bc8923816149c09b02fd94b75b7598dbe3dc5bf0e57a6
 Section: 美化插件
 Description: 去除一些顽固分隔符
  - 例如系统时钟、备忘录、文件、天气、iCleaner pro
