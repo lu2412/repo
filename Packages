@@ -528,6 +528,48 @@ Author: Crassna
 Name: Stheno分屏新版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.ym.stheno.roothide_0.json
 
+Package: com.ymxybp888.lockbutto
+Version: 0.1-2
+Architecture: iphoneos-arm64
+Maintainer: xybp888
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.xybp888.lockbutton, com.ymxybp888.lockbutto
+Replaces: com.xybp888.lockbutton, com.ymxybp888.lockbutto
+Filename: ./debs/一键锁屏-Rootless.deb
+Size: 30852
+MD5sum: 4acd048033ba4439567f029b3d0afbfc
+SHA1: 208ca75a786fb3bc3ed0cb5cb0ccd98a5bd3081a
+SHA256: 24e6afcb90372011d73ed4fcf65d3175399afc74862dd5f7e309897bc7261d44
+Section: 轻量插件
+Description: 主屏幕一键锁屏
+ - 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: xybp888
+Name: 一键锁屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.ymxybp888.lockbutto.json
+
+Package: com.ymxybp888.lockbutto
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: xybp888
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.ymxybp888.lockbutto
+Replaces: com.ymxybp888.lockbutto
+Filename: ./debs/一键锁屏-RootHide.deb
+Size: 26980
+MD5sum: 8cad5d01c3739d423a802e226e59e4a4
+SHA1: 645692269b4e33c625cb1a7b50fb4b35b536aca4
+SHA256: 82882be408a8ed8f4da64bf65117f9ec081eda1ca765b1ae1e62eaad0755c680
+Section: 轻量插件
+Description: 主屏幕一键锁屏
+ - 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: xybp888
+Name: 一键锁屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.ymxybp888.lockbutto.json
+
 Package: gaode-Rootless
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -3604,26 +3646,6 @@ Description: 移除一些广告 弹窗 无水印保存视频图片
 Author: x✨
 Name: 快手图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.kshook.json
-
-Package: lym.com.xybp888.lockbutton
-Version: 0.1-2
-Architecture: iphoneos-arm64
-Maintainer: xybp888
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.xybp888.lockbutton
-Replaces: com.xybp888.lockbutton
-Filename: ./debs/一键锁屏-Rootless.deb
-Size: 30840
-MD5sum: 786ac19964ad776ea802e392fe17b3a1
-SHA1: 9d02329f7f027c896cf18bafc04b4730176c0d4b
-SHA256: ee3cccb2e30bd743ee11c0a70133d46a6db12cbfe0c6994b084487c649a0b542
-Section: 系统增强
-Description: 一键锁屏安装后在桌面显示一个图标,点击图标就能快速锁屏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: xybp888
-Name: 一键锁屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xybp888.lockbutton.json
 
 Package: lym.com.xybp888.noapplemobilerepair
 Version: 0.0.1-103
