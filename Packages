@@ -291,14 +291,14 @@ Maintainer: SquidForce
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64e.deb
-Size: 6300
-MD5sum: 86055ccec98608fd0550b89bdfbf3017
-SHA1: 8fc448ed768b298ab1f61c0bff1569b6b6a7a2ce
-SHA256: 8d173a755f9e082561805336ebd05225aeaacb7e75f6aa3610c65d5ea89da481
+Size: 6288
+MD5sum: 39cf88eba2d1858b53549d24d673cfbc
+SHA1: 4f37fe6fa85b0ca6a95b425b1539f61bacc119e0
+SHA256: 503a9010cd2446ba988c9f7e859cc07b898fc8a0b5f84cf5446e9b2cd029fdde
 Section: 乌贼插件
 Description: tweak for Safari
 Author: SquidForce
-Name: ControlTab - 控制Safari标签页无根
+Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: com.lclrc.controltab
@@ -309,14 +309,14 @@ Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.chr1s.newtab
 Filename: ./debs/com.lclrc.controltab_1.0_iphoneos-arm64.deb
-Size: 6224
-MD5sum: a7744813a6c7345982ac3850c151b277
-SHA1: 075c430c87aa405090e508e988e44adb941c6324
-SHA256: e596f78bd768a5667f45c3e7c018587e7133591af1b2edfd95ca582e85d991c5
+Size: 6220
+MD5sum: 39e1227a548356e9e21f59435163678f
+SHA1: 320aae7c183bd75ff1209d8e5fcd588e491cfab1
+SHA256: a7d7abd0b874fef874580b12493e57f94faac91f07b89c27af86605a60541aab
 Section: 乌贼插件
 Description: tweak for Safari
 Author: SquidForce
-Name: ControlTab - 控制Safari标签页隐根
+Name: ControlTab - 控制Safari标签
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
 
 Package: com.lclrc.hammerit
