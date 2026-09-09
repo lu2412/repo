@@ -1585,23 +1585,47 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
+Architecture: iphoneos-arm64e
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro, com.dao.icleanerpro
+Replaces: com.dao.icleanerpro
+Filename: ./debs/iCleaner pro破解版-RootHide.deb
+Size: 1107868
+MD5sum: 0111bd7ae893138c2896ae598e56cf10
+SHA1: b3282154317745ef9f29473bcde3e5d7058ac661
+SHA256: c6abd89fda78c8c3f737e8c85119d24416f4ffc8ca9f82477989ca0651176a88
+Section: 系统增强
+Description: ### iCleanerPro系统工具
+ - 清理缓存、日志
+ - 禁用插件或系统启动项(谨慎使用)
+ - Tips:Bootstrap环境下仅支持清理缓存、日志
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Ivano Bilenchi
+Name: iCleaner pro破解版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.dao.icleanerpro.json
+
+Package: lym.com.dao.icleanerpro
+Version: 7.10.0
 Architecture: iphoneos-arm64
 Maintainer: Ivano Bilenchi
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro, com.dao.icleanerpro
 Replaces: com.dao.icleanerpro
 Filename: ./debs/iCleaner pro破解版-Rootless.deb
-Size: 984328
-MD5sum: 0f8f3ad909e79fc3365d174ddebd02d8
-SHA1: 097a002875b399df317cddd3c9eed4b6248fe1f9
-SHA256: 394eff62144e22d61a854640ade4810fdcb36b89f88dbfad35ea0a97478fc104
+Size: 1101840
+MD5sum: a4061c8f41bd2ceaedef1e2868f82154
+SHA1: ab3c7acbaf079a50dcfaad07c14f98a966aaaa6a
+SHA256: 8429f6a28f872c01a7ebeeeeb5a7ac1fcadb26a92e8742481ef22dd92057a376
 Section: 系统增强
-Description: iOS系统清理和管理实用程序
- - 默认简体中文，破解版。
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+Description: ### iCleanerPro系统工具
+ - 清理缓存、日志
+ - 禁用插件或系统启动项(谨慎使用)
+ - Tips:Bootstrap环境下仅支持清理缓存、日志
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Ivano Bilenchi
 Name: iCleaner pro破解版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dao.icleanerpro.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.dao.icleanerpro.json
 
 Package: lym.com.dao.kayoko
 Version: 2.9
