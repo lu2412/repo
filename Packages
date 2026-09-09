@@ -612,25 +612,6 @@ Author: xybp888
 Name: 一键锁屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.ymxybp888.lockbutto.json
 
-Package: lym.FuckWeChatAdBlocker-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: girl2023
-Conflicts: FuckWeChatAdBlocker-Rootless
-Replaces: FuckWeChatAdBlocker-Rootless
-Filename: ./debs/微信去广告.deb
-Size: 17120
-MD5sum: e624afcdb28f7d9c2033bfd9781dfaba
-SHA1: 0184d131354fc5f274c022721946ccfa19a691f6
-SHA256: cc891d4d70a4d64c4cad12aec7c0619e9bc39eed3b2ff5c3774df2052b2ed4f8
-Section: 微信插件
-Description: 去除最新8.0.54广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: girl2023
-Name: 微信去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.FuckWeChatAdBlocker-Rootless.json
-
 Package: lym.MiJia0628-Rootless
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1278,17 +1259,43 @@ Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js
 
 Package: lym.com.apple.wechat.noads
 Version: 1.2.0
+Architecture: iphoneos-arm64e
+Maintainer: Apple
+Installed-Size: 272
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.apple.wechat.noads, lym.com.apple.wechat.noads
+Replaces: com.apple.wechat.noads, lym.com.apple.wechat.noads
+Filename: ./debs/微信去广告和谐版-RootHide.deb
+Size: 23608
+MD5sum: c4cba9c70267b998ea9c3afc7e4c6ef9
+SHA1: 0d3da4236a41d3ed3446fe942766e095a2ce8832
+SHA256: bd803555d838665744097cfbef9e253879b1b5fff0d7824d15b27a1230404689
+Section: 微信插件
+Description: 微信去广告和谐版
+ - 插件开关已纳入微信插件管理页面
+ - 删除搜索页面的广告
+ - 删除公众号列表广告、快讯
+ - 删除公众号文章中间和底部的广告
+ - 删除朋友圈广告,删除小程序的广告
+ - 删除直播和视频号中的广告
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Apple
+Name: 微信去广告和谐版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.apple.wechat.noads.json
+
+Package: lym.com.apple.wechat.noads
+Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: Apple
 Installed-Size: 272
 Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.apple.wechat.noads
-Replaces: com.apple.wechat.noads
+Conflicts: com.apple.wechat.noads, lym.com.apple.wechat.noads
+Replaces: com.apple.wechat.noads, lym.com.apple.wechat.noads
 Filename: ./debs/微信去广告和谐版-Rootless.deb
-Size: 22300
-MD5sum: bf11161d7a50029c21ed8d1a2d525e19
-SHA1: c7b71444b1531cb2c00fad867315fdf286f7ef90
-SHA256: f8c1941d282b43b488d664469665c0345fdde1ca749d93131f55c7de043bca1e
+Size: 22280
+MD5sum: 7f5d14b58666e3ef6d5fffe3560e1a36
+SHA1: 34781fc5561005da9a05c923fb6eaadf5e05d4f4
+SHA256: 00e097d03a3a310eb233e77ea3e148033b8354a721134b4f73a3d0a3ac39f379
 Section: 微信插件
 Description: 微信去广告和谐版
  - 插件开关已纳入微信插件管理页面
@@ -1300,7 +1307,7 @@ Description: 微信去广告和谐版
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Apple
 Name: 微信去广告和谐版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.apple.wechat.noads.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.apple.wechat.noads.json
 
 Package: lym.com.aptzh
 Version: 1.3-3+debug
