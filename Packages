@@ -4255,20 +4255,43 @@ Architecture: iphoneos-arm64
 Maintainer: z
 Installed-Size: 152
 Depends: mobilesubstrate
-Conflicts: z.weifeng
-Replaces: z.weifeng
+Conflicts: z.weifeng, lym.z.weifeng
+Replaces: z.weifeng, lym.z.weifeng
 Filename: ./debs/威锋去广告-Rootless.deb
-Size: 4176
-MD5sum: 8d241c2364f70d7ac4b14f2181223ede
-SHA1: de42149d78493c7969ab3855c5e4d9c40332309a
-SHA256: 3e29dd743afaf9b939416f03e461cb6bb8e369cf3357bf23cbe44add75f0edb4
+Size: 4212
+MD5sum: 1658f6dadf8e2696657a9ae898ae35b9
+SHA1: 2fc86b46502e94fed28b84bb72c737fae8da2f61
+SHA256: 1513eea52323592a4ebd7bca8bd95c913c4c5e8078c08f222013015e5b8b731a
 Section: 软件增强
-Description: 插件介绍
+Description: 移除威锋启动广告等
  - 基于7.0.8制作
+ - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: z
 Name: 威锋去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.z.weifeng.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.z.weifeng.json
+
+Package: lym.z.weifeng
+Version: 1.5
+Architecture: iphoneos-arm64e
+Maintainer: z
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: z.weifeng, lym.z.weifeng
+Replaces: z.weifeng, lym.z.weifeng
+Filename: ./debs/威锋去广告-RootHide.deb
+Size: 5296
+MD5sum: b7ffb2024577530fa6a3098314c3a6cc
+SHA1: cfbf1051bb76726cc9457d1817d7454ecb0698d5
+SHA256: 4c9544f4bd096fbb26da5b4fd27d9a71b8ef58de029f5d51b2c630e91a1121d1
+Section: 软件增强
+Description: 移除威锋启动广告等
+ - 基于7.0.8制作
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: z
+Name: 威锋去广告-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.z.weifeng.json
 
 Package: lym.zuji-Rootless
 Version: 1.0
