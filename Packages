@@ -2419,23 +2419,45 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: lym.com.lns.pogr
 Version: 0.5.5~prerelease3
+Architecture: iphoneos-arm64e
+Maintainer: Ruphane
+Installed-Size: 480
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.lns.pogr, lym.com.lns.pogr
+Replaces: com.lns.pogr, lym.com.lns.pogr
+Filename: ./debs/PodsGrant耳机增强-RootHide.deb
+Size: 77396
+MD5sum: 5945c16d55872d1b1f9fe988c1a07364
+SHA1: 12fbbaafd806fa237ce0d6e0c1b8352643da026a
+SHA256: f0cf845cf1a80b5a8eec83c918079de4bf93ba2121a966cdd635993fa752501a
+Section: 系统增强
+Description: 调整以提高旧设备上AirPods的兼容性
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Ruphane
+Name: PodsGrant耳机增强-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.lns.pogr.json
+
+Package: lym.com.lns.pogr
+Version: 0.5.5~prerelease3
 Architecture: iphoneos-arm64
 Maintainer: Ruphane
 Installed-Size: 480
 Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.lns.pogr
-Replaces: com.lns.pogr
-Filename: ./debs/PodsGrant耳机.deb
-Size: 75396
-MD5sum: 5bbe62dcd72615081bf2194090933257
-SHA1: 17a76df5a0b42c49bc1e91be68237b31b3b62e47
-SHA256: 870838aef1d2072b9a78e07a3dd42eecda8dae48f53dac83b5bb85c5127469d0
+Conflicts: com.lns.pogr, lym.com.lns.pogr
+Replaces: com.lns.pogr, lym.com.lns.pogr
+Filename: ./debs/PodsGrant耳机增强-Rootless.deb
+Size: 75400
+MD5sum: 1f1353ac6a32ba230c1862e77e43049c
+SHA1: 5009950b931d72e00d7279ea998813bbd0fa0d88
+SHA256: 515551e45d619f3fdfe0b3a320e16886d65ad16eaf2090b9c7cb1e0eceaf4779
 Section: 系统增强
-Description: - 调整以提高旧设备上AirPods的兼容性
+Description: 调整以提高旧设备上AirPods的兼容性
+ - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Ruphane
-Name: PodsGrant耳机-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lns.pogr.json
+Name: PodsGrant耳机增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.lns.pogr.json
 
 Package: lym.com.macxk.kwcrack
 Version: 0.1-1
