@@ -4006,22 +4006,44 @@ Version: 0.1-2
 Architecture: iphoneos-arm64
 Maintainer: To
 Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: net.camera
-Replaces: net.camera
+Conflicts: net.camera, lym.net.camera
+Replaces: net.camera, lym.net.camera
 Filename: ./debs/全屏相机-Rootless.deb
 Size: 3456
-MD5sum: 9cd7761689e2b7de99225215edb2231e
-SHA1: 237dc7e6278b30a65a99eb928ce09470dc6d3854
-SHA256: 767dd527bfbd232f7924f2c9eb6d932bc25d6fdfeb68794913b224d727253ecd
+MD5sum: c2ad1f4731369bd97e3f40f504794008
+SHA1: e65514c2063618fc960bee0565f427dbc28fb9ee
+SHA256: 946987ffbd87c7496764bb3008ebcce31f253050639c6f46813695a0bd1e79a5
 Section: 系统增强
 Description: 仅去除原生相机顶部和底部两个黑色模块
  - 使其达到全屏视觉效果,默认拍照比例为4:3
  - 只有16:9模式拍出来的照片才算全屏效果
  - 理论兼容目前可越狱全系列设备!
  - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Name: 全屏相机-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.net.camera.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.net.camera.json
+
+Package: lym.net.camera
+Version: 0.1-2
+Architecture: iphoneos-arm64e
+Maintainer: To
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: net.camera, lym.net.camera
+Replaces: net.camera, lym.net.camera
+Filename: ./debs/全屏相机-RootHide.deb
+Size: 4676
+MD5sum: 9d23585feedde4853b79b36621333a9d
+SHA1: 2bb4baed21ad04d5e9b1fbe4136bf01603b6ba44
+SHA256: ebc41ffa432e3bf6d4827e82fdeb4b8bfc19a22e7332f9014a577fff0a59348a
+Section: 系统增强
+Description: 仅去除原生相机顶部和底部两个黑色模块
+ - 使其达到全屏视觉效果,默认拍照比例为4:3
+ - 只有16:9模式拍出来的照片才算全屏效果
+ - 理论兼容目前可越狱全系列设备!
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Name: 全屏相机-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.net.camera.json
 
 Package: lym.netskao.actionbarreborn
 Version: 1.1-2
