@@ -458,6 +458,52 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore分屏
 
+Package: com.tencent.themebox
+Version: 3.0.6
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Replaces: com.tencent.themebox
+Filename: ./debs/微信主题盒子-RootHide.deb
+Size: 9550848
+MD5sum: 51f9d996a66a8b3a098d823653da9a4c
+SHA1: adc0448ed1a4871a381bddf8f7680ca5764ac515
+SHA256: ba96678c0661afc2a6ab418f400bbbcbab9590fcec5fcb2b698c7fd7ac122884
+Section: 微信插件
+Description: 微信主题插件
+ - 支持悬浮底栏,资料页头像居中
+ - 私聊隐藏头像等支持全量DIY
+ - 优先加载diy内容,此版本啥都能diУ
+ - 路径:ThemeBox/diy/对应主题/素材
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信主题盒子-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tencent.themebox.json
+
+Package: com.tencent.themebox
+Version: 3.0.6
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.tencent.themebox
+Replaces: com.tencent.themebox
+Filename: ./debs/微信主题盒子-Rootless.deb
+Size: 9549348
+MD5sum: cd22782ecbedadfa1141bad9b557a8c6
+SHA1: f5abc2106a6a9b779a32ffc20b977de48e0b3d7d
+SHA256: d08dc272598ec5f7a906111819b2faa0585bd72cc784f80956e6bd69c8795ba6
+Section: 微信插件
+Description: 微信主题插件
+ - 支持悬浮底栏,资料页头像居中
+ - 私聊隐藏头像等支持全量DIY
+ - 优先加载diy内容,此版本啥都能diУ
+ - 路径:ThemeBox/diy/对应主题/素材
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信主题盒子-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tencent.themebox.json
+
 Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -3324,52 +3370,6 @@ Description: 把官方Telegram回车键/换行键修改为“发送”功能
 Author: lym
 Name: Telegram换行键-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
-
-Package: lym.com.tencent.themebox
-Version: 3.0.5
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.tencent.themebox
-Replaces: com.tencent.themebox
-Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 9402140
-MD5sum: a847809e01c1041a7202411151d93bd4
-SHA1: 9dbe0564ade3085435741fde6ca3d0d8ed24302d
-SHA256: ce8ee4c099a48f7a2581d88c73f16d1156c3c82f327f22a2a50dcbcd83df78fa
-Section: 微信插件
-Description: 微信主题插件
- - 支持悬浮底栏,资料页头像居中
- - 私聊隐藏头像等支持全量DIY
- - 优先加载diy内容,此版本啥都能diУ
- - 路径:ThemeBox/diy/对应主题/素材
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mao
-Name: 微信主题盒子-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox_3.0.5.json
-
-Package: lym.com.tencent.themebox.roothide
-Version: 3.0.5
-Architecture: iphoneos-arm64e
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.tencent.themebox
-Replaces: com.tencent.themebox
-Filename: ./debs/微信主题盒子-RootHide.deb
-Size: 9397164
-MD5sum: 50443497c1ad8c0c691241e5237ec42d
-SHA1: c5c8793db50653e7d333cafad85496cec5cd570d
-SHA256: 1a6cbeab7d2c5a7bf9ebaefcc96ae4245dc24332526ddbf516ebf1f778d83c05
-Section: 微信插件
-Description: 微信主题插件
- - 支持悬浮底栏,资料页头像居中
- - 私聊隐藏头像等支持全量DIY
- - 优先加载diy内容,此版本啥都能diУ
- - 路径:ThemeBox/diy/对应主题/素材
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mao
-Name: 微信主题盒子-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tencent.themebox.roothide_3.0.5.json
 
 Package: lym.com.touchWorld.bilibiliTweak
 Version: 3.1.0

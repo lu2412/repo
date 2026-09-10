@@ -11,7 +11,7 @@
         {
           "class": "DepictionButtonView",
           "text": "捐赠给开发者",
-          "action": "https://qr.alipay.com/fkx16447droqidnuzcldk3a",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
           "openExternal": 1
         },
         {
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "3.0.3"
+          "text": "3.0.6"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月25日"
+          "text": "2026年09月10日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.0.3\n- 修复低于8.0.60版本闪退问题\n- 修复顶栏图标不变色问题映射问小微图标为xiaowei_filled"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.0.6\n- 修复部分设备不加载输入框素材问题\n- 修复合并消息后搜索聊天记录定位不准\n- 下载中心及跟换主题增加作者分类\n- 小组件功能可增加快速设置和折叠按钮"}
       ]
     }
   ]
