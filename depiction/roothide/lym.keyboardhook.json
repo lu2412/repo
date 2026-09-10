@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 系统输入法和微信输入法的一些自定义\n- 让键盘更个性化!\n- 调整背景色和圆角等相关功能\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 系统输入法布局美化\n- 系统输入法和微信输入法的一些自定义\n- 让键盘更个性化!\n- 调整背景色和圆角等相关功能\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月29日"
+          "text": "2026年09月10日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1-3+debug\n- 由歌一刀破解发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1-3+debug\n- 歌一刀破解发布"}
       ]
     }
   ]
