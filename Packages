@@ -162,6 +162,48 @@ Icon: https://axs66.github.io/pro/icon/stheno.png
 Name: stheno 奥利奥分屏激活码生成器
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/stheno/js.json
 
+Package: com.apple.DocumentsApp
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp
+Filename: ./debs/移除底栏-Rootless.deb
+Size: 3988
+MD5sum: d20bf6e3c20056cac72fa51db50184e9
+SHA1: d63ca16a863d68f01c52c6ba689f62656ee17c3d
+SHA256: 2f0da310d336ee571b679ae3834615227625cab6b8a3d86aef3d46074fdab970
+Section: 美化插件
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 移除底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.DocumentsApp.json
+
+Package: com.apple.DocumentsApp
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp
+Filename: ./debs/移除底栏-RootHide.deb
+Size: 4744
+MD5sum: b42735c1621984cef156e486670fe61b
+SHA1: 3061efbd9810b21362e7d78a8f46e6949927af7a
+SHA256: f85b9ccd6b252746e4b7ea9b413323a6546592a06cca04238e358ea5a352c2ae
+Section: 美化插件
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 移除底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
+
 Package: com.dao.pulloverx
 Version: 2.2.9
 Architecture: iphoneos-arm64
@@ -242,48 +284,6 @@ Author: 一刀
 Name: 高德去底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom.roothide_1.0.0.json
 
-Package: com.dlxg.ym
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 76
-Depends: mobilesubstrate
-Conflicts: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, lym.com.apple.DocumentsApp.roothide, com.dlxg.ym
-Replaces: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, lym.com.apple.DocumentsApp.roothide, com.dlxg.ym
-Filename: ./debs/移除软件底栏-RootHide.deb
-Size: 4996
-MD5sum: cd74cf3b0a7a7e44ab37751f1e6482d8
-SHA1: 0b301219176d6f651b7097cdc27eda1596ae2e2f
-SHA256: 6b7f731353bf695a356f8d46ceedc176166ea466a32f54db8aa884a4ebc88202
-Section: 轻量插件
-Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 移除软件底栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dlxg.ym.json
-
-Package: com.dlxg.ym
-Version: 1.0.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 76
-Depends: mobilesubstrate
-Conflicts: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, com.dlxg.ym
-Replaces: com.apple.DocumentsApp, lym.com.apple.DocumentsApp, com.dlxg.ym
-Filename: ./debs/移除软件底栏-Rootless.deb
-Size: 3988
-MD5sum: 0a97b298615b7c2b03497d7b277df23d
-SHA1: 661cd4196118dc3b802c9617f2f713fdb4d95036
-SHA256: f2ed85c07eb8e2ea3e87538de8daeb669a22fe0404b1cb08a7c8463f68a0f032
-Section: 轻量插件
-Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 移除软件底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dlxg.ym.json
-
 Package: com.gdtc
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -325,6 +325,102 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
+
+Package: com.hx.wn
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hx.wn
+Replaces: com.hx.wn
+Filename: ./debs/Separator分隔线-RootHide.deb
+Size: 22964
+MD5sum: 90201cedfcf8c5da5f341c2e9ce902bd
+SHA1: 13118ed817162880fbf21205c30c4a8838335e2c
+SHA256: ab3b31b0ddd75ea3f63416dedf830f7f2da24e291d0ac0c02a1900f41da0b152
+Section: 美化插件
+Description: 去除一些系统顽固分隔符
+ - 例如系统时钟、备忘录、文件、天气、iCleanerpro
+ - sileo分隔符
+ - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
+ - 以及Telegram等第三方电报去除分割线等
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: Separator分隔线-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hx.wn.json
+
+Package: com.hx.wn
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hx.wn
+Replaces: com.hx.wn
+Filename: ./debs/Separator分隔线-Rootless.deb
+Size: 21188
+MD5sum: b4b64b606f195d751c6b4f3a194c373b
+SHA1: 071abc4ae77507c76dbfc714eb3ed3074c1f3256
+SHA256: a4f978bbb3367ee12c2ee242786cdbccce7e7c99a2eab93e72b1a9dc8ea33a56
+Section: 美化插件
+Description: 去除一些系统顽固分隔符
+ - 例如系统时钟、备忘录、文件、天气、iCleanerpro
+ - sileo分隔符
+ - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
+ - 以及Telegram等第三方电报去除分割线等
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: Separator分隔线-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.hx.wn.json
+
+Package: com.iosdump.appdata
+Version: 2.7.3
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
+Replaces: com.iosdump.appdata
+Filename: ./debs/AppData软件增强-Rootless.deb
+Size: 1711196
+MD5sum: c46ff6fb0a0d651429654182b0d6c837
+SHA1: 451d0e2b15d7ea1bde298c735bbce91b453ca5f9
+SHA256: 5dfde0919171fbf97036a0eb7ecfd71f8847cf4955c4c27c5d1fccad9c2f6b62
+Section: 系统增强
+Description: 降级应用
+ - 修改应用名称
+ - 清除/重置应用数据
+ - 重置应用权限
+ - 快速跳转Filza应用路径
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: AppData软件增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosdump.appdata.json
+
+Package: com.iosdump.appdata
+Version: 2.7.3
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
+Replaces: com.iosdump.appdata
+Filename: ./debs/AppData软件增强-RootHide.deb
+Size: 1714796
+MD5sum: 20d6989396bd5d1c51a8a918e9397406
+SHA1: 8e63a968d9d0980bf62826a8aed4c8909732c6a3
+SHA256: 501bb0939119dffe0898504cd8fcd61830800d7cfb25ba97010c9ace4e7577ca
+Section: 系统增强
+Description: 降级应用
+ - 修改应用名称
+ - 清除/重置应用数据
+ - 重置应用权限
+ - 快速跳转Filza应用路径
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: AppData软件增强-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosdump.appdata.json
 
 Package: com.lclrc.controltab
 Version: 1.0
@@ -2070,52 +2166,6 @@ Description: 缩小键盘与底部的间隙
 Author: icraze
 Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
-
-Package: lym.com.iosdump.appdata
-Version: 2.7.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
-Replaces: com.iosdump.appdata
-Filename: ./debs/AppData软件增强-Rootless.deb
-Size: 1719196
-MD5sum: 12759c076d6016eb39d1f9c3fe63a3d5
-SHA1: 8416c4bbb36edfd8e5c7365eeb69285015122435
-SHA256: f75c0fbae5cf5b9990f7e61defb661d411eb2b3721260745449d4734aeab2624
-Section: 系统增强
-Description: 降级应用
- - 修改应用名称
- - 清除/重置应用数据
- - 重置应用权限
- - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: AppData软件增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata_2.7.1.json
-
-Package: lym.com.iosdump.appdata.roothide
-Version: 2.7.1
-Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
-Conflicts: com.netskao.appdatas, com.netskao.appdata, cn.zqbb.appdata, com.fouadraheb.appdata, com.iosdump.appdata
-Replaces: com.iosdump.appdata
-Filename: ./debs/AppData软件增强-RootHide.deb
-Size: 1721944
-MD5sum: fe23acba2a21227f3069af45d05359b1
-SHA1: 2a12a23773c5cd2878015830b26abc3395e1ef1e
-SHA256: 2fa2b1a5f18dd4fd91e09730bb48a2dcc6a92cc46c75d172831dfed9c5235201
-Section: 系统增强
-Description: 降级应用
- - 修改应用名称
- - 清除/重置应用数据
- - 重置应用权限
- - 快速跳转Filza应用路径
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: AppData软件增强-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.appdata.roothide_2.7.1.json
 
 Package: lym.com.iosdump.shellx
 Version: 3.0.1

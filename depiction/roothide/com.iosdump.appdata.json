@@ -11,7 +11,7 @@
         {
           "class": "DepictionButtonView",
           "text": "捐赠给开发者",
-          "action": "https://qr.alipay.com/fkx16447droqidnuzcldk3a",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
           "openExternal": 1
         },
         {
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.7.1"
+          "text": "2.7.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月26日"
+          "text": "2026年09月10日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.1\n- 修复调整黑名单按钮到主页时导致的数组越界崩溃以及黑名单按钮不显示问题"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.0\n- 修复使用此插件导致fv不能通知下拉分屏问题\n- 优化修改图标加载逻辑,减少磁盘频繁读取,降低I/0,提升流畅度\n- 新增更多功能页内直接操作该应用roothide黑名单开关4.新增禁止应用自动熄屏功能"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.3\n- 初始版本"}
       ]
     }
   ]
