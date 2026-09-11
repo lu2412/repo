@@ -869,14 +869,13 @@ Version: 1.0-2
 Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 108
-Depends: org.coolstar.sileo
-Conflicts: com.wkk.sileosourcesearch
-Replaces: com.wkk.sileosourcesearch
+Conflicts: com.wkk.sileosourcesearch, com.wkk.sileosourcesearch, com.wkk.sileosourcesearch
+Replaces: com.wkk.sileosourcesearch, com.wkk.sileosourcesearch, com.wkk.sileosourcesearch
 Filename: ./debs/Sileo 源搜索-Rootless.deb
-Size: 17564
-MD5sum: 6dcd59dbf1234e4087520cb5cf8866af
-SHA1: 3dea4aa99557bcb50c8225c0eaeb9b32da8393e1
-SHA256: ee1e8cf871a852281ecf4f9eebda9a3a9c1f2b9590204ecddfac0cee9ec7bc05
+Size: 17592
+MD5sum: 1c71ccc8b92f7a79c743368b31227443
+SHA1: 8cfdeba9c8c80494ef40ec3ef01d9a93594bf160
+SHA256: 1f62dfc3195b3b0f4a7372dd5a8919ede22c54616f17105062be9c8114ae9666
 Section: 越狱增强
 Description: 为Sileo软件源页面增加源名称和网址模糊搜索
  - 点击搜索结果可直接进入对应软件源
@@ -893,14 +892,13 @@ Version: 1.0-2
 Architecture: iphoneos-arm64e
 Maintainer: wkk
 Installed-Size: 108
-Depends: org.coolstar.sileo
-Conflicts: com.wkk.sileosourcesearch
-Replaces: com.wkk.sileosourcesearch
+Conflicts: com.wkk.sileosourcesearch, com.wkk.sileosourcesearch, com.wkk.sileosourcesearch
+Replaces: com.wkk.sileosourcesearch, com.wkk.sileosourcesearch, com.wkk.sileosourcesearch
 Filename: ./debs/Sileo 源搜索-RootHide.deb
-Size: 17728
-MD5sum: 501c8462eac61cb43ea9507ca246f6b4
-SHA1: 4073c075abf0c60749909054516bd5751e675a6f
-SHA256: 66d9b80e72f6a54bab52741a4f421dde4af1cf7e8fae8f1bf221c5433efac4dd
+Size: 17736
+MD5sum: 1b122cc908873a16996c45a3e7d79c95
+SHA1: b00835c71fcff388a4df7e181c1d36a2aa545642
+SHA256: 5108141146d8a5fee2452b04afb48ec739f58ce56be82386b23b25e9ca4569f4
 Section: 越狱增强
 Description: 为Sileo软件源页面增加源名称和网址模糊搜索
  - 点击搜索结果可直接进入对应软件源

@@ -17,7 +17,12 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "### 插件介绍\n- 为Sileo软件源页面增加源名称和网址模糊搜索\n- 点击搜索结果可直接进入对应软件源\n- 同时在软件源左滑菜单中增加置顶和取消置顶\n- 按置顶先后顺序排列，最多可置顶5个软件源。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300.533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zqiang.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zqiang1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
