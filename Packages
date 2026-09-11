@@ -1,3 +1,45 @@
+Package: cn.llld.notes-fix
+Version: 1.0.4-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 240
+Depends: mobilesubstrate
+Conflicts: cn.llld.notes-fix
+Replaces: cn.llld.notes-fix
+Filename: ./debs/备忘录增强-Rootless.deb
+Size: 21684
+MD5sum: 47b7a101deec47134cdb5dea8149fd99
+SHA1: c2cc8ebc9d1db0246bdd9418e7576f260c106381
+SHA256: f34559bcda1b64a2d6c68bc2b15583ede7d35dc35818b635766577f50863abc1
+Section: 轻量插件
+Description: 备忘录增强禁用URL，显示字符等
+ - 插件启用方式：随便打开一个备忘录点击页面顶部+号进入设置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 来了老弟 X：h_h_x_t
+Name: 备忘录增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/cn.llld.notes-fix.json
+
+Package: cn.llld.notes-fix
+Version: 1.0.4-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟 X：h_h_x_t
+Installed-Size: 240
+Depends: mobilesubstrate
+Conflicts: cn.llld.notes-fix
+Replaces: cn.llld.notes-fix
+Filename: ./debs/备忘录增强-RootHide.deb
+Size: 22664
+MD5sum: 3eb8694e0908f6463aa5401934723548
+SHA1: b788f0305d8a736e03885e80c75fea0088a8c9f5
+SHA256: cf1ff96172e03a27afa1cafea257d449409ccc15c54a9aee862f35a48a9848d9
+Section: 轻量插件
+Description: 备忘录增强禁用URL，显示字符等
+ - 插件启用方式：随便打开一个备忘录点击页面顶部+号进入设置
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 来了老弟 X：h_h_x_t
+Name: 备忘录增强-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/cn.llld.notes-fix.json
+
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
@@ -203,6 +245,50 @@ Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
 Author: 半生年华
 Name: 移除底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
+
+Package: com.dao.bottomcontrolx
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: ichitaso
+Installed-Size: 408
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
+Replaces: com.dao.bottomcontrolx
+Filename: ./debs/底部上滑手势-Rootless.deb
+Size: 42992
+MD5sum: 49bcee0ea0dd8061680df8f36b91e3d2
+SHA1: 7918da61b50ab8067f494b587d92df76eadc18c4
+SHA256: cfcd368710219506ff40ecbff0371cf95668f96922bf2acdfd0bdff399c1aa09
+Section: 系统增强
+Description: 经典的底部上滑手势
+ - 底部左/中/右区域设置不一样的上滑操作
+ - 根据 ichitaso 开源，简单添加中英文翻译。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ichitaso/XCXiao
+Name: 底部上滑手势-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.bottomcontrolx.json
+
+Package: com.dao.bottomcontrolx
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: ichitaso
+Installed-Size: 408
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
+Replaces: com.dao.bottomcontrolx
+Filename: ./debs/底部上滑手势-RootHide.deb
+Size: 41080
+MD5sum: 27d2b005bb755c7f497aa0db9b17df43
+SHA1: 0662080e9c72f634476f008a1cd651325768b618
+SHA256: d9bc4cdfae0064befe133d4a0a3bb5d45184e37215621fa69f47f7307257fed5
+Section: 系统增强
+Description: 经典的底部上滑手势
+ - 底部左/中/右区域设置不一样的上滑操作
+ - 根据 ichitaso 开源，简单添加中英文翻译。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ichitaso/XCXiao
+Name: 底部上滑手势-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.bottomcontrolx.json
 
 Package: com.dao.pulloverx
 Version: 2.2.9
@@ -684,6 +770,54 @@ Author: Mao
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tencent.themebox.json
 
+Package: com.tweaksettings
+Version: 1.1-1
+Architecture: iphoneos-arm64e
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1492
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Conflicts: com.tweaksettings
+Replaces: com.tweaksettings
+Filename: ./debs/插件归类桌面版-RootHide.deb
+Size: 433260
+MD5sum: 7d6f4ae6b98230cb01a15cd6ebaeed9b
+SHA1: 4880c266943b391e91e2393b959ca58bd5ea24d7
+SHA256: af9ca5912302565d3c484121ae8947665c7e0c89086fc50bcc2b4f9e296e41ab
+Section: 越狱增强
+Description: 插件管理桌面图标版
+ - 把已安装的插件汇总到一起并在桌面生成一个图标
+ - 基于 CreatureSurvive 开源项目
+ - TweakSettings 的简体中文汉化增强版，用于集中管理越狱插件设置
+ - 新增“去掉分割线”“隐藏顶部搜索”和“更换桌面图标”等功能。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: CreatureSurvive & wkk
+Name: 插件归类桌面版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tweaksettings.json
+
+Package: com.tweaksettings
+Version: 1.1-1
+Architecture: iphoneos-arm64
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1496
+Depends: firmware (>= 10.0), preferenceloader | com.creaturecoding.preferred
+Conflicts: com.tweaksettings
+Replaces: com.tweaksettings
+Filename: ./debs/插件归类桌面版-Rootless.deb
+Size: 434416
+MD5sum: d6597a475860d9887b1d02ba88bb008d
+SHA1: d27d9bb244940bded2156275e37b4ec308308921
+SHA256: a021f40fcd1800fcc8347a17ed5e41fea306fd050014c9b3c5ed7623ef9479c8
+Section: 越狱增强
+Description: 插件管理桌面图标版
+ - 把已安装的插件汇总到一起并在桌面生成一个图标
+ - 基于 CreatureSurvive 开源项目
+ - TweakSettings 的简体中文汉化增强版，用于集中管理越狱插件设置
+ - 新增“去掉分割线”“隐藏顶部搜索”和“更换桌面图标”等功能。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: CreatureSurvive & wkk
+Name: 插件归类桌面版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
+
 Package: com.wkk.keyboardx
 Version: 1.0-6
 Architecture: iphoneos-arm64
@@ -730,6 +864,54 @@ Author: wkk
 Name: KeyboardX键盘调整-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.keyboardx.json
 
+Package: com.wkk.sileosourcesearch
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 108
+Depends: org.coolstar.sileo
+Conflicts: com.wkk.sileosourcesearch
+Replaces: com.wkk.sileosourcesearch
+Filename: ./debs/Sileo 源搜索-Rootless.deb
+Size: 17564
+MD5sum: 6dcd59dbf1234e4087520cb5cf8866af
+SHA1: 3dea4aa99557bcb50c8225c0eaeb9b32da8393e1
+SHA256: ee1e8cf871a852281ecf4f9eebda9a3a9c1f2b9590204ecddfac0cee9ec7bc05
+Section: 越狱增强
+Description: 为Sileo软件源页面增加源名称和网址模糊搜索
+ - 点击搜索结果可直接进入对应软件源
+ - 同时在软件源左滑菜单中增加置顶和取消置顶
+ - 按置顶先后顺序排列，最多可置顶5个软件源。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: Sileo 源搜索-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.sileosourcesearch.json
+
+Package: com.wkk.sileosourcesearch
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 108
+Depends: org.coolstar.sileo
+Conflicts: com.wkk.sileosourcesearch
+Replaces: com.wkk.sileosourcesearch
+Filename: ./debs/Sileo 源搜索-RootHide.deb
+Size: 17728
+MD5sum: 501c8462eac61cb43ea9507ca246f6b4
+SHA1: 4073c075abf0c60749909054516bd5751e675a6f
+SHA256: 66d9b80e72f6a54bab52741a4f421dde4af1cf7e8fae8f1bf221c5433efac4dd
+Section: 越狱增强
+Description: 为Sileo软件源页面增加源名称和网址模糊搜索
+ - 点击搜索结果可直接进入对应软件源
+ - 同时在软件源左滑菜单中增加置顶和取消置顶
+ - 按置顶先后顺序排列，最多可置顶5个软件源。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: Sileo 源搜索-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.sileosourcesearch.json
+
 Package: com.wkk.systembox
 Version: 1.3-5
 Architecture: iphoneos-arm64
@@ -755,6 +937,48 @@ Description: 对系统进行各种调整
 Author: wkk
 Name: SystemX系统调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.systembox_1.3-5.json
+
+Package: com.wkk.tiebahook
+Version: 1.0-5
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.tiebahook
+Replaces: com.wkk.tiebahook
+Filename: ./debs/百度贴吧去广告-RootHide.deb
+Size: 4520
+MD5sum: 6a335c5edebe524d574e621462ff3b0d
+SHA1: 1bf04360bd0278eca48829de498e242e1f7544da
+SHA256: f1b4cdf80f7ab38f6c6f202879cf630ea782aa3b892f5b2de6c54d37d9e52d12
+Section: 软件增强
+Description: 去除百度贴吧所有可见广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 百度贴吧去广告-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.tiebahook.json
+
+Package: com.wkk.tiebahook
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 400
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.tiebahook
+Replaces: com.wkk.tiebahook
+Filename: ./debs/百度贴吧去广告-Rootless.deb
+Size: 3492
+MD5sum: 7cce11b0f1417da2ee92732126602d13
+SHA1: d4295ffb4cbbfd210c07b380bee43ab744e83b31
+SHA256: 4c794adffb80e1306bba5b9f33f9b7ab5638ac6a8b87224c36d4910d95da1c78
+Section: 软件增强
+Description: 去除百度贴吧所有可见广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 百度贴吧去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.tiebahook.json
 
 Package: com.ym.stheno
 Version: 0

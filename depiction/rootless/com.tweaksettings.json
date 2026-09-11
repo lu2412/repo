@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 插件管理桌面图标版\n- 把已安装的插件汇总到一起并在桌面生成一个图标\n- 基于 CreatureSurvive 开源项目\n- TweakSettings 的简体中文汉化增强版，用于集中管理越狱插件设置\n- 新增“去掉分割线”“隐藏顶部搜索”和“更换桌面图标”等功能。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/cj.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/cj1.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "CreatureSurvive & wkk"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "1.1-1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月12日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-1\n- 初始版本"}
+      ]
+    }
+  ]
+}
