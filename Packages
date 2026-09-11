@@ -284,6 +284,92 @@ Author: 一刀
 Name: 高德去底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom.roothide_1.0.0.json
 
+Package: com.duncan.tiebanoshop
+Version: 0.0.7
+Architecture: iphoneos-arm64
+Maintainer: duncan <duncan@example.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000)
+Conflicts: com.duncan.tiebanoshop
+Replaces: com.duncan.tiebanoshop
+Filename: ./debs/百度贴吧精简-Rootless.deb
+Size: 6824
+MD5sum: bbb2f2c36f045af4eaf9075d0367c0ff
+SHA1: cd280b2286e5034e655e2f42c9f3ec0b31f00ac3
+SHA256: c6a7afa7dce3309dc3638ae5f4419be527bc5577cca2e25516a71d1a9f6cfd52
+Section: 软件增强
+Description: 百度贴吧移除顶部“有料”直播
+ - 和底部“小卖部”功能，尽可能精简无用模块
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: duncan
+Name: 百度贴吧精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.duncan.tiebanoshop.json
+
+Package: com.duncan.tiebanoshop
+Version: 0.0.7
+Architecture: iphoneos-arm64e
+Maintainer: duncan <duncan@example.com>
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000)
+Conflicts: com.duncan.tiebanoshop
+Replaces: com.duncan.tiebanoshop
+Filename: ./debs/百度贴吧精简-RootHide.deb
+Size: 7796
+MD5sum: 3c13317dbeaebf8cefb734a3d00062b4
+SHA1: c2984d1accb0306e9bdd429d1ee847f3ca170420
+SHA256: 642b7fc1903635521d23ccf881117a031c692ea8f27ff9d55e11395590caf30f
+Section: 软件增强
+Description: 百度贴吧移除顶部“有料”直播
+ - 和底部“小卖部”功能，尽可能精简无用模块
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: duncan
+Name: 百度贴吧精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebanoshop.json
+
+Package: com.duncan.tiebaside
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64
+Maintainer: duncan
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.duncan.tiebaside
+Replaces: com.duncan.tiebaside
+Filename: ./debs/百度贴吧禁用-Rootless.deb
+Size: 4796
+MD5sum: 8ca2399ada641f41bf0efb6fff77588e
+SHA1: af52c7dd2cc4acde8987d119e3032ffbbdd21e4c
+SHA256: 61a08acd5cc8d796516fdaa7a043dc7d945d4a35a356e87b43ace22e50323aeb
+Section: 软件增强
+Description: 禁用百度贴吧侧边栏滑动手势
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: duncan
+Name: 百度贴吧禁用-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.duncan.tiebaside.json
+
+Package: com.duncan.tiebaside
+Version: 0.0.1-2+debug
+Architecture: iphoneos-arm64e
+Maintainer: duncan
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.duncan.tiebaside
+Replaces: com.duncan.tiebaside
+Filename: ./debs/百度贴吧禁用-RootHide.deb
+Size: 5672
+MD5sum: b8f9a2203a72ad61a2d2cf0066bb4dec
+SHA1: 5ba5f362c519ea9481115dfb9f79effa8384b869
+SHA256: 001ebc6047225cafe7a0aad1e9fff8ca5000e304b702654027e59dbf38eceb10
+Section: 软件增强
+Description: 禁用百度贴吧侧边栏滑动手势
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: duncan
+Name: 百度贴吧禁用-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebaside.json
+
 Package: com.gdtc
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -1764,27 +1850,6 @@ Description: 特别好用的免费剪贴板插件
 Author: Alexandra Aurora Göttlicher
 Name: Kayoko剪贴板-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.kayoko.json
-
-Package: lym.com.duncan.tiebanoshop
-Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: duncan <duncan@example.com>
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.7000)
-Conflicts: com.duncan.tiebanoshop
-Replaces: com.duncan.tiebanoshop
-Filename: ./debs/百度贴吧精简-Rootless.deb
-Size: 6852
-MD5sum: 4bc6cb857b4bd0e1164c0b6246e0e8cb
-SHA1: 1859b7211e637c59b790757435211f2da87f290c
-SHA256: 0e6c7a55debd30f8b74089913d70cc6b47f690d0d31487e71eeb9eec1e79517b
-Section: 软件增强
-Description: 百度贴吧移除顶部“有料”和底部“小卖部”
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: duncan
-Name: 百度贴吧精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.duncan.tiebanoshop_0.0.5.json
 
 Package: lym.com.dvntm.cc18
 Version: 0.0.2
