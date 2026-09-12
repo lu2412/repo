@@ -2568,46 +2568,46 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.shellx
-Version: 3.0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 13476
-Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
-Replaces: com.iosdump.shellx
-Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2961316
-MD5sum: 8e466fd6ae2b96b34ac8c6feb013b3a8
-SHA1: 99133604a723827093d04f94ffb0d8db6bb67a7b
-SHA256: 79c6c5040248d88ca8748736d166d038f0f1088e7f07dd35e41a16ffa84dd5a4
-Section: 系统增强
-Description: 支持录屏/区域截图套壳
- - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosdump
-Name: SHELLX截图套壳-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx_3.0.1.json
-
-Package: lym.com.iosdump.shellx.roothide
-Version: 3.0.1
+Version: 3.1.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 13476
+Installed-Size: 13896
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2951508
-MD5sum: 18add225a02f4935c1cab48f4450c2ae
-SHA1: e0ea094e2189844098b81bb8210d0bdabe377d64
-SHA256: 3ec0d5ac391b5d4182ef4fc54fc340e5cbfa0827d3296db457f42f91b1e9fb4f
-Section: 系统增强
+Size: 3076016
+MD5sum: a8837d5dbbaf26608bbc5f501b87666e
+SHA1: 1adf53ffda125bf11267a35de8eb743b0cb4efd4
+SHA256: 2817459f4363871caf3d7c519f1aef94b703840151fbe479d2c536be7e0817a8
+Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: iosdump
 Name: SHELLX截图套壳-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosdump.shellx.roothide_3.0.1.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
+
+Package: lym.com.iosdump.shellx
+Version: 3.1.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 13912
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
+Replaces: com.iosdump.shellx
+Filename: ./debs/SHELLX截图套壳-Rootless.deb
+Size: 3080056
+MD5sum: b9cec41493d1ecef403bb42523e0a7e4
+SHA1: d19481691b83d490b34d14a54ffd3f9ff6b8dfa1
+SHA256: 1b36cf6ee0c0e793a393e5d65b4b45e7777e57505be4035ca38bb592a43fc21e
+Section: 越狱增强
+Description: 支持录屏/区域截图套壳
+ - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: SHELLX截图套壳-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.trollcmtweak
 Version: 1.1.8

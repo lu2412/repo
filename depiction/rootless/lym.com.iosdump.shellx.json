@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 支持录屏/区域截图套壳\n- 水印以及区域截图、长截图等，兼容iOS14-17所有越狱\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sh2.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "iosdump"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "3.1.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月13日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.1.1\n- 修复全屏翻译OCR,设置非本地OCR时文字位置错位问题\n- 新增shellx_scan全屏扫码指令\n- 修复自定义引擎抓取的模型列表不保存问题\n- 优化Ai窗口输入框\n- 修复Ai窗口使用暗色主题时模型切换小窗看不见字体问题\n- 新增当开启保存时同时复制到剪切板或保存时仅复制到剪切板开关时支持自定义调整生效操作\n- 新增熄屏不销毁悬浮图,其它设置开启\n- 手势新增全屏截图\n- 状态栏手势优化与增大灵敏度\n- 修复部分设置在桌面时状态栏左上手势无法操作问题\n- 新增框选时同时显示初始菜单,其它设置开启\n- 删除默认直接翻译按钮,已将翻译、分词分别独立出来\n- 触发方式移到主页已命名为手势设置并添加一些系统基础操作并新增双击音量加/减\n- 手势设置新增dock手势操作面板\n- 手势设置新增屏幕左右下角触发菜单\n- Ai对话窗口新增相机与导入文件,导入文件仅可导入图片跟一些文本文件以及一些日志文件"}
+      ]
+    }
+  ]
+}
