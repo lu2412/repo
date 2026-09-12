@@ -246,6 +246,50 @@ Author: 半生年华
 Name: 移除底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
 
+Package: com.dangkhoa.hotspotpro
+Version: 0.7.0
+Architecture: iphoneos-arm64
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: com.dangkhoa.hotspotpro
+Replaces: com.dangkhoa.hotspotpro
+Filename: ./debs/HotspotPro个人热点-Rootless.deb
+Size: 106560
+MD5sum: 440e136d76771a1d564d63a97591b2a3
+SHA1: 3150622964c70b58bbb2ce601c3e2b48ef2760ff
+SHA256: 3f56c9b36ee0444dd61fd73358ad13eeda985dae33aace59373265648832a462
+Section: 系统增强
+Description: 查看个人热点已共享的数据用量
+ - 接入设备，并可为设备设置流量上限
+ - 插件位于系统设置-个人热点-HotspotPro内
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: DangKhoa <dangkhoa116@gmail.com>
+Name: HotspotPro个人热点-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dangkhoa.hotspotpro.json
+
+Package: com.dangkhoa.hotspotpro
+Version: 0.7.0
+Architecture: iphoneos-arm64e
+Maintainer: DangKhoa <dangkhoa116@gmail.com>
+Installed-Size: 1064
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Conflicts: com.dangkhoa.hotspotpro
+Replaces: com.dangkhoa.hotspotpro
+Filename: ./debs/HotspotPro个人热点-RootHide.deb
+Size: 103096
+MD5sum: f0e601de1cec0b25e291ac18e6b28510
+SHA1: a328b20ca51bb3ba42887dc638771ebec2fa85a4
+SHA256: 61756e714f69f7c2987f4bee9c2648b4b3b67064979ff540a6f387abd0381d6d
+Section: 系统增强
+Description: 查看个人热点已共享的数据用量
+ - 接入设备，并可为设备设置流量上限
+ - 插件位于系统设置-个人热点-HotspotPro内
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: DangKhoa <dangkhoa116@gmail.com>
+Name: HotspotPro个人热点-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dangkhoa.hotspotpro.json
+
 Package: com.dao.bottomcontrolx
 Version: 1.0
 Architecture: iphoneos-arm64
