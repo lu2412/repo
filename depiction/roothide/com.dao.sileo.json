@@ -16,8 +16,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+          "markdown": "### 插件介绍\n- 在更新列表/软件源中浏览插件列表/软件包已安装列表中增加插件架构指示器\n- 在插件左侧有个竖着小指示器:\n- iphoneos-arm64e(隐根)→绿色\n- iphoneos-arm64(无根)→蓝色\n- iphoneos-arm(有根)→橙色\n- all→灰色\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zsq.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zsq1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -27,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "半生年华"
+          "text": "Amy While"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.0-1+debug"
+          "text": "2.5.1-13"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.0-1+debug\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.5.1-13\n- 初始版本"}
       ]
     }
   ]

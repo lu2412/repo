@@ -210,13 +210,13 @@ Architecture: iphoneos-arm64
 Maintainer: 半生年华
 Installed-Size: 76
 Depends: mobilesubstrate
-Conflicts: com.apple.DocumentsApp
-Replaces: com.apple.DocumentsApp
+Conflicts: com.apple.DocumentsApp, com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp, com.apple.DocumentsApp
 Filename: ./debs/移除底栏-Rootless.deb
-Size: 3988
-MD5sum: d20bf6e3c20056cac72fa51db50184e9
-SHA1: d63ca16a863d68f01c52c6ba689f62656ee17c3d
-SHA256: 2f0da310d336ee571b679ae3834615227625cab6b8a3d86aef3d46074fdab970
+Size: 3992
+MD5sum: b59bf98ea69e67d2c3edcedb5bbf5fa9
+SHA1: 535d4902d7d8ce2790882c11ab72a423383e4ca1
+SHA256: 8d02ed6b22ef9c14e1078da1d8eb0398e582ea178890bee18208c78553acc7c3
 Section: 美化插件
 Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
  - 插件无设置项安装即可生效
@@ -231,13 +231,13 @@ Architecture: iphoneos-arm64e
 Maintainer: 半生年华
 Installed-Size: 76
 Depends: mobilesubstrate
-Conflicts: com.apple.DocumentsApp
-Replaces: com.apple.DocumentsApp
+Conflicts: com.apple.DocumentsApp, com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp, com.apple.DocumentsApp
 Filename: ./debs/移除底栏-RootHide.deb
-Size: 4744
-MD5sum: b42735c1621984cef156e486670fe61b
-SHA1: 3061efbd9810b21362e7d78a8f46e6949927af7a
-SHA256: f85b9ccd6b252746e4b7ea9b413323a6546592a06cca04238e358ea5a352c2ae
+Size: 4768
+MD5sum: 78d903ee8c682b7169cb4516db9e02e8
+SHA1: 5e9212ff04eb7277b090e9a8ad91332cb0718aa8
+SHA256: cd42206852cba5d93fb750a9a73915f7b01139b83033075efe825a095b46fcb7
 Section: 美化插件
 Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁的底栏
  - 插件无设置项安装即可生效
@@ -373,6 +373,31 @@ Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客�
 Author: mlgm
 Name: PullOverX分屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
+
+Package: com.dao.sileo
+Version: 2.5.1-13
+Architecture: iphoneos-arm64e
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: com.dao.sileo
+Replaces: org.coolstar.sileo, com.dao.sileo
+Filename: ./debs/Sileo颜色指示器-RootHide.deb
+Size: 3014468
+MD5sum: e21b1a41aaa78f02e6e704f4a6da15cd
+SHA1: ce5640dd22ae16f269a8294ca13f500e08548c03
+SHA256: d0b68eaa95dc741710c39d8a622dd7761beb7f0fe4e0811f9fe3fc482a3c2164
+Section: 越狱增强
+Description: 在更新列表/软件源中浏览插件列表/软件包已安装列表中增加插件架构指示器
+ - 在插件左侧有个竖着小指示器:
+ - iphoneos-arm64e(隐根)→绿色
+ - iphoneos-arm64(无根)→蓝色
+ - iphoneos-arm(有根)→橙色
+ - all→灰色
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Amy While
+Name: Sileo颜色指示器-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
 Package: com.daopu.amap.hidebottom
 Version: 1.0.0
@@ -1021,6 +1046,50 @@ Description: 去除百度贴吧所有可见广告
 Author: wkk
 Name: 百度贴吧去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.tiebahook.json
+
+Package: com.yaowell.hideavcontrols
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.yaowell.hideavcontrols
+Replaces: com.yaowell.hideavcontrols
+Filename: ./debs/HideAVControls麦克风-RootHide.deb
+Size: 5128
+MD5sum: 3732152a2bdcf05ee971ebcde9a7603a
+SHA1: 3bb023626e6950e4a70080c76adabab2eb5d7cae
+SHA256: a40cb7e0747e70d80b3bb30b067f7daef2945d161689c413406671a30eb971ab
+Section: 控制中心
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块
+ - Hide Microphone Mode and Video Effects in Control Center
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: yaowell
+Name: HideAVControls麦克风-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.yaowell.hideavcontrols.json
+
+Package: com.yaowell.hideavcontrols
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: yaowell
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: com.yaowell.hideavcontrols
+Replaces: com.yaowell.hideavcontrols
+Filename: ./debs/HideAVControls麦克风-Rootless.deb
+Size: 5172
+MD5sum: 1643d1449032219aa6570330652ff085
+SHA1: d434665f71498c6d853975c0e99ad34808233240
+SHA256: 9047e1f848856ac18eb1b0ed785d9e6a9b01289e1604ed9c6b7d71de29272df6
+Section: 控制中心
+Description: 隐藏控制中心顶部的麦克风模式与视频效果模块
+ - Hide Microphone Mode and Video Effects in Control Center
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: yaowell
+Name: HideAVControls麦克风-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.yaowell.hideavcontrols.json
 
 Package: com.ym.stheno
 Version: 0
