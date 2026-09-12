@@ -4848,46 +4848,48 @@ Name: 移除tikTok底部发布符号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
 
 Package: wiki.qaq.ighostvt
-Version: 0.9.0
+Version: 0.9.2
 Architecture: iphoneos-arm64
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Installed-Size: 19252
+Installed-Size: 19272
 Depends: firmware (>= 15.0), uikittools
 Conflicts: wiki.qaq.ighostvt
 Replaces: wiki.qaq.ighostvt
 Filename: ./debs/iGhostVT 终端-Rootless.deb
-Size: 7889256
-MD5sum: 261a3f644d207e5e4091a1ea8db4b65b
-SHA1: 9a87299ea34abcf56d710030fe5d6994d37404ba
-SHA256: 7783b5fa7a7d75527b5b2d432c63ca9229d693487c9cb74ab7adbb9620dd643d
-Section: 编程脚本
+Size: 7892980
+MD5sum: eb14be06311c7c76354bede56f4acb52
+SHA1: 21574f8fb584021e020998119515f10d10083b54
+SHA256: 90e1ff55cafb9c23f1188756f4b55173e7a08a714d4b807c1a46d7a22d379d9f
+Section: 终端脚本
 Description: 由厂长开发的一款iOS终端插件
  - 可后台运行执行命令
+ - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Name: iGhostVT 终端-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/wiki.qaq.ighostvt_0.9.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/wiki.qaq.ighostvt.json
 
-Package: wiki.qaq.ighostvt.roothide
-Version: 0.9.0
+Package: wiki.qaq.ighostvt
+Version: 0.9.2
 Architecture: iphoneos-arm64e
 Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
-Installed-Size: 19252
+Installed-Size: 19272
 Depends: firmware (>= 15.0), uikittools
 Conflicts: wiki.qaq.ighostvt
 Replaces: wiki.qaq.ighostvt
 Filename: ./debs/iGhostVT 终端-RootHide.deb
-Size: 7891464
-MD5sum: 2fd6215ed711d297c303c587d7009bff
-SHA1: a23c37d2667840857e6c52a7acd03c391073ebb6
-SHA256: 20d75abbe80cc1183c61ef83cc1a62a694cd2236752233ece1023167ef985c6d
-Section: 编程脚本
+Size: 7893988
+MD5sum: 80c0b3f0ead6eed4a8b9e8575a817f4d
+SHA1: 92f9bc8e3e7756b0fb66d50b6d383fafea2b68e6
+SHA256: 4735755d2f5ca28db69aa688f42684950e5b0dea58fc3b72bfb321d894e35ba8
+Section: 终端脚本
 Description: 由厂长开发的一款iOS终端插件
  - 可后台运行执行命令
+ - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
 Name: iGhostVT 终端-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/wiki.qaq.ighostvt.roothide_0.9.0.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/wiki.qaq.ighostvt.json
 
 Package: ym.atria
 Version: 1.4.1-11
