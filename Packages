@@ -525,6 +525,52 @@ Author: duncan
 Name: 百度贴吧禁用-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebaside.json
 
+Package: com.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.floating-view
+Replaces: com.floating-view
+Filename: ./debs/FloatingView分屏破解版-Rootless.deb
+Size: 652200
+MD5sum: ad6edd6618c942c663ce4116ee71fd6c
+SHA1: 9d4d0c5bd00a34592d2454616f22334376c43a1d
+SHA256: 1abaf6a4970677b8a966e903703600f0673554eb1eff7c0eea4d24e9bbc8e8cc
+Section: 分屏插件
+Description: FloatingView分屏破解版
+ - 价值100元，自行下载体验
+ - 如果安装无效请下载上方链接内的配置文件
+ - 在插件内选择从文件中倒入配置即可使用
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: FloatingView分屏破解版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.floating-view.json
+
+Package: com.floating-view
+Version: 1.6.0-6
+Architecture: iphoneos-arm64e
+Maintainer: Axs
+Installed-Size: 2700
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.floating-view
+Replaces: com.floating-view
+Filename: ./debs/FloatingView分屏破解版-RootHide.deb
+Size: 655896
+MD5sum: a4b31c8ae5c87cc13f485c5db554a4e8
+SHA1: cd0757ede67f3b9673ff0b4c13b81f04f1f79da7
+SHA256: 2d587a184ea87358f1fbe184af3f8d2bfcbff391989bb7223c754114036dead7
+Section: 分屏插件
+Description: FloatingView分屏破解版
+ - 价值100元，自行下载体验
+ - 如果安装无效请下载上方链接内的配置文件
+ - 在插件内选择从文件中倒入配置即可使用
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: FloatingView分屏破解版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.floating-view.json
+
 Package: com.gdtc
 Version: 1.0.4
 Architecture: iphoneos-arm64e
@@ -566,6 +612,52 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
+
+Package: com.hang.zzzj
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64e
+Maintainer: hang
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.hang.zzzj
+Replaces: com.hang.zzzj
+Filename: ./debs/转转找鸡-RootHide.deb
+Size: 33396
+MD5sum: 4e3e7d4a79c1a2695dd6de8d5981fac7
+SHA1: 1a019d03c394f2b60dbe4fc3f49b7c3bb37413ee
+SHA256: a0c9c7653ac2563e609a63a304ff2a1bb575f63aae81125b5f030a4f62a2f933
+Section: 软件增强
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+ - 目前仅支持筛选iPhone15及以下机型
+ - 如安装无效请选择用巨魔注入器注入使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: hang
+Name: 转转找鸡-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hang.zzzj.json
+
+Package: com.hang.zzzj
+Version: 0.0.1-8+debug
+Architecture: iphoneos-arm64
+Maintainer: hang
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.hang.zzzj
+Replaces: com.hang.zzzj
+Filename: ./debs/转转找鸡-Rootless.deb
+Size: 34124
+MD5sum: 773f0a16e95817030c4a2deaa7552900
+SHA1: 348ba4a9e633c4639656ffdd86db42f99728bcbd
+SHA256: 14cc305f0a931b9f8d2db83b775aa23bd5e3cecdb3a7910ec3dbd86fd3d50d1f
+Section: 软件增强
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+ - 目前仅支持筛选iPhone15及以下机型
+ - 如安装无效请选择用巨魔注入器注入使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: hang
+Name: 转转找鸡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.hang.zzzj.json
 
 Package: com.hx.wn
 Version: 1.0.5
@@ -932,6 +1024,48 @@ Description: 键盘美化插件
 Author: wkk
 Name: KeyboardX键盘调整-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.keyboardx.json
+
+Package: com.wkk.recordeyex
+Version: 1.0-5
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wkk.recordeyex
+Replaces: com.wkk.recordeyex
+Filename: ./debs/RecordEyeX-RootHide.deb
+Size: 65008
+MD5sum: 1e712484bb2356f5f21be5f16adaadb2
+SHA1: 4e6d0e3e05dab6c575423906a24794d4af79f901
+SHA256: 794a5ccdbf49655b29c1ab11fe4bbc13fe5e7d34f2e3afd300df7a42263c48f4
+Section: 轻量插件
+Description: 自定义快捷录屏的灵动岛录制指示点
+ - 及播放音乐时灵动岛专辑图片
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: RecordEyeX-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.recordeyex.json
+
+Package: com.wkk.recordeyex
+Version: 1.0-5
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 532
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.wkk.recordeyex
+Replaces: com.wkk.recordeyex
+Filename: ./debs/RecordEyeX-Rootless.deb
+Size: 62140
+MD5sum: 853933f1beac58d05ec7e0a654761f0b
+SHA1: b0206009c9573575510a50ae8bc445e2c01705b0
+SHA256: 2b25ad6c9a87dfdd573505d68eb371b6aca8e0b724dc8b1549210ede40467af7
+Section: 轻量插件
+Description: 自定义快捷录屏的灵动岛录制指示点
+ - 及播放音乐时灵动岛专辑图片
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: RecordEyeX-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.recordeyex.json
 
 Package: com.wkk.sileosourcesearch
 Version: 1.0-2
@@ -3649,27 +3783,6 @@ Description: 桌面长按 App Store 进行切换账号
 Author: subdiox & iosdump
 Name: StoreSwitcher 账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.storeswitcher.appstore.json
-
-Package: lym.com.sunshinesong.split-view-pro
-Version: 1.3.7
-Architecture: iphoneos-arm64
-Maintainer: sunshinesong
-Installed-Size: 5624
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader, com.opa334.altlist
-Replaces: com.sunshinesong.split-view-pro
-Filename: ./debs/split-view-pro分屏-Rootless.deb
-Size: 1536152
-MD5sum: e946a5c60d08672ef9eb84501d07f609
-SHA1: 30c0942e6b5515837805f211d00bc1d86a2bace9
-SHA256: 0bed14bf04d2f9a122321282fac584e5d71c77159e042d91678f1d9ec7358d3e
-Section: 分屏插件
-Description: 已去除联网验证(网传删除node方法)
- - 上传仅为自用学习交流备份
- - 如果安装以后出现异常,与本源无关!
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: sunshinesong
-Name: split-view-pro分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sunshinesong.split-view-pro.json
 
 Package: lym.com.susudear.susuocr
 Version: 1.0.22
