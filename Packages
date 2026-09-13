@@ -908,6 +908,44 @@ Author: SuSu
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore分屏-RootHide
 
+Package: com.susudear.screencore
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2760
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-Rootless_1.1.2_iphoneos-arm64.deb
+Size: 418280
+MD5sum: 6cfa177baf19686f5240b007e4fb39e3
+SHA1: 425961829cfb9c7a1d4e035f47a6ccbe43003440
+SHA256: 6d56e6f8ead951a9badb590ffeb2b9744dfe07a5b06a986dc26fd864a378821e
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-Rootless
+
+Package: com.susudear.screencore
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2760
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-RootHide_1.1.2_iphoneos-arm64e.deb
+Size: 420212
+MD5sum: 8fae81318798676ce5ecf72d8881d4b0
+SHA1: 0d20cd31c7bd076b0653a50ab799d268bc53515d
+SHA256: 66fbfa4a9a41425e1144ef4dd50bb2935d467d1406c0fa9c1753cd1050c91f87
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-RootHide
+
 Package: com.tencent.themebox
 Version: 3.0.6
 Architecture: iphoneos-arm64e
