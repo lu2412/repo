@@ -16,12 +16,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 经典的底部上滑手势\n- 底部左/中/右区域设置不一样的上滑操作\n- 根据 ichitaso 开源，简单添加中英文翻译。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 快速卸载越狱插件\n- Seo打开缓慢替代工具。安装后桌面生成独立图\n- 标\n- 进入插件列表，点击插件包名即可一键卸\n- 载，无需等待Sileo加载。\n- 支持RootHide/Rootless(iOS16),自动读取\n- dpkg已安装包，点击弹窗确认卸载，卸载完成自\n- 动刷新列表。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shou.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shou1.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sss.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/sss1.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "ichitaso/XCXiao"
+          "text": "wkk"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.1"
+          "text": "1.0-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月15日"
+          "text": "2026年09月14日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0-1\n- 初始版本"}
       ]
     }
   ]

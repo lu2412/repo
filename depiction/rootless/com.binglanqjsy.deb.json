@@ -16,12 +16,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 经典的底部上滑手势\n- 底部左/中/右区域设置不一样的上滑操作\n- 根据 ichitaso 开源，简单添加中英文翻译。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shou.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shou1.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shui.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/shui1.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "ichitaso/XCXiao"
+          "text": "冰蓝"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.1"
+          "text": "3.0.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.0.0\n- 初始版本"}
       ]
     }
   ]

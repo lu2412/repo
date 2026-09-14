@@ -185,6 +185,48 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
+Package: com.HalfLifetime.tongz
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.HalfLifetime.tongz
+Replaces: com.HalfLifetime.tongz
+Filename: ./debs/单指双击清除通知-RootHide.deb
+Size: 5172
+MD5sum: 78f9dd5196d0a477e4ec1bab0f3a4e21
+SHA1: 6443fee54fe65b363f53a0414279b0ba589ca824
+SHA256: ab7f4963824b49364594dcc4a68e8168a655898db661de0469c3ff62e0ce6624
+Section: 轻量插件
+Description: 单指双击通知页面任意位置清除消息通知
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 单指双击清除通知-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.HalfLifetime.tongz.json
+
+Package: com.HalfLifetime.tongz
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.HalfLifetime.tongz
+Replaces: com.HalfLifetime.tongz
+Filename: ./debs/单指双击清除通知-Rootless.deb
+Size: 4324
+MD5sum: 28867bf4f36adff449fcdce1d5650ae0
+SHA1: fbdd6de8c352fc09b390003269edf4f551fc6123
+SHA256: 26e31f5bcd9ab016952c5c03721a2b5ae84be22d3e8e16622af2fa748a01aaf3
+Section: 轻量插件
+Description: 单指双击通知页面任意位置清除消息通知
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 单指双击清除通知-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.HalfLifetime.tongz.json
+
 Package: com.apple.DocumentsApp
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm64
@@ -227,6 +269,46 @@ Author: 半生年华
 Name: 移除底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
 
+Package: com.binglan.dynamicfx
+Version: 1.0.7
+Architecture: iphoneos-arm64e
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.binglan.dynamicfx
+Replaces: com.binglan.dynamicfx
+Filename: ./debs/DynamicFX灵动岛-RootHide.deb
+Size: 113516
+MD5sum: 840e0657ed4a01afe099d068b569f948
+SHA1: 6ebfa3017519d14a2095464c8be497322d9a2a32
+SHA256: c5e2e6b7e5de94d52740f407e1922b308d94614850300531a99b8af07a21642f
+Section: 系统增强
+Description: DynamicFX 用于美化iPhone灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 冰蓝
+Name: DynamicFX灵动岛-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglan.dynamicfx.json
+
+Package: com.binglan.dynamicfx
+Version: 1.0.7
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 772
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Conflicts: com.binglan.dynamicfx
+Replaces: com.binglan.dynamicfx
+Filename: ./debs/DynamicFX灵动岛-Rootless.deb
+Size: 116328
+MD5sum: 3384fd250392370f1f36a12ebb3d9f0d
+SHA1: 36442ba7ca6c8968d1600d9b6825a49b8925f57f
+SHA256: 1722607c1526a1bca3dd117c5c403833c7113f00925a2681a3766fc63b860686
+Section: 系统增强
+Description: DynamicFX 用于美化iPhone灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 冰蓝
+Name: DynamicFX灵动岛-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.binglan.dynamicfx.json
+
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
 Architecture: iphoneos-arm64
@@ -268,6 +350,46 @@ Description: 控制中心美化插件
 Author: binglan
 Name: CCPrimeX冰蓝控制中心-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglan.kongzhidiy.json
+
+Package: com.binglanqjsy.deb
+Version: 3.0.0
+Architecture: iphoneos-arm64
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Conflicts: com.binglanqjsy.deb
+Replaces: com.binglanqjsy.deb
+Filename: ./debs/冰蓝全局水印-Rootless.deb
+Size: 164760
+MD5sum: efe09419acc4542fc278031b5d4ad448
+SHA1: 3dacd00bd9fcfc1beccba38c1dfa7afd34afee06
+SHA256: f997a3a5adf455ab05cdb89158c3557e50bc201f4da8b562389a22edbe58a2b0
+Section: 系统增强
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 冰蓝
+Name: 冰蓝全局水印-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.binglanqjsy.deb.json
+
+Package: com.binglanqjsy.deb
+Version: 3.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 冰蓝
+Installed-Size: 908
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Conflicts: com.binglanqjsy.deb
+Replaces: com.binglanqjsy.deb
+Filename: ./debs/冰蓝全局水印-RootHide.deb
+Size: 160548
+MD5sum: 3bfa63dcfa3a6c8d69aac2a987b158a9
+SHA1: 4702b7765035d7d49c3252abee16f7002afdc8b2
+SHA256: 98c0b86429807bb43f01a5a2be017dceb58bd8d7af341325f1137516b1726986
+Section: 系统增强
+Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 冰蓝
+Name: 冰蓝全局水印-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglanqjsy.deb.json
 
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
@@ -314,18 +436,18 @@ Name: HotspotPro个人热点-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dangkhoa.hotspotpro.json
 
 Package: com.dao.bottomcontrolx
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: ichitaso
-Installed-Size: 408
+Installed-Size: 412
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
 Replaces: com.dao.bottomcontrolx
 Filename: ./debs/底部上滑手势-Rootless.deb
-Size: 42992
-MD5sum: 49bcee0ea0dd8061680df8f36b91e3d2
-SHA1: 7918da61b50ab8067f494b587d92df76eadc18c4
-SHA256: cfcd368710219506ff40ecbff0371cf95668f96922bf2acdfd0bdff399c1aa09
+Size: 43788
+MD5sum: f86235a9108780028d424fcf282047c1
+SHA1: 67145dab79f454d0aff72b8695c5a1959e14f869
+SHA256: fd21d033dd0c9dd31deccbf90568d9125d6e8dcf473b306a05995eb1e98457ae
 Section: 系统增强
 Description: 经典的底部上滑手势
  - 底部左/中/右区域设置不一样的上滑操作
@@ -336,7 +458,7 @@ Name: 底部上滑手势-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.bottomcontrolx.json
 
 Package: com.dao.bottomcontrolx
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: ichitaso
 Installed-Size: 408
@@ -344,10 +466,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
 Replaces: com.dao.bottomcontrolx
 Filename: ./debs/底部上滑手势-RootHide.deb
-Size: 41080
-MD5sum: 27d2b005bb755c7f497aa0db9b17df43
-SHA1: 0662080e9c72f634476f008a1cd651325768b618
-SHA256: d9bc4cdfae0064befe133d4a0a3bb5d45184e37215621fa69f47f7307257fed5
+Size: 41876
+MD5sum: 8f4e630ebf0df90d1da0b3d68b9ca473
+SHA1: ffc2b532a2a41ec30bc273597785f0253f619603
+SHA256: a910e6e17d45905dcab16021a588756e1906a06432fdef5f5c4174ab84bbefd7
 Section: 系统增强
 Description: 经典的底部上滑手势
  - 底部左/中/右区域设置不一样的上滑操作
@@ -732,6 +854,92 @@ Author: 半生年华
 Name: Separator分隔线-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.hx.wn.json
 
+Package: com.icraze.alarmsearch
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.icraze.alarmsearch
+Replaces: com.icraze.alarmsearch
+Filename: ./debs/闹钟页面增加搜索框-Rootless.deb
+Size: 8356
+MD5sum: b9a6b4b12b7207f8b7a7c811a08b6682
+SHA1: 16d8e6712c35525369ea7c51ec40dec41fcc89d5
+SHA256: dee9c45171abac461d939744b11ec6aac0fb21b5d56fa9812b81d8a491e1a189
+Section: 轻量插件
+Description: 在时钟app闹钟界面顶部增加搜索框
+ - 可根据闹钟标签内容搜索
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iCraze
+Name: 闹钟页面增加搜索框-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.icraze.alarmsearch.json
+
+Package: com.icraze.alarmsearch
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.icraze.alarmsearch
+Replaces: com.icraze.alarmsearch
+Filename: ./debs/闹钟页面增加搜索框-RootHide.deb
+Size: 9200
+MD5sum: 9db939c952831f50fa8f774bbe863723
+SHA1: 0360955d1e19578393e1b02c83907cabb1ad0964
+SHA256: 953748dad7fd94aa5880b4f5297494c7514f3f0e87f4d2137624f61b9973a140
+Section: 轻量插件
+Description: 在时钟app闹钟界面顶部增加搜索框
+ - 可根据闹钟标签内容搜索
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iCraze
+Name: 闹钟页面增加搜索框-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.icraze.alarmsearch.json
+
+Package: com.icraze.easynotifications
+Version: 3.0
+Architecture: iphoneos-arm64
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.icraze.easynotifications
+Replaces: com.icraze.easynotifications
+Filename: ./debs/左滑快速清除通知-Rootless.deb
+Size: 3008
+MD5sum: 28f938b36eb95b2beeb344439d39603a
+SHA1: 6f34bc227122dd476f1b92f90d9f407ed00e6981
+SHA256: b1d24ac10046077ca95d8a5edba72df45dfc3d0cd1486b936df9d623e05fb2b8
+Section: 轻量插件
+Description: 通知页面左滑通知快速清除消息
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iCraze
+Name: 左滑快速清除通知-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.icraze.easynotifications.json
+
+Package: com.icraze.easynotifications
+Version: 3.0
+Architecture: iphoneos-arm64e
+Maintainer: iCraze
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.icraze.easynotifications
+Replaces: com.icraze.easynotifications
+Filename: ./debs/左滑快速清除通知-RootHide.deb
+Size: 3840
+MD5sum: c18c2d3551c8768acf5fa2f4c6bad4eb
+SHA1: 3917abe3e74b073440dca5763197176d1c89f834
+SHA256: 541c3c2397311634b2f5ae98023456f8ae1c27addeda10b0d605c85954547f42
+Section: 轻量插件
+Description: 通知页面左滑通知快速清除消息
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iCraze
+Name: 左滑快速清除通知-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.icraze.easynotifications.json
+
 Package: com.iosdump.appdata
 Version: 2.7.3
 Architecture: iphoneos-arm64
@@ -1039,6 +1247,60 @@ Description: 插件管理桌面图标版
 Author: CreatureSurvive & wkk
 Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
+
+Package: com.wkk.installedpackages
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 912
+Depends: firmware (>= 15.0)
+Conflicts: com.wkk.installedpackages
+Replaces: com.wkk.installedpackages
+Filename: ./debs/Sileo插件管理器-Rootless.deb
+Size: 432152
+MD5sum: e05544df992cfa31f55b4d834a00ae3b
+SHA1: 916f54f1cd48fff1b40b1e426999c4af672f7236
+SHA256: c4e69f8cdb189b485e1f94b1a203ee6193289ba1dff8bbe0ea1550a1328753d2
+Section: 越狱增强
+Description: 快速卸载越狱插件
+ - Seo打开缓慢替代工具。安装后桌面生成独立图
+ - 标
+ - 进入插件列表，点击插件包名即可一键卸
+ - 载，无需等待Sileo加载。
+ - 支持RootHide/Rootless(iOS16),自动读取
+ - dpkg已安装包，点击弹窗确认卸载，卸载完成自
+ - 动刷新列表。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: Sileo插件管理器-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.installedpackages.json
+
+Package: com.wkk.installedpackages
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 912
+Depends: firmware (>= 15.0)
+Conflicts: com.wkk.installedpackages
+Replaces: com.wkk.installedpackages
+Filename: ./debs/Sileo插件管理器-RootHide.deb
+Size: 432284
+MD5sum: a1699cc989f3f90096611b95029c6181
+SHA1: 495aebe322f8bb5ecb758dbda4a893f0f1ba71a8
+SHA256: d6f4afa6c2096cedea9bdf9bb14d9cb6fcfcb5d35b7d64a2e273eaa144c6753a
+Section: 越狱增强
+Description: 快速卸载越狱插件
+ - Seo打开缓慢替代工具。安装后桌面生成独立图
+ - 标
+ - 进入插件列表，点击插件包名即可一键卸
+ - 载，无需等待Sileo加载。
+ - 支持RootHide/Rootless(iOS16),自动读取
+ - dpkg已安装包，点击弹窗确认卸载，卸载完成自
+ - 动刷新列表。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: Sileo插件管理器-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.installedpackages.json
 
 Package: com.wkk.keyboardx
 Version: 1.0-6
@@ -2724,26 +2986,6 @@ Description: 去除一些顽固分隔符
 Author: 半生年华
 Name: 去除分隔符-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn.roothide_1.0.6.json
-
-Package: lym.com.icraze.easynotifications
-Version: 3.0
-Architecture: iphoneos-arm64
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 172
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Replaces: com.icraze.easynotifications
-Filename: ./debs/EasyNotifications-Rootless.deb
-Size: 3052
-MD5sum: 11465faec50e10735e379ddfe1f0927f
-SHA1: e7a4b41db6cc513f4f1f7fd4c934ca11c690f288
-SHA256: dbe9e4c68e51d23133b4dc774b8c2dfa8b13d23f5f682500c317db9ab9c6aafb
-Section: 系统增强
-Description: 左滑快速清除通知消息
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iCraze <icrazeios@protonmail.com>
-Name: EasyNotifications-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.easynotifications.json
 
 Package: lym.com.icraze.smallboards
 Version: 1.1
