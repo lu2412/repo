@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 黄白助手-微信插件，点歌朋友圈一键点赞\n- 禁用控件，设置布局大小，私聊发抢自己的红包\n- 文本转语音，文案语录，群聊管理\n- 朋友圈保存实况 Live 图，消息防撤回\n- 艾特所有人，朋友圈自定义选取位置\n- 消息双击复读，修改气泡，修改按钮图标\n- 修改显示微信号，自动呼出键盘\n- 微信运动一键点赞，头像转发好友\n- 强制下载 dylib 文件\n- 设置全局圆头像，百变消息小尾巴\n- 朋友圈小尾巴，等诸多功能\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/hb.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/hb1.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "HuangBai <QQ:1343309363@qq.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "2.1.7"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月15日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1.7\n- （测试版V2）\n- 优化防撤回\n- 新增好友分组收纳\n- 优化微信资源查看闪退的问题\n- 优化微信资源修改表情图片不生效问题\n- 优化美化字体功能，实现高级修符Diy（画字体等）"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1\n- 新增[消息类功能]-消息手势\n- 新增[特色类功能]-美化主题\n-衍生于《微信助手》里的主题功能\n- 新增[特色类功能]-美化字体\n- 新增[特色类功能]-聊天工具栏\n-支持自创按钮，自定义按钮事件等\n- 新增[特色类功能]-启用忙线拒接\n-别人打电话过来会显示忙线，部分设备可能不支持"}
+      ]
+    }
+  ]
+}
