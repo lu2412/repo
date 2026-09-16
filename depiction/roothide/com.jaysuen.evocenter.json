@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。\n- Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。\n- 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。\n- 署名：chatgpt5.6（sol） · JaySuen。\n- 反馈Bug和建议：在酷安 App 搜索JAYSuen私信，或搜索Evo Center找到最新帖子评论。\n- 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/buju.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/buju1.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "chatgpt5.6（sol）, JaySuen"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "2.0.0-beta.2-6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月16日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.0.0-beta.2-6\n- 新增roothide版本\n- 重写了音乐模块，bug相比之前少很多（学习了bettercc插件，老插件真的很权威)。移除了4x4、4x6两个不常用的大尺寸，新增了一个不同样式的4x2尺寸。\n- 完善了连接模块的所有尺寸显示问题\n- 音量、亮度模块新增：竖向1x1和横向2x1、3x1、4x1尺寸。\n- 新增专注模式独立模块。现用户设置的所有专注模\n- 式可在控制中心作为模块添加，方便快速启用自己的\n- 常用专注模式。\n- Focus模块新增了一个2x2尺寸。支持同时显示最\n- 多4个专注模式按钮；移除了1x1尺寸。\n- 优化了模块圆角和透明度实现方式，暂时移除了顶\n- 部按钮功能\n- 优化了若干显示细节"}
+      ]
+    }
+  ]
+}

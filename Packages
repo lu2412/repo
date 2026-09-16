@@ -1044,6 +1044,56 @@ Author: iosdump
 Name: AppData软件增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosdump.appdata.json
 
+Package: com.jaysuen.evocenter
+Version: 2.0.0-beta.2-6
+Architecture: iphoneos-arm64e
+Maintainer: chatgpt5.6（sol）, JaySuen
+Installed-Size: 9392
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
+Filename: ./debs/Evo Center控制中心-RootHide.deb
+Size: 230208
+MD5sum: 3eb3bbf33282d808a4aa479863dd9044
+SHA1: bec3f1206e044bf4edf54d16768a6fe06e867d0e
+SHA256: 38e35e9d39a94d83aafae9dc4bf8cf4154101cededfe70d5679f9ea754088262
+Section: 控制中心
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ - 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ - 署名：chatgpt5.6（sol） · JaySuen。
+ - 反馈Bug和建议：在酷安 App 搜索JAYSuen私信，或搜索Evo Center找到最新帖子评论。
+ - 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: chatgpt5.6（sol）, JaySuen
+Name: Evo Center控制中心-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.jaysuen.evocenter.json
+
+Package: com.jaysuen.evocenter
+Version: 2.0.0-beta.2-6
+Architecture: iphoneos-arm64
+Maintainer: chatgpt5.6（sol）, JaySuen
+Installed-Size: 9492
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
+Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
+Filename: ./debs/Evo Center控制中心-Rootless.deb
+Size: 235000
+MD5sum: 836dfc6ee7db1e372b967d139550d65a
+SHA1: 7cd45ecbb30dd81ce54748954d7752ed655216fc
+SHA256: 1ce2484877173ac5556d665ef55f3a48d66310056b74933e53b2fd4252769266
+Section: 控制中心
+Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
+ - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
+ - 支持 iOS 16.0 - 16.6、iOS 17.0 - 17.4。
+ - 署名：chatgpt5.6（sol） · JaySuen。
+ - 反馈Bug和建议：在酷安 App 搜索JAYSuen私信，或搜索Evo Center找到最新帖子评论。
+ - 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: chatgpt5.6（sol）, JaySuen
+Name: Evo Center控制中心-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.jaysuen.evocenter.json
+
 Package: com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -3176,52 +3226,6 @@ Description: 喜马拉雅去广告,非破解!
 Author: iosrxwy
 Name: 喜马拉雅NoAd-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.xmlynoads.json
-
-Package: lym.com.jaysuen.ccflex16
-Version: 1.0.0-beta.1
-Architecture: iphoneos-arm64
-Maintainer: JaySuen
-Installed-Size: 6444
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.wkk.betterccbrightness, com.jaysuen.ccflex16
-Replaces: com.wkk.betterccbrightness, com.jaysuen.ccflex16
-Filename: ./debs/EvoCenter16-Rootless.deb
-Size: 169044
-MD5sum: d6bd2282077d53a98b9b4b10ab998b45
-SHA1: 3bf2beb7a73a37eddd3f850490533ad9aad4181e
-SHA256: 749458502718f8262b261b2af2e56f7edfa522d35ec9fbb54897a3dd8d7507ce
-Section: 控制中心
-Description: 全新的控制中心插件
- - 主要功能
- - 为系统控制中心模块增加多种可选尺寸,并为2x1、2x2等多尺寸提供类似新版iOS的现代化布局。
- - 安装后可往系统设置-控制中心内调整布局
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: JaySuen
-Name: EvoCenter16-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jaysuen.ccflex16_1.0.0-beta.1.json
-
-Package: lym.com.jaysuen.ccflex16.roothide
-Version: 1.0.0-beta.1
-Architecture: iphoneos-arm64e
-Maintainer: JaySuen
-Installed-Size: 6444
-Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.wkk.betterccbrightness, com.jaysuen.ccflex16
-Replaces: com.wkk.betterccbrightness, com.jaysuen.ccflex16
-Filename: ./debs/EvoCenter16-RootHide.deb
-Size: 179784
-MD5sum: fe5c86de064d62f18bb43e294e4b5ca1
-SHA1: 159a91fe2ae1f67b6595bd3f00631738e6deacfd
-SHA256: ac12cbdb22ef70ba864fdb4494e1c870248e7893d73d53ed45c4103513382fd4
-Section: 控制中心
-Description: 全新的控制中心插件
- - 主要功能
- - 为系统控制中心模块增加多种可选尺寸,并为2x1、2x2等多尺寸提供类似新版iOS的现代化布局。
- - 安装后可往系统设置-控制中心内调整布局
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: JaySuen
-Name: EvoCenter16-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jaysuen.ccflex16.roothide_1.0.0-beta.1.json
 
 Package: lym.com.jh.accode
 Version: 1.0
