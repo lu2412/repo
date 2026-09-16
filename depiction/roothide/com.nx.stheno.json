@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "wkk"
+          "text": "Crassna"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1-6"
+          "text": "0.1.23-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月16日"
+          "text": "2026年09月17日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-6\n- 新增下拉分屏点击分屏\n- 只支持原生横幅通知"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.1.23-1\n- 新增下拉分屏点击分屏\n- 只支持原生横幅通知"}
       ]
     }
   ]

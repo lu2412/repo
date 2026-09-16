@@ -1324,6 +1324,46 @@ Author: Netskao
 Name: Filza Crack解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
 
+Package: com.nx.stheno
+Version: 0.1.23-1
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2988
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
+Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
+Filename: ./debs/Stheno分屏新版-Rootless.deb
+Size: 550868
+MD5sum: 4ff62082a5263fd9685d4482e8756dfd
+SHA1: b091c51594f72b8b9e587b21518feef65d828d15
+SHA256: 422d4c3d6b59d04b4f5a64867b1141b421f3f584d790670bbbca9c4f49ff6663
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.nx.stheno.json
+
+Package: com.nx.stheno
+Version: 0.1.23-1
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2988
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
+Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
+Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
+Filename: ./debs/Stheno分屏新版-RootHide.deb
+Size: 554080
+MD5sum: 782f12b7f9398b1be12299f9a78a346a
+SHA1: bd7db88f7ff08deb5fc35fcc180c7fbce35c9c96
+SHA256: 8c259879b87061e3d01e5b3f3a48ffbca4bb30d4c5e0cae09bb85bc8bfa51d61
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -1614,46 +1654,6 @@ Description: 键盘美化插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: wkk
 Name: KeyboardX键盘调整-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.keyboardx.json
-
-Package: com.wkk.keyboardx
-Version: 1.1-6
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 616
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx
-Replaces: com.wkk.keyboardx
-Filename: ./debs/Stheno分屏新版-Rootless.deb
-Size: 80584
-MD5sum: 204654bd8b4596db0460fc1841dd140e
-SHA1: 21690b45d1287867319c6a582f13fe241efcf0fe
-SHA256: ad3b7fd08246cf66d58a7c58a66906f31d4e084a847668b766c079f174886a9c
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: Stheno分屏新版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.keyboardx.json
-
-Package: com.wkk.keyboardx
-Version: 1.1-6
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 616
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx
-Replaces: com.wkk.keyboardx
-Filename: ./debs/Stheno分屏新版-RootHide.deb
-Size: 83332
-MD5sum: b6eb73c9962b3c91c7de05def6cd46dc
-SHA1: 404014275dbf77ef672d9ba9d722d9d9ebba95bd
-SHA256: ff75ae47fe5ba473d86bffe68e4f644d99b9f38e834a64b7aae8c68397324614
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: Stheno分屏新版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.keyboardx.json
 
 Package: com.wkk.recordeyex
