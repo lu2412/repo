@@ -1,3 +1,38 @@
+Package: cm.octoforce.squidextender
+Version: 3.7.4-2
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: ./debs/乌贼键盘-3.7.4-2.deb
+Size: 2623680
+MD5sum: d8dc4fe9f8dcf467c0765d6721d6afc4
+SHA1: 846e612334ed1dce309f3ac1c423709acc2e2b43
+SHA256: 370aa417e0cd8ab6395ba65b62b0e8954f9977bb91ec4fdbb4e087ac7aa0afca
+Section: 乌贼插件
+Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
+Author: SquidForce, Backup
+Name: SquidExtender破解版
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cm.octoforce.squidgesturepro
+Version: 2.7.6-2
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 7347
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/乌贼手势-2.7.6-2.deb
+Size: 1936532
+MD5sum: 530f2725813ff1ee1789adfda6afaa69
+SHA1: 7886bd0732c2f2347d4543fe0f49eff521a2cd02
+SHA256: 2a2a570b17c6a1b984de20447915c4618a2841b0c6b7b5758e9bfa53206822b4
+Section: 乌贼插件
+Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
+Author: SquidForce, Backup
+Name: SquidGesturePro破解版
+Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: cn.llld.notes-fix
 Version: 1.0.4-1+debug
 Architecture: iphoneos-arm64
