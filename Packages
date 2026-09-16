@@ -572,6 +572,26 @@ Author: ichitaso/XCXiao
 Name: 底部上滑手势-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.bottomcontrolx.json
 
+Package: com.dao.patcher
+Version: 2.1.5
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil(>= 0.2.2-1), uikittools(>= 2.1.6-4)
+Conflicts: com.roothide.patcher, com.dao.patcher
+Replaces: com.roothide.patcher, com.dao.patcher
+Filename: ./debs/RootHidePatcher 中文版-RootHide.deb
+Size: 895008
+MD5sum: 287b82c541555e18cf1b3770f31f8605
+SHA1: 370834e53bebd30065bb3f312e768bdd6650a2eb
+SHA256: bd192adf463e8bf2e8643d4dc1cf4e834d93723606b64d928259fc69056b24ab
+Section: 越狱增强
+Description: 转换器：把 rootless 包转换/修补成 RootHide 格式
+ - 但不保证所有插件或软件包都兼容；刀刀简单汉化，必须用刀刀源内的 Sileo 才能调用
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: roothide
+Name: RootHidePatcher 中文版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.patcher.json
+
 Package: com.dao.pulloverx
 Version: 2.2.9
 Architecture: iphoneos-arm64
@@ -635,6 +655,27 @@ Description: 在更新列表/软件源中浏览插件列表/软件包已安装�
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Amy While
 Name: Sileo颜色指示器-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
+
+Package: com.dao.sileo
+Version: 2.5.1-13
+Architecture: iphoneos-arm64e
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: com.dao.sileo
+Replaces: org.coolstar.sileo, com.dao.sileo
+Filename: ./debs/Sileo-RootHide.deb
+Size: 3013996
+MD5sum: ab7dcdb7d47d69f1b93d65b1868b4b46
+SHA1: a5b0594a0fb26cb2c446160cf42a953671855abb
+SHA256: f41b3394d4c49c9b30b208a10ea5741c7da61ebd0919635214dbb0ba5a91c5ed
+Section: 越狱增强
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)
+ - 可识别刀刀源内的 RootHidePatcher 中文版，转换插件一条龙。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Amy While
+Name: Sileo-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
 Package: com.daopu.amap.hidebottom
@@ -762,6 +803,48 @@ Description: 禁用百度贴吧侧边栏滑动手势
 Author: duncan
 Name: 百度贴吧禁用-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebaside.json
+
+Package: com.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.filzaswipeselect
+Replaces: com.filzaswipeselect
+Filename: ./debs/Filza滑动多选-Rootless.deb
+Size: 8816
+MD5sum: 707915af8226cd0e9836bb9ad29858db
+SHA1: 2027b32cd1c121ab7f995a133d694478dbce37db
+SHA256: 79d16c7bad27ea712e80d888fc205dc18bf90160660518e404b8b47aa1e3d7f7
+Section: 越狱增强
+Description: 增加Filza的滑动多选功能
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: korboy <korboybeats@gmail.com>
+Name: Filza滑动多选-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.filzaswipeselect.json
+
+Package: com.filzaswipeselect
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: korboy <korboybeats@gmail.com>
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.filzaswipeselect
+Replaces: com.filzaswipeselect
+Filename: ./debs/Filza滑动多选-RootHide.deb
+Size: 9764
+MD5sum: 6e1f44cfaebec10f189e1af4974eeaee
+SHA1: 8c28dcdace220e468f9a46cdbdddc94da1f496fc
+SHA256: 013708f2128ce8e8cf6819ca03510b22f4e2efd4b7c410800ffdc88627671376
+Section: 越狱增强
+Description: 增加Filza的滑动多选功能
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: korboy <korboybeats@gmail.com>
+Name: Filza滑动多选-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.filzaswipeselect.json
 
 Package: com.floating-view
 Version: 1.6.0-6
@@ -1198,6 +1281,48 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack
+Replaces: com.netskao.filzacrack
+Filename: ./debs/Filza Crack解锁-RootHide.deb
+Size: 29152
+MD5sum: aa9ea84e7e444f33a728d3c5c6c59b11
+SHA1: fa538995409fd2b68cd6d23074871ca3f0527dc9
+SHA256: d9db292fcd082345a5b8868f1228e0c05e75aadb665bb13d34ce817e9103e176
+Section: 越狱增强
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持roothide。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: Filza Crack解锁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.netskao.filzacrack.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack
+Replaces: com.netskao.filzacrack
+Filename: ./debs/Filza Crack解锁-Rootless.deb
+Size: 28944
+MD5sum: 2098fe361313422861248a28edcb95bb
+SHA1: cda49aa69774c8f155a9df7fb06ff553ee350892
+SHA256: 580bef4e442278b9988008558032cfbced3b2c8419a567e424dc73816da48302
+Section: 越狱增强
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持roothide。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: Filza Crack解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
 
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
@@ -3963,28 +4088,6 @@ Author: SHTM
 Name: NeoWave16跑马灯-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.shtm.neowave16.json
 
-Package: lym.com.sini.filzaswipeselect
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: korboy <korboybeats@gmail.com>
-Installed-Size: 184
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.sini.filzaswipeselect
-Replaces: com.sini.filzaswipeselect
-Filename: ./debs/FilzaSwipeSelect-Rootless.deb
-Size: 8864
-MD5sum: 896271324be64c1f736de7d598cfa6d8
-SHA1: 51d97695900e39f0a9b4bb64a84f43385730c443
-SHA256: 281f1f0e667c45b5d7a228c36e849eaf2f045188cc01aabc85aa4f19624c4e6c
-Section: 软件增强
-Description: 滑动选择Filza的多选功能
- - 不再单独点击每个文件进行选择
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: korboy <korboybeats@gmail.com>
-Name: FilzaSwipeSelect-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini.filzaswipeselect.json
-
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4747,20 +4850,41 @@ Architecture: iphoneos-arm64
 Maintainer: yourname
 Installed-Size: 176
 Depends: mobilesubstrate
-Conflicts: com.yourname.12306noad
-Replaces: com.yourname.12306noad
+Conflicts: com.yourname.12306noad, lym.com.yourname.12306noad
+Replaces: com.yourname.12306noad, lym.com.yourname.12306noad
 Filename: ./debs/铁路12306去广告-Rootless.deb
-Size: 7396
-MD5sum: 305126c4f0b372f8290f71128e96daa8
-SHA1: 6a01939974aeeafb18aab2014daaedca381d62fb
-SHA256: 061b0277418281f0463ae0d4a9b79a53154a429f2d4453ce4efd21f780d492d2
+Size: 7400
+MD5sum: 7de70f527dcc3c63bced665ea3aa6756
+SHA1: 28f72f0944e3c8bc34734ca83dff898b39115e09
+SHA256: e5d33b4ac29a9421a778c877989e53d679aa46b674389917e968705a984f7b70
 Section: 软件增强
 Description: 去除启动广告、去掉首页轮播广告
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: yourname
 Name: 铁路12306去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourname.12306noad.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.yourname.12306noad.json
+
+Package: lym.com.yourname.12306noad
+Version: 1.0.0-11+debug
+Architecture: iphoneos-arm64e
+Maintainer: yourname
+Installed-Size: 176
+Depends: mobilesubstrate
+Conflicts: com.yourname.12306noad, lym.com.yourname.12306noad
+Replaces: com.yourname.12306noad, lym.com.yourname.12306noad
+Filename: ./debs/铁路12306去广告-RootHide.deb
+Size: 8500
+MD5sum: 20adc612930247faafb2131be57963dd
+SHA1: 9ff43cba0c6f6f9e288e2d4eb3bb9f5130697fc8
+SHA256: fa22b32616edc76b076c28beeb0519581d6f4f79cadd54886a37424d6d51806e
+Section: 软件增强
+Description: 去除启动广告、去掉首页轮播广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: yourname
+Name: 铁路12306去广告-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.yourname.12306noad.json
 
 Package: lym.de.finngaida.daynightswitchs
 Version: 1.2
