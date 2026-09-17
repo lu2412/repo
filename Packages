@@ -1611,18 +1611,18 @@ Name: Sileo插件管理器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.installedpackages.json
 
 Package: com.wkk.keyboardx
-Version: 1.0-6
+Version: 1.1-6
 Architecture: iphoneos-arm64
 Maintainer: wkk
-Installed-Size: 516
+Installed-Size: 616
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx, com.wkk.keyboardx, com.wkk.keyboardx
-Replaces: com.wkk.keyboardx, com.wkk.keyboardx, com.wkk.keyboardx
+Conflicts: com.wkk.keyboardx
+Replaces: com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-Rootless.deb
-Size: 64752
-MD5sum: 47c69468f04cc8b9425adf9ad7bfc8b2
-SHA1: 389eb82759b49c1deab2f52d7b9c13fac98fd669
-SHA256: cde54849a9bc2d47c7b6220eeb8328a526cd77e8ab4b62689b084dd2c5ef9ff8
+Size: 80732
+MD5sum: 1d08d02409db76e9b23cf8b3416c6210
+SHA1: 3f02314f867e110f11f2f706bfb04e47701a2a9d
+SHA256: ed3f07c6f1e26ce1963ebf507bb44dc6c2bce7d603ba00d531ecdedc1872a6c2
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
@@ -1634,18 +1634,18 @@ Name: KeyboardX键盘调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.keyboardx.json
 
 Package: com.wkk.keyboardx
-Version: 1.0-6
+Version: 1.1-6
 Architecture: iphoneos-arm64e
 Maintainer: wkk
-Installed-Size: 516
+Installed-Size: 616
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.wkk.keyboardx, com.wkk.keyboardx, com.wkk.keyboardx
-Replaces: com.wkk.keyboardx, com.wkk.keyboardx, com.wkk.keyboardx
+Conflicts: com.wkk.keyboardx
+Replaces: com.wkk.keyboardx
 Filename: ./debs/KeyboardX键盘调整-RootHide.deb
-Size: 67120
-MD5sum: 9ab4182a279c82415aaac3a9c7556ed1
-SHA1: 4990333d92c5cb94e7319df4f61e45ae025d9d84
-SHA256: ba8bbe1413dbb2fe0e72448529b4e9622fa544f78fd258872267a8bb08f409fc
+Size: 83292
+MD5sum: be1358192a76376430961bfe494ddeec
+SHA1: 619982e2dabeaa8146feda74d4d0f6c9f982836f
+SHA256: 42b5f0a47b65974ca6de60fca9d7156427605e43b6936e635331cb56bf770d05
 Section: 键盘插件
 Description: 键盘美化插件
  - 支持自带键盘-微信输入法调整
