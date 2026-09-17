@@ -36,7 +36,7 @@
         {
             "url": "https://lu2412.github.io/repo/icon/spo.png",
             "title": "Spotify",
-            "package": "lym.com.eevee.spotify",
+            "package": "com.13itch.joker",
             "hideShadow": true
         }
     ]

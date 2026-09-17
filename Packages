@@ -220,6 +220,50 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.disupdateapp
 Name: Hello App
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.disupdateapp
 
+Package: com.13itch.joker
+Version: 1.4.1
+Architecture: iphoneos-arm64
+Maintainer: 13itch
+Installed-Size: 96
+Conflicts: com.13itch.joker
+Replaces: com.13itch.joker
+Filename: ./debs/小丑(Joker)-Rootless.deb
+Size: 16020
+MD5sum: a037a752aab13f63e55b90c945edc3c0
+SHA1: 0c031a91ed393bea8ed21a994a990e7ab13df958
+SHA256: 07de9bb98911f20556f1f0039ef70ec8e4dbe972159f3116c5eae10e04f2d6af
+Section: 微信插件
+Description: 双击聊天列表界面顶部”微信”标签切换账号
+ - 长按微信聊天中的文字/图片消息
+ - 点小丑即可改字/换图，仅本机内存生效，退出聊天自动还原。
+ - 插件设置在微信设置里，同时支持插件老猫和WCRefine 的插件收纳。微信 >= 8.0.76。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 13itch
+Name: 小丑(Joker)-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.13itch.joker.json
+
+Package: com.13itch.joker
+Version: 1.4.1
+Architecture: iphoneos-arm64e
+Maintainer: 13itch
+Installed-Size: 96
+Conflicts: com.13itch.joker
+Replaces: com.13itch.joker
+Filename: ./debs/小丑(Joker)-RootHide.deb
+Size: 15944
+MD5sum: 5375fe5a06a5bf9d80d2009244b7d3d7
+SHA1: e5649efb5fd6714999892bea652aba30707bd7d8
+SHA256: 3487dc0a260afd9085090fae4ad52b5b035349d0e984c8e30bb3540da8be784a
+Section: 微信插件
+Description: 双击聊天列表界面顶部”微信”标签切换账号
+ - 长按微信聊天中的文字/图片消息
+ - 点小丑即可改字/换图，仅本机内存生效，退出聊天自动还原。
+ - 插件设置在微信设置里，同时支持插件老猫和WCRefine 的插件收纳。微信 >= 8.0.76。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 13itch
+Name: 小丑(Joker)-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.13itch.joker.json
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.7
 Architecture: iphoneos-arm64
@@ -2132,26 +2176,6 @@ Author: shepgoba
 Name: SettingsWidgets设置小部件-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.settingswidgets.rootless.json
 
-Package: lym.com.25mao.KuaiDou
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: https://trollstorex.github.io/repo/
-Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.25mao.KuaiDou
-Filename: ./debs/微信快斗-Rootless.deb
-Size: 14720
-MD5sum: 36b2127022ecc619556ddd506cf5a99e
-SHA1: 8ee4b8450e8d9e7d47d2642a470ad3c5ebc97dae
-SHA256: 392285d058b2dcc1024885887a289d74ef3be34de470ea6e79f7d1807a1452aa
-Section: 微信插件
-Description: 微信快速斗图
- * 发送文字自动转换为表情
- * 需要同时安装微信助手和微信插件管理
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Mao
-Name: 微信快斗-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.KuaiDou.json
-
 Package: lym.com.25mao.doutu.rootless
 Version: 3.1-8
 Architecture: iphoneos-arm64
@@ -2215,26 +2239,6 @@ Description: 左滑返回上一页面
 Author: Mao
 Name: 左滑返回-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
-
-Package: lym.com.25mao.miyou.rootless
-Version: 3.9-5
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Conflicts: com.25mao.miyou.rootless
-Replaces: com.25mao.miyou.rootless
-Filename: ./debs/微信助手-Rootless.deb
-Size: 5110100
-MD5sum: 047188bd3c0b5bb0c9f54b2d63148691
-SHA1: 2dca4297b617328416d893e74d53877c4f694422
-SHA256: 90b55902d22c4d5bf377de390a79ec46902a19ee72d05068761e64330579478e
-Section: 微信插件
-Description: 微信多功能插件助手
- - 修复上一版本勿扰模式自动挂断后无法回拨问题
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Mao
-Name: 微信助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.miyou.rootless.json
 
 Package: lym.com.25mao.msgfilt.rootless
 Version: 1.0-7
