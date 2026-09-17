@@ -406,46 +406,6 @@ Author: 半生年华
 Name: 移除底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
 
-Package: com.binglan.dynamicfx
-Version: 1.0.7
-Architecture: iphoneos-arm64e
-Maintainer: 冰蓝
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.binglan.dynamicfx
-Replaces: com.binglan.dynamicfx
-Filename: ./debs/DynamicFX灵动岛-RootHide.deb
-Size: 113516
-MD5sum: 840e0657ed4a01afe099d068b569f948
-SHA1: 6ebfa3017519d14a2095464c8be497322d9a2a32
-SHA256: c5e2e6b7e5de94d52740f407e1922b308d94614850300531a99b8af07a21642f
-Section: 系统增强
-Description: DynamicFX 用于美化iPhone灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 冰蓝
-Name: DynamicFX灵动岛-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglan.dynamicfx.json
-
-Package: com.binglan.dynamicfx
-Version: 1.0.7
-Architecture: iphoneos-arm64
-Maintainer: 冰蓝
-Installed-Size: 772
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: com.binglan.dynamicfx
-Replaces: com.binglan.dynamicfx
-Filename: ./debs/DynamicFX灵动岛-Rootless.deb
-Size: 116328
-MD5sum: 3384fd250392370f1f36a12ebb3d9f0d
-SHA1: 36442ba7ca6c8968d1600d9b6825a49b8925f57f
-SHA256: 1722607c1526a1bca3dd117c5c403833c7113f00925a2681a3766fc63b860686
-Section: 系统增强
-Description: DynamicFX 用于美化iPhone灵动岛，支持自定义灵动岛背景、颜色、透明度、圆角以及过渡动画。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 冰蓝
-Name: DynamicFX灵动岛-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.binglan.dynamicfx.json
-
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
 Architecture: iphoneos-arm64
@@ -3698,27 +3658,6 @@ Description: 解锁会员权限
 Author: Netskao
 Name: 千阅-小说阅读-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.flreadercrack.json
-
-Package: lym.com.netskao.qqnotiavatar
-Version: 1.2-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 204
-Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
-Conflicts: com.netskao.qqnotiavatar
-Replaces: com.netskao.qqnotiavatar
-Filename: ./debs/QQNotiAvatar消息头像-Rootless.deb
-Size: 25860
-MD5sum: 9c2e67bdd9d1ea185dd75d1ca783cf18
-SHA1: a749c49822552b41ff1dcce84b378d311f77669f
-SHA256: 4a63b281e7fd784adedc7b844ccb9f863263b2bfc4258a1c181e710da78655ad
-Section: 软件增强
-Description: 让QQ消息通知显示QQ好友头像
-  - 插件无设置项安装即可生效
-  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: QQNotiAvatar消息头像-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.netskao.qqnotiavatar.json
 
 Package: lym.com.netskao.swiftgramcrack
 Version: 1.1-7
