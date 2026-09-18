@@ -1,3 +1,51 @@
+Package: byg.iosios.net.nyyh
+Version: 1.2.522-1+debug
+Architecture: iphoneos-arm64
+Maintainer: liuwenyi
+Installed-Size: 304
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.nyyh
+Replaces: byg.iosios.net.nyyh
+Filename: ./debs/农业银行屏蔽-Rootless.deb
+Size: 32836
+MD5sum: b9581bf115341758016f8bfa4292dd89
+SHA1: dcca3cc579397d9970607eb5565d2b1c0eb5d734
+SHA256: df2a43017456a6478cd44e9ea58ee0d4394b2b9774240cee0db8009e85c43e49
+Section: 软件增强
+Description: 支持目前中国农业银行11.2.0版本
+ - 改善农业银行app闪退问题
+ - RootHide隐根越狱使用正常
+ - Rootless无根用户自测，如无效请卸载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: liuwenyi
+Name: 农业银行屏蔽-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/byg.iosios.net.nyyh.json
+
+Package: byg.iosios.net.nyyh
+Version: 1.2.522-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: liuwenyi
+Installed-Size: 304
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.nyyh
+Replaces: byg.iosios.net.nyyh
+Filename: ./debs/农业银行屏蔽-RootHide.deb
+Size: 33804
+MD5sum: db44209b869f68dde28bfe8187e0b85e
+SHA1: 709e64d2fbe2ed40c6f8c4669b99e0aff51693eb
+SHA256: e307a3a46137c15b2145255eab73aba219fc734b79bded786931342f0d87b819
+Section: 软件增强
+Description: 支持目前中国农业银行11.2.0版本
+ - 改善农业银行app闪退问题
+ - RootHide隐根越狱使用正常
+ - Rootless无根用户自测，如无效请卸载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: liuwenyi
+Name: 农业银行屏蔽-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/byg.iosios.net.nyyh.json
+
 Package: cm.octoforce.squidextender
 Version: 3.7.4-2
 Architecture: iphoneos-arm64
@@ -2051,24 +2099,45 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: lym.byg.iosios.net.autoscroll
 Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Conflicts: byg.iosios.net.autoscroll, lym.byg.iosios.net.autoscroll
+Replaces: byg.iosios.net.autoscroll, lym.byg.iosios.net.autoscroll
+Filename: ./debs/AutoScroll 自动滑动-RootHide.deb
+Size: 6692
+MD5sum: 1c24ccd52ff5178020b6127348e0c17c
+SHA1: 6fc47c82465d28bbbfb18abb31e7603b248fcc9b
+SHA256: fd347e3096e496ed0745fb21cae6710215fea09e9dba794f4474b253d3ce171f
+Section: 系统增强
+Description: 自动滑动屏幕
+ - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: pxcex
+Name: AutoScroll 自动滑动-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.byg.iosios.net.autoscroll.json
+
+Package: lym.byg.iosios.net.autoscroll
+Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: 搬运工
 Depends: mobilesubstrate
-Conflicts: byg.iosios.net.autoscroll
-Replaces: byg.iosios.net.autoscroll
+Conflicts: byg.iosios.net.autoscroll, lym.byg.iosios.net.autoscroll
+Replaces: byg.iosios.net.autoscroll, lym.byg.iosios.net.autoscroll
 Filename: ./debs/AutoScroll 自动滑动-Rootless.deb
-Size: 5520
-MD5sum: 3aad72e232c057a7f36b405b5565d70b
-SHA1: bc8150de304a4f5c6d8d5cf2d8a14788d906bc46
-SHA256: 4c1dda7b06c1b7e8731fd93895694c54823388a59e3d694bc236716a2fecb548
+Size: 5524
+MD5sum: e1b3ab0a102e41336f0253e5378ceaa8
+SHA1: c6b01ac5d39d5b1b2b57d2e8d261216a0c620278
+SHA256: 76b48bdb7f79b2db76f99e424d1d35daa6723ec7eeed3452b7b7bccbd1804d62
 Section: 系统增强
-Description: 页面自动滑动
+Description: 自动滑动屏幕
  - 跟随你的手指滑动幅度,页面始终自动滑动,再次触摸屏幕停止滑动
  - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.autoscroll.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.byg.iosios.net.autoscroll.json
 
 Package: lym.byg.iosios.net.canna
 Version: 0.9.0
