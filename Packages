@@ -449,18 +449,18 @@ Name: CCPrimeX冰蓝控制中心-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglan.kongzhidiy.json
 
 Package: com.binglanqjsy.deb
-Version: 3.0.0
+Version: 4.1.6-end
 Architecture: iphoneos-arm64
 Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
 Conflicts: com.binglanqjsy.deb
 Replaces: com.binglanqjsy.deb
 Filename: ./debs/冰蓝全局水印-Rootless.deb
-Size: 164760
-MD5sum: efe09419acc4542fc278031b5d4ad448
-SHA1: 3dacd00bd9fcfc1beccba38c1dfa7afd34afee06
-SHA256: f997a3a5adf455ab05cdb89158c3557e50bc201f4da8b562389a22edbe58a2b0
+Size: 337132
+MD5sum: 360ad995bc2eba4aa7f0c3f42b9fb6db
+SHA1: 4667111c94d738b04af872b0826d42136392de77
+SHA256: 4c8baf0819e0fb816ee2fca3958dc64c53ff787d3691391a01eccc5c1356f59f
 Section: 系统增强
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -469,24 +469,62 @@ Name: 冰蓝全局水印-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.binglanqjsy.deb.json
 
 Package: com.binglanqjsy.deb
-Version: 3.0.0
+Version: 4.1.6-end
 Architecture: iphoneos-arm64e
 Maintainer: 冰蓝
-Installed-Size: 908
-Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.16)
+Installed-Size: 2496
+Depends: mobilesubstrate, preferenceloader
 Conflicts: com.binglanqjsy.deb
 Replaces: com.binglanqjsy.deb
 Filename: ./debs/冰蓝全局水印-RootHide.deb
-Size: 160548
-MD5sum: 3bfa63dcfa3a6c8d69aac2a987b158a9
-SHA1: 4702b7765035d7d49c3252abee16f7002afdc8b2
-SHA256: 98c0b86429807bb43f01a5a2be017dceb58bd8d7af341325f1137516b1726986
+Size: 290088
+MD5sum: 3b38a5f5427ca0f1f2f34427d9700170
+SHA1: 23ef84b3bacd5921f14835b4bd52b9d1e47ca4f5
+SHA256: 659b704fc12b569468a0a4f8d91cc640a7ab278c218bc47546ad77df42d93274
 Section: 系统增强
 Description: 添加全局水印相关功能，支持截图水印，录屏水印，套壳截图，套壳录屏
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 冰蓝
 Name: 冰蓝全局水印-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglanqjsy.deb.json
+
+Package: com.bvn.squidgesturepro.rl
+Version: 2.7.6K
+Architecture: iphoneos-arm64
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/ScreenCore分屏-Rootless_2.7.6K_iphoneos-arm64.deb
+Size: 1773224
+MD5sum: d2823fca36407cf29b7e23fbbf7ee078
+SHA1: 27524b5c20f4407baac10a2d5e232fc551cee5b1
+SHA256: 76393994ced5960a118e3fd61466413f73e69682aae122dcf49c4f885e48c216
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SquidForce, Backup
+Name: ScreenCore分屏-Rootless
+
+Package: com.bvn.squidgesturepro.rl
+Version: 2.7.6K
+Architecture: iphoneos-arm64e
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: ./debs/ScreenCore分屏-RootHide_2.7.6K_iphoneos-arm64e.deb
+Size: 1740832
+MD5sum: d871837945e580174a98e1683d104794
+SHA1: 5f1f3efbc232a03f553f2900b22c621d51f9303f
+SHA256: f0f8bf52bda78430c4dc0909c2174e4112f0e0630a34d9739dd57a4be39d88dc
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SquidForce, Backup
+Name: ScreenCore分屏-RootHide
 
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
@@ -1328,46 +1366,6 @@ Author: Netskao
 Name: Filza Crack解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
 
-Package: com.nx.stheno
-Version: 0.1.23-1
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 2988
-Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
-Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
-Filename: ./debs/Stheno分屏新版-Rootless.deb
-Size: 550868
-MD5sum: 4ff62082a5263fd9685d4482e8756dfd
-SHA1: b091c51594f72b8b9e587b21518feef65d828d15
-SHA256: 422d4c3d6b59d04b4f5a64867b1141b421f3f584d790670bbbca9c4f49ff6663
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.nx.stheno.json
-
-Package: com.nx.stheno
-Version: 0.1.23-1
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 2988
-Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0)
-Conflicts: com.h.sthenokb, com.nx.stheno.splitlastownerprobe, com.nx.stheno.splitcycleownerprobe, com.nx.stheno.renderresourceprobe, com.nx.stheno.surfaceownerprobe, com.nx.stheno.splittransitionownerprobe, com.nx.stheno.splitcontextunbindfix, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
-Replaces: com.h.sthenokb, com.nx.stheno.fix.bannerpull80fix1, com.nx.stheno.fix.nativereplycompetition1, com.nx.stheno.fix.nativereplydisable1, com.nx.stheno.fix, com.nx.stheno
-Filename: ./debs/Stheno分屏新版-RootHide.deb
-Size: 554080
-MD5sum: 782f12b7f9398b1be12299f9a78a346a
-SHA1: bd7db88f7ff08deb5fc35fcc180c7fbce35c9c96
-SHA256: 8c259879b87061e3d01e5b3f3a48ffbca4bb30d4c5e0cae09bb85bc8bfa51d61
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
-
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -1389,6 +1387,46 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
+
+Package: com.stheno
+Version: 77.1.4.8
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Conflicts: com.stheno
+Replaces: com.stheno
+Filename: ./debs/Stheno分屏新版-Rootless.deb
+Size: 530568
+MD5sum: 449a9c90319e5e970c31f977bbc66435
+SHA1: e0a303925d0e285395d1ac0e496289a034e9425c
+SHA256: ea07b73295e9b545bbb1409ff637e81c231ff0a2cf40413053a30b60b8e78a49
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.stheno.json
+
+Package: com.stheno
+Version: 77.1.4.8
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2788
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
+Conflicts: com.stheno
+Replaces: com.stheno
+Filename: ./debs/Stheno分屏新版-RootHide.deb
+Size: 519460
+MD5sum: 7b4a998fe25ab424f33cbd883133514c
+SHA1: 257f878b04bd2ad3be0563ea2378299832e66134
+SHA256: 25c6e43e6dd4515956f7fc4ee95aceb4c7614f8d2b327637f647bcc3632c0e0c
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.stheno.json
 
 Package: com.susudear.screencore
 Version: 1.1.1
