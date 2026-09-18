@@ -488,44 +488,6 @@ Author: 冰蓝
 Name: 冰蓝全局水印-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglanqjsy.deb.json
 
-Package: com.bvn.squidgesturepro.rl
-Version: 2.7.6K
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/ScreenCore分屏-Rootless_2.7.6K_iphoneos-arm64.deb
-Size: 1773224
-MD5sum: d2823fca36407cf29b7e23fbbf7ee078
-SHA1: 27524b5c20f4407baac10a2d5e232fc551cee5b1
-SHA256: 76393994ced5960a118e3fd61466413f73e69682aae122dcf49c4f885e48c216
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SquidForce, Backup
-Name: ScreenCore分屏-Rootless
-
-Package: com.bvn.squidgesturepro.rl
-Version: 2.7.6K
-Architecture: iphoneos-arm64e
-Maintainer: SquidForce, Backup
-Installed-Size: 6620
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0), com.bvn.squidforcecrack.rl
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/ScreenCore分屏-RootHide_2.7.6K_iphoneos-arm64e.deb
-Size: 1740832
-MD5sum: d871837945e580174a98e1683d104794
-SHA1: 5f1f3efbc232a03f553f2900b22c621d51f9303f
-SHA256: f0f8bf52bda78430c4dc0909c2174e4112f0e0630a34d9739dd57a4be39d88dc
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SquidForce, Backup
-Name: ScreenCore分屏-RootHide
-
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
 Architecture: iphoneos-arm64
@@ -1496,6 +1458,44 @@ Size: 420212
 MD5sum: 8fae81318798676ce5ecf72d8881d4b0
 SHA1: 0d20cd31c7bd076b0653a50ab799d268bc53515d
 SHA256: 66fbfa4a9a41425e1144ef4dd50bb2935d467d1406c0fa9c1753cd1050c91f87
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-RootHide
+
+Package: com.susudear.screencore
+Version: 1.1.8
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2836
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-Rootless_1.1.8_iphoneos-arm64.deb
+Size: 443720
+MD5sum: 6b08e2de854c6d4e28da5fdc28e4bd21
+SHA1: cfdebb067962db6588fc557c9d3bbdd6e34ac921
+SHA256: 0de6e9686298c8ab9b48d075fee2c4a9cb9134023bb25e56269ccaee1f51f215
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-Rootless
+
+Package: com.susudear.screencore
+Version: 1.1.8
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2836
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-RootHide_1.1.8_iphoneos-arm64e.deb
+Size: 440164
+MD5sum: 3bbe958fa763acb12c9bf6ab3f588c2f
+SHA1: 9bf34ca32181950a90dae5c34a4b603ee49f91ba
+SHA256: db3e9c12604cec902fc50bf3056645428be61cf8e8d2bc304704971ae74943f8
 Section: 分屏插件
 Description: 一款免费的分屏插件
  - 体验使用效果还不错
