@@ -580,6 +580,46 @@ Author: DangKhoa <dangkhoa116@gmail.com>
 Name: HotspotPro个人热点-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dangkhoa.hotspotpro.json
 
+Package: com.dao.axon
+Version: 2.5.3.1
+Architecture: iphoneos-arm64
+Maintainer: 刀刀
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
+Replaces: com.dao.axon
+Filename: ./debs/Axon 中文版-Rootless.deb
+Size: 156332
+MD5sum: f9d15763459267f952bea4cc1075b211
+SHA1: afd2cc56033ef3bcda909a813eb2effe20249c2e
+SHA256: 125749de949eb8fda879e090b8779f69042d708aaf73c988114bed46f0023ce0
+Section: 系统增强
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nepeta & daodao
+Name: Axon 中文版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.axon.json
+
+Package: com.dao.axon
+Version: 2.5.3.1
+Architecture: iphoneos-arm64e
+Maintainer: 刀刀
+Installed-Size: 688
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
+Replaces: com.dao.axon
+Filename: ./debs/Axon 中文版-RootHide.deb
+Size: 156408
+MD5sum: 706a3c5459ed5fa8cb39e644ab058739
+SHA1: 570f7da95faecda0e483c75f8f01dcf6fc9b6fc4
+SHA256: 260241a4deae87a668b5306c3de474f02109f3dc817633ee8d0cbd67e7ae7fd6
+Section: 系统增强
+Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nepeta & daodao
+Name: Axon 中文版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.axon.json
+
 Package: com.dao.bottomcontrolx
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -1333,6 +1373,94 @@ Description: Control your text or translate as you wish.
 Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
+
+Package: com.li.icbcmshook
+Version: 0.66.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: Li
+Installed-Size: 660
+Conflicts: com.li.icbcmshook
+Replaces: com.li.icbcmshook
+Filename: ./debs/工商银行屏蔽-Rootless.deb
+Size: 99324
+MD5sum: 7a35fc0f70f8e2e3be708729c28aa5c6
+SHA1: 72d2faae67a2d702c3480e63a56acf204f320b14
+SHA256: e680edebe890fc78261c48f7c0d772cc87f9fad100ce6f846cc6d442dd764081
+Section: 软件增强
+Description: 仅在工商银行11.1.0.版本测试
+ - 如无效请卸载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Li
+Name: 工商银行屏蔽-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.li.icbcmshook.json
+
+Package: com.li.icbcmshook
+Version: 0.66.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: Li
+Installed-Size: 660
+Conflicts: com.li.icbcmshook
+Replaces: com.li.icbcmshook
+Filename: ./debs/工商银行屏蔽-RootHide.deb
+Size: 100192
+MD5sum: 77a8f78c2323f9c99e7faed4ae8444a5
+SHA1: 89a08bf5ee90729a6d11d30e76ca3582ca3ddee2
+SHA256: fc6e10844b993ff4274f7b321c251492299a7ad08ca5811c56abef0a61c9ab45
+Section: 软件增强
+Description: 仅在工商银行11.1.0.版本测试
+ - 如无效请卸载
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Li
+Name: 工商银行屏蔽-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.li.icbcmshook.json
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64e
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Conflicts: com.local.alipay.identity-compat
+Replaces: com.local.alipay.identity-compat
+Filename: ./debs/支付宝刷脸验证-RootHide.deb
+Size: 31060
+MD5sum: 0d4eb3ab1e70610847a555b617d5e50b
+SHA1: ac6c5555cc14c0942cd5fac05e1d7a7a793e5d29
+SHA256: 5135b902b718500325e204b191d7cffcad80bab6612021117049adeda80a913c
+Section: 软件增强
+Description: 解决个别支付宝小程序服务刷脸验证问题
+ - 屏蔽支付宝热更新
+ - 如无效请卸载此插件
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local Workspace
+Name: 支付宝刷脸验证-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.local.alipay.identity-compat.json
+
+Package: com.local.alipay.identity-compat
+Version: 0.1.9
+Architecture: iphoneos-arm64
+Maintainer: Local Workspace
+Installed-Size: 268
+Depends: mobilesubstrate
+Conflicts: com.local.alipay.identity-compat
+Replaces: com.local.alipay.identity-compat
+Filename: ./debs/支付宝刷脸验证-Rootless.deb
+Size: 30260
+MD5sum: 3b92baeff5e500b9a074c310219b8ba0
+SHA1: 763245f89db741fdcc0ad336034f838d1a4c8edb
+SHA256: f046d9323e343f1b8d02fe9375ee8635d3de15f6b0462286e0310486ec6d51f1
+Section: 软件增强
+Description: 解决个别支付宝小程序服务刷脸验证问题
+ - 屏蔽支付宝热更新
+ - 如无效请卸载此插件
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local Workspace
+Name: 支付宝刷脸验证-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.local.alipay.identity-compat.json
 
 Package: com.netskao.filzacrack
 Version: 1.1-9
@@ -2848,46 +2976,6 @@ Description: 3DAppVersionSpoofer伪装版本
 Author: 0xkuj
 Name: 3DAppVersionSpoofer伪装版本-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
-
-Package: lym.com.dao.axon
-Version: 2.5.3
-Architecture: iphoneos-arm64
-Maintainer: 刀刀
-Installed-Size: 688
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
-Replaces: com.dao.axon
-Filename: ./debs/Axon 中文版-Rootless.deb
-Size: 155980
-MD5sum: a0590bfd72e4ada9af7f60d5d80adda9
-SHA1: 326f096a5acd58a328176f08796d1b8da59f10c6
-SHA256: 9d5f2fae7b527dccf0ce267ef6df91fbe1598bb33320fc8259ef29cf919644a9
-Section: 系统增强
-Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Nepeta & daodao
-Name: Axon 中文版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon_2.5.3.json
-
-Package: lym.com.dao.axon.roothide
-Version: 2.5.3
-Architecture: iphoneos-arm64e
-Maintainer: 刀刀
-Installed-Size: 688
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.hk.axon.cn.rl, com.hk.axon.cn, me.nepeta.axon, com.hk.axon, com.alias20.hk.axon, com.qms.axon, com.dao.axon
-Replaces: com.dao.axon
-Filename: ./debs/Axon 中文版-RootHide.deb
-Size: 156176
-MD5sum: 72733248a7453f31ed451e96b2c13d8c
-SHA1: 275ba5a8216333db9dd213458a577a1594eb05c6
-SHA256: 2ab02628739a234a5ee64c215802f3f9c05e30434ea4842e3a813d28fec90c2b
-Section: 系统增强
-Description: 锁屏通知聚合插件，刀刀中文优化版，提升执行效率与稳定性。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Nepeta & daodao
-Name: Axon 中文版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.axon.roothide_2.5.3.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
