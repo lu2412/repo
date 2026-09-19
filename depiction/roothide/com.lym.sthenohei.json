@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- stheno奥利奥分屏插件，效果看截图，插件设置项从右侧最下面往左滑打开，自行研究，此插件只为自用备份存档\n- 分屏小窗状态下：小横条上滑关闭当前小窗，小横条快速下滑可切至大屏\n- 单击小横条可切至挂机模式。拖动小横条边缘移动位置，长按边缘上下滑动放大缩小，单击边缘置顶小窗。\n- 特点可支持游戏后台挂机：缩小为图标，单击图标显示小窗，长按图标关闭当前app\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f2"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "Crassna"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "3.3.3-END"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月19日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.3.3-END\n- 初始发布"}
+      ]
+    }
+  ]
+}

@@ -46,41 +46,6 @@ Author: liuwenyi
 Name: 农业银行屏蔽-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/byg.iosios.net.nyyh.json
 
-Package: cm.octoforce.squidextender
-Version: 3.7.4-2
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: com.squidforce.squidextender
-Filename: ./debs/乌贼键盘-3.7.4-2.deb
-Size: 2623680
-MD5sum: d8dc4fe9f8dcf467c0765d6721d6afc4
-SHA1: 846e612334ed1dce309f3ac1c423709acc2e2b43
-SHA256: 370aa417e0cd8ab6395ba65b62b0e8954f9977bb91ec4fdbb4e087ac7aa0afca
-Section: 乌贼插件
-Description: SquidExtender + PCrack 离线授权（本地生成合法授权，不改二进制）
-Author: SquidForce, Backup
-Name: SquidExtender破解版
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-
-Package: cm.octoforce.squidgesturepro
-Version: 2.7.6-2
-Architecture: iphoneos-arm64
-Maintainer: SquidForce, Backup
-Installed-Size: 7347
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
-Filename: ./debs/乌贼手势-2.7.6-2.deb
-Size: 1936532
-MD5sum: 530f2725813ff1ee1789adfda6afaa69
-SHA1: 7886bd0732c2f2347d4543fe0f49eff521a2cd02
-SHA256: 2a2a570b17c6a1b984de20447915c4618a2841b0c6b7b5758e9bfa53206822b4
-Section: 乌贼插件
-Description: 内置 DCrack 离线授权（本地生成、绑定设备、无需激活服务器）。
-Author: SquidForce, Backup
-Name: SquidGesturePro破解版
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
-
 Package: cn.llld.notes-fix
 Version: 1.0.4-1+debug
 Architecture: iphoneos-arm64
@@ -535,6 +500,48 @@ Description: 添加全局水印相关功能，支持截图水印，录屏水印�
 Author: 冰蓝
 Name: 冰蓝全局水印-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglanqjsy.deb.json
+
+Package: com.bvm.wuzeililiang
+Version: 1.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.bvm.wuzeililiang
+Replaces: com.bvm.wuzeililiang
+Filename: ./debs/乌贼本地离线授权-RootHide.deb
+Size: 38256
+MD5sum: 2ec92db5a8c76929a073c77cab6d64e6
+SHA1: 6fe635e3637989b562faab10938363e7f0f00069
+SHA256: 1e4a71954948cf7b10c9833e32c4e1a5b1c86c5ea5e1b5422c7d0282e8b0c6be
+Section: 乌贼插件
+Description: 乌贼三件套通杀插件，内置DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: BVN
+Name: 乌贼本地离线授权-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.bvm.wuzeililiang.json
+
+Package: com.bvm.wuzeililiang
+Version: 1.0.1-1
+Architecture: iphoneos-arm64
+Maintainer: BVN
+Installed-Size: 328
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.bvm.wuzeililiang
+Replaces: com.bvm.wuzeililiang
+Filename: ./debs/乌贼本地离线授权-Rootless.deb
+Size: 38220
+MD5sum: 59c195416e3398a5e697c02f2fa2eead
+SHA1: f00f9be547cbebd09214120797c9e9a3e4643d83
+SHA256: 3b521f3b7c9068130854391e0ee69bff5c2cb3958fab630581611e8d3bfa79bd
+Section: 乌贼插件
+Description: 乌贼三件套通杀插件，内置DCrack 离线授权（本地生成、绑定设备、无需激活服务器）
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: BVN
+Name: 乌贼本地离线授权-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.bvm.wuzeililiang.json
 
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
@@ -1255,18 +1262,18 @@ Name: AppData软件增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosdump.appdata.json
 
 Package: com.jaysuen.evocenter
-Version: 2.0.0-beta.2-6
+Version: 2.5.0-beta.2
 Architecture: iphoneos-arm64e
 Maintainer: chatgpt5.6（sol）, JaySuen
-Installed-Size: 9392
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Installed-Size: 11068
+Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-RootHide.deb
-Size: 230208
-MD5sum: 3eb3bbf33282d808a4aa479863dd9044
-SHA1: bec3f1206e044bf4edf54d16768a6fe06e867d0e
-SHA256: 38e35e9d39a94d83aafae9dc4bf8cf4154101cededfe70d5679f9ea754088262
+Size: 332092
+MD5sum: b2712614c37c7864692d32045496c901
+SHA1: bcc7bc8ee10d4a5d03ba91a45732b7f73de1f485
+SHA256: a31688cca12502eb964a82276f7bb0329fd3b65b8c514bf46d0d53279aa6d49f
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -1280,18 +1287,18 @@ Name: Evo Center控制中心-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.jaysuen.evocenter.json
 
 Package: com.jaysuen.evocenter
-Version: 2.0.0-beta.2-6
+Version: 2.5.0-beta.2
 Architecture: iphoneos-arm64
 Maintainer: chatgpt5.6（sol）, JaySuen
-Installed-Size: 9492
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<= 17.4)
+Installed-Size: 10468
+Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-Rootless.deb
-Size: 235000
-MD5sum: 836dfc6ee7db1e372b967d139550d65a
-SHA1: 7cd45ecbb30dd81ce54748954d7752ed655216fc
-SHA256: 1ce2484877173ac5556d665ef55f3a48d66310056b74933e53b2fd4252769266
+Size: 303468
+MD5sum: 29e61fe0c062966eb8e8d4e64f3adee7
+SHA1: 253b8d214ec0b8fec4535ce910732722dfa5fb3b
+SHA256: d40ae9cc48ad076a788d4cbeecc825223f5de22db0d54b62197d5edfb9750e0d
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -1462,6 +1469,50 @@ Author: Local Workspace
 Name: 支付宝刷脸验证-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.local.alipay.identity-compat.json
 
+Package: com.lym.sthenohei
+Version: 3.3.3-END
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Conflicts: com.lym.sthenohei, com.lym.sthenohei
+Replaces: com.lym.sthenohei, com.lym.sthenohei
+Filename: ./debs/Stheno旧版奥利奥-Rootless.deb
+Size: 409164
+MD5sum: b25a4a5abbdf287f10b46c8f5d5c6869
+SHA1: 8083b638132d36cdc47fdc25541a1237f3c85a63
+SHA256: 698592653d76254a97e565efdc0fca6137a00eb6f68a6c410976fa221e2667fd
+Section: 分屏插件
+Description: stheno奥利奥分屏插件，效果看截图，插件设置项从右侧最下面往左滑打开，自行研究，此插件只为自用备份存档
+ - 分屏小窗状态下：小横条上滑关闭当前小窗，小横条快速下滑可切至大屏
+ - 单击小横条可切至挂机模式。拖动小横条边缘移动位置，长按边缘上下滑动放大缩小，单击边缘置顶小窗。
+ - 特点可支持游戏后台挂机：缩小为图标，单击图标显示小窗，长按图标关闭当前app
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno旧版奥利奥-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.lym.sthenohei.json
+
+Package: com.lym.sthenohei
+Version: 3.3.3-END
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
+Conflicts: com.lym.sthenohei, com.lym.sthenohei
+Replaces: com.lym.sthenohei, com.lym.sthenohei
+Filename: ./debs/Stheno旧版奥利奥-RootHide.deb
+Size: 411936
+MD5sum: ce21ad4521fd582a3b1ac0f1a7ac59ed
+SHA1: 651f537561f36d76d42c2680ec52e69d6a6834a4
+SHA256: e6eb68ddd9d0cd46ffcbb5bc4d42d3161792e2896b5058b21849c28f50447c13
+Section: 分屏插件
+Description: stheno奥利奥分屏插件，效果看截图，插件设置项从右侧最下面往左滑打开，自行研究，此插件只为自用备份存档
+ - 分屏小窗状态下：小横条上滑关闭当前小窗，小横条快速下滑可切至大屏
+ - 单击小横条可切至挂机模式。拖动小横条边缘移动位置，长按边缘上下滑动放大缩小，单击边缘置顶小窗。
+ - 特点可支持游戏后台挂机：缩小为图标，单击图标显示小窗，长按图标关闭当前app
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno旧版奥利奥-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.lym.sthenohei.json
+
 Package: com.netskao.filzacrack
 Version: 1.1-9
 Architecture: iphoneos-arm64e
@@ -1565,82 +1616,6 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
-
-Package: com.susudear.screencore
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2752
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-Rootless_1.1.1_iphoneos-arm64.deb
-Size: 419820
-MD5sum: c78976b94d66c5f51b7ea2ddaf09bd11
-SHA1: c9c64d5c72b00ef2a8fdbe988b2c4d169c361134
-SHA256: 5745869cf5ae6f54edc0f7475c1af3b4abcb247da58a0c601287b425362bdb81
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏-Rootless
-
-Package: com.susudear.screencore
-Version: 1.1.1
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2720
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-RootHide_1.1.1_iphoneos-arm64e.deb
-Size: 416052
-MD5sum: 76b3bed53b4f9dba4d94ef9858ba86d2
-SHA1: f5139af245bcf49da7afdf9bad6b20f1ef679575
-SHA256: 62a5fe0ee26456101cc1f6d83af2be001a20d6d753dffd2111e007b1d8c7cd67
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏-RootHide
-
-Package: com.susudear.screencore
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: SuSu
-Installed-Size: 2760
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-Rootless_1.1.2_iphoneos-arm64.deb
-Size: 418280
-MD5sum: 6cfa177baf19686f5240b007e4fb39e3
-SHA1: 425961829cfb9c7a1d4e035f47a6ccbe43003440
-SHA256: 6d56e6f8ead951a9badb590ffeb2b9744dfe07a5b06a986dc26fd864a378821e
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏-Rootless
-
-Package: com.susudear.screencore
-Version: 1.1.2
-Architecture: iphoneos-arm64e
-Maintainer: SuSu
-Installed-Size: 2760
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
-Filename: ./debs/ScreenCore分屏-RootHide_1.1.2_iphoneos-arm64e.deb
-Size: 420212
-MD5sum: 8fae81318798676ce5ecf72d8881d4b0
-SHA1: 0d20cd31c7bd076b0653a50ab799d268bc53515d
-SHA256: 66fbfa4a9a41425e1144ef4dd50bb2935d467d1406c0fa9c1753cd1050c91f87
-Section: 分屏插件
-Description: 一款免费的分屏插件
- - 体验使用效果还不错
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: SuSu
-Icon: https://repo.susubaby.cn/icons/ScreenCore.png
-Name: ScreenCore分屏-RootHide
 
 Package: com.susudear.screencore
 Version: 1.1.8
@@ -3914,56 +3889,6 @@ Description: 将控制中心的亮度和音量滑块横过来
 Author: Nightwind
 Name: HorizontalSliders-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nightwind.horizontalsliders.json
-
-Package: lym.com.nx.stheno
-Version: 77.1.4.7
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 1928
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.nx.stheno
-Replaces: com.nx.stheno
-Filename: ./debs/Stheno分屏旧版-Rootless.deb
-Size: 222104
-MD5sum: 75f57e8890aedee3b5bb2c6667849ca8
-SHA1: 75c23f04349364058cafbf96f38195605aba283b
-SHA256: 30a6bbbf4d2319cd2a7a12314d8d9c9a733ad580789c3a21050029b0cee261b3
-Section: 分屏插件
-Description: 呼出设置：点击调解边缘手势区域大小，继续点击切换手势出发边缘。
- - 窗口切换：单个及多个窗口切换，单窗口状态同步，调整及还原浮窗大小。
- - 比例窗口：开启16:9模式窗口，长按浮窗四角重启并强制匹配浮窗UI。
- - 监听服务：以浮窗模式打开（1.开启后仅对已添加应用生效；2.消息通知以浮窗打开；3.URL Scheme以浮窗打开；4.账号授权以浮窗打开。）
- - 旋转切换：三种切换横屏模式及说明（1.浮窗后立即旋转，但游戏UI容易错乱；2.浮窗后延迟旋转，效果稳定；3.兼容模式，效果未知。）
- - 浮窗手势:打开为浮窗四个边缘位置交互，关闭则为上下两边位置交互。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏旧版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nx.stheno_77.1.4.7.json
-
-Package: lym.com.nx.stheno.roothide
-Version: 77.1.4.7
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 1928
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.nx.stheno
-Replaces: com.nx.stheno
-Filename: ./debs/Stheno分屏旧版-RootHide.deb
-Size: 223708
-MD5sum: 6aa89f1f4c0ab521e84dfc8835e826b3
-SHA1: 8f5eaee0c82f067ce07a94d8d9d7e3d0f6a15576
-SHA256: 79ec741c2d740b30053124b182fc3e86fcbf01ffa24820f27baa17e8fb4ff4ef
-Section: 分屏插件
-Description: 呼出设置：点击调解边缘手势区域大小，继续点击切换手势出发边缘。
- - 窗口切换：单个及多个窗口切换，单窗口状态同步，调整及还原浮窗大小。
- - 比例窗口：开启16:9模式窗口，长按浮窗四角重启并强制匹配浮窗UI。
- - 监听服务：以浮窗模式打开（1.开启后仅对已添加应用生效；2.消息通知以浮窗打开；3.URL Scheme以浮窗打开；4.账号授权以浮窗打开。）
- - 旋转切换：三种切换横屏模式及说明（1.浮窗后立即旋转，但游戏UI容易错乱；2.浮窗后延迟旋转，效果稳定；3.兼容模式，效果未知。）
- - 浮窗手势:打开为浮窗四个边缘位置交互，关闭则为上下两边位置交互。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏旧版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.nx.stheno.roothide_77.1.4.7.json
 
 Package: lym.com.p2kdev.alarmtime
 Version: 1.1
