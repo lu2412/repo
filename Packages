@@ -3403,18 +3403,18 @@ Name: SmallBoard 键盘下沉-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.icraze.smallboards.json
 
 Package: lym.com.iosdump.shellx
-Version: 3.2.1
+Version: 6.0.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 14436
+Installed-Size: 14628
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 3205808
-MD5sum: 82327b2f1e625302921e3120d498978c
-SHA1: 2e436b7f6d43ca3b5e9d14acdaebec4b419b9f31
-SHA256: f91f29f8c105d00461244f0591430c48c9c4e0abe93ff00dcf22541a1b4e4e6f
+Size: 3244672
+MD5sum: e7cfb82ac452179d0ccc33b4b8a0872f
+SHA1: a1a9a03727f7626a5e792fddfa0437929689ce90
+SHA256: 2a1bed972a38d6432f6f96bb02b754b057b238a7948baf29c49fd2750642fc5c
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -3424,18 +3424,18 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 3.2.1
+Version: 6.0.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 14436
+Installed-Size: 14628
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 3206088
-MD5sum: a5d913af7003fb19b46926de152c64a5
-SHA1: 9e361eec607d0d17fcfb5840a240a457b14edce8
-SHA256: bc81effc1886b3ffa9a4d156709bed8aa2ccec9301eeb5d40d167cb670a379fb
+Size: 3254936
+MD5sum: 1bacbdad2536cf9e134763e6d36d81f9
+SHA1: f0371a4b5ae706a8047eb22231f4e9b3bf49a47d
+SHA256: 25fdc54fcc4a236346c1fad3f677cf06ff78c32f62872e3fbc46338c96290b4e
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
