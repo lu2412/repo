@@ -1504,6 +1504,46 @@ Author: Netskao
 Name: Filza Crack解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
 
+Package: com.nx.stheno
+Version: 0.1.12-3~backgroundreuse1+memoryopt1
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 2956
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmware (<= 17.3.1)
+Conflicts: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
+Replaces: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
+Filename: ./debs/Stheno分屏新版-Rootless.deb
+Size: 541892
+MD5sum: 80e53f4e3672e4557562198373874d9f
+SHA1: 9e629355f2af70ba13c340a838eb831adf466c73
+SHA256: 22cfc0a00370e42bb046797c9659a5ae3b981fa925c8f97d98cb9191b0c0c6ef
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.nx.stheno.json
+
+Package: com.nx.stheno
+Version: 0.1.12-3~backgroundreuse1+memoryopt1
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 2956
+Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmware (<= 17.3.1)
+Conflicts: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
+Replaces: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
+Filename: ./debs/Stheno分屏新版-RootHide.deb
+Size: 544632
+MD5sum: f86bbe99c89abfe3c0f8894a9d07ee07
+SHA1: 2e122b4604ca1fe46dbff9cfa88155571a6964a4
+SHA256: 49f71773c7666c6ca8571950b202f22988d01933c74a1e9861a1802d07b83f20
+Section: 分屏插件
+Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno分屏新版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
+
 Package: com.squidforce.moreactionsforappicon
 Version: 1.1.0
 Architecture: iphoneos-arm64
@@ -1525,46 +1565,6 @@ Description: 添加“应用标识符”，“应用设置”和“在AppStore�
 Author: SquidForce
 Name: 应用3DTouch菜单-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/com.squidforce.moreactionsforappicon.json
-
-Package: com.stheno
-Version: 77.1.4.8
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 2788
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.stheno
-Replaces: com.stheno
-Filename: ./debs/Stheno分屏新版-Rootless.deb
-Size: 530568
-MD5sum: 449a9c90319e5e970c31f977bbc66435
-SHA1: e0a303925d0e285395d1ac0e496289a034e9425c
-SHA256: ea07b73295e9b545bbb1409ff637e81c231ff0a2cf40413053a30b60b8e78a49
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.stheno.json
-
-Package: com.stheno
-Version: 77.1.4.8
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 2788
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 16.1)
-Conflicts: com.stheno
-Replaces: com.stheno
-Filename: ./debs/Stheno分屏新版-RootHide.deb
-Size: 519460
-MD5sum: 7b4a998fe25ab424f33cbd883133514c
-SHA1: 257f878b04bd2ad3be0563ea2378299832e66134
-SHA256: 25c6e43e6dd4515956f7fc4ee95aceb4c7614f8d2b327637f647bcc3632c0e0c
-Section: 分屏插件
-Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Stheno分屏新版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.stheno.json
 
 Package: com.susudear.screencore
 Version: 1.1.1
@@ -3654,28 +3654,6 @@ Description: Safari工具栏添加按钮点击关闭标签页
 Author: SquidForce
 Name: ControlTab - 控制Safari标签页
 Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.lclrc.controltab/depiction.json
-
-Package: lym.com.lecard.wuyu
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 1948
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 15.0)
-Conflicts: com.lecard.wuyu
-Replaces: com.lecard.wuyu
-Filename: ./debs/Applecard分屏-Rootless.deb
-Size: 409108
-MD5sum: bd6ee2896868bf3e1964395c3cdf65aa
-SHA1: df5737af2b94c95479e3feaca91ad36ff10585ca
-SHA256: 2673a8838bde2df88dfa6cde263795eeac67a941e8850506a214a454060f5b52
-Section: 分屏插件
-Description: 网友分享分屏插件
- - 目前已停更
- - 使用方法如图所示
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: Applecard分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.lecard.wuyu.json
 
 Package: lym.com.lenglengyu.shortvideodl-rootless
 Version: 2.1.6
