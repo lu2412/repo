@@ -16,8 +16,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 长按电源键，打开手电筒，再次长按关闭手电筒\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+          "markdown": "### 插件介绍\n- 强大的IOS端开发工具！\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zd.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zd1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -27,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "半生年华"
+          "text": "HASHBANG Productions <support@hbang.ws>"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "3.0~beta1-2048"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月28日"
+          "text": "2026年09月20日"
         }
       ]
     },
@@ -50,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 3.0~beta1-2048\n- 初始发布"}
       ]
     }
   ]
