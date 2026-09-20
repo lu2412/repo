@@ -11,13 +11,18 @@
         {
           "class": "DepictionButtonView",
           "text": "捐赠给开发者",
-          "action": "https://qr.alipay.com/fkx16447droqidnuzcldk3a",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
           "openExternal": 1
         },
         {
           "class": "DepictionMarkdownView",
           "markdown": "### 插件介绍\n- 显示屏幕触摸轨迹，支持iOS14-17所有越狱\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/Troll.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/Troll1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -42,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月23日"
+          "text": "2026年09月20日"
         }
       ]
     },
@@ -50,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1.8\n- 修复导入图片路径问题"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1.8\n- 初始发布"}
       ]
     }
   ]
