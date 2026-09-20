@@ -1372,50 +1372,6 @@ Author: huami
 Name: Choicy补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.huami.ChoicyConfigPin.json
 
-Package: com.huhansibuxin.colorfulcloudsnoads
-Version: 1.5.1-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: huhansibuxin
-Installed-Size: 232
-Depends: mobilesubstrate, ellekit
-Conflicts: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
-Replaces: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
-Filename: ./debs/彩云天气去除小助手-RootHide.deb
-Size: 19308
-MD5sum: 518cb6e0010bd375fb311a902de4a15c
-SHA1: 291afb095e0fa65797ab9fba1aa019e95128eaf0
-SHA256: f91a8d94e75af156d667e0b5052e3cdf9a5d5983e4479287cd56963e3c8658a5
-Section: 软件增强
-Description: 去除底栏小助手菜单
- - 拦截svip频繁弹窗
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huhansibuxin
-Name: 彩云天气去除小助手-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.huhansibuxin.colorfulcloudsnoads.json
-
-Package: com.huhansibuxin.colorfulcloudsnoads
-Version: 1.5.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: huhansibuxin
-Installed-Size: 232
-Depends: mobilesubstrate, ellekit
-Conflicts: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
-Replaces: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
-Filename: ./debs/彩云天气去除小助手-Rootless.deb
-Size: 18320
-MD5sum: 2567c2643879f54eb3ca59cb26e80cb5
-SHA1: e4de7c91a618b099b99338f35eaa0924ec660955
-SHA256: 6ad148a3b236941718c9459dddc10b671ce6fbe7de50f65cd26a4f7c6fab385f
-Section: 软件增强
-Description: 去除底栏小助手菜单
- - 拦截svip频繁弹窗
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huhansibuxin
-Name: 彩云天气去除小助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.huhansibuxin.colorfulcloudsnoads.json
-
 Package: com.hx.wn
 Version: 1.0.5
 Architecture: iphoneos-arm64e
