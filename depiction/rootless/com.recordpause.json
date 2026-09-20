@@ -16,13 +16,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 系统输入法布局美化\n- 系统输入法和微信输入法的一些自定义\n- 让键盘更个性化!\n- 调整背景色和圆角等相关功能\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        }, {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 15,
-      "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/pan.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/pan1.png"}]
-    },
+          "markdown": "### 插件介绍\n- 录制视频时,可以手动暂停/恢复\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -32,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "t.me/gyddpu"
+          "text": "PoomSmart"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.1-3+debug"
+          "text": "2.0.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1-3+debug\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.0.7\n- 初始发布"}
       ]
     }
   ]

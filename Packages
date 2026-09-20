@@ -2122,6 +2122,50 @@ Author: Crassna
 Name: Stheno旧版奥利奥-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.lym.sthenohei.json
 
+Package: com.macxk.kwcrack
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: MacXK
+Installed-Size: 168
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: com.macxk.kwcrack, com.macxk.kwcrack
+Replaces: com.macxk.kwcrack, com.macxk.kwcrack
+Filename: ./debs/酷我音乐VIP-Rootless.deb
+Size: 3972
+MD5sum: 4418d06afcf15b87a9db878ae1019282
+SHA1: c50c20bf57dd8c8c6eccea281e1254d90b6ada5f
+SHA256: b2dbb46b29522e737392a62394e5a2a473d6be2ddf9c43ff0d2a031da2ebfc82
+Section: 软件增强
+Description: 酷我音乐纯净版VIP解锁
+ - 注意，只支持酷我纯净版
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: MacXK
+Name: 酷我音乐VIP-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.macxk.kwcrack.json
+
+Package: com.macxk.kwcrack
+Version: 0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: MacXK
+Installed-Size: 168
+Depends: firmware (>= 7.0), mobilesubstrate
+Conflicts: com.macxk.kwcrack, com.macxk.kwcrack
+Replaces: com.macxk.kwcrack, com.macxk.kwcrack
+Filename: ./debs/酷我音乐VIP-RootHide.deb
+Size: 5112
+MD5sum: 1c977beb976dc43410f56d7cf2c89467
+SHA1: 7804c048e40e6ab6956a2ed89b69e1964b53eb7f
+SHA256: f3e08594c44762e42319ee35649a3115a883b44ef1a5f502515b6a296110dacf
+Section: 软件增强
+Description: 酷我音乐纯净版VIP解锁
+ - 注意，只支持酷我纯净版
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: MacXK
+Name: 酷我音乐VIP-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.macxk.kwcrack.json
+
 Package: com.nan.debd
 Version: 0.4.2
 Architecture: iphoneos-arm64
@@ -2374,6 +2418,48 @@ Author: Crassna
 Name: Stheno分屏新版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
 
+Package: com.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: com.recordpause
+Replaces: com.recordpause
+Filename: ./debs/RecordPause录像暂停-Rootless.deb
+Size: 12000
+MD5sum: 806d3c6c1a934ee9127af4f439b6779c
+SHA1: e265a26bd6bf310189be1a1a46d90184c75c2faa
+SHA256: a0bfe638f4f050c2574cdfd4131673c76b7b222b818de82e13f352fdfdc91fc6
+Section: 轻量插件
+Description: 录制视频时,可以手动暂停/恢复
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: PoomSmart
+Name: RecordPause录像暂停-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.recordpause.json
+
+Package: com.recordpause
+Version: 2.0.7
+Architecture: iphoneos-arm64e
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 11.0), firmware (<< 18.0)
+Conflicts: com.recordpause
+Replaces: com.recordpause
+Filename: ./debs/RecordPause录像暂停-RootHide.deb
+Size: 13160
+MD5sum: 88a1c6dee3e9c925e0a5103ecbd3d5c8
+SHA1: 9df8d8064ec14ada14b469808eee1bc5995103c9
+SHA256: c60529c3e1521d055d766abe266340f5b04be486209b80db0243873605b61a4d
+Section: 轻量插件
+Description: 录制视频时,可以手动暂停/恢复
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: PoomSmart
+Name: RecordPause录像暂停-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.recordpause.json
+
 Package: com.shepgoba.settingswidgetss
 Version: 1.2.3
 Architecture: iphoneos-arm64
@@ -2459,6 +2545,48 @@ Description: 为 Safari 浏览器书签设置自定义图标
 Author: shiftcmdk
 Name: Safari自定义书签图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.shiftcmdk.bookmarkicons.json
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 蜗牛
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.snail.easynotify.rootless, com.snail.easynotify.rootless
+Replaces: com.snail.easynotify.rootless, com.snail.easynotify.rootless
+Filename: ./debs/3D开关APP消息通知 EasyNotify-Rootless.deb
+Size: 8312
+MD5sum: 70259f0b8d4c72fafaf745927d4fcfa4
+SHA1: 3961a639ca84e7050e55179b32f81922911bec26
+SHA256: 38ba47503b630fe3944e7149a5fb54204906ac8323b50fa5fb02cbff33e2c15c
+Section: 轻量插件
+Description: 长按主屏幕APP图标3DTouch菜单进行快速开关消息通知选项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 蜗牛
+Name: 3D开关APP消息通知 EasyNotify-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.snail.easynotify.rootless.json
+
+Package: com.snail.easynotify.rootless
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 蜗牛
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.snail.easynotify.rootless, com.snail.easynotify.rootless
+Replaces: com.snail.easynotify.rootless, com.snail.easynotify.rootless
+Filename: ./debs/3D开关APP消息通知 EasyNotify-RootHide.deb
+Size: 9280
+MD5sum: 89bd10378ddca68817f1e27afffbad0e
+SHA1: e555adfc33fd523d93917366548385146c35226e
+SHA256: 8952c08c1d72592370fc39811cc666ccb992ec8e9cecf955dedb8cc36cffc19a
+Section: 轻量插件
+Description: 长按主屏幕APP图标3DTouch菜单进行快速开关消息通知选项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 蜗牛
+Name: 3D开关APP消息通知 EasyNotify-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.snail.easynotify.rootless.json
 
 Package: com.squidforce.doubletapflipcamera
 Version: 1.1
@@ -2629,6 +2757,44 @@ Description: 微信主题插件
 Author: Mao
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tencent.themebox.json
+
+Package: com.textforsnapper3
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: com.textforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3, com.textforsnapper3
+Filename: ./debs/Snapper 3文字图标-RootHide.deb
+Size: 26240
+MD5sum: e5a036673faf2c8f5a0623e2bbbd9aa1
+SHA1: d37fd82bf61b0a690b2bdafc89ce40d137aa28ca
+SHA256: 909f0826e27c55be59225d7ff0526bd5934606f4c5fe390a74389bff9f2cacf3
+Section: 越狱增强
+Description: Snapper 3自用文字美化图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: Snapper 3文字图标-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.textforsnapper3.json
+
+Package: com.textforsnapper3
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: com.textforsnapper3
+Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3, com.textforsnapper3
+Filename: ./debs/Snapper 3文字图标-Rootless.deb
+Size: 25208
+MD5sum: d76c4b1f500d23b598955e56ac573b92
+SHA1: 445f2bc70d29b61bce25af0defca1b5dee434a93
+SHA256: 73b86bbc98d6b7f67ac627e5f5221233f8043ae88ae5712a22a3276fbd238c12
+Section: 越狱增强
+Description: Snapper 3自用文字美化图标
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: Snapper 3文字图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.textforsnapper3.json
 
 Package: com.tsangbaby.pulloverx
 Version: 2.1.1
@@ -3338,47 +3504,6 @@ Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.byg.iosios.net.autoscroll.json
 
-Package: lym.byg.iosios.net.canna
-Version: 0.9.0
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 288
-Depends: mobilesubstrate
-Conflicts: byg.iosios.net.canna
-Replaces: byg.iosios.net.canna
-Filename: ./debs/Canna锁屏充电提示音效-Rootless.deb
-Size: 91112
-MD5sum: c21fd8828b7ce3e1226d5be192947535
-SHA1: f6e2e890a5c04e9bfe9488fa21eb746431dbd7a7
-SHA256: 80b67786e9ec300107d0f9c41adac17bb4ed93cd0da25112f85a9363bab020be
-Section: 系统增强
-Description: 自定义锁屏和充电提示音
- - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Luki
-Name: Canna锁屏充电提示音效-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.canna.json
-
-Package: lym.byg.iosios.net.easynotify.rootless
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 152
-Depends: mobilesubstrate
-Replaces: byg.iosios.net.easynotify.rootless
-Filename: ./debs/Easynotify快速开关通知-Rootless.deb
-Size: 8304
-MD5sum: 6823bc4d4cb9d190c73cf1bba8075c14
-SHA1: 7e6dcda01910ddc4043fe503322ef3cc8a17d55d
-SHA256: da338b8695c5dbc3c6dab691540b4a5adb34ef51b239a9dba327ec43588a9373
-Section: 系统增强
-Description: 长按主屏幕APP图标3D Touch菜单快速开关消息通知
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Snail
-Name: Easynotify快速开关通知-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.easynotify.rootless.json
-
 Package: lym.byg.iosios.net.ghallownetwork-rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -3477,28 +3602,6 @@ Description: 微信去广告和谐版
 Author: Apple
 Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.apple.wechat.noads.json
-
-Package: lym.com.be-huge.custom-notification-sound
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: be-huge
-Installed-Size: 540
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.be-huge.custom-notification-sound
-Replaces: com.be-huge.custom-notification-sound
-Filename: ./debs/自定义微信好友通知铃声-Rootless.deb
-Size: 59260
-MD5sum: 8e744d82d0725d70972c74d2f18b22e2
-SHA1: 840651472e9d8aea603bde4e82553220cf224bcd
-SHA256: 55c0f58050adb95ec51161988c8ca1f40e49aac46e8c2ad4c125ca427818a066
-Section: 微信插件
-Description: 自定义微信联系人通知声音（似乎对mp3文件不太友好）
- - 使用方式：在对话框中，长按对方头像即可
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: 自定义微信好友通知铃声-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
 
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
@@ -3601,27 +3704,6 @@ Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
-Package: lym.com.huayuarc.caiyuntqpro
-Version: 0.0.1-1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.caiyuntqpro
-Replaces: com.huayuarc.caiyuntqpro
-Filename: ./debs/彩云天气pro-Rootless.deb
-Size: 3780
-MD5sum: 87f77d98133b10d3d980d203b4d02db1
-SHA1: e4274481d99d78e508f0ad0f3a211ef04a1234a6
-SHA256: 042b6bb90e5d2d4172f5220e43a554e914f45c479c6893993fab21b70066f557
-Section: 软件增强
-Description: 解锁彩云天气pro权益
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Huayuarc
-Name: 彩云天气pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
-
 Package: lym.com.hx.wn
 Version: 1.0.6
 Architecture: iphoneos-arm64
@@ -3714,26 +3796,6 @@ Author: iosdump
 Name: SHELLX截图套壳-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.iosdump.shellx.json
 
-Package: lym.com.iosrxwy.xmlynoads
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iosrxwy
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.iosrxwy.xmlynoads
-Replaces: com.iosrxwy.xmlynoads
-Filename: ./debs/喜马拉雅NoAd-Rootless.deb
-Size: 98592
-MD5sum: a60e1d48fa9a5630a2ab87dc7a93b4e7
-SHA1: 9e450abf64f81601791c33c8f32a024e1219bc5c
-SHA256: 8f3571628f12f0f7cac6b8c0be4f0d1f23c350145c83664c96b61336a3c4ff89
-Section: 软件增强
-Description: 喜马拉雅去广告,非破解!
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iosrxwy
-Name: 喜马拉雅NoAd-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.xmlynoads.json
-
 Package: lym.com.lns.pogr
 Version: 0.5.5~prerelease3
 Architecture: iphoneos-arm64e
@@ -3775,28 +3837,6 @@ Description: 调整以提高旧设备上AirPods的兼容性
 Author: Ruphane
 Name: PodsGrant耳机增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.lns.pogr.json
-
-Package: lym.com.macxk.kwcrack
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: MacXK
-Installed-Size: 168
-Depends: firmware (>= 7.0), mobilesubstrate
-Conflicts: com.macxk.kwcrack
-Replaces: com.macxk.kwcrack
-Filename: ./debs/酷我音乐纯净版-Rootless.deb
-Size: 3976
-MD5sum: 3ea3a499aa008541684f400a0b5ce307
-SHA1: dddcd4ddd6195c10f13c849013e787bb20877c7c
-SHA256: 52c70a3e011a1b0c3d1a31be7f51b9d006381ed3c007cadbb3ae2d402e75d5e8
-Section: 软件增强
-Description: 酷我音乐纯净版VIP解锁
- - 注意，只支持酷我纯净版
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: MacXK
-Name: 酷我音乐纯净版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.macxk.kwcrack.json
 
 Package: lym.com.netskao.swiftgramcrack
 Version: 1.1-7
@@ -3880,71 +3920,6 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Name: PanCake手势增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pancake.json
 
-Package: lym.com.ps.recordpause
-Version: 2.0.7
-Architecture: iphoneos-arm64
-Maintainer: PoomSmart
-Installed-Size: 216
-Depends: mobilesubstrate, firmware (>= 9.0), firmware (<< 18.0)
-Conflicts: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
-Replaces: org.thebigboss.recordpause, com.spicat.recordpause, com.ps.recordpause
-Filename: ./debs/RecordPause录像暂停-Rootless.deb
-Size: 12040
-MD5sum: dbd4de01dcb1aa99d23dea64c6dd44d4
-SHA1: 4d849b389e89501cc8a38228fc4707d412d8780a
-SHA256: 979f333417e3fa9807fa9cf7f8d37bc492ddcceed632ba678dbcbdc9ab507bb2
-Section: 系统增强
-Description: 录制视频时,可以手动暂停/恢复
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: PoomSmart
-Name: RecordPause录像暂停-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ps.recordpause.json
-
-Package: lym.com.qiop1379.swipeextenderx
-Version: 1.6.1~2
-Architecture: iphoneos-arm64
-Maintainer: MiRO <tweaks_support@miro92.com>
-Installed-Size: 614
-Depends: firmware (>= 14.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Conflicts: com.qiop1379.swipeextenderx
-Replaces: com.qiop1379.swipeextenderx
-Filename: ./debs/SwipeExtenderX键盘增强-Rootless.deb
-Size: 85956
-MD5sum: f29add6d8da0ce3641b1f802e85407ba
-SHA1: fdeb35ddf53ed98557c722ffd328ba7d8643333d
-SHA256: 4638855703ee64c41179327e724e5ba6d206086ecae436c90aa3bbd32554be1e
-Section: 键盘插件
-Description: IOS原生键盘增强功能
- - 仅仅支持系统原生键盘
- - 键盘按键，向任意方向滑动或长按某个键，可执行27个操作中的任意一个
- - 多种按键动作：向上滑动，向下滑动，向左滑动，向右滑动，长按
- - 多种按键操作：输入文字、选择、全选、剪切、粘贴、撤销、关闭键盘等等
- - 多种键盘类型可以自定义
- - 与其他插件兼容，例如 Copylog 等
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: MiRO <tweaks_support@miro92.com>
-Name: SwipeExtenderX键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
-
-Package: lym.com.sini.textforsnapper3
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3,lym.com.sini921.zhforsnapper3
-Replaces: com.lclrc.hammerit, com.jontelang.snapper3,com.sini.textforsnapper3,lym1.com.sini.textforsnapper3,lym.com.sini.xxforsnapper3
-Filename: ./debs/Snapper 3文字图标-Rootless.deb
-Size: 25224
-MD5sum: 077ab8f851c5ceec639795d61fc7c93c
-SHA1: 040cd6b185ad9c05c5fcfde50f43ba61190ac4fd
-SHA256: b815e1c2df195de1d448bbd2c3df127cea8c4a5f0c6c7d0a347df0bf2b0b5e7f
-Section: 美化插件
-Description: Snapper 3自用文字美化图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Snapper 3文字图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.sini.textforsnapper3.json
-
 Package: lym.com.sini921.fakesignalbar
 Version: 0.1-5
 Architecture: iphoneos-arm64
@@ -3965,28 +3940,6 @@ Description: 自定义运营商名称、信号强度、蜂窝连接等等
 Author: alias20 & SINI
 Name: FakeSignalBar-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.fakesignalbar.json
-
-Package: lym.com.spark.snowboard
-Version: 1.5.50
-Architecture: iphoneos-arm64
-Maintainer: Spark
-Installed-Size: 3268
-Depends: mobilesubstrate, preferenceloader
-Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
-Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.spark.snowboard
-Filename: ./debs/SnowBoard主题-Rootless.deb
-Size: 1256360
-MD5sum: 12e4214b6590aaf88862cc876463b1e7
-SHA1: 0ca68129c1101d92a273b31a672f97ffde8f7cb6
-SHA256: 70ebaeb40ace0781a55823499654cff9490c8f26b66dedd2d4c6731bc3c328f8
-Section: 美化插件
-Description:
- - SnowBoard主题美化插件
- - 已自带SnowBoard UI扩展无需再次安装
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Spark & Dennis D. Bednarz
-Name: SnowBoard主题-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.spark.snowboard_1.5.50.json
 
 Package: lym.com.storeswitcher.appstore
 Version: 1.0.6
@@ -4141,49 +4094,6 @@ Author: x✨
 Name: 百度地图优化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
 
-Package: lym.com.xx.jrtthook
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 644
-Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.xx.jrtthook
-Filename: ./debs/今日头条图层-Rootless.deb
-Size: 180024
-MD5sum: e4481f9f08a25bf966739c06084c74e5
-SHA1: 433cbb5f70f084b0d66a2ccc3b316ea019fae01c
-SHA256: 7861f77f43d41744d5974edb81a36eaa18e543c38b74626d870c7059455ded46
-Section: 软件增强
-Description: 默认移除头条一些广告
- - 无水印保存视频
- - 移除杂项,支持pro版
- - 插件启用:APP设置界面双指长按出现菜单
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: x✨
-Name: 今日头条图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.jrtthook.json
-
-Package: lym.com.xx.kshook
-Version: 1.0.6-3
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 2752
-Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.xx.kshook
-Filename: ./debs/快手图层-Rootless.deb
-Size: 944700
-MD5sum: fcbd1cf4cc799c8d3714ab882f209159
-SHA1: 1c49a371cbc13307ab865c68b74d11784ada5d4a
-SHA256: 0b4603b7ddc8b31a8ed03a0719b6d7cac11b51d45b8a8f78511b532b8c7dcde8
-Section: 软件增强
-Description: 移除一些广告 弹窗 无水印保存视频图片
- - 插件入口：依次点击-我-右上角三横-空白处长按打开菜单开启功能
- - 或在设置右上角打开功能
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: x✨
-Name: 快手图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.kshook.json
-
 Package: lym.com.yourname.12306noad
 Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64
@@ -4274,13 +4184,13 @@ Architecture: iphoneos-arm64e
 Maintainer: t.me/gyddpu
 Installed-Size: 524
 Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.Axs.keyboardhook, lym.keyboardhook
-Replaces: com.Axs.keyboardhook, lym.keyboardhook
+Conflicts: com.Axs.keyboardhook, lym.keyboardhook, lym.keyboardhook
+Replaces: com.Axs.keyboardhook, lym.keyboardhook, lym.keyboardhook
 Filename: ./debs/KeyboardHook键盘美化-RootHide.deb
-Size: 45828
-MD5sum: e41daf4363d2e7b0fe6046d3b3104104
-SHA1: 0db1580bc741fb5131bc97b3990062944ad4e652
-SHA256: 63e83fd5ea0f4c35c8f66fb3bb30adf183356ad98bbf29c108f68ce0008a13ec
+Size: 45560
+MD5sum: cf1a42bc578dd419f121dd658317d610
+SHA1: db84ef5fa195f08f6a56bb152bc96604bf848e18
+SHA256: f150f5dc1393dd608a57b7c8c3a2ca5b81460a4d51c54011c1bcf313965db3d8
 Section: 键盘插件
 Description: 系统输入法布局美化
  - 系统输入法和微信输入法的一些自定义
@@ -4297,13 +4207,13 @@ Architecture: iphoneos-arm64
 Maintainer: t.me/gyddpu
 Installed-Size: 524
 Depends: mobilesubstrate, firmware (>= 15.0)
-Conflicts: com.Axs.keyboardhook, lym.keyboardhook
-Replaces: com.Axs.keyboardhook, lym.keyboardhook
+Conflicts: com.Axs.keyboardhook, lym.keyboardhook, lym.keyboardhook
+Replaces: com.Axs.keyboardhook, lym.keyboardhook, lym.keyboardhook
 Filename: ./debs/KeyboardHook键盘美化-Rootless.deb
-Size: 43728
-MD5sum: 8e2a7e03d01ab948c0b181b00dacdd2b
-SHA1: 38afdce40bf3d21f819aedbcd86de57afcc28cbf
-SHA256: 0ffa36b3e8e7386112e8e34379d806670c3638cfb685f1c3264f51d4d1ed473d
+Size: 43668
+MD5sum: edde403505c07bd27c1c8b06f5749fa8
+SHA1: d5c0cd914bf394021fd9aaf8198a3d7c6dc55872
+SHA256: 7416f1ca6493a2ba546a37093a8066ddeb84858405c2b8d51fad1049079e25e3
 Section: 键盘插件
 Description: 系统输入法布局美化
  - 系统输入法和微信输入法的一些自定义
@@ -4464,6 +4374,48 @@ Description: 移除威锋启动广告等
 Author: z
 Name: 威锋去广告-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.z.weifeng.json
+
+Package: me.luki.canna
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Luki
+Installed-Size: 288
+Depends: mobilesubstrate
+Conflicts: me.luki.canna
+Replaces: me.luki.canna
+Filename: ./debs/Canna锁屏充电音效-RootHide.deb
+Size: 52828
+MD5sum: 2395aacb1d324d8b41e282a159d146da
+SHA1: be131d9f7d59159c14a8f0ac843f8dc3617cffae
+SHA256: ff6093fe490e73dacb3d309a63ece641e8aba38a69d578258802d5e6de15fda6
+Section: 轻量插件
+Description: 自定义锁屏和充电提示音
+ - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Luki
+Name: Canna锁屏充电音效-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/me.luki.canna.json
+
+Package: me.luki.canna
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Luki
+Installed-Size: 288
+Depends: mobilesubstrate
+Conflicts: me.luki.canna
+Replaces: me.luki.canna
+Filename: ./debs/Canna锁屏充电音效-Rootless.deb
+Size: 51548
+MD5sum: f8dfeead7eaa75c8c0218e59d717f6af
+SHA1: 6d7bfdab855dcea8294ffbbb217bf9ef3b2f6719
+SHA256: 753e98432eca5319d552ecf1055d0af554e898263dc215cd30c15198c5aa0705
+Section: 轻量插件
+Description: 自定义锁屏和充电提示音
+ - var/jb/Library/Tweak Support/Canna路径下可替换自己喜欢的声音文件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Luki
+Name: Canna锁屏充电音效-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/me.luki.canna.json
 
 Package: netskao.actionbarreborns
 Version: 1.1-2
