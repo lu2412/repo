@@ -11,17 +11,17 @@
         {
           "class": "DepictionButtonView",
           "text": "捐赠给开发者",
-          "action": "https://qr.alipay.com/fkx16447droqidnuzcldk3a",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
           "openExternal": 1
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 安装stheno激活插件+Stheno旧版+NewTerm终端\n- 终端执行：stheno 你的UDID，复制输出的16位激活码\n- 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活\n- 激活成功后，安装Stheno新版即可使用\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/Screenshot_01.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/Screenshot_02.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/q.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/q1.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "mlgm"
+          "text": "Crassna"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.2.3"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年08月25日"
+          "text": "2026年09月20日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.3\n- 彻底修复汉化翻译"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.4\n- 提升面板切换稳定性\n- 修复面板切换时偶发的注销"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.3\n- 优化汉化内容，全覆盖"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.2\n- 优化调整间距，圆角"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2.1\n- 向下兼容至IOS14"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]

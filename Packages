@@ -691,46 +691,6 @@ Author: roothide
 Name: RootHidePatcher 中文版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.patcher.json
 
-Package: com.dao.pulloverx
-Version: 2.2.9
-Architecture: iphoneos-arm64
-Maintainer: daodao
-Installed-Size: 812
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
-Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
-Filename: ./debs/PullOverX分屏-Rootless.deb
-Size: 180316
-MD5sum: 773bf8390cd9f8baf9d2e6c4ebef702c
-SHA1: 080f3195ed64975d99956f609501b2158fc02b12
-SHA256: 41a82882d38f9f6438aa85c8682dc4a639d0f81054b9e8582d6eec86a948954b
-Section: 分屏插件
-Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: mlgm
-Name: PullOverX分屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx_2.2.9.json
-
-Package: com.dao.pulloverx.roothide
-Version: 2.2.9
-Architecture: iphoneos-arm64e
-Maintainer: daodao
-Installed-Size: 796
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.mlgm.pulloverx, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
-Replaces: com.mlgm.pulloverx, com.mlgm.pulloverx.preferences, com.c1d3r.pulloverpro, com.dao.pulloverpro, com.dao.pulloverx
-Filename: ./debs/PullOverX分屏-RootHide.deb
-Size: 177416
-MD5sum: 0c19e331426b5674ad76b1c166c5bbdf
-SHA1: eaac5d625686e63f3d4b6a3dec374e56dd006f26
-SHA256: 013b08e6a9ac52f959b24154f467c9f87d4318623aa2c9aca75eeb393b43a853
-Section: 分屏插件
-Description: 悬浮多任务窗口工具，基于mlgm的PullOver X 打造的客制化版本。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: mlgm
-Name: PullOverX分屏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.dao.pulloverx.roothide_2.2.9.json
-
 Package: com.dao.sileo
 Version: 2.5.1-13
 Architecture: iphoneos-arm64e
@@ -1311,6 +1271,54 @@ Author: chatgpt5.6（sol）, JaySuen
 Name: Evo Center控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.jaysuen.evocenter.json
 
+Package: com.jh.accode
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Conflicts: com.jh.accode, com.jh.accode
+Replaces: com.jh.accode, com.jh.accode
+Filename: ./debs/Stheno激活插件-RootHide.deb
+Size: 19664
+MD5sum: 0235ed936d68beb4d45da06d42df91b0
+SHA1: 1492b8fad0f27d8d9f9a1e93deff932478da5e5d
+SHA256: 31d329edcbe5861ceaf5ac2c336e884f0ff95d8ab8c43bace1ce2ddaa8c54b71
+Section: 分屏插件
+Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
+ - 终端执行：stheno 你的UDID，复制输出的16位激活码
+ - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
+ - 激活成功后，安装Stheno新版即可使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno激活插件-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.jh.accode.json
+
+Package: com.jh.accode
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Conflicts: com.jh.accode, com.jh.accode
+Replaces: com.jh.accode, com.jh.accode
+Filename: ./debs/Stheno激活插件-Rootless.deb
+Size: 19688
+MD5sum: c503ae3df2b34000d6998e34bef40835
+SHA1: 29d19ae7af319db81ca4bb6297b5576522090257
+SHA256: caaecfba89b77f33edeb546e80d46320bf23fe3ec29085fbdd44e1321990d78c
+Section: 分屏插件
+Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
+ - 终端执行：stheno 你的UDID，复制输出的16位激活码
+ - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
+ - 激活成功后，安装Stheno新版即可使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Crassna
+Name: Stheno激活插件-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.jh.accode.json
+
 Package: com.lclrc.controltab
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1700,6 +1708,44 @@ Description: 微信主题插件
 Author: Mao
 Name: 微信主题盒子-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tencent.themebox.json
+
+Package: com.tsangbaby.pulloverx
+Version: 2.1.1
+Architecture: iphoneos-arm64e
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro, com.tsangbaby.pulloverx
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro, com.tsangbaby.pulloverx
+Filename: ./debs/PullOver X优化版-RootHide.deb
+Size: 621372
+MD5sum: 0a010e91299620c259ec216937103e8c
+SHA1: d8db390b1aecda00073f683bd9b0e3d63fb0b465
+SHA256: badd879f592694a88cacd1e930e5c6f4dd56c7db1f1bcb5920c727aee01435a8
+Section: 分屏插件
+Description: 悬浮多任务窗口工具，基于 Pullover Pro进行修改。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Tsangbaby
+Name: PullOver X优化版-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tsangbaby.pulloverx.json
+
+Package: com.tsangbaby.pulloverx
+Version: 2.1.1
+Architecture: iphoneos-arm64
+Maintainer: Tsangbaby
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro, com.tsangbaby.pulloverx
+Replaces: com.mlgm.pulloverx, com.dao.pulloverpro, com.c1d3r.pulloverpro, com.tsangbaby.pulloverx
+Filename: ./debs/PullOver X优化版-Rootless.deb
+Size: 623452
+MD5sum: 0f9ec37b2ed57c59c635eba6a05f338b
+SHA1: 50c6da213caa3217e44513850839e2f788f8d061
+SHA256: 4a129ff8dc2e484baeefdc71c525b283a39e431804accfb01e7c335b0f4d3607
+Section: 分屏插件
+Description: 悬浮多任务窗口工具，基于 Pullover Pro进行修改。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Tsangbaby
+Name: PullOver X优化版-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tsangbaby.pulloverx.json
 
 Package: com.tweaksettings
 Version: 1.1-1
@@ -3520,52 +3566,6 @@ Description: 喜马拉雅去广告,非破解!
 Author: iosrxwy
 Name: 喜马拉雅NoAd-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.iosrxwy.xmlynoads.json
-
-Package: lym.com.jh.accode
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Crassna
-Installed-Size: 204
-Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
-Conflicts: com.jh.accode
-Replaces: com.jh.accode
-Filename: ./debs/stheno激活插件-Rootless.deb
-Size: 19668
-MD5sum: 5058b48c64dcaec13135528a88b295dd
-SHA1: eaec7825fee6c4de19cc42f14d745100b00eabe8
-SHA256: 75c57e3b1053b40885f6b217c60434821922ee90ae5ada21332346d8a842d26d
-Section: 分屏插件
-Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
- - 终端执行：stheno 你的UDID，复制输出的16位激活码
- - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
- - 激活成功后，安装Stheno新版即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: stheno激活插件-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jh.accode_1.0.json
-
-Package: lym.com.jh.accode.roothide
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Crassna
-Installed-Size: 204
-Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
-Conflicts: com.jh.accode
-Replaces: com.jh.accode
-Filename: ./debs/stheno激活插件-RootHide.deb
-Size: 19660
-MD5sum: 4cf5d3d5dc9f5c2c18178eeae78f45d2
-SHA1: efbf77b876fd9e3dec275c65418429c1a31cf000
-SHA256: 7d7dec6c09fcf68433ad325a08134fa2efb5b4d0379b0be4590cc756973e45ab
-Section: 分屏插件
-Description: 安装stheno激活插件+Stheno旧版+NewTerm终端
- - 终端执行：stheno 你的UDID，复制输出的16位激活码
- - 右底侧滑调出面板，点钥匙图标🔑，填入激活码完成旧版激活
- - 激活成功后，安装Stheno新版即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Crassna
-Name: stheno激活插件-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.jh.accode.roothide_1.0.json
 
 Package: lym.com.kingpuffdaddi.control-center.ccvpn.surge
 Version: 1.0.6

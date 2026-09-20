@@ -21,7 +21,7 @@
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f2"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/f2.png"}]
     },
         {
           "class": "DepictionHeaderView",
