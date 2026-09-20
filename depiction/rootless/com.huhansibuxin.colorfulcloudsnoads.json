@@ -16,13 +16,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 备忘录增强禁用URL，显示字符等\n- 插件启用方式：随便打开一个备忘录点击页面顶部+号进入设置\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        }, {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 15,
-      "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/bwiwanglu.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/beiwanglu1.png"}]
-    },
+          "markdown": "### 插件介绍\n- 去除底栏小助手菜单\n- 拦截svip频繁弹窗\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -32,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "来了老弟 X：h_h_x_t"
+          "text": "huhansibuxin"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.4-1+debug"
+          "text": "1.5.1-1+debug"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月12日"
+          "text": "2026年09月21日"
         }
       ]
     },
@@ -55,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.4-1+debug\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.5.1-1+debug\n- 初始发布"}
       ]
     }
   ]

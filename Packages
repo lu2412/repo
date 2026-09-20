@@ -46,48 +46,6 @@ Author: liuwenyi
 Name: 农业银行屏蔽-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/byg.iosios.net.nyyh.json
 
-Package: cn.llld.notes-fix
-Version: 1.0.4-1+debug
-Architecture: iphoneos-arm64
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 240
-Depends: mobilesubstrate
-Conflicts: cn.llld.notes-fix
-Replaces: cn.llld.notes-fix
-Filename: ./debs/备忘录增强-Rootless.deb
-Size: 21684
-MD5sum: 47b7a101deec47134cdb5dea8149fd99
-SHA1: c2cc8ebc9d1db0246bdd9418e7576f260c106381
-SHA256: f34559bcda1b64a2d6c68bc2b15583ede7d35dc35818b635766577f50863abc1
-Section: 轻量插件
-Description: 备忘录增强禁用URL，显示字符等
- - 插件启用方式：随便打开一个备忘录点击页面顶部+号进入设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 来了老弟 X：h_h_x_t
-Name: 备忘录增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/cn.llld.notes-fix.json
-
-Package: cn.llld.notes-fix
-Version: 1.0.4-1+debug
-Architecture: iphoneos-arm64e
-Maintainer: 来了老弟 X：h_h_x_t
-Installed-Size: 240
-Depends: mobilesubstrate
-Conflicts: cn.llld.notes-fix
-Replaces: cn.llld.notes-fix
-Filename: ./debs/备忘录增强-RootHide.deb
-Size: 22664
-MD5sum: 3eb8694e0908f6463aa5401934723548
-SHA1: b788f0305d8a736e03885e80c75fea0088a8c9f5
-SHA256: cf1ff96172e03a27afa1cafea257d449409ccc15c54a9aee862f35a48a9848d9
-Section: 轻量插件
-Description: 备忘录增强禁用URL，显示字符等
- - 插件启用方式：随便打开一个备忘录点击页面顶部+号进入设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 来了老弟 X：h_h_x_t
-Name: 备忘录增强-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/cn.llld.notes-fix.json
-
 Package: cn.octoforce.copyvault
 Version: 1.9.0
 Architecture: iphoneos-arm64e
@@ -1413,6 +1371,50 @@ Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
 Author: huami
 Name: Choicy补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.huami.ChoicyConfigPin.json
+
+Package: com.huhansibuxin.colorfulcloudsnoads
+Version: 1.5.1-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: huhansibuxin
+Installed-Size: 232
+Depends: mobilesubstrate, ellekit
+Conflicts: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
+Replaces: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
+Filename: ./debs/彩云天气去除小助手-RootHide.deb
+Size: 19308
+MD5sum: 518cb6e0010bd375fb311a902de4a15c
+SHA1: 291afb095e0fa65797ab9fba1aa019e95128eaf0
+SHA256: f91a8d94e75af156d667e0b5052e3cdf9a5d5983e4479287cd56963e3c8658a5
+Section: 软件增强
+Description: 去除底栏小助手菜单
+ - 拦截svip频繁弹窗
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huhansibuxin
+Name: 彩云天气去除小助手-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.huhansibuxin.colorfulcloudsnoads.json
+
+Package: com.huhansibuxin.colorfulcloudsnoads
+Version: 1.5.1-1+debug
+Architecture: iphoneos-arm64
+Maintainer: huhansibuxin
+Installed-Size: 232
+Depends: mobilesubstrate, ellekit
+Conflicts: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
+Replaces: com.huhansibuxin.colorfulcloudsnoads, com.huhansibuxin.colorfulcloudsnoads
+Filename: ./debs/彩云天气去除小助手-Rootless.deb
+Size: 18320
+MD5sum: 2567c2643879f54eb3ca59cb26e80cb5
+SHA1: e4de7c91a618b099b99338f35eaa0924ec660955
+SHA256: 6ad148a3b236941718c9459dddc10b671ce6fbe7de50f65cd26a4f7c6fab385f
+Section: 软件增强
+Description: 去除底栏小助手菜单
+ - 拦截svip频繁弹窗
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huhansibuxin
+Name: 彩云天气去除小助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.huhansibuxin.colorfulcloudsnoads.json
 
 Package: com.hx.wn
 Version: 1.0.5
@@ -3116,6 +3118,48 @@ Author: lhl
 Name: VVebo时间线修复-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.yourcompany.vvebofix.json
 
+Package: com.zhuomian
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.fuckicon, com.zhuomian
+Replaces: com.wkk.fuckicon, com.zhuomian
+Filename: ./debs/隐藏app标签名称-Rootless.deb
+Size: 3384
+MD5sum: 9f27b6443e3c6a22e90cfdfcaff572ad
+SHA1: 0ea2f0666434707c8902f231879cc91986bcb27b
+SHA256: 77df999ef83557d1c5599e8de10246a6db17479942d7515091c1c7b8472a6dbb
+Section: 轻量插件
+Description: 隐藏桌面App以及小组件名称
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 隐藏app标签名称-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.zhuomian.json
+
+Package: com.zhuomian
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.fuckicon, com.zhuomian
+Replaces: com.wkk.fuckicon, com.zhuomian
+Filename: ./debs/隐藏app标签名称-RootHide.deb
+Size: 4336
+MD5sum: fa5d5677d991a43f0eac7384068a408d
+SHA1: 5204fa8a4b984b09b9afcecd7203bafc97d16663
+SHA256: 03bd2fa357b5657bb654a0805df2e7244ec1cdd1bb93c8189c47b82b23ae0895
+Section: 轻量插件
+Description: 隐藏桌面App以及小组件名称
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 隐藏app标签名称-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.zhuomian.json
+
 Package: de.finngaida.daynightswitch
 Version: 1.2
 Architecture: iphoneos-arm64
@@ -3205,25 +3249,6 @@ Description: 长按键盘任意键位置进入触控板模式。
 Author: r_plus
 Name: 键盘光标增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/jp.r-plus.anykeytrackpad.json
-
-Package: lym.MiJia0628-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Conflicts: MiJia0628-Rootless
-Replaces: MiJia0628-Rootless
-Filename: ./debs/米家去广告-Rootless.deb
-Size: 4728
-MD5sum: d4f238b9f93b0041fb5f4fd911fa12f7
-SHA1: ef99593015118ed6d167a64f0d07145c00cf9212
-SHA256: 6b6055a36afb173ff1254ad4c15f23fe4cb20d87a6b4e0689fd8a7544276ca06
-Section: 软件增强
-Description: 去除米家启动开屏广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 佚名
-Name: 米家去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.MiJia0628-Rootless.json
 
 Package: lym.atria
 Version: 1.4.1
@@ -3497,28 +3522,6 @@ Author: Apple
 Name: 微信去广告和谐版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.apple.wechat.noads.json
 
-Package: lym.com.ban.mydock
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.ban.mydock
-Replaces: com.ban.mydock
-Filename: ./debs/MyDock键盘增强-Rootless.deb
-Size: 5380
-MD5sum: 79103f8ca879cf7643d5ec0f9fff11d1
-SHA1: b3949a96aff8ebbccac1dc5d30ce525be3042e73
-SHA256: 657b5b8d26ef3f7f09ec8f1f2f6811c620c2af81a4264d4c79bd347160d7fb07
-Section: 键盘插件
-Description: 为键盘底部增加
- - 全选、复制、撤销、关闭键盘等功能
- - 轻量级小插件，插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: MyDock键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.ban.mydock_1.0.0.json
-
 Package: lym.com.be-huge.custom-notification-sound
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -3662,29 +3665,6 @@ Description: 解锁彩云天气pro权益
 Author: Huayuarc
 Name: 彩云天气pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.caiyuntqpro.json
-
-Package: lym.com.huhansibuxin.colorfulcloudsnoads
-Version: 1.5.1-1+debug
-Architecture: iphoneos-arm64
-Maintainer: huhansibuxin
-Installed-Size: 232
-Depends: mobilesubstrate, ellekit
-Conflicts: com.huhansibuxin.colorfulcloudsnoads
-Replaces: com.huhansibuxin.colorfulcloudsnoads
-Filename: ./debs/彩云天气精简-Rootless.deb
-Size: 18396
-MD5sum: 98cbf12f9c830a399c32ea48d37b8b07
-SHA1: d12b1d605f19959129eead96b377f6926b9d055a
-SHA256: 8f711499a9e268607516454e56bc453f88c1ff4e7ad2a2113d452fced78c4e9e
-Section: 软件增强
-Description:
- - 去除底栏小助手菜单
- - 拦截svip频繁弹窗
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huhansibuxin
-Name: 彩云天气精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huhansibuxin.colorfulcloudsnoads_1.5.1-1+debug.json
 
 Package: lym.com.hx.wn
 Version: 1.0.6
@@ -3862,28 +3842,6 @@ Author: MacXK
 Name: 酷我音乐纯净版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.macxk.kwcrack.json
 
-Package: lym.com.marsnakly.heiseztjp
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: marsnakly
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.marsnakly.heiseztjp
-Replaces: com.marsnakly.heiseztjp
-Filename: ./debs/键盘深色模式-Rootless.deb
-Size: 2804
-MD5sum: c52dbafcd8e3f309b76e077d2f42f64b
-SHA1: 1352d5496d976e7b8d1b70f63079c41782558ff6
-SHA256: c4faebfb10dd27173a54f1b18b48c1cedb196dc8250d8c3bae263be253cf647e
-Section: 键盘插件
-Description: 任何时间,任何模式
- - 始终让键盘以深色模式显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: marsnakly
-Name: 键盘深色模式-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.marsnakly.heiseztjp.json
-
 Package: lym.com.netskao.swiftgramcrack
 Version: 1.1-7
 Architecture: iphoneos-arm64
@@ -4012,29 +3970,6 @@ Author: MiRO <tweaks_support@miro92.com>
 Name: SwipeExtenderX键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.qiop1379.swipeextenderx.json
 
-Package: lym.com.raulsaeed.bhtiktok++
-Version: 1.9.3
-Architecture: iphoneos-arm64
-Maintainer: raul saeed
-Installed-Size: 1124
-Depends: mobilesubstrate
-Conflicts: com.raulsaeed.bhtiktok++
-Replaces: com.raulsaeed.bhtiktok++
-Filename: ./debs/BHTikTok++-Rootless.deb
-Size: 198180
-MD5sum: 1684b84ab793f08d4666cccb8b01fff6
-SHA1: 370841635474adfb4b109bf74520c749d1bc0fa2
-SHA256: b40032fca63650621c1ceedc312e955ca73a36cdfb8c710b83d7c0823382eea5
-Section: 软件增强
-Description: TikTok增强插件
- - 大陆用户使用时请在插件设置内将地区修改为美国等地区
- - 去广告、视频下载、自动播放下一条等功能
- - 插件设置位于主页-设置与隐私-BHTikTok
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: raul saeed
-Name: BHTikTok++-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.raulsaeed.bhtiktok++.json
-
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
 Architecture: iphoneos-arm64
@@ -4097,27 +4032,6 @@ Author: Spark & Dennis D. Bednarz
 Name: SnowBoard主题-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.spark.snowboard_1.5.50.json
 
-Package: lym.com.starry6.qsyy
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Starry6
-Installed-Size: 340
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.starry6.qsyy
-Replaces: com.starry6.qsyy
-Filename: ./debs/QiShuiNoAd汽水音乐精简-Rootless.deb
-Size: 54720
-MD5sum: c7f946dc46f2e6aef0b44b777951760d
-SHA1: 2cd6ff82fac7ca4feb1aef2e2e98549afb723495
-SHA256: e6e5c310a55a61323b837f2d147a031e4473000d5c750d2c181285934d40c544
-Section: 软件增强
-Description: 汽水音乐精简选项
- - 去除开屏广告,秒过激励视频
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Starry6
-Name: QiShuiNoAd汽水音乐精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.starry6.qsyy.json
-
 Package: lym.com.storeswitcher.appstore
 Version: 1.0.6
 Architecture: iphoneos-arm64e
@@ -4159,71 +4073,6 @@ Description: 桌面长按 App Store 进行切换账号
 Author: subdiox & iosdump
 Name: StoreSwitcher 账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.storeswitcher.appstore.json
-
-Package: lym.com.swing.fixlogintiktok
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.swing.fixlogintiktok
-Replaces: com.swing.fixlogintiktok
-Filename: ./debs/FixLoginTikTok修复登录去广告-Rootless.deb
-Size: 7960
-MD5sum: f0efd474c592c234d96663adb3acd5d9
-SHA1: 7ef5210d748b60955d9c214a4fde0d912038802f
-SHA256: c9270b90872a1fa9d23bedc63c0dbe1b9c0980fecce779f44093931241464b88
-Section: 软件增强
-Description: 修复 TikTok 挂代理也无法登录的问题
- - 屏蔽越狱检测，去广告！
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: SWING
-Name: FixLoginTikTok修复登录去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.fixlogintiktok.json
-
-Package: lym.com.swing.github
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: SWING
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.swing.github
-Replaces: com.swing.github
-Filename: ./debs/激活GitHub Pro-Rootless.deb
-Size: 6088
-MD5sum: 80625624720957ffd3f840f9f43e5602
-SHA1: c5f45985938513675725a91ea56295f2a98772ea
-SHA256: 7ea0231fa95edc99d34ca272d09d54a72faca3b22d36d2c43e51220f21a16501
-Section: 软件增强
-Description: 激活GitHub Pro,除了Copilot功能,其他功能都支持
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: SWING
-Name: 激活GitHub Pro-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.github.json
-
-Package: lym.com.touchWorld.bilibiliTweak
-Version: 3.1.0
-Architecture: iphoneos-arm64
-Maintainer: TouchWorld
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.touchWorld.bilibiliTweak
-Replaces: com.touchWorld.bilibiliTweak
-Filename: ./debs/哔呷哔哩去广告-Rootless.deb
-Size: 173000
-MD5sum: c666cd169e4afdf7b1ba822ce3518676
-SHA1: 71e77f073425799328ac5d5b04ca57fb364fcdcd
-SHA256: 6b839da6649c4aec79ba4cf057fc9a3e9f91921cc2868d0ae77365c5176de0cb
-Section: 软件增强
-Description: 一个通过iOS逆向分析
- - 实现的无广告版哔哩哔哩客户端
- - 在保留原有功能的基础上专注于去广告移除与体验优化
- - 在「我的 → 设置」中提供多种配置选项，支持按需自由调整
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: TouchWorld
-Name: 哔呷哔哩去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.touchWorld.bilibiliTweak.json
 
 Package: lym.com.udevs.dockx
 Version: 2.6.2
@@ -4293,69 +4142,6 @@ Description: 禁用解锁时主屏幕图标飞入
 Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.cscathook.json
-
-Package: lym.com.wkk.fuckicon
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
-Conflicts: com.wkk.fuckicon
-Replaces: com.wkk.fuckicon
-Filename: ./debs/隐藏app标签名称-Rootless.deb
-Size: 3392
-MD5sum: 7d716b2371e498c5bd60c06ab36c4b32
-SHA1: bcbb73452eeb7366a1235e055f2269adf13b308c
-SHA256: ab42c3b15f476ec2adb0a78f160f08671a37f05960c84db2f03b3ecf5eb59aba
-Section: 美化插件
-Description: 隐藏桌面App以及小组件名称
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: 隐藏app标签名称-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.fuckicon_1.0-1.json
-
-Package: lym.com.wkk.fuckicon.roothide
-Version: 1.0-1
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
-Conflicts: com.wkk.fuckicon
-Replaces: com.wkk.fuckicon
-Filename: ./debs/隐藏app标签名称-RootHide.deb
-Size: 4344
-MD5sum: c9dfa92086ccc76538411e970679fdc2
-SHA1: c6ea8e2a3441c9d94b0ee230005ed0339610bd84
-SHA256: e411b6bfee20911ac43824760ec20a2813c6a9ff5dcd1e85f83712ea9a4cc443
-Section: 美化插件
-Description: 隐藏桌面App以及小组件名称
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: 隐藏app标签名称-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.fuckicon.roothide_1.0-1.json
-
-Package: lym.com.wxkeyboarduihook
-Version: 1.8
-Architecture: iphoneos-arm64
-Maintainer: Doki
-Installed-Size: 416
-Depends: mobilesubstrate, firmware (>= 14.0)
-Conflicts: com.wxkeyboarduihook
-Replaces: com.wxkeyboarduihook
-Filename: ./debs/微信输入法增强-Rootless.deb
-Size: 81584
-MD5sum: 7dd3e16a7aa189451329c433133f819c
-SHA1: 7013877bb3c85289d72450bab22d6bc060135c13
-SHA256: 3389cb171b4e73de21edbcb9bfb3ae4241f2493777191c76aafd6b6c6b88071f
-Section: 键盘插件
-Description: 微信输入法键盘自定义
- - 圆角、边框、候选字颜色
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Doki
-Name: 微信输入法增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wxkeyboarduihook.json
 
 Package: lym.com.xuuz.ddhook
 Version: 0.0.1
@@ -4525,27 +4311,6 @@ Description: 隐藏副卡对于双卡用户
 Author: iOSign
 Name: 隐藏副卡-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
-
-Package: lym.iosios.net.iapstorefugu-rootless
-Version: 0.0.2
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
-Conflicts: iosios.net.iapstorefugu-rootless
-Replaces: iosios.net.iapstorefugu-rootless
-Filename: ./debs/IAPStore 内购神器-Rootless.deb
-Size: 42060
-MD5sum: 6878358009cd618f1a8b8e29b6688535
-SHA1: 592706401f5d60e681ca6fdb095bca1fca601c35
-SHA256: c1576ccc7d0fc2747e2756f4f20ded03b1bbf9d562d753825c9520d2216d6f6d
-Section: 软件增强
-Description: 针对 App Store 付费应用
- - 可通过此内购插件进行测试：付款弹窗出现时点击‘取消’
- - 若显示付款成功则表示破解成功；若无效则不支持破解，建议放弃尝试
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lly
-Name: IAPStore 内购神器-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosios.net.iapstorefugu-rootless.json
 
 Package: lym.keyboardhook
 Version: 2.1-3+debug
