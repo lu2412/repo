@@ -322,6 +322,52 @@ Author: Mao
 Name: 左滑返回-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.25mao.leftpan.json
 
+Package: com.25mao.msgfilt
+Version: 1.0-7
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.msgfilt
+Replaces: com.25mao.msgfilt
+Filename: ./debs/消息屏蔽助手-Rootless.deb
+Size: 145272
+MD5sum: 81518806797b343adc40a6bbb709524b
+SHA1: 7123eaa9c9317bbebbf1ecf4999dc1850f8226b6
+SHA256: a145aadfb9d5bfcc32670a9f4cdfab7b08c04cedeab4fac33efeabb82a4adc70
+Section: 微信插件
+Description: 微信消息屏蔽助手
+ - ### 版本1.0.7
+ - 更换为新的公众号
+ - 新增插件总开关
+ - 新增可选是否屏蔽红包/转账消息
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 消息屏蔽助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.25mao.msgfilt.json
+
+Package: com.25mao.msgfilt
+Version: 1.0-7
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.msgfilt
+Replaces: com.25mao.msgfilt
+Filename: ./debs/消息屏蔽助手-RootHide.deb
+Size: 145928
+MD5sum: 9b18664c8b02257716c341351d8682a2
+SHA1: be29ba05a7b7e4c7b94ab54cdbeaa1c95da72516
+SHA256: 7b77f24a40f489c3c988ef2742aba875f64ab87039ab1fea4a62315b781315f6
+Section: 微信插件
+Description: 微信消息屏蔽助手
+ - ### 版本1.0.7
+ - 更换为新的公众号
+ - 新增插件总开关
+ - 新增可选是否屏蔽红包/转账消息
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 消息屏蔽助手-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.25mao.msgfilt.json
+
 Package: com.25mao.wcplugins
 Version: 0.1-7
 Architecture: iphoneos-arm64
@@ -1325,6 +1371,48 @@ Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系�
 Author: hang
 Name: 转转找鸡-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.hang.zzzj.json
+
+Package: com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm64
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Conflicts: com.huami.ChoicyConfigPin, com.huami.ChoicyConfigPin
+Replaces: com.huami.ChoicyConfigPin, com.huami.ChoicyConfigPin
+Filename: ./debs/Choicy补丁-Rootless.deb
+Size: 7108
+MD5sum: fbb3695afb27330472bfbf391d1c2ecf
+SHA1: 59d1facfd2be8334ab563565efc563495da1ec98
+SHA256: 6119ae4507c7a094435e5f25efd1e82dd037dc0bf697e00bfc552f786b8a6512
+Section: 越狱增强
+Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: Choicy补丁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.huami.ChoicyConfigPin.json
+
+Package: com.huami.ChoicyConfigPin
+Version: 1.0-2
+Architecture: iphoneos-arm64e
+Maintainer: huami
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
+Conflicts: com.huami.ChoicyConfigPin, com.huami.ChoicyConfigPin
+Replaces: com.huami.ChoicyConfigPin, com.huami.ChoicyConfigPin
+Filename: ./debs/Choicy补丁-RootHide.deb
+Size: 6040
+MD5sum: 42984a3bbd3c139e90eb0a7056135ca9
+SHA1: 27e8b68baef92d47452807c53e33e1586c76629d
+SHA256: f490317fed395ac193af04ac28a161463dca984a039c0911f1ab6ac3c156912f
+Section: 越狱增强
+Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: huami
+Name: Choicy补丁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.huami.ChoicyConfigPin.json
 
 Package: com.hx.wn
 Version: 1.0.5
@@ -2858,32 +2946,6 @@ Author: wkk
 Name: Sileo 源搜索-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.sileosourcesearch.json
 
-Package: com.wkk.systembox
-Version: 1.3-5
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 1244
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.wkk.systembox
-Replaces: com.wkk.systembox
-Filename: ./debs/SystemX系统调整-Rootless.deb
-Size: 226408
-MD5sum: de1ba06f1635c2b88176bd7cd272176c
-SHA1: 31844e9b1660f9aa841d8e0a0ebaa4104bfee0ff
-SHA256: a86cc1786f481c7fb581199073c1f2b31deb95f92125068125d8f2e7767b237e
-Section: 系统增强
-Description: 对系统进行各种调整
- - 文件夹
- - 时间日期
- - 相册功能
- - 桌面功能
- - 常规功能
- - 禁用隐藏等相关调整
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: SystemX系统调整-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.wkk.systembox_1.3-5.json
-
 Package: com.wkk.tiebahook
 Version: 1.0-5
 Architecture: iphoneos-arm64e
@@ -3358,25 +3420,6 @@ Author: lenglengyu
 Name: Allow Network自动允许网络-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
 
-Package: lym.com.25mao.msgfilt.rootless
-Version: 1.0-7
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Conflicts: com.25mao.msgfilt.rootless
-Replaces: com.25mao.msgfilt.rootless
-Filename: ./debs/消息屏蔽助手-Rootless.deb
-Size: 145108
-MD5sum: c68116fcca81781e816a813cb908845e
-SHA1: 34b4bd620d71bbe90352334747686c5548f1286a
-SHA256: c5d2a54689c5a00134e1e3c245968ad4988cf1f16ad238acd4c14473e397f1ee
-Section: 微信插件
-Description: 消息屏蔽助手,群消息屏蔽,私聊消息屏蔽。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mao
-Name: 消息屏蔽助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.msgfilt.rootless.json
-
 Package: lym.com.anthopak.quickprefs-rootless
 Version: 1.3.3
 Architecture: iphoneos-arm64
@@ -3498,71 +3541,6 @@ Author: be-huge
 Name: 自定义微信好友通知铃声-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
 
-Package: lym.com.colorblack.alinfcwakefix
-Version: 0.0.36
-Architecture: iphoneos-arm64
-Maintainer: colorblack
-Installed-Size: 996
-Depends: firmware (>= 15.0), preferenceloader
-Conflicts: com.colorblack.alinfcwakefix
-Replaces: com.colorblack.alinfcwakefix
-Filename: ./debs/支付宝助手-Rootless.deb
-Size: 334324
-MD5sum: 747870b3199d384088f72f24bcf8bb43
-SHA1: 7b27874447ac6edeed156c3da1ac3593592ab024
-SHA256: a2198e3bf3d6c849ae0fd81be1a5eca0345156e6637016b931dad0cec3fa18d2
-Section: 软件增强
-Description: 支付宝助手，优化支付宝碰一碰支付功能
- - 改善低版本碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: colorblack
-Name: 支付宝助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.colorblack.alinfcwakefix.json
-
-Package: lym.com.colorblack.alinfcwakefix-roothide.roothide
-Version: 0.0.36-roothide
-Architecture: iphoneos-arm64e
-Maintainer: colorblack
-Installed-Size: 996
-Depends: firmware (>= 15.0), preferenceloader
-Conflicts: com.colorblack.alinfcwakefix-roothide
-Replaces: com.colorblack.alinfcwakefix-roothide
-Filename: ./debs/支付宝助手-RootHide.deb
-Size: 334456
-MD5sum: 358c0d30a80b93b94942a5571d1374b6
-SHA1: e6072bf4bea506ac5637fd9cd0a2c80520e19320
-SHA256: 840499ab3575d4146ff42762a4d58b6cafeb9cca5a39632ad42a1cf757179dbe
-Section: 软件增强
-Description: 支付宝助手，优化支付宝碰一碰支付功能
- - 改善低版本碰一碰没反应、反应过慢问题。仅 beta 测试版。QQ群：205928931
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: colorblack
-Name: 支付宝助手-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.colorblack.alinfcwakefix-roothide.roothide.json
-
-Package: lym.com.dao.3dappversionspoofer
-Version: 2.0.3
-Architecture: iphoneos-arm64
-Maintainer: 0xkuj & daodao
-Installed-Size: 492
-Depends: com.opa334.altlist
-Conflicts: com.0xkuj.3dappversionspoofer, com.dao.3dappversionspoofer
-Replaces: com.dao.3dappversionspoofer
-Filename: ./debs/3DAppVersionSpoofer伪装版本-Rootless.deb
-Size: 59544
-MD5sum: cb0d3497046d296ceac33e2b1e9b3d96
-SHA1: c3e492c97fa8209c3641694b1a7aacaa2bed3195
-SHA256: 4a98b32e4b35010e15b379f5b0518e69aa935093fa6bdad6544b49f150bc89cb
-Section: 系统增强
-Description: 3DAppVersionSpoofer伪装版本
- - 根据开源版本v2.0.3编译中文版
- - 可从设置或者长按应用图标伪装版本
- - 伪装应用的版本号和iOS版本号。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 0xkuj
-Name: 3DAppVersionSpoofer伪装版本-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.3dappversionspoofer.json
-
 Package: lym.com.dao.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
@@ -3627,27 +3605,6 @@ Author: Alexandra Aurora Göttlicher
 Name: Kayoko剪贴板-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.kayoko.json
 
-Package: lym.com.dvntm.ratebegone
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.dvntm.ratebegone
-Replaces: com.dvntm.ratebegone
-Filename: ./debs/RateBeGone屏蔽app弹窗评分.deb
-Size: 3500
-MD5sum: 4e0c884065a8b24f19e97c21542536e0
-SHA1: bcc114a872d22ad839eea25bb0f60820e681af03
-SHA256: 9a7db5b4cf6eb5dc57aa68da006854df51553a3777afd16ace8840effcdcc964
-Section: 系统增强
-Description: 屏蔽app不定时弹出的评分窗口
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: dvntm
-Name: RateBeGone屏蔽app弹窗评分-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.ratebegone.json
-
 Package: lym.com.foxfort.krashkop
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -3664,48 +3621,6 @@ Description: Lightweight crash reporter
 Author: FoxfortMobile
 Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
 Name: KrashKop崩溃日志
-
-Package: lym.com.huami.ChoicyConfigPin
-Version: 1.0-2
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
-Conflicts: com.huami.ChoicyConfigPin
-Replaces: com.huami.ChoicyConfigPin
-Filename: ./debs/Choicy补丁-Rootless.deb
-Size: 7112
-MD5sum: ea7c206abad96fdf33c4d49f194dab68
-SHA1: c4bb2bf27ad17aa7894b4f5a0bc40365701dd05e
-SHA256: 4e4bb143df7d186b99ff3e61a3b314c68b414b1945b7fe204e07edf8bc62f46a
-Section: 轻量插件
-Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: Choicy补丁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.json
-
-Package: lym.com.huami.ChoicyConfigPin.roothide
-Version: 1.0-2
-Architecture: iphoneos-arm64e
-Maintainer: huami
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000), com.opa334.choicy (>> 1.5.1), com.opa334.altlist
-Conflicts: com.huami.ChoicyConfigPin
-Replaces: com.huami.ChoicyConfigPin
-Filename: ./debs/Choicy补丁-RootHide.deb
-Size: 6048
-MD5sum: 0f37d89e5cdc9b1e0cb4317dffd21cd4
-SHA1: 13451d59c6a06fb994b5b940e9741187d62631b4
-SHA256: dd154d33894ea31781534ad989061f7d33dda9caa5736630214a477b477e206a
-Section: 轻量插件
-Description: 打开Choicy时将已调整的App/Process置顶到Section最顶部
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: huami
-Name: Choicy补丁-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huami.ChoicyConfigPin.roothide.json
 
 Package: lym.com.huami.bilinoad
 Version: 1.0.1
@@ -3726,27 +3641,6 @@ Description: BiliBili净化开屏广告
 Author: huami
 Name: BiliNoAd BiliBili净化开屏广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
-
-Package: lym.com.huayuarc.autoskipad
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: Huayuarc
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.huayuarc.autoskipad
-Replaces: com.huayuarc.autoskipad
-Filename: ./debs/跳过启动广告-Rootless.deb
-Size: 11572
-MD5sum: 251fa72fb2a8ad1b59b31f6732ae8e66
-SHA1: 27b5038f3c7e85f06cf8d1b8247cc28366e9ccf6
-SHA256: 94348d9ff52cd0eef967ec890f991b903502e426b589acd919e7e8d299c2ea62
-Section: 软件增强
-Description: 智能跳过APP启动广告：汽水音楽｜百度网盘｜七猫小说｜铁路12306
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Huayuarc
-Name: 跳过启动广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.huayuarc.autoskipad.json
 
 Package: lym.com.huayuarc.caiyuntqpro
 Version: 0.0.1-1
@@ -4548,26 +4442,6 @@ Author: x✨
 Name: 快手图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.kshook.json
 
-Package: lym.com.yourepo.lly.adsspee-rootless
-Version: 1.1.3
-Architecture: iphoneos-arm64
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 620
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.yourepo.lenglengyu.adsspeed, com.yourepo.lly.adsspee-rootless
-Replaces: com.yourepo.lly.adsspee-rootless
-Filename: ./debs/VideoAdsSpeed快速跳过广告-Rootless.deb
-Size: 108400
-MD5sum: dcfe5f8918a1ef4ef2d53c2c71350078
-SHA1: ab8906400645480134f9d459aeb0ef0f39740625
-SHA256: f8b7206a87ef3bc4f770d3fd92ec684d0d6f321ca42c82701c1d3a0e01c8f367
-Section: 软件增强
-Description: 快速跳过激励视频广告,奖励正常领取
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lenglengyu
-Name: VideoAdsSpeed快速跳过广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourepo.lly.adsspee-rootless.json
-
 Package: lym.com.yourname.12306noad
 Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64
@@ -4784,24 +4658,6 @@ Author: Netskao
 Name: ActionBar Reborn键盘增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.actionbarreborn.json
 
-Package: lym.netskao.alipayhooks-rootless
-Version: 1.1-3
-Architecture: iphoneos-arm64
-Maintainer: Netskao
-Replaces: netskao.alipayhooks-rootless
-Filename: ./debs/支付宝去除底部理财选项-Rootless.deb
-Size: 72620
-MD5sum: d81492979072d32cc968674c94521024
-SHA1: 9e093f0d3279bb2200e43a1266a6cd593771248a
-SHA256: a8af0097d7bcccf6df4044bf27ac33baa7913d6cb758b9bd2c4c9432df4aa393
-Section: 软件增强
-Description: 支付宝去除底部理财选项
- - 插件无设置项按照即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: 支付宝去除底部理财选项-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.alipayhooks-rootless.json
-
 Package: lym.netskao.ccswitchdata-rootless
 Version: 1.1-4
 Architecture: iphoneos-arm64
@@ -4822,25 +4678,6 @@ Description: 对于双SIM卡用户，可以通过控制中心快速切换选定�
 Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
-
-Package: lym.xtjpyj-Rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 无名
-Replaces: xtjpyj-Rootless
-Filename: ./debs/修改系统键盘圆角-Rootless.deb
-Size: 3872
-MD5sum: 819e75a36a6f894142eececd28aeabed
-SHA1: c713f08b4db9cfabd50a32ab129d7963b3a955e0
-SHA256: 73019f29271a2fe909702a0b6488cd552b6839bb5ad2f1c43b4f19c23cbb6e8e
-Section: 键盘插件
-Description: 修改系统键盘为圆角
- - 插件无设置项安装后即可生效
- - 如不生效请重启用户空间
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: 无名
-Name: 修改系统键盘圆角-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
 
 Package: lym.xyz.cypwn.picsewpro
 Version: 1.0.0
