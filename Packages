@@ -277,6 +277,51 @@ Author: 13itch
 Name: 小丑(Joker)-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.13itch.joker.json
 
+Package: com.25mao.leftpan
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Conflicts: com.25mao.leftpan.rootless, com.25mao.leftpan
+Replaces: com.25mao.leftpan.rootless, com.25mao.leftpan
+Filename: ./debs/左滑返回-Rootless.deb
+Size: 32776
+MD5sum: 33c68b119a21e653a1ee41ce23911fee
+SHA1: 5318faedab0694168b1cd5a7033105241020e1f0
+SHA256: 9ec72074ef4fe2f2548caa4f3945797e85ca7cdb414fed29c21b0adac442ea32
+Section: 系统增强
+Description: 左滑返回上一页面
+ - 从右侧开始向左边滑动返回上一页
+ - 部分app可能不生效或导致返回错乱
+ - 有黑白名单两种模式可在插件设置中禁用不支持的App
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 左滑返回-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.25mao.leftpan.json
+
+Package: com.25mao.leftpan
+Version: 2.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mao
+Installed-Size: 376
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Conflicts: com.25mao.leftpan, com.25mao.leftpan
+Replaces: com.25mao.leftpan, com.25mao.leftpan
+Filename: ./debs/左滑返回-RootHide.deb
+Size: 33280
+MD5sum: 2ba27f3b7195f2b7ecdc431e65df22d2
+SHA1: 3395f0e33935e14e0842002141bb5d7e1a897273
+SHA256: 240d1e3e2dacb1c391fcbba3aeb3dc92a8272cfc95afd974eece62e1bf17a1f6
+Section: 系统增强
+Description: 左滑返回上一页面
+ - 从右侧开始向左边滑动返回上一页
+ - 部分app可能不生效或导致返回错乱
+ - 有黑白名单两种模式可在插件设置中禁用不支持的App
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 左滑返回-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.25mao.leftpan.json
+
 Package: com.25mao.wcplugins
 Version: 0.1-7
 Architecture: iphoneos-arm64
@@ -632,6 +677,92 @@ Description: 添加全局水印相关功能，支持截图水印，录屏水印�
 Author: 冰蓝
 Name: 冰蓝全局水印-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.binglanqjsy.deb.json
+
+Package: com.boardswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: AnubisTweaks
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.boardswipe
+Replaces: com.boardswipe
+Filename: ./debs/BoardSwipe键盘手势-Rootless.deb
+Size: 376404
+MD5sum: 5c04e4889c86bec39437dd06e51ab0df
+SHA1: 1d22d3c48d0476477c9845ba6105d75a5c652201
+SHA256: 38d1b4de917ea90fa77e426a4bb933bf6338fd9ad4f99db38310fdf88b4314e0
+Section: 键盘插件
+Description: 键盘手势增强插件
+ - 向下滑动关闭键盘，向上滑动切换键盘
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: AnubisTweaks
+Name: BoardSwipe键盘手势-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.boardswipe.json
+
+Package: com.boardswipe
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: AnubisTweaks
+Installed-Size: 1036
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.boardswipe
+Replaces: com.boardswipe
+Filename: ./debs/BoardSwipe键盘手势-RootHide.deb
+Size: 488980
+MD5sum: c130c6a8f1208939e44d7f4207c46348
+SHA1: ced1061629f03435075685d7a1a8a9ebbd07c238
+SHA256: 9c885160ebdefc1d760339d5f36e6377f94692a98aadddea0a6668b08663cec6
+Section: 键盘插件
+Description: 键盘手势增强插件
+ - 向下滑动关闭键盘，向上滑动切换键盘
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: AnubisTweaks
+Name: BoardSwipe键盘手势-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.boardswipe.json
+
+Package: com.brend0n.nopassafterrespringsafe
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.brend0n.nopassafterrespringsafe
+Replaces: com.brend0n.nopassafterrespringsafe
+Filename: ./debs/注销免解锁-RootHide.deb
+Size: 3476
+MD5sum: b70ec29976a7d59c8214c14dc25147fe
+SHA1: 2918c636bdd0cc9260bd77845ad5e6ee0e0e14ab
+SHA256: 3dd2b5494946b0cee3e59b6ae8853a7971ca3dfc80ea43d28c27b2363233acf8
+Section: 轻量插件
+Description: 在注销前是解锁状态的情况下
+ - 注销后自动跳过人脸或指纹识别到桌面。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Brend0n <brendonjkding@126.com>
+Name: 注销免解锁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.brend0n.nopassafterrespringsafe.json
+
+Package: com.brend0n.nopassafterrespringsafe
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: Brend0n <brendonjkding@126.com>
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.brend0n.nopassafterrespringsafe
+Replaces: com.brend0n.nopassafterrespringsafe
+Filename: ./debs/注销免解锁-Rootless.deb
+Size: 3564
+MD5sum: 7d907b5f350022afd00e70651a479d45
+SHA1: a1a28d816a1036fb3ecac71a944af27d0da8d1fa
+SHA256: 439e071752484391bac5a149836c9831ebf192d3632a2d5fa345c02ecc8848a3
+Section: 轻量插件
+Description: 在注销前是解锁状态的情况下
+ - 注销后自动跳过人脸或指纹识别到桌面。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Brend0n <brendonjkding@126.com>
+Name: 注销免解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.brend0n.nopassafterrespringsafe.json
 
 Package: com.bvm.wuzeililiang
 Version: 1.0.1-1
@@ -1126,6 +1257,28 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
+
+Package: com.hang.squidgesturepro-ios17fix
+Version: 2.3
+Architecture: iphoneos-arm64e
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix, com.hang.squidgesturepro-ios17fix
+Replaces: com.hang.squidgesturepro-ios17fix
+Filename: ./debs/乌贼手势iOS17补丁-RootHide.deb
+Size: 15184
+MD5sum: 3dec80d1ff6dd584789ee6ffac40682f
+SHA1: 778ff05502e86dbef949876845fd8134c1e2e37d
+SHA256: b7defcd297d27199245e88826fc55c0c186ee48f3461f27e243120a9edfcd693
+Section: 乌贼插件
+Description: 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷指令时导致的安全模模式
+ - 安装后需重新开启SquidGesture Pro开关一次
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 航
+Name: 乌贼手势iOS17补丁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hang.squidgesturepro-ios17fix.json
 
 Package: com.hang.zzzj
 Version: 0.0.1-8+debug
@@ -2217,6 +2370,50 @@ Author: shepgoba
 Name: SettingsWidgets 设置小部件-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.shepgoba.settingswidgetss.json
 
+Package: com.shiftcmdk.bookmarkicons
+Version: 1.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: shiftcmdk
+Installed-Size: 232
+Depends: mobilesubstrate
+Conflicts: com.shiftcmdk.bookmarkicons
+Replaces: com.shiftcmdk.bookmarkicons
+Filename: ./debs/Safari自定义书签图标-RootHide.deb
+Size: 18160
+MD5sum: 2c816b74e753728cf62d7fbad1e5812a
+SHA1: 5c669c53f6067cb085b498628a5d15f5a34a1df8
+SHA256: b762ed384332dd4f5acee369c5c29b947ecf37f2aa1c43198d3acf0c9803501d
+Section: 系统增强
+Description: 为 Safari 浏览器书签设置自定义图标
+ - Set custom icons for Safari bookmarks
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: shiftcmdk
+Name: Safari自定义书签图标-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.shiftcmdk.bookmarkicons.json
+
+Package: com.shiftcmdk.bookmarkicons
+Version: 1.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: shiftcmdk
+Installed-Size: 232
+Depends: mobilesubstrate
+Conflicts: com.shiftcmdk.bookmarkicons
+Replaces: com.shiftcmdk.bookmarkicons
+Filename: ./debs/Safari自定义书签图标-Rootless.deb
+Size: 17108
+MD5sum: 1de2bc8c01bf11d8fef301fb35db7706
+SHA1: 3277c603aa5bd5d03c053891d5c1dfa8499baed5
+SHA256: 83bbf87b3db84a3f67688faa3c6e2fde2416ba35059d7f26fdee9863c80d59fd
+Section: 系统增强
+Description: 为 Safari 浏览器书签设置自定义图标
+ - Set custom icons for Safari bookmarks
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: shiftcmdk
+Name: Safari自定义书签图标-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.shiftcmdk.bookmarkicons.json
+
 Package: com.squidforce.doubletapflipcamera
 Version: 1.1
 Architecture: iphoneos-arm64e
@@ -3012,27 +3209,49 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: lym.aweme.x
 Version: 2.6.2
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: 𝙓
 Installed-Size: 11908
 Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xx.dyhook, aweme.x
-Replaces: com.xx.dyhook, aweme.x
-Filename: ./debs/抖音图层-Rootless.deb
-Size: 3611660
-MD5sum: 1ed8898dc7ac43cb4e8da15ada15dc9d
-SHA1: b3cd28580fd477fd01fb1bdf271d4ae5c88bad4c
-SHA256: a8a8a00ac660ca5ca98c425dc6b7729a1e42982e13fb271a1072c6bc0fb765b0
+Conflicts: com.xx.dyhook, aweme.x, lym.aweme.x
+Replaces: com.xx.dyhook, aweme.x, lym.aweme.x
+Filename: ./debs/抖音图层-RootHide.deb
+Size: 7157940
+MD5sum: 1054c60302ab77b2174d9dd6501e21ee
+SHA1: b8e082bdfb45584444f553ab3d8b70beb3ed8321
+SHA256: a4018a40c144419ede3c147bd7af508e3f81a03bdca169ab90942b1e12f4d2c6
 Section: 软件增强
 Description: 去广告、无水印下载视频
  - 隐藏各种按钮文字等
  - 插件启用:双指双击屏幕打开插件设置界面
  - 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面
- - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 𝙓
+Name: 抖音图层-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.aweme.x.json
+
+Package: lym.aweme.x
+Version: 2.6.2
+Architecture: iphoneos-arm64
+Maintainer: 𝙓
+Installed-Size: 11908
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.xx.dyhook, aweme.x, lym.aweme.x
+Replaces: com.xx.dyhook, aweme.x, lym.aweme.x
+Filename: ./debs/抖音图层-Rootless.deb
+Size: 3613796
+MD5sum: 99943fa10488e962ee2eb0605c1286ed
+SHA1: 24561e08fcf85e2296c2739c8d6577e50e30199f
+SHA256: 68ddc2918f29c227ad52222ff69931be80c6a0befef8cf67d5427be497d3066e
+Section: 软件增强
+Description: 去广告、无水印下载视频
+ - 隐藏各种按钮文字等
+ - 插件启用:双指双击屏幕打开插件设置界面
+ - 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: 𝙓
 Name: 抖音图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.aweme.x_2.6.2.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.aweme.x.json
 
 Package: lym.byg.iosios.net.autoscroll
 Version: 1.0.0
@@ -3139,51 +3358,6 @@ Author: lenglengyu
 Name: Allow Network自动允许网络-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
 
-Package: lym.com.25mao.leftpan.roothide
-Version: 2.0-1
-Architecture: iphoneos-arm64e
-Maintainer: Mao
-Installed-Size: 376
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
-Conflicts: com.25mao.leftpan
-Replaces: com.25mao.leftpan
-Filename: ./debs/左滑返回-RootHide.deb
-Size: 33284
-MD5sum: 53a5f5ef53990146df93e329fdbcbf2f
-SHA1: 58efdb00c4dccda5d0cfcecabc92bf03b002bceb
-SHA256: 83000229c4fdae959ad22716e6e81b0701bea1af1771be9654fb747c79219f06
-Section: 系统增强
-Description: 左滑返回上一页面
- - 从右侧开始向左边滑动返回上一页
- - 部分app可能不生效或导致返回错乱
- - 可在插件设置中禁用不支持的App
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mao
-Name: 左滑返回-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.roothide.json
-
-Package: lym.com.25mao.leftpan.rootless
-Version: 2.0
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
-Conflicts: com.25mao.leftpan.rootless
-Replaces: com.25mao.leftpan.rootless
-Filename: ./debs/左滑返回-Rootless.deb
-Size: 32768
-MD5sum: 3a4d0a815e89fbca09068735aab0afdf
-SHA1: dc81a172540b36ec898f7ea6670d39499878d453
-SHA256: 1171473495deccee2332f5ca123f1a142c39f4792c6ca3a642f3198b5764915b
-Section: 系统增强
-Description: 左滑返回上一页面
- - 从右侧开始向左边滑动返回上一页
- - 部分app可能不生效或导致返回错乱
- - 可在插件设置中禁用不支持的App
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Mao
-Name: 左滑返回-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.leftpan.rootless.json
-
 Package: lym.com.25mao.msgfilt.rootless
 Version: 1.0-7
 Architecture: iphoneos-arm64
@@ -3227,26 +3401,6 @@ Description: 在设置三维触控面板增加菜单的插件
 Author: AnthoPak <anthopakdev@gmail.com>
 Name: QuickPrefs快速跳转-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.anthopak.quickprefs-rootless.json
-
-Package: lym.com.anubistweaks.keyswipe11
-Version: 1.0.3
-Architecture: iphoneos-arm64
-Maintainer: AnubisTweaks
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: org.thebigboss.keyswipe, com.anubistweaks.keyswipe11
-Replaces: com.anubistweaks.keyswipe11
-Filename: ./debs/KeySwipe上下切换键盘-Rootless.deb
-Size: 11876
-MD5sum: a3bdd15b79e48a0fe7919ba226d2a323
-SHA1: 48c8b45690d43f5f8db239df104bb6a29206f228
-SHA256: 52cf62214e81c7e4429da72446c48aa5c66c00467258e483eb797f94c636d58b
-Section: 键盘插件
-Description: 在键盘上通过上下滑动手势来切换键盘
- - 插件免费,英文有设置项。默认为启用状态
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Delewhopper, julioverne ,AnubisTweaks
-Name: KeySwipe上下切换键盘-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.anubistweaks.keyswipe11.json
 
 Package: lym.com.apple.wechat.noads
 Version: 1.2.0
@@ -3343,28 +3497,6 @@ Description: 自定义微信联系人通知声音（似乎对mp3文件不太友�
 Author: be-huge
 Name: 自定义微信好友通知铃声-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.be-huge.custom-notification-sound.json
-
-Package: lym.com.brend0n.nopassafterrespringsafe
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: Brend0n <brendonjkding@126.com>
-Installed-Size: 168
-Depends: mobilesubstrate
-Replaces: com.brend0n.nopassafterrespringsafe
-Filename: ./debs/NoPassAfterRespring注销免解锁-Rootless.deb
-Size: 3584
-MD5sum: b8c776bd8250d1ba8a7fc78c1835addd
-SHA1: da1e768d8d44ea9ab47d5131e515d2126c90db4f
-SHA256: 74aa4b360e4ff1c305c4e77ed1f4b44dbda36e65f6202ade910decf312f13a38
-Section: 系统增强
-Description: 注销免解锁
- - 在注销前是解锁状态的情况下
- - 注销后自动跳过人脸或指纹识别到桌面。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Brend0n <brendonjkding@126.com>
-Name: NoPassAfterRespring注销免解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.brend0n.nopassafterrespringsafe.json
 
 Package: lym.com.colorblack.alinfcwakefix
 Version: 0.0.36
@@ -3495,49 +3627,6 @@ Author: Alexandra Aurora Göttlicher
 Name: Kayoko剪贴板-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.kayoko.json
 
-Package: lym.com.dvntm.fbo
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.dvntm.fbo
-Replaces: com.dvntm.fbo
-Filename: ./debs/FilesBrowsingOnly文件精简-Rootless.deb
-Size: 3544
-MD5sum: 3069dcc4739b7a0886c598493c34cad3
-SHA1: 1facd56c0c65d207766a5870e57b412e1af7c1d0
-SHA256: d82971a42f7b517c951f1dfc53892bd0ff6ee9c1301d66226cd3532870983862
-Section: 系统增强
-Description: 隐藏自带文件App的底部最近/共享
- - 仅显示“浏览”选项卡并隐藏选项卡栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: dvntm
-Name: FilesBrowsingOnly文件精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dvntm.fbo.json
-
-Package: lym.com.dvntm.oledkeyboard
-Version: 0.0.3
-Architecture: iphoneos-arm64
-Maintainer: dvntm
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.dvntm.oledkeyboard
-Replaces: com.dvntm.oledkeyboard
-Filename: ./debs/OledKeyboard纯黑键盘.deb
-Size: 4924
-MD5sum: a9b4560056d0e92ca2996fb153519d72
-SHA1: 66cb2056f4d65febc7c982f3aa4e26bb12327bb6
-SHA256: 85167c9746cef6a811b14b0ca8c4ec6768190321b026013d0c48606ef5b8e780
-Section: 键盘插件
-Description: 深色模式下键盘背景显示为纯黑
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: dvntm
-Name: OledKeyboard纯黑键盘-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.dvntm.oledkeyboard.json
-
 Package: lym.com.dvntm.ratebegone
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -3575,29 +3664,6 @@ Description: Lightweight crash reporter
 Author: FoxfortMobile
 Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
 Name: KrashKop崩溃日志
-
-Package: lym.com.hang.squidgesturepro-ios17fix.roothide
-Version: 2.3
-Architecture: iphoneos-arm64e
-Maintainer: 航
-Installed-Size: 92
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
-Conflicts: com.codex.squidgesture17fix, com.hang.squidgesturepro-ios17fix
-Replaces: com.hang.squidgesturepro-ios17fix
-Filename: ./debs/乌贼手势iOS17补丁-RootHide.deb
-Size: 15192
-MD5sum: 6fbf9acdc5f19ac4f698a5cc5830e5d0
-SHA1: 390ee9ac47f4ce51f2b4522a009a746ec1efd91e
-SHA256: 2d92c5b6c0e7a421d5bb03ccbfb1bd56e517a6e4238df863cf9b053d284eedb7
-Section: 轻量插件
-Description:
- - 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷指令时导致的安全模模式
- - 安装后需重新开启SquidGesture Pro开关一次
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 航
-Name: 乌贼手势iOS17补丁-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hang.squidgesturepro-ios17fix.roothide_2.3.json
 
 Package: lym.com.huami.ChoicyConfigPin
 Version: 1.0-2
@@ -3924,28 +3990,6 @@ Author: marsnakly
 Name: 键盘深色模式-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.marsnakly.heiseztjp.json
 
-Package: lym.com.netskao.flreadercrack
-Version: 1.1-1
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 528
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: com.netskao.flreadercrack
-Replaces: com.netskao.flreadercrack
-Filename: ./debs/千阅-小说阅读-Rootless.deb
-Size: 186592
-MD5sum: e16e5e8a74bd2f74315482a54f1c5ba8
-SHA1: ee11a9ffea9f9c075f07c2627f4f729e7a6bc6e2
-SHA256: 801f2aace66bedc8ca1f22e7f1318fb10c8765b4684eecfa7b9f16af33f65c35
-Section: 软件增强
-Description: 解锁会员权限
- - 去除软件内广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: 千阅-小说阅读-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.flreadercrack.json
-
 Package: lym.com.netskao.swiftgramcrack
 Version: 1.1-7
 Architecture: iphoneos-arm64
@@ -4028,25 +4072,6 @@ Author: AnthoPak <anthopakdev@gmail.com>
 Name: PanCake手势增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pancake.json
 
-Package: lym.com.primalfolder2
-Version: 0.1.2
-Architecture: iphoneos-arm64
-Maintainer: ichitaso
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Conflicts: com.ichitaso.primalfolder, me.qusic.taptapfolder, com.lizynz.folder6plus, info.rpdev.betterfourbyyfourfolders, com.ichitaso.primalfolder2, com.primalfolder2
-Replaces: com.primalfolder2
-Filename: ./debs/PrimalFolder2文件夹图标-Rootless.deb
-Size: 54548
-MD5sum: 178b1e3e56e49b1798dd1457950d4fdd
-SHA1: 11317db05a0c6d1d258d1ea7402d54b9afa3d62e
-SHA256: a8834dab905a8cfa6225a98e9f3d17da36dedae577256d626e67480adf620765
-Section: 系统增强
-Description: 将文件夹显示为文件夹里第一个app的图标,动画略丝滑
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: ichitaso
-Name: PrimalFolder2文件夹图标-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.primalfolder2.json
-
 Package: lym.com.ps.recordpause
 Version: 2.0.7
 Architecture: iphoneos-arm64
@@ -4115,28 +4140,6 @@ Description: TikTok增强插件
 Author: raul saeed
 Name: BHTikTok++-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.raulsaeed.bhtiktok++.json
-
-Package: lym.com.shiftcmdk.bookmarkicons
-Version: 1.0-1+debug
-Architecture: iphoneos-arm64
-Maintainer: shiftcmdk
-Installed-Size: 232
-Depends: mobilesubstrate
-Conflicts: com.shiftcmdk.bookmarkicons
-Replaces: com.shiftcmdk.bookmarkicons
-Filename: ./debs/Safari标签图标自定义-Rootless.deb
-Size: 17080
-MD5sum: 2fc33f318effa8ae8c7d609793910fa9
-SHA1: 21cda7e85f9c1d8963202cb5a6982c4531fac94d
-SHA256: 01d72cd4eec0168fcf396410dda012288245ef4b7ef3bcb1c6492874d73fde55
-Section: 系统增强
-Description: Safari书签设置自定义图标
- - 创建或编辑书签时只需点击图标即可选择一个新的图标
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: shiftcmdk
-Name: Safari标签图标自定义-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.shiftcmdk.bookmarkicons.json
 
 Package: lym.com.sini.textforsnapper3
 Version: 1.0.1
@@ -4305,45 +4308,6 @@ Description: 激活GitHub Pro,除了Copilot功能,其他功能都支持
 Author: SWING
 Name: 激活GitHub Pro-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.swing.github.json
-
-Package: lym.com.tang.removebgblur
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: tang
-Installed-Size: 348
-Depends: mobilesubstrate
-Conflicts: com.tang.removebgblur
-Replaces: com.tang.removebgblur
-Filename: ./debs/移除后台模糊-Rootless.deb
-Size: 17784
-MD5sum: 10705144f64d415f611421f7b4831e74
-SHA1: 6aeedca9093ce37523f0cbcb95d6ffc49e9744eb
-SHA256: 1795b2954a28e36d698784e6dadfcba56c6544e19f583f7781c93602181bf22c
-Section: 系统增强
-Description: 自定义移除后台隐私模糊与遮罩层
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: tang
-Name: 移除后台模糊-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.tang.removebgblur.json
-
-Package: lym.com.telegram.return
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Replaces: com.telegram.return
-Filename: ./debs/Telegram换行键-Rootless.deb
-Size: 3836
-MD5sum: 52ec6f9b47abc93d0e7044209a04e17a
-SHA1: 734b18254633ec3865b4b69e4732bc553b1f5ad2
-SHA256: 05d82623486bb8633a5de56e272660ff9f98ed9fb550d5ad227cde338c7ebf06
-Section: 软件增强
-Description: 把官方Telegram回车键/换行键修改为“发送”功能
- - 第三方tg自带此功能无需安装
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: lym
-Name: Telegram换行键-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.telegram.return.json
 
 Package: lym.com.touchWorld.bilibiliTweak
 Version: 3.1.0
@@ -4583,32 +4547,6 @@ Description: 移除一些广告 弹窗 无水印保存视频图片
 Author: x✨
 Name: 快手图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.kshook.json
-
-Package: lym.com.xybp888.noapplemobilerepair
-Version: 0.0.1-103
-Architecture: iphoneos-arm64
-Maintainer: xybp888
-Installed-Size: 152
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xybp888.noapplemobilerepair
-Replaces: com.xybp888.noapplemobilerepair
-Filename: ./debs/重要提醒No Apple MobileRepair-Rootless.deb
-Size: 10924
-MD5sum: 5005b29efd5229f5cdc80e80bccd5810
-SHA1: 9c200ebf84e7e737b9e7c3a57ed2c141cf4d06d4
-SHA256: 78666d027ef8c6c5f5e6fc9518492ba7c067f115e15a6d0e8fd229ec954aa806
-Section: 系统增强
-Description: 禁止设置页面显示维修记录的插件
- - 由电话助手作者 xybp888 开发
- - 更换第三方电池后，开启显示正常健康
- - 屏蔽关于本机页面显示未知部件记录
- - 屏蔽设置显示红点1以及电池更新提醒信息
- - 屏蔽设置系统 OTA 升级显示红点1提醒信息。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: xybp888
-Name: 重要提醒No Apple MobileRepair-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xybp888.noapplemobilerepair.json
 
 Package: lym.com.yourepo.lly.adsspee-rootless
 Version: 1.1.3
@@ -4885,28 +4823,6 @@ Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 
-Package: lym.ph.telegra.Telegraph.adv.4-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Conflicts: ph.telegra.Telegraph.adv.4-Rootless
-Replaces: ph.telegra.Telegraph.adv.4-Rootless
-Filename: ./debs/Telegram增强-Rootless.deb
-Size: 113160
-MD5sum: fc67b661a3d0daaa5688a4686e01e577
-SHA1: e523ec42614f7c72a99d9bd6fa58bc0774d6b55a
-SHA256: ded0764424bf267e3f7d6dee969a66c0a79df40578dac380dafd9cb6e40ac4e5
-Section: 软件增强
-Description: 优化官方TG客户端，支持Swiftgram,目前包含3个功能：
- - 回车键发送消息
- - 禁止右滑出现My Story
- - 单聊对话框显示对方UserID（显示 User ID 需要英文语言）
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 佚名
-Name: Telegram增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.ph.telegra.Telegraph.adv.4-Rootless.json
-
 Package: lym.xtjpyj-Rootless
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -4925,25 +4841,6 @@ Description: 修改系统键盘为圆角
 Author: 无名
 Name: 修改系统键盘圆角-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.xtjpyj-Rootless.json
-
-Package: lym.xyz.cypwn.movenotification16
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate, preferenceloader
-Conflicts: xyz.cypwn.movenotification16
-Replaces: xyz.cypwn.movenotification16
-Filename: ./debs/MoveNotification16通知位置-Rootless.deb
-Size: 17488
-MD5sum: e6cffb637865326327b85d706befc954
-SHA1: c674fdf0d47c8626e489b65262c7dfc4860a8724
-SHA256: 8af859e51cdc94a21111da74bca495ecf99163ca89a6a4628ce9e266664e3e1b
-Section: 系统增强
-Description: 调整IOS16通知横幅上下位置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: JunesiPhone
-Name: MoveNotification16通知位置-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xyz.cypwn.movenotification16.json
 
 Package: lym.xyz.cypwn.picsewpro
 Version: 1.0.0
@@ -5104,21 +5001,41 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: tikTok-Rootless
 Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: tikTok-Rootless
+Replaces: tikTok-Rootless
+Filename: ./debs/移除tikTok底部+号-RootHide.deb
+Size: 4256
+MD5sum: 793d8a3788399d724ed950f3b034395d
+SHA1: e9da28b3f6f2b7fc040578caabc40fd44f333c18
+SHA256: bedf0aee099549e73c5d6721486a182e08f2b9f8a82da624ec4e7dddcaa73dbd
+Section: 软件增强
+Description: 仅移除tikTok底部➕号，无其它功能
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 移除tikTok底部+号-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/tikTok-Rootless.json
+
+Package: tikTok-Rootless
+Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: lym
-Filename: ./debs/移除tikTok底部发布符号-Rootless.deb
-Size: 3220
-MD5sum: 5052655a900ff9ffbdf242951a0de96b
-SHA1: c10ab2859393848b5ab8833295e01440e79acea3
-SHA256: bd0f0551018664e772f758277e88a8882bbdc58cd5ff2b648dbe2b4ae18fdb89
+Conflicts: tikTok-Rootless
+Replaces: tikTok-Rootless
+Filename: ./debs/移除tikTok底部+号-Rootless.deb
+Size: 3236
+MD5sum: 366af9bffad312f1c50fd6b87e0f1c4d
+SHA1: 12f230e259d553e74648ac25dd17a291df6fd37e
+SHA256: c3b2c341c3c6698cdccc539b0f8f7573c0e24a373853596546c994b50c87478b
 Section: 软件增强
-Description: tikTok移除底部➕号
+Description: 仅移除tikTok底部➕号，无其它功能
  - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: lym
-Icon:  
-Name: 移除tikTok底部发布符号-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/tikTok-Rootless.json
+Name: 移除tikTok底部+号-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/tikTok-Rootless.json
 
 Package: xhs.x
 Version: 1.2.9

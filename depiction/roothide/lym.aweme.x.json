@@ -1,0 +1,62 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "插件下载地址",
+          "action": "https://pdf2.webgetstore.com/2026/07/29/36935ff7e3834ec1dfa0055cc1012cd2.deb?sg=a323883c947382869ac2a48e6691cfc3&e=6a86c56d&fileName=aweme.x_2.6.2_iphoneos-arm64.deb&fi=303042421",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 去广告、无水印下载视频\n- 隐藏各种按钮文字等\n- 插件启用:双指双击屏幕打开插件设置界面\n- 插件启用:APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/dytc.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/dytc1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/dytc2.png"}]
+    },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "𝙓"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "2.6.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年09月20日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.6.2\n- 新增关闭弹出层和返回桌面"}
+      ]
+    }
+  ]
+}
