@@ -277,6 +277,54 @@ Author: 13itch
 Name: 小丑(Joker)-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.13itch.joker.json
 
+Package: com.25mao.wxurlexpand
+Version: 0.2-0
+Architecture: iphoneos-arm64e
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.wxurlexpand
+Replaces: com.25mao.wxurlexpand
+Filename: ./debs/微信URL scheme扩展-RootHide.deb
+Size: 35148
+MD5sum: ca3499212f7ccd2c89273f2cb4a08b0d
+SHA1: 4a5016a1334e8b89ad091c95b1f2e38dfb225761
+SHA256: d00764c3dc04c9358b5355053aff3c49170a1e2d937352cabdd280d13e7009c5
+Section: 微信插件
+Description: 扩展微信URLScheme接口，方便从外部调用，添加以下接口
+ - 发送消息 weixin://aiwmao/user=用户/群id&msg=消息内容，多个用户使用#分开
+ - 打开聊天框 weixin://aiwmao/chat=用户/群id
+ - 打开小程序 weixin://aiwmao/weapp=小程序原始id
+ - 打开网页 weixin://aiwmao/url=网页链接
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信URL scheme扩展-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.25mao.wxurlexpand.json
+
+Package: com.25mao.wxurlexpand
+Version: 0.2-0
+Architecture: iphoneos-arm64
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.wxurlexpand
+Replaces: com.25mao.wxurlexpand
+Filename: ./debs/微信URL scheme扩展-Rootless.deb
+Size: 34292
+MD5sum: 666c21d5c0c0f62823f40eee2e3f1baa
+SHA1: ed7fa506b0eb36035698ad96a9454305c88056c3
+SHA256: 8560ca1067beb9ecae1c8f721288cf8a3481338d11b407528163313310bd880a
+Section: 微信插件
+Description: 扩展微信URLScheme接口，方便从外部调用，添加以下接口
+ - 发送消息 weixin://aiwmao/user=用户/群id&msg=消息内容，多个用户使用#分开
+ - 打开聊天框 weixin://aiwmao/chat=用户/群id
+ - 打开小程序 weixin://aiwmao/weapp=小程序原始id
+ - 打开网页 weixin://aiwmao/url=网页链接
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mao
+Name: 微信URL scheme扩展-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.25mao.wxurlexpand.json
+
 Package: com.HBWechatHelper.ailun
 Version: 2.1.7
 Architecture: iphoneos-arm64
@@ -737,46 +785,6 @@ Author: Amy While
 Name: Sileo-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
-Package: com.daopu.amap.hidebottom
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: 一刀
-Depends: firmware (>= 15.0), ellekit
-Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
-Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
-Filename: ./debs/高德去底栏-Rootless.deb
-Size: 3444
-MD5sum: e0a62da6d040189b54f801399dd03084
-SHA1: 2edcb44511f7f16180a30659e73127897e8e5a7f
-SHA256: c7f4c1234c664af30260cfc2a3dc4548f97c403aeba1222684589847b9831181
-Section: 软件增强
-Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 一刀
-Name: 高德去底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom_1.0.0.json
-
-Package: com.daopu.amap.hidebottom.roothide
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: 一刀
-Depends: firmware (>= 15.0), ellekit
-Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
-Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom
-Filename: ./debs/高德去底栏-RootHide.deb
-Size: 4388
-MD5sum: 98a7a74d6953c434d58d2e057b1eb518
-SHA1: c9189fde837afc969a63d5eab45015765f500dc9
-SHA256: 1cae58b321864c866dc7aeaddff67a757153b69472efda9cd4f49c10104f1644
-Section: 软件增强
-Description: 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备。
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 一刀
-Name: 高德去底栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/com.daopu.amap.hidebottom.roothide_1.0.0.json
-
 Package: com.duncan.tiebanoshop
 Version: 0.0.7
 Architecture: iphoneos-arm64
@@ -950,6 +958,48 @@ Description: FloatingView分屏破解版
 Author: be-huge
 Name: FloatingView分屏破解版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.floating-view.json
+
+Package: com.gaodedilan
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: 一刀
+Depends: firmware (>= 15.0), ellekit
+Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
+Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
+Filename: ./debs/高德地图移除底栏-RootHide.deb
+Size: 4384
+MD5sum: 062624a8c14733ff4a7bdeff622cb874
+SHA1: 211b53214e71f157e710405cadea1a353265dfca
+SHA256: cd92e04a345c77165f3180f35308324c588b0247815f1fb517744023bffd2e8a
+Section: 软件增强
+Description: 隐藏去除高德地图软件的底栏
+ - 支持商城目前17.0.1版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 一刀
+Name: 高德地图移除底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.gaodedilan.json
+
+Package: com.gaodedilan
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: 一刀
+Depends: firmware (>= 15.0), ellekit
+Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
+Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
+Filename: ./debs/高德地图移除底栏-Rootless.deb
+Size: 3444
+MD5sum: 0d864eca52a7333755aeb3f7507a9dbd
+SHA1: 435b4cbaab92e1c1cd8396b9a9293b1ae0a0c39f
+SHA256: b8aa1f15a54227e80abf38543e07a31e2017d3d1c115dcd99aec2ce5cad8e6b5
+Section: 软件增强
+Description: 隐藏去除高德地图软件的底栏
+ - 支持商城目前17.0.1版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 一刀
+Name: 高德地图移除底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gaodedilan.json
 
 Package: com.gdtc
 Version: 1.0.4
@@ -1430,6 +1480,50 @@ Description: 仅在工商银行11.1.0.版本测试
 Author: Li
 Name: 工商银行屏蔽-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.li.icbcmshook.json
+
+Package: com.lnightwind.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64
+Maintainer: Nightwind
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage, com.lnightwind.onesettings
+Replaces: com.nightwind.onesettings, com.yourdomain.newpackage, com.lnightwind.onesettings
+Filename: ./debs/OneSettings设置归类-Rootless.deb
+Size: 216712
+MD5sum: 7325fe902675e349324c41d59a799b6e
+SHA1: 36b407c8f44daa8d7c446453caa15de9f1633f68
+SHA256: 13420c5b856c923be3070dded9a8bae009eb0d807d10b15576bcfcb58d4c48b0
+Section: 美化插件
+Description: 设置内插件归类
+ - 自定义背景图、顶图、单元格
+ - 更改关于本机页面的一些内容
+ - 以对插件做汉化处理
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: OneSettings设置归类-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.lnightwind.onesettings.json
+
+Package: com.lnightwind.onesettings
+Version: 2.2
+Architecture: iphoneos-arm64e
+Maintainer: Nightwind
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage, com.lnightwind.onesettings
+Replaces: com.nightwind.onesettings, com.yourdomain.newpackage, com.lnightwind.onesettings
+Filename: ./debs/OneSettings设置归类-RootHide.deb
+Size: 224240
+MD5sum: 50a5613ff497c6a67b21d029f2335faf
+SHA1: 86e7bbef1330b81eb44cff7781494995a00d4401
+SHA256: 68607eadcd4a4294afcb52777b55bf07a1632fadf4e90322644927802ffcd5f6
+Section: 美化插件
+Description: 设置内插件归类
+ - 自定义背景图、顶图、单元格
+ - 更改关于本机页面的一些内容
+ - 以对插件做汉化处理
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Nightwind
+Name: OneSettings设置归类-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.lnightwind.onesettings.json
 
 Package: com.local.alipay.identity-compat
 Version: 0.1.9
@@ -2582,48 +2676,6 @@ Description: 收纳第三方微信插件
 Author: Mao
 Name: 微信插件管理-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.25mao.wcplugins.roothide_0.1-7.json
-
-Package: lym.com.25mao.weapptool.rootless
-Version: 0.1-9
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Replaces: com.25mao.weapptool.rootless
-Filename: ./debs/微信小程序助手-Rootless.deb
-Size: 27244
-MD5sum: 926848d04330af1718481d90560d91dc
-SHA1: d67a364439999ba40839a06eefb8f6a7a8fa96ac
-SHA256: 71e5c8900f220e6391fdd168e84f06afcacf25a034b69b544d5fa74aa1f98672
-Section: 微信插件
-Description: 微信小程序助手
- - 启用插件后可以在小程序任意页面复制小程序的跳转链接
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Mao
-Name: 微信小程序助手-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.weapptool.rootless.json
-
-Package: lym.com.25mao.wxurlexpand.rootless
-Version: 0.2-0
-Architecture: iphoneos-arm64
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0)
-Replaces: com.25mao.wxurlexpand.rootless
-Filename: ./debs/微信URL scheme扩展-Rootless.deb
-Size: 34264
-MD5sum: 464bab147ed49ceaeb026da67626ca74
-SHA1: fa6320342604dec7223cfcb2f920786b1c538899
-SHA256: 6397f0d337132db14c602a35cce9ef4fb5b6d520a87a4cf194de43ddd549e0e5
-Section: 微信插件
-Description: 扩展微信URLScheme接口，方便从外部调用
- - 添加以下接口
- - 发送消息weixin: /aiwmao/user=用户/群id&msg=消息 内容,多个用户使用#分开
- - 打开聊天框weixin: /aiwmao/chat=用户/群id
- - 打开小程序weixin: /aiwmao/weapp=小程序原始id
- - 打开网页weixin:/aiwmao/url=网页链接
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Mao
-Name: 微信URL scheme扩展-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.25mao.wxurlexpand.rootless.json
 
 Package: lym.com.82flex.iconrestore
 Version: 1.7
@@ -4841,48 +4893,6 @@ Description: 修复VVebo用户时间线和粉丝列表显示
 Author: lhl
 Name: VVebo时间线修复-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourcompany.vvebofix.roothide_1.0-5+debug.json
-
-Package: lym.com.yourdomain.newpackage
-Version: 2.2
-Architecture: iphoneos-arm64
-Maintainer: Nightwind
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage
-Replaces: com.nightwind.onesettings, com.yourdomain.newpackage
-Filename: ./debs/OneSettings设置归类-Rootless.deb
-Size: 216232
-MD5sum: b278526213be5012e5262735ef9a5bf8
-SHA1: 5d7976ff67494cb16bf9c0f9a915169de350ee70
-SHA256: e8990c14e30883de312c94806f0ce4d89a3791b2749c5d884a79a8aa4ac880f2
-Section: 美化插件
-Description: 设置内插件归类
- - 自定义背景图、顶图、单元格
- - 更改关于本机页面的一些内容
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Nightwind
-Name: OneSettings设置归类-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourdomain.newpackage_2.2.json
-
-Package: lym.com.yourdomain.newpackage.roothide
-Version: 2.2
-Architecture: iphoneos-arm64e
-Maintainer: Nightwind
-Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
-Conflicts: com.nightwind.onesettings, com.yourdomain.newpackage
-Replaces: com.nightwind.onesettings, com.yourdomain.newpackage
-Filename: ./debs/OneSettings设置归类-RootHide.deb
-Size: 224828
-MD5sum: 13eb18089b130f24b3ad1d0410494ffc
-SHA1: ba0ed4adf8ae02fb10f3bb6b93297f383fdface2
-SHA256: 151b93468ae02aeb65cd7f1b951aec389f52f551bd237f9ab75718f8be35e69d
-Section: 美化插件
-Description: 设置内插件归类
- - 自定义背景图、顶图、单元格
- - 更改关于本机页面的一些内容
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Nightwind
-Name: OneSettings设置归类-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.yourdomain.newpackage.roothide_2.2.json
 
 Package: lym.com.yourepo.lly.adsspee-rootless
 Version: 1.1.3

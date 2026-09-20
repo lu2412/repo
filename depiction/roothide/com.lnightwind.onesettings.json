@@ -16,8 +16,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 隐藏高德地图底栏，适用于 Dopamine 无根越狱，需使用arm64设备\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+          "markdown": "### 插件介绍\n- 设置内插件归类\n- 自定义背景图、顶图、单元格\n- 更改关于本机页面的一些内容\n- 以对插件做汉化处理\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/OneSettings.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/OneSettings1.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -27,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "一刀"
+          "text": "Nightwind"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.0"
+          "text": "2.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月08日"
+          "text": "2026年09月20日"
         }
       ]
     },
@@ -50,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.0\n- 刀哥出手，尽在我手"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.2\n- 对插件做汉化"}
       ]
     }
   ]
