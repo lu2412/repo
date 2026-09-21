@@ -3812,23 +3812,6 @@ Author: Ivano Bilenchi
 Name: iCleaner pro破解版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.dao.icleanerpro.json
 
-Package: lym.com.foxfort.krashkop
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: FoxfortMobile
-Installed-Size: 428
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
-Filename: ./debs/KrashKop崩溃日志.deb
-Size: 191148
-MD5sum: 5d81737da49be3796a1bf3a68bbdfdab
-SHA1: 2caefb5c53c4d9ec678312d376a8268869c0b9e0
-SHA256: 4a90375bdbd7ffa90cacb63f58fe8b8c88668e301d42adfd9b8c5f52e945050e
-Section: 系统增强
-Description: Lightweight crash reporter
-Author: FoxfortMobile
-Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
-Name: KrashKop崩溃日志
-
 Package: lym.com.iosdump.shellx
 Version: 10.0.0
 Architecture: iphoneos-arm64e
@@ -3914,25 +3897,6 @@ Description: 调整以提高旧设备上AirPods的兼容性
 Author: Ruphane
 Name: PodsGrant耳机增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.lns.pogr.json
-
-Package: lym.com.pancake
-Version: 2.3
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), com.opa334.altlist, firmware (>= 11.0)
-Conflicts: com.pancake
-Replaces: com.pancake
-Filename: ./debs/PanCake手势增强-Rootless.deb
-Size: 113068
-MD5sum: 731183893c5dd35cd0c94560501be231
-SHA1: 80c42e584c91f7198ef4058d389d692267a4a253
-SHA256: 05d575234dece60a7b7f4f86bb36951a76a18b0f6d534ac2c6260b17497fccb2
-Section: 系统增强
-Description: 在屏幕上任何位置向右滑返回上一页
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: AnthoPak <anthopakdev@gmail.com>
-Name: PanCake手势增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pancake.json
 
 Package: lym.com.storeswitcher.appstore
 Version: 1.0.6
