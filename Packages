@@ -2208,6 +2208,50 @@ Author: MacXK
 Name: 酷我音乐VIP-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.macxk.kwcrack.json
 
+Package: com.mg.dsx
+Version: 0.5.8
+Architecture: iphoneos-arm64
+Maintainer: M哥
+Installed-Size: 88
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.mg.dsx, com.mg.dsx
+Replaces: com.mg.dsx, com.mg.dsx
+Filename: ./debs/大师兄影视去弹窗-Rootless.deb
+Size: 6236
+MD5sum: 3156c7e03ad50e990bc065824e488969
+SHA1: 88f35d504f7c7ac1d5b0c8e68fc52c4f0334beed
+SHA256: 08319c383d8ac2f067aa75ca4dc82030754ce40659a058cd5a1ece79a3d9e393
+Section: 软件增强
+Description: 去除大师兄影视每次启动时出现的弹窗
+ - 如无效可自行添加软件标识符，来增加对其它版本生效
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: M哥
+Name: 大师兄影视去弹窗-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.mg.dsx.json
+
+Package: com.mg.dsx
+Version: 0.5.8
+Architecture: iphoneos-arm64e
+Maintainer: M哥
+Installed-Size: 88
+Depends: firmware (>= 5.0), mobilesubstrate
+Conflicts: com.mg.dsx, com.mg.dsx
+Replaces: com.mg.dsx, com.mg.dsx
+Filename: ./debs/大师兄影视去弹窗-RootHide.deb
+Size: 6192
+MD5sum: 2d564f353a62fee8b82869294a23ad9d
+SHA1: e82ff732784d918b33790cf5dfbd8a757fdd987c
+SHA256: 5282b0928c07c4ff5473ffcfddd7dd691418e732961fe9334765534a0859913c
+Section: 软件增强
+Description: 去除大师兄影视每次启动时出现的弹窗
+ - 如无效可自行添加软件标识符，来增加对其它版本生效
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: M哥
+Name: 大师兄影视去弹窗-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mg.dsx.json
+
 Package: com.nan.debd
 Version: 0.4.2
 Architecture: iphoneos-arm64
