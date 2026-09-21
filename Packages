@@ -560,6 +560,48 @@ Author: 半生年华
 Name: 移除底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
 
+Package: com.apple.DocumentsApp
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp
+Filename: ./debs/移除软件底栏-RootHide.deb
+Size: 4752
+MD5sum: e59b665e0295086acd3a6b556af5f223
+SHA1: 72fe4c7fea71dd6f10775adede9e4c4ae134d8a1
+SHA256: 1e68795480467226594f84d8cda9c4a285126da637910e72f4ca3e148bbbbf12
+Section: 美化插件
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁 支付宝 米家app的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 移除软件底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
+
+Package: com.apple.DocumentsApp
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 76
+Depends: mobilesubstrate
+Conflicts: com.apple.DocumentsApp
+Replaces: com.apple.DocumentsApp
+Filename: ./debs/移除软件底栏-Rootless.deb
+Size: 4188
+MD5sum: 4c829a77ebdcd6d019a36bb9daa98db8
+SHA1: 1537ce1ceccf669a6206959cd5a39c2b962e34a2
+SHA256: e4c65250c3df7b444308ccf7d0aba4cc12ea5206a1f8afe800a20184756be35b
+Section: 美化插件
+Description: 仅针对性移除 钉钉 酷安 App Store 香色闺阁 支付宝 米家app的底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 移除软件底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.DocumentsApp.json
+
 Package: com.aptzh
 Version: 1.3-3+debug
 Architecture: iphoneos-arm64e
@@ -1381,10 +1423,10 @@ Depends: mobilesubstrate
 Conflicts: com.hx.wn
 Replaces: com.hx.wn
 Filename: ./debs/Separator分隔线-RootHide.deb
-Size: 22964
-MD5sum: 90201cedfcf8c5da5f341c2e9ce902bd
-SHA1: 13118ed817162880fbf21205c30c4a8838335e2c
-SHA256: ab3b31b0ddd75ea3f63416dedf830f7f2da24e291d0ac0c02a1900f41da0b152
+Size: 22980
+MD5sum: 0136c3a711b3a63adba7766f57eaa013
+SHA1: fa4eb83785f9919ed2c13e97fcd39f2616f6d572
+SHA256: c9af52910a32c7e55e0730dfb44b7ee6878877a1f503a249e43c926ac24582d0
 Section: 美化插件
 Description: 去除一些系统顽固分隔符
  - 例如系统时钟、备忘录、文件、天气、iCleanerpro
@@ -1407,9 +1449,9 @@ Conflicts: com.hx.wn
 Replaces: com.hx.wn
 Filename: ./debs/Separator分隔线-Rootless.deb
 Size: 21188
-MD5sum: b4b64b606f195d751c6b4f3a194c373b
-SHA1: 071abc4ae77507c76dbfc714eb3ed3074c1f3256
-SHA256: a4f978bbb3367ee12c2ee242786cdbccce7e7c99a2eab93e72b1a9dc8ea33a56
+MD5sum: 27e5fb2a428d9e0f6497586d82b047bc
+SHA1: 3daccaa9815f109b5b0ad33a481c9b3ff13e0556
+SHA256: a1383cb7e89b4f2b6792e87c7c150dbb7ea2f6ca70fcf8f483070586091807ac
 Section: 美化插件
 Description: 去除一些系统顽固分隔符
  - 例如系统时钟、备忘录、文件、天气、iCleanerpro
@@ -3674,53 +3716,6 @@ Author: pxcex
 Name: AutoScroll 自动滑动-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.byg.iosios.net.autoscroll.json
 
-Package: lym.byg.iosios.net.ghallownetwork-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: 搬运工
-Installed-Size: 152
-Depends: mobilesubstrate
-Conflicts: byg.iosios.net.ghallownetwork-rootless
-Replaces: byg.iosios.net.ghallownetwork-rootless
-Filename: ./debs/Allow Network自动允许网络-Rootless.deb
-Size: 8296
-MD5sum: 5b88864dcf3d757eb92c8a35df2b8195
-SHA1: b2f52846a8fdc1e7b65b8872425b95b2006ab756
-SHA256: 097c73715d48d6c2f891e2e66d4a2db68c51e90ec8a51b9f04459150db601735
-Section: 系统增强
-Description: 国行手机安装完APP,第一次运行时
- - 会弹出是否允许使用网络,安装这个插件会自动允许使用网络
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lenglengyu
-Name: Allow Network自动允许网络-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.byg.iosios.net.ghallownetwork-rootless.json
-
-Package: lym.com.anthopak.quickprefs-rootless
-Version: 1.3.3
-Architecture: iphoneos-arm64
-Maintainer: AnthoPak <anthopakdev@gmail.com>
-Depends: firmware (>= 11.0), mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 11.0)
-Conflicts: com.anthopak.quickprefs-rootless
-Replaces: com.anthopak.quickprefs-rootless
-Filename: ./debs/QuickPrefs快速跳转-Rootless.deb
-Size: 486972
-MD5sum: 099d75e9146aecd8608098380103cfbf
-SHA1: 8a5b06654437728ab5595e0db6b56355381ee67d
-SHA256: 5b81e1c273c176bc98143017c5cc068d22b029e1774d64f54b4bc948cfe035cf
-Section: 系统增强
-Description: 在设置三维触控面板增加菜单的插件
- - 在设置的三维触控菜单上，添加一些选项，方便快速直达
- - 支持添加电源增强类型快捷方式，例如注销、安全模式等
- - 支持添加插件名称，方便快速跳转插件设置
- - 支持添加设置中一些选项的路径，方便快速直达
- - 最多可以添加12个项目，所有更改立即生效无需注销
- - 支持 Shuffle，即使插件归纳后，也可以快捷直达。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: AnthoPak <anthopakdev@gmail.com>
-Name: QuickPrefs快速跳转-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.anthopak.quickprefs-rootless.json
-
 Package: lym.com.apple.wechat.noads
 Version: 1.2.0
 Architecture: iphoneos-arm64e
@@ -3833,56 +3828,6 @@ Description: Lightweight crash reporter
 Author: FoxfortMobile
 Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
 Name: KrashKop崩溃日志
-
-Package: lym.com.hx.wn
-Version: 1.0.6
-Architecture: iphoneos-arm64
-Maintainer: 半生年华
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.hx.wn, lym.com.hx.wn, com.hx.wn
-Replaces: com.hx.wn, lym.com.hx.wn, com.hx.wn
-Filename: ./debs/去除分隔符-Rootless.deb
-Size: 19228
-MD5sum: 3eb333051d65b217d32025b638cec99f
-SHA1: 780a502f699552cc877084daab6113a58b387565
-SHA256: 68df2ce9ea7b3ceae424fcdfee0cb7707f4e4b9ff15e0d7f322d990727ac326e
-Section: 美化插件
-Description: 去除一些顽固分隔符
- - 例如系统时钟、备忘录、文件、天气、iCleaner pro
- - sileo分隔符
- - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
- - 以及Telegram等第三方电报去除分割线等
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 去除分隔符-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn_1.0.6.json
-
-Package: lym.com.hx.wn.roothide
-Version: 1.0.6
-Architecture: iphoneos-arm64e
-Maintainer: 半生年华
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.hx.wn, lym.com.hx.wn, com.hx.wn
-Replaces: com.hx.wn, lym.com.hx.wn, com.hx.wn
-Filename: ./debs/去除分隔符-RootHide.deb
-Size: 20908
-MD5sum: 3000646ae85e87cb52f25f697376033f
-SHA1: bc561f3379a498bc4a3f91123d2723c1f59ac377
-SHA256: b74b86b4389b9b19864bc8923816149c09b02fd94b75b7598dbe3dc5bf0e57a6
-Section: 美化插件
-Description: 去除一些顽固分隔符
- - 例如系统时钟、备忘录、文件、天气、iCleaner pro
- - sileo分隔符
- - 还有精简下相册、删除照片无需手动确认、精简系统文件底栏
- - 以及Telegram等第三方电报去除分割线等
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 半生年华
-Name: 去除分隔符-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.hx.wn.roothide_1.0.6.json
 
 Package: lym.com.iosdump.shellx
 Version: 10.0.0
@@ -4031,27 +3976,6 @@ Author: subdiox & iosdump
 Name: StoreSwitcher 账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.storeswitcher.appstore.json
 
-Package: lym.com.xx.baiduhook
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: x✨
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000)
-Replaces: com.xx.baiduhook
-Filename: ./debs/百度地图优化-Rootless.deb
-Size: 102920
-MD5sum: f2bf370533a36d25069693254bda6ce1
-SHA1: 09f8b919fc53c404794fa835b4f267d9aa188d59
-SHA256: 9a0815bee286069af20cfda1c4dd4c4265baf199f47284d47225434aad2b877b
-Section: 软件增强
-Description: 去除百度地图一些无用的悬浮板块
- - 移除底部tab如果需要某功能
- - 可以长按设置界面1-2秒出菜单自行关闭
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: x✨
-Name: 百度地图优化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.xx.baiduhook.json
-
 Package: lym.com.yourname.12306noad
 Version: 1.0.0-11+debug
 Architecture: iphoneos-arm64
@@ -4183,48 +4107,6 @@ Description: 仅去除原生相机顶部和底部两个黑色模块
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Name: 全屏相机-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.net.camera.json
-
-Package: lym.netskao.actionbarreborn
-Version: 1.1-2
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 796
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: netskao.actionbarreborn
-Replaces: netskao.actionbarreborn
-Filename: ./debs/ActionBar Reborn键盘增强-Rootless.deb
-Size: 161044
-MD5sum: 269b35467e1daefb6ae40ef6f07acd32
-SHA1: 1503d3b33eeed463b1667a2e49ed5d6637f78f50
-SHA256: 2d04b8c32f450dea2c9853bdfb5dd33fd3a341098f6f7fc47bfd37989b54ab57
-Section: 键盘插件
-Description: 在键盘底部增加撤消、重做、全选、复制、剪切和粘贴按钮
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: ActionBar Reborn键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.actionbarreborn.json
-
-Package: lym.netskao.ccswitchdata-rootless
-Version: 1.1-4
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 132
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
-Conflicts: netskao.ccswitchdata-rootless
-Replaces: netskao.ccswitchdata-rootless
-Filename: ./debs/CCSwitchData蜂窝-Rootless.deb
-Size: 21004
-MD5sum: 9595988a9b73859f635ce123604eca3b
-SHA1: d0f148b3983769614f6814d7bb581c8ec0bfeb3f
-SHA256: e95bdd7f7e853cf51eec355f8bc4c996aa5d3ae6ce25b683503e67814e2a7dce
-Section: 控制中心
-Description: 对于双SIM卡用户，可以通过控制中心快速切换选定的蜂窝网络
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: Netskao
-Name: CCSwitchData蜂窝-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
 
 Package: lym.z.weifeng
 Version: 1.5
