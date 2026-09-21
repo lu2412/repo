@@ -2418,6 +2418,48 @@ Author: Crassna
 Name: Stheno分屏新版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
 
+Package: com.p2kdev.safarifind
+Version: 1.1.2
+Architecture: iphoneos-arm64e
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: com.p2kdev.safarifind, com.p2kdev.safarifind
+Replaces: com.p2kdev.safarifind, com.p2kdev.safarifind
+Filename: ./debs/Safari小增强-RootHide.deb
+Size: 9372
+MD5sum: 2a51b88bc4077694dcedf5c8c70eb7a7
+SHA1: ae4151cb5ac367e569ef800faecbcef3a3852477
+SHA256: 57c90c5548442d7fb1f4aa1bafcc65cb6f911b8da5af9d860796c7addcc5cb3a
+Section: 轻量插件
+Description: Safari中长按共享按钮弹出搜索框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: P2KDev <p2kdev@gmail.com>
+Name: Safari小增强-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.p2kdev.safarifind.json
+
+Package: com.p2kdev.safarifind
+Version: 1.1.2
+Architecture: iphoneos-arm64
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 172
+Depends: mobilesubstrate
+Conflicts: com.p2kdev.safarifind, com.p2kdev.safarifind
+Replaces: com.p2kdev.safarifind, com.p2kdev.safarifind
+Filename: ./debs/Safari小增强-Rootless.deb
+Size: 8256
+MD5sum: d5fd98aaf1a0eb4441408d0caf331c68
+SHA1: 952431d8f0894c1222f7b9455f06450ab1a79761
+SHA256: e0ec88b7d4c267e735eeda785a10130030078e6e6e9ade20995b9e7a6e147ad5
+Section: 轻量插件
+Description: Safari中长按共享按钮弹出搜索框
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: P2KDev <p2kdev@gmail.com>
+Name: Safari小增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.p2kdev.safarifind.json
+
 Package: com.recordpause
 Version: 2.0.7
 Architecture: iphoneos-arm64
@@ -2545,6 +2587,46 @@ Description: 为 Safari 浏览器书签设置自定义图标
 Author: shiftcmdk
 Name: Safari自定义书签图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.shiftcmdk.bookmarkicons.json
+
+Package: com.sini921.fakesignalbar
+Version: 0.1-7
+Architecture: iphoneos-arm64
+Maintainer: alias20
+Installed-Size: 404
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.sini921.fakesignalbar
+Replaces: com.sini921.fakesignalbar
+Filename: ./debs/FakeSignalBar运营商-Rootless.deb
+Size: 26980
+MD5sum: dca3d955398ce48dea7f1fba483ef835
+SHA1: 7710ad5760949237b8cfd8c0161c8527b5cb9d62
+SHA256: 500ec6b9637a89a9601cb4a19ed99d816efb67711ca6ea3fbdfa80ddab523003
+Section: 轻量插件
+Description: 自定义运营商名称、信号强度、蜂窝连接等等！基于开源汉化编译。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: alias20 & SINI
+Name: FakeSignalBar运营商-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.sini921.fakesignalbar.json
+
+Package: com.sini921.fakesignalbar
+Version: 0.1-7
+Architecture: iphoneos-arm64e
+Maintainer: alias20
+Installed-Size: 404
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.sini921.fakesignalbar
+Replaces: com.sini921.fakesignalbar
+Filename: ./debs/FakeSignalBar运营商-RootHide.deb
+Size: 25864
+MD5sum: 7824d4c8d4f3c2cbcc9bfe6f5d79b91c
+SHA1: 29a86540270e5a7211f0c397ee49f0595549a8a9
+SHA256: 93a5b98101c63324848d6e9ac20e82ddd3ea41d6d2aeea40875f984ea9869abd
+Section: 轻量插件
+Description: 自定义运营商名称、信号强度、蜂窝连接等等！基于开源汉化编译。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: alias20 & SINI
+Name: FakeSignalBar运营商-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sini921.fakesignalbar.json
 
 Package: com.snail.easynotify.rootless
 Version: 1.0.0
@@ -2881,6 +2963,48 @@ Description: 插件管理桌面图标版
 Author: CreatureSurvive & wkk
 Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
+
+Package: com.wkk.cscathook
+Version: 1.0-1
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.cscathook
+Replaces: com.wkk.cscathook
+Filename: ./debs/禁用解锁图标飞入-Rootless.deb
+Size: 3084
+MD5sum: ef5c7eb84edb3a9a614974fa0a212e4d
+SHA1: 656caea3c23cd7a596148386d828652b2ebbd6c1
+SHA256: 70d0ca095a1b0b433c3c02d3e9022a07536d0cbe978aba44162c108a017bb132
+Section: 轻量插件
+Description: 禁用解锁后主屏幕图标飞入动画
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 禁用解锁图标飞入-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cscathook.json
+
+Package: com.wkk.cscathook
+Version: 1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.wkk.cscathook
+Replaces: com.wkk.cscathook
+Filename: ./debs/禁用解锁图标飞入-RootHide.deb
+Size: 3028
+MD5sum: 3188bfafacb23a691dbebdd53bc9425f
+SHA1: 780b1f8de462a24c8f48c9203372dd0e2e93fcc9
+SHA256: 8ae99ea8e1d6e0c3e6f3c5bca7b0e2d3e95e917c49656b005a97a82752a0e2e0
+Section: 轻量插件
+Description: 禁用解锁后主屏幕图标飞入动画
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 禁用解锁图标飞入-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.cscathook.json
 
 Package: com.wkk.installedpackages
 Version: 1.0-1
@@ -3326,6 +3450,52 @@ Author: Finn Gaida
 Name: DayNightSwitch 日月开关-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/de.finngaida.daynightswitch.json
 
+Package: iosign.hidesim2
+Version: 0.1-1
+Architecture: iphoneos-arm64
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.hidesim2.rootless, iosign.hidesim2
+Replaces: iosign.hidesim2.rootless, iosign.hidesim2
+Filename: ./debs/隐藏副卡-Rootless.deb
+Size: 3080
+MD5sum: 14c6bd721cff0130f20bfefd6e5cddc3
+SHA1: 09e4de8567d1c23f1f121e5369e86420dc4400ed
+SHA256: e4476a67f676403f97ad04cc13bacb6ecfa897cc1f92b1a8f2dab199a8a2a575
+Section: 轻量插件
+Description: 隐藏副卡
+ - 当手机是双卡状态时
+ - 会隐藏控制中心其中一张运营商伪装为单卡
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iOSign
+Name: 隐藏副卡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/iosign.hidesim2.json
+
+Package: iosign.hidesim2
+Version: 0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: iOSign
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: iosign.hidesim2.rootless, iosign.hidesim2
+Replaces: iosign.hidesim2.rootless, iosign.hidesim2
+Filename: ./debs/隐藏副卡-RootHide.deb
+Size: 4216
+MD5sum: 326468ca3f70e88d67981ab734e1306d
+SHA1: 765f1ded4c32e2c939eac789b5343c958fe4bf60
+SHA256: d9e6fd57d0d5f355c532db5d91e7748171bee15deae693dc0720032f5c582089
+Section: 轻量插件
+Description: 隐藏副卡
+ - 当手机是双卡状态时
+ - 会隐藏控制中心其中一张运营商伪装为单卡
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iOSign
+Name: 隐藏副卡-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/iosign.hidesim2.json
+
 Package: jp.r-plus.anykeytrackpad
 Version: 1.1.1
 Architecture: iphoneos-arm64
@@ -3647,26 +3817,6 @@ Author: Ivano Bilenchi
 Name: iCleaner pro破解版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.dao.icleanerpro.json
 
-Package: lym.com.dao.kayoko
-Version: 2.9
-Architecture: iphoneos-arm64
-Maintainer: Lessica <82flex@gmail.com>
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Conflicts: dev.traurige.kayoko, codes.aurora.kayoko, com.daodao.kayoko, com.dao.kayoko
-Replaces: com.dao.kayoko
-Filename: ./debs/Kayoko剪贴板-Rootless.deb
-Size: 128680
-MD5sum: 6104e0316ecf60978feb570016b9826e
-SHA1: 905476618c943d3485f3d3bae5017a85dccc9e95
-SHA256: 1207ef39dba4f82fa4e747287b9bea3d4de09c37e1235fdda1fa438d3350cfb9
-Section: 键盘插件
-Description: 特别好用的免费剪贴板插件
- - 82flex修复支持iOS16
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Alexandra Aurora Göttlicher
-Name: Kayoko剪贴板-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.dao.kayoko.json
-
 Package: lym.com.foxfort.krashkop
 Version: 1.0.2
 Architecture: iphoneos-arm64
@@ -3683,26 +3833,6 @@ Description: Lightweight crash reporter
 Author: FoxfortMobile
 Icon: file:///Applications/KrashKopApp.app/AppIcon60x60@2x.png
 Name: KrashKop崩溃日志
-
-Package: lym.com.huami.bilinoad
-Version: 1.0.1
-Architecture: iphoneos-arm64
-Maintainer: huami
-Installed-Size: 168
-Depends: firmware (>= 5.0), mobilesubstrate
-Replaces: com.huami.bilinoad
-Filename: ./debs/BiliNoAd BiliBili净化开屏广告-Rootless.deb
-Size: 3660
-MD5sum: 51728c0396caa11537e65cdcb43aa33f
-SHA1: fd8cf1cb24cc01d7848d5d2c8adff0fd95723112
-SHA256: c1d1640e599737c929ec05811c460701f2a44f03eec4451b8b40f63c45a10587
-Section: 软件增强
-Description: BiliBili净化开屏广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: huami
-Name: BiliNoAd BiliBili净化开屏广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.huami.bilinoad.json
 
 Package: lym.com.hx.wn
 Version: 1.0.6
@@ -3838,69 +3968,6 @@ Author: Ruphane
 Name: PodsGrant耳机增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.lns.pogr.json
 
-Package: lym.com.netskao.swiftgramcrack
-Version: 1.1-7
-Architecture: iphoneos-arm64
-Maintainer: Nets
-Installed-Size: 1080
-Depends: firmware (>= 13.0), mobilesubstrate
-Conflicts: com.netskao.swiftgramcrack
-Replaces: com.netskao.swiftgramcrack
-Filename: ./debs/Swiftgram Crack-Rootless.deb
-Size: 424380
-MD5sum: d4cddae727ced52377453d251a9bf5da
-SHA1: a458f4bad87fccfa9fcd8461bf55c860593da7be
-SHA256: b1235b5307dd80f7400801674008e0b7a5ac16d499350c3df188eb96d08790c4
-Section: 软件增强
-Description: SwiftgramPro.附加解除下载保护/解除截图保护/去除官方广告,支持当前最新版12.2(解锁Pro首次登录需重启一次应用)
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Netskao
-Name: Swiftgram Crack-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.netskao.swiftgramcrack.json
-
-Package: lym.com.p2kdev.alarmtime
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 212
-Depends: firmware (>= 14.0),mobilesubstrate
-Conflicts: com.p2kdev.alarmtime
-Replaces: com.p2kdev.alarmtime
-Filename: ./debs/AlarmTime时钟增强-Rootless.deb
-Size: 16688
-MD5sum: 5a33dfb8463570623db110be6829472a
-SHA1: 7558a02493a8063efe2c53ddbce00e3ee8575918
-SHA256: f01431ca4852e77212d2f30a8a1bf64518cf70452ddf932262d4c317eb526b60
-Section: 系统增强
-Description: 为已设置的闹钟显示响铃剩余时间
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: P2KDev <p2kdev@gmail.com>
-Name: AlarmTime时钟增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.p2kdev.alarmtime.json
-
-Package: lym.com.p2kdev.safarifind
-Version: 1.1.2
-Architecture: iphoneos-arm64
-Maintainer: P2KDev <p2kdev@gmail.com>
-Installed-Size: 172
-Depends: mobilesubstrate
-Conflicts: com.p2kdev.safarifind
-Replaces: com.p2kdev.safarifind
-Filename: ./debs/SafariFind长按分享查找-Rootless.deb
-Size: 8268
-MD5sum: e11fcf4605d8c91b31f0c88655fa5985
-SHA1: 7d50c11d37e983697abe094cb9f8b1f989c1cd48
-SHA256: 65c22ff8a333638d973c7b906ef6675bda1eda0b17900cb14529b060310b21ee
-Section: 系统增强
-Description: Safari中长按共享按钮弹出搜索框
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: P2KDev <p2kdev@gmail.com>
-Name: SafariFind长按分享查找-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.p2kdev.safarifind.json
-
 Package: lym.com.pancake
 Version: 2.3
 Architecture: iphoneos-arm64
@@ -3919,27 +3986,6 @@ Description: 在屏幕上任何位置向右滑返回上一页
 Author: AnthoPak <anthopakdev@gmail.com>
 Name: PanCake手势增强-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.pancake.json
-
-Package: lym.com.sini921.fakesignalbar
-Version: 0.1-5
-Architecture: iphoneos-arm64
-Maintainer: alias20
-Installed-Size: 404
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Conflicts: com.sini921.fakesignalbar
-Replaces: com.sini921.fakesignalbar
-Filename: ./debs/FakeSignalBar-Rootless.deb
-Size: 25120
-MD5sum: 4e76f9b991b2bb91b1f401c0abe585ed
-SHA1: 3dcb225d95740a1ebf3535a72c3c120517974a6b
-SHA256: 6562536b4550a97ec8618886710346fc5e042e4cb0793371f229be6763136746
-Section: 系统增强
-Description: 自定义运营商名称、信号强度、蜂窝连接等等
- - 基于开源汉化编译。
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: alias20 & SINI
-Name: FakeSignalBar-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.sini921.fakesignalbar.json
 
 Package: lym.com.storeswitcher.appstore
 Version: 1.0.6
@@ -3982,96 +4028,6 @@ Description: 桌面长按 App Store 进行切换账号
 Author: subdiox & iosdump
 Name: StoreSwitcher 账号切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.storeswitcher.appstore.json
-
-Package: lym.com.udevs.dockx
-Version: 2.6.2
-Architecture: iphoneos-arm64
-Maintainer: udevs
-Installed-Size: 2068
-Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
-Conflicts: com.restiveconch.actionbar, com.udevs.dockx
-Replaces: com.udevs.dockx
-Filename: ./debs/DockX 键盘增强-Rootless.deb
-Size: 421224
-MD5sum: 897866ac59cf32734b536767eafee15b
-SHA1: bffafaa6b5ba2b53a80eab3df95192b6d9472ee1
-SHA256: 1770bd62b9f98a3504044e5e4bc197a792a4a368ec64633811d68603ef26db03
-Section: 键盘插件
-Description: 键盘底部增强插件
- - 经典键盘类插件DockX
- - 按钮图标可通过修改配置文件
- - /var/jb/var/mobile/Library/Preferences/com.udevs.dockx.plist
- - 中的images13字段实现,修改后打开多巴胺app重启用户空间
- - 按钮文字在/var/jb/Library/PreferenceBundles/DockXPrefs.bundle
- - 到对应语言包的Localizable.strings进行修改
- - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: udevs
-Name: DockX 键盘增强-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.com.udevs.dockx.json
-
-Package: lym.com.vita.cnnoad
-Version: 0.1-3-1
-Architecture: iphoneos-arm64
-Maintainer: vita
-Installed-Size: 168
-Depends: firmware (>= 5.0), mobilesubstrate
-Conflicts: com.vita.cnnoad
-Replaces: com.vita.cnnoad
-Filename: ./debs/菜鸟精简去广告-Rootless.deb
-Size: 6588
-MD5sum: 731553c5317c75ec99e3f9ac3fc480d5
-SHA1: f1b3059df366713ed539af1b5edf2b5e14f6f453
-SHA256: 246e1b29bb8169bf2785a85a16d6279847008aeb0016053ca469393974c3f896
-Section: 软件增强
-Description: 优化去除广告、精简个人主页
- - 屏蔽TF版本更新检测、去除菜单栏红点提示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: vita
-Name: 菜鸟精简去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.vita.cnnoad.json
-
-Package: lym.com.wkk.cscathook
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.wkk.cscathook
-Replaces: com.wkk.cscathook
-Filename: ./debs/禁用解锁图标飞入-Rootless.deb
-Size: 3100
-MD5sum: 37fec943286f4f9a03107224ed96575a
-SHA1: 68a0c686f6480b9e8a277e4d3148daaa6c980585
-SHA256: 7c3e9c28fa21e45460e09fae8fc19c4e885cef641effe23f02682a34a2c1fdc0
-Section: 系统增强
-Description: 禁用解锁时主屏幕图标飞入
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: wkk
-Name: 禁用解锁图标飞入-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.wkk.cscathook.json
-
-Package: lym.com.xuuz.ddhook
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: xuuz
-Installed-Size: 172
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.xuuz.ddhook
-Replaces: com.xuuz.ddhook
-Filename: ./debs/钉钉红包-Rootless.deb
-Size: 11880
-MD5sum: 53983157697e833da9a558c0e63a1667
-SHA1: 95a040052f50feca5cf5877069ce29cc9ee6ef91
-SHA256: 1be901080712f0d56096a3d1bc249ba801adf11b7458e82a61cf18dc9df3c6e6
-Section: 软件增强
-Description: 钉钉自动抢红包
- - 在钉钉设置里启用开关
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: xuuz
-Name: 钉钉红包-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.com.xuuz.ddhook.json
 
 Package: lym.com.xx.baiduhook
 Version: 1.0.2
@@ -4135,48 +4091,6 @@ Description: 去除启动广告、去掉首页轮播广告
 Author: yourname
 Name: 铁路12306去广告-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.yourname.12306noad.json
-
-Package: lym.ios-rootless
-Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: iBreak <xuanhua880@gmail.com>
-Depends: mobilesubstrate
-Conflicts: ios-rootless
-Replaces: ios-rootless
-Filename: ./debs/全局开关颜色-Rootless.deb
-Size: 3492
-MD5sum: 2fa7001666e3a5c62a0e363cc595b3b0
-SHA1: b5320b3561ced5409bf10e57dbaff00d9533f1e4
-SHA256: ab76c15e513f402943a5413af7cc22f128988f269ef9952dd36a20111c59315a
-Section: 系统增强
-Description: 让开关标签颜色更为好看
-  - 开启方法：前往：设置 - 辅助功能 - 显示与文字大小 - 开/关标签
-  - 源内所有插件仅供本人学习交流使用，下载后请于24小时内删除!
-Author: iBreak <xuanhua880@gmail.com>
-Name: 全局开关颜色-Rootless
-Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.ios-rootless.json
-
-Package: lym.iosign.hidesim2.rootless
-Version: 0.1-1
-Architecture: iphoneos-arm64
-Maintainer: iOSign
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: iosign.hidesim2.rootless
-Replaces: iosign.hidesim2.rootless
-Filename: ./debs/隐藏副卡-Rootless.deb
-Size: 3084
-MD5sum: 1c1fb509f8bb1cedcca7d369ffc19f8d
-SHA1: 3e4dc51aa394b3284ef02b4bff47e1c471f568db
-SHA256: 3f02f32e8a25c5e1843e1c5a9be5b143bd6a9d8364de9dbedfaa5cc7842f63bf
-Section: 系统增强
-Description: 隐藏副卡对于双卡用户
- - 隐藏控制中心其中一张运营商伪装为单卡
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: iOSign
-Name: 隐藏副卡-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.iosign.hidesim2.rootless.json
 
 Package: lym.keyboardhook
 Version: 2.1-3+debug
@@ -4309,27 +4223,6 @@ Description: 对于双SIM卡用户，可以通过控制中心快速切换选定�
 Author: Netskao
 Name: CCSwitchData蜂窝-Rootless
 Sileodepiction: https://raw.githubusercontent.com/lu2412/repo/refs/heads/main/js/lym.netskao.ccswitchdata-rootless.json
-
-Package: lym.xyz.cypwn.picsewpro
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: CyPwn
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: xyz.cypwn.picsewpro
-Replaces: xyz.cypwn.picsewpro
-Filename: ./debs/PicsewPro解锁-Rootless.deb
-Size: 25216
-MD5sum: b7b27bec5e4ec5495b64397712191ec5
-SHA1: 6209a162097327e92534cf88665daaf3e608a53f
-SHA256: 34c9e38d9bdaa316d5829a152f5de9ad34ddd4a7f1b0d812fc826df190ed1bfe
-Section: 软件增强
-Description: PicsewPro权益解锁
- - 支持3.11.4版本
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: x✨
-Name: PicsewPro解锁-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/js/lym.xyz.cypwn.picsewpro.json
 
 Package: lym.z.weifeng
 Version: 1.5
