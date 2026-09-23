@@ -3050,6 +3050,50 @@ Author: CreatureSurvive & wkk
 Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
 
+Package: com.wkk.copylogx
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1828
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Conflicts: com.wkk.copylogx
+Replaces: com.wkk.copylogx
+Filename: ./debs/CopylogX剪贴板-RootHide.deb
+Size: 278768
+MD5sum: c02b26a88a72dc98a2d07dddf6de4c57
+SHA1: 3d966957b20b5a32e48460e03e6768e67871032e
+SHA256: 3e0d0deeb8b7fe5c52a97fd300deff53a1ccf8366b508eee34ed25d41cf63e02
+Section: 系统增强
+Description: 一款可以拷贝文件/图片/文本
+ - 支持iOSM5-17 Dopamine/relaxin越狱的剪贴板
+ - 诸多功能自定义程度高
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: CopylogX剪贴板-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.copylogx.json
+
+Package: com.wkk.copylogx
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 1828
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader
+Conflicts: com.wkk.copylogx
+Replaces: com.wkk.copylogx
+Filename: ./debs/CopylogX剪贴板-Rootless.deb
+Size: 273544
+MD5sum: e473891ed0d368ced46bb0a180d08cb1
+SHA1: 7c1d622da99526c6a0bc0f94ddeec18561f38041
+SHA256: 37b2ddf973ce7bf08f24ffb4dccd85d4e76fd9ae36c5e4d490c55673e14e639e
+Section: 系统增强
+Description: 一款可以拷贝文件/图片/文本
+ - 支持iOSM5-17 Dopamine/relaxin越狱的剪贴板
+ - 诸多功能自定义程度高
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: CopylogX剪贴板-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.copylogx.json
+
 Package: com.wkk.cscathook
 Version: 1.0-1
 Architecture: iphoneos-arm64
@@ -3279,6 +3323,50 @@ Description: 为Sileo软件源页面增加源名称和网址模糊搜索
 Author: wkk
 Name: Sileo 源搜索-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.sileosourcesearch.json
+
+Package: com.wkk.systembox
+Version: 1.4-7
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1572
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.systembox
+Replaces: com.wkk.systembox
+Filename: ./debs/SystemX小军刀-RootHide.deb
+Size: 293144
+MD5sum: d869fca3d9a5a65ba2fb580ec15c918c
+SHA1: 4e6800f77c30978e88c5849a0017b376189d3a73
+SHA256: 89f5d7a164a3cfa4ebdff845fe4a8127f1215a376c7308e35e05725cf758384e
+Section: 系统增强
+Description: 全新的军刀插件，针对系统的增强与精简的集合插件
+ - 支持i0S15-17（更换图标/文件夹布局精简/角标美化/相册增强/设置实用功能/静音vpn映射
+ - 全网都没有的mac运行指示点/禁用、隐藏系统内冗余地方等几十个实用功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: SystemX小军刀-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.systembox.json
+
+Package: com.wkk.systembox
+Version: 1.4-7
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 1572
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.wkk.systembox
+Replaces: com.wkk.systembox
+Filename: ./debs/SystemX小军刀-Rootless.deb
+Size: 289852
+MD5sum: 657cd7c6682f57099334eaa855c9b84f
+SHA1: 57dd84248378a6cb908bd3ad9fd0d933182b8196
+SHA256: 832d0a295abfa556b3254f30ac693b99d3645c5a139e9ce15d7a7862358daf20
+Section: 系统增强
+Description: 全新的军刀插件，针对系统的增强与精简的集合插件
+ - 支持i0S15-17（更换图标/文件夹布局精简/角标美化/相册增强/设置实用功能/静音vpn映射
+ - 全网都没有的mac运行指示点/禁用、隐藏系统内冗余地方等几十个实用功能
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: SystemX小军刀-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.systembox.json
 
 Package: com.wkk.tiebahook
 Version: 1.0-5
@@ -4333,18 +4421,18 @@ Name: 移除tikTok底部+号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/tikTok-Rootless.json
 
 Package: xhs.x
-Version: 1.2.9
+Version: 2.0.2
 Architecture: iphoneos-arm64e
 Maintainer: 𝙓
-Installed-Size: 3560
+Installed-Size: 5744
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-RootHide.deb
-Size: 1395232
-MD5sum: 22951e5bc099f92e4349b3050b73e48b
-SHA1: 30e03b32602cc8230691b362f261793ea2d6b4d7
-SHA256: 3d6f2152817a9c7cd08a48afee220336ebf55fcd01a479e612153d967f926ad3
+Size: 2287952
+MD5sum: b0535fed52ff705f7938e9f9627685d8
+SHA1: 1daee83ad5dc6b7299e1b4cccae273888edfc39f
+SHA256: 8cee98d028bf8a7c684496f627b4aa92ceaef31db487e15cca7ba6581a09227a
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
@@ -4356,18 +4444,18 @@ Name: 小红书图层-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/xhs.x.json
 
 Package: xhs.x
-Version: 1.2.9
+Version: 2.0.2
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 3560
+Installed-Size: 5744
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 1393476
-MD5sum: 7b0ca161b3da20a7f6fc5f5d22891e3f
-SHA1: 671a1644e2672798c9410b6a053e721108a47434
-SHA256: 9007271288589a7340a1c88384f75b6a07af07070280c00a729c14427a3af726
+Size: 2284092
+MD5sum: ef9f71e8bdcc513c495be220b57744a4
+SHA1: c321df1e9f0aff1f551828d5c11c8dea04312de8
+SHA256: dded97142e37b513706845a54453552154020e7c7a989cac123664dcf846d103
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
