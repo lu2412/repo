@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 降级应用\n- 修改应用名称\n- 清除/重置应用数据\n- 重置应用权限\n- 快速跳转Filza应用路径\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 降级应用\n- 修改应用名称\n- 清除/重置应用数据\n- 重置应用权限\n- 快速跳转Filza应用路径\n- 新增可选新文件管理器Fila用来面板跳转\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.7.3"
+          "text": "2.7.5"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月10日"
+          "text": "2026年09月24日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.3\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.7.5\n- 新增可选新文件管理器Fila用来面板跳转，默认Filza设置页自行切换\n- 新增可查看已屏蔽应用自动更新名单\n- 新增更多功能禁音应用通知"}
       ]
     }
   ]
