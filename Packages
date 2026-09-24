@@ -3947,18 +3947,18 @@ Name: iCleaner pro破解版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.dao.icleanerpro.json
 
 Package: lym.com.iosdump.shellx
-Version: 10.1.0
+Version: 10.2.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 19492
+Installed-Size: 19916
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 4286904
-MD5sum: 9c99e80b8987818097fcb1fdead38dd5
-SHA1: c698b9067c385a9c19e230b7f55b6330d052438c
-SHA256: e7d9ada0f1b1e060822c4f7923f2ac2741e9deb8662512b7ec98f37dbc581a23
+Size: 4389528
+MD5sum: 991cae1c94094f7eae6473bf72964849
+SHA1: c2aaa7b0ac2486a8f3a8d4e3887a40e76f61ab66
+SHA256: f1b6cfe9788219a7cf7754f59e39648789d35d96dc5d49547c7536a9dd877d4b
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -3969,18 +3969,18 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 10.1.0
+Version: 10.2.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 19496
+Installed-Size: 19948
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 4286144
-MD5sum: c1ccffee4e0c2fee959f1e38602856aa
-SHA1: dd78702fee82c5e61d380fe7f0665f6c10878818
-SHA256: eb0fa92a1f5dfa37d824f0941048a560597d39f04a024c296765eb8fc8b77721
+Size: 4388700
+MD5sum: ba02a3d28b0ab3a2622d3526116aba00
+SHA1: f688004cfe8d54720c3a1189966c49a919660310
+SHA256: 76a1041ee3e22c3df545cecc6d4cd5de1856639bd1decf8485b5082dd2713094
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
