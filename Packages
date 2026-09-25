@@ -2420,6 +2420,47 @@ Author: M哥
 Name: 大师兄影视去弹窗-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mg.dsx.json
 
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64
+Maintainer: MrGcGamer
+Installed-Size: 380
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Conflicts: com.mrgcgamer.libgcuniversal
+Replaces: com.mrgcgamer.libgcuniversal
+Filename: ./debs/LibGcUniversal-Rootless.deb
+Size: 54812
+MD5sum: 87b04eef82376f73876a2144deeae24a
+SHA1: de7582d1bde2c09357260acebcfc6bd31304366c
+SHA256: e23de96fe2ca5884afcbcbba62ea53760902f1d612cc2fa4985cd6e3dfbae422
+Section: 编程脚本
+Description: 开发通用库，部分插件需要此依赖，转换支持roothide。
+ - 上传自用备份
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: MrGcGamer
+Name: LibGcUniversal-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.mrgcgamer.libgcuniversal.json
+
+Package: com.mrgcgamer.libgcuniversal
+Version: 1.7.0
+Architecture: iphoneos-arm64e
+Maintainer: MrGcGamer
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Conflicts: com.mrgcgamer.libgcuniversal
+Replaces: com.mrgcgamer.libgcuniversal
+Filename: ./debs/LibGcUniversal-RootHide.deb
+Size: 53444
+MD5sum: 957168f05e06d99b90b129e40e5fb4e1
+SHA1: bcaba30940a44e7bd2e6c31e2ff039f4d9de701c
+SHA256: d9aa14b55a6eafffc1af6c95a2b15f1e88f6c7d5bc99866e903ef7bd0e654f9e
+Section: 编程脚本
+Description: 开发通用库，部分插件需要此依赖，转换支持roothide。
+ - 上传自用备份
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: MrGcGamer
+Name: LibGcUniversal-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mrgcgamer.libgcuniversal.json
+
 Package: com.nan.debd
 Version: 0.4.2
 Architecture: iphoneos-arm64
@@ -2548,6 +2589,50 @@ Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新�
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Netskao
 Name: Filza Crack解锁-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack
+Replaces: com.netskao.filzacrack
+Filename: ./debs/Filza功能解锁-RootHide.deb
+Size: 29148
+MD5sum: 5353f7c4827677f7983f99b1768ba316
+SHA1: dae300a986c570381250d5ee2b0d6433afdc28d2
+SHA256: 21535309dff4a633bee42a1065c706d31ce4f82a7129664957d79301e2785119
+Section: 越狱增强
+Description: Filza解锁全部功能，请在官方源安装Filza。
+ - Netskao新更的版本，上架备份；转换支持roothide。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: Filza功能解锁-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.netskao.filzacrack.json
+
+Package: com.netskao.filzacrack
+Version: 1.1-9
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 120
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack
+Replaces: com.netskao.filzacrack
+Filename: ./debs/Filza功能解锁-Rootless.deb
+Size: 28956
+MD5sum: 62f1019e6e18479fee1690fb0a1310fe
+SHA1: a59d91877ffe19d27dd9f568db72bb9447dd6391
+SHA256: 5326e5547ae3e8b0e1d2e963b469207921d1c86ac440603c942edbb97aa4bf52
+Section: 越狱增强
+Description: Filza解锁全部功能，请在官方源安装Filza。
+ - Netskao新更的版本，上架备份；转换支持roothide。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: Filza功能解锁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.netskao.filzacrack.json
 
 Package: com.netskao.wctimelinereplacefinds
@@ -3131,6 +3216,45 @@ Description: Snapper 3自用文字美化图标
 Author: lym
 Name: Snapper 3文字图标-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.textforsnapper3.json
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 23200
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Replaces: com.tigisoftware.filza64bit
+Filename: ./debs/Filza文件管理器-Rootless.deb
+Size: 6972860
+MD5sum: 8a8344ee4fa75c34400984575f9a2989
+SHA1: 84892d77da039f5a57cba50d2c5be0b417dc5f4c
+SHA256: 34aea47ac3225766a75e8528d80215635893f3998f01a8e6cb9e7b9bfa618cda
+Section: 越狱增强
+Description: 强大的越狱文件管理器
+ - 越狱必备插件，上源备用留档
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: TIGI Software
+Name: Filza文件管理器-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tigisoftware.filza64bit.json
+
+Package: com.tigisoftware.filza64bit
+Version: 4.0.1-4~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, com.tigisoftware.filza64bit
+Replaces: com.tigisoftware.filza64bit
+Filename: ./debs/Filza文件管理器-RootHide.deb
+Size: 6973324
+MD5sum: 516fe8c48cd6e00c7a4e360caa851bc2
+SHA1: e8631071e0a9229b7de186f5590d117f0fbb99b2
+SHA256: dd3f3f73fa1b71ade67f99aebad5e3f9f00dac1d784b1a641cd593d311ca7f69
+Section: 越狱增强
+Description: 强大的越狱文件管理器
+ - 越狱必备插件，上源备用留档
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: TIGI Software
+Name: Filza文件管理器-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tigisoftware.filza64bit.json
 
 Package: com.tsangbaby.pulloverx
 Version: 2.1.1

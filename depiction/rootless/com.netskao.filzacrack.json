@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份；转换支持roothide。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- Filza解锁全部功能，请在官方源安装Filza。\n- Netskao新更的版本，上架备份；转换支持roothide。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月17日"
+          "text": "2026年09月25日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-9\n- 转换支持RootHide"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-9\n- 初始发布"}
       ]
     }
   ]

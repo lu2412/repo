@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- Filza解锁全部功能，请在官方源安装Filza。\n- Netskao新更的版本，上架备份；转换支持roothide。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 开发通用库，部分插件需要此依赖，转换支持roothide。\n- 上传自用备份\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Netskao"
+          "text": "MrGcGamer"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1-9"
+          "text": "1.7.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-9\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.7.0\n- 初始发布"}
       ]
     }
   ]

@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- Filza解锁全部功能，请在官方源安装Filza。\n- Netskao新更的版本，上架备份；转换支持roothide。\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 强大的越狱文件管理器\n- 越狱必备插件，上源备用留档\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Netskao"
+          "text": "TIGI Software"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1-9"
+          "text": "4.0.1-4"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1-9\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 4.0.1-4\n- 初始发布"}
       ]
     }
   ]
