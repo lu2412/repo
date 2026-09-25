@@ -2106,6 +2106,48 @@ Author: lclrc(SquidForce)
 Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
 Name: Hammer It
 
+Package: com.lenglengyu.ghallownetwork
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.lenglengyu.ghallownetwork
+Replaces: com.lenglengyu.ghallownetwork
+Filename: ./debs/自动允许网络-Rootless.deb
+Size: 8340
+MD5sum: f4856ad2bc7fb415f5bdf0009c9ec3f6
+SHA1: 302d8af106d18cb2e9ee54432ff80816d3d56a1e
+SHA256: 243ac7905a373b636077eeb2ac63187ca60d07bc61f2d4a73215a2cc15c27b86
+Section: 越狱增强
+Description: 国行设备安装应用首次打开，会弹出网络权限确认弹窗，本插件实现自动允许联网。
+ - For CN-region iPhones:Automatically allow network permission when opening newly installed apps for the first time。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: 自动允许网络-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.lenglengyu.ghallownetwork.json
+
+Package: com.lenglengyu.ghallownetwork
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.lenglengyu.ghallownetwork
+Replaces: com.lenglengyu.ghallownetwork
+Filename: ./debs/自动允许网络-RootHide.deb
+Size: 8216
+MD5sum: 933ddf42ed6437b95eaeaf41d179ab14
+SHA1: 2bda6b4b896f512e00fd00847ccfcc215448c1d7
+SHA256: 4d44e6a5b184986609509f4e3a0c51b915e28c0fa3384fe148eda10dccd0693a
+Section: 越狱增强
+Description: 国行设备安装应用首次打开，会弹出网络权限确认弹窗，本插件实现自动允许联网。
+ - For CN-region iPhones:Automatically allow network permission when opening newly installed apps for the first time。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lenglengyu
+Name: 自动允许网络-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.lenglengyu.ghallownetwork.json
+
 Package: com.li.icbcmshook
 Version: 0.66.0-1+debug
 Architecture: iphoneos-arm64
