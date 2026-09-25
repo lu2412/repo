@@ -852,6 +852,130 @@ Author: BVN
 Name: 乌贼本地离线授权-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.bvm.wuzeililiang.json
 
+Package: com.cclocation
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Conflicts: com.cclocation
+Replaces: com.cclocation
+Filename: ./debs/CCLocation定位-Rootless.deb
+Size: 14364
+MD5sum: 38604f2d79af65d266eeff6701dd4ee8
+SHA1: ee36a8a1fbfefa17e741c154d44db05d83abe6f7
+SHA256: 3089af937136cf8ee4310cee89c49712bca4f4ebe5106ba379a39d1c6100d15f
+Section: 控制中心
+Description: 控制中心添加定位开关模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCLocation定位-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.cclocation.json
+
+Package: com.cclocation
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Conflicts: com.cclocation
+Replaces: com.cclocation
+Filename: ./debs/CCLocation定位-RootHide.deb
+Size: 14344
+MD5sum: be81824997fb18188f65b440ce194920
+SHA1: 208c13cb47b804a2b636a21b6e8112ea50454aa9
+SHA256: 31ba67226cc2475d73f770d8cfcaaa18a3bd45417ee644cc447c1165393f9937
+Section: 控制中心
+Description: 控制中心添加定位开关模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCLocation定位-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.cclocation.json
+
+Package: com.ccmusic
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: simon
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.wkk.ccmusic
+Replaces: com.wkk.ccmusic
+Filename: ./debs/控制中心音乐动画-Rootless.deb
+Size: 28864
+MD5sum: 46069e2221083e5222138de6df96a638
+SHA1: 933a53a109082e7314383c2e956bd16df3273788
+SHA256: 3a70ef73e70a96884743d19d8c40ea9ca92f55547a3aa9fefc200ef9b9edf86a
+Section: 控制中心
+Description: 为控制中心的音乐模块添加动画效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: simon
+Name: 控制中心音乐动画-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.ccmusic.json
+
+Package: com.ccmusic
+Version: 1.0.5
+Architecture: iphoneos-arm64e
+Maintainer: simon
+Depends: mobilesubstrate, firmware (>= 13.0)
+Conflicts: com.wkk.ccmusic
+Replaces: com.wkk.ccmusic
+Filename: ./debs/控制中心音乐动画-RootHide.deb
+Size: 30044
+MD5sum: 1697d203de8853151197cf59eca7ce13
+SHA1: 34f8b3d47ec1da4e99d92ccaf01746c211b558da
+SHA256: 80f401db1b7a6cfc571971ff5450177a015a31176de67764cf74b1c8a9c5826a
+Section: 控制中心
+Description: 为控制中心的音乐模块添加动画效果
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: simon
+Name: 控制中心音乐动画-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.ccmusic.json
+
+Package: com.ccweathermodule
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: simon
+Installed-Size: 444
+Depends: firmware (>= 14.0)
+Conflicts: com.wkk.ccweathermodule
+Replaces: com.wkk.ccweathermodule
+Filename: ./debs/CCWeather天气-RootHide.deb
+Size: 96012
+MD5sum: c59f22c5ece1c7da0b7d6d023bf2df71
+SHA1: 7a9f99815aa9bf6c0ad4c0a7d1d495343191b9a5
+SHA256: 139fabb7627db7ba74eb9135a4cf233a9711727b7a927bcf26249a57978f7442
+Section: 控制中心
+Description: 控制中心添加天气模块
+ - 显示当前天气、温度和每小时预报。
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: simon
+Name: CCWeather天气-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.ccweathermodule.json
+
+Package: com.ccweathermodule
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: simon
+Installed-Size: 380
+Depends: mobilesubstrate, firmware (>= 14.0)
+Conflicts: com.wkk.ccweathermodule
+Replaces: com.wkk.ccweathermodule
+Filename: ./debs/CCWeather天气-Rootless.deb
+Size: 88260
+MD5sum: 9c1d2d2bf774298c6cd1380a0bfe9daa
+SHA1: 85e2f196b6a06215c0e4097c301a9870e8932751
+SHA256: eaf3241f0b10a71d2a73ad5c7592674d893744ae0c12aed5fbf2e3e887e1b106
+Section: 控制中心
+Description: 控制中心添加天气模块
+ - 显示当前天气、温度和每小时预报。
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: simon
+Name: CCWeather天气-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.ccweathermodule.json
+
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
 Architecture: iphoneos-arm64
@@ -1679,6 +1803,48 @@ Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Author: iosdump
 Name: TrollCM触摸轨迹-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosdump.trollcmtweak.json
+
+Package: com.iosdump.zone
+Version: 2.1.0
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 1164
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Conflicts: com.iosdump.zone
+Replaces: com.iosdump.zone
+Filename: ./debs/Zone 交互壁纸-Rootless.deb
+Size: 210984
+MD5sum: 6aa8378957a81e5e393c3e0f627e4b0c
+SHA1: 76f819ff27835659daaf38161515b43571166ea5
+SHA256: c0d796eb7b728728293dbe8d6f8e2fa20875f9c8afb2135c39fc6852a98e63fe
+Section: 美化插件
+Description: Zone 支持旧系统使用 .tendies 格式的交互壁纸/视频
+ - 支持 iOS 14 - iOS 17
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: Zone 交互壁纸-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosdump.zone.json
+
+Package: com.iosdump.zone
+Version: 2.1.0
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 1160
+Depends: mobilesubstrate, preferenceloader, unzip, com.opa334.ccsupport
+Conflicts: com.iosdump.zone
+Replaces: com.iosdump.zone
+Filename: ./debs/Zone 交互壁纸-RootHide.deb
+Size: 209680
+MD5sum: 09323ffa36277caa8b718fb995296a84
+SHA1: 5c7312ef496f0626c2d1873a07afa965b887085b
+SHA256: 308c9a81c12053afe4ee588945463cc98531eebf510e56df67c43866187f6e9c
+Section: 美化插件
+Description: Zone 支持旧系统使用 .tendies 格式的交互壁纸/视频
+ - 支持 iOS 14 - iOS 17
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosdump
+Name: Zone 交互壁纸-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosdump.zone.json
 
 Package: com.jaysuen.evocenter
 Version: 2.5.0-beta.2
@@ -3237,6 +3403,26 @@ Description: 键盘美化插件
 Author: wkk
 Name: KeyboardX键盘调整-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.keyboardx.json
+
+Package: com.wkk.onestepx
+Version: 1.1-0
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 516
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.1.1)
+Conflicts: com.wkk.onestepx
+Replaces: com.wkk.onestepx
+Filename: ./debs/OneStepX手势-RootHide.deb
+Size: 112092
+MD5sum: b8bdd3aeae7246a4aef4b437dae85a70
+SHA1: ed27dc7fea389c95c07507909bdb08ea5430b7f0
+SHA256: a51279a16a85f92d3e57e54a8f76e3505c685d3a8ca3a2e1d05186fc971bedc0
+Section: 系统增强
+Description: 为 iPhone 操作按钮、锁屏按钮、桌面、底部与状态栏提供独立动作
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: OneStepX手势-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.onestepx.json
 
 Package: com.wkk.recordeyex
 Version: 1.0-5
