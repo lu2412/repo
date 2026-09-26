@@ -16,13 +16,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 为控制中心的音乐模块添加动画效果\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        }, {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 15,
-      "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/ccdonghua.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/ccdonghua1.png"}]
-    },
+          "markdown": "### 插件介绍\n- 控制中心设置快捷入口模块\n- 安装后可去设置-控制中心添加对应模块\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -32,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "simon"
+          "text": "Mr.Zhang <mr_zhang_00@163.com>"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.5"
+          "text": "1.1.0-1"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.5\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1.0-1\n- 初始发布"}
       ]
     }
   ]

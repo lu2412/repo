@@ -602,6 +602,48 @@ Author: 半生年华
 Name: 移除软件底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.DocumentsApp.json
 
+Package: com.apple.ccamera
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.mobileslideshowhook, com.ccmusic
+Replaces: com.crctdd.mobileslideshowhook, com.ccmusic
+Filename: ./debs/相册视频进度条-RootHide.deb
+Size: 22412
+MD5sum: f5ef100516f2ceb8899b0dc1b9fd4da8
+SHA1: fa9c73db2890abbaa8041bef997e5fb57c436e96
+SHA256: 58aa123313b5230a13e5146ae6970fcd4f86cdcd5caedd8ddc593dd2c4a3240e
+Section: 轻量插件
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: crctdd
+Name: 相册视频进度条-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.ccamera.json
+
+Package: com.apple.ccamera
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.mobileslideshowhook, com.ccmusic
+Replaces: com.crctdd.mobileslideshowhook, com.ccmusic
+Filename: ./debs/相册视频进度条-Rootless.deb
+Size: 22444
+MD5sum: 8255fef05c68c4f950b534a1c1aa61de
+SHA1: ae3006d5225aacf19eb2a4cc4f286f88084b00f2
+SHA256: d294ebc54ada466e50edc04999338cb88599d3715f28181f749d881d69292b30
+Section: 轻量插件
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: crctdd
+Name: 相册视频进度条-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.ccamera.json
+
 Package: com.aptzh
 Version: 1.3-3+debug
 Architecture: iphoneos-arm64e
@@ -899,13 +941,13 @@ Version: 1.0.5
 Architecture: iphoneos-arm64
 Maintainer: simon
 Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.wkk.ccmusic
-Replaces: com.wkk.ccmusic
+Conflicts: com.wkk.ccmusic, com.ccmusic
+Replaces: com.wkk.ccmusic, com.ccmusic
 Filename: ./debs/控制中心音乐动画-Rootless.deb
-Size: 28864
-MD5sum: 46069e2221083e5222138de6df96a638
-SHA1: 933a53a109082e7314383c2e956bd16df3273788
-SHA256: 3a70ef73e70a96884743d19d8c40ea9ca92f55547a3aa9fefc200ef9b9edf86a
+Size: 28872
+MD5sum: 1cc922ec4b85998195c16a2735b6b010
+SHA1: eee31e697899f1daf4dda57d02de4cf25f3cb822
+SHA256: e4998b44ec570eb5c0cfbed7176e8b3ec5ea83c634bc4d44731663788c140ce4
 Section: 控制中心
 Description: 为控制中心的音乐模块添加动画效果
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -918,13 +960,13 @@ Version: 1.0.5
 Architecture: iphoneos-arm64e
 Maintainer: simon
 Depends: mobilesubstrate, firmware (>= 13.0)
-Conflicts: com.wkk.ccmusic
-Replaces: com.wkk.ccmusic
+Conflicts: com.wkk.ccmusic, com.ccmusic
+Replaces: com.wkk.ccmusic, com.ccmusic
 Filename: ./debs/控制中心音乐动画-RootHide.deb
-Size: 30044
-MD5sum: 1697d203de8853151197cf59eca7ce13
-SHA1: 34f8b3d47ec1da4e99d92ccaf01746c211b558da
-SHA256: 80f401db1b7a6cfc571971ff5450177a015a31176de67764cf74b1c8a9c5826a
+Size: 30048
+MD5sum: 3bb16c008dc53b8f079665588e98418b
+SHA1: f16863e73b2c9f2dcf83104b7e9be563ce2ec7fe
+SHA256: 6e602cc3f720a9e232878d06bea36387dc9f527f25e5d0a9f4c66e3e41c2f336
 Section: 控制中心
 Description: 为控制中心的音乐模块添加动画效果
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -3008,6 +3050,48 @@ Description: 自定义运营商名称、信号强度、蜂窝连接等等！基�
 Author: alias20 & SINI
 Name: FakeSignalBar运营商-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sini921.fakesignalbar.json
+
+Package: com.skypain.ccsettrings
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccsettrings
+Replaces: com.skypain.ccsettrings
+Filename: ./debs/CCSettrings设置入口-RootHide.deb
+Size: 33300
+MD5sum: 922bf8b00334389c3d43c05d9aaca4b6
+SHA1: fa5e63bec7ae0c741fe3b66b7ccf5e284f8462b9
+SHA256: 3a3c8c4c0ffd3572e7d6f08c4df00c514536de20e38a26969ae6a745aed9f36d
+Section: 控制中心
+Description: 控制中心设置快捷入口模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCSettrings设置入口-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.skypain.ccsettrings.json
+
+Package: com.skypain.ccsettrings
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 184
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccsettrings
+Replaces: com.skypain.ccsettrings
+Filename: ./debs/CCSettrings设置入口-Rootless.deb
+Size: 33328
+MD5sum: 53c03d797ccbbd7ee10089a883572a17
+SHA1: d18f9d39160ef3aa392026dffd7402c012048b56
+SHA256: ae9e2c52018f719aae09b57d1fbe5352e6ca66b811d01add50e6df0c128fdd44
+Section: 控制中心
+Description: 控制中心设置快捷入口模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCSettrings设置入口-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.skypain.ccsettrings.json
 
 Package: com.snail.easynotify.rootless
 Version: 1.0.0
