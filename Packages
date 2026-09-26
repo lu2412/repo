@@ -608,13 +608,13 @@ Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Conflicts: com.crctdd.mobileslideshowhook, com.ccmusic
-Replaces: com.crctdd.mobileslideshowhook, com.ccmusic
+Conflicts: com.crctdd.mobileslideshowhook
+Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-RootHide.deb
-Size: 22412
-MD5sum: f5ef100516f2ceb8899b0dc1b9fd4da8
-SHA1: fa9c73db2890abbaa8041bef997e5fb57c436e96
-SHA256: 58aa123313b5230a13e5146ae6970fcd4f86cdcd5caedd8ddc593dd2c4a3240e
+Size: 22488
+MD5sum: cfeda8d4decbfc188cc33d4eb388c96e
+SHA1: c2facc039062d0ae58dbb33344e8ea5b2f78ca27
+SHA256: 255abb2c2460954de0465fc3d2342ac6f6a188140219e134912dc60a17d77667
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -629,13 +629,13 @@ Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Conflicts: com.crctdd.mobileslideshowhook, com.ccmusic
-Replaces: com.crctdd.mobileslideshowhook, com.ccmusic
+Conflicts: com.crctdd.mobileslideshowhook
+Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-Rootless.deb
-Size: 22444
-MD5sum: 8255fef05c68c4f950b534a1c1aa61de
-SHA1: ae3006d5225aacf19eb2a4cc4f286f88084b00f2
-SHA256: d294ebc54ada466e50edc04999338cb88599d3715f28181f749d881d69292b30
+Size: 22492
+MD5sum: 561eeb63b6b552fb2ff9c3c3a6d9de7d
+SHA1: c6f4c2c4ed12573952f96dad9f9bd97662f9131c
+SHA256: 17f188f103139c1302f5e8b0142924ac7d863fba346fb915a52f453b51f25f74
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
