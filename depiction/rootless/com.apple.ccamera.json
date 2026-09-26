@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "0.0.1"
+          "text": "0.0.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.0.1\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.0.3\n- 初始发布"}
       ]
     }
   ]

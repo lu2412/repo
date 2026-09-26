@@ -603,18 +603,18 @@ Name: 移除软件底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.DocumentsApp.json
 
 Package: com.apple.ccamera
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 204
+Installed-Size: 240
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-RootHide.deb
-Size: 22488
-MD5sum: cfeda8d4decbfc188cc33d4eb388c96e
-SHA1: c2facc039062d0ae58dbb33344e8ea5b2f78ca27
-SHA256: 255abb2c2460954de0465fc3d2342ac6f6a188140219e134912dc60a17d77667
+Size: 31972
+MD5sum: 37cd043e8dfdd5838325a067efcc3dae
+SHA1: dcc27f5da929165c32b676b3fb52d34471e12d7f
+SHA256: 4b38a0ff58b7a0320dd45aefb5ef27430db16c74592d09506b6b9943e7798a67
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -624,18 +624,18 @@ Name: 相册视频进度条-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.ccamera.json
 
 Package: com.apple.ccamera
-Version: 0.0.1
+Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 204
+Installed-Size: 240
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-Rootless.deb
-Size: 22492
-MD5sum: 561eeb63b6b552fb2ff9c3c3a6d9de7d
-SHA1: c6f4c2c4ed12573952f96dad9f9bd97662f9131c
-SHA256: 17f188f103139c1302f5e8b0142924ac7d863fba346fb915a52f453b51f25f74
+Size: 32080
+MD5sum: c7627a408a8c5846b93523e734d0377b
+SHA1: 14c0c0cf8681fe996b839f734f82acfbee1bcc45
+SHA256: ef3d29469abd0f279c74b8ed2e7d7bbe28094226168e35c064a64181dcbf6902
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -3597,6 +3597,48 @@ Description: 插件管理桌面图标版
 Author: CreatureSurvive & wkk
 Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
+
+Package: com.wkk.cctunneltap
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: fries
+Installed-Size: 148
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.wkk.cctunneltap
+Replaces: com.wkk.cctunneltap
+Filename: ./debs/控制中心启动小火箭.deb
+Size: 25900
+MD5sum: 2d970b766693103c9cc2ed0f7868ae4e
+SHA1: 9306126ef3b921d704b026ccab6c0e7ced6fa53a
+SHA256: f253c370caf04211d4f5d5bb183892cac5d9e2ecbd491a8cc5b6b6fa140c6903
+Section: 控制中心
+Description: 控制中心快速启动打开小火箭Shadowrocket
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: fries
+Name: 控制中心启动小火箭
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cctunneltap.json
+
+Package: com.wkk.cctunneltap
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: fries
+Installed-Size: 148
+Depends: mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.wkk.cctunneltap
+Replaces: com.wkk.cctunneltap
+Filename: ./debs/控制中心启动小火箭-Rootless.deb
+Size: 25980
+MD5sum: e2913f79b2cae4dad169a4735ff9771d
+SHA1: a8669eb076b0890a13cbc81c0ac889df349ed348
+SHA256: bce5e8748fd49cf2a633ff6d04bdd3138467a0c2cd44f18a6840f586027abe41
+Section: 控制中心
+Description: 控制中心快速启动打开小火箭Shadowrocket
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: fries
+Name: 控制中心启动小火箭-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cctunneltap.json
 
 Package: com.wkk.copylogx
 Version: 1.1-9
