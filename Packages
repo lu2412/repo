@@ -3051,6 +3051,136 @@ Author: alias20 & SINI
 Name: FakeSignalBar运营商-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sini921.fakesignalbar.json
 
+Package: com.skypain.cclockscreen
+Version: 1.1.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 176
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.cclockscreen
+Replaces: com.skypain.cclockscreen
+Filename: ./debs/CCLockScreen锁屏-Rootless.deb
+Size: 25024
+MD5sum: 9d95b03a5aab929362e73e96f69a0484
+SHA1: cb7d078677fc0e706d6b6043b1b0b2a0055ae5e9
+SHA256: 6ca249aec67ddbeeef785d081cc5b24075c134790f5d9c24ed71170e3e431c9f
+Section: 控制中心
+Description: 控制中心锁屏模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCLockScreen锁屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.skypain.cclockscreen.json
+
+Package: com.skypain.cclockscreen
+Version: 1.1.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 176
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.cclockscreen
+Replaces: com.skypain.cclockscreen
+Filename: ./debs/CCLockScreen锁屏-RootHide.deb
+Size: 24976
+MD5sum: 9a5738714755613ed1bd33d61b8d2d4b
+SHA1: 8d727b6a87c90931128d7f338b8f99f8e7697fe1
+SHA256: e992410beaf5bf3433c3a62804fd9a5503fb309be9a01521700e90d36494451b
+Section: 控制中心
+Description: 控制中心锁屏模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCLockScreen锁屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.skypain.cclockscreen.json
+
+Package: com.skypain.ccresprings
+Version: 2.0.0-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccrespring, com.skypain.ccresprings
+Replaces: com.skypain.ccresprings
+Filename: ./debs/CCRespring注销模块-RootHide.deb
+Size: 19392
+MD5sum: 0071b1bf0903f198671739ab1048b1e0
+SHA1: aace7649866964781429e80599aedffb1d0e03ff
+SHA256: 95700b6b736a5a8fc74cfcb41966b78479b2c11040817e2665182204963d3596
+Section: 控制中心
+Description: 控制中心注销模块
+ - 单击注销
+ - 长按打开选项、重启、关机、安全模式等其它功能
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang
+Name: CCRespring注销模块-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.skypain.ccresprings.json
+
+Package: com.skypain.ccresprings
+Version: 2.0.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang
+Installed-Size: 192
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccrespring, com.skypain.ccresprings
+Replaces: com.skypain.ccresprings
+Filename: ./debs/CCRespring注销模块-Rootless.deb
+Size: 20484
+MD5sum: 92aee5d0c2bd9439f34424689ac4efb2
+SHA1: 79df77e4078f8acb14703af70cdf81737ea344af
+SHA256: c7369a9d63dc9e2b992b1dbf119de0771f7e386b741165898a0a1d880299518e
+Section: 控制中心
+Description: 控制中心注销模块
+ - 单击注销
+ - 长按打开选项、重启、关机、安全模式等其它功能
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang
+Name: CCRespring注销模块-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.skypain.ccresprings.json
+
+Package: com.skypain.ccscreenshot
+Version: 1.0.0-1
+Architecture: iphoneos-arm64
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccscreenshot
+Replaces: com.skypain.ccscreenshot
+Filename: ./debs/CCScreenShot截图模块-Rootless.deb
+Size: 13504
+MD5sum: 03cde862d94d7e69e128edbeeb39f6eb
+SHA1: 8dd46f8061a7e9280511f9083d9fb693ffa52b1e
+SHA256: c7ccba27bd7cfbf58367ba91cb8bfa059bc3ec8fb380a24e8605aea8c91746b8
+Section: 控制中心
+Description: 控制中心截图模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCScreenShot截图模块-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.skypain.ccscreenshot.json
+
+Package: com.skypain.ccscreenshot
+Version: 1.0.1-1
+Architecture: iphoneos-arm64e
+Maintainer: Mr.Zhang <mr_zhang_00@163.com>
+Installed-Size: 164
+Depends: com.opa334.ccsupport
+Conflicts: com.skypain.ccscreenshot
+Replaces: com.skypain.ccscreenshot
+Filename: ./debs/CCScreenShot截图模块-RootHide.deb
+Size: 13472
+MD5sum: 6a7b84ede1bd886e769c0577b71ff1b7
+SHA1: 4c0b1a16187fee435d7efc9702963e4e9385e114
+SHA256: 6b099ed15f64ecad93ea60e2fa311f16e68232dbdaa3bd7ca06212a134a18266
+Section: 控制中心
+Description: 控制中心截图模块
+ - 安装后可去设置-控制中心添加对应模块
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Mr.Zhang <mr_zhang_00@163.com>
+Name: CCScreenShot截图模块-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.skypain.ccscreenshot.json
+
 Package: com.skypain.ccsettrings
 Version: 1.1.0-1
 Architecture: iphoneos-arm64e
