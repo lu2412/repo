@@ -3788,24 +3788,24 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 
 Package: com.wkk.cctunneltap
 Version: 1.0.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: fries
 Installed-Size: 148
 Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.wkk.cctunneltap
 Replaces: com.wkk.cctunneltap
-Filename: ./debs/控制中心启动小火箭.deb
-Size: 25900
-MD5sum: 2d970b766693103c9cc2ed0f7868ae4e
-SHA1: 9306126ef3b921d704b026ccab6c0e7ced6fa53a
-SHA256: f253c370caf04211d4f5d5bb183892cac5d9e2ecbd491a8cc5b6b6fa140c6903
+Filename: ./debs/控制中心启动小火箭-RootHide.deb
+Size: 25908
+MD5sum: 34cd4806e16bfde4f0f63bc5d3d9fbdc
+SHA1: c9a94bf326b7f31180656c3d44fe382061026ce6
+SHA256: 7b139281d22b0308671998831b2805db1650739b7f7e8a5d558b83c1988f960c
 Section: 控制中心
 Description: 控制中心快速启动打开小火箭Shadowrocket
  - 安装后可去设置-控制中心添加对应模块
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: fries
-Name: 控制中心启动小火箭
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cctunneltap.json
+Name: 控制中心启动小火箭-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.cctunneltap.json
 
 Package: com.wkk.cctunneltap
 Version: 1.0.0
@@ -3816,10 +3816,10 @@ Depends: mobilesubstrate, com.opa334.ccsupport
 Conflicts: com.wkk.cctunneltap
 Replaces: com.wkk.cctunneltap
 Filename: ./debs/控制中心启动小火箭-Rootless.deb
-Size: 25980
-MD5sum: e2913f79b2cae4dad169a4735ff9771d
-SHA1: a8669eb076b0890a13cbc81c0ac889df349ed348
-SHA256: bce5e8748fd49cf2a633ff6d04bdd3138467a0c2cd44f18a6840f586027abe41
+Size: 25976
+MD5sum: fd90e813c0d6c03461a71decc53d5dbb
+SHA1: 90c9053d69cb3295a2494a25de957909e612383a
+SHA256: a24be851fe0725ad490c2650ca5d0f827b4676dc1704869caf29192624ec41d6
 Section: 控制中心
 Description: 控制中心快速启动打开小火箭Shadowrocket
  - 安装后可去设置-控制中心添加对应模块
