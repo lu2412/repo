@@ -16,13 +16,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        }, {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 15,
-      "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/jindutiao.png"}]
-    },
+          "markdown": "### 插件介绍\n- 面禁用截图预览\n- 全局圆角头像\n- 全局头像边框\n- 隐藏输入框字\n- 自定义输入框字\n- tim底部双指长按弹出调整界\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -32,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "crctdd"
+          "text": "Local User"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "0.0.4"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.0.4\n- 修复相册内编辑视频时出现进度条的bug"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]

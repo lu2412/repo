@@ -603,18 +603,18 @@ Name: 移除软件底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.DocumentsApp.json
 
 Package: com.apple.ccamera
-Version: 0.0.3
+Version: 0.0.4
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 240
+Installed-Size: 256
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-RootHide.deb
-Size: 31972
-MD5sum: 37cd043e8dfdd5838325a067efcc3dae
-SHA1: dcc27f5da929165c32b676b3fb52d34471e12d7f
-SHA256: 4b38a0ff58b7a0320dd45aefb5ef27430db16c74592d09506b6b9943e7798a67
+Size: 33160
+MD5sum: 7120fd542c3eefefec9d9b3095b35ce7
+SHA1: 8c91d1ee396d94ab37240e7c0f581fe5a953a582
+SHA256: a23c87b20c955a1ff90fa982ac3be71b896066f1aa681bd6fbc7d2358a0ba602
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -624,18 +624,18 @@ Name: 相册视频进度条-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.ccamera.json
 
 Package: com.apple.ccamera
-Version: 0.0.3
+Version: 0.0.4
 Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 240
+Installed-Size: 256
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-Rootless.deb
-Size: 32080
-MD5sum: c7627a408a8c5846b93523e734d0377b
-SHA1: 14c0c0cf8681fe996b839f734f82acfbee1bcc45
-SHA256: ef3d29469abd0f279c74b8ed2e7d7bbe28094226168e35c064a64181dcbf6902
+Size: 33124
+MD5sum: 47a8aacd29f1f461d1965834c19792ed
+SHA1: 1333da18c0cf79da90888c5c4c5df6960877973c
+SHA256: d8a6a948c7c52061aceac37f1d500f286744013d6cb409629c9f303d9d2a580f
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -1017,6 +1017,194 @@ Description: 控制中心添加天气模块
 Author: simon
 Name: CCWeather天气-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.ccweathermodule.json
+
+Package: com.colorfulclouds.minimalui
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 304
+Depends: mobilesubstrate
+Conflicts: com.colorfulclouds.minimalui
+Replaces: com.colorfulclouds.minimalui
+Filename: ./debs/彩云UI设计-RootHide_1.0.deb
+Size: 51072
+MD5sum: 5e6bf162a5e28604fdf73daef26324f4
+SHA1: 9bac3a2cb51c62f98f6982cf732f422f8464ed01
+SHA256: d4d32489f6fe05aa1b6d0422122830a2f17b543aa93f1fa2320ff8fae268c132
+Section: 软件增强
+Description: 对彩云天气的UI重新设计
+ - 双指长按:弹出设置项
+ - 仅支持7.61.1版本及一下，不支持最新版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 彩云UI设计-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.colorfulclouds.minimalui.json
+
+Package: com.colorfulclouds.minimalui
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 304
+Depends: mobilesubstrate
+Conflicts: com.colorfulclouds.minimalui
+Replaces: com.colorfulclouds.minimalui
+Filename: ./debs/彩云UI设计-Rootless_1.0.deb
+Size: 50176
+MD5sum: b9dac40717f5958aaa58053cab688906
+SHA1: 18ffdb3b7eef553873c7e1c29d318704b94798f6
+SHA256: b2aa9a6cc040f7f3776e5f3c82e064c99c11a5b69e6773f0ceff6e972165e668
+Section: 软件增强
+Description: 对彩云天气的UI重新设计
+ - 双指长按:弹出设置项
+ - 仅支持7.61.1版本及一下，不支持最新版本
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: 彩云UI设计-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.colorfulclouds.minimalui.json
+
+Package: com.custom..roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom..roothide
+Replaces: com.custom..roothide
+Filename: ./debs/拼多多优化-RootHide_1.0.deb
+Size: 13340
+MD5sum: 18456fe0f45273a8a154712db3a09748
+SHA1: e1e2b63ca95bc1e7432b6e83a09a10222ffb71e6
+SHA256: 1c44a5fa302aed7443d6b88ee61783978991aca4a8fe432723ce884216759d0c
+Section: 软件增强
+Description: 隐藏-首页
+ - 隐藏-多多视频
+ - 隐藏-中秋立减
+ - 隐藏-聊天
+ - 隐藏-个人中心
+ - 精简聊天页面
+ - 精简个人中心
+ - 禁用截图分享
+ - 拼多多底栏长按弹出面板
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 拼多多优化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom..roothide.json
+
+Package: com.custom..rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom..rootless
+Replaces: com.custom..rootless
+Filename: ./debs/拼多多优化-Rootless_1.0.deb
+Size: 13336
+MD5sum: de55f4afece5aade48a52ea5e46c6e78
+SHA1: 0f4a020c19f7c1b8e203321145d5763b573ce314
+SHA256: 20f7300f3463f68779d1b8376b76f5447422a0eb13f3684333d8edbf8f3be28a
+Section: 软件增强
+Description: 隐藏-首页
+ - 隐藏-多多视频
+ - 隐藏-中秋立减
+ - 隐藏-聊天
+ - 隐藏-个人中心
+ - 精简聊天页面
+ - 精简个人中心
+ - 禁用截图分享
+ - 拼多多底栏长按弹出面板
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 拼多多优化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom..rootless.json
+
+Package: com.custom.jdmobile.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.jdmobile.roothide
+Replaces: com.custom.jdmobile.roothide
+Filename: ./debs/京东优化-RootHide_1.0.deb
+Size: 20508
+MD5sum: d250073c0b4a4177cc429f8712e803d3
+SHA1: 4eba897548ab6c01cf96f0ea2e63e1a2393aea03
+SHA256: 4cde9fe497a106862b750470c70ce6940e51817b9f63044895aa1c658e5825af
+Section: 软件增强
+Description: 隐藏京东首页底栏、逛、消息、购物车、我的、隐藏搜索推荐
+ - 去购物车推荐、去我的页推荐、去优惠页横幅、去消息页推荐
+ - 禁用首页下拉、去右上角广告、去除开屏广告
+ - 京东底栏长按弹出面板
+ - 支持目前商城16.0.50版本
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 京东优化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.jdmobile.roothide.json
+
+Package: com.custom.jdmobile.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.jdmobile.rootless
+Replaces: com.custom.jdmobile.rootless
+Filename: ./debs/京东优化-Rootless_1.0.deb
+Size: 20516
+MD5sum: 30f121014e414f39d4456d2f3070bc26
+SHA1: 6d5e00f279bc12ec892aa0e7c838c2428f61e089
+SHA256: 461f7c3ccee4f7e6a2c8cc2cffec53745c3ed759dab167bc6003661878284b10
+Section: 软件增强
+Description: 隐藏京东首页底栏、逛、消息、购物车、我的、隐藏搜索推荐
+ - 去购物车推荐、去我的页推荐、去优惠页横幅、去消息页推荐
+ - 禁用首页下拉、去右上角广告、去除开屏广告
+ - 京东底栏长按弹出面板
+ - 支持目前商城16.0.50版本
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 京东优化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.jdmobile.rootless.json
+
+Package: com.custom.tim.roothide
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.tim.roothide
+Replaces: com.custom.tim.roothide
+Filename: ./debs/TIM优化-RootHide_1.0.deb
+Size: 13440
+MD5sum: 1bd9b636a3d9e305ca15a28815dc5da8
+SHA1: 967ea2998d5782c21a4301791c528a2f034cf2d0
+SHA256: 89675c107c9cda0ebf641b2c493343bc29db2136905142faaa5deb5ebba2d232
+Section: 软件增强
+Description: 面禁用截图预览
+ - 全局圆角头像
+ - 全局头像边框
+ - 隐藏输入框字
+ - 自定义输入框字
+ - tim底部双指长按弹出调整界
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: TIM优化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.roothide.json
+
+Package: com.custom.tim.rootless
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.tim.rootless
+Replaces: com.custom.tim.rootless
+Filename: ./debs/TIM优化-Rootless_1.0.deb
+Size: 13464
+MD5sum: 718958035a2fd76281232ccecdce3740
+SHA1: ccc48ec6816f711da4545c1650b88595a08657ed
+SHA256: 45b40cbb153b15c97b6ae5fc4eaaa1affebb28524b7106126a5e26e201dd3528
+Section: 软件增强
+Description: 面禁用截图预览
+ - 全局圆角头像
+ - 全局头像边框
+ - 隐藏输入框字
+ - 自定义输入框字
+ - tim底部双指长按弹出调整界
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: TIM优化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim.rootless.json
 
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0

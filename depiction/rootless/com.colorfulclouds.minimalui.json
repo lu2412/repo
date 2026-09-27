@@ -16,12 +16,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 对彩云天气的UI重新设计\n- 双指长按:弹出设置项\n- 仅支持7.61.1版本及一下，不支持最新版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
       "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/jindutiao.png"}]
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/caiyun.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/caiyun1.png"}]
     },
         {
           "class": "DepictionHeaderView",
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "crctdd"
+          "text": "半生年华"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "0.0.4"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.0.4\n- 修复相册内编辑视频时出现进度条的bug"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]
