@@ -2681,6 +2681,50 @@ Author: MrGcGamer
 Name: LibGcUniversal-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mrgcgamer.libgcuniversal.json
 
+Package: com.muirey03.cr4shed
+Version: 5.0.0
+Architecture: iphoneos-arm64
+Maintainer: Muirey03
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
+Conflicts: com.muirey03.cr4shed
+Replaces: com.muirey03.cr4shed
+Filename: ./debs/Cr4shed日志-Rootless_5.0.0.deb
+Size: 547244
+MD5sum: 03a773181c7b3ae1e1666816725ea4fe
+SHA1: 9b1f4a1d2d7b327f056e047e3b101df92eb20267
+SHA256: 39c43a22c0de59ad1e38aa24334e3dc5da2f09cc81d2fa12ba80c0e013068bee
+Section: 越狱增强
+Description: Cr4shed 是崩溃报告插件
+ - 用于帮助开发者修复用户反馈的崩溃，也可协助用户定位崩溃元凶。
+ - 崩溃日志生成路径：/var/mobile/Library/Cr4shed，可通过 Cr4shed App 访问查看。日志记录崩溃进程、崩溃根因、肇事 dylib、完整调用堆栈等信息。
+ - 当系统原生 CrashReporter 日志不足以分析问题时，Cr4shed 日志会非常有价值，也适合排查开发层面的崩溃，报告内涵盖定位崩溃所需的全部关键信息。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Muirey03
+Name: Cr4shed日志-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.muirey03.cr4shed.json
+
+Package: com.muirey03.cr4shed
+Version: 5.0.0
+Architecture: iphoneos-arm64e
+Maintainer: Muirey03
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6-4)
+Conflicts: com.muirey03.cr4shed
+Replaces: com.muirey03.cr4shed
+Filename: ./debs/Cr4shed日志-RootHide_5.0.0.deb
+Size: 547304
+MD5sum: 655889e4983510a22a387353436a28c7
+SHA1: fd8270d9d9f1a2afb958a941fa7c15ddcd60305e
+SHA256: 34ca1871f8826cb3022680ac8c51bfe030b89c351505238073651f56f212f87f
+Section: 越狱增强
+Description: Cr4shed 是崩溃报告插件
+ - 用于帮助开发者修复用户反馈的崩溃，也可协助用户定位崩溃元凶。
+ - 崩溃日志生成路径：/var/mobile/Library/Cr4shed，可通过 Cr4shed App 访问查看。日志记录崩溃进程、崩溃根因、肇事 dylib、完整调用堆栈等信息。
+ - 当系统原生 CrashReporter 日志不足以分析问题时，Cr4shed 日志会非常有价值，也适合排查开发层面的崩溃，报告内涵盖定位崩溃所需的全部关键信息。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Muirey03
+Name: Cr4shed日志-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.muirey03.cr4shed.json
+
 Package: com.nan.debd
 Version: 0.4.2
 Architecture: iphoneos-arm64
