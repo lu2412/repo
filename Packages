@@ -3700,6 +3700,50 @@ Author: TIGI Software
 Name: Filza文件管理器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tigisoftware.filza64bit.json
 
+Package: com.tongyong
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.wpforumclient
+Replaces: com.custom.wpforumclient
+Filename: ./debs/通用UiTabBar隐藏-Rootless_1.0.deb
+Size: 12416
+MD5sum: d7377415e05b73d7dd7056a5096e803e
+SHA1: 5e52bff13009f878c4a01703cf547046ee2f3b5e
+SHA256: b70f4a471fe7a8e6fcc7b4544ef82429e0ba7bcc040ede84aab039109e5ad5fd
+Section: 软件精简
+Description: 通用隐藏软件底栏
+ - 目前已对威锋、百度贴吧、韩剧tv、起点读书等软件生效
+ - 具体支持软件需自行填入标识符测试
+ - 食用方法:长按软件底栏出现弹窗，自行选择禁用项目
+ - 无弹窗则表示不支持该软件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 通用UiTabBar隐藏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tongyong.json
+
+Package: com.tongyong
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.wpforumclient
+Replaces: com.custom.wpforumclient
+Filename: ./debs/通用UiTabBar隐藏-RootHide_1.0.deb
+Size: 12428
+MD5sum: 3f27e6570cd69f3cd2055f36585ea01b
+SHA1: 52c86153546cd0408bea953dfb51ba3c86ec4a42
+SHA256: 9ccb40fe65353fd4899db085b54bbe9c422e7cc1f87696aeda6809ab708d9d98
+Section: 软件精简
+Description: 通用隐藏软件底栏
+ - 目前已对威锋、百度贴吧、韩剧tv、起点读书等软件生效
+ - 具体支持软件需自行填入标识符测试
+ - 食用方法:长按软件底栏出现弹窗，自行选择禁用项目
+ - 无弹窗则表示不支持该软件
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 通用UiTabBar隐藏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tongyong.json
+
 Package: com.tsangbaby.pulloverx
 Version: 2.1.1
 Architecture: iphoneos-arm64e
