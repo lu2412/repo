@@ -1154,6 +1154,48 @@ Author: Local User
 Name: TIM优化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
 
+Package: com.custom.zhuanzhuan
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.zhuanzhuan
+Replaces: com.custom.zhuanzhuan
+Filename: ./debs/转转找鸡-RootHide.deb
+Size: 33488
+MD5sum: def0c00a77c1687088cb4769cfe625c8
+SHA1: 9dd9774bf06054ed64da1c619c6ea3ce2d854a91
+SHA256: 62be657a13d78d5b429771f1b80c6fca9f83af04195f93c5afcc1caa05bc12ff
+Section: 软件增强
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+ - 目前仅支持筛选iPhone15及以下机型
+ - 如安装无效请选择用巨魔注入器注入使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 转转找鸡-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.zhuanzhuan.json
+
+Package: com.custom.zhuanzhuan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.zhuanzhuan
+Replaces: com.custom.zhuanzhuan
+Filename: ./debs/转转找鸡-Rootless.deb
+Size: 33352
+MD5sum: df4bccb6d78aed205ac091ca172dea51
+SHA1: 7e7754f7b51e7a338b5d2824946e968529ecea1b
+SHA256: 7c51ccbfcb5c511b301cb6e3088b91063cfe518dd73f6576ff7797a8be888848
+Section: 软件增强
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+ - 目前仅支持筛选iPhone15及以下机型
+ - 如安装无效请选择用巨魔注入器注入使用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 转转找鸡-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.zhuanzhuan.json
+
 Package: com.dangkhoa.hotspotpro
 Version: 0.7.0
 Architecture: iphoneos-arm64
@@ -1530,11 +1572,11 @@ Depends: firmware (>= 15.0), ellekit
 Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
 Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
 Filename: ./debs/高德地图移除底栏-RootHide.deb
-Size: 4384
-MD5sum: 062624a8c14733ff4a7bdeff622cb874
-SHA1: 211b53214e71f157e710405cadea1a353265dfca
-SHA256: cd92e04a345c77165f3180f35308324c588b0247815f1fb517744023bffd2e8a
-Section: 软件增强
+Size: 4372
+MD5sum: 30c6a2a89c312f0cf679c547eb3a3cb4
+SHA1: 89f3feed5d4fe6be35e184dca0b8c1e9b586d988
+SHA256: 9336b82bc5606354384f521ca38b58270fb50f6489c23bdb694545aa7fca29bd
+Section: 软件精简
 Description: 隐藏去除高德地图软件的底栏
  - 支持商城目前17.0.1版本
  - 插件无设置项安装即可生效
@@ -1551,11 +1593,11 @@ Depends: firmware (>= 15.0), ellekit
 Conflicts: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
 Replaces: com.daopu.amap.hidebottom, com.daopu.amap.hidebottom, com.gaodedilan
 Filename: ./debs/高德地图移除底栏-Rootless.deb
-Size: 3444
-MD5sum: 0d864eca52a7333755aeb3f7507a9dbd
-SHA1: 435b4cbaab92e1c1cd8396b9a9293b1ae0a0c39f
-SHA256: b8aa1f15a54227e80abf38543e07a31e2017d3d1c115dcd99aec2ce5cad8e6b5
-Section: 软件增强
+Size: 3432
+MD5sum: 1da1f1f801ce6d2a8cf0f72b68ab79fa
+SHA1: 002c5a04189a0cac8bf1fe98e2bcba29ea1bb518
+SHA256: bef1ac3b2981a75e1ad060d410ed6564fbe93b03a0ffbc8e4c1d48f707ba1426
+Section: 软件精简
 Description: 隐藏去除高德地图软件的底栏
  - 支持商城目前17.0.1版本
  - 插件无设置项安装即可生效
@@ -1627,52 +1669,6 @@ Description: 修复 SquidGesturePro 在 iOS17状态栏不生效与启动快捷�
 Author: 航
 Name: 乌贼手势iOS17补丁-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hang.squidgesturepro-ios17fix.json
-
-Package: com.hang.zzzj
-Version: 0.0.1-8+debug
-Architecture: iphoneos-arm64e
-Maintainer: hang
-Installed-Size: 180
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.hang.zzzj
-Replaces: com.hang.zzzj
-Filename: ./debs/转转找鸡-RootHide.deb
-Size: 33396
-MD5sum: 4e3e7d4a79c1a2695dd6de8d5981fac7
-SHA1: 1a019d03c394f2b60dbe4fc3f49b7c3bb37413ee
-SHA256: a0c9c7653ac2563e609a63a304ff2a1bb575f63aae81125b5f030a4f62a2f933
-Section: 软件增强
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
- - 目前仅支持筛选iPhone15及以下机型
- - 如安装无效请选择用巨魔注入器注入使用
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: hang
-Name: 转转找鸡-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hang.zzzj.json
-
-Package: com.hang.zzzj
-Version: 0.0.1-8+debug
-Architecture: iphoneos-arm64
-Maintainer: hang
-Installed-Size: 180
-Depends: mobilesubstrate (>= 0.9.5000)
-Conflicts: com.hang.zzzj
-Replaces: com.hang.zzzj
-Filename: ./debs/转转找鸡-Rootless.deb
-Size: 34124
-MD5sum: 773f0a16e95817030c4a2deaa7552900
-SHA1: 348ba4a9e633c4639656ffdd86db42f99728bcbd
-SHA256: 14cc305f0a931b9f8d2db83b775aa23bd5e3cecdb3a7910ec3dbd86fd3d50d1f
-Section: 软件增强
-Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
- - 目前仅支持筛选iPhone15及以下机型
- - 如安装无效请选择用巨魔注入器注入使用
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: hang
-Name: 转转找鸡-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.hang.zzzj.json
 
 Package: com.huami.ChoicyConfigPin
 Version: 1.0-2
@@ -4831,18 +4827,18 @@ Name: iCleaner pro破解版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.dao.icleanerpro.json
 
 Package: lym.com.iosdump.shellx
-Version: 10.2.0
+Version: 11.0
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 19916
+Installed-Size: 20244
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 4389528
-MD5sum: 991cae1c94094f7eae6473bf72964849
-SHA1: c2aaa7b0ac2486a8f3a8d4e3887a40e76f61ab66
-SHA256: f1b6cfe9788219a7cf7754f59e39648789d35d96dc5d49547c7536a9dd877d4b
+Size: 4460708
+MD5sum: 5d5b992ba4d7d90053fb7d90593a5a0a
+SHA1: 8758e5e723667a6131d1f32ab07181300f17242d
+SHA256: f2af2473170705ee8c972aae78e0ea09269fd353d8a798f6a9cedd8242d5a648
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -4853,18 +4849,18 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 10.2.0
+Version: 11.0
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 19948
+Installed-Size: 20276
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 4388700
-MD5sum: ba02a3d28b0ab3a2622d3526116aba00
-SHA1: f688004cfe8d54720c3a1189966c49a919660310
-SHA256: 76a1041ee3e22c3df545cecc6d4cd5de1856639bd1decf8485b5082dd2713094
+Size: 4478988
+MD5sum: f4a14ab38b3598e84c485adaa8f6c099
+SHA1: 19b46596f223e97ce741d9437442ca1c2ad2f378
+SHA256: 12d49d91384d0d74cadd6a77dbb7ab6fb106e2178cd882664724302a7f3a5290
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
