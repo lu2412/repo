@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "wkk"
+          "text": "Huayuarc｜poqw312 <xuanhua880@gmail.com>"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0-5"
+          "text": "0.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月11日"
+          "text": "2026年09月29日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0-5\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 0.0.1\n- 初始版本"}
       ]
     }
   ]
