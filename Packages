@@ -4292,6 +4292,50 @@ Author: wkk
 Name: 百度贴吧去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.tiebahook.json
 
+Package: com.xianyudl
+Version: 1.5.5-5
+Architecture: iphoneos-arm64
+Maintainer: ylr <ylr275536387>
+Installed-Size: 304
+Depends: mobilesubstrate,firmware (>= 15.0)
+Conflicts: com.sini.xianyuadkiller
+Replaces: com.sini.xianyuadkiller
+Filename: ./debs/闲鱼精简-Rootless_1.5.5-5.deb
+Size: 53740
+MD5sum: 76ddf22eaa8c05b99e227572b9cefb6e
+SHA1: a74d72c82661981b22645f8e54580c9f92eace35
+SHA256: 814b7807fa0446071c326387776d2f8b5ea6742d31b033381e17ceac69ac7976
+Section: 软件精简
+Description: 闲鱼默认去开屏秒进主页面
+ - 实时开/关底栏按钮，实时调节底栏颜色与透明度，ylr制作投稿
+ - 闲鱼长按底栏或者任意页面双指长按弹窗调整界面
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ylr <ylr275536387>
+Name: 闲鱼精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.xianyudl.json
+
+Package: com.xianyudl
+Version: 1.5.5-5
+Architecture: iphoneos-arm64e
+Maintainer: ylr <ylr275536387>
+Installed-Size: 304
+Depends: mobilesubstrate,firmware (>= 15.0)
+Conflicts: com.sini.xianyuadkiller
+Replaces: com.sini.xianyuadkiller
+Filename: ./debs/闲鱼精简-RootHide_1.5.5-5.deb
+Size: 54888
+MD5sum: 62844ecbfbbda2ac8c2f94b26087116c
+SHA1: dabe39ffc54b529396c07704eb48b0e9195e03ed
+SHA256: 9da771243a1910717febdc44011d38c9d7e6c804f2bd3e09e52ba0adb5dd3b6f
+Section: 软件精简
+Description: 闲鱼默认去开屏秒进主页面
+ - 实时开/关底栏按钮，实时调节底栏颜色与透明度，ylr制作投稿
+ - 闲鱼长按底栏或者任意页面双指长按弹窗调整界面
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: ylr <ylr275536387>
+Name: 闲鱼精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.xianyudl.json
+
 Package: com.yaowell.hideavcontrols
 Version: 1.0.1
 Architecture: iphoneos-arm64e
