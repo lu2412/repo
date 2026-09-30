@@ -3656,17 +3656,17 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 Name: ScreenCore分屏-RootHide
 
 Package: com.tencent.themebox
-Version: 3.0.6
+Version: 3.0.7
 Architecture: iphoneos-arm64e
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-RootHide.deb
-Size: 9550848
-MD5sum: 51f9d996a66a8b3a098d823653da9a4c
-SHA1: adc0448ed1a4871a381bddf8f7680ca5764ac515
-SHA256: ba96678c0661afc2a6ab418f400bbbcbab9590fcec5fcb2b698c7fd7ac122884
+Size: 9718108
+MD5sum: 05cb5c05636a31a1c8e9c19a34859dd0
+SHA1: 2fb5f2f76fa1f8af0656df9fb07a7f62b8916b05
+SHA256: 0a3fc3b60e4c14a69b8297c91d5ed9ecd5a5c90110954a694608d6f09471b57c
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -3679,17 +3679,17 @@ Name: 微信主题盒子-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.tencent.themebox.json
 
 Package: com.tencent.themebox
-Version: 3.0.6
+Version: 3.0.7
 Architecture: iphoneos-arm64
 Maintainer: admin@25mao.com
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.tencent.themebox
 Replaces: com.tencent.themebox
 Filename: ./debs/微信主题盒子-Rootless.deb
-Size: 9549348
-MD5sum: cd22782ecbedadfa1141bad9b557a8c6
-SHA1: f5abc2106a6a9b779a32ffc20b977de48e0b3d7d
-SHA256: d08dc272598ec5f7a906111819b2faa0585bd72cc784f80956e6bd69c8795ba6
+Size: 9698928
+MD5sum: 9d280fad4f0d93b1841132b516fd9027
+SHA1: aa79dde4a45ec631d51f7657b8937a7614e21141
+SHA256: 11d50f2505a52a874e32758a3772a7367e1512308270f52b49add77459580c65
 Section: 微信插件
 Description: 微信主题插件
  - 支持悬浮底栏,资料页头像居中
@@ -4333,7 +4333,7 @@ Name: 闲鱼精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.xianyudl.json
 
 Package: com.yaowell.hideavcontrols
-Version: 1.0.1
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: yaowell
 Installed-Size: 168
@@ -4341,10 +4341,10 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Conflicts: com.yaowell.hideavcontrols
 Replaces: com.yaowell.hideavcontrols
 Filename: ./debs/HideAVControls麦克风-RootHide.deb
-Size: 5128
-MD5sum: 3732152a2bdcf05ee971ebcde9a7603a
-SHA1: 3bb023626e6950e4a70080c76adabab2eb5d7cae
-SHA256: a40cb7e0747e70d80b3bb30b067f7daef2945d161689c413406671a30eb971ab
+Size: 4952
+MD5sum: 7f469ceb8eb7d2493432e4df2a95e577
+SHA1: 6e927eb6962ff98519a799d5aa64ab2134660ec6
+SHA256: 5abea003fee950ce9161eae2604d5308f78fa12994e849b4fae4a4d60fb08122
 Section: 控制中心
 Description: 隐藏控制中心顶部的麦克风模式与视频效果模块
  - Hide Microphone Mode and Video Effects in Control Center
@@ -4355,7 +4355,7 @@ Name: HideAVControls麦克风-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.yaowell.hideavcontrols.json
 
 Package: com.yaowell.hideavcontrols
-Version: 1.0.1
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: yaowell
 Installed-Size: 168
@@ -4363,10 +4363,10 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
 Conflicts: com.yaowell.hideavcontrols
 Replaces: com.yaowell.hideavcontrols
 Filename: ./debs/HideAVControls麦克风-Rootless.deb
-Size: 5172
-MD5sum: 1643d1449032219aa6570330652ff085
-SHA1: d434665f71498c6d853975c0e99ad34808233240
-SHA256: 9047e1f848856ac18eb1b0ed785d9e6a9b01289e1604ed9c6b7d71de29272df6
+Size: 5012
+MD5sum: 22c4cdb453457eac16effa475847b445
+SHA1: c0e256a1fa5ea997d6c853b3b1956330bfa1a8a9
+SHA256: fb3a0bba0beaee83e6e776f525c2c84d1193a7f310e46ba162895ec422a6d960
 Section: 控制中心
 Description: 隐藏控制中心顶部的麦克风模式与视频效果模块
  - Hide Microphone Mode and Video Effects in Control Center
