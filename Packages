@@ -3329,6 +3329,48 @@ Author: PoomSmart
 Name: RecordPause录像暂停-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.recordpause.json
 
+Package: com.sdisablebottombarlrswipe
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.wkk.disablebottombarlrswipe
+Replaces: com.wkk.disablebottombarlrswipe
+Filename: ./debs/禁用底部切换应用-RootHide_1.1-2.deb
+Size: 6936
+MD5sum: c3905a98d3375736f7a4325250bc98bb
+SHA1: c22f26ef2b4813f5e121642f87cba1c970ed0d05
+SHA256: ca590423c4fac6b447b0c38ecdf6ad8b1c9f44c40107d6797b8fd9ff9ff7a02f
+Section: 轻量插件
+Description: 禁用底部横条左/右滑动切换应用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 禁用底部切换应用-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sdisablebottombarlrswipe.json
+
+Package: com.sdisablebottombarlrswipe
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: Nets
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.wkk.disablebottombarlrswipe
+Replaces: com.wkk.disablebottombarlrswipe
+Filename: ./debs/禁用底部切换应用-Rootless_1.1-2.deb
+Size: 5928
+MD5sum: 05e729c17e77000934e8f42f18196e9a
+SHA1: 8a798305aae28e5b809cbbe4f7f8efa7c8588f4c
+SHA256: 58cc2fdbc72f3c9ce1d921503adfbbfb6f49397a024ccbadcdcfe826624ea4c6
+Section: 轻量插件
+Description: 禁用底部横条左/右滑动切换应用
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Netskao
+Name: 禁用底部切换应用-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.sdisablebottombarlrswipe.json
+
 Package: com.shepgoba.settingswidgetss
 Version: 1.2.3
 Architecture: iphoneos-arm64e
