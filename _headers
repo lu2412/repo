@@ -5,12 +5,18 @@
 /Packages.zst
   Content-Type: application/zstd
   Content-Encoding: identity
+  Cache-Control: no-cache
 
 /Packages.bz2
   Content-Type: application/x-bzip2
   Content-Encoding: identity
+  Cache-Control: no-cache
 
 /Packages
   Content-Type: text/plain
   Content-Encoding: identity
+  Cache-Control: no-cache
+
+/depiction/*.json
+  Cache-Control: public, max-age=86400
 */
