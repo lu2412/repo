@@ -1,4 +1,5 @@
 name: Build Repo Index
+
 on:
   push:
     branches: [ main ]
@@ -17,27 +18,27 @@ jobs:
 
       - name: Install dependencies
         run: |
-          apt update
-          apt install -y dpkg bzip2 zstd
+          sudo apt update
+          sudo apt install -y dpkg-dev bzip2 zstd
 
       - name: Generate _headers
         run: |
           echo '/*
-  Content-Encoding: identity
-  Cache-Control: no-cache
+            Content-Encoding: identity
+            Cache-Control: no-cache
 
-/Packages.zst
-  Content-Type: application/zstd
-  Content-Encoding: identity
+          /Packages.zst
+            Content-Type: application/zstd
+            Content-Encoding: identity
 
-/Packages.bz2
-  Content-Type: application/x-bzip2
-  Content-Encoding: identity
+          /Packages.bz2
+            Content-Type: application/x-bzip2
+            Content-Encoding: identity
 
-/Packages
-  Content-Type: text/plain
-  Content-Encoding: identity
-*/' > _headers
+          /Packages
+            Content-Type: text/plain
+            Content-Encoding: identity
+          */' > _headers
 
       - name: Generate Packages index
         run: |
