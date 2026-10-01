@@ -4274,42 +4274,6 @@ Author: wkk
 Name: KeyboardX键盘调整-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.keyboardx.json
 
-Package: com.wkk.mtyhhook
-Version: 1.0-1
-Architecture: iphoneos-arm64e
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/no_download/protected.deb
-Size: 13896
-MD5sum: eead94a71c316901f0f87c725dbbfc48
-SHA1: 60c8bc3b864c0b109fdbc7e72be64cd6a974c43a
-SHA256: 72f73a42e8d68f93bacdfe5cb5ac795a8ec7c9f571069eed7a9b3355594bd522
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 美团优化
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.wkk.mtyhhook
-Version: 1.0-1
-Architecture: iphoneos-arm64
-Maintainer: wkk
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/no_download/protected.deb
-Size: 13768
-MD5sum: a8a1e01e73e0b7d492afe15971a38a19
-SHA1: 111547d5cd624dc1b736c0db5e26df3a32106b7f
-SHA256: d279ac8013172d2f04f1f66342b5b5a26f88fd95b7d6843ecae796c751418c62
-Section: Tweaks
-Description: cool
-Author: wkk
-Name: 美团优化
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
 Package: com.wkk.onestepx
 Version: 1.1-0
 Architecture: iphoneos-arm64e
