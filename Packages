@@ -3545,13 +3545,13 @@ Architecture: iphoneos-arm64
 Maintainer: Mr.Zhang
 Installed-Size: 192
 Depends: com.opa334.ccsupport
-Conflicts: com.skypain.ccrespring, com.skypain.ccresprings
-Replaces: com.skypain.ccresprings
+Conflicts: com.skypain.ccrespring, com.skypain.ccresprings, com.skypain.ccresprings
+Replaces: com.skypain.ccresprings, com.skypain.ccresprings
 Filename: ./debs/CCRespring注销模块-Rootless.deb
-Size: 20484
-MD5sum: 92aee5d0c2bd9439f34424689ac4efb2
-SHA1: 79df77e4078f8acb14703af70cdf81737ea344af
-SHA256: c7369a9d63dc9e2b992b1dbf119de0771f7e386b741165898a0a1d880299518e
+Size: 20476
+MD5sum: 2cc83f3c7e4da613760d1648ddca1379
+SHA1: 6e9831ea92ce1379a8de6fb98c6c986c0af9b61a
+SHA256: 5d2f8210c57d268a870f7288410bfe51258bf3b30ae8bd0e28a327561b76e00d
 Section: 控制中心
 Description: 控制中心注销模块
  - 单击注销
@@ -3568,13 +3568,13 @@ Architecture: iphoneos-arm64e
 Maintainer: Mr.Zhang
 Installed-Size: 192
 Depends: com.opa334.ccsupport
-Conflicts: com.skypain.ccrespring, com.skypain.ccresprings
-Replaces: com.skypain.ccresprings
+Conflicts: com.skypain.ccrespring, com.skypain.ccresprings, com.skypain.ccresprings
+Replaces: com.skypain.ccresprings, com.skypain.ccresprings
 Filename: ./debs/CCRespring注销模块-RootHide.deb
-Size: 19392
-MD5sum: 0071b1bf0903f198671739ab1048b1e0
-SHA1: aace7649866964781429e80599aedffb1d0e03ff
-SHA256: 95700b6b736a5a8fc74cfcb41966b78479b2c11040817e2665182204963d3596
+Size: 19416
+MD5sum: 526bda686d3afbde649765abe2d3e7a6
+SHA1: a2e3461811550e4f52fb0cf30062544b3cd6956f
+SHA256: b8b253b08a0048dce6e30758c46b15e61e4d7015fe9c8e429ea710c4825c8a4b
 Section: 控制中心
 Description: 控制中心注销模块
  - 单击注销
@@ -4215,36 +4215,6 @@ Description: 禁用解锁后主屏幕图标飞入动画
 Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cscathook.json
-
-Package: com.wkk.cwzadfree
-Version: 1.0
-Architecture: iphoneos-arm64
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/车旺大卡去广告_1.0_iphoneos-arm64.deb
-Size: 6218
-MD5sum: 05331781d0a2d9fd7bbd38a3e737b376
-SHA1: e2e1b6be89ba00659749c2258631849b4f3d79f0
-SHA256: 1ca580a5bd71ca0129b80045ee7cf6baf933f8eb5504480503b8a90b3d008feb
-Section: Tweaks
-Description: 车旺大卡(cn.com.trafficguide.hyggpt)去广告 - 会员豁免开屏/热启动广告,截杀弹窗广告与插屏广告
-Author: wkk
-Name: 车旺大卡去广告
-
-Package: com.wkk.cwzadfree
-Version: 1.0
-Architecture: iphoneos-arm64e
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/车旺大卡去广告_1.0_iphoneos-arm64e.deb
-Size: 6146
-MD5sum: e49faf814992ff8b8c814056debf4441
-SHA1: 62e7efeb02fcaa13c66f11bedaf330a7002dc1b9
-SHA256: bfad441b253e60b9840ad957ee21a069a52bc2093c471f2e54f21b86525b1105
-Section: Tweaks
-Description: 车旺大卡(cn.com.trafficguide.hyggpt)去广告 - 会员豁免开屏/热启动广告,截杀弹窗广告与插屏广告
-Author: wkk
-Name: 车旺大卡去广告
 
 Package: com.wkk.iconx
 Version: 1.2
