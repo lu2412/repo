@@ -1118,7 +1118,7 @@ Architecture: iphoneos-arm64
 Maintainer: Local User
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
-Filename: ./debs/no_download/protected.deb
+Filename: ./debs/no_download/高德净化-Rootless_1.0.deb
 Size: 96604
 MD5sum: d7d4b8825a538c223ec68f25f07ab70a
 SHA1: c1d29f34f9f74d37dc5b7cf97ef4e9ad30c6e31c
@@ -1131,8 +1131,6 @@ Description: 隐藏精简启动、回家、搜索、我的、探索、说话、�
 Author: Local User
 Name: 高德净化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.amap.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.amap
 Version: 1.0
@@ -1140,7 +1138,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Local User
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
-Filename: ./debs/no_download/protected.deb
+Filename: ./debs/no_download/高德净化-RootHide_1.0.deb
 Size: 96776
 MD5sum: 08648da57f83c6508b9cbdaa0c4af468
 SHA1: 2810f354fe8668731649c5cde017240a5b06a1b8
@@ -1153,8 +1151,6 @@ Description: 隐藏精简启动、回家、搜索、我的、探索、说话、�
 Author: Local User
 Name: 高德净化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.amap.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.ctclient
 Version: 1.0
@@ -1290,7 +1286,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Local User
 Conflicts: com.custom.zhuanzhuan
 Replaces: com.custom.zhuanzhuan
-Filename: ./debs/转转找鸡-RootHide.deb
+Filename: ./debs/no_download/转转找鸡-RootHide.deb
 Size: 33488
 MD5sum: def0c00a77c1687088cb4769cfe625c8
 SHA1: 9dd9774bf06054ed64da1c619c6ea3ce2d854a91
@@ -1311,7 +1307,7 @@ Architecture: iphoneos-arm64
 Maintainer: Local User
 Conflicts: com.custom.zhuanzhuan
 Replaces: com.custom.zhuanzhuan
-Filename: ./debs/转转找鸡-Rootless.deb
+Filename: ./debs/no_download/转转找鸡-Rootless.deb
 Size: 33352
 MD5sum: df4bccb6d78aed205ac091ca172dea51
 SHA1: 7e7754f7b51e7a338b5d2824946e968529ecea1b
@@ -1740,7 +1736,7 @@ Installed-Size: 168
 Depends: mobilesubstrate
 Conflicts: com.guiqi.cleantb
 Replaces: com.guiqi.cleantb
-Filename: ./debs/no_download/protected.deb
+Filename: ./debs/no_download/淘宝净化-RootHide_1.0.9.deb
 Size: 6044
 MD5sum: 73e8aa1aeb952f1902dfd711a73ee909
 SHA1: aa8f96179656fd628c633ff8d0ce7a990db820dd
@@ -1752,8 +1748,6 @@ Description: 淘宝底栏去除底部视频，排版重构
 Author: GUIQI
 Name: 淘宝净化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.guiqi.cleantb.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.guiqi.cleantb
 Version: 1.0.9
@@ -1763,7 +1757,7 @@ Installed-Size: 168
 Depends: mobilesubstrate
 Conflicts: com.guiqi.cleantb
 Replaces: com.guiqi.cleantb
-Filename: ./debs/no_download/protected.deb
+Filename: ./debs/no_download/淘宝净化-Rootless_1.0.9.deb
 Size: 5864
 MD5sum: 194270f798f0e6fca78e90741cf3d2dc
 SHA1: fcedc28a359453d68f8b7713c7db5ab59febbd08
@@ -1775,8 +1769,6 @@ Description: 淘宝底栏去除底部视频，排版重构
 Author: GUIQI
 Name: 淘宝净化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.guiqi.cleantb.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
