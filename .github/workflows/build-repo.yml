@@ -1,0 +1,83 @@
+name: Build Repo Index
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          apt update
+          apt install -y dpkg bzip2 zstd
+
+      - name: Generate _headers
+        run: |
+          cat > _headers <<'EOT'
+/*
+  Content-Encoding: identity
+  Cache-Control: no-cache
+
+/Packages.zst
+  Content-Type: application/zstd
+  Content-Encoding: identity
+
+/Packages.bz2
+  Content-Type: application/x-bzip2
+  Content-Encoding: identity
+
+/Packages
+  Content-Type: text/plain
+  Content-Encoding: identity
+EOT
+
+      - name: Generate Packages index
+        run: |
+          rm -f Packages Packages.bz2 Packages.zst
+          dpkg-scanpackages --multiversion ./debs /dev/null > Packages
+
+      - name: Process no_download
+        run: |
+          awk 'BEGIN { RS=""; ORS="\n\n" }
+          {
+              if ($0 ~ /(^|\n)Filename: \.\/debs\/no_download\//) {
+                  n = split($0, lines, "\n")
+                  new_record = ""
+                  for (i=1; i<=n; i++) {
+                      if (lines[i] ~ /^Filename:/) {
+                          lines[i] = "Filename: ./debs/no_download/protected.deb"
+                      }
+                      if (lines[i] !~ /^Tag:/ && lines[i] !~ /^PaymentProvider:/ && lines[i] != "") {
+                          new_record = new_record (new_record=="" ? "" : "\n") lines[i]
+                      }
+                  }
+                  $0 = new_record "\nTag: cydia::commercial\nPaymentProvider: https://127.0.0.1/null"
+              }
+              print
+          }' Packages > Packages.tmp && mv Packages.tmp Packages
+
+      - name: Compress Packages
+        run: |
+          bzip2 -k -f Packages
+          zstd -f --no-check Packages -o Packages.zst
+
+      - name: Commit & Push back
+        run: |
+          git config --global user.name "CloudBuild"
+          git config --global user.email "ci@build.local"
+          git add Packages Packages.bz2 Packages.zst _headers
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "CI: 云端自动更新源索引"
+          git push
