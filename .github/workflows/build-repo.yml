@@ -4,6 +4,8 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -30,14 +32,20 @@ jobs:
           /Packages.zst
             Content-Type: application/zstd
             Content-Encoding: identity
+            Cache-Control: no-cache
 
           /Packages.bz2
             Content-Type: application/x-bzip2
             Content-Encoding: identity
+            Cache-Control: no-cache
 
           /Packages
             Content-Type: text/plain
             Content-Encoding: identity
+            Cache-Control: no-cache
+
+          /depiction/*.json
+            Cache-Control: public, max-age=86400
           */' > _headers
 
       - name: Generate Packages index
@@ -79,5 +87,5 @@ jobs:
             echo "No changes"
             exit 0
           fi
-          git commit -m "CI: 云端自动更新源索引"
+          git commit -m "CI: 定时自动更新源索引与缓存配置"
           git push
