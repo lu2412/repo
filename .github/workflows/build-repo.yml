@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate _headers
         run: |
-          cat > _headers <<'EOT'
+          cat > _headers <<EOT
 /*
   Content-Encoding: identity
   Cache-Control: no-cache
