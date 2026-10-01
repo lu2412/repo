@@ -1118,11 +1118,18 @@ Architecture: iphoneos-arm64
 Maintainer: 徐晓博
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
-Section: no_download
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Section: no_download
+Filename: ./debs/no_download/protected.deb
+Size: 94412
+MD5sum: f471a890cd057428579467399acd0555
+SHA1: cb40bb709bf88850d22dfca5cff2f02cd1c1f327
+SHA256: 1543e24768582587585a017c6baaee663a56ae4924f86729267aac4f4680b22c
+Section: 软件精简
+Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
+ - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 徐晓博
+Name: 高德净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.amap.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -1132,11 +1139,18 @@ Architecture: iphoneos-arm64e
 Maintainer: 徐晓博
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
-Section: no_download
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Section: no_download
+Filename: ./debs/no_download/protected.deb
+Size: 94480
+MD5sum: bfb9bcfd6af978d5ffdc310259e1a61f
+SHA1: 8100076b9c271fabdded765ac8869dc699e09c75
+SHA256: c0674a39a752635bc2f36468e1ab67a91e6f93f33e1640c7c5596cd20ccd0671
+Section: 软件精简
+Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
+ - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 徐晓博
+Name: 高德净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.amap.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -1715,6 +1729,52 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
+
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.guiqi.cleantb
+Replaces: com.guiqi.cleantb
+Filename: ./debs/no_download/protected.deb
+Size: 6044
+MD5sum: 73e8aa1aeb952f1902dfd711a73ee909
+SHA1: aa8f96179656fd628c633ff8d0ce7a990db820dd
+SHA256: eb16836f58ffea5b9204cd4e432cd9324d86c7c322fd4605a08fed7e66377467
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 仅此单一功能，插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: GUIQI
+Name: 淘宝净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.guiqi.cleantb.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.guiqi.cleantb
+Replaces: com.guiqi.cleantb
+Filename: ./debs/no_download/protected.deb
+Size: 5864
+MD5sum: 194270f798f0e6fca78e90741cf3d2dc
+SHA1: fcedc28a359453d68f8b7713c7db5ab59febbd08
+SHA256: d54fd38f5a8579e61f9b37183967cead079ad0797386bea9b99a55293bdfde7b
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 仅此单一功能，插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: GUIQI
+Name: 淘宝净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.guiqi.cleantb.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
