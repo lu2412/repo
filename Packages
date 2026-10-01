@@ -4216,6 +4216,52 @@ Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cscathook.json
 
+Package: com.wkk.iconx
+Version: 1.2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.iconx
+Replaces: com.wkk.iconx
+Filename: ./debs/禁止卸载-RootHide_1.2.deb
+Size: 5080
+MD5sum: 6374e2cdfa3e77a5b35a2f919b15fb75
+SHA1: 353c735efa49dd6fd8cc4d73ffa5e1e8d0b36c7a
+SHA256: c20338abbe328673af7023d65de57a9454b7a3a9df29a72cf1fae634aa9f59df
+Section: 轻量插件
+Description: 禁用桌面图标抖动删除按钮
+ - 以防误触卸载掉软件
+ - 支持iOS15-0S16。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 禁止卸载-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.iconx.json
+
+Package: com.wkk.iconx
+Version: 1.2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 168
+Depends: mobilesubstrate (>= 0.9.7000), firmware (>= 14.0)
+Conflicts: com.wkk.iconx
+Replaces: com.wkk.iconx
+Filename: ./debs/禁止卸载-Rootless_1.2.deb
+Size: 4140
+MD5sum: feb3432965cc40a2da9c67da4ebfa061
+SHA1: 89170b71d23b2ac75e342bd5427380d9f04717df
+SHA256: 7f74245f90ddf2cd2074d687422968b055a20621a034e8043ca7a0b42577f01e
+Section: 轻量插件
+Description: 禁用桌面图标抖动删除按钮
+ - 以防误触卸载掉软件
+ - 支持iOS15-0S16。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: 禁止卸载-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.iconx.json
+
 Package: com.wkk.installedpackages
 Version: 1.0-1
 Architecture: iphoneos-arm64e
