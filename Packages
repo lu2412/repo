@@ -1726,6 +1726,48 @@ Author: lym
 Name: 高德图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
 
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64e
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.guiqi.cleantb
+Replaces: com.guiqi.cleantb
+Filename: ./debs/淘宝净化-RootHide_1.0.9.deb
+Size: 6044
+MD5sum: 73e8aa1aeb952f1902dfd711a73ee909
+SHA1: aa8f96179656fd628c633ff8d0ce7a990db820dd
+SHA256: eb16836f58ffea5b9204cd4e432cd9324d86c7c322fd4605a08fed7e66377467
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 仅此单一功能，插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: GUIQI
+Name: 淘宝净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.guiqi.cleantb.json
+
+Package: com.guiqi.cleantb
+Version: 1.0.9
+Architecture: iphoneos-arm64
+Maintainer: GUIQI
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.guiqi.cleantb
+Replaces: com.guiqi.cleantb
+Filename: ./debs/淘宝净化-Rootless_1.0.9.deb
+Size: 5864
+MD5sum: 194270f798f0e6fca78e90741cf3d2dc
+SHA1: fcedc28a359453d68f8b7713c7db5ab59febbd08
+SHA256: d54fd38f5a8579e61f9b37183967cead079ad0797386bea9b99a55293bdfde7b
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 仅此单一功能，插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: GUIQI
+Name: 淘宝净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.guiqi.cleantb.json
+
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
 Architecture: iphoneos-arm64e
