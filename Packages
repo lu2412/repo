@@ -1115,38 +1115,38 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: com.custom.amap
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: Local User
+Maintainer: 徐晓博
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
 Filename: ./debs/no_download/protected.deb
-Size: 94296
-MD5sum: 676612ffb3ccdbff71a84f4d30c3d32e
-SHA1: 12ceb3ab535e26051557718f023eaa13b18c48e8
-SHA256: 0f1ea416839e01fd3bce093bdcae3538c3fc0056ae753e6fc7418c2460ccc6ab
+Size: 94412
+MD5sum: f471a890cd057428579467399acd0555
+SHA1: cb40bb709bf88850d22dfca5cff2f02cd1c1f327
+SHA256: 1543e24768582587585a017c6baaee663a56ae4924f86729267aac4f4680b22c
 Section: 软件精简
 Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
  - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
+Author: 徐晓博
 Name: 高德净化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.amap.json
 
 Package: com.custom.amap
 Version: 1.0
 Architecture: iphoneos-arm64e
-Maintainer: Local User
+Maintainer: 徐晓博
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
 Filename: ./debs/no_download/protected.deb
-Size: 94396
-MD5sum: 515be11b63a6f76b3e6cf6719a233a96
-SHA1: 9f6f953d74a7174359f54dbc2d87a77fa6b70243
-SHA256: 5c1e3bc0de8ec49e8c4bc12ba57115cb481ce5676d8ad1d463368d5db2a27a02
+Size: 94480
+MD5sum: bfb9bcfd6af978d5ffdc310259e1a61f
+SHA1: 8100076b9c271fabdded765ac8869dc699e09c75
+SHA256: c0674a39a752635bc2f36468e1ab67a91e6f93f33e1640c7c5596cd20ccd0671
 Section: 软件精简
 Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
  - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
+Author: 徐晓博
 Name: 高德净化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.amap.json
 
