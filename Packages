@@ -684,6 +684,54 @@ Author: Custom
 Name: Sileo刷新报错汉化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.aptzh.json
 
+Package: com.be-huge.floating-view
+Version: 1.6.0-1
+Architecture: iphoneos-arm64
+Maintainer: be-huge
+Installed-Size: 3136
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.floating-view
+Replaces: com.be-huge.floating-view
+Filename: ./debs/FloatingView分屏-Rootless.deb
+Size: 615020
+MD5sum: 8d2d1044926218d94d318e4314258d58
+SHA1: 5dbd35d8c36a161a69bd26b8559903e8b9fd36fd
+SHA256: 092a813655a7d644ecc69f9e45478539a88a9cf0d66c690b1de7bb07bdec32fd
+Section: 分屏插件
+Description: FloatingView分屏
+ - 移除设备授权，此版本可以与外部插件（灵动岛插件）能直接调用直达通知
+ - 160-6版本则被移除了这个功能，特此打包这个版本，方便群友使用。
+ - 如果安装无效请下载上方链接内的配置文件
+ - 在插件内选择从文件中倒入配置即可使用
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: FloatingView分屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.be-huge.floating-view.json
+
+Package: com.be-huge.floating-view
+Version: 1.6.0-1
+Architecture: iphoneos-arm64e
+Maintainer: be-huge
+Installed-Size: 3136
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.floating-view
+Replaces: com.be-huge.floating-view
+Filename: ./debs/FloatingView分屏-RootHide.deb
+Size: 618504
+MD5sum: 20cce224fd24412559444cc5610a5a54
+SHA1: c76dc49809a8d2285b079637714e33c484b9b059
+SHA256: e77c4b5b67efbdb3bd3641021ae115aa7a115cefb195839f225b1ad9163a9c94
+Section: 分屏插件
+Description: FloatingView分屏
+ - 移除设备授权，此版本可以与外部插件（灵动岛插件）能直接调用直达通知
+ - 160-6版本则被移除了这个功能，特此打包这个版本，方便群友使用。
+ - 如果安装无效请下载上方链接内的配置文件
+ - 在插件内选择从文件中倒入配置即可使用
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: be-huge
+Name: FloatingView分屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.be-huge.floating-view.json
+
 Package: com.binglan.kongzhidiy
 Version: 2.3.6-end
 Architecture: iphoneos-arm64
@@ -1063,6 +1111,44 @@ Description: 对彩云天气的UI重新设计
 Author: 半生年华
 Name: 彩云UI设计-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.colorfulclouds.minimalui.json
+
+Package: com.custom.amap
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.amap
+Replaces: com.custom.amap
+Filename: ./debs/no_download/protected.deb
+Size: 94296
+MD5sum: 676612ffb3ccdbff71a84f4d30c3d32e
+SHA1: 12ceb3ab535e26051557718f023eaa13b18c48e8
+SHA256: 0f1ea416839e01fd3bce093bdcae3538c3fc0056ae753e6fc7418c2460ccc6ab
+Section: 软件精简
+Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
+ - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 高德净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.amap.json
+
+Package: com.custom.amap
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.amap
+Replaces: com.custom.amap
+Filename: ./debs/no_download/protected.deb
+Size: 94396
+MD5sum: 515be11b63a6f76b3e6cf6719a233a96
+SHA1: 9f6f953d74a7174359f54dbc2d87a77fa6b70243
+SHA256: 5c1e3bc0de8ec49e8c4bc12ba57115cb481ce5676d8ad1d463368d5db2a27a02
+Section: 软件精简
+Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
+ - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 高德净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.amap.json
 
 Package: com.custom.ctclient
 Version: 1.0
@@ -1555,52 +1641,6 @@ Description: 增加Filza的滑动多选功能
 Author: korboy <korboybeats@gmail.com>
 Name: Filza滑动多选-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.filzaswipeselect.json
-
-Package: com.floating-view
-Version: 1.6.0-6
-Architecture: iphoneos-arm64
-Maintainer: Axs
-Installed-Size: 2700
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.floating-view
-Replaces: com.floating-view
-Filename: ./debs/FloatingView分屏破解版-Rootless.deb
-Size: 652200
-MD5sum: ad6edd6618c942c663ce4116ee71fd6c
-SHA1: 9d4d0c5bd00a34592d2454616f22334376c43a1d
-SHA256: 1abaf6a4970677b8a966e903703600f0673554eb1eff7c0eea4d24e9bbc8e8cc
-Section: 分屏插件
-Description: FloatingView分屏破解版
- - 价值100元，自行下载体验
- - 如果安装无效请下载上方链接内的配置文件
- - 在插件内选择从文件中倒入配置即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: FloatingView分屏破解版-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.floating-view.json
-
-Package: com.floating-view
-Version: 1.6.0-6
-Architecture: iphoneos-arm64e
-Maintainer: Axs
-Installed-Size: 2700
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Conflicts: com.floating-view
-Replaces: com.floating-view
-Filename: ./debs/FloatingView分屏破解版-RootHide.deb
-Size: 655896
-MD5sum: a4b31c8ae5c87cc13f485c5db554a4e8
-SHA1: cd0757ede67f3b9673ff0b4c13b81f04f1f79da7
-SHA256: 2d587a184ea87358f1fbe184af3f8d2bfcbff391989bb7223c754114036dead7
-Section: 分屏插件
-Description: FloatingView分屏破解版
- - 价值100元，自行下载体验
- - 如果安装无效请下载上方链接内的配置文件
- - 在插件内选择从文件中倒入配置即可使用
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: be-huge
-Name: FloatingView分屏破解版-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.floating-view.json
 
 Package: com.gaodedilan
 Version: 1.0.0
