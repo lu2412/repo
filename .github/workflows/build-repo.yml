@@ -22,8 +22,7 @@ jobs:
 
       - name: Generate _headers
         run: |
-          cat > _headers <<EOT
-/*
+          echo '/*
   Content-Encoding: identity
   Cache-Control: no-cache
 
@@ -38,7 +37,7 @@ jobs:
 /Packages
   Content-Type: text/plain
   Content-Encoding: identity
-EOT
+*/' > _headers
 
       - name: Generate Packages index
         run: |
