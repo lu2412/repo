@@ -1160,13 +1160,13 @@ Package: com.custom.ctclient
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: Local User
-Conflicts: com.custom.ctclient
-Replaces: com.custom.ctclient
+Conflicts: com.custom.ctclient, com.custom.ctclient
+Replaces: com.custom.ctclient, com.custom.ctclient
 Filename: ./debs/中国电信去开屏-Rootless_1.0.deb
-Size: 5532
-MD5sum: 0126eb1786704933219df1a398525806
-SHA1: 046f3d86900f78cf1cb1293a9228ffce780e0dd5
-SHA256: 25c98c292c905b43cb2e70a2d3e37eee4a9e0f5e936007970c1dcc82c40ddc62
+Size: 5544
+MD5sum: cc17fcdb4d694a125f258490b9d92964
+SHA1: 9710c32ac964efc424ff71a45fe7ec8e8d270c45
+SHA256: 3b6c3e718aa97141d95041cb5cb7a8cc527b61de114b15447a7ca83397776c3e
 Section: 软件增强
 Description: 去除电信开屏广告
  - 支持目前最新版13.4.0
@@ -1179,13 +1179,13 @@ Package: com.custom.ctclient
 Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: Local User
-Conflicts: com.custom.ctclient
-Replaces: com.custom.ctclient
+Conflicts: com.custom.ctclient, com.custom.ctclient
+Replaces: com.custom.ctclient, com.custom.ctclient
 Filename: ./debs/中国电信去开屏-RootHide_1.0.deb
-Size: 5536
-MD5sum: ee0066d9992d960fb6d3eadca3470e03
-SHA1: 529015b33f80a24eedca2994b0da951273248850
-SHA256: 53ed407a2ec09ded3386dc5358f686b2444af6f70145275194c5522529d551c2
+Size: 5544
+MD5sum: 26ead3aa5b4be8292295c1a39e016087
+SHA1: 0aca4d7d3790233c277d535a81339a2783adc61c
+SHA256: cce2f9af67b4f26cf3179e7b496ca245d8250e1febdcc1c4cb75ea40484d095f
 Section: 软件增强
 Description: 去除电信开屏广告
  - 支持目前最新版13.4.0
@@ -4555,6 +4555,50 @@ Description: 修复VVebo用户时间线和粉丝列表显示
 Author: lhl
 Name: VVebo时间线修复-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.yourcompany.vvebofix.json
+
+Package: com.yzdmm.keyboardstatus
+Version: 1.3.2
+Architecture: iphoneos-arm64
+Maintainer: yzdmm
+Installed-Size: 544
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.yzdmm.keyboardstatus
+Replaces: com.yzdmm.keyboardstatus
+Filename: ./debs/键盘底部增强-Rootless_1.3.2.deb
+Size: 70688
+MD5sum: 68fc25ab15d129f4b249e99b13b7e1eb
+SHA1: e7d5db5f0fc44d1d8b9aaa0929058b1c5aa11ba0
+SHA256: 57bc18000f790cc31a24326f0d5909cf3eb5fb7f66df8408f51367e87c2a58fc
+Section: 键盘插件
+Description: 系统键盘底栏加功能按钮
+ - 全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘
+ - 可选状态条。rootless 适配，逐功能可关，安全不崩。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: yzdmm
+Name: 键盘底部增强-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.yzdmm.keyboardstatus.json
+
+Package: com.yzdmm.keyboardstatus
+Version: 1.3.2
+Architecture: iphoneos-arm64e
+Maintainer: yzdmm
+Installed-Size: 544
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Conflicts: com.yzdmm.keyboardstatus
+Replaces: com.yzdmm.keyboardstatus
+Filename: ./debs/键盘底部增强-RootHide_1.3.2.deb
+Size: 68892
+MD5sum: b16b38ed9d216c6728090c42391d2a89
+SHA1: f9a5600b57527c3d47090d653909e6d91d225160
+SHA256: 40f5eed0911e5d698284a5c88b3ade8b589813b805d268ac41e64a29782e1c58
+Section: 键盘插件
+Description: 系统键盘底栏加功能按钮
+ - 全选/剪切/粘贴/光标移动/剪贴板历史/快捷短语/收起键盘
+ - 可选状态条。rootless 适配，逐功能可关，安全不崩。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: yzdmm
+Name: 键盘底部增强-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.yzdmm.keyboardstatus.json
 
 Package: com.zhuomian
 Version: 1.0-1
