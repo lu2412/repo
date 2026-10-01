@@ -1115,19 +1115,20 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Package: com.custom.amap
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: 徐晓博
+Maintainer: Local User
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
 Filename: ./debs/no_download/protected.deb
-Size: 94412
-MD5sum: f471a890cd057428579467399acd0555
-SHA1: cb40bb709bf88850d22dfca5cff2f02cd1c1f327
-SHA256: 1543e24768582587585a017c6baaee663a56ae4924f86729267aac4f4680b22c
+Size: 96604
+MD5sum: d7d4b8825a538c223ec68f25f07ab70a
+SHA1: c1d29f34f9f74d37dc5b7cf97ef4e9ad30c6e31c
+SHA256: 69006d7b5ec2684a66916cab383427f33e3bf8cc8dc9f6d3a1624e6c7565dbd7
 Section: 软件精简
 Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
- - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 新增：移除底栏，
+ - 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 徐晓博
+Author: Local User
 Name: 高德净化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.amap.json
 Tag: cydia::commercial
@@ -1136,19 +1137,20 @@ PaymentProvider: https://127.0.0.1/null
 Package: com.custom.amap
 Version: 1.0
 Architecture: iphoneos-arm64e
-Maintainer: 徐晓博
+Maintainer: Local User
 Conflicts: com.custom.amap
 Replaces: com.custom.amap
 Filename: ./debs/no_download/protected.deb
-Size: 94480
-MD5sum: bfb9bcfd6af978d5ffdc310259e1a61f
-SHA1: 8100076b9c271fabdded765ac8869dc699e09c75
-SHA256: c0674a39a752635bc2f36468e1ab67a91e6f93f33e1640c7c5596cd20ccd0671
+Size: 96776
+MD5sum: 08648da57f83c6508b9cbdaa0c4af468
+SHA1: 2810f354fe8668731649c5cde017240a5b06a1b8
+SHA256: 8c81fa4ae957ab26947c35e688534f3d45cbf096c0b208faa9581d7aa53aeab9
 Section: 软件精简
 Description: 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面
- - 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。
+ - 新增：移除底栏，
+ - 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 徐晓博
+Author: Local User
 Name: 高德净化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.amap.json
 Tag: cydia::commercial

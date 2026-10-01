@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面\n- 新增：移除底栏，谨慎操作，长按触发就没了，只能重置app，去除插件配置。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 隐藏精简启动、回家、搜索、我的、探索、说话、打车等界面\n- 新增：移除底栏，\n- 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。"}
       ]
     }
   ]
