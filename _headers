@@ -1,0 +1,15 @@
+/*
+  Content-Encoding: identity
+  Cache-Control: no-cache
+
+/Packages.zst
+  Content-Type: application/zstd
+  Content-Encoding: identity
+
+/Packages.bz2
+  Content-Type: application/x-bzip2
+  Content-Encoding: identity
+
+/Packages
+  Content-Type: text/plain
+  Content-Encoding: identity

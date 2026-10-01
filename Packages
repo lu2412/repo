@@ -1238,6 +1238,48 @@ Author: Local User
 Name: 京东优化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.jdmobile.json
 
+Package: com.custom.jegotrip
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.jegotrip
+Replaces: com.custom.jegotrip
+Filename: ./debs/no_download/protected.deb
+Size: 63172
+MD5sum: 3650323de5a4dfc6a8c842f9a34eaef5
+SHA1: c137f7c172a6542c7aedf9dd1e75416940885920
+SHA256: 80af01ddc2798e17e372923c48ae44126247fef636b850554fe54de72adcc7a0
+Section: 软件精简
+Description: 去除无忧行界面广告，并精简底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 无忧行去广-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.jegotrip.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.jegotrip
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.jegotrip
+Replaces: com.custom.jegotrip
+Filename: ./debs/no_download/protected.deb
+Size: 63292
+MD5sum: dba49ea98b1a79b3fd26c610e11d9aca
+SHA1: bcd422c00bb123f2dae1df6bb5c5d3628352b454
+SHA256: df8dba156f8c0a43ece5c12432f749e2fb5689fdec95c903de6489a51ece31d8
+Section: 软件精简
+Description: 去除无忧行界面广告，并精简底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 无忧行去广-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.jegotrip.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.tim
 Version: 1.0
 Architecture: iphoneos-arm64
