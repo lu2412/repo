@@ -3497,6 +3497,46 @@ Author: alias20 & SINI
 Name: FakeSignalBar运营商-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sini921.fakesignalbar.json
 
+Package: com.sjsp
+Version: 1.0-roothide
+Architecture: iphoneos-arm64e
+Maintainer: 来了老弟 <xuanhua880@gmail.com>
+Depends: mobilesubstrate
+Conflicts: cn.llld.sjsp, com.sjsp
+Replaces: cn.llld.sjsp, com.sjsp
+Filename: ./debs/双击桌面锁屏-RootHide_1.0-roothide.deb
+Size: 8824
+MD5sum: 90f05b1f1f5fc60934e0cde402c09240
+SHA1: 0746862ae117f7fc4435d04acf0c082c5ffa3ec4
+SHA256: 43e716c70dcfb54e0d26b0a5baa20eb61336fe02242bf3e537316abc837ef157
+Section: 轻量插件
+Description: 在桌面主屏幕双击一键锁屏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 来了老弟 <xuanhua880@gmail.com>
+Name: 双击桌面锁屏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.sjsp.json
+
+Package: com.sjsp
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Snail <mu514983786@gmail.com>
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.snail.doubletaptolock.rootless, com.sjsp
+Replaces: com.snail.doubletaptolock.rootless, com.sjsp
+Filename: ./debs/双击桌面锁屏-Rootless_1.0.0.deb
+Size: 61520
+MD5sum: ee58b77bf647925de3f0325f39482dd7
+SHA1: 0f892d1ea8f2d5539402941c0beb254d3a206a31
+SHA256: fe92a2d5d637e03fe262e97a3042c449b239622d7c0c9e9f10419ff37abce2fa
+Section: 轻量插件
+Description: 在桌面主屏幕双击一键锁屏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Snail <mu514983786@gmail.com>
+Name: 双击桌面锁屏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.sjsp.json
+
 Package: com.skypain.cclockscreen
 Version: 1.1.0-1
 Architecture: iphoneos-arm64
