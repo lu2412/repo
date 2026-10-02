@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -23,7 +24,8 @@ jobs:
 
       - name: Generate _headers
         run: |
-          echo '/*
+          cat > _headers <<'EOF'
+          /*
             Content-Encoding: identity
             Cache-Control: no-cache
 
@@ -44,7 +46,7 @@ jobs:
 
           /depiction/*.json
             Cache-Control: public, max-age=86400
-          */' > _headers
+          EOF
 
       - name: Generate Packages index
         run: |
@@ -58,16 +60,22 @@ jobs:
               if ($0 ~ /(^|\n)Filename: \.\/debs\/no_download\//) {
                   n = split($0, lines, "\n")
                   new_record = ""
+
                   for (i=1; i<=n; i++) {
                       if (lines[i] ~ /^Filename:/) {
                           lines[i] = "Filename: ./debs/no_download/protected.deb"
                       }
-                      if (lines[i] !~ /^Tag:/ && lines[i] !~ /^PaymentProvider:/ && lines[i] != "") {
+
+                      if (lines[i] !~ /^Tag:/ &&
+                          lines[i] !~ /^PaymentProvider:/ &&
+                          lines[i] != "") {
                           new_record = new_record (new_record=="" ? "" : "\n") lines[i]
                       }
                   }
+
                   $0 = new_record "\nTag: cydia::commercial\nPaymentProvider: https://127.0.0.1/null"
               }
+
               print
           }' Packages > Packages.tmp && mv Packages.tmp Packages
 
@@ -80,10 +88,13 @@ jobs:
         run: |
           git config --global user.name "CloudBuild"
           git config --global user.email "ci@build.local"
+
           git add Packages Packages.bz2 Packages.zst _headers
+
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
+
           git commit -m "CI: 定时自动更新源索引与缓存配置"
           git push
