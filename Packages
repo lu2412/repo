@@ -1286,7 +1286,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Local User
 Conflicts: com.custom.reader
 Replaces: com.custom.reader
-Filename: ./debs/多看阅读精简-RootHide_1.0.deb
+Filename: ./debs/no_download/protected.deb
 Size: 39932
 MD5sum: 3064898f3f0a6f9a8a1631007089cbcb
 SHA1: 00096e9106bfe5eca764be5b7636792c3b638072
@@ -1299,6 +1299,8 @@ Description: 去除多看阅读无用底栏
 Author: Local User
 Name: 多看阅读精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.reader.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.reader
 Version: 1.0
@@ -1306,7 +1308,7 @@ Architecture: iphoneos-arm64
 Maintainer: Local User
 Conflicts: com.custom.reader
 Replaces: com.custom.reader
-Filename: ./debs/多看阅读精简-Rootless_1.0.deb
+Filename: ./debs/no_download/protected.deb
 Size: 39936
 MD5sum: 5f717e5d0424a4197aa8307f3dead853
 SHA1: 528d840a2822862c8d50a11618aab4082328c573
@@ -1319,6 +1321,8 @@ Description: 去除多看阅读无用底栏
 Author: Local User
 Name: 多看阅读精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.reader.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.tim
 Version: 1.0
