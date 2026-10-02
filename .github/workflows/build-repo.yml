@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -96,5 +96,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "CI: 定时自动更新源索引与缓存配置"
+          git commit -m "CI: 更新源索引与缓存配置"
           git push
