@@ -603,18 +603,18 @@ Name: 移除软件底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.apple.DocumentsApp.json
 
 Package: com.apple.ccamera
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 256
+Installed-Size: 240
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-Rootless.deb
-Size: 33124
-MD5sum: 47a8aacd29f1f461d1965834c19792ed
-SHA1: 1333da18c0cf79da90888c5c4c5df6960877973c
-SHA256: d8a6a948c7c52061aceac37f1d500f286744013d6cb409629c9f303d9d2a580f
+Size: 32340
+MD5sum: 24d46ccd551432caea5c313308fb5f57
+SHA1: 2a7b725db2dba7e906a018a67488226131129ecb
+SHA256: 78bff430d007d35aa0b8fe5156e4b237bc1812262b614daaf210faf69db79f5a
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
@@ -624,18 +624,18 @@ Name: 相册视频进度条-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.apple.ccamera.json
 
 Package: com.apple.ccamera
-Version: 0.0.4
+Version: 0.0.5
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 256
+Installed-Size: 240
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
 Conflicts: com.crctdd.mobileslideshowhook
 Replaces: com.crctdd.mobileslideshowhook
 Filename: ./debs/相册视频进度条-RootHide.deb
-Size: 33160
-MD5sum: 7120fd542c3eefefec9d9b3095b35ce7
-SHA1: 8c91d1ee396d94ab37240e7c0f581fe5a953a582
-SHA256: a23c87b20c955a1ff90fa982ac3be71b896066f1aa681bd6fbc7d2358a0ba602
+Size: 32288
+MD5sum: defb168db8bfd44ef762ad9ef9cfc573
+SHA1: 7263e65d919bef4563d8b52e4e68b0b30765bd57
+SHA256: 8235961fd16cfc01a9b877668b7fa09c946bcd3eaa7d9f6d2ca9c5eeef7bc6ce
 Section: 轻量插件
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
  - 插件无设置项安装即可生效
