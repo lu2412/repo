@@ -1,9 +1,9 @@
 Package: com.ecard.kssmk
-Name: 屏蔽鹿路通开屏广告
+Name: llt
 Depends: mobilesubstrate
 Version: 1.0.0
 Architecture: iphoneos-arm64e
-Description: 屏蔽鹿路通开屏广告
+Description: llt
 Maintainer: 半生年华
 Author: 半生年华
 Section: Tweaks

@@ -8,7 +8,7 @@ INSTALL_TARGET_PROCESSES = SpringBoard
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = 屏蔽开屏广告
-屏蔽开屏广告_FILES = Tweak.xm
+TWEAK_NAME = llt
+Llt_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
