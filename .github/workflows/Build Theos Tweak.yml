@@ -1,0 +1,155 @@
+name: Build Theos Tweak
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'repo/deb-plugin/**'
+
+  pull_request:
+    branches:
+      - main
+      - master
+    paths:
+      - 'repo/deb-plugin/**'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build ${{ matrix.scheme }}
+    runs-on: macos-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        scheme:
+          - rootless
+          - roothide
+
+    env:
+      THEOS: ${{ runner.home }}/theos
+      THEOS_PACKAGE_SCHEME: ${{ matrix.scheme }}
+
+    steps:
+
+      # 1. 检出源码
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      # 2. 缓存 Theos
+      - name: Cache Theos
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.home }}/theos
+          key: theos-${{ runner.os }}-${{ hashFiles('repo/deb-plugin/Makefile') }}
+          restore-keys: |
+            theos-${{ runner.os }}-
+
+      # 3. 安装 Theos & SDK
+      - name: Setup Theos & SDKs
+        run: |
+          set -e
+
+          if [ ! -d "$THEOS/bin" ]; then
+            echo "Cloning Theos..."
+
+            git clone \
+              --recursive \
+              --depth 1 \
+              https://github.com/theos/theos.git \
+              "$THEOS"
+          else
+            echo "Theos cache found."
+          fi
+
+          if [ ! -d "$THEOS/sdks" ] || [ -z "$(ls -A "$THEOS/sdks" 2>/dev/null)" ]; then
+            echo "Cloning iOS SDKs..."
+
+            rm -rf "$THEOS/sdks"
+
+            git clone \
+              --depth 1 \
+              https://github.com/theos/sdks.git \
+              "$THEOS/sdks"
+          else
+            echo "SDK cache found."
+          fi
+
+      # 4. 检查环境
+      - name: Check Environment
+        run: |
+          set -e
+
+          export PATH="$THEOS/bin:$PATH"
+
+          echo "=============================="
+          echo "Build Scheme: $THEOS_PACKAGE_SCHEME"
+          echo "THEOS: $THEOS"
+          echo "macOS: $(sw_vers -productVersion)"
+          echo "clang: $(clang --version | head -n 1)"
+          echo "=============================="
+
+          test -d "$THEOS"
+          test -d "$THEOS/sdks"
+
+          echo "Available SDKs:"
+          ls -lah "$THEOS/sdks"
+
+      # 5. 编译插件
+      - name: Build Package
+        run: |
+          set -e
+
+          export PATH="$THEOS/bin:$PATH"
+
+          cd repo/deb-plugin
+
+          echo "=============================="
+          echo "Building $THEOS_PACKAGE_SCHEME"
+          echo "=============================="
+
+          make clean
+          make package FINALPACKAGE=1
+
+      # 6. 检查产物
+      - name: Check Package
+        run: |
+          set -e
+
+          cd repo/deb-plugin
+
+          echo "===== $THEOS_PACKAGE_SCHEME Package ====="
+
+          ls -lah packages/
+
+          if ! find packages \
+            -maxdepth 1 \
+            -type f \
+            -name "*.deb" \
+            | grep -q .; then
+
+            echo "ERROR: No .deb package found!"
+            exit 1
+          fi
+
+          echo "Found package(s):"
+
+          find packages \
+            -maxdepth 1 \
+            -type f \
+            -name "*.deb" \
+            -print
+
+      # 7. 上传对应版本
+      - name: Upload Package
+        uses: actions/upload-artifact@v4
+        with:
+          name: tweak-${{ matrix.scheme }}
+          path: repo/deb-plugin/packages/*.deb
+          if-no-files-found: error
+          retention-days: 30
