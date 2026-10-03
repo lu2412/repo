@@ -1280,6 +1280,46 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.kssmk
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: com.custom.kssmk
+Replaces: com.custom.kssmk
+Filename: ./debs/鹿路通精简-Rootless_1.0.deb
+Size: 10072
+MD5sum: d77f4674d03aff4b92d0e95bdde899c5
+SHA1: 572394174e502ccf0084b7309d21510a5a3a9c23
+SHA256: 6e3e27467f87123e2f8689d89e5be180a03464c47534338ba1f8687fa3b4facf
+Section: 软件精简
+Description: 去除开屏广告和启动弹窗
+ - 长按底部可隐藏底部tab栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 鹿路通精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.kssmk.json
+
+Package: com.custom.kssmk
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: com.custom.kssmk
+Replaces: com.custom.kssmk
+Filename: ./debs/鹿路通精简-RootHide_1.0.deb
+Size: 10072
+MD5sum: ebf755de6eedb0ff006f5147332560b8
+SHA1: fb21fd683cebb177fe4bcc272e97bfdd11910a09
+SHA256: aeac4e4eaa321d60f8c72ccd9c44c8236f52698e96058440084342b0530c5010
+Section: 软件精简
+Description: 去除开屏广告和启动弹窗
+ - 长按底部可隐藏底部tab栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 鹿路通精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
+
 Package: com.custom.reader
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -5701,18 +5741,18 @@ Name: 移除tikTok底部+号-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/tikTok-Rootless.json
 
 Package: xhs.x
-Version: 2.0.2
+Version: 2.0.6
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 5744
+Installed-Size: 9060
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 2284092
-MD5sum: ef9f71e8bdcc513c495be220b57744a4
-SHA1: c321df1e9f0aff1f551828d5c11c8dea04312de8
-SHA256: dded97142e37b513706845a54453552154020e7c7a989cac123664dcf846d103
+Size: 3557712
+MD5sum: f4bdc859715132f13e8f9ee818a4e30b
+SHA1: 693af14663a7bd30a8045ca9148e1c4a78f3279f
+SHA256: 45ae4761d29ab10b198728338369958efab9c1768387e15743a47b5b0108eb8d
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
@@ -5724,18 +5764,18 @@ Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/xhs.x.json
 
 Package: xhs.x
-Version: 2.0.2
+Version: 2.0.6
 Architecture: iphoneos-arm64e
 Maintainer: 𝙓
-Installed-Size: 5744
+Installed-Size: 9060
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-RootHide.deb
-Size: 2287952
-MD5sum: b0535fed52ff705f7938e9f9627685d8
-SHA1: 1daee83ad5dc6b7299e1b4cccae273888edfc39f
-SHA256: 8cee98d028bf8a7c684496f627b4aa92ceaef31db487e15cca7ba6581a09227a
+Size: 3558892
+MD5sum: 1c9ef250aeb0d5ef3f7bdd677c7a344a
+SHA1: 496da04f14462b352fac44af39b7df91930e9787
+SHA256: 4fc8f260fc1ec1b859277e52254e685f91f83c86de2618005e8c9e3d578abef2
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
