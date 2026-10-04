@@ -1194,6 +1194,44 @@ Author: Local User
 Name: 中国电信去开屏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.ctclient.json
 
+Package: com.custom.fleamarket1
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 小西大人
+Conflicts: com.custom.fleamarket
+Replaces: com.custom.fleamarket
+Filename: ./debs/闲鱼去广告-Rootless_1.0.deb
+Size: 9572
+MD5sum: bb733ab5d722d0c7bba628da6f03633b
+SHA1: 741a777602220504b5d44025e160625b6caf114c
+SHA256: fb735c26fb211f6fe3a7cb309472c01fbb482d01d749863dc61b03f7198f53ed
+Section: 软件精简
+Description: 去除首页及我的页面猜你喜欢推广广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 小西大人
+Name: 闲鱼去广告-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.fleamarket1.json
+
+Package: com.custom.fleamarket1
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 小西大人
+Conflicts: com.custom.fleamarket
+Replaces: com.custom.fleamarket
+Filename: ./debs/闲鱼去广告-RootHide_1.0.deb
+Size: 9560
+MD5sum: 084081039dac1f441eb74304d908ad96
+SHA1: c44cfaa51afd14fa46bfeebdbe5279c80a9bad00
+SHA256: ae6f537bfa66c0f3c7fa89984f2a2b839afa49fcfb2a81cd0126e13fc78f61bc
+Section: 软件精简
+Description: 去除首页及我的页面猜你喜欢推广广告
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 小西大人
+Name: 闲鱼去广告-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.fleamarket1.json
+
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1409,6 +1447,44 @@ Description: 面禁用截图预览
 Author: Local User
 Name: TIM优化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
+
+Package: com.custom.tim1
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.tim
+Replaces: com.custom.tim
+Filename: ./debs/Tim去底栏-RootHide_1.0.deb
+Size: 4416
+MD5sum: 8d2a691cf2b36bb4009b1f8b8964d8ec
+SHA1: 48a633b6ec73f0a50dca132f6e5d71c1e52b3034
+SHA256: dd11212584782a4f1a6f92d9fbe4dd088285185bb2e7bac9fabb6c96a0d6124d
+Section: 软件精简
+Description: 去除tim软件底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: Tim去底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim1.json
+
+Package: com.custom.tim1
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.tim
+Replaces: com.custom.tim
+Filename: ./debs/Tim去底栏-Rootless_1.0.deb
+Size: 4412
+MD5sum: 64a9608b19c2e6bbbfb2626f9b1448e0
+SHA1: 85447563c7cfb58ae51a63222f5537d9714fc021
+SHA256: 84c01b133e481c7de299af792cdbe783315327ca8c30edadd45224929ee95e85
+Section: 软件精简
+Description: 去除tim软件底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: Tim去底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim1.json
 
 Package: com.custom.zhuanzhuan
 Version: 1.0
