@@ -1158,41 +1158,45 @@ PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.ctclient
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Local User
-Conflicts: com.custom.ctclient, com.custom.ctclient
-Replaces: com.custom.ctclient, com.custom.ctclient
-Filename: ./debs/中国电信去开屏-Rootless_1.0.deb
-Size: 5544
-MD5sum: cc17fcdb4d694a125f258490b9d92964
-SHA1: 9710c32ac964efc424ff71a45fe7ec8e8d270c45
-SHA256: 3b6c3e718aa97141d95041cb5cb7a8cc527b61de114b15447a7ca83397776c3e
-Section: 软件增强
+Architecture: iphoneos-arm64e
+Maintainer: CtClient
+Conflicts: com.custom.ctclient
+Replaces: com.custom.ctclient
+Filename: ./debs/中国电信精简-RootHide_1.0.deb
+Size: 8764
+MD5sum: 6ad3b8e7f14e7dcb8374a7bc047c977f
+SHA1: 848e32f07935ccd967e84a294516903bfedb1670
+SHA256: 82aa2f0d8281bb8cd939c2d25a1c8dbfa2b79959507661f5ed7007427f462982
+Section: 软件精简
 Description: 去除电信开屏广告
+ - 精简底部tab栏，去除首页及我下方广告
+ - 插件无设置项安装即可生效
  - 支持目前最新版13.4.0
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: 中国电信去开屏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.ctclient.json
+Author: CtClient
+Name: 中国电信精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.ctclient.json
 
 Package: com.custom.ctclient
 Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Local User
-Conflicts: com.custom.ctclient, com.custom.ctclient
-Replaces: com.custom.ctclient, com.custom.ctclient
-Filename: ./debs/中国电信去开屏-RootHide_1.0.deb
-Size: 5544
-MD5sum: 26ead3aa5b4be8292295c1a39e016087
-SHA1: 0aca4d7d3790233c277d535a81339a2783adc61c
-SHA256: cce2f9af67b4f26cf3179e7b496ca245d8250e1febdcc1c4cb75ea40484d095f
-Section: 软件增强
+Architecture: iphoneos-arm64
+Maintainer: CtClient
+Conflicts: com.custom.ctclient
+Replaces: com.custom.ctclient
+Filename: ./debs/中国电信精简-Rootless_1.0.deb
+Size: 8756
+MD5sum: df34313d0bde8e788484e76c06ba3f8c
+SHA1: e677e94ad01779c691398a73b0843ca873430e99
+SHA256: 0ded0c4e64caf2abd4a12a0ab0b6369ef6b6b5885681247a63411a77d0cefb70
+Section: 软件精简
 Description: 去除电信开屏广告
+ - 精简底部tab栏，去除首页及我下方广告
+ - 插件无设置项安装即可生效
  - 支持目前最新版13.4.0
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: 中国电信去开屏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.ctclient.json
+Author: CtClient
+Name: 中国电信精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.ctclient.json
 
 Package: com.custom.fleamarket1
 Version: 1.0
