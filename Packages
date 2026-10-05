@@ -1362,6 +1362,46 @@ Author: lym
 Name: 鹿路通精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
 
+Package: com.custom.kssmk
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: com.custom.kssmk
+Replaces: com.custom.kssmk
+Filename: ./debs/鹿路通精简-Rootless_1.1.deb
+Size: 10956
+MD5sum: 4fe4b7a264375100f27ef587660b69b2
+SHA1: 8f400e2af3ea85c1e19620452365a8fe7edc02a1
+SHA256: 66a3a6b6a2559c208bbca64c8b7c9d095e0da311e5765516f6b2a92f1f2a844d
+Section: 软件精简
+Description: 去除开屏广告和启动弹窗
+ - 长按底部可隐藏底部tab栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 鹿路通精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.kssmk.json
+
+Package: com.custom.kssmk
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: com.custom.kssmk
+Replaces: com.custom.kssmk
+Filename: ./debs/鹿路通精简-RootHide_1.1.deb
+Size: 10960
+MD5sum: 56fd4b1fc1428ba1240b7e061890cbfb
+SHA1: 58b95dadb66a2de4221fe70203999f9017e064a9
+SHA256: cbe0515da875b1a6dc680b59e83bd83bd438c3c70f12668a01db48cfdafbf7ec
+Section: 软件精简
+Description: 去除开屏广告和启动弹窗
+ - 长按底部可隐藏底部tab栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 鹿路通精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
+
 Package: com.custom.reader
 Version: 1.0
 Architecture: iphoneos-arm64e
