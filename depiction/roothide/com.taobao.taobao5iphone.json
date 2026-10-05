@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 默认去除电信开屏广告\n- 精简底部tab栏，去除首页及我下方广告\n- 插件无设置项安装即可生效\n- 支持目前最新版13.4.0\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 淘宝底栏去除底部视频，排版重构\n- 长按底栏弹出窗口可自行设置隐藏项\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "lym"
+          "text": "� lym"
         },
         {
           "class": "DepictionTableTextView",
