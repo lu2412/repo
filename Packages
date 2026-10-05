@@ -1159,82 +1159,48 @@ PaymentProvider: https://127.0.0.1/null
 Package: com.custom.ctclient
 Version: 1.0
 Architecture: iphoneos-arm64e
-Maintainer: CtClient
+Maintainer: lym
 Conflicts: com.custom.ctclient
 Replaces: com.custom.ctclient
-Filename: ./debs/中国电信精简-RootHide_1.0.deb
-Size: 8764
-MD5sum: 6ad3b8e7f14e7dcb8374a7bc047c977f
-SHA1: 848e32f07935ccd967e84a294516903bfedb1670
-SHA256: 82aa2f0d8281bb8cd939c2d25a1c8dbfa2b79959507661f5ed7007427f462982
+Filename: ./debs/no_download/protected.deb
+Size: 8780
+MD5sum: 314d8a3b7870b5def3138b86c27033c6
+SHA1: 8e8ecaf207a314e586e09302127dc5040431b493
+SHA256: e5aa7da4f00d8f0d36c6888e698025803cec8d5fe963eaf06c0a859b8e4aab1e
 Section: 软件精简
-Description: 去除电信开屏广告
+Description: 默认去除电信开屏广告
  - 精简底部tab栏，去除首页及我下方广告
  - 插件无设置项安装即可生效
  - 支持目前最新版13.4.0
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: CtClient
+Author: lym
 Name: 中国电信精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.ctclient.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.ctclient
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: CtClient
+Maintainer: lym
 Conflicts: com.custom.ctclient
 Replaces: com.custom.ctclient
-Filename: ./debs/中国电信精简-Rootless_1.0.deb
-Size: 8756
-MD5sum: df34313d0bde8e788484e76c06ba3f8c
-SHA1: e677e94ad01779c691398a73b0843ca873430e99
-SHA256: 0ded0c4e64caf2abd4a12a0ab0b6369ef6b6b5885681247a63411a77d0cefb70
+Filename: ./debs/no_download/protected.deb
+Size: 8772
+MD5sum: 3865d2fa5dbf3ac126cb5fa3ad4e6831
+SHA1: 6a879dd65013fb4e05d154281f2bbd841cfb237c
+SHA256: 9a7a4f14eaac53ed78fba53e6892ba593d45985498347817cc9b7cf23269baee
 Section: 软件精简
-Description: 去除电信开屏广告
+Description: 默认去除电信开屏广告
  - 精简底部tab栏，去除首页及我下方广告
  - 插件无设置项安装即可生效
  - 支持目前最新版13.4.0
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: CtClient
+Author: lym
 Name: 中国电信精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.ctclient.json
-
-Package: com.custom.fleamarket1
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 小西大人
-Conflicts: com.custom.fleamarket
-Replaces: com.custom.fleamarket
-Filename: ./debs/闲鱼去广告-Rootless_1.0.deb
-Size: 9572
-MD5sum: bb733ab5d722d0c7bba628da6f03633b
-SHA1: 741a777602220504b5d44025e160625b6caf114c
-SHA256: fb735c26fb211f6fe3a7cb309472c01fbb482d01d749863dc61b03f7198f53ed
-Section: 软件精简
-Description: 去除首页及我的页面猜你喜欢推广广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 小西大人
-Name: 闲鱼去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.fleamarket1.json
-
-Package: com.custom.fleamarket1
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 小西大人
-Conflicts: com.custom.fleamarket
-Replaces: com.custom.fleamarket
-Filename: ./debs/闲鱼去广告-RootHide_1.0.deb
-Size: 9560
-MD5sum: 084081039dac1f441eb74304d908ad96
-SHA1: c44cfaa51afd14fa46bfeebdbe5279c80a9bad00
-SHA256: ae6f537bfa66c0f3c7fa89984f2a2b839afa49fcfb2a81cd0126e13fc78f61bc
-Section: 软件精简
-Description: 去除首页及我的页面猜你喜欢推广广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: 小西大人
-Name: 闲鱼去广告-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.fleamarket1.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.jdmobile
 Version: 1.0
@@ -1323,52 +1289,12 @@ Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.kssmk
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: com.custom.kssmk
-Replaces: com.custom.kssmk
-Filename: ./debs/鹿路通精简-Rootless_1.0.deb
-Size: 10072
-MD5sum: d77f4674d03aff4b92d0e95bdde899c5
-SHA1: 572394174e502ccf0084b7309d21510a5a3a9c23
-SHA256: 6e3e27467f87123e2f8689d89e5be180a03464c47534338ba1f8687fa3b4facf
-Section: 软件精简
-Description: 去除开屏广告和启动弹窗
- - 长按底部可隐藏底部tab栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 鹿路通精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.kssmk.json
-
-Package: com.custom.kssmk
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: lym
-Conflicts: com.custom.kssmk
-Replaces: com.custom.kssmk
-Filename: ./debs/鹿路通精简-RootHide_1.0.deb
-Size: 10072
-MD5sum: ebf755de6eedb0ff006f5147332560b8
-SHA1: fb21fd683cebb177fe4bcc272e97bfdd11910a09
-SHA256: aeac4e4eaa321d60f8c72ccd9c44c8236f52698e96058440084342b0530c5010
-Section: 软件精简
-Description: 去除开屏广告和启动弹窗
- - 长按底部可隐藏底部tab栏
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 鹿路通精简-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
-
-Package: com.custom.kssmk
 Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: lym
 Conflicts: com.custom.kssmk
 Replaces: com.custom.kssmk
-Filename: ./debs/鹿路通精简-Rootless_1.1.deb
+Filename: ./debs/no_download/protected.deb
 Size: 10956
 MD5sum: 4fe4b7a264375100f27ef587660b69b2
 SHA1: 8f400e2af3ea85c1e19620452365a8fe7edc02a1
@@ -1381,6 +1307,8 @@ Description: 去除开屏广告和启动弹窗
 Author: lym
 Name: 鹿路通精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.kssmk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.kssmk
 Version: 1.1
@@ -1388,7 +1316,7 @@ Architecture: iphoneos-arm64e
 Maintainer: lym
 Conflicts: com.custom.kssmk
 Replaces: com.custom.kssmk
-Filename: ./debs/鹿路通精简-RootHide_1.1.deb
+Filename: ./debs/no_download/protected.deb
 Size: 10960
 MD5sum: 56fd4b1fc1428ba1240b7e061890cbfb
 SHA1: 58b95dadb66a2de4221fe70203999f9017e064a9
@@ -1401,6 +1329,52 @@ Description: 去除开屏广告和启动弹窗
 Author: lym
 Name: 鹿路通精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.netdisk
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: com.custom.netdisk
+Replaces: com.custom.netdisk
+Filename: ./debs/no_download/protected.deb
+Size: 10804
+MD5sum: 6df18f7ba3b42848438c946cc3d202c3
+SHA1: 114b576225014b5f6b0a05eff4d99c8b466e0824
+SHA256: 6cf2c5ee07d08c571f41e4f00aee224d3a12119e20ee826bb12b25d805ceb2a6
+Section: 软件精简
+Description: 只保留“文件”和“我的”两个tab栏
+ - 默认去除其它无用底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 百度网盘精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.netdisk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.netdisk
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: com.custom.netdisk
+Replaces: com.custom.netdisk
+Filename: ./debs/no_download/protected.deb
+Size: 10792
+MD5sum: 935cadf584a934abc49b3e0e3b774d2e
+SHA1: ca32f80c574f676e1595ae2f0d01b5d7223e8801
+SHA256: 664087ac4dc4306bb452d479fcfc723781e470d8d9bd760c7d030b1f2848edcf
+Section: 软件精简
+Description: 只保留“文件”和“我的”两个tab栏
+ - 默认去除其它无用底栏
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 百度网盘精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.netdisk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.reader
 Version: 1.0
@@ -1443,6 +1417,48 @@ Description: 去除多看阅读无用底栏
 Author: Local User
 Name: 多看阅读精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.reader.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.taobao4iphone
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: lym
+Conflicts: com.custom.taobao4iphone
+Replaces: com.custom.taobao4iphone
+Filename: ./debs/no_download/protected.deb
+Size: 9448
+MD5sum: 96fcc0470a727a94884ea3420de7c894
+SHA1: c47e5d3f3348c47833a223cb7ea07a722eb0923b
+SHA256: 0bbca94127f60c32e50b9e964eade77b7a23a04446302ab78908c47b5e8d4d4b
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 长按底栏弹出窗口可自行设置隐藏项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 淘宝精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.taobao4iphone.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.taobao4iphone
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: lym
+Conflicts: com.custom.taobao4iphone
+Replaces: com.custom.taobao4iphone
+Filename: ./debs/no_download/protected.deb
+Size: 9480
+MD5sum: 2c60459aecb0f3583dd8e1742de08c65
+SHA1: 2951a2a413ea9639bfd713a8702c1f22a659c433
+SHA256: 7000f7923ad3085ff2df770db0be55e1ece4ebb8a5514ed6afe132cfaa2b3652
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 长按底栏弹出窗口可自行设置隐藏项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: lym
+Name: 淘宝精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -1981,52 +1997,6 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.gdtc.json
-
-Package: com.guiqi.cleantb
-Version: 1.0.9
-Architecture: iphoneos-arm64e
-Maintainer: GUIQI
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.guiqi.cleantb
-Replaces: com.guiqi.cleantb
-Filename: ./debs/no_download/protected.deb
-Size: 6044
-MD5sum: 73e8aa1aeb952f1902dfd711a73ee909
-SHA1: aa8f96179656fd628c633ff8d0ce7a990db820dd
-SHA256: eb16836f58ffea5b9204cd4e432cd9324d86c7c322fd4605a08fed7e66377467
-Section: 软件精简
-Description: 淘宝底栏去除底部视频，排版重构
- - 仅此单一功能，插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: GUIQI
-Name: 淘宝净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.guiqi.cleantb.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.guiqi.cleantb
-Version: 1.0.9
-Architecture: iphoneos-arm64
-Maintainer: GUIQI
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.guiqi.cleantb
-Replaces: com.guiqi.cleantb
-Filename: ./debs/no_download/protected.deb
-Size: 5864
-MD5sum: 194270f798f0e6fca78e90741cf3d2dc
-SHA1: fcedc28a359453d68f8b7713c7db5ab59febbd08
-SHA256: d54fd38f5a8579e61f9b37183967cead079ad0797386bea9b99a55293bdfde7b
-Section: 软件精简
-Description: 淘宝底栏去除底部视频，排版重构
- - 仅此单一功能，插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: GUIQI
-Name: 淘宝净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.guiqi.cleantb.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
@@ -5385,18 +5355,18 @@ Name: 百度贴吧去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.huayuarc.bdtbnoads.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.0
+Version: 11.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 20244
+Installed-Size: 12292
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 4460708
-MD5sum: 5d5b992ba4d7d90053fb7d90593a5a0a
-SHA1: 8758e5e723667a6131d1f32ab07181300f17242d
-SHA256: f2af2473170705ee8c972aae78e0ea09269fd353d8a798f6a9cedd8242d5a648
+Size: 2719292
+MD5sum: 124c65a6576495369c2434752a6eb3a4
+SHA1: 86be067ba9197d596836fa3153b6100eb30ac0d6
+SHA256: aebc45d5ad343fe45475e08607bc638df2ee0adab6dfbe4b30fd20179ff8f97c
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -5407,18 +5377,18 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.0
+Version: 11.1
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 20276
+Installed-Size: 12324
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 4478988
-MD5sum: f4a14ab38b3598e84c485adaa8f6c099
-SHA1: 19b46596f223e97ce741d9437442ca1c2ad2f378
-SHA256: 12d49d91384d0d74cadd6a77dbb7ab6fb106e2178cd882664724302a7f3a5290
+Size: 2722816
+MD5sum: 75ab2530d8acff245b20fd09ae45de29
+SHA1: 7e936edf4bb731a6b27dcdad6edb3a08053d57ee
+SHA256: 8f1b810e505452753516a5cec4d70f368f11147b80a20beb773b8bd998bbf6b3
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
