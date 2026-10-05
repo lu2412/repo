@@ -1462,6 +1462,44 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.taobao4iphone
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: Local User
+Conflicts: com.custom.taobao4iphone
+Replaces: com.custom.taobao4iphone
+Filename: ./debs/淘宝精简底栏-RootHide_1.1.deb
+Size: 12432
+MD5sum: e6ab7c4c68219e1d1092551a460eb088
+SHA1: 2e541a11098566d1c4ef0f0e0c8ddc97ecdbca4e
+SHA256: 42a33975b63312af3462561c2fe193878e7e7ab1ea4abe9f81c0833b6553947b
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 长按底栏弹出窗口可自行设置隐藏项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 淘宝精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.taobao4iphone.json
+
+Package: com.custom.taobao4iphone
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: Local User
+Conflicts: com.custom.taobao4iphone
+Replaces: com.custom.taobao4iphone
+Filename: ./debs/淘宝精简底栏-Rootless_1.1.deb
+Size: 12444
+MD5sum: ff1fac3dbabc86d22d1acb4461d36b9d
+SHA1: d6f66f63ae9b2d0a55c394d64730de0de306abc9
+SHA256: 2cbef88e78e0114b06828778b86528c8a1046c168c5c43453137ea54f37a4a66
+Section: 软件精简
+Description: 淘宝底栏去除底部视频，排版重构
+ - 长按底栏弹出窗口可自行设置隐藏项
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Local User
+Name: 淘宝精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
+
 Package: com.custom.tim
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2371,18 +2409,18 @@ Name: Zone 交互壁纸-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosdump.zone.json
 
 Package: com.jaysuen.evocenter
-Version: 2.5.0-beta.2
+Version: 3.0.0-beta.2
 Architecture: iphoneos-arm64e
-Maintainer: chatgpt5.6（sol）, JaySuen
-Installed-Size: 11068
-Depends: mobilesubstrate, com.opa334.ccsupport
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 12524
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-RootHide.deb
-Size: 332092
-MD5sum: b2712614c37c7864692d32045496c901
-SHA1: bcc7bc8ee10d4a5d03ba91a45732b7f73de1f485
-SHA256: a31688cca12502eb964a82276f7bb0329fd3b65b8c514bf46d0d53279aa6d49f
+Size: 700696
+MD5sum: 9c253062ae946294a009fc96c1e442f6
+SHA1: d811d663e87715089c73f74d01cb9ed5c2492e8b
+SHA256: 66a1240e56962089db74a48e1d252a52264af22f8bb540b03bb3f1459b3439ce
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -2391,23 +2429,23 @@ Description: 重新定义你的控制中心：自由调整模块布局，让常�
  - 反馈Bug和建议：在酷安 App 搜索JAYSuen私信，或搜索Evo Center找到最新帖子评论。
  - 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Name: Evo Center控制中心-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.jaysuen.evocenter.json
 
 Package: com.jaysuen.evocenter
-Version: 2.5.0-beta.2
+Version: 3.0.0-beta.2
 Architecture: iphoneos-arm64
-Maintainer: chatgpt5.6（sol）, JaySuen
-Installed-Size: 10468
-Depends: mobilesubstrate, com.opa334.ccsupport
+Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
+Installed-Size: 11932
+Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-Rootless.deb
-Size: 303468
-MD5sum: 29e61fe0c062966eb8e8d4e64f3adee7
-SHA1: 253b8d214ec0b8fec4535ce910732722dfa5fb3b
-SHA256: d40ae9cc48ad076a788d4cbeecc825223f5de22db0d54b62197d5edfb9750e0d
+Size: 671548
+MD5sum: a00fa2f7214d727fcd31fba437cb7282
+SHA1: 00521372825870c27bfae9ea057f6ef13f4e188c
+SHA256: 1c8d490c35f50e254f8ea6f993933732eac70a602b3217ce77ce0050c8ab2157
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -2416,7 +2454,7 @@ Description: 重新定义你的控制中心：自由调整模块布局，让常�
  - 反馈Bug和建议：在酷安 App 搜索JAYSuen私信，或搜索Evo Center找到最新帖子评论。
  - 向 ccborder16、horizontalsliders、bettercc 致敬，感谢其设计与实现带来的启发。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: chatgpt5.6（sol）, JaySuen
+Author: chatgpt5.6sol, chatgpt6.1sol, JaySuen
 Name: Evo Center控制中心-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.jaysuen.evocenter.json
 
@@ -5355,7 +5393,7 @@ Name: 百度贴吧去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.huayuarc.bdtbnoads.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.1
+Version: 11.2
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 12292
@@ -5363,10 +5401,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2719292
-MD5sum: 124c65a6576495369c2434752a6eb3a4
-SHA1: 86be067ba9197d596836fa3153b6100eb30ac0d6
-SHA256: aebc45d5ad343fe45475e08607bc638df2ee0adab6dfbe4b30fd20179ff8f97c
+Size: 2722684
+MD5sum: 24d65fbbbac5afb84e98115b39edd7ae
+SHA1: d972a0397edfb8a04e475b7c95ed8e64b4ec70f4
+SHA256: 807fb827a09997b9efaae6c8592411329aa8c55e65613c5f862563ab21ae6546
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -5377,7 +5415,7 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.1
+Version: 11.2
 Architecture: iphoneos-arm64
 Maintainer: iosdump
 Installed-Size: 12324
@@ -5385,10 +5423,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2722816
-MD5sum: 75ab2530d8acff245b20fd09ae45de29
-SHA1: 7e936edf4bb731a6b27dcdad6edb3a08053d57ee
-SHA256: 8f1b810e505452753516a5cec4d70f368f11147b80a20beb773b8bd998bbf6b3
+Size: 2723060
+MD5sum: 187d7cd75803516b5c744efe4e16ce10
+SHA1: c71959984ab1c2d4a8567f6eab54f21164f71167
+SHA256: 479ba36e4f3e248d05a5f1af4130d42d305fb78f5acfefb0dee3a716574c33ce
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
