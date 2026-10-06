@@ -16,13 +16,8 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 默认移除一些广告\n- 无水印保存图片、视频、live图、评论区图片,长按复制文案\n- 放大图片双指长按可保存高分辨率图片\n- APP设置界面右上角打开插件界面或双指长按设置界面\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        }, {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 15,
-      "itemSize": "{300,533}",
-      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/xhs.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/xhs1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/zhs2.png"}]
-    },
+          "markdown": "### 插件介绍\n- 精简tikTok底栏tab栏\n- 长按底部触发弹窗，可自行选项\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -32,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "𝙓"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.0.7"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -55,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.0.7\n- 新增视频全屏\n- 新增移除视频页面相关搜索\n- 新增移除视频页面热点"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.0.6\n- 优化下载按钮位置\n- 修复部分长视频下载后无声音"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 更新支持RootHide"}
       ]
     }
   ]
