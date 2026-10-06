@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 隐藏-首页\n- 隐藏-多多视频\n- 隐藏-中秋立减\n- 隐藏-聊天\n- 隐藏-个人中心\n- 精简聊天页面\n- 精简个人中心\n- 禁用截图分享\n- 拼多多底栏长按弹出面板\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 支持视图隐藏自定义\n- 默认去除首页及个人中心瀑布流推广广告\n- 长按底栏区域唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Local User"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月27日"
+          "text": "2026年10月07日"
         }
       ]
     },

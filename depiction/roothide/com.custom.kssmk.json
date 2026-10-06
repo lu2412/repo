@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "lym"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月05日"
+          "text": "2026年10月07日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 彻底解决不能隐藏中间按钮问题"}
       ]
     }
   ]
