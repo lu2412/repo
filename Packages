@@ -1515,20 +1515,20 @@ PaymentProvider: https://127.0.0.1/null
 Package: com.custom.kssmk
 Version: 1.1
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: donk
 Conflicts: com.custom.kssmk
 Replaces: com.custom.kssmk
 Filename: ./debs/no_download/protected.deb
-Size: 10956
-MD5sum: 4fe4b7a264375100f27ef587660b69b2
-SHA1: 8f400e2af3ea85c1e19620452365a8fe7edc02a1
-SHA256: 66a3a6b6a2559c208bbca64c8b7c9d095e0da311e5765516f6b2a92f1f2a844d
+Size: 9980
+MD5sum: 6732ae2d84d25ce848abf90fe17ccc9e
+SHA1: 3b5e707d1d161e71d1b931e185fda8b2d9db20f9
+SHA256: 2ed263c114dcf11646d8abe43443999bfd6b24bc236ec38259d25a9e490cf72f
 Section: 软件精简
 Description: 去除开屏广告和启动弹窗
  - 长按底部可隐藏底部tab栏
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
+Author: donk
 Name: 鹿路通精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.kssmk.json
 Tag: cydia::commercial
@@ -1537,20 +1537,20 @@ PaymentProvider: https://127.0.0.1/null
 Package: com.custom.kssmk
 Version: 1.1
 Architecture: iphoneos-arm64e
-Maintainer: lym
+Maintainer: donk
 Conflicts: com.custom.kssmk
 Replaces: com.custom.kssmk
 Filename: ./debs/no_download/protected.deb
-Size: 10960
-MD5sum: 56fd4b1fc1428ba1240b7e061890cbfb
-SHA1: 58b95dadb66a2de4221fe70203999f9017e064a9
-SHA256: cbe0515da875b1a6dc680b59e83bd83bd438c3c70f12668a01db48cfdafbf7ec
+Size: 9988
+MD5sum: 855bc6a15d24998ce9667182f759a22e
+SHA1: 583856bc93fae4bcb5ed53cf786235e1faae83be
+SHA256: 21f95b500425c78a6a59492678a868dcf6591c4d78169ae283e033892d263b63
 Section: 软件精简
 Description: 去除开屏广告和启动弹窗
  - 长按底部可隐藏底部tab栏
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
+Author: donk
 Name: 鹿路通精简-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.kssmk.json
 Tag: cydia::commercial
@@ -1641,6 +1641,52 @@ Description: 只保留“文件”和“我的”两个tab栏
 Author: lym
 Name: 百度网盘精简底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.netdisk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.pinduoduo
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.pinduoduo
+Replaces: com.custom.pinduoduo
+Filename: ./debs/no_download/protected.deb
+Size: 15312
+MD5sum: a38aa91630e594708401499a4ff95570
+SHA1: 71a15d2f54e36cad9e2e933b45c34b688b47500c
+SHA256: 8418bdd59a036522014318a1a3571f55b456801a05d1ee9460bb713704d4fdca
+Section: 软件精简
+Description: 支持视图隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 默认去除首页及个人中心瀑布流推广广告
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 拼多多精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.pinduoduo.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.pinduoduo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.pinduoduo
+Replaces: com.custom.pinduoduo
+Filename: ./debs/no_download/protected.deb
+Size: 15332
+MD5sum: a765324d66fc30d287844a53887bf377
+SHA1: 0267bc9cba6cb4ed7977b8485eb78d28cb915449
+SHA256: d4651c35c3bc28c83303c7d99fd19261e9ce84ba377749f2aa780910c1233066
+Section: 软件精简
+Description: 支持视图隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 默认去除首页及个人中心瀑布流推广广告
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 拼多多精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.pinduoduo.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -3762,58 +3808,6 @@ Description: Safari中长按共享按钮弹出搜索框
 Author: P2KDev <p2kdev@gmail.com>
 Name: Safari小增强-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.p2kdev.safarifind.json
-
-Package: com.pdd
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Local User
-Conflicts: com.custom..rootless, com.custom..rootless
-Replaces: com.custom..rootless, com.custom..rootless
-Filename: ./debs/拼多多优化-Rootless_1.0.deb
-Size: 13352
-MD5sum: 04b11a7cb7a6b7ad774b01494377c626
-SHA1: d117f07d5243785bbf42fb7483a64e6e06bc6bb0
-SHA256: 6f5da601596445e2d776db0745db11c1a973024588ff80d175f0ac4522e1472e
-Section: 软件精简
-Description: 隐藏-首页
- - 隐藏-多多视频
- - 隐藏-中秋立减
- - 隐藏-聊天
- - 隐藏-个人中心
- - 精简聊天页面
- - 精简个人中心
- - 禁用截图分享
- - 拼多多底栏长按弹出面板
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: 拼多多优化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.pdd.json
-
-Package: com.pdd
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Local User
-Conflicts: com.custom..roothide, com.custom..roothide
-Replaces: com.custom..roothide, com.custom..roothide
-Filename: ./debs/拼多多优化-RootHide_1.0.deb
-Size: 13368
-MD5sum: 3119a7ab9e8a45cb7287087862ee8e3c
-SHA1: 70b7906efb79b4bf9b14de54a0f20cdb7f9a75b5
-SHA256: d15e0a67ff0007dab6ca362569af531830a25667c8a1909ffa29846035fe0216
-Section: 软件精简
-Description: 隐藏-首页
- - 隐藏-多多视频
- - 隐藏-中秋立减
- - 隐藏-聊天
- - 隐藏-个人中心
- - 精简聊天页面
- - 精简个人中心
- - 禁用截图分享
- - 拼多多底栏长按弹出面板
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: 拼多多优化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.pdd.json
 
 Package: com.recordpause
 Version: 2.0.7
