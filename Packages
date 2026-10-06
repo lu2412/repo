@@ -1288,6 +1288,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.dingtalk
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.dingtalk
+Replaces: com.custom.dingtalk
+Filename: ./debs/no_download/protected.deb
+Size: 8604
+MD5sum: 3f033f6b9e6c0a668080445836c11781
+SHA1: d8eff8576f88aec57cc2ad3ead6bcd6bc527237b
+SHA256: bd6ee6b4de71ac5f9bdfa0b163a041c6eae1d6d1b96da2ce51f61b3c3a0724b1
+Section: 软件增强
+Description: 个人自用小布丁
+ - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 钉钉默认消息列-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.dingtalk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.dingtalk
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.dingtalk
+Replaces: com.custom.dingtalk
+Filename: ./debs/no_download/protected.deb
+Size: 8584
+MD5sum: fd3a4db73f8ade2f5b650fd695a8a385
+SHA1: db7b423dbe152c0f9558126e886d60797ad95e8e
+SHA256: 51e5b514e441f772ef82a18f4d1e5fb445d72c9f705a53c34770f1b0b57db830
+Section: 软件增强
+Description: 个人自用小布丁
+ - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 钉钉默认消息列-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.dingtalk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
