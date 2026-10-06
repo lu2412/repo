@@ -684,6 +684,56 @@ Author: Custom
 Name: Sileo刷新报错汉化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.aptzh.json
 
+Package: com.banshengnianhua.tracex
+Version: 1.0.8
+Architecture: iphoneos-arm64e
+Maintainer: 半生年华
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.banshengnianhua.tracex
+Replaces: com.banshengnianhua.tracex
+Filename: ./debs/no_download/protected.deb
+Size: 46816
+MD5sum: 0dd669c9d98871fc4769a0b88549e26a
+SHA1: fa6e86500477b3fb618d8f4d5f0eeb531fb4f932
+SHA256: bebb4398315515bb2375208c7c6a394853f9580e83c64931c9188546eccca3f4
+Section: 越狱增强
+Description: 可选择目标App的原生交互与函数入口追踪工具。
+ - 记录触摸/View 层级、UIControl与手势target/action、页面跳转、NSURLSession/WKWebView请求和外部URL。
+ - 只有明确开启的普通用户App才加载重型追踪核心；系统/越狱App不加载TraceXCore。
+ - 每次目标App新进程启动都会重置Documents/TraceX.log。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: TraceX日志抓取-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.banshengnianhua.tracex.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.banshengnianhua.tracex
+Version: 1.0.8
+Architecture: iphoneos-arm64
+Maintainer: 半生年华
+Installed-Size: 584
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.banshengnianhua.tracex
+Replaces: com.banshengnianhua.tracex
+Filename: ./debs/no_download/protected.deb
+Size: 46900
+MD5sum: 61149d84bdd0d628d4e90be26b4b4c8d
+SHA1: a0d452918bfa76fa8cb019c706f2d2476ab0344d
+SHA256: efcd5dbc62bde2a56d02fe5c05b0e7fdeceb192ceef52bd18206eab014041766
+Section: 越狱增强
+Description: 可选择目标App的原生交互与函数入口追踪工具。
+ - 记录触摸/View 层级、UIControl与手势target/action、页面跳转、NSURLSession/WKWebView请求和外部URL。
+ - 只有明确开启的普通用户App才加载重型追踪核心；系统/越狱App不加载TraceXCore。
+ - 每次目标App新进程启动都会重置Documents/TraceX.log。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 半生年华
+Name: TraceX日志抓取-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.banshengnianhua.tracex.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.be-huge.floating-view
 Version: 1.6.0-1
 Architecture: iphoneos-arm64
@@ -1332,6 +1382,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.dingtalk
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.dingtalk
+Replaces: com.custom.dingtalk
+Filename: ./debs/no_download/protected.deb
+Size: 9568
+MD5sum: 4ef90bf6524b39685b23d90ac7bce276
+SHA1: e945b1af3589495bbb1a02b6ecf70eff7d0ccd21
+SHA256: 767f246edda1cd2db3ecfa46c80ac2b9790aa57f7cc2cfd404c977ff28067c6f
+Section: 软件增强
+Description: 个人自用小布丁
+ - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 钉钉默认消息列-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.dingtalk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.dingtalk
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.dingtalk
+Replaces: com.custom.dingtalk
+Filename: ./debs/no_download/protected.deb
+Size: 9564
+MD5sum: a6b834d59371e18412328f50e9915db7
+SHA1: 4ae458cd6ddcfa13eee02db0514b571e2bcd8a3c
+SHA256: 3ab20a7b58313ec1b3ecfb29ca1bcad4cc41170ca90f018d02ba9c87448a4ca2
+Section: 软件增强
+Description: 个人自用小布丁
+ - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 钉钉默认消息列-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.dingtalk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1761,6 +1855,50 @@ Description: 去除tim软件底栏
 Author: Local User
 Name: Tim去底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim1.json
+
+Package: com.custom.weibo
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.weibo
+Replaces: com.custom.weibo
+Filename: ./debs/no_download/protected.deb
+Size: 14564
+MD5sum: e3f3d2be1f9f662e46eec9147443e357
+SHA1: 994062e8efb054bc7e5dfca38c13bba12f113e2d
+SHA256: e2117472c91d973f244bf28b2b78c51a9cbf2c2b96d5cbb9cd8d97b498b49bd2
+Section: 软件精简
+Description: 双指长按任意位置弹出设置项
+ - 隐藏底部微博-视频-发现-消息-我
+ - 及去除各种广告
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 微博精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.weibo.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.weibo
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.weibo
+Replaces: com.custom.weibo
+Filename: ./debs/no_download/protected.deb
+Size: 14584
+MD5sum: 3c34343fae63aa64e4d3100f7475006a
+SHA1: 0ac4178a275716e845a1feb8ef484af272c804f3
+SHA256: 5fd31ecc1665280416ea1b75c13d5741c84729277fc100d049acd4b85b490591
+Section: 软件精简
+Description: 双指长按任意位置弹出设置项
+ - 隐藏底部微博-视频-发现-消息-我
+ - 及去除各种广告
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 微博精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.weibo.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.zhuanzhuan
 Version: 1.0
