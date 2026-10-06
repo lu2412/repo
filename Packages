@@ -1156,6 +1156,92 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.appstore
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: 小西大人
+Conflicts: com.custom.appstore
+Replaces: com.custom.appstore
+Filename: ./debs/no_download/protected.deb
+Size: 16988
+MD5sum: e68826fb4ec5ac70ea79b860c2c82eb5
+SHA1: f27d0fdd4ffc66d37c9067306834530f3c42a663
+SHA256: 626699a5c201682ef94f5d605e6d4c2452a55398e54351859e7ed9d94b0ddc09
+Section: 软件精简
+Description: 双指长按弹出设置项
+ - 自行选择隐藏底栏项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 小西大人
+Name: 美的美居精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.appstore.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.appstore
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: 小西大人
+Conflicts: com.custom.appstore
+Replaces: com.custom.appstore
+Filename: ./debs/no_download/protected.deb
+Size: 16980
+MD5sum: ad24610872dbaa6e4c6cae2647f4d263
+SHA1: 088cf97108267bd8079e7ff5685d458a53d502df
+SHA256: df4b2923ad9f7aa29451df9336eb235a7c607712d4eb7fc4e29041f36a42a419
+Section: 软件精简
+Description: 双指长按弹出设置项
+ - 自行选择隐藏底栏项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: 小西大人
+Name: 美的美居精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.appstore.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.cerulean
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.cerulean
+Replaces: com.custom.cerulean
+Filename: ./debs/no_download/protected.deb
+Size: 6460
+MD5sum: 3cf77937f95dde6c89200b71b64885f3
+SHA1: 0790d30aeb87c7c3ac09956d892aa6164be1a053
+SHA256: f1f8c9c8eefacdf24c8243e53affc7e94d3fec87331084646769063e1cfbc9dc
+Section: 软件增强
+Description: 比较喜欢Cerulean软件的计算器功能，做了一个小插件可以在打开软件时直达计算器功能
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: Cerulean直达计算器-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.cerulean.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.cerulean
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.cerulean
+Replaces: com.custom.cerulean
+Filename: ./debs/no_download/protected.deb
+Size: 6468
+MD5sum: d5fa7f842a6338f65ceecec2cb836af1
+SHA1: 77507f8044bcd64dc1b256eef69cdd2f25928c7c
+SHA256: c66cf5b921384efd01ecaffec5e26708f3ea8edf6a37889cd41ba687ad433d4b
+Section: 软件增强
+Description: 比较喜欢Cerulean软件的计算器功能，做了一个小插件可以在打开软件时直达计算器功能
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: Cerulean直达计算器-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.cerulean.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.ctclient
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1332,6 +1418,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.musically
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.musically
+Replaces: com.custom.musically
+Filename: ./debs/no_download/protected.deb
+Size: 9688
+MD5sum: 12ad0229d7428ab394bf85c83db842f5
+SHA1: c91eebfbbabbf528b4497c3d295807942ccf107e
+SHA256: 42c41580a4717d0e8157ca6801f0221791d52bb6ec4f6691bdeee66f071202af
+Section: 软件精简
+Description: 精简tikTok底栏tab栏
+ - 长按底部触发弹窗，可自行选项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: tikTok精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.musically.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.musically
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.musically
+Replaces: com.custom.musically
+Filename: ./debs/no_download/protected.deb
+Size: 9704
+MD5sum: 33717f68a1c815faacfc935728e0fc28
+SHA1: b842106a0fb0df182a94fd6a19587d71fc801924
+SHA256: 76e6b2663509c266a86bdd47f554767eeebd98efe7bb81e6bf10b3d39d040add
+Section: 软件精简
+Description: 精简tikTok底栏tab栏
+ - 长按底部触发弹窗，可自行选项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: tikTok精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.musically.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.netdisk
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -1468,7 +1598,7 @@ Architecture: iphoneos-arm64e
 Maintainer: Local User
 Conflicts: com.custom.taobao4iphone
 Replaces: com.custom.taobao4iphone
-Filename: ./debs/淘宝精简底栏-RootHide_1.1.deb
+Filename: ./debs/no_download/protected.deb
 Size: 12432
 MD5sum: e6ab7c4c68219e1d1092551a460eb088
 SHA1: 2e541a11098566d1c4ef0f0e0c8ddc97ecdbca4e
@@ -1480,6 +1610,8 @@ Description: 淘宝底栏去除底部视频，排版重构
 Author: Local User
 Name: 淘宝精简底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.taobao4iphone.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.taobao4iphone
 Version: 1.1
@@ -1487,7 +1619,7 @@ Architecture: iphoneos-arm64
 Maintainer: Local User
 Conflicts: com.custom.taobao4iphone
 Replaces: com.custom.taobao4iphone
-Filename: ./debs/淘宝精简底栏-Rootless_1.1.deb
+Filename: ./debs/no_download/protected.deb
 Size: 12444
 MD5sum: ff1fac3dbabc86d22d1acb4461d36b9d
 SHA1: d6f66f63ae9b2d0a55c394d64730de0de306abc9
@@ -1499,6 +1631,8 @@ Description: 淘宝底栏去除底部视频，排版重构
 Author: Local User
 Name: 淘宝精简底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.tim
 Version: 1.0
@@ -5830,57 +5964,19 @@ Author: Netskao
 Name: CCCellularRate网络切换-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/netskao.cccellularrate-rootless.json
 
-Package: tikTok-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: lym
-Conflicts: tikTok-Rootless
-Replaces: tikTok-Rootless
-Filename: ./debs/移除tikTok底部+号-RootHide.deb
-Size: 4244
-MD5sum: 7a5f6cfa968d5148b62f93ad3145063f
-SHA1: 3d43bf5f5f10f17bfbb7bc4305a1a6681a09483c
-SHA256: 0b36f3054f50b820a24eb335ead6c47fdb66c3da98bf69ba4a08838e05be9b6a
-Section: 软件精简
-Description: 仅移除tikTok底部➕号，无其它功能
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 移除tikTok底部+号-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/tikTok-Rootless.json
-
-Package: tikTok-Rootless
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: tikTok-Rootless
-Replaces: tikTok-Rootless
-Filename: ./debs/移除tikTok底部+号-Rootless.deb
-Size: 3220
-MD5sum: 7cb3d581d3d85cc46db33a0f440cf8f9
-SHA1: fb1931dc92e243ff239a8bc320c72e2dc3f11b72
-SHA256: 274624498d7a0063d95d2382c75127f3fe5a0b7b0e3e725ccd043ef0e531f6a5
-Section: 软件精简
-Description: 仅移除tikTok底部➕号，无其它功能
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 移除tikTok底部+号-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/tikTok-Rootless.json
-
 Package: xhs.x
-Version: 2.0.6
+Version: 2.0.7
 Architecture: iphoneos-arm64
 Maintainer: 𝙓
-Installed-Size: 9060
+Installed-Size: 9412
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-Rootless.deb
-Size: 3557712
-MD5sum: f4bdc859715132f13e8f9ee818a4e30b
-SHA1: 693af14663a7bd30a8045ca9148e1c4a78f3279f
-SHA256: 45ae4761d29ab10b198728338369958efab9c1768387e15743a47b5b0108eb8d
+Size: 3689656
+MD5sum: 5064a09922cb52e944834044d4ebeaab
+SHA1: 70fb6fb8d3e46df79c6220fa2f3a289570e71e7a
+SHA256: 44c12c0bd1c0722afa4a9294b16c8c63421d041a86b9aafa842726dc542fae1a
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
@@ -5892,18 +5988,18 @@ Name: 小红书图层-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/xhs.x.json
 
 Package: xhs.x
-Version: 2.0.6
+Version: 2.0.7
 Architecture: iphoneos-arm64e
 Maintainer: 𝙓
-Installed-Size: 9060
+Installed-Size: 9412
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.xx.xhshook, xhs.x
 Replaces: com.xx.xhshook, xhs.x
 Filename: ./debs/小红书图层-RootHide.deb
-Size: 3558892
-MD5sum: 1c9ef250aeb0d5ef3f7bdd677c7a344a
-SHA1: 496da04f14462b352fac44af39b7df91930e9787
-SHA256: 4fc8f260fc1ec1b859277e52254e685f91f83c86de2618005e8c9e3d578abef2
+Size: 3691636
+MD5sum: 1855ef7da17365a31f5ff10325e25d83
+SHA1: 74bfc62167ec512f3cdef00dea2e4f0fc1d8d93b
+SHA256: 1e7310e2929145c2a548ed48d580001adb7ac3e5cd937356665d16694fd4d3e3
 Section: 软件增强
 Description: 默认移除一些广告
  - 无水印保存图片、视频、live图、评论区图片,长按复制文案
