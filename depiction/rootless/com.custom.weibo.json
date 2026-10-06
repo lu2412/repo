@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 个人自用小布丁\n- 解决钉钉在分组的同时，可以默认进入消息列而不是分组列\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 双指长按弹出设置项\n- 双指长按任意位置弹出设置项\n- 隐藏底部微博-视频-发现-消息-我\n- 及去除各种广告\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 新增默认全局头像圆角功能"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]
