@@ -2771,18 +2771,18 @@ Name: Zone 交互壁纸-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosdump.zone.json
 
 Package: com.jaysuen.evocenter
-Version: 3.0.0-beta.2
+Version: 3.1.0-beta.1
 Architecture: iphoneos-arm64e
 Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
-Installed-Size: 12524
+Installed-Size: 26156
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-RootHide.deb
-Size: 700696
-MD5sum: 9c253062ae946294a009fc96c1e442f6
-SHA1: d811d663e87715089c73f74d01cb9ed5c2492e8b
-SHA256: 66a1240e56962089db74a48e1d252a52264af22f8bb540b03bb3f1459b3439ce
+Size: 1205724
+MD5sum: 397ed175f72955d7f8cabef28c0c3b1b
+SHA1: d8e16662d9a49674d2f110b146a573a3dc0a79df
+SHA256: 0fcd2418ac20925c5446e4490c52a42430f4b19c99fbf810d6f92b26f7e1f2eb
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -2796,18 +2796,18 @@ Name: Evo Center控制中心-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.jaysuen.evocenter.json
 
 Package: com.jaysuen.evocenter
-Version: 3.0.0-beta.2
+Version: 3.1.0-beta.1
 Architecture: iphoneos-arm64
 Maintainer: chatgpt5.6sol, chatgpt6.1sol, JaySuen
-Installed-Size: 11932
+Installed-Size: 25660
 Depends: mobilesubstrate, com.opa334.ccsupport, preferenceloader
 Conflicts: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Replaces: com.jaysuen.ccflex16, com.jaysuen.evocenter
 Filename: ./debs/Evo Center控制中心-Rootless.deb
-Size: 671548
-MD5sum: a00fa2f7214d727fcd31fba437cb7282
-SHA1: 00521372825870c27bfae9ea057f6ef13f4e188c
-SHA256: 1c8d490c35f50e254f8ea6f993933732eac70a602b3217ce77ce0050c8ab2157
+Size: 1177148
+MD5sum: c3dc6ab6ce2a28bd3e126b7955ef7e34
+SHA1: 1985c202c559625f5dfb54af41423f7d9e223b20
+SHA256: 066e30a984c7ce213959f3b2cdab875a53fed5d0f82e89398da5f505fa067033
 Section: 控制中心
 Description: 重新定义你的控制中心：自由调整模块布局，让常用控制更顺手。
  - Evo Center 为音乐、连接、音量、亮度等模块提供灵活布局，支持独立专注模式与快捷指令，以及圆角、背景透明度和图标着色自定义。
@@ -4610,6 +4610,54 @@ Author: CreatureSurvive & wkk
 Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
 
+Package: com.weifengluntan
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.wpforumclient
+Replaces: com.custom.wpforumclient
+Filename: ./debs/no_download/protected.deb
+Size: 18060
+MD5sum: 0641f79527d2a708491bd06ba26f0cf9
+SHA1: e3be9620779889273f824508fc8d6a7216db04fc
+SHA256: f02f30faa6bd962ad0a04ccedfcfaca51fa5163a58f65158739a3282a719cda6
+Section: 软件精简
+Description: 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验
+ - 去除开屏广告和热启动开屏广告
+ - 支持视图隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 威锋底栏精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.weifengluntan.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.weifengluntan
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.wpforumclient
+Replaces: com.custom.wpforumclient
+Filename: ./debs/no_download/protected.deb
+Size: 18052
+MD5sum: 0851bd6ddea612041d0cdb977cf0350b
+SHA1: 72f1e3a85b6eee1c30f5ec7278d8333facad3674
+SHA256: b8f53fb2a865814759ffed3a296eb6d468c910276a12e83b8b429f8057df91bb
+Section: 软件精简
+Description: 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验
+ - 去除开屏广告和热启动开屏广告
+ - 支持视图隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 威锋底栏精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.weifengluntan.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.wkk.cctunneltap
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -5961,50 +6009,6 @@ Description: 仅去除原生相机顶部和底部两个黑色模块
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Name: 全屏相机-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.net.camera.json
-
-Package: lym.z.weifeng
-Version: 1.5
-Architecture: iphoneos-arm64e
-Maintainer: z
-Installed-Size: 152
-Depends: mobilesubstrate
-Conflicts: z.weifeng, lym.z.weifeng
-Replaces: z.weifeng, lym.z.weifeng
-Filename: ./debs/威锋去广告-RootHide.deb
-Size: 5296
-MD5sum: b7ffb2024577530fa6a3098314c3a6cc
-SHA1: cfbf1051bb76726cc9457d1817d7454ecb0698d5
-SHA256: 4c9544f4bd096fbb26da5b4fd27d9a71b8ef58de029f5d51b2c630e91a1121d1
-Section: 软件增强
-Description: 移除威锋启动广告等
- - 基于7.0.8制作
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: z
-Name: 威锋去广告-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.z.weifeng.json
-
-Package: lym.z.weifeng
-Version: 1.5
-Architecture: iphoneos-arm64
-Maintainer: z
-Installed-Size: 152
-Depends: mobilesubstrate
-Conflicts: z.weifeng, lym.z.weifeng
-Replaces: z.weifeng, lym.z.weifeng
-Filename: ./debs/威锋去广告-Rootless.deb
-Size: 4212
-MD5sum: 1658f6dadf8e2696657a9ae898ae35b9
-SHA1: 2fc86b46502e94fed28b84bb72c737fae8da2f61
-SHA256: 1513eea52323592a4ebd7bca8bd95c913c4c5e8078c08f222013015e5b8b731a
-Section: 软件增强
-Description: 移除威锋启动广告等
- - 基于7.0.8制作
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: z
-Name: 威锋去广告-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.z.weifeng.json
 
 Package: me.luki.canna
 Version: 1.0-1
