@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 移除威锋启动广告等\n- 基于7.0.8制作\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验\n- 去除开屏广告和热启动开屏广告\n- 支持视图隐藏自定义\n- 长按底栏区域唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "z"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.5"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月10日"
+          "text": "2026年10月07日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.5\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]
