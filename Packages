@@ -1690,6 +1690,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.qdreaderappstore
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.qdreaderappstore
+Replaces: com.custom.qdreaderappstore
+Filename: ./debs/no_download/protected.deb
+Size: 5348
+MD5sum: e1a283a3f91a823af861307cfde026ef
+SHA1: 0cc9ebac562b7177bdf7bbfd9705781c5eb0e54b
+SHA256: 1e4f920e0d1c2ccad53c44d06db9e56a113ee2af3e94be5cf27f45b9e669fe42
+Section: 软件精简
+Description: 去除底部“分享”和“发现”以及“种出好运”浮窗
+ - 仅保留底部“书架”-“我”
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 起点精简底栏-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.qdreaderappstore.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.qdreaderappstore
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.qdreaderappstore
+Replaces: com.custom.qdreaderappstore
+Filename: ./debs/no_download/protected.deb
+Size: 5360
+MD5sum: 6282adf92fabe42e4b1fe8e2794b290f
+SHA1: 63b74af07fb759a1052e05190771558c17ac7260
+SHA256: f18f6877a2a540895ba37c1f275cc07aeaf664c69386ea037ec3c4fe1ef08f86
+Section: 软件精简
+Description: 去除底部“分享”和“发现”以及“种出好运”浮窗
+ - 仅保留底部“书架”-“我”
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 起点精简底栏-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.qdreaderappstore.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.reader
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -2189,6 +2233,46 @@ Description: 在更新列表/软件源中浏览插件列表/软件包已安装�
 Author: Amy While
 Name: Sileo颜色指示器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
+
+Package: com.daodao.nocshare
+Version: 1.1.3
+Architecture: iphoneos-arm64
+Maintainer: 老Mo
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare, com.daodao.nocshare
+Replaces: com.daodao.nocshare
+Filename: ./debs/移除共享联系人-Rootless_1.1.3.deb
+Size: 7248
+MD5sum: 05a52f12e55ea03c2eaac28e28dbc350
+SHA1: fb703b36423d0c0cf129297ac86b65d37d8dec75
+SHA256: dfa0ad54976a85de2e05b20ab042a7874e9e30c9471530dcbc198c6afaae9800
+Section: 系统增强
+Description: 移除分享菜单中烦人的投送和联系人，Hades基于i_82的源码修复支持16+系统。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Devvix
+Name: 移除共享联系人-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.daodao.nocshare.json
+
+Package: com.daodao.nocshare
+Version: 1.1.5
+Architecture: iphoneos-arm64e
+Maintainer: Hades
+Depends: mobilesubstrate
+Conflicts: com.devvix.nocshare, com.daodao.nocshare
+Replaces: com.daodao.nocshare
+Filename: ./debs/移除共享联系人-RootHide_1.1.5.deb
+Size: 4288
+MD5sum: 7ac7b2d4b87b34bbe00bd107bc13d54b
+SHA1: e2f2c4baf511e50cbae093d5462aef19456fd0d2
+SHA256: 24e843874edaafef538e599ad941249d3e429a4ce792b9f061a65696a7d9c586
+Section: 系统增强
+Description: 移除分享菜单中烦人的投送和联系人，Hades基于i_82的源码修复支持16+系统。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Devvix
+Name: 移除共享联系人-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.daodao.nocshare.json
 
 Package: com.duncan.tiebanoshop
 Version: 0.0.7
@@ -4431,6 +4515,44 @@ Size: 467156
 MD5sum: dd6c2515b5d7ee1b43bcb4f388e3d5b5
 SHA1: 618076f9179525b164158b5a1f642f9efa722e60
 SHA256: acb1a036b69e8268e4003fba06481a44a871036fee945974f4e4b0bc896ab47c
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-Rootless
+
+Package: com.susudear.screencore
+Version: 2.0.3
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-RootHide_2.0.3_iphoneos-arm64e.deb
+Size: 465916
+MD5sum: 5c60c9fb7d9db725c04758a354f0e7dc
+SHA1: 02f98265345f036233458bf9820fb293b53f4f56
+SHA256: 55c37478e0864f3bd93a86d4335dd441928b1c3cf720bea83d9dc210a2b8a491
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-RootHide
+
+Package: com.susudear.screencore
+Version: 2.0.3
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-Rootless_2.0.3_iphoneos-arm64.deb
+Size: 465592
+MD5sum: 45e24a23d05617ee526b4bb7de981106
+SHA1: 98995a58ddc4fcc13c825258ade2e3c8b6624c23
+SHA256: c65f9a7fed858a0835187cd6ce2614d9fca8f4c3941059b0f001dacb84e3a349
 Section: 分屏插件
 Description: 一款免费的分屏插件
  - 体验使用效果还不错
