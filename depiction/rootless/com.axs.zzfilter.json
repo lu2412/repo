@@ -1,0 +1,57 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 转转筛选助手\n- * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据\n- * 2.按机型/电池/系统版本/成色/内存筛选\n- * 3.支持单条复制链接、单条打开详情页与一键复制全部链接\n- 数据仅保存在本机沙盒，不上传任何内容\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "Axs <qiaozhani000@163.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "5.2.0-8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年10月09日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 5.2.0-8\n- 初始发布"}
+      ]
+    }
+  ]
+}
