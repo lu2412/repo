@@ -743,15 +743,15 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.axs.zzfilter
 Replaces: com.axs.zzfilter
 Filename: ./debs/ 转转助手-RootHide_5.2.0-8.deb
-Size: 62576
-MD5sum: 39e9dfea2cec5d0b97f71aec61d75e9c
-SHA1: f8fc20410bc9e1450c6b030fbbebce93dd8164bf
-SHA256: e6f8f2e051454ec3e840dbc344b8e2966fe1c7dbf8cd04330e558b7e33c15bb9
+Size: 62604
+MD5sum: 897c00deaead142f82b78fece91bac64
+SHA1: 6b5a6abf654c6d623039461c04741f92bef1aca7
+SHA256: 66ca3ac9805a9ada1d9576e7f18b0d65103a31afb0bbc81a19b6bc341b4a4261
 Section: 软件增强
 Description: 转转筛选助手
- - * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
- - * 2.按机型/电池/系统版本/成色/内存筛选
- - * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+ - 先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ - 按机型/电池/系统版本/成色/内存筛选
+ - 支持单条复制链接、单条打开详情页与一键复制全部链接
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Axs <qiaozhani000@163.com>
 Name: 转转助手-RootHide
@@ -766,15 +766,15 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.axs.zzfilter
 Replaces: com.axs.zzfilter
 Filename: ./debs/ 转转助手-Rootless_5.2.0-8.deb
-Size: 63972
-MD5sum: 5db6ef37dcea6d930bd72fc27af44e6e
-SHA1: 22104f886f3a826563b7329ee64a84f1b1ab8cfb
-SHA256: 5fc26499e1e3c7f689aabaec03486ccb478834d07765dcf75f0137b7d950a3e7
+Size: 63944
+MD5sum: c41caaf26e14019790842c5f58e63a99
+SHA1: de9c5898297f9849214d59ad62252516d95ce95c
+SHA256: 4587beb503717dd08c4c7d5b17fdd87167569cf677f613763c6edcfd3891ec79
 Section: 软件增强
 Description: 转转筛选助手
- - * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
- - * 2.按机型/电池/系统版本/成色/内存筛选
- - * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+ - 先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ - 按机型/电池/系统版本/成色/内存筛选
+ - 支持单条复制链接、单条打开详情页与一键复制全部链接
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Axs <qiaozhani000@163.com>
 Name: 转转助手-Rootless
