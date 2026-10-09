@@ -684,6 +684,102 @@ Author: Custom
 Name: Sileo刷新报错汉化-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.aptzh.json
 
+Package: com.axs.ahsfilter
+Version: 5.2.0-3
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.axs.ahsfilter
+Replaces: com.axs.ahsfilter
+Filename: ./debs/ 爱回收助手-Rootless_5.2.0-3.deb
+Size: 127972
+MD5sum: 7436afa4ec9734df16c7885a3a43727c
+SHA1: 7bc997afe0563eebb74034c4dd77e9431831111d
+SHA256: a5128fb745c01d29207bfe8206131bdc0e253d82fc712513969c936d25faa2b0
+Section: 软件增强
+Description: 爱回收助手：点击悬浮球开启面板
+ - 长按悬浮球或点「开始爬取」按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ - 自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ - 按机型/内存/成色/电池/价格/系统版本区间筛选
+ - 复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ - 数据仅保存在本机沙盒，不上传任何内容
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Axs <qiaozhani000@163.com>
+Name: 爱回收助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.axs.ahsfilter.json
+
+Package: com.axs.ahsfilter
+Version: 5.2.0-3
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.axs.ahsfilter
+Replaces: com.axs.ahsfilter
+Filename: ./debs/ 爱回收助手-RootHide_5.2.0-3.deb
+Size: 124848
+MD5sum: 2388208a530d2e2224bd11e3ff493c61
+SHA1: fe3cde564d0e2ce3a8ae532acd20eb9870f4e4d1
+SHA256: 22e3f0e2b9e5d83a8c7268b8433cc5037a2986196d79fc71f8dd1999719ec348
+Section: 软件增强
+Description: 爱回收助手：点击悬浮球开启面板
+ - 长按悬浮球或点「开始爬取」按关键词直连严选接口翻页抓全（不依赖 App 是否加载过列表）。
+ - 自动补全系统版本/电池效率/充电次数等机况，列表带序号
+ - 按机型/内存/成色/电池/价格/系统版本区间筛选
+ - 复制单条或全部详情链接，并可在 App 内直接打开对应商品详情页
+ - 数据仅保存在本机沙盒，不上传任何内容
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Axs <qiaozhani000@163.com>
+Name: 爱回收助手-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.axs.ahsfilter.json
+
+Package: com.axs.zzfilter
+Version: 5.2.0-8
+Architecture: iphoneos-arm64e
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.axs.zzfilter
+Replaces: com.axs.zzfilter
+Filename: ./debs/ 转转助手-RootHide_5.2.0-8.deb
+Size: 62576
+MD5sum: 39e9dfea2cec5d0b97f71aec61d75e9c
+SHA1: f8fc20410bc9e1450c6b030fbbebce93dd8164bf
+SHA256: e6f8f2e051454ec3e840dbc344b8e2966fe1c7dbf8cd04330e558b7e33c15bb9
+Section: 软件增强
+Description: 转转筛选助手
+ - * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ - * 2.按机型/电池/系统版本/成色/内存筛选
+ - * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Axs <qiaozhani000@163.com>
+Name: 转转助手-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.axs.zzfilter.json
+
+Package: com.axs.zzfilter
+Version: 5.2.0-8
+Architecture: iphoneos-arm64
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.axs.zzfilter
+Replaces: com.axs.zzfilter
+Filename: ./debs/ 转转助手-Rootless_5.2.0-8.deb
+Size: 63972
+MD5sum: 5db6ef37dcea6d930bd72fc27af44e6e
+SHA1: 22104f886f3a826563b7329ee64a84f1b1ab8cfb
+SHA256: 5fc26499e1e3c7f689aabaec03486ccb478834d07765dcf75f0137b7d950a3e7
+Section: 软件增强
+Description: 转转筛选助手
+ - * 1.先输入需要搜索的商品名称，进入页面后，长按悬浮球（或点面板「开始爬取」）自动抓取全数据
+ - * 2.按机型/电池/系统版本/成色/内存筛选
+ - * 3.支持单条复制链接、单条打开详情页与一键复制全部链接
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Axs <qiaozhani000@163.com>
+Name: 转转助手-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.axs.zzfilter.json
+
 Package: com.banshengnianhua.tracex
 Version: 1.0.8
 Architecture: iphoneos-arm64e
