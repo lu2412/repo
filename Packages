@@ -2370,91 +2370,51 @@ Author: Devvix
 Name: 移除共享联系人-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.daodao.nocshare.json
 
-Package: com.duncan.tiebanoshop
-Version: 0.0.7
-Architecture: iphoneos-arm64
-Maintainer: duncan <duncan@example.com>
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.7000)
-Conflicts: com.duncan.tiebanoshop
-Replaces: com.duncan.tiebanoshop
-Filename: ./debs/百度贴吧精简-Rootless.deb
-Size: 6812
-MD5sum: e90fb202a15b667388117b2f85f272f7
-SHA1: 11d63a4ce5bc25307360396f84297767fd90f236
-SHA256: 941dd68c5b3e73382fddde5608b57b7effdbfeed2c18455eaf390cc26e018c99
-Section: 软件精简
-Description: 百度贴吧移除顶部“有料”直播
- - 和底部“小卖部”功能，尽可能精简无用模块
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: duncan
-Name: 百度贴吧精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.duncan.tiebanoshop.json
-
-Package: com.duncan.tiebanoshop
-Version: 0.0.7
-Architecture: iphoneos-arm64e
-Maintainer: duncan <duncan@example.com>
-Installed-Size: 168
-Depends: mobilesubstrate (>= 0.9.7000)
-Conflicts: com.duncan.tiebanoshop
-Replaces: com.duncan.tiebanoshop
-Filename: ./debs/百度贴吧精简-RootHide.deb
-Size: 7768
-MD5sum: 99918d0e18e46a10b34863b4a16f2338
-SHA1: 1116029f1b490b6062bc62b3df45feaa7d94adf0
-SHA256: de44fa21ca9765a57f7f5a615087953fc7d6652f499e7db2f21f7dfcd678f224
-Section: 软件精简
-Description: 百度贴吧移除顶部“有料”直播
- - 和底部“小卖部”功能，尽可能精简无用模块
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: duncan
-Name: 百度贴吧精简-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebanoshop.json
-
-Package: com.duncan.tiebaside
-Version: 0.0.1-2+debug
+Package: com.duncan.tiebaadjust
+Version: 0.1.0-3+debug
 Architecture: iphoneos-arm64e
 Maintainer: duncan
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.duncan.tiebaside
-Replaces: com.duncan.tiebaside
-Filename: ./debs/百度贴吧禁用-RootHide.deb
-Size: 5664
-MD5sum: cd10a4a70e8b0e5bce8617c037e43186
-SHA1: de6c1df8c993b83f6644e42b66841c97cd05873a
-SHA256: 006f651e4d2ddbd6438659ee488e6a91a3327db7d4f7213a1f4cad8f80dd4819
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.duncan.tiebaadjust
+Replaces: com.duncan.tiebaadjust
+Filename: ./debs/百度贴吧净化-RootHide_0.1.0-3+debug.deb
+Size: 28340
+MD5sum: a975c8378e299fad3efd105dbfc6f2a0
+SHA1: 71e0d89f58eb791d2824a67ad8af09030c40618d
+SHA256: 13e493688c0bb0fd46ecb7d14d63babd44bb4ef90b9735024dc9ca862d869165
 Section: 软件精简
-Description: 禁用百度贴吧侧边栏滑动手势
- - 插件无设置项安装即可生效
+Description: 贴吧净化：禁侧边栏（手势 + 按钮）
+ - 移除底部「小卖部」tab、
+ - 移除首页「有料」/「直播」tab。
+ - 首页双指长按呼出开关面板
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: duncan
-Name: 百度贴吧禁用-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebaside.json
+Name: 百度贴吧净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.duncan.tiebaadjust.json
 
-Package: com.duncan.tiebaside
-Version: 0.0.1-2+debug
+Package: com.duncan.tiebaadjust
+Version: 0.1.0-3+debug
 Architecture: iphoneos-arm64
 Maintainer: duncan
-Installed-Size: 168
-Depends: mobilesubstrate
-Conflicts: com.duncan.tiebaside
-Replaces: com.duncan.tiebaside
-Filename: ./debs/百度贴吧禁用-Rootless.deb
-Size: 4784
-MD5sum: 5f52e9e8ebb1ba8634b625cda92a8168
-SHA1: 4f75c1cbe422147ecc8994ed95115bbad1cc9f56
-SHA256: de2a81fb074d4cce8669ade9b0bcfdddf3f9ddd235db51f321d6ec36e415b0fc
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.duncan.tiebaadjust
+Replaces: com.duncan.tiebaadjust
+Filename: ./debs/百度贴吧净化-Rootless_0.1.0-3+debug.deb
+Size: 27292
+MD5sum: ef0ca189a614aa5f43ce4081d8191fc6
+SHA1: d1ac2792ca47c8e00ca3f157ca0558e06bae5be1
+SHA256: c7060cfa84a0c9df7b80acb2ca250c4061fc89caf0d24edca91bbf690fe3238c
 Section: 软件精简
-Description: 禁用百度贴吧侧边栏滑动手势
- - 插件无设置项安装即可生效
+Description: 贴吧净化：禁侧边栏（手势 + 按钮）
+ - 移除底部「小卖部」tab、
+ - 移除首页「有料」/「直播」tab。
+ - 首页双指长按呼出开关面板
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: duncan
-Name: 百度贴吧禁用-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.duncan.tiebaside.json
+Name: 百度贴吧净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.duncan.tiebaadjust.json
 
 Package: com.filzaswipeselect
 Version: 0.0.2
