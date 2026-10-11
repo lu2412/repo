@@ -1386,6 +1386,52 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.app
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.app
+Replaces: com.custom.app
+Filename: ./debs/no_download/protected.deb
+Size: 8076
+MD5sum: 4ed57fd4da5d2040c9dc9f5023f46e12
+SHA1: 7cb49e8186974fdf44f42fca915a6f2dd1343516
+SHA256: 92d3f7e612271077b8f87a4faf44adff75947a26116d4667d5eea16193cec0a4
+Section: 软件精简
+Description: 去除酷安开屏及贴间广告
+ - 去除酷安tab底栏
+ - 增加启动酷安时直达“iOS越狱”话题并按最新话题排序
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 酷安净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.app.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.app
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.app
+Replaces: com.custom.app
+Filename: ./debs/no_download/protected.deb
+Size: 8080
+MD5sum: 7803f3a6fe5c31cf88284357dc454d67
+SHA1: 420e38742e268280e3fd80b0aaf51fd15686d1ff
+SHA256: 69f357ebd2188057de44fbfb8996fc9a3577adeb1da8d96a2280c0efb6541159
+Section: 软件精简
+Description: 去除酷安开屏及贴间广告
+ - 去除酷安tab底栏
+ - 增加启动酷安时直达“iOS越狱”话题并按最新话题排序
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 酷安净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.app.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.appstore
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3189,54 +3235,6 @@ Description: 控制中心VPN开启关闭模块
 Author: KingPuffdaddi
 Name: CCVPN Surge-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.kingpuffdaddi.control-center.ccvpn.surge.json
-
-Package: com.kuan.noads
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: 佚名
-Installed-Size: 152
-Depends: mobilesubstrate
-Conflicts: com.kuan.noads
-Replaces: com.kuan.noads
-Filename: ./debs/酷安净化-RootHide.deb
-Size: 4804
-MD5sum: dd73bf18135913079b89b29481532c8f
-SHA1: 685e87db9d9e864de4c04f223d89735869c0b083
-SHA256: b39cbd0d71fe05c6e3faac3019d9fb83bb5ddfbdfc45ba7f47dc83282bbc094a
-Section: 软件增强
-Description: 酷安去广告
- - 无弹窗
- - 去除开屏广告
- - 去除帖子广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Unknown 佚名
-Name: 酷安净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.kuan.noads.json
-
-Package: com.kuan.noads
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: 佚名
-Installed-Size: 152
-Depends: mobilesubstrate
-Conflicts: com.kuan.noads
-Replaces: com.kuan.noads
-Filename: ./debs/酷安净化-Rootless.deb
-Size: 3752
-MD5sum: 29c3394d41afd43acd86aa464d9d950b
-SHA1: df4e1c991b2ef35d7af369147c45f341cfa9e285
-SHA256: 228bce96a4304821128b38362f9b5356664920e406d3234706f5e741d4dc5d4d
-Section: 软件增强
-Description: 酷安去广告
- - 无弹窗
- - 去除开屏广告
- - 去除帖子广告
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Unknown 佚名
-Name: 酷安净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.kuan.noads.json
 
 Package: com.lclrc.controltab
 Version: 1.0
