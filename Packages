@@ -2136,6 +2136,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.tlsmartbike
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.tlsmartbike
+Replaces: com.custom.tlsmartbike
+Filename: ./debs/no_download/protected.deb
+Size: 6904
+MD5sum: 6270e526c88bbe8aac59ed32ca775e0d
+SHA1: 1c9854efee774766d76ce0e943d6ad474b4385c1
+SHA256: 70132d06921b963cc0ba36bac29e2c7c5052fa51d001657ced9eec2acb810107
+Section: 软件精简
+Description: 移除台铃智能底栏
+ - 并增加双指长按进入设置项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 台铃智能精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tlsmartbike.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.tlsmartbike
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.tlsmartbike
+Replaces: com.custom.tlsmartbike
+Filename: ./debs/no_download/protected.deb
+Size: 6904
+MD5sum: a8f072bf99922cc8850645fc4ff34448
+SHA1: d409f5e189a0841378beb072923b170877d3f319
+SHA256: 9bb42c50408f007971737bbb8995c19324f6d68563550ce33395477bc64b03f5
+Section: 软件精简
+Description: 移除台铃智能底栏
+ - 并增加双指长按进入设置项
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 台铃智能精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tlsmartbike.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.weibo
 Version: 1.0
 Architecture: iphoneos-arm64e
