@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.1.7"
+          "text": "2.1.8"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月15日"
+          "text": "2026年10月11日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1.7\n- （测试版V2）\n- 优化防撤回\n- 新增好友分组收纳\n- 优化微信资源查看闪退的问题\n- 优化微信资源修改表情图片不生效问题\n- 优化美化字体功能，实现高级修符Diy（画字体等）"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1\n- 新增[消息类功能]-消息手势\n- 新增[特色类功能]-美化主题\n-衍生于《微信助手》里的主题功能\n- 新增[特色类功能]-美化字体\n- 新增[特色类功能]-聊天工具栏\n-支持自创按钮，自定义按钮事件等\n- 新增[特色类功能]-启用忙线拒接\n-别人打电话过来会显示忙线，部分设备可能不支持"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1.8\n- 优化密友\n- 添加人脸验证，直达等\n- 优化防撤回\n- 自定义格式\n- 优化群聊分组\n- 优化字体管理\n- 优化定时发送\n- 优化iPad登录\n- 优化消息屏蔽\n- 添加快捷屏蔽入口\n- 优化聊天工具栏\n- 优化关键词自动回复\n- 优化朋友圈可见性检查\n- 添加检测单删好友\n- 修复自动暂停的问题\n- 检测完毕可列为单删好友和被屏蔽\n- 修复部分设备多开首页闪退的问题\n- 新增[朋友圈功能]-启用朋友圈伪点赞\n- 新增[朋友圈功能]-启用朋友圈伪评论\n- 按点赞按钮\n- 长按评论按钮"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1.7\n- 优化防撤回\n- 新增好友分组收纳\n- 优化微信资源查看闪退的问题\n- 优化微信资源修改表情图片不生效问题\n- 优化美化字体功能，实现高级修符Diy（画字体等）"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 2.1\n- 新增[消息类功能]-消息手势\n- 新增[特色类功能]-美化主题\n-衍生于《微信助手》里的主题功能\n- 新增[特色类功能]-美化字体\n- 新增[特色类功能]-聊天工具栏\n-支持自创按钮，自定义按钮事件等\n- 新增[特色类功能]-启用忙线拒接\n-别人打电话过来会显示忙线，部分设备可能不支持"}
       ]
     }
   ]
