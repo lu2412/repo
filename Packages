@@ -419,17 +419,17 @@ Name: 微信URL scheme扩展-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.25mao.wxurlexpand.json
 
 Package: com.HBWechatHelper.ailun
-Version: 2.1.7
+Version: 2.1.8
 Architecture: iphoneos-arm64e
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-RootHide.deb
-Size: 16270744
-MD5sum: e87843be65227ad661e720dfe8573cad
-SHA1: 225699ec49006eaab809232ab3b891ecc71f8602
-SHA256: 6ef36a8d1c68f6218cabb0ae922055163508357ea221f921e623c3d5c57f45f2
+Size: 11992072
+MD5sum: 09a64cda3e30250f9c1ca4020677b448
+SHA1: cf68273a05f7af2382674b7c86e17c059b004b69
+SHA256: 7366c0fe46607ce43bbe33720ffd8d9fdef723ac977c4733ae06a0e7f63a9878
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞
  - 禁用控件，设置布局大小，私聊发抢自己的红包
@@ -448,17 +448,17 @@ Name: 黄白助手-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.HBWechatHelper.ailun.json
 
 Package: com.HBWechatHelper.ailun
-Version: 2.1.7
+Version: 2.1.8
 Architecture: iphoneos-arm64
 Maintainer: HuangBai <QQ:1343309363@qq.com>
 Depends: mobilesubstrate
 Conflicts: com.HBWechatHelper.ailun
 Replaces: com.HBWechatHelper.ailun
 Filename: ./debs/黄白助手-Rootless.deb
-Size: 8138248
-MD5sum: 388607ce3dcce38a50ff22d2196a6be7
-SHA1: 57cbd4f00f3ed98459c44b47add8a90e10963dd5
-SHA256: d3927551a26e4766d33c7521107d8f756bc19aab61e2a3e8582380b11f6f00f9
+Size: 6014684
+MD5sum: 0b48514a0230cefff3f328d8a956b924
+SHA1: b17b190faf83879efbcef2168c61387f618ed562
+SHA256: 19cc0632f960cbd6ff2ee0fd8d6d8a1adecb12e475d95c339e0dd87f5cadf0cb
 Section: 微信插件
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞
  - 禁用控件，设置布局大小，私聊发抢自己的红包
