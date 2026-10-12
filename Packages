@@ -1658,6 +1658,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.discover
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.discover
+Replaces: com.custom.discover
+Filename: ./debs/no_download/protected.deb
+Size: 20668
+MD5sum: dfbcf9a92d669812209d7388446d5095
+SHA1: 0558217591972c5d18a4bd77d0c8fc9edd80c62e
+SHA256: 3fa6eaac6808b1f96c812611ac5c13a91d84f977ad75d475f1869a223fe2e2e8
+Section: 软件精简
+Description: 支持底栏隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 小红薯精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.discover.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.discover
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.discover
+Replaces: com.custom.discover
+Filename: ./debs/no_download/protected.deb
+Size: 20568
+MD5sum: 1072dbb5e138782ae95e30f023248b35
+SHA1: 264b623a3f49d4e58b433b306f90267915d618f5
+SHA256: 4213a9c90b0ca6438a01cbb5a76f88e96b81640f879b01c8abe9771f68f67909
+Section: 软件精简
+Description: 支持底栏隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 小红薯精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.discover.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
