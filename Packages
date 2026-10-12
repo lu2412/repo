@@ -1752,6 +1752,52 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.hanzhan
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.hanzhan
+Replaces: com.custom.hanzhan
+Filename: ./debs/no_download/protected.deb
+Size: 17236
+MD5sum: 405e65a9e698c0082e4be391d585e4a7
+SHA1: 159b247364aa674bec31a85c88eace0ee4720a82
+SHA256: 3647779e33db1f1c2f245edcafcc81d6d3e967007858cc90aeb4dcc64e313063
+Section: 软件精简
+Description: 去除开屏启动广告
+ - 去除视频播放广告
+ - 移除底部“热剧”“抖音领券”底栏
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 韩剧tv精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.hanzhan.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.hanzhan
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.hanzhan
+Replaces: com.custom.hanzhan
+Filename: ./debs/no_download/protected.deb
+Size: 17304
+MD5sum: 432fab8dec91f75516f3a466ec6af7c5
+SHA1: 1515ef2e872cd93ab5d29e8c1a0e9ec6b5b9dd1c
+SHA256: a8d844f2e35769a57227ab2602beb78658e4d2f1356f5e97fbb96bd950029e8f
+Section: 软件精简
+Description: 去除开屏启动广告
+ - 去除视频播放广告
+ - 移除底部“热剧”“抖音领券”底栏
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 韩剧tv精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.hanzhan.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -6327,18 +6373,18 @@ Name: 百度贴吧去广告-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/lym.com.huayuarc.bdtbnoads.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.2
+Version: 11.3
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 12292
+Installed-Size: 11452
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-RootHide.deb
-Size: 2722684
-MD5sum: 24d65fbbbac5afb84e98115b39edd7ae
-SHA1: d972a0397edfb8a04e475b7c95ed8e64b4ec70f4
-SHA256: 807fb827a09997b9efaae6c8592411329aa8c55e65613c5f862563ab21ae6546
+Size: 2611228
+MD5sum: 6e98559015be3c766a1000664a617733
+SHA1: 5dcca6a4dc707c875176a0c8245f2ba479e707ec
+SHA256: 86e901664453d73a5946e6dad8d6b0caa1bc6bca3b6f229c0aaa3c0a6668110f
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
@@ -6349,18 +6395,18 @@ Name: SHELLX截图套壳-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/lym.com.iosdump.shellx.json
 
 Package: lym.com.iosdump.shellx
-Version: 11.2
+Version: 11.3
 Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 12324
+Installed-Size: 11532
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
-Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.iosdump.shellx
+Conflicts: com.jontelang.snapper3, byg.iosios.net.snapper3, com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, com.crctdd.sbtrim, com.iosdump.shellx
 Replaces: com.iosdump.shellx
 Filename: ./debs/SHELLX截图套壳-Rootless.deb
-Size: 2723060
-MD5sum: 187d7cd75803516b5c744efe4e16ce10
-SHA1: c71959984ab1c2d4a8567f6eab54f21164f71167
-SHA256: 479ba36e4f3e248d05a5f1af4130d42d305fb78f5acfefb0dee3a716574c33ce
+Size: 2609076
+MD5sum: 3cac72444a7beb3b72d87c78cecc061a
+SHA1: 7b611affa065e725789aa64d9c9b2e8c4672e656
+SHA256: d02982cd85d64c7363d6195b2c1da961d0c372f400247391a3a78b3bb39e8e5a
 Section: 越狱增强
 Description: 支持录屏/区域截图套壳
  - 水印以及区域截图、长截图等，兼容iOS14-17所有越狱
