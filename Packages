@@ -1752,52 +1752,6 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.hanzhan
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: donk
-Conflicts: com.custom.hanzhan
-Replaces: com.custom.hanzhan
-Filename: ./debs/no_download/protected.deb
-Size: 17236
-MD5sum: 405e65a9e698c0082e4be391d585e4a7
-SHA1: 159b247364aa674bec31a85c88eace0ee4720a82
-SHA256: 3647779e33db1f1c2f245edcafcc81d6d3e967007858cc90aeb4dcc64e313063
-Section: 软件精简
-Description: 去除开屏启动广告
- - 去除视频播放广告
- - 移除底部“热剧”“抖音领券”底栏
- - 无独立设置页面，安装完成立即生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 韩剧tv精简-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.hanzhan.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.hanzhan
-Version: 1.1
-Architecture: iphoneos-arm64e
-Maintainer: donk
-Conflicts: com.custom.hanzhan
-Replaces: com.custom.hanzhan
-Filename: ./debs/no_download/protected.deb
-Size: 17304
-MD5sum: 432fab8dec91f75516f3a466ec6af7c5
-SHA1: 1515ef2e872cd93ab5d29e8c1a0e9ec6b5b9dd1c
-SHA256: a8d844f2e35769a57227ab2602beb78658e4d2f1356f5e97fbb96bd950029e8f
-Section: 软件精简
-Description: 去除开屏启动广告
- - 去除视频播放广告
- - 移除底部“热剧”“抖音领券”底栏
- - 无独立设置页面，安装完成立即生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 韩剧tv精简-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.hanzhan.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
 Package: com.custom.jdmobile
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -1927,6 +1881,52 @@ Description: 去除开屏启动广告
 Author: donk
 Name: 韩剧tv精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.ju.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.ju
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.ju
+Replaces: com.custom.ju
+Filename: ./debs/no_download/protected.deb
+Size: 17316
+MD5sum: 4bda6a129ff563c3282a357a882a87bf
+SHA1: 49a7c85f39a5ee35cf4220096623f3ddfb424b7f
+SHA256: 8f00e91a1d1ce935c8e31bd578ce94dd0ed66242ae8a86aab36f8c16b6161513
+Section: 软件精简
+Description: 去除开屏启动广告
+ - 去除视频播放广告
+ - 移除底部“热剧”“抖音领券”底栏
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 韩剧tv精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.ju.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.ju
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.ju
+Replaces: com.custom.ju
+Filename: ./debs/no_download/protected.deb
+Size: 17332
+MD5sum: 31217193a1e73bec4672c72725d203bd
+SHA1: 7a8dc5f0957b83eaaf4b35b0c5c9734ff7073c88
+SHA256: 1b1817172c76c1f4391b25c0a982e7753e88502e2841e78d103f70e46288349f
+Section: 软件精简
+Description: 去除开屏启动广告
+ - 去除视频播放广告
+ - 移除底部“热剧”“抖音领券”底栏
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: 韩剧tv精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.ju.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
