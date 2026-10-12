@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1"
+          "text": "1.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月11日"
+          "text": "2026年10月12日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 去除聊天页面上方工具栏\n- 统一配色去除置顶色差\n- 新增默认全局头像圆角功能"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.3\n- 修复资料页有白色横幅bug"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 去除聊天页面上方工具栏\n- 统一配色去除置顶色差\n- 新增默认全局头像圆角功能"}
       ]
     }
   ]
