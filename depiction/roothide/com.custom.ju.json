@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1"
+          "text": "1.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 去除页面上方轮播图及顶部选项"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.3\n- 修复全屏播放按钮误隐藏问题"}, {"class": "DepictionSeparatorView"}, {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 去除页面上方轮播图及顶部选项"}
       ]
     }
   ]
