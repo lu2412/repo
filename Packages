@@ -2410,6 +2410,52 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.wpsoffice
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.wpsoffice
+Replaces: com.custom.wpsoffice
+Filename: ./debs/no_download/protected.deb
+Size: 16380
+MD5sum: aa800828dcfe270d0e7fe0402ed4d657
+SHA1: fad7b3cc4e54414fc0dd0ae525618a71f5b85838
+SHA256: bcff37dbf13cbbf9da7c61388a1ada441d100522c07519aa0e0c32351d3dcc94
+Section: 软件精简
+Description: WPS移动端“查找替换”全局增强助手
+ - 首页一键直达：首页底部悬浮搜索栏智能联动最近文档，一秒直达文档内查找替换，告别繁琐翻找。
+ - 界面清爽去繁：自动隐藏首页冗余功能区，消除顶部空白，让文件列表视野加倍开阔。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: WPS精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.wpsoffice.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.wpsoffice
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.wpsoffice
+Replaces: com.custom.wpsoffice
+Filename: ./debs/no_download/protected.deb
+Size: 16392
+MD5sum: 5111cc8bf908159f6ba839a4c0d499f2
+SHA1: f0acf90d2ad4a256dc3b65e6788e6f4e7fa9f731
+SHA256: 62cd534d0e940ad706a0315ce98b29523058f9bccde4769eaf15892a693bc07b
+Section: 软件精简
+Description: WPS移动端“查找替换”全局增强助手
+ - 首页一键直达：首页底部悬浮搜索栏智能联动最近文档，一秒直达文档内查找替换，告别繁琐翻找。
+ - 界面清爽去繁：自动隐藏首页冗余功能区，消除顶部空白，让文件列表视野加倍开阔。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: WPS精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.wpsoffice.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.zhuanzhuan
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -3851,48 +3897,6 @@ Description: 去除大师兄影视每次启动时出现的弹窗
 Author: M哥
 Name: 大师兄影视去弹窗-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mg.dsx.json
-
-Package: com.mlgm.actra
-Version: 1.1.1
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
-Installed-Size: 3684
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
-Conflicts: com.example.actra-plugin, com.mlgm.actra
-Replaces: com.mlgm.actra
-Filename: ./debs/Actra手势-RootHide_1.1.1.deb
-Size: 716496
-MD5sum: 69e409847844959b2b299307c5712eda
-SHA1: 840bfd4618c5f1e64b46cfd4e8b33ec2fdaa8f2b
-SHA256: 51532e0da89e20cc15e1197167de8da37db7cacaf194da82cf4ea5d2b7a311cc
-Section: 系统增强
-Description: 手势与事件自动化工具
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: mlgm
-Name: Actra手势-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mlgm.actra.json
-
-Package: com.mlgm.actra
-Version: 1.1.1
-Architecture: iphoneos-arm64
-Maintainer: mlgm
-Installed-Size: 3716
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
-Conflicts: com.example.actra-plugin, com.mlgm.actra
-Replaces: com.mlgm.actra
-Filename: ./debs/Actra手势-Rootless_1.1.1.deb
-Size: 717696
-MD5sum: 6fdc1c438ac06000edbf5b161ec1936a
-SHA1: a141f2b1b7b8f4d792cce2b3f6eb0acab2d0060f
-SHA256: 255a646abd2547b45fa5901340bf3f531c109e26a21a4fbd562b0e409c00b07e
-Section: 系统增强
-Description: 手势与事件自动化工具
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: mlgm
-Name: Actra手势-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.mlgm.actra.json
 
 Package: com.mlgm.actra
 Version: 1.2
