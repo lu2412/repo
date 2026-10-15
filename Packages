@@ -1300,6 +1300,48 @@ Author: 半生年华
 Name: 彩云UI设计-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.colorfulclouds.minimalui.json
 
+Package: com.crctdd.autocopyverify
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 740
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.autocopyverify
+Replaces: com.crctdd.autocopyverify
+Filename: ./debs/自动复制验证码-RootHide_0.0.5.deb
+Size: 77984
+MD5sum: 44047cb36e37687c3f4f6abdde7fb6e6
+SHA1: 2ff72595528237e9262d544906e3f8e6afdbeecf
+SHA256: cb149fa19780147aadebff83fd56b977da9490f4a575f3ff7f4cbafafcd677cc
+Section: 轻量插件
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板
+ - 第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: crctdd
+Name: 自动复制验证码-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.crctdd.autocopyverify.json
+
+Package: com.crctdd.autocopyverify
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: com.crctdd.autocopyverify
+Replaces: com.crctdd.autocopyverify
+Filename: ./debs/自动复制验证码-Rootless_0.0.5.deb
+Size: 100600
+MD5sum: 2123b0474fbed80e658553fdb99a9bdc
+SHA1: 92dc07b7bcac77919afd4f9b246c3723b566a643
+SHA256: a69af2d0d411cd4e550c534557a76781b99ff838b919edc0859cccb515fd1b9d
+Section: 轻量插件
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板
+ - 第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: crctdd
+Name: 自动复制验证码-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.crctdd.autocopyverify.json
+
 Package: com.crctdd.choicy-patch
 Version: 0.0.2
 Architecture: iphoneos-arm64e
@@ -1749,6 +1791,52 @@ Description: 支持底栏隐藏自定义
 Author: donk
 Name: 小红薯精简-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.discover.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.iphoneclient
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.iphoneclient
+Replaces: com.custom.iphoneclient
+Filename: ./debs/no_download/protected.deb
+Size: 9080
+MD5sum: f0c97ccb48a26d35a0e01f04d5211ca7
+SHA1: 12f1308e468deeb224e40f8c24a1feb8562ae769
+SHA256: f329160f4524312517fce997cc4ae02c1142a5859bf74a168c679cbe0ea6eea8
+Section: 软件精简
+Description: 去除AlipayLite底栏
+ - 并把搜索框移动到原底栏位置
+ - 长按右上角“+”号可快捷跳转至底栏“我的”
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: AlipayLite精简-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.iphoneclient.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.iphoneclient
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.iphoneclient
+Replaces: com.custom.iphoneclient
+Filename: ./debs/no_download/protected.deb
+Size: 9080
+MD5sum: a79f6cf82bf69faf910d7e5fd2fe5dfc
+SHA1: f282dbe76d84d8a7506640b2646e8ad2d3c865fe
+SHA256: 11266d1b7a7f3607ba960c065d21ca514f112c34028cb9993400fb769e96e545
+Section: 软件精简
+Description: 去除AlipayLite底栏
+ - 并把搜索框移动到原底栏位置
+ - 长按右上角“+”号可快捷跳转至底栏“我的”
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: AlipayLite精简-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.iphoneclient.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -2957,6 +3045,27 @@ Description: 高德图层去广告优化
 Author: lym
 Name: 高德图层-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.gdtc.json
+
+Package: com.hades.pullclearnc
+Version: 2.0
+Architecture: iphoneos-arm64e
+Maintainer: hades
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.hades.pullclearnc
+Replaces: com.hades.pullclearnc
+Filename: ./debs/下拉清除通知-RootHide_2.0.deb
+Size: 5996
+MD5sum: 4e969ddc6a10166e9c94aaf97834dd19
+SHA1: dd966ae3b00ac09686b0f34a7b32a2220ed54bc2
+SHA256: 1fe3f54dd441871fe9908bf34cec3910624a7588171bfe91a4ae68a50c120fab
+Section: 轻量插件
+Description: 锁屏/通知中心下拉即可清空全部通知，原作者Netskao，更新支持iOS16+
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: hades
+Name: 下拉清除通知-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.hades.pullclearnc.json
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
