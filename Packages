@@ -1388,15 +1388,25 @@ Package: com.custom.
 Version: 1.0
 Architecture: iphoneos-arm64e
 Maintainer: donk
+Conflicts: com.custom.
+Replaces: com.custom.
 Filename: ./debs/no_download/protected.deb
-Size: 36552
-MD5sum: 6f3d810eafc245b0e8fd1e056c4477c7
-SHA1: b82191a9b6843d36dbe143c58d7c0860da5156c9
-SHA256: 292817f93deb5e5595c65fdd1e38248c88e5db15142a0d48375b3cd57a203ea0
-Section: Tweaks
-Description: 个人自用
+Size: 35880
+MD5sum: dc8e203ae77e5fdd9ed12dc5ebfa46fe
+SHA1: 06187d36a057765904d11bc0d5ff6a04d47e00ec
+SHA256: 52f008a4316ac5b5bbe9cb88c13cd21ff616d7afd245aecb4f5a03bb11ae6820
+Section: 软件精简
+Description: 贴吧精简插件
+ - 底栏背景透明，保留按钮操作
+ - 隐藏顶部「有料/S16/直播」入口
+ - 禁用左上角侧边栏入口及侧栏弹出
+ - 支持底栏隐藏自定义-长按底栏弹出设置
+ - 由于广告实在去除不掉，所以打包进现有去广告插件
+ - 如有安装去广告插件请卸载避免冲突
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
-Name: 贴吧精简-RootHide
+Name: 贴吧净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom..json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -1404,15 +1414,25 @@ Package: com.custom.
 Version: 1.0
 Architecture: iphoneos-arm64
 Maintainer: donk
+Conflicts: com.custom.
+Replaces: com.custom.
 Filename: ./debs/no_download/protected.deb
-Size: 36580
-MD5sum: a89aa9d7d531f157824e1e509395f3a5
-SHA1: 822e7177c58e224ae76c167db57d6c7409a524fc
-SHA256: 1613fe5aadd729ab1e8ccb26ca8b3fc3b75f57fcc26ccdd0d35aed370bacf5bd
-Section: Tweaks
-Description: 个人自用
+Size: 35848
+MD5sum: 972446474a2710c21d30436fc0c54bdd
+SHA1: 7f5f0b6ada7d701370554b7cef016cb297734037
+SHA256: a7cf24db9727e053f25c5ce14270826166a3d48de4e2c42819d7edad184e91a1
+Section: 软件精简
+Description: 贴吧精简插件
+ - 底栏背景透明，保留按钮操作
+ - 隐藏顶部「有料/S16/直播」入口
+ - 禁用左上角侧边栏入口及侧栏弹出
+ - 支持底栏隐藏自定义-长按底栏弹出设置
+ - 由于广告实在去除不掉，所以打包进现有去广告插件
+ - 如有安装去广告插件请卸载避免冲突
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
-Name: 贴吧精简-Rootless
+Name: 贴吧净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom..json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -2356,89 +2376,49 @@ PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.tim
 Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: Local User
-Conflicts: com.custom.tim.rootless, com.custom.tim.rootless
-Replaces: com.custom.tim.rootless, com.custom.tim.rootless
-Filename: ./debs/TIM优化-Rootless_1.0.deb
-Size: 13472
-MD5sum: edbb65fd405a3e0cbdf3636947b33943
-SHA1: 085f05c0931190b1f72e139bab8dc0a01dc13436
-SHA256: 2aca01c1a99c101dab3f5978c3764c84609e8a4f02eae2be215d0de75b385120
-Section: 软件精简
-Description: 面禁用截图预览
- - 全局圆角头像
- - 全局头像边框
- - 隐藏输入框字
- - 自定义输入框字
- - tim底部双指长按弹出调整界
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: TIM优化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim.json
-
-Package: com.custom.tim
-Version: 1.0
 Architecture: iphoneos-arm64e
-Maintainer: Local User
-Conflicts: com.custom.tim.roothide, com.custom.tim.roothide
-Replaces: com.custom.tim.roothide, com.custom.tim.roothide
-Filename: ./debs/TIM优化-RootHide_1.0.deb
-Size: 13472
-MD5sum: acd9a88dbc0ce18daa0f08fc7eda4b42
-SHA1: 7e148c315f134c2480e523da100c2a4536080c27
-SHA256: ed6a5d97d1e4ed603674fae9b2d663514c290cfbb00ef8edc9afe3b95710fdb4
-Section: 软件精简
-Description: 面禁用截图预览
- - 全局圆角头像
- - 全局头像边框
- - 隐藏输入框字
- - 自定义输入框字
- - tim底部双指长按弹出调整界
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: TIM优化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
-
-Package: com.custom.tim1
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: Local User
+Maintainer: donk
 Conflicts: com.custom.tim
 Replaces: com.custom.tim
 Filename: ./debs/no_download/protected.deb
-Size: 4416
-MD5sum: 8d2a691cf2b36bb4009b1f8b8964d8ec
-SHA1: 48a633b6ec73f0a50dca132f6e5d71c1e52b3034
-SHA256: dd11212584782a4f1a6f92d9fbe4dd088285185bb2e7bac9fabb6c96a0d6124d
+Size: 26652
+MD5sum: 2c1beab353ad89bdc5a141b775d00a16
+SHA1: 3b5db9ac7a50857fb4147410bbf5034651800ed3
+SHA256: 69df7ac0f3b1cbf40470a8fee6548c36b9fa2e733d110fa8355d4be6da5ab78d
 Section: 软件精简
-Description: 去除tim软件底栏
- - 插件无设置项安装即可生效
+Description:
+ - 修改底栏为悬浮风格
+ - 支持底栏隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: Tim去底栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim1.json
+Author: donk
+Name: TIM净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.tim1
+Package: com.custom.tim
 Version: 1.0
 Architecture: iphoneos-arm64
-Maintainer: Local User
+Maintainer: donk
 Conflicts: com.custom.tim
 Replaces: com.custom.tim
 Filename: ./debs/no_download/protected.deb
-Size: 4412
-MD5sum: 64a9608b19c2e6bbbfb2626f9b1448e0
-SHA1: 85447563c7cfb58ae51a63222f5537d9714fc021
-SHA256: 84c01b133e481c7de299af792cdbe783315327ca8c30edadd45224929ee95e85
+Size: 26656
+MD5sum: 14b68617dc2a5950b3eed09919f177dd
+SHA1: 7e662c397688ba9ac04d87f3fcccf571a1d53370
+SHA256: 369427ef864feb0c9a9fe40d35b2614e276b6ac2a3c963812717f1d383d6f0be
 Section: 软件精简
-Description: 去除tim软件底栏
- - 插件无设置项安装即可生效
+Description:
+ - 修改底栏为悬浮风格
+ - 支持底栏隐藏自定义
+ - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: Tim去底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim1.json
+Author: donk
+Name: TIM净化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
