@@ -1384,6 +1384,38 @@ Author: crctdd
 Name: Choicy新补丁-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.crctdd.choicy-patch.json
 
+Package: com.custom.
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Filename: ./debs/no_download/protected.deb
+Size: 36552
+MD5sum: 6f3d810eafc245b0e8fd1e056c4477c7
+SHA1: b82191a9b6843d36dbe143c58d7c0860da5156c9
+SHA256: 292817f93deb5e5595c65fdd1e38248c88e5db15142a0d48375b3cd57a203ea0
+Section: Tweaks
+Description: 个人自用
+Author: donk
+Name: 贴吧精简-RootHide
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Filename: ./debs/no_download/protected.deb
+Size: 36580
+MD5sum: a89aa9d7d531f157824e1e509395f3a5
+SHA1: 822e7177c58e224ae76c167db57d6c7409a524fc
+SHA256: 1613fe5aadd729ab1e8ccb26ca8b3fc3b75f57fcc26ccdd0d35aed370bacf5bd
+Section: Tweaks
+Description: 个人自用
+Author: donk
+Name: 贴吧精简-Rootless
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.amap
 Version: 1.0
 Architecture: iphoneos-arm64e
@@ -2319,58 +2351,6 @@ Description: 淘宝底栏去除底部视频，排版重构
 Author: Local User
 Name: 淘宝精简底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.tieba
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
-Filename: ./debs/no_download/protected.deb
-Size: 31960
-MD5sum: 32ebb281974baae125c0800322a24c57
-SHA1: c0e595bc4cee5a734ebbef5858e48c4435e0ce70
-SHA256: ed94c75d176a39040b87b6c08807590fac49732f4ba08b0abb9e83fb3ee8de08
-Section: 软件精简
-Description: 贴吧精简插件
- - 底栏背景透明，保留按钮操作
- - 隐藏顶部「有料/S16/直播」入口
- - 禁用左上角侧边栏入口及侧栏弹出
- - 支持底栏隐藏自定义-长按底栏弹出设置
- - 由于广告实在去除不掉，所以打包进现有去广告插件
- - 如有安装去广告插件请卸载避免冲突
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 贴吧净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tieba.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.tieba
-Version: 1.0
-Architecture: iphoneos-arm64
-Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
-Filename: ./debs/no_download/protected.deb
-Size: 32020
-MD5sum: f1b3789abe946a9d7b26016dc080f817
-SHA1: 7bc402c2a6a15e035b62d16afe288f5cedff4c10
-SHA256: 7a28f48cadcc240772c7a4911aa0acf6831822d45a761ca168397d7a31b9d421
-Section: 软件精简
-Description: 贴吧精简插件
- - 底栏背景透明，保留按钮操作
- - 隐藏顶部「有料/S16/直播」入口
- - 禁用左上角侧边栏入口及侧栏弹出
- - 支持底栏隐藏自定义-长按底栏弹出设置
- - 由于广告实在去除不掉，所以打包进现有去广告插件
- - 如有安装去广告插件请卸载避免冲突
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 贴吧净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tieba.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
