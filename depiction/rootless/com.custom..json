@@ -16,8 +16,13 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 去除tim软件底栏\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
-        },
+          "markdown": "### 插件介绍\n- 贴吧精简插件\n- 底栏背景透明，保留按钮操作\n- 隐藏顶部「有料/S16/直播」入口\n- 禁用左上角侧边栏入口及侧栏弹出\n- 支持底栏隐藏自定义-长按底栏弹出设置\n- 由于广告实在去除不掉，所以打包进现有去广告插件\n- 如有安装去广告插件请卸载避免冲突\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        }, {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 15,
+      "itemSize": "{300,533}",
+      "screenshots": [{"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/tieb.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/tieb1.png"}, {"accessibilityText": "Screenshot", "url": "https://lu2412.github.io/repo/icon/tieb2.png"}]
+    },
         {
           "class": "DepictionHeaderView",
           "title": "详细信息",
@@ -27,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Local User"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月04日"
+          "text": "2026年10月16日"
         }
       ]
     },

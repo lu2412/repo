@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 面禁用截图预览\n- 全局圆角头像\n- 全局头像边框\n- 隐藏输入框字\n- 自定义输入框字\n- tim底部双指长按弹出调整界\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 修改底栏为悬浮风格\n- 支持底栏隐藏自定义\n- 长按底栏区域唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,7 +27,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Local User"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月27日"
+          "text": "2026年10月16日"
         }
       ]
     },
