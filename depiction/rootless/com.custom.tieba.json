@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 贴吧精简插件\n- 底栏背景透明，保留按钮操作\n- 隐藏顶部「有料/S16/直播」入口\n- 禁用左上角侧边栏入口及侧栏弹出\n- 支持底栏隐藏自定义-长按底栏弹出设置\n- 由于广告实在去除不掉，所以打包进现有去广告插件\n- 如有安装去广告插件请卸载避免冲突\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 贴吧精简插件\n- 底栏背景透明，保留按钮操作\n- 隐藏顶部「有料/S16/直播」入口\n- 禁用左上角侧边栏入口及侧栏弹出\n- 支持底栏隐藏自定义-长按底栏弹出设置\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         }, {
       "class": "DepictionScreenshotsView",
       "itemCornerRadius": 15,
@@ -37,7 +37,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -47,7 +47,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月16日"
+          "text": "2026年10月17日"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 初始发布"}
       ]
     }
   ]
