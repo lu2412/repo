@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.1"
+          "text": "1.0.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.2\n- 优化iOS15设备的管理App启动兼容性。\n- 插件反馈改为打开专属反馈页面。"}
       ]
     }
   ]
