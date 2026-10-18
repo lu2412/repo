@@ -1,0 +1,57 @@
+{
+  "class": "DepictionTabView",
+  "headerImage": "https://lu2412.github.io/repo/icon/hengfu.png",
+  "tintColor": "#87A2FF",
+  "minVersion": "0.3",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "描述",
+      "views": [
+        {
+          "class": "DepictionButtonView",
+          "text": "捐赠给开发者",
+          "action": "https://qr.alipay.com/fkx19423rvx2js7rku0hk9f",
+          "openExternal": 1
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 插件介绍\n- 从虚拟权限插件独立出来的通知权限伪装插件\n- 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。\n- App 正常开启通知权限时不会被拦截，通知提醒正常放行。\n- 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。\n- 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件作者",
+          "text": "Junhong"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "1.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 - iOS 16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "最后更新",
+          "text": "2026年10月18日"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "更新日志",
+      "views": [
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 初始发布"}
+      ]
+    }
+  ]
+}
