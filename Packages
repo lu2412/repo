@@ -2322,41 +2322,17 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.tieba
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
-Filename: ./debs/no_download/protected.deb
-Size: 30960
-MD5sum: 05b891f4022f2443df39847db1bc1a67
-SHA1: 4ca8bfeae2422502ee1d6f0752c1df849114088b
-SHA256: 7c51bef8c0706b437a85373c09017b4595f599b3374c6e9a5f5466226bb97652
-Section: 软件精简
-Description: 贴吧精简插件
- - 底栏背景透明，保留按钮操作
- - 隐藏顶部「有料/S16/直播」入口
- - 禁用左上角侧边栏入口及侧栏弹出
- - 支持底栏隐藏自定义-长按底栏弹出设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 贴吧净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tieba.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.tieba
-Version: 1.0
+Package: com.custom.tieba.donk
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
+Conflicts: com.custom.tieba.donk
+Replaces: com.custom.tieba.donk
 Filename: ./debs/no_download/protected.deb
-Size: 30700
-MD5sum: a1f0cb5c1bd2dc7896d3057fb3ad76c8
-SHA1: c9bbccedac4d8553728661a40b673c231adf3a0c
-SHA256: 6133c7c6f89fb7c6d1180463894cd414cc790c69305ecb9a6dfdf45856be9af0
+Size: 33636
+MD5sum: eb375b379d9cdc2a7387a5c885071912
+SHA1: f6282320fe4926c54dc8701130df03ae3b21b995
+SHA256: 8330c2f7a4f04f004dd1f808755d285cbcd69b1a4c8239b9914e7aa7e383d965
 Section: 软件精简
 Description: 贴吧精简插件
  - 底栏背景透明，保留按钮操作
@@ -2366,45 +2342,21 @@ Description: 贴吧精简插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 贴吧净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tieba.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tieba.donk.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.tieba
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
-Filename: ./debs/no_download/protected.deb
-Size: 30700
-MD5sum: 55c6a8ab66b41fd68f4785e7c6193f95
-SHA1: b1a0c43ebfbc8fe62742d5feece692c5962a6956
-SHA256: d4d85c140d1786175ca79b5b56eb544248810d5bd9e8070d847432a27dd9b7ab
-Section: 软件精简
-Description: 贴吧精简插件
- - 底栏背景透明，保留按钮操作
- - 隐藏顶部「有料/S16/直播」入口
- - 禁用左上角侧边栏入口及侧栏弹出
- - 支持底栏隐藏自定义-长按底栏弹出设置
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: 贴吧净化-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tieba.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.tieba
+Package: com.custom.tieba.donk
 Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: donk
-Conflicts: com.custom.tieba
-Replaces: com.custom.tieba
+Conflicts: com.custom.tieba.donk
+Replaces: com.custom.tieba.donk
 Filename: ./debs/no_download/protected.deb
-Size: 30888
-MD5sum: d30127b5f8ec43c847838e761653b6e2
-SHA1: 28a989623f9253a7b38f0cb4d6cd346cc5d7d335
-SHA256: 9673b7f2af81033e9189bab1e5826b825071022899ce43425e5ff912de574928
+Size: 33648
+MD5sum: 06162ca7a83d6961d38c933c91eb3540
+SHA1: 6363f0c75172aa98542eb3604f23af561c37a09b
+SHA256: 574b471c9b326d86ed2a80d0710cf74a07856d85d61e9da0c80498042fa23a08
 Section: 软件精简
 Description: 贴吧精简插件
  - 底栏背景透明，保留按钮操作
@@ -2414,55 +2366,55 @@ Description: 贴吧精简插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 贴吧净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tieba.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tieba.donk.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.tim
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: donk
-Conflicts: com.custom.tim
-Replaces: com.custom.tim
-Filename: ./debs/no_download/protected.deb
-Size: 26652
-MD5sum: 2c1beab353ad89bdc5a141b775d00a16
-SHA1: 3b5db9ac7a50857fb4147410bbf5034651800ed3
-SHA256: 69df7ac0f3b1cbf40470a8fee6548c36b9fa2e733d110fa8355d4be6da5ab78d
-Section: 软件精简
-Description:
- - 修改底栏为悬浮风格
- - 支持底栏隐藏自定义
- - 长按底栏区域唤起设置面板，自由开关隐藏项
- - 无独立设置页面，安装完成立即生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: donk
-Name: TIM净化-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.tim
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: donk
-Conflicts: com.custom.tim
-Replaces: com.custom.tim
+Conflicts: com.custom.tim.donk
+Replaces: com.custom.tim.donk
 Filename: ./debs/no_download/protected.deb
-Size: 26656
-MD5sum: 14b68617dc2a5950b3eed09919f177dd
-SHA1: 7e662c397688ba9ac04d87f3fcccf571a1d53370
-SHA256: 369427ef864feb0c9a9fe40d35b2614e276b6ac2a3c963812717f1d383d6f0be
+Size: 27140
+MD5sum: 1f0cc358a30da7ca3ce1527ebcf8bdd7
+SHA1: fe4d30c95610561b588e1d47ffa095b7759a31e4
+SHA256: 5477f3db128162684f3f11e4890246b845fd0037c15f16d51ae9ef1d692274a1
 Section: 软件精简
 Description:
  - 修改底栏为悬浮风格
  - 支持底栏隐藏自定义
- - 长按底栏区域唤起设置面板，自由开关隐藏项
+ - 长按右上角➕号唤起设置面板，自由开关隐藏项
  - 无独立设置页面，安装完成立即生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: TIM净化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.tim.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.tim
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.tim.donk
+Replaces: com.custom.tim.donk
+Filename: ./debs/no_download/protected.deb
+Size: 27284
+MD5sum: c972b74114888e90c85104367e6c3fef
+SHA1: a6d91707b29903a93b7905c1c00c7d2dda3dc9fa
+SHA256: 59249a74b7190cf5cd6f8afec244151dec614d3b6deee86af5d0bd0a015527b2
+Section: 软件精简
+Description:
+ - 修改底栏为悬浮风格
+ - 支持底栏隐藏自定义
+ - 长按右上角➕号唤起设置面板，自由开关隐藏项
+ - 无独立设置页面，安装完成立即生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: TIM净化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.tim.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -4946,6 +4898,52 @@ Author: 蜗牛
 Name: 3D开关APP消息通知 EasyNotify-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.snail.easynotify.rootless.json
 
+Package: com.spoofnotify
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 428
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: ./debs/通知权限伪装-RootHide_1.0.1_iphoneos-arm64e.deb
+Size: 43692
+MD5sum: 9a81f68ff012a79e6efae5685b505966
+SHA1: ff74a144f7b1f4e3c5463a2d3a40b0e205636812
+SHA256: 982ce2e714699b2c68e1d8c86cee48137d729d2d7b9687c6cce46623d5e2adca
+Section: 越狱增强
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ - 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ - 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Junhong
+Name: 通知权限伪装-RootHide
+
+Package: com.spoofnotify
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 428
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
+Filename: ./debs/通知权限伪装-Rootless_1.0.1_iphoneos-arm64.deb
+Size: 43696
+MD5sum: b184e334cc61c4ebda14c25a2cca5a60
+SHA1: 64a392f4ee904b53e1130b5b7c752ec845fcce00
+SHA256: 2f050b1d84e45b29938f6a1c0a47ad8fba2f8cea91e9be088db4bb0a9eb82bcb
+Section: 越狱增强
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ - 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ - 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Junhong
+Name: 通知权限伪装-Rootless
+
 Package: com.squidforce.doubletapflipcamera
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -5400,22 +5398,23 @@ Name: 插件归类桌面版-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.tweaksettings.json
 
 Package: com.weifengluntan
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64
 Maintainer: donk
-Conflicts: com.custom.wpforumclient
-Replaces: com.custom.wpforumclient
+Conflicts: com.custom.wpforumclient.donk
+Replaces: com.custom.wpforumclient.donk
 Filename: ./debs/no_download/protected.deb
-Size: 18060
-MD5sum: 0641f79527d2a708491bd06ba26f0cf9
-SHA1: e3be9620779889273f824508fc8d6a7216db04fc
-SHA256: f02f30faa6bd962ad0a04ccedfcfaca51fa5163a58f65158739a3282a719cda6
+Size: 24676
+MD5sum: e059c25992d2e4caeb5e143322c089e9
+SHA1: 9e6c82f6c7f8d3a7f8c106df9b7e942ded064239
+SHA256: 9f08d8c1df18b982760aa6d1281c2d6df84695c324b0d7e2079e4f092ad19894
 Section: 软件精简
-Description: 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验
- - 去除开屏广告和热启动开屏广告
- - 支持视图隐藏自定义
- - 长按底栏区域唤起设置面板，自由开关隐藏项
- - 无独立设置页面，安装完成立即生效
+Description: 威锋体验增强插件
+ - 专为威锋客户端打造，主打纯净与高效：
+ - 纯净去广：去除开屏广告，秒进APP。
+ - 悬浮底栏：高颜值毛玻璃底栏，自带快捷搜索。
+ - 极速直达：冷启动自动直达社区“版块”。
+ - 双指设置：任意页面双指长按唤出面板，自由开关底栏按键。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 威锋底栏精简-Rootless
@@ -5424,22 +5423,23 @@ Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
 Package: com.weifengluntan
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm64e
 Maintainer: donk
-Conflicts: com.custom.wpforumclient
-Replaces: com.custom.wpforumclient
+Conflicts: com.custom.wpforumclient.donk
+Replaces: com.custom.wpforumclient.donk
 Filename: ./debs/no_download/protected.deb
-Size: 18052
-MD5sum: 0851bd6ddea612041d0cdb977cf0350b
-SHA1: 72f1e3a85b6eee1c30f5ec7278d8333facad3674
-SHA256: b8f53fb2a865814759ffed3a296eb6d468c910276a12e83b8b429f8057df91bb
+Size: 24804
+MD5sum: 00f4895eba6b8cd3fe903cf127097f2b
+SHA1: 3111079257f156e36601e484bba06ca1af2bddd7
+SHA256: ed9bb8152bbf9e98f5291386897511d57c8ce34674b7eaccf5b2175d4605b2a1
 Section: 软件精简
-Description: 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验
- - 去除开屏广告和热启动开屏广告
- - 支持视图隐藏自定义
- - 长按底栏区域唤起设置面板，自由开关隐藏项
- - 无独立设置页面，安装完成立即生效
+Description: 威锋体验增强插件
+ - 专为威锋客户端打造，主打纯净与高效：
+ - 纯净去广：去除开屏广告，秒进APP。
+ - 悬浮底栏：高颜值毛玻璃底栏，自带快捷搜索。
+ - 极速直达：冷启动自动直达社区“版块”。
+ - 双指设置：任意页面双指长按唤出面板，自由开关底栏按键。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 威锋底栏精简-RootHide
