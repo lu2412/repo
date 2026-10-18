@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "2.5.1-13"
+          "text": "2.5.1-13.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月17日"
+          "text": "2026年10月19日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.5.1-13\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 2.5.1-13.1\n- 初始版本"}
       ]
     }
   ]
