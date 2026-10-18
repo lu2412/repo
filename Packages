@@ -2818,28 +2818,24 @@ Name: Sileo-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
 Package: com.dao.sileo
-Version: 2.5.1-13
+Version: 2.5.1-13.1
 Architecture: iphoneos-arm64e
 Maintainer: 刀刀
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Conflicts: com.dao.sileo
 Replaces: org.coolstar.sileo, com.dao.sileo
-Filename: ./debs/Sileo颜色指示器-RootHide.deb
-Size: 3014468
-MD5sum: e21b1a41aaa78f02e6e704f4a6da15cd
-SHA1: ce5640dd22ae16f269a8294ca13f500e08548c03
-SHA256: d0b68eaa95dc741710c39d8a622dd7761beb7f0fe4e0811f9fe3fc482a3c2164
+Filename: ./debs/Sileo指示器-RootHide.deb
+Size: 3005344
+MD5sum: 5b1ab72134eb11f9ba310619f9432808
+SHA1: 0cebbe9d041ca5a2b2ef23e86fec2db737e86072
+SHA256: d54840d0ce4de0037097ff1b33497311b72b31501c8c9424ed5f2139deb57d93
 Section: 越狱增强
-Description: 在更新列表/软件源中浏览插件列表/软件包已安装列表中增加插件架构指示器
- - 在插件左侧有个竖着小指示器:
- - iphoneos-arm64e(隐根)→绿色
- - iphoneos-arm64(无根)→蓝色
- - iphoneos-arm(有根)→橙色
- - all→灰色
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)
+ - 可识别刀刀源内的 RootHidePatcher 中文版，转换插件一条龙。
  - 插件无设置项安装即可生效
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Amy While
-Name: Sileo颜色指示器-RootHide
+Name: Sileo指示器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
 Package: com.daodao.nocshare
@@ -5186,6 +5182,44 @@ Size: 465592
 MD5sum: 45e24a23d05617ee526b4bb7de981106
 SHA1: 98995a58ddc4fcc13c825258ade2e3c8b6624c23
 SHA256: c65f9a7fed858a0835187cd6ce2614d9fca8f4c3941059b0f001dacb84e3a349
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-Rootless
+
+Package: com.susudear.screencore
+Version: 2.0.4
+Architecture: iphoneos-arm64e
+Maintainer: SuSu
+Installed-Size: 3076
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-RootHide_2.0.4_iphoneos-arm64e.deb
+Size: 481276
+MD5sum: 4ec7cdd759ff556c57c1c16718cfedea
+SHA1: db6ef28cf87a51857351baf00585857dbc5e5239
+SHA256: 262f8d45ce42f687184dadc95b832ac6cb919f86525dd7f8b5025474ab64788f
+Section: 分屏插件
+Description: 一款免费的分屏插件
+ - 体验使用效果还不错
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+Name: ScreenCore分屏-RootHide
+
+Package: com.susudear.screencore
+Version: 2.0.4
+Architecture: iphoneos-arm64
+Maintainer: SuSu
+Installed-Size: 3076
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: ./debs/ScreenCore分屏-Rootless_2.0.4_iphoneos-arm64.deb
+Size: 484412
+MD5sum: 57889225d685c4ab5011e3f8723c046b
+SHA1: 21a476adc23844b7e9947d3c2538779884bde982
+SHA256: a2b27395a469dee75f8b7d42985490cb883409f93c04fcc0ff6a356c23019cc5
 Section: 分屏插件
 Description: 一款免费的分屏插件
  - 体验使用效果还不错
