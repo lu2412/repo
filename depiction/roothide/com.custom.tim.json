@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 修改底栏为悬浮风格\n- 支持底栏隐藏自定义\n- 长按底栏区域唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 修改底栏为悬浮风格\n- 支持底栏隐藏自定义\n- 长按右上角➕号唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月16日"
+          "text": "2026年10月17日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 更改为长按右上角➕唤出面板"}
       ]
     }
   ]

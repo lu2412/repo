@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 个人优化小布丁:调整为打开威锋自动跳转到社区-版块页面增强浏览体验\n- 去除开屏广告和热启动开屏广告\n- 支持视图隐藏自定义\n- 长按底栏区域唤起设置面板，自由开关隐藏项\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 威锋体验增强插件\n- 专为威锋客户端打造，主打纯净与高效：\n- 纯净去广：去除开屏广告，秒进APP。\n- 悬浮底栏：高颜值毛玻璃底栏，自带快捷搜索。\n- 极速直达：冷启动自动直达社区“版块”。\n- 双指设置：任意页面双指长按唤出面板，自由开关底栏按键。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月07日"
+          "text": "2026年10月18日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 初始发布"}
       ]
     }
   ]
