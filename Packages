@@ -4904,14 +4904,14 @@ Architecture: iphoneos-arm64e
 Maintainer: Junhong
 Installed-Size: 428
 Depends: firmware (>= 15.0)
-Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
-Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
-Filename: ./debs/通知权限伪装-RootHide_1.0.1_iphoneos-arm64e.deb
-Size: 43692
-MD5sum: 9a81f68ff012a79e6efae5685b505966
-SHA1: ff74a144f7b1f4e3c5463a2d3a40b0e205636812
-SHA256: 982ce2e714699b2c68e1d8c86cee48137d729d2d7b9687c6cce46623d5e2adca
-Section: 越狱增强
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, com.spoofnotify
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, com.spoofnotify
+Filename: ./debs/通知权限伪装-RootHide_1.0.1.deb
+Size: 43840
+MD5sum: d55d05d64e73a7d3d8cca070cd04ac5d
+SHA1: 7bd5a87bafd9d3a529733da93a265ed2cff90b4b
+SHA256: 53825ba27485e57deaf1191208fe851bfdbda7988d94b0b083178a5aba109a4b
+Section: 软件增强
 Description: 从虚拟权限插件独立出来的通知权限伪装插件
  - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
  - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
@@ -4920,6 +4920,7 @@ Description: 从虚拟权限插件独立出来的通知权限伪装插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Junhong
 Name: 通知权限伪装-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.spoofnotify.json
 
 Package: com.spoofnotify
 Version: 1.0.1
@@ -4927,14 +4928,14 @@ Architecture: iphoneos-arm64
 Maintainer: Junhong
 Installed-Size: 428
 Depends: firmware (>= 15.0)
-Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
-Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide
-Filename: ./debs/通知权限伪装-Rootless_1.0.1_iphoneos-arm64.deb
-Size: 43696
-MD5sum: b184e334cc61c4ebda14c25a2cca5a60
-SHA1: 64a392f4ee904b53e1130b5b7c752ec845fcce00
-SHA256: 2f050b1d84e45b29938f6a1c0a47ad8fba2f8cea91e9be088db4bb0a9eb82bcb
-Section: 越狱增强
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, com.spoofnotify
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, com.spoofnotify
+Filename: ./debs/通知权限伪装-Rootless_1.0.1.deb
+Size: 43860
+MD5sum: 36f378828971d94307f34162b1ca7ccb
+SHA1: 367bf1b1368c742f64662a89f310b302c3ca7abf
+SHA256: 6aff21560af63068c0eb13277e03beda63456ab3dee81b0f75ed12a3231c2832
+Section: 软件增强
 Description: 从虚拟权限插件独立出来的通知权限伪装插件
  - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
  - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
@@ -4943,6 +4944,7 @@ Description: 从虚拟权限插件独立出来的通知权限伪装插件
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: Junhong
 Name: 通知权限伪装-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.spoofnotify.json
 
 Package: com.squidforce.doubletapflipcamera
 Version: 1.1
