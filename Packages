@@ -4946,6 +4946,54 @@ Author: Junhong
 Name: 通知权限伪装-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.spoofnotify.json
 
+Package: com.spoofnotify
+Version: 1.0.2
+Architecture: iphoneos-arm64e
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, spoofnotify.roothide
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, spoofnotify.roothide
+Filename: ./debs/通知权限伪装-RootHide_1.0.2.deb
+Size: 36800
+MD5sum: 9817818f9e27ebc18112ad760e3b63d8
+SHA1: 67dcdf14bf09ae52af7fb803feb53d5328b5701a
+SHA256: 058c14e250f061cf96bb384573248929d5f4fc5248c684f9c9e4fcbdd992f137
+Section: 软件增强
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ - 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ - 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Junhong
+Name: 通知权限伪装-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.spoofnotify.json
+
+Package: com.spoofnotify
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Junhong
+Installed-Size: 300
+Depends: firmware (>= 15.0)
+Conflicts: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, spoofnotify
+Replaces: im.mjh.virtualnotify, im.mjh.virtualnotify.roothide, spoofnotify
+Filename: ./debs/通知权限伪装-Rootless_1.0.2.deb
+Size: 36820
+MD5sum: 859b6a3e3a1e520a0bfb7258d0ed991b
+SHA1: 5d7e44854e9bbe150a8e5b7f611a17225e58ddf8
+SHA256: 44dafd33c98e76a08661d4a3a2c2905c9e9bc6df695b1708cb999473ceb401c4
+Section: 软件增强
+Description: 从虚拟权限插件独立出来的通知权限伪装插件
+ - 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。
+ - App 正常开启通知权限时不会被拦截，通知提醒正常放行。
+ - 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。
+ - 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Junhong
+Name: 通知权限伪装-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.spoofnotify.json
+
 Package: com.squidforce.doubletapflipcamera
 Version: 1.1
 Architecture: iphoneos-arm64
@@ -5576,6 +5624,46 @@ Description: 禁用解锁后主屏幕图标飞入动画
 Author: wkk
 Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cscathook.json
+
+Package: com.wkk.glasssuitex
+Version: 1.1-2
+Architecture: iphoneos-arm64
+Maintainer: wkk
+Installed-Size: 1980
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.wkk.glasssuitex
+Replaces: com.wkk.glasssuitex
+Filename: ./debs/GlassSuiteX弹窗美化-Rootless_1.1-2.deb
+Size: 397308
+MD5sum: 06db7ccd209e84fc462d344286ebb7eb
+SHA1: d3404df5dd9c64dba0b578a3fb132b1617cdce95
+SHA256: ad2e8d15e2ed45d7305db80cf0ebab2431e414061a3dded10b46fdf8112fa5e7
+Section: 系统增强
+Description: 美化系统弹窗及通知美化
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: GlassSuiteX弹窗美化-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.glasssuitex.json
+
+Package: com.wkk.glasssuitex
+Version: 1.1-2
+Architecture: iphoneos-arm64e
+Maintainer: wkk
+Installed-Size: 1980
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.wkk.glasssuitex
+Replaces: com.wkk.glasssuitex
+Filename: ./debs/GlassSuiteX弹窗美化-RootHide_1.1-2.deb
+Size: 403988
+MD5sum: 040b8506fbd4700cd9e48ab8a9265b46
+SHA1: dcefc6d9d256b8edd2d9eb9ef1b26216e4d99998
+SHA256: d84d774359aa0242a0d6230f6d73cb2671d25b9af14c8c546cf452a3876201da
+Section: 系统增强
+Description: 美化系统弹窗及通知美化
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: wkk
+Name: GlassSuiteX弹窗美化-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.wkk.glasssuitex.json
 
 Package: com.wkk.iconx
 Version: 1.2
