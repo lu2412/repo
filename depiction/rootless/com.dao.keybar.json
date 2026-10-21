@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.1"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月14日"
+          "text": "2026年10月19日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 新增现代化的设置页\n- 调节键盘底部间距\n- 调节地球键/听写键位置快捷按钮开关\n- 所有功能实时生效，其他优化"}
       ]
     }
   ]

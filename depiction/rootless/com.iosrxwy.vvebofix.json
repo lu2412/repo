@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 修复VVebo用户时间线和粉丝列表显示\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 修复 VVebo 主页时间线，恢复专业版\n- 把反馈入口改到作者频道。实况图可以点开播放\n- 长按可以保存和分享。切换账号不再打开频道\n- 三指双击打开设置，长按底栏编辑按钮打开或关闭设置\n- 时间线、实况图、会员和 120Hz 默认开启\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "lhl"
+          "text": "iosrxwy"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0-5+debug"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月20日"
+          "text": "2026年10月19日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0-5+debug\n- 更新支持RootHide"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.1\n- 更新支持RootHide"}
       ]
     }
   ]
