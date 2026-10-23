@@ -4447,7 +4447,7 @@ Name: NewTerm 3终端-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.newterm3.json
 
 Package: com.nx.stheno
-Version: 0.1.12-3~backgroundreuse1+memoryopt1
+Version: 2.1
 Architecture: iphoneos-arm64e
 Maintainer: Crassna
 Installed-Size: 2956
@@ -4455,10 +4455,10 @@ Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmwa
 Conflicts: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
 Replaces: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
 Filename: ./debs/Stheno分屏新版-RootHide.deb
-Size: 544632
-MD5sum: f86bbe99c89abfe3c0f8894a9d07ee07
-SHA1: 2e122b4604ca1fe46dbff9cfa88155571a6964a4
-SHA256: 49f71773c7666c6ca8571950b202f22988d01933c74a1e9861a1802d07b83f20
+Size: 545580
+MD5sum: 5c4043a1d192291a0c4f975d0d2d1804
+SHA1: 31c55f077ac3555a6aee7ac19da8cf951b52b6b4
+SHA256: c009c318dee1a674dde020420a99cbc94d104fd706f99f8b72449eef088ed380
 Section: 分屏插件
 Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -4467,7 +4467,7 @@ Name: Stheno分屏新版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.nx.stheno.json
 
 Package: com.nx.stheno
-Version: 0.1.12-3~backgroundreuse1+memoryopt1
+Version: 2.1
 Architecture: iphoneos-arm64
 Maintainer: Crassna
 Installed-Size: 2956
@@ -4475,10 +4475,10 @@ Depends: dev.theos.orion (>= 1.0.0), mobilesubstrate, firmware (>= 16.0), firmwa
 Conflicts: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
 Replaces: com.h.sthenokb, com.nx.stheno.fix, com.nx.stheno
 Filename: ./debs/Stheno分屏新版-Rootless.deb
-Size: 541892
-MD5sum: 80e53f4e3672e4557562198373874d9f
-SHA1: 9e629355f2af70ba13c340a838eb831adf466c73
-SHA256: 22cfc0a00370e42bb046797c9659a5ae3b981fa925c8f97d98cb9191b0c0c6ef
+Size: 541776
+MD5sum: e536e4ff87c385ff332214166fd1586d
+SHA1: ee7f9c10bd0d26b87a9fbd2b3ec372a5a5d48b71
+SHA256: 35f20c7c238563d572a340be2b3854b059e5eb33144628d44f1d67e90ca8518f
 Section: 分屏插件
 Description: iPhone分屏多任务插件，仅支持iOS16，左右底侧滑呼出设置,需安装旧版获取激活码,再装新版。
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -5718,7 +5718,7 @@ Name: 禁用解锁图标飞入-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.cscathook.json
 
 Package: com.wkk.glasssuitex
-Version: 1.1-2
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: wkk
 Installed-Size: 1980
@@ -5726,10 +5726,10 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceload
 Conflicts: com.wkk.glasssuitex
 Replaces: com.wkk.glasssuitex
 Filename: ./debs/GlassSuiteX弹窗美化-Rootless_1.1-2.deb
-Size: 397308
-MD5sum: 06db7ccd209e84fc462d344286ebb7eb
-SHA1: d3404df5dd9c64dba0b578a3fb132b1617cdce95
-SHA256: ad2e8d15e2ed45d7305db80cf0ebab2431e414061a3dded10b46fdf8112fa5e7
+Size: 397116
+MD5sum: 43b0bf714227eb9815276ff5e794e845
+SHA1: b132efd4ae027ab81d7b15c615091536df63154f
+SHA256: 6192959a5523e694b36739792acf1b066229d6ac66236c1061ff6beefdd9466b
 Section: 系统增强
 Description: 美化系统弹窗及通知美化
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
@@ -5738,7 +5738,7 @@ Name: GlassSuiteX弹窗美化-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.glasssuitex.json
 
 Package: com.wkk.glasssuitex
-Version: 1.1-2
+Version: 1.2
 Architecture: iphoneos-arm64e
 Maintainer: wkk
 Installed-Size: 1980
@@ -5746,10 +5746,10 @@ Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceload
 Conflicts: com.wkk.glasssuitex
 Replaces: com.wkk.glasssuitex
 Filename: ./debs/GlassSuiteX弹窗美化-RootHide_1.1-2.deb
-Size: 403988
-MD5sum: 040b8506fbd4700cd9e48ab8a9265b46
-SHA1: dcefc6d9d256b8edd2d9eb9ef1b26216e4d99998
-SHA256: d84d774359aa0242a0d6230f6d73cb2671d25b9af14c8c546cf452a3876201da
+Size: 403496
+MD5sum: 6acaebe430536395597fcd8f1b3c5379
+SHA1: 7fe5dcc508a41a10bbbb05667934c812e799536a
+SHA256: a8ac4fa97866d07a1e273000be9574596353128f97d77463465c99c75fceccd7
 Section: 系统增强
 Description: 美化系统弹窗及通知美化
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
