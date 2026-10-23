@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "Local User"
+          "text": "徐晓博"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.1"
+          "text": "1.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月05日"
+          "text": "2026年10月23日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 初始发布"}
       ]
     }
   ]
