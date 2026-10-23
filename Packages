@@ -2239,86 +2239,44 @@ Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.taobao4iphone
-Version: 1.0
-Architecture: iphoneos-arm64e
-Maintainer: lym
-Conflicts: com.custom.taobao4iphone
-Replaces: com.custom.taobao4iphone
-Filename: ./debs/no_download/protected.deb
-Size: 9448
-MD5sum: 96fcc0470a727a94884ea3420de7c894
-SHA1: c47e5d3f3348c47833a223cb7ea07a722eb0923b
-SHA256: 0bbca94127f60c32e50b9e964eade77b7a23a04446302ab78908c47b5e8d4d4b
-Section: 软件精简
-Description: 淘宝底栏去除底部视频，排版重构
- - 长按底栏弹出窗口可自行设置隐藏项
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 淘宝精简底栏-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.taobao4iphone.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.taobao4iphone
-Version: 1.0
+Version: 1.2
 Architecture: iphoneos-arm64
-Maintainer: lym
+Maintainer: 徐晓博
 Conflicts: com.custom.taobao4iphone
 Replaces: com.custom.taobao4iphone
 Filename: ./debs/no_download/protected.deb
-Size: 9480
-MD5sum: 2c60459aecb0f3583dd8e1742de08c65
-SHA1: 2951a2a413ea9639bfd713a8702c1f22a659c433
-SHA256: 7000f7923ad3085ff2df770db0be55e1ece4ebb8a5514ed6afe132cfaa2b3652
+Size: 36088
+MD5sum: 4547201faaee6ec49a5c3b23d7596b51
+SHA1: c891f75be2af7e43a92a4b1609e000a9ad04207f
+SHA256: 02297f346a2b5d7a37d3e716e8ec5dae4f0f20fd43441c67bdce7f04e5fac545
 Section: 软件精简
 Description: 淘宝底栏去除底部视频，排版重构
  - 长按底栏弹出窗口可自行设置隐藏项
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
+Author: 徐晓博
 Name: 淘宝精简底栏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
 Package: com.custom.taobao4iphone
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm64e
-Maintainer: Local User
+Maintainer: 徐晓博
 Conflicts: com.custom.taobao4iphone
 Replaces: com.custom.taobao4iphone
 Filename: ./debs/no_download/protected.deb
-Size: 12432
-MD5sum: e6ab7c4c68219e1d1092551a460eb088
-SHA1: 2e541a11098566d1c4ef0f0e0c8ddc97ecdbca4e
-SHA256: 42a33975b63312af3462561c2fe193878e7e7ab1ea4abe9f81c0833b6553947b
+Size: 36076
+MD5sum: 6bdba238fb2803b6d69fb33f95bc83ad
+SHA1: 0d8cbabe113a8f1bd51f85813101770c7f6c6621
+SHA256: 16c07af2f0078b68fdb1243c2e79ff8d680ca96d36d82b4726c88a240c776aa0
 Section: 软件精简
 Description: 淘宝底栏去除底部视频，排版重构
  - 长按底栏弹出窗口可自行设置隐藏项
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
+Author: 徐晓博
 Name: 淘宝精简底栏-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.taobao4iphone.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.custom.taobao4iphone
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: Local User
-Conflicts: com.custom.taobao4iphone
-Replaces: com.custom.taobao4iphone
-Filename: ./debs/no_download/protected.deb
-Size: 12444
-MD5sum: ff1fac3dbabc86d22d1acb4461d36b9d
-SHA1: d6f66f63ae9b2d0a55c394d64730de0de306abc9
-SHA256: 2cbef88e78e0114b06828778b86528c8a1046c168c5c43453137ea54f37a4a66
-Section: 软件精简
-Description: 淘宝底栏去除底部视频，排版重构
- - 长按底栏弹出窗口可自行设置隐藏项
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: Local User
-Name: 淘宝精简底栏-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.taobao4iphone.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -2775,6 +2733,56 @@ Description: 键盘下方新增快捷操作按钮
 Author: daodao
 Name: KeyBar-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.keybar.json
+
+Package: com.dao.keybar
+Version: 1.1
+Architecture: iphoneos-arm64e
+Maintainer: daodao
+Installed-Size: 428
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.keybar
+Replaces: com.dao.keybar
+Filename: ./debs/KeyBar-RootHide_1.1.deb
+Size: 48992
+MD5sum: 1a7f8f1d9cdc84e9a346e76cc44acab0
+SHA1: aab515888527b9e8d3d1fe8bb58c33fb8a678905
+SHA256: d3e226f50831780be987933788a0f47e7ac4b75064d64777c5b41cb2bea73507
+Section: 键盘插件
+Description: 键盘下方新增快捷操作按钮
+ - 支持全选、复制、剪切和粘贴
+ - 按钮采用胶囊样式，带细腻的高光边缘线
+ - 并自动适配深色与浅色模式
+ - 按钮位置根据地球键/听写键的高度自动调整
+ - 无需额外设置；长按任意按钮即可收起键盘。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: daodao
+Name: KeyBar-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.keybar.json
+
+Package: com.dao.keybar
+Version: 1.1
+Architecture: iphoneos-arm64
+Maintainer: daodao
+Installed-Size: 432
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: com.dao.keybar
+Replaces: com.dao.keybar
+Filename: ./debs/KeyBar-Rootless_1.1.deb
+Size: 50876
+MD5sum: c4a7d7f60e6b5f814242c2bda7634e8d
+SHA1: 1f708a43f196be38b8a7750e4b255bcab75d0449
+SHA256: 23bef15e21fb54a094daa3e5da93e5c7d38eb1e1d6f9d2859495e177bfa31041
+Section: 键盘插件
+Description: 键盘下方新增快捷操作按钮
+ - 支持全选、复制、剪切和粘贴
+ - 按钮采用胶囊样式，带细腻的高光边缘线
+ - 并自动适配深色与浅色模式
+ - 按钮位置根据地球键/听写键的高度自动调整
+ - 无需额外设置；长按任意按钮即可收起键盘。
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: daodao
+Name: KeyBar-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.keybar.json
 
 Package: com.dao.patcher
 Version: 2.1.5
@@ -3396,6 +3404,56 @@ Description: Zone 支持旧系统使用 .tendies 格式的交互壁纸/视频
 Author: iosdump
 Name: Zone 交互壁纸-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosdump.zone.json
+
+Package: com.iosrxwy.vvebofix
+Version: 1.0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Conflicts: com.iosrxwy.vvebofix
+Replaces: com.iosrxwy.vvebofix
+Filename: ./debs/VVebo时间线修复-RootHide.deb
+Size: 49828
+MD5sum: 71affdee1053bf3c083806f129b2bcca
+SHA1: a326576313b08b2576769685974d648c403a012e
+SHA256: b98ddf0585001c3f7935944933e249df722146fecb22cf751291fed68ef3dd33
+Section: 软件增强
+Description: 修复 VVebo 主页时间线，恢复专业版
+ - 把反馈入口改到作者频道。实况图可以点开播放
+ - 长按可以保存和分享。切换账号不再打开频道
+ - 三指双击打开设置，长按底栏编辑按钮打开或关闭设置
+ - 时间线、实况图、会员和 120Hz 默认开启
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosrxwy
+Name: VVebo时间线修复-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.iosrxwy.vvebofix.json
+
+Package: com.iosrxwy.vvebofix
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: iosrxwy
+Installed-Size: 220
+Depends: mobilesubstrate
+Conflicts: com.iosrxwy.vvebofix
+Replaces: com.iosrxwy.vvebofix
+Filename: ./debs/VVebo时间线修复-Rootless.deb
+Size: 49828
+MD5sum: f7991891cf67ae1f1978ebca4393fbb6
+SHA1: c99479a4a0c5fd8e3670e480041b4be396eafa4b
+SHA256: 28852f0239ee5a4ea5b266ff0784596e456b6a33707da826280df0b97c5789bf
+Section: 软件增强
+Description: 修复 VVebo 主页时间线，恢复专业版
+ - 把反馈入口改到作者频道。实况图可以点开播放
+ - 长按可以保存和分享。切换账号不再打开频道
+ - 三指双击打开设置，长按底栏编辑按钮打开或关闭设置
+ - 时间线、实况图、会员和 120Hz 默认开启
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: iosrxwy
+Name: VVebo时间线修复-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.iosrxwy.vvebofix.json
 
 Package: com.jaysuen.evocenter
 Version: 3.1.0-beta.1
@@ -5954,18 +6012,18 @@ Name: Sileo 源搜索-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.sileosourcesearch.json
 
 Package: com.wkk.systembox
-Version: 1.4-7
+Version: 1.5-8end
 Architecture: iphoneos-arm64
 Maintainer: wkk
-Installed-Size: 1572
+Installed-Size: 2792
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.wkk.systembox
+Conflicts: com.wkk.clockglass, com.wkk.systembox
 Replaces: com.wkk.systembox
 Filename: ./debs/SystemX小军刀-Rootless.deb
-Size: 289852
-MD5sum: 657cd7c6682f57099334eaa855c9b84f
-SHA1: 57dd84248378a6cb908bd3ad9fd0d933182b8196
-SHA256: 832d0a295abfa556b3254f30ac693b99d3645c5a139e9ce15d7a7862358daf20
+Size: 597736
+MD5sum: 2f861a9b0ce06ffad729038384af2b9e
+SHA1: b55e189ff398e5880eaa51e32438e1ece62750a6
+SHA256: 71a1b65c35ac5b461db63ff282226ef18344f76ce8276c5f8bb8a8f58400d453
 Section: 系统增强
 Description: 全新的军刀插件，针对系统的增强与精简的集合插件
  - 支持i0S15-17（更换图标/文件夹布局精简/角标美化/相册增强/设置实用功能/静音vpn映射
@@ -5976,18 +6034,18 @@ Name: SystemX小军刀-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.wkk.systembox.json
 
 Package: com.wkk.systembox
-Version: 1.4-7
+Version: 1.5-8end
 Architecture: iphoneos-arm64e
 Maintainer: wkk
-Installed-Size: 1572
+Installed-Size: 2792
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.wkk.systembox
+Conflicts: com.wkk.clockglass, com.wkk.systembox
 Replaces: com.wkk.systembox
 Filename: ./debs/SystemX小军刀-RootHide.deb
-Size: 293144
-MD5sum: d869fca3d9a5a65ba2fb580ec15c918c
-SHA1: 4e6800f77c30978e88c5849a0017b376189d3a73
-SHA256: 89f5d7a164a3cfa4ebdff845fe4a8127f1215a376c7308e35e05725cf758384e
+Size: 590928
+MD5sum: a6aa1d89e9965e508c2a049331f1f76a
+SHA1: 9e93c6ecdb9ce70565b96cdfe3fc4d06c6f397b0
+SHA256: 27b4f3b427ab88232e8a7b08f4bb5aff420900bf770a6fbbeeb2ad61cb09de68
 Section: 系统增强
 Description: 全新的军刀插件，针对系统的增强与精简的集合插件
  - 支持i0S15-17（更换图标/文件夹布局精简/角标美化/相册增强/设置实用功能/静音vpn映射
@@ -6126,52 +6184,6 @@ Description: 主屏幕一键锁屏
 Author: xybp888
 Name: 一键锁屏-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.ymxybp888.lockbutto.json
-
-Package: com.yourcompany.vvebofix
-Version: 1.0-5+debug
-Architecture: iphoneos-arm64e
-Maintainer: Your Name
-Installed-Size: 212
-Depends: mobilesubstrate
-Conflicts: com.yourcompany.vvebofix, com.yourcompany.vvebofix, com.yourcompany.vvebofix
-Replaces: com.yourcompany.vvebofix, com.yourcompany.vvebofix, com.yourcompany.vvebofix
-Filename: ./debs/no_download/protected.deb
-Size: 16376
-MD5sum: b3a657703d180c86164594ef69483c32
-SHA1: 03030fa57da2114177f9b036470517478342023e
-SHA256: 78d85395b428601418ff75b4efcdb32a6cf40f24285817bbb01d7fb37fbe0779
-Section: 软件增强
-Description: 修复VVebo用户时间线和粉丝列表显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lhl
-Name: VVebo时间线修复-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.yourcompany.vvebofix.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
-
-Package: com.yourcompany.vvebofix
-Version: 1.0-5+debug
-Architecture: iphoneos-arm64
-Maintainer: Your Name
-Installed-Size: 212
-Depends: mobilesubstrate
-Conflicts: com.yourcompany.vvebofix, com.yourcompany.vvebofix, com.yourcompany.vvebofix
-Replaces: com.yourcompany.vvebofix, com.yourcompany.vvebofix, com.yourcompany.vvebofix
-Filename: ./debs/no_download/protected.deb
-Size: 15392
-MD5sum: dec3bf2cd4ca5d0b60301a7aa7296203
-SHA1: 883ffa7b227e00fa38ccf0f39186d75fbafff426
-SHA256: 9376333ef45c0a77a95854fcf79b2bcd15ee4eccd2052cd03422892ddfaf1cb7
-Section: 软件增强
-Description: 修复VVebo用户时间线和粉丝列表显示
- - 插件无设置项安装即可生效
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lhl
-Name: VVebo时间线修复-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.yourcompany.vvebofix.json
-Tag: cydia::commercial
-PaymentProvider: https://127.0.0.1/null
 
 Package: com.yzdmm.keyboardstatus
 Version: 1.3.2
