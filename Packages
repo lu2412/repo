@@ -2641,19 +2641,19 @@ Name: Axon 中文版-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.axon.json
 
 Package: com.dao.bottomcontrolx
-Version: 1.0.2
+Version: 1.0.2.1
 Architecture: iphoneos-arm64
 Maintainer: ichitaso
-Installed-Size: 584
+Installed-Size: 444
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
 Replaces: com.dao.bottomcontrolx
 Filename: ./debs/底部上滑手势-Rootless.deb
-Size: 49720
-MD5sum: 682718f230960b09569db106312d72e6
-SHA1: 7b6c5fa425b3e842a33159c66c416fda23372ae9
-SHA256: 74a541c8cb5d73ee06bd778cfe1b81b1c65f590d0654e2bb249f045fe5c75581
-Section: 系统增强
+Size: 47740
+MD5sum: 9bb7cccd868deeeb26aaeb72c2d6ee9d
+SHA1: b7907170c9f02e1f202bc45bb5c8b25a8dc3e4fa
+SHA256: d3cfee78989aa0e75a91bbf92c4fa7a75765a54b7d56def9d0b0ad58fbaa7ec8
+Section: 轻量插件
 Description: 经典的底部上滑手势
  - 底部左/中/右区域设置不一样的上滑操作
  - 根据 ichitaso 开源，简单添加中英文翻译。
@@ -2663,19 +2663,19 @@ Name: 底部上滑手势-Rootless
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.bottomcontrolx.json
 
 Package: com.dao.bottomcontrolx
-Version: 1.0.2
+Version: 1.0.2.1
 Architecture: iphoneos-arm64e
 Maintainer: ichitaso
-Installed-Size: 580
+Installed-Size: 444
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.xcxiao.bottomcontrolx, com.ichitaso.bottomcontrolx, com.dao.bottomcontrolx
 Replaces: com.dao.bottomcontrolx
 Filename: ./debs/底部上滑手势-RootHide.deb
-Size: 48060
-MD5sum: 8119bb86b8eac30a263193f4fa96c69c
-SHA1: ef013b4a77430813e4ab7a179190223d3d654fe0
-SHA256: c9a37a284deeef26f2e19a621de1a1ba2787314ce53495baefd5341aa31aa09f
-Section: 系统增强
+Size: 46028
+MD5sum: 56f7308e60e7daf0ee225f3468729855
+SHA1: fa93a29df086f147d60b5b30091eb5702bb65766
+SHA256: e91118fa142eea76708ccee6329268efbbfc103d37be34d3feb94b6288163d81
+Section: 轻量插件
 Description: 经典的底部上滑手势
  - 底部左/中/右区域设置不一样的上滑操作
  - 根据 ichitaso 开源，简单添加中英文翻译。
