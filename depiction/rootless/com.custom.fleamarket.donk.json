@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 隐藏去除高德地图软件的底栏\n- 支持商城目前17.0.1版本\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 闲鱼默认去开屏秒进主页面\n- 实时开/关底栏按钮\n- 闲鱼任意页面双指长按弹窗调整界面\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "一刀"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.0"
+          "text": "1.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月20日"
+          "text": "2026年10月24日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.0\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始发布"}
       ]
     }
   ]

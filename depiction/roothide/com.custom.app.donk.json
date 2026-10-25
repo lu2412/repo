@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 闲鱼默认去开屏秒进主页面\n- 实时开/关底栏按钮，实时调节底栏颜色与透明度，ylr制作投稿\n- 闲鱼长按底栏或者任意页面双指长按弹窗调整界面\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 去除酷安开屏及贴间广告\n- 磨砂悬浮底栏：隐藏官方底栏，替换为自适应磨砂悬浮胶囊与搜索圆钮\n- 直达越狱：启动酷安可直达“iOS越狱”话题并默认最新排序\n- 快捷设置面板：长按左上角头像呼出设置，支持自定义底栏各按钮显隐、震动反馈开关与挡位调节\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -27,12 +27,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件作者",
-          "text": "ylr <ylr275536387>"
+          "text": "donk"
         },
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.5.5-5"
+          "text": "1.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年09月29日"
+          "text": "2026年10月24日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.5.5-5\n- 初始发布"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 增加悬浮底栏自适应深色模式"}
       ]
     }
   ]

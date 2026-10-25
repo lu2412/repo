@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 去除酷安开屏及贴间广告\n- 去除酷安tab底栏\n- 增加启动酷安时直达“iOS越狱”话题并按最新话题排序\n- 插件无设置项安装即可生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 核心功能：底栏毛玻璃全悬浮、全Tab真全屏穿透、智能过滤广告与直播、角标完美同步。\n- 便捷交互：支持震动反馈、Q弹果冻动画、自由隐藏显示项。\n- 无缝唤醒：无独立App页面，安装即生效；支持双指长按底栏或长按左上角菜单唤出设置面板。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "1.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月11日"
+          "text": "2026年10月25日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 初始版本"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 彻底解决不能隐藏中间按钮问题"}
       ]
     }
   ]
