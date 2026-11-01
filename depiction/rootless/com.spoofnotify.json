@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 从虚拟权限插件独立出来的通知权限伪装插件\n- 使关闭了通知权限的 App 认为已开启通知，不再出现建议开启通知权限的弹窗。\n- App 正常开启通知权限时不会被拦截，通知提醒正常放行。\n- 兼容 iOS 15 及以上版本越狱，支持 rootless、roothide、巨魔注入、证书自签。\n- 越狱环境安装后在桌面打开「通知权限伪装」进行配置；巨魔/自签环境直接注入目标 App即可生效，默认伪装已开启通知权限，无需配置。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 针对任意App单独配置虚拟权限，防止隐私被过度索要。\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0.2"
+          "text": "8.9.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月18日"
+          "text": "2026年10月27日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0.2\n- 优化iOS15设备的管理App启动兼容性。\n- 插件反馈改为打开专属反馈页面。"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 8.9.3\n- 优化iOS15设备的管理App启动兼容性。\n- 插件反馈改为打开专属反馈页面。"}
       ]
     }
   ]

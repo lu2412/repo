@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.2"
+          "text": "1.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月24日"
+          "text": "2026年11月01日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.2\n- 增加悬浮底栏自适应深色模式"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.3\n- 新增自定义跳转话题\n- 增加悬浮底栏自适应深色模式"}
       ]
     }
   ]
