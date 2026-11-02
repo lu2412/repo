@@ -2799,17 +2799,17 @@ Name: Sileo指示器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
 
 Package: com.dao.sileo
-Version: 2.5.1-14.1
+Version: 2.5.1-15
 Architecture: iphoneos-arm64e
 Maintainer: 刀刀
 Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
 Conflicts: com.dao.sileo
 Replaces: org.coolstar.sileo, com.dao.sileo
 Filename: ./debs/Sileo颜色指示器-RootHide.deb
-Size: 3007688
-MD5sum: eec4869cac9658ab55fa936e4ae4b930
-SHA1: 214500106981380a22525da4fd46817a6611961d
-SHA256: 2bd51f80bae2d084fcab784912256ff26895b69d0d3b8bd99ffc33215775bef8
+Size: 3007880
+MD5sum: 2f2536327f43570dd5501f7bda5045b7
+SHA1: b1c1f58bde12bb3d14467f1c7bfe4cd0ce303f49
+SHA256: 8c1bf7e22fac877154499ee0bbea1b5ec6bd84e0eff256f120d41a330738433c
 Section: 越狱增强
 Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)
  - 可识别刀刀源内的 RootHidePatcher 中文版，转换插件一条龙。
@@ -2818,6 +2818,27 @@ Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(
 Author: Amy While
 Name: Sileo颜色指示器-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.dao.sileo.json
+
+Package: com.dao.sileo
+Version: 2.5.1-15
+Architecture: iphoneos-arm64
+Maintainer: 刀刀
+Depends: firmware (>= 11.0), firmware(>=12.2) | org.swift.libswift (>=5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Conflicts: com.dao.sileo
+Replaces: org.coolstar.sileo, com.dao.sileo
+Filename: ./debs/Sileo颜色指示器-Rootless.deb
+Size: 3007704
+MD5sum: 64a37cdd4bde66f4f5971183592c115f
+SHA1: b29ef774e361cb50e60e9d3ce54d1b5ade51642a
+SHA256: 21ce485be2f694ec41df6fd6ba48038326283af50f3b8a34ef5b8a15eb468b47
+Section: 越狱增强
+Description: 刀刀补充汉化，并在插件列表左侧增加架构指示器(arm64e → 绿色、arm64 → 蓝色、arm → 橙色、all → 灰色)
+ - 可识别刀刀源内的 RootHidePatcher 中文版，转换插件一条龙。
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: Amy While
+Name: Sileo颜色指示器-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.dao.sileo.json
 
 Package: com.daodao.nocshare
 Version: 1.1.3
