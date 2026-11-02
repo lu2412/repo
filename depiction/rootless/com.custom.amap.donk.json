@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月25日"
+          "text": "2026年11月02日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.4\n- 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.4\n- 修复地图详情页面不能上下滑动的问题\n- 增加：移除底栏的情况下，长按右上角设置按钮触发弹窗。"}
       ]
     }
   ]
