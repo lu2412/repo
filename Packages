@@ -1608,17 +1608,17 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.dingtalk
-Version: 1.3
+Package: com.custom.dingtalk.donk
+Version: 1.4
 Architecture: iphoneos-arm64
 Maintainer: donk
-Conflicts: com.custom.dingtalk
-Replaces: com.custom.dingtalk
+Conflicts: com.custom.dingtalk.donk
+Replaces: com.custom.dingtalk.donk
 Filename: ./debs/no_download/protected.deb
-Size: 11508
-MD5sum: d606c83aae1b101a89227c7ba9a7dffd
-SHA1: 9964867f5cad5178fc8bfc93f36ce9e1075609c7
-SHA256: 547b82453f2da692eae7b7cc760642df0a440b0d70ef02bb4c4a697135fb4906
+Size: 11652
+MD5sum: b7553c4cdf607495b4044988891caf13
+SHA1: 3a87c51f0de4604c2755f48c90ec6e516c0ae4ca
+SHA256: 8a739d90a8d526db36dbefdd20dc1e0250d71301f14c7e3f8369fb712846dc4b
 Section: 软件增强
 Description: 个人自用小布丁
  - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
@@ -1629,21 +1629,21 @@ Description: 个人自用小布丁
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 钉钉默认消息列-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.dingtalk.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.dingtalk.donk.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
-Package: com.custom.dingtalk
-Version: 1.3
+Package: com.custom.dingtalk.donk
+Version: 1.4
 Architecture: iphoneos-arm64e
 Maintainer: donk
-Conflicts: com.custom.dingtalk
-Replaces: com.custom.dingtalk
+Conflicts: com.custom.dingtalk.donk
+Replaces: com.custom.dingtalk.donk
 Filename: ./debs/no_download/protected.deb
-Size: 11524
-MD5sum: 94018bc2f8ec5df04346f871a5843615
-SHA1: 62906b446f4c85f7378417794bcfb911089044ec
-SHA256: ff705a407ebb049da164c241dd765fd2b386af0f63a8bf5fa65b9b7d31b0956c
+Size: 11636
+MD5sum: 24614ee04ef0a96ee1e86f2b866cad7a
+SHA1: 91ede6684dbbaf1ec830c7817a31ff6dc56a60af
+SHA256: 8d994d307c4d64e693a5050d5e1fbecf281dd9e78f4866904978b4f9d6972053
 Section: 软件增强
 Description: 个人自用小布丁
  - 解决钉钉在分组的同时，可以默认进入消息列而不是分组列
@@ -1654,7 +1654,7 @@ Description: 个人自用小布丁
  - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
 Author: donk
 Name: 钉钉默认消息列-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.dingtalk.json
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.dingtalk.donk.json
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
@@ -4009,6 +4009,48 @@ Size: 753556
 MD5sum: 5d3600688e623d2d57a2be6ef56b0add
 SHA1: 3d1a967882c01074603d7de2d936c6912a78566d
 SHA256: 4b3c7d869239d3d2dbefa95b63f7c768bd5b86a84431b7d948bbd8c3faf42889
+Section: 系统增强
+Description: 手势与事件自动化工具
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: mlgm
+Name: Actra手势-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.mlgm.actra.json
+
+Package: com.mlgm.actra
+Version: 1.3.3
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Installed-Size: 4116
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin, com.mlgm.actra
+Replaces: com.mlgm.actra
+Filename: ./debs/Actra手势-RootHide_1.3.3.deb
+Size: 817212
+MD5sum: 917e66910bd18742a5dad6b55eee2a19
+SHA1: 4d3daf7193edecd358446d282885ab2042dec79d
+SHA256: f04ccc7ed0c9868259e8ccc3f4934d79b333eb949f164d1432fa25bfb356800d
+Section: 系统增强
+Description: 手势与事件自动化工具
+ - 插件无设置项安装即可生效
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: mlgm
+Name: Actra手势-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.mlgm.actra.json
+
+Package: com.mlgm.actra
+Version: 1.3.3
+Architecture: iphoneos-arm64
+Maintainer: mlgm
+Installed-Size: 4112
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist, uikittools, launchctl
+Conflicts: com.example.actra-plugin, com.mlgm.actra
+Replaces: com.mlgm.actra
+Filename: ./debs/Actra手势-Rootless_1.3.3.deb
+Size: 815336
+MD5sum: 61be261f6511b5b4bbcdcdaa0d975f4c
+SHA1: a9c69bb784c52756032583f9839d7debf087f56d
+SHA256: df304a9a4624674d801663869e991b5b5132c8b978edb83235a80ab1a07b5fe2
 Section: 系统增强
 Description: 手势与事件自动化工具
  - 插件无设置项安装即可生效
