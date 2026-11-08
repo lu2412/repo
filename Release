@@ -1,7 +1,22 @@
-Origin: - 横七竖八研究内部源
-Label:   - 横七竖八研究内部源
+Origin: 横七竖八研究内部源
+Label: 横七竖八研究内部源
 Description: 本人自用,收藏备份。
 Suite: stable
 Version: 1.0
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
+MD5Sum:
+ a1073f762daf5dc21d6f2ebce92b8289 306237 Packages
+ 2aeafbf6183d3267b8f9548aeb9af89e 62866 Packages.gz
+ 238a413a2fa957dfbb02d6c80d0a6da7 51283 Packages.bz2
+ 054729eff4a138ab987e4815a85fbe87 62357 Packages.zst
+SHA1:
+ 455c4720046b3650aec4feb10f16bbba9c99abde 306237 Packages
+ d43dff26535022e869a240882d56f03f0c321b4c 62866 Packages.gz
+ b8936655c3795b2e460f0f0f3a9df800f594a429 51283 Packages.bz2
+ 12bd21b78e6144b0ca29c7c83fc09425f807033d 62357 Packages.zst
+SHA256:
+ 614d857bd666e24a972b9dd64f62f0ab49ace195e00c6dd779f41ee0690d6752 306237 Packages
+ aec12d07a54a92aa27f8fae09a60a230c384588c37131a132c86a6388faa8167 62866 Packages.gz
+ e699803bc41a59be59f2a375290a6e7004f2514fc3d454706b6fa2a71bc1a128 51283 Packages.bz2
+ 8087f3eeb802754975bf4dce880b3a5d7587a09177cd885b84c92a669a283056 62357 Packages.zst
