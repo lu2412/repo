@@ -31,6 +31,7 @@ window.LINKS = [
     { cat: '工具服务', name: '检测自己网站', url: 'https://who.1ms.dog/zh-cn/', icon: '🔍' },
     { cat: '工具服务', name: '抖音插件DYKiller', url: 'https://github.com/HierarchThurs/DYKiller', icon: '🔌' },
     { cat: '工具服务', name: 'k大证书网站', url: 'https://ipax.om2.cc/login', icon: '📜' },
+    { cat: '工具服务', name: 'Windows系统激活', url: 'https://massgrave.dev', icon: '🪟' },
 
 // —— 资源娱乐 ——
 { cat: '资源娱乐', name: '源阅读仓库', url: 'http://www.yckceo.com', icon: '📚'},
