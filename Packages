@@ -518,6 +518,52 @@ Author: 半生年华
 Name: 单指双击清除通知-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.HalfLifetime.tongz.json
 
+Package: com.abyss.repomgr
+Version: 1.4.4
+Architecture: iphoneos-arm64e
+Maintainer: Ty
+Depends: firmware (>= 15.0)
+Conflicts: com.abyss.sileo
+Replaces: com.abyss.sileo
+Filename: ./debs/预约.deb
+Size: 768864
+MD5sum: 2caf650d63e93a768f07f645bf0817c3
+SHA1: 1f3e29ece867d6ae62a8b896c29eb74335fc4562
+SHA256: ca34c0c5756370014fc1bc90ab7d76a92993cf62be0915f690f4fd37465f2cdd
+Section: Utilities
+Priority: optional
+Homepage: https://t.me/D757677
+Description: Repo Manager 软件介绍
+ Repo Manager 是一款 iOS 越狱软件源管理工具，专为使用 GitHub 搭建 APT 软件源的用户设计。
+ 无需电脑和复杂命令，即可直接在 iPhone 上创建、维护和发布自己的越狱软件源。
+ .
+ 主要功能
+ .
+ 一键创建越狱源
+ .
+ 自定义源图标
+ .
+ 多仓库管理
+ .
+ 批量上传插件
+ .
+ 从其他源批量导入
+ .
+ 插件更新与删除
+ .
+ 插件信息展示
+ .
+ 自动生成软件源索引
+ .
+ 主题切换
+ .
+ 安全设计
+ .
+ GitHub Token 仅保存在当前设备的 iOS Keychain 中。
+ 应用支持 Fine-grained Token，并建议只授予目标仓库所需的最小权限。
+Author: Ty
+Name: Repo Manager (RootHide)
+
 Package: com.apple.DocumentsApp
 Version: 1.0.0-1+debug
 Architecture: iphoneos-arm64
