@@ -67,6 +67,7 @@
     .tile:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
     .tile:active{transform:translateY(-1px) scale(.98)}
     .tile .name{font-size:14px;font-weight:600;text-align:center;word-break:break-all}
+    .tile .note{font-size:11px;line-height:1.5;color:var(--muted);text-align:center;word-break:break-all}
     .tile.hidden{display:none}
     .iconbox{position:relative;width:40px;height:40px;flex:none}
     .iconbox .emoji{font-size:30px;line-height:40px;display:block;text-align:center}
@@ -216,6 +217,12 @@
                 nm.className = 'name';
                 nm.textContent = l.name;
                 a.appendChild(nm);
+                if (l.note) {
+                    var nt = document.createElement('span');
+                    nt.className = 'note';
+                    nt.textContent = l.note;
+                    a.appendChild(nt);
+                }
                 grid.appendChild(a);
             });
             sec.appendChild(head);

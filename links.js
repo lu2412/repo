@@ -4,6 +4,7 @@
 // 在任意位置复制一行，改 name 和 url 就行：
 // { cat: '工具服务', name: '例子', url: 'https://example.com'},
 // - icon 可以不写：页面会按名字自动猜一个 emoji，猜不到用彩色首字兜底
+// - note 可以不写：写了会在名称下方以小字显示这条的作用说明
 // - cat 可以不写或写 '自动'：页面会按名字自动归类，归不了的进「其他」
 // - 最省事：直接把名字+网址发给杨雪，她加好并上线，你不用动文件
 //
@@ -39,4 +40,10 @@ window.LINKS = [
     { cat: '资源娱乐', name: '电脑软件', url: 'https://www.mefcl.com/category/pcsoft', icon: '💻' },
     { cat: '资源娱乐', name: 'wkk源仓库', url: 'https://github.com/Wkkyy00/Wkkyy00.github.io', icon: '🗄️' },
     { cat: '资源娱乐', name: 'k大代码分享', url: 'https://repo.om2.cc/shares', icon: '📝' },
+
+// —— 建站与域名 ——
+{ cat: '建站与域名', name: 'Cloudflare 控制台', url: 'https://dash.cloudflare.com', icon: '☁️', note: '域名解析托管、节点和 Pages 都在这管（Apple ID 登录）'},
+{ cat: '建站与域名', name: 'DigitalPlat', url: 'https://dashboard.digitalplat.org', icon: '🏷️', note: '免费域名注册商，lidahai.dpdns.org 在这里注册和续期'},
+{ cat: '建站与域名', name: 'GitHub 仓库', url: 'https://github.com/lu2412/repo', icon: '🐙', note: '代码仓库，导航站和越狱源都存在这里'},
+{ cat: '建站与域名', name: '节点后台（新域名）', url: 'https://node.lidahai.dpdns.org/admin', icon: '🚀', note: '自建节点后台的新域名地址，与"我的cf机场"是同一个后台'},
 ];
