@@ -13,6 +13,7 @@ window.LINKS = [
 // —— 我的仓库 ——
 { cat: '我的仓库', name: '我的源仓库', url: 'https://github.com/lu2412/repo', icon: '📦'},
 { cat: '我的仓库', name: '跳转Sileo', url: 'sileo://source/https://lu2412.github.io/repo/', icon: '🧩'},
+    { cat: '我的仓库', name: 'wwk克隆仓库', url: 'https://github.com/lu2412/fuke', icon: '🗂️' },
 
 // —— 机场 ——
 { cat: '机场', name: 'Hnekoc', url: 'https://bb1.hhneko.xyz/#/', icon: '✈️'},
@@ -27,6 +28,8 @@ window.LINKS = [
 { cat: '工具服务', name: 'GitHub令牌', url: 'https://github.com/settings/apps/new', icon: '🔑'},
 { cat: '工具服务', name: 'App Store图标', url: 'https://icon.yukonga.top', icon: '🎨'},
     { cat: '工具服务', name: '检测自己网站', url: 'https://who.1ms.dog/zh-cn/', icon: '🔍' },
+    { cat: '工具服务', name: '抖音插件DYKiller', url: 'https://github.com/HierarchThurs/DYKiller', icon: '🔌' },
+    { cat: '工具服务', name: 'k大证书网站', url: 'https://ipax.om2.cc/login', icon: '📜' },
 
 // —— 资源娱乐 ——
 { cat: '资源娱乐', name: '源阅读仓库', url: 'http://www.yckceo.com', icon: '📚'},
@@ -34,4 +37,6 @@ window.LINKS = [
 { cat: '资源娱乐', name: '大师兄影视', url: 'https://dsxys.com', icon: '🎬'},
     { cat: '资源娱乐', name: '无忧论坛', url: 'https://bbs.wuyou.net/forum.php?mod=forumdisplay&fid=36&filter=author&orderby=dateline', icon: '💬' },
     { cat: '资源娱乐', name: '电脑软件', url: 'https://www.mefcl.com/category/pcsoft', icon: '💻' },
+    { cat: '资源娱乐', name: 'wkk源仓库', url: 'https://github.com/Wkkyy00/Wkkyy00.github.io', icon: '🗄️' },
+    { cat: '资源娱乐', name: 'k大代码分享', url: 'https://repo.om2.cc/shares', icon: '📝' },
 ];
