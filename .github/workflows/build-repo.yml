@@ -39,6 +39,11 @@ jobs:
             Content-Encoding: identity
             Cache-Control: no-cache
 
+          /Packages.gz
+            Content-Type: application/gzip
+            Content-Encoding: identity
+            Cache-Control: no-cache
+
           /Packages
             Content-Type: text/plain
             Content-Encoding: identity
@@ -50,7 +55,7 @@ jobs:
 
       - name: Generate Packages index
         run: |
-          rm -f Packages Packages.bz2 Packages.zst
+          rm -f Packages Packages.gz Packages.bz2 Packages.zst
           dpkg-scanpackages --multiversion ./debs /dev/null > Packages
 
       - name: Process no_download
@@ -83,13 +88,31 @@ jobs:
         run: |
           bzip2 -k -f Packages
           zstd -f --no-check Packages -o Packages.zst
+          gzip -k -f Packages
+
+      - name: Update Release
+        run: |
+          head -n 7 Release | sed -n '1,/^Components:/p' > Release.new
+          for alg in MD5Sum SHA1 SHA256; do
+            echo "$alg:" >> Release.new
+            for f in Packages Packages.gz Packages.bz2 Packages.zst; do
+              case $alg in
+                MD5Sum) h=$(md5sum "$f" | cut -d' ' -f1);;
+                SHA1) h=$(sha1sum "$f" | cut -d' ' -f1);;
+                SHA256) h=$(sha256sum "$f" | cut -d' ' -f1);;
+              esac
+              s=$(stat -c%s "$f")
+              echo " $h $s $f" >> Release.new
+            done
+          done
+          mv Release.new Release
 
       - name: Commit & Push back
         run: |
           git config --global user.name "CloudBuild"
           git config --global user.email "ci@build.local"
 
-          git add Packages Packages.bz2 Packages.zst _headers
+          git add Packages Packages.gz Packages.bz2 Packages.zst Release _headers
 
           if git diff --cached --quiet; then
             echo "No changes"
