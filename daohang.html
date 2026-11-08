@@ -1,109 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <title> </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/ios7.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="shortcut icon" href="https://lu2412.github.io/repo/icon/dongman.png">
-    <script src="./js/jquery.min.js"></script>
-    <style>
-        body { font-family: 'Arial', sans-serif; }
-        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; max-width: 1200px; margin: 0 auto; }
-        h2 { text-align: center; width: 100%; margin-bottom: 30px; }
-        
-        /* Card Style */
-        .card { 
-            background-color: white; 
-            margin: 15px; 
-            padding: 20px; 
-            width: calc(33.333% - 30px); 
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
-            transition: transform 0.3s ease-in-out; 
-            text-align: center; 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>我的个人收藏</title>
+<link rel="shortcut icon" href="https://lu2412.github.io/repo/icon/dongman.png">
+<style>
+    :root{
+        --bg:#f4f6fb; --bg-grad:linear-gradient(135deg,#e0e7ff 0%,#f4f6fb 45%,#ffeef5 100%);
+        --card:rgba(255,255,255,.75); --card-border:rgba(20,24,60,.08);
+        --text:#171a26; --muted:#6b7280; --accent:#6366f1; --accent2:#ec4899;
+        --shadow:0 6px 24px rgba(31,38,135,.08); --shadow-hover:0 14px 34px rgba(31,38,135,.16);
+    }
+    @media (prefers-color-scheme: dark){
+        :root{
+            --bg:#0b0e1a; --bg-grad:linear-gradient(135deg,#141a33 0%,#0b0e1a 50%,#241327 100%);
+            --card:rgba(255,255,255,.06); --card-border:rgba(255,255,255,.10);
+            --text:#eef0f8; --muted:#9aa3b8;
+            --shadow:0 6px 24px rgba(0,0,0,.35); --shadow-hover:0 14px 34px rgba(0,0,0,.5);
         }
-        .card:hover { transform: translateY(-5px); }
-        .card h3 { margin: 0; padding-bottom: 10px; font-size: 1.2em; }
-        .card a { color: #333; text-decoration: none; }
-        .card a:hover { text-decoration: underline; }
-        
-        /* Button Style */
-        .btn-link { 
-            color: #fff; 
-            background-color: #00b5e2; 
-            padding: 10px 15px; 
-            border-radius: 5px; 
-            text-decoration: none; 
-            display: inline-block; 
-            transition: transform 0.3s ease, box-shadow 0.3s ease; 
-            width: 120px; 
-            text-align: center; 
-            margin: 5px;
-        }
-        .btn-link:hover, .btn-link:active, .btn-link:focus { 
-            background-color: #00b5e2; 
-            transform: scale(1.05); 
-            box-shadow: 0 0 10px rgba(0,181,226,0.5); 
-        }
-        
-        .footer { text-align: center; margin-top: 30px; }
-        .run-time, .disclaimer { color: #666; font-size: 0.9em; }
-    </style>
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+        font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;
+        background:var(--bg-grad); background-attachment:fixed; color:var(--text);
+        min-height:100vh; -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:1080px;margin:0 auto;padding:56px 20px 40px}
+    header{text-align:center;margin-bottom:34px}
+    .avatar{
+        width:76px;height:76px;border-radius:22px;margin:0 auto 16px;
+        display:flex;align-items:center;justify-content:center;font-size:38px;
+        background:linear-gradient(135deg,var(--accent),var(--accent2));
+        box-shadow:0 12px 30px rgba(99,102,241,.35);
+    }
+    h1{
+        font-size:clamp(28px,5vw,40px);font-weight:800;letter-spacing:.5px;line-height:1.2;
+        background:linear-gradient(90deg,var(--accent),var(--accent2));
+        -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
+    }
+    .subtitle{margin-top:10px;color:var(--muted);font-size:15px}
+    .search{max-width:520px;margin:26px auto 4px;position:relative}
+    .search input{
+        width:100%;padding:13px 18px 13px 44px;font-size:15px;color:var(--text);
+        background:var(--card);border:1px solid var(--card-border);border-radius:999px;
+        backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+        box-shadow:var(--shadow);outline:none;transition:border-color .2s, box-shadow .2s;
+    }
+    .search input:focus{border-color:var(--accent);box-shadow:0 0 0 4px rgba(99,102,241,.15)}
+    .search .icon{position:absolute;left:16px;top:50%;transform:translateY(-50%);font-size:16px;opacity:.55;pointer-events:none}
+    section{margin-top:38px}
+    .cat{
+        display:flex;align-items:center;gap:10px;margin-bottom:16px;
+        font-size:15px;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;
+    }
+    .cat::after{content:"";flex:1;height:1px;background:var(--card-border)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+    .tile{
+        display:flex;flex-direction:column;align-items:center;gap:10px;
+        padding:22px 10px 18px;border-radius:18px;text-decoration:none;color:var(--text);
+        background:var(--card);border:1px solid var(--card-border);
+        backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+        box-shadow:var(--shadow);transition:transform .22s ease, box-shadow .22s ease;
+    }
+    .tile:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+    .tile:active{transform:translateY(-1px) scale(.98)}
+    .tile .name{font-size:14px;font-weight:600;text-align:center;word-break:break-all}
+    .tile.hidden{display:none}
+    .iconbox{position:relative;width:40px;height:40px;flex:none}
+    .iconbox .emoji{font-size:30px;line-height:40px;display:block;text-align:center}
+    .iconbox .letter{
+        position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+        border-radius:12px;color:#fff;font-weight:700;font-size:18px;
+    }
+    .iconbox img.favicon{
+        position:absolute;inset:0;width:40px;height:40px;border-radius:10px;object-fit:contain;
+    }
+    .empty{display:none;text-align:center;color:var(--muted);padding:36px 0 6px;font-size:14px}
+    footer{margin-top:52px;text-align:center}
+    .runtime{
+        display:inline-block;padding:7px 16px;border-radius:999px;font-size:13px;color:var(--muted);
+        background:var(--card);border:1px solid var(--card-border);
+        backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    }
+    .runtime b{color:var(--accent);font-size:15px}
+    .disclaimer{margin:18px auto 0;max-width:720px;font-size:12px;line-height:1.7;color:var(--muted);opacity:.85}
+    @media (max-width:480px){
+        .wrap{padding-top:40px}
+        .grid{grid-template-columns:repeat(auto-fill,minmax(108px,1fr));gap:10px}
+        .tile{padding:18px 6px 14px}
+        .tile .name{font-size:13px}
+    }
+</style>
 </head>
-<body onload="loadPackageInfo(); loadRecentUpdates();">
-<div class="container">
-    <h2>我的个人收藏</h2>
-    
-    <div style="text-align: center; margin-bottom: 20px;">
-        <a href="https://github.com/lu2412/repo" class="btn-link">我的源仓库</a>
-        <a href="sileo://source/https://lu2412.github.io/repo/" class="btn-link">跳转Sileo</a>
-        <a href="https://bb1.hhneko.xyz/#/" target="_blank" class="btn-link">✈️Hnekoc✈️</a>
-        <a href="https://reborn.kaochang.ltd/#/login" target="_blank" class="btn-link">✈️烤肠机场✈️</a>
+<body>
+<div class="wrap">
+    <header>
+        <div class="avatar">🧭</div>
+        <h1>我的个人收藏</h1>
+        <p class="subtitle">常用站点 · 一触直达</p>
+        <div class="search">
+            <span class="icon">🔍</span>
+            <input id="searchInput" type="text" placeholder="搜索收藏…" autocomplete="off">
+        </div>
+    </header>
 
-        <a href="https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Fsummary&state=&YWRzZGRjYXB0Y2hh=1" target="_blank" class="btn-link">Paypay贝宝</a>
+    <main id="board"></main>
+    <p class="empty" id="emptyTip">没有匹配的收藏</p>
 
-        <a href="https://ikuuu.one/auth/login" target="_blank" class="btn-link">✈️iKun机场✈️</a>
-
-        <a href="https://accounts.spotify.com/zh-CN/login?continue=https%3A%2F%2Fwww.spotify.com%2Fus%2Faccount%2Fprofile%2F%3Fflow_ctx%3Da2f537c3-ff2f-4c70-9499-385ab68196b1%253A1726143925" class="btn-link">Spotify地区</a>
-
-        <a href="https://www.freereceivesms.com" class="btn-link">短信接码</a>
-        <a href="https://yfamilys.com" class="btn-link">IP分流</a>
-
-        <a href="http://www.yckceo.com" class="btn-link">源阅读仓库</a>
-
-        <a href="http://qwq.tangdouz.com" class="btn-link">API导航</a>
-
-        <a href="https://icon.yukonga.top" class="btn-link">App Store图标</a>
-
-        <a href="https://dsxys.com" class="btn-link">大师兄影视</a>
-
-        <a href="https://fish.audio/zh-CN/go-api/billing/" class="btn-link">pkc语音</a>
-
-        <a href="https://pixivsource.pages.dev/Legado" class="btn-link">阅读软件聚合</a>
-
-        <a href="https://github.com/settings/apps/new" class="btn-link">GitHub令牌</a>
-
-        <a href="https://lyrics.run/my-tv.html" class="btn-link">安卓TV电视</a>
-        <a href="http://xxb.mbby.top:33602" class="btn-link">京豆网址登录</a>
-
-
-    </div>
-
-    <div class="footer">
-        <p class="run-time">本网站已顺利运行 <span id="daysRunning"></span> 天，感谢您的支持与关注。</p>
+    <footer>
+        <span class="runtime">本网站已顺利运行 <b id="daysRunning"></b> 天 · 今天是 <span id="todayDate"></span>，感谢您的支持与关注。</span>
         <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
-    </div>
-
-    <script>
-        // 计算网站从今天开始运行的天数
-        var launchDate = new Date('2024-10-01T00:00:00'); // 设置开始时间为2024年10月1日 
-        launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
-        var currentDate = new Date();
-        var differenceInTime = currentDate - launchDate;
-        var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
-        document.getElementById('daysRunning').textContent = differenceInDays;
-    </script>
+    </footer>
 </div>
+
+<script src="./links.js"></script>
+<script>
+    // ---------- 渲染收藏（数据来自 links.js，加新站只改那个文件） ----------
+    var PALETTE = ['#6366f1','#ec4899','#f59e0b','#10b981','#3b82f6','#8b5cf6','#ef4444','#14b8a6','#f97316','#06b6d4'];
+    function colorFor(str) {
+        var h = 0;
+        for (var i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+        return PALETTE[h % PALETTE.length];
+    }
+    // 图标规则：数据里写了 icon 用写的；没写就按名字关键词猜 emoji；再猜不到用彩色首字兜底
+    var ICON_RULES = [
+        [/机场|节点|vpn|proxy|翻墙/i, '✈️'],
+        [/音乐|听歌|spotify|歌曲/i, '🎵'],
+        [/语音|播客|电台/i, '🎙️'],
+        [/影视|电影|视频|youtube|哔哩|bilibili/i, '🎬'],
+        [/电视|tv/i, '📺'],
+        [/阅读|小说|书|漫画/i, '📚'],
+        [/支付|贝宝|paypal|银行|钱包/i, '💳'],
+        [/短信|接码|邮箱|邮件/i, '📩'],
+        [/分流|ip|网络/i, '🌐'],
+        [/令牌|token|密钥|密码/i, '🔑'],
+        [/图标|icon|设计|图片/i, '🎨'],
+        [/github|代码|仓库|开发|api/i, '💻'],
+        [/游戏|game/i, '🎮'],
+        [/购物|商城|京东|淘宝/i, '🛍️'],
+        [/下载|网盘|云盘/i, '📥'],
+        [/搜索|导航/i, '🧭'],
+        [/新闻|资讯/i, '📰'],
+        [/学习|课程|教育/i, '🎓']
+    ];
+    function guessIcon(link) {
+        for (var i = 0; i < ICON_RULES.length; i++) {
+            if (ICON_RULES[i][0].test(link.name)) return ICON_RULES[i][1];
+        }
+        return null;
+    }
+    function makeIcon(link) {
+        var box = document.createElement('span');
+        box.className = 'iconbox';
+        var emoji = link.icon || guessIcon(link);
+        if (emoji) {
+            var em = document.createElement('span');
+            em.className = 'emoji';
+            em.textContent = emoji;
+            box.appendChild(em);
+            return box;
+        }
+        var letter = document.createElement('span');
+        letter.className = 'letter';
+        letter.style.background = colorFor(link.name || link.url);
+        letter.textContent = (link.name || '?').trim().charAt(0).toUpperCase();
+        box.appendChild(letter);
+        return box;
+    }
+    // 自动分类：cat 没写或写了「自动」时，按名字关键词归类，归不了进「其他」
+    var CAT_RULES = [
+        [/机场|节点|vpn|proxy/i, '机场'],
+        [/影视|电影|视频|电视|tv|阅读|小说|书|音乐|听歌|语音|播客|游戏|漫画/i, '资源娱乐'],
+        [/支付|贝宝|paypal|短信|接码|分流|令牌|token|图标|icon|银行|钱包|邮箱/i, '工具服务'],
+        [/仓库|github|代码|sileo|源/i, '我的仓库']
+    ];
+    function autoCat(link) {
+        for (var i = 0; i < CAT_RULES.length; i++) {
+            if (CAT_RULES[i][0].test(link.name)) return CAT_RULES[i][1];
+        }
+        return '其他';
+    }
+    (function render() {
+        var board = document.getElementById('board');
+        var links = window.LINKS || [];
+        var cats = [];
+        var byCat = {};
+        links.forEach(function (l) {
+            var cat = (!l.cat || l.cat === '自动') ? autoCat(l) : l.cat;
+            if (!byCat[cat]) { byCat[cat] = []; cats.push(cat); }
+            byCat[cat].push(l);
+        });
+        // 「其他」永远排最后
+        cats.sort(function (a, b) {
+            if (a === '其他') return 1;
+            if (b === '其他') return -1;
+            return 0;
+        });
+        cats.forEach(function (cat) {
+            var sec = document.createElement('section');
+            sec.setAttribute('data-cat', '');
+            var head = document.createElement('div');
+            head.className = 'cat';
+            head.textContent = cat;
+            var grid = document.createElement('div');
+            grid.className = 'grid';
+            byCat[cat].forEach(function (l) {
+                var a = document.createElement('a');
+                a.className = 'tile';
+                a.href = l.url;
+                if (/^https?:\/\//i.test(l.url)) { a.target = '_blank'; a.rel = 'noopener'; }
+                a.appendChild(makeIcon(l));
+                var nm = document.createElement('span');
+                nm.className = 'name';
+                nm.textContent = l.name;
+                a.appendChild(nm);
+                grid.appendChild(a);
+            });
+            sec.appendChild(head);
+            sec.appendChild(grid);
+            board.appendChild(sec);
+        });
+    })();
+
+    // ---------- 搜索过滤 ----------
+    var input = document.getElementById('searchInput');
+    input.addEventListener('input', function () {
+        var q = input.value.trim().toLowerCase();
+        var anyVisible = false;
+        document.querySelectorAll('section[data-cat]').forEach(function (sec) {
+            var secVisible = false;
+            sec.querySelectorAll('.tile').forEach(function (tile) {
+                var hit = !q || tile.querySelector('.name').textContent.toLowerCase().indexOf(q) !== -1;
+                tile.classList.toggle('hidden', !hit);
+                if (hit) secVisible = true;
+            });
+            sec.style.display = secVisible ? '' : 'none';
+            if (secVisible) anyVisible = true;
+        });
+        document.getElementById('emptyTip').style.display = anyVisible ? 'none' : 'block';
+    });
+
+    // ---------- 运行天数 + 当天日期 ----------
+    // 起始日按今天（2026-11-08 改版上线）算，今天是第 1 天
+    var startDate = new Date(2026, 10, 8); // 月份从 0 数：10 = 11 月
+    var now = new Date();
+    var todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var daysRunning = Math.floor((todayMidnight - startDate) / (1000 * 3600 * 24)) + 1;
+    document.getElementById('daysRunning').textContent = daysRunning;
+    var weekNames = ['日', '一', '二', '三', '四', '五', '六'];
+    document.getElementById('todayDate').textContent =
+        now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日 星期' + weekNames[now.getDay()];
+
+    // 兼容原仓库脚本（若存在则调用，不存在不报错）
+    window.addEventListener('load', function () {
+        if (typeof loadPackageInfo === 'function') loadPackageInfo();
+        if (typeof loadRecentUpdates === 'function') loadRecentUpdates();
+    });
+</script>
 </body>
 </html>
