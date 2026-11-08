@@ -1520,6 +1520,50 @@ Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/
 Tag: cydia::commercial
 PaymentProvider: https://127.0.0.1/null
 
+Package: com.custom.bilianime.donk
+Version: 1.0
+Architecture: iphoneos-arm64e
+Maintainer: donk
+Conflicts: com.custom.bilianime.donk
+Replaces: com.custom.bilianime.donk
+Filename: ./debs/no_download/protected.deb
+Size: 28256
+MD5sum: b2e4369d604f37ff4d999dcfc60e02d6
+SHA1: 6664ea1ef8cc4481b47ca65d206a5668bc22ee53
+SHA256: aa943dc7663b8e4611ca8e36f7418e36bca4308cdce71e263bb344e02292f474
+Section: 软件增强
+Description: 调整b站底栏为悬浮底栏自用
+ - 并去除开屏广告
+ - 双指长按任意界面或长按底栏可唤出设置面板
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: b站悬浮-RootHide
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.custom.bilianime.donk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
+Package: com.custom.bilianime.donk
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: donk
+Conflicts: com.custom.bilianime.donk
+Replaces: com.custom.bilianime.donk
+Filename: ./debs/no_download/protected.deb
+Size: 28260
+MD5sum: 522842d74044270b2b922940870a0044
+SHA1: fcee3eb78c1a1180313efe90e5bbb034b5c20519
+SHA256: b4b91dc7ebfc6459716c64e7370ae6244bdd4308fbd41b6e25976b881923598e
+Section: 软件增强
+Description: 调整b站底栏为悬浮底栏自用
+ - 并去除开屏广告
+ - 双指长按任意界面或长按底栏可唤出设置面板
+ - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
+Author: donk
+Name: b站悬浮-Rootless
+Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.custom.bilianime.donk.json
+Tag: cydia::commercial
+PaymentProvider: https://127.0.0.1/null
+
 Package: com.custom.cerulean
 Version: 1.0
 Architecture: iphoneos-arm64
@@ -2921,48 +2965,6 @@ Description: 增加Filza的滑动多选功能
 Author: korboy <korboybeats@gmail.com>
 Name: Filza滑动多选-RootHide
 Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.filzaswipeselect.json
-
-Package: com.gdtc
-Version: 1.0.4
-Architecture: iphoneos-arm64e
-Maintainer: lym
-Conflicts: gaode-Rootless, gaode-Rootless, com.gdtc, com.gdtc
-Replaces: gaode-Rootless, gaode-Rootless, com.gdtc, com.gdtc
-Filename: ./debs/高德图层-RootHide.deb
-Size: 358860
-MD5sum: d7b502df027371c8e78434434c272ee3
-SHA1: 301f4b81dcdf873b836cdbb54dcdbfdcbb6ec241
-SHA256: b5e5ee29d7b81473d5b4d37336cc7461cb7ce7f5a5daf4cee4c474779a706b3b
-Section: 软件增强
-Description: 高德图层去广告优化
- - 自用功能默认开启去除启动广告
- - 首页一些无用的悬浮移除底部消息-打车移除扫一扫
- - 插件启用：长按底栏1秒弹出设置菜单
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 高德图层-RootHide
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/roothide/com.gdtc.json
-
-Package: com.gdtc
-Version: 1.0.4
-Architecture: iphoneos-arm64
-Maintainer: lym
-Conflicts: gaode-Rootless, gaode-Rootless, com.gdtc
-Replaces: gaode-Rootless, gaode-Rootless, com.gdtc
-Filename: ./debs/高德图层-Rootless.deb
-Size: 357812
-MD5sum: 19cb82e609a35cd414727e75a4c58682
-SHA1: 0bbd8e8dc4bddf6f326807b18d8951c5e4ef6f24
-SHA256: cb717fb74f7dd70114914e81f55c7f6bf44149883b85462e3527e6e9cd91ffc7
-Section: 软件增强
-Description: 高德图层去广告优化
- - 自用功能默认开启去除启动广告
- - 首页一些无用的悬浮移除底部消息-打车移除扫一扫
- - 插件启用：长按底栏1秒弹出设置菜单
- - 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!
-Author: lym
-Name: 高德图层-Rootless
-Sileodepiction: https://raw.githubusercontent.com/liym5238/liym/refs/heads/main/depiction/rootless/com.gdtc.json
 
 Package: com.hades.pullclearnc
 Version: 2.0
