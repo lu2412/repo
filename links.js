@@ -16,6 +16,8 @@ window.LINKS = [
 
 // —— 机场 ——
 { cat: '机场', name: 'Hnekoc', url: 'https://bb1.hhneko.xyz/#/', icon: '✈️'},
+    { cat: '机场', name: 'kitty机场', url: 'https://kitty.fo/login?redirect=%2Fdashboard', icon: '🐱' },
+    { cat: '机场', name: '我的cf机场', url: 'https://dahai-4tw.pages.dev/admin', icon: '☁️' },
 
 // —— 工具服务 ——
 { cat: '工具服务', name: 'PayPal贝宝', url: 'https://www.paypal.com/signin?returnUri=https%3A%2F%2Fwww.paypal.com%2Fmyaccount%2Fsummary&state=&YWRzZGRjYXB0Y2hh=1', icon: '💳'},
@@ -24,9 +26,12 @@ window.LINKS = [
 { cat: '工具服务', name: 'IP分流', url: 'https://yfamilys.com', icon: '🌐'},
 { cat: '工具服务', name: 'GitHub令牌', url: 'https://github.com/settings/apps/new', icon: '🔑'},
 { cat: '工具服务', name: 'App Store图标', url: 'https://icon.yukonga.top', icon: '🎨'},
+    { cat: '工具服务', name: '检测自己网站', url: 'https://who.1ms.dog/zh-cn/', icon: '🔍' },
 
 // —— 资源娱乐 ——
 { cat: '资源娱乐', name: '源阅读仓库', url: 'http://www.yckceo.com', icon: '📚'},
-{ cat: '资源娱乐', name: '阅读软件聚合', url: 'https://pixivsource.pages.dev/Legado', icon: '📖'},
+{ cat: '资源娱乐', name: '阅读软件合集', url: 'https://pixivsource.pages.dev/Legado', icon: '📖'},
 { cat: '资源娱乐', name: '大师兄影视', url: 'https://dsxys.com', icon: '🎬'},
+    { cat: '资源娱乐', name: '无忧论坛', url: 'https://bbs.wuyou.net/forum.php?mod=forumdisplay&fid=36&filter=author&orderby=dateline', icon: '💬' },
+    { cat: '资源娱乐', name: '电脑软件', url: 'https://www.mefcl.com/category/pcsoft', icon: '💻' },
 ];
