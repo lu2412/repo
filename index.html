@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>我的个人收藏</title>
-<meta name="description" content="李某某个人软件源，此源永久免费。插件兼容 iOS 15.4.1 - 16.5 系统。">
+<meta name="description" content="个人软件源，永久免费。插件适配 iOS 15.4.1 - 16.5 系统。">
 <link rel="shortcut icon" href="https://repo.lidahai.dpdns.org/icon/dongman.png">
 <style>
   :root{
@@ -104,7 +104,7 @@
 <div class="wrap">
 
   <header>
-    <img class="avatar" src="https://repo.lidahai.dpdns.org/icon/dongman.png" alt="爱吃肉的猫">
+    <img class="avatar" src="https://repo.lidahai.dpdns.org/icon/game.gif" alt="经典游戏：吃豆人">
     <h1>我的个人收藏网站</h1>
     <p class="tagline">个人软件源 · 永久免费</p>
     <div class="srcbar">
@@ -126,27 +126,31 @@
 
   <section class="card hero">
     <a href="https://github.com/lu2412/repo" target="_blank" rel="noopener">
-      <img src="https://repo.lidahai.dpdns.org/icon/dongman.png" alt="爱吃肉的猫">
+      <img src="https://repo.lidahai.dpdns.org/icon/game.gif" alt="经典游戏：吃豆人">
     </a>
   </section>
 
   <section class="card">
     <h2>📖 源说明</h2>
-    <p>李某某个人软件源，此源永久免费。源里的插件只在iOS 15.4.1 - 16.5系统测试使用。</p>
+    <p>个人软件源，永久免费。插件适配 iOS 15.4.1 - 16.5 系统。</p>
   </section>
 
   <footer>
-    <p class="run-time">本网站已顺利运行 <b id="daysRunning"></b> 天，感谢您的支持与关注。</p>
+    <p class="run-time">本网站已顺利运行 <b id="daysRunning"></b> 天 · 今天是 <span id="todayDate"></span>，感谢您的支持与关注。</p>
     <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
   </footer>
 
 </div>
 <script>
-  // 运行天数：与原站算法完全一致（起始日 2024-10-01，含首尾口径不变）
-  var launchDate = new Date('2024-10-01T00:00:00');
-  launchDate.setDate(launchDate.getDate() - 1);
-  var differenceInDays = Math.ceil((new Date() - launchDate) / (1000 * 3600 * 24));
-  document.getElementById('daysRunning').textContent = differenceInDays;
+  // 运行天数 + 当天日期：与收藏网站（导航站）同款——起始日 2026-11-08，当天是第 1 天
+  var startDate = new Date(2026, 10, 8); // 月份从 0 数：10 = 11 月
+  var now = new Date();
+  var todayMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var daysRunning = Math.floor((todayMidnight - startDate) / (1000 * 3600 * 24)) + 1;
+  document.getElementById('daysRunning').textContent = daysRunning;
+  var weekNames = ['日', '一', '二', '三', '四', '五', '六'];
+  document.getElementById('todayDate').textContent =
+      now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日 星期' + weekNames[now.getDay()];
 
   // 复制源地址
   document.getElementById('copyBtn').addEventListener('click', function(){
