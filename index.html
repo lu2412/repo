@@ -1,59 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <title>我的个人收藏</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/ios7.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="shortcut icon" href="https://lu2412.github.io/repo/icon/dongman.png">
-    <script src="./js/jquery.min.js"></script>
-    <style>
-        ul { list-style-type: none; }
-        a { color: blue; }
-        .footer { text-align: center; margin-top: 20px; }
-        .btn-link { color: #fff; background-color: #00b5e2; padding: 10px 15px; border-radius: 5px; text-decoration: none; display: inline-block; transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .btn-link:hover, .btn-link:active, .btn-link:focus { background-color: #00b5e2; transform: scale(1.05); box-shadow: 0 0 10px rgba(0,181,226,0.5); } /* 点击后不变色，增加缩放和雪花效果 */
-        .run-time { color: #808080; font-size: 0.9em; } /* 调整文字颜色为灰色 */
-        .disclaimer { color: #666; font-size: 0.8em; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>我的个人收藏</title>
+<meta name="description" content="李某某个人软件源，此源永久免费。插件兼容 iOS 15.4.1 - 16.5 系统。">
+<link rel="shortcut icon" href="https://repo.lidahai.dpdns.org/icon/dongman.png">
+<style>
+  :root{
+    --bg:#f2f4f8; --bg-grad-1:#dceeff; --bg-grad-2:#f6e8ff;
+    --card:rgba(255,255,255,.78); --card-border:rgba(255,255,255,.65);
+    --text:#17202b; --sub:#5b6b7f; --accent:#00a8cc; --accent-2:#0077e6;
+    --chip:#eef4fb; --shadow:0 10px 30px rgba(31,64,105,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0b1220; --bg-grad-1:#0e2a47; --bg-grad-2:#241a3d;
+      --card:rgba(22,32,48,.78); --card-border:rgba(255,255,255,.09);
+      --text:#eef3f9; --sub:#9db0c5; --accent:#29b6d8; --accent-2:#4d9fff;
+      --chip:#16283f; --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  body{
+    margin:0; color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+    background:
+      radial-gradient(600px 300px at 15% -5%, var(--bg-grad-1), transparent 60%),
+      radial-gradient(600px 320px at 90% 0%, var(--bg-grad-2), transparent 55%),
+      var(--bg);
+    min-height:100vh;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:28px 16px 40px;}
+  header{text-align:center; padding:10px 0 4px;}
+  .avatar{
+    width:92px; height:92px; border-radius:28px; object-fit:cover;
+    box-shadow:var(--shadow); border:1px solid var(--card-border);
+    background:var(--card);
+  }
+  h1{font-size:26px; margin:14px 0 6px; letter-spacing:.5px;}
+  .tagline{color:var(--sub); font-size:14px; margin:0;}
+  .srcbar{
+    margin:18px auto 4px; max-width:520px;
+    display:flex; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--card-border);
+    border-radius:999px; padding:7px 8px 7px 16px; box-shadow:var(--shadow);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+  }
+  .srcbar code{
+    flex:1; font-size:13.5px; color:var(--sub); white-space:nowrap;
+    overflow:hidden; text-overflow:ellipsis; text-align:left;
+    font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  .copy-btn{
+    border:0; cursor:pointer; flex:none;
+    background:linear-gradient(135deg,var(--accent),var(--accent-2));
+    color:#fff; font-size:13px; padding:7px 14px; border-radius:999px;
+  }
+  .copy-btn:active{transform:scale(.96);}
+  .actions{
+    display:flex; flex-wrap:wrap; gap:10px; justify-content:center;
+    margin:18px 0 6px;
+  }
+  .btn{
+    text-decoration:none; font-size:15px; padding:11px 20px; border-radius:14px;
+    display:inline-flex; align-items:center; gap:6px;
+    transition:transform .18s ease, box-shadow .18s ease;
+  }
+  .btn:active{transform:scale(.97);}
+  .btn-primary{
+    background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:#fff;
+    box-shadow:0 8px 20px rgba(0,140,200,.35); font-weight:600;
+  }
+  .btn-ghost{
+    background:var(--card); color:var(--text);
+    border:1px solid var(--card-border); box-shadow:var(--shadow);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+  }
+  .card{
+    background:var(--card); border:1px solid var(--card-border);
+    border-radius:20px; padding:18px; margin-top:16px; box-shadow:var(--shadow);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+  }
+  .card h2{font-size:17px; margin:0 0 10px; display:flex; align-items:center; gap:8px;}
+  .card p{margin:0; line-height:1.75; font-size:15px;}
+  .ver{
+    display:inline-block; background:var(--chip); color:var(--accent-2);
+    border-radius:8px; padding:2px 10px; font-weight:600; font-size:14.5px;
+  }
+  @media (prefers-color-scheme: dark){ .ver{color:var(--accent);} }
+  .hero{padding:10px;}
+  .hero img{
+    width:100%; display:block; border-radius:14px;
+  }
+  .hero a{display:block;}
+  footer{text-align:center; margin-top:22px;}
+  .run-time{color:var(--sub); font-size:13.5px; margin:0 0 8px;}
+  .run-time b{color:var(--accent-2); font-size:15px;}
+  .disclaimer{color:var(--sub); font-size:12px; line-height:1.7; margin:0; opacity:.85;}
+</style>
 </head>
-<body onload="loadPackageInfo(); loadRecentUpdates();">
-<div class="container">
-    <h2>我的个人收藏网站</h2>
-    
-    <div style="text-align: center; margin-bottom: 20px;">
-        <a href="sileo://source/https://lu2412.github.io/repo/" class="btn-link">跳转sileo</a>
-        <a href="mailto:liym5238@gmail.com" class="btn-link">发送邮件联系我</a>
-        <a href="http://wpa.qq.com/msgrd?v=3&uin=347029967&site=qq&menu=yes" target="_blank" class="btn-link">联系QQ</a>
-    </div>
-    
-    <div class="well">
-        <h3>系统支持</h3>
-        <p>插件兼容版本: <font color="#ff0000">iOS 15.4.1 - 16.5系统</font></p>
-    </div>
+<body>
+<div class="wrap">
 
-    <ul>
-        <li><a href="https://github.com/lu2412/repo" target="_blank"><img height="80%" width="100%" src="https://lu2412.github.io/repo/icon/dongman.png" alt="爱吃肉的猫"/></a></li>
-    </ul>
+  <header>
+    <img class="avatar" src="https://repo.lidahai.dpdns.org/icon/dongman.png" alt="爱吃肉的猫">
+    <h1>我的个人收藏网站</h1>
+    <p class="tagline">个人软件源 · 永久免费</p>
+    <div class="srcbar">
+      <code id="srcUrl">https://repo.lidahai.dpdns.org/</code>
+      <button class="copy-btn" id="copyBtn" type="button">复制源地址</button>
+    </div>
+    <div class="actions">
+      <a class="btn btn-primary" href="sileo://source/https://repo.lidahai.dpdns.org/">🧩 添加到 Sileo</a>
+      <a class="btn btn-ghost" href="mailto:liym5238@gmail.com">✉️ 发送邮件联系我</a>
+      <a class="btn btn-ghost" href="http://wpa.qq.com/msgrd?v=3&uin=347029967&site=qq&menu=yes" target="_blank" rel="noopener">💬 联系QQ</a>
+      <a class="btn btn-ghost" href="./daohang.html">🧭 我的导航站</a>
+    </div>
+  </header>
 
-    <h3>源说明</h3>
+  <section class="card">
+    <h2>🛠 系统支持</h2>
+    <p>插件兼容版本：<span class="ver">iOS 15.4.1 - 16.5 系统</span></p>
+  </section>
+
+  <section class="card hero">
+    <a href="https://github.com/lu2412/repo" target="_blank" rel="noopener">
+      <img src="https://repo.lidahai.dpdns.org/icon/dongman.png" alt="爱吃肉的猫">
+    </a>
+  </section>
+
+  <section class="card">
+    <h2>📖 源说明</h2>
     <p>李某某个人软件源，此源永久免费。源里的插件只在iOS 15.4.1 - 16.5系统测试使用。</p>
+  </section>
 
-    <div class="footer">
-        <p class="run-time">本网站已顺利运行 <span id="daysRunning"></span> 天，感谢您的支持与关注。</p>
-        <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
-    </div>
+  <footer>
+    <p class="run-time">本网站已顺利运行 <b id="daysRunning"></b> 天，感谢您的支持与关注。</p>
+    <p class="disclaimer">免责声明（Disclaimer）：声明该网站上的信息仅供参考，不对其正确性、完整性、可靠性、适用性或其他方面提供任何明示或暗示的保证。使用者需自行承担使用该网站信息所造成的风险。</p>
+  </footer>
 
-    <script>
-        // 计算网站从今天开始运行的天数
-        var launchDate = new Date('2024-10-01T00:00:00'); // 设置开始时间为2024年10月1日 
-        launchDate.setDate(launchDate.getDate() - 1); // 减去一天，从今天开始算
-        var currentDate = new Date();
-        var differenceInTime = currentDate - launchDate;
-        var differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
-        document.getElementById('daysRunning').textContent = differenceInDays;
-    </script>
 </div>
+<script>
+  // 运行天数：与原站算法完全一致（起始日 2024-10-01，含首尾口径不变）
+  var launchDate = new Date('2024-10-01T00:00:00');
+  launchDate.setDate(launchDate.getDate() - 1);
+  var differenceInDays = Math.ceil((new Date() - launchDate) / (1000 * 3600 * 24));
+  document.getElementById('daysRunning').textContent = differenceInDays;
+
+  // 复制源地址
+  document.getElementById('copyBtn').addEventListener('click', function(){
+    var text = document.getElementById('srcUrl').textContent.trim();
+    var btn = this;
+    function done(){
+      btn.textContent = '已复制 ✓';
+      setTimeout(function(){ btn.textContent = '复制源地址'; }, 1600);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(function(){ fallback(); });
+    } else { fallback(); }
+    function fallback(){
+      var ta = document.createElement('textarea');
+      ta.value = text; document.body.appendChild(ta);
+      ta.select(); try { document.execCommand('copy'); } catch(e) {}
+      document.body.removeChild(ta); done();
+    }
+  });
+</script>
 </body>
 </html>
