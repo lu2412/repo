@@ -16,7 +16,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "### 插件介绍\n- 去除AlipayLite底栏\n- 并把搜索框移动到原底栏位置\n- 长按右上角“+”号可快捷跳转至底栏“我的”\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
+          "markdown": "### 插件介绍\n- 去除原生底栏，替换为磨砂悬浮底栏与搜索圆钮\n- 长按右上角“+”号可快捷跳转至底栏“我的”\n- 开启去广告，净化首页信息流、搜索页卡片与浮层\n- 隐藏全部按钮时，圆钮自动放大为宽搜索条\n- 双指长按/双击呼出设置面板\n- 无独立设置页面，安装完成立即生效\n- 无独立设置页面，安装完成立即生效\n- 源内所有插件仅供本人学习交流使用,下载后请于24小时内删除!"
         },
         {
           "class": "DepictionHeaderView",
@@ -32,7 +32,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "插件版本",
-          "text": "1.0"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "最后更新",
-          "text": "2026年10月13日"
+          "text": "2026年11月12日"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "class": "DepictionStackView",
       "tabname": "更新日志",
       "views": [
-        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.0\n- 彻底解决不能隐藏中间按钮问题"}
+        {"class": "DepictionMarkdownView", "markdown": "### 版本 1.1\n- 彻底解决不能隐藏中间按钮问题"}
       ]
     }
   ]
